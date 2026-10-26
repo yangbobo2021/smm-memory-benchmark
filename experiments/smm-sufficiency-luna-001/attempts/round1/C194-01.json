@@ -1,0 +1,55 @@
+{
+  "id": "C194",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "1f6d694832e78319db3f95b526c69704894c832b29e362874b605373fde82bd5",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Calvin planned to travel to Tokyo in November 2023, after the tour ended.",
+    "explanation": "In the conversation authored October 19, 2023, he said he was going to Tokyo “next month” and referred to going back.",
+    "evidence": [
+      {
+        "document_id": "D3",
+        "quote": "I'm actually going to Tokyo next month after the tour ends."
+      },
+      {
+        "document_id": "D3",
+        "quote": "Sometimes I wish I could go back to places like the one in the photo below."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 6.253384,
+    "thread_setup_seconds": 0.142216,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.253384,
+    "turn_seconds": 6.111168,
+    "first_text_seconds": 5.509613,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14025,
+      "completion_tokens": 255,
+      "total_tokens": 14280,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 122
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

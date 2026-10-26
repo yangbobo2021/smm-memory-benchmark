@@ -1,0 +1,63 @@
+{
+  "id": "C092",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "b24ff5778aca9bdd9e5ed0f6a564c723b83e3a93e10d4b12bba360449d8f3999",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "Jolene has a partner, but the documents do not say what year they started dating.",
+    "explanation": "The conversations mention Jolene's partner and significant other, but give no dating start year or relationship anniversary.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "Here's me and my partner at one last year"
+      },
+      {
+        "document_id": "D4",
+        "quote": "I'm really thankful for my significant other right now."
+      },
+      {
+        "document_id": "D5",
+        "quote": "Did your boyfriend teach you to play?"
+      }
+    ],
+    "missing_information": [
+      "The year Jolene and her partner began dating."
+    ],
+    "next_query": "Jolene partner boyfriend dating anniversary relationship start year"
+  },
+  "metrics": {
+    "seconds": 6.210622,
+    "thread_setup_seconds": 0.128731,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.210622,
+    "turn_seconds": 6.08189,
+    "first_text_seconds": 4.826382,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13509,
+      "completion_tokens": 215,
+      "total_tokens": 13724,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 63
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C092-01.json"
+  ]
+}

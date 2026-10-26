@@ -1,0 +1,29 @@
+{
+  "id": "SMM-SF-LUNA-PILOT-001",
+  "cases": [
+    "P01",
+    "C037",
+    "L011",
+    "P07"
+  ],
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "purpose": "Output and transport pilot; not a 257-case accuracy estimate",
+  "original_request_sha256": {
+    "P01": "3f372149055d4f9392ee4aff05ff4f43b059376b0ba3dd745f66117eb4718961",
+    "C037": "5878d62e2ef955d11641b9e9c7652497c0a2c437d61150d547f64275916e82d2",
+    "L011": "e537e29d069a11f1418834ce61e98a1cdee497e9f4249a2cc5a19a146052f51b",
+    "P07": "05a23beef9a51459083589b6dc5265f7341c190dba155c54b17b27df4b59acad"
+  },
+  "input": "identical SF001 round1 system, payload, output schema; only model changed",
+  "order": [
+    "P01",
+    "C037",
+    "L011",
+    "P07"
+  ],
+  "minimum_start_interval_seconds": 45,
+  "application_retries": 0,
+  "stop_on_service_error": true,
+  "comparison": "SF001 first-round Sol high receipt for the same case"
+}

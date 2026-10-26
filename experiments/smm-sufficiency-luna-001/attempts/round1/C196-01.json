@@ -1,0 +1,51 @@
+{
+  "id": "C196",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "62119ce9c3da9d233d5581d5dc030eff59187f8961afe3217d575807462b4275",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "France (Jolene says her mother gave her a pendant in Paris in 2010.)",
+    "explanation": "The conversation places the 2010 event in Paris, which is in France.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "she gave it to me in 2010  in Paris."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.480328,
+    "thread_setup_seconds": 0.088202,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.480328,
+    "turn_seconds": 5.392126,
+    "first_text_seconds": 4.515221,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 15371,
+      "completion_tokens": 192,
+      "total_tokens": 15563,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 95
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

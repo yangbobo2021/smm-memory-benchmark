@@ -1,0 +1,57 @@
+{
+  "id": "C123",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "f92f4ca6dadece311bb4ccc7039a775e56a9baf53cf8b42a25c6dfdbf4534a64",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "Evan said he painted a work with “a sense of joy and freedom,” but the documents don’t establish that this was the piece with a bird flying over it.",
+    "explanation": "The painting discussion describes joy and freedom, but none of the supplied text mentions a bird, so I can’t link that feeling to the specific piece in the question.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "I painted this with a sense of joy and freedom."
+      },
+      {
+        "document_id": "D2",
+        "quote": "reflect a playful and liberated mood"
+      }
+    ],
+    "missing_information": [
+      "Whether the painting described as joyful and free is the piece with a bird flying over it."
+    ],
+    "next_query": "Evan painting bird flying bird artwork joy freedom"
+  },
+  "metrics": {
+    "seconds": 9.154752,
+    "thread_setup_seconds": 0.162132,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.154752,
+    "turn_seconds": 8.99262,
+    "first_text_seconds": 7.122132,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14083,
+      "completion_tokens": 358,
+      "total_tokens": 14441,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 191
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

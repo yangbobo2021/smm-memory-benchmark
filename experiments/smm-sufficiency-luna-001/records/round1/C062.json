@@ -1,0 +1,62 @@
+{
+  "id": "C062",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "1eb477824c25ea0314527934971a634e1129def755a0d5af322c32841380fffd",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "John believes it is important to teach children about veterans and what they did, and to show them how to respect and appreciate those who served the country.",
+    "explanation": "John directly says children should be shown respect and appreciation for those who served; Maria’s following statement echoes the importance of teaching kids about veterans.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "Showing them how to respect and appreciate those who served our country is important."
+      },
+      {
+        "document_id": "D2",
+        "quote": "It's super important to teach kids about veterans and what they did for us."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.612894,
+    "thread_setup_seconds": 0.114283,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.612894,
+    "turn_seconds": 5.498611,
+    "first_text_seconds": 4.514387,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13970,
+      "completion_tokens": 194,
+      "total_tokens": 14164,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 49
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": false,
+    "literal_quote_failures": [
+      {
+        "document_id": "D2",
+        "quote": "It's super important to teach kids about veterans and what they did for us."
+      }
+    ]
+  },
+  "attempt_receipts": [
+    "C062-01.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "C036",
+  "stage": "round2",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "35360b2f33e50d142520ca64e3c252e5b57fe75191f24677c720ffb8dcceb700",
+  "output": null,
+  "metrics": {},
+  "error": {
+    "type": "RuntimeError",
+    "message": "Codex inference error: {\"message\": \"exceeded retry limit, last status: 429 Too Many Requests\", \"codexErrorInfo\": {\"responseTooManyFailedAttempts\": {\"httpStatusCode\": 429}}, \"additionalDetails\": null, \"misalignment\": null}"
+  },
+  "validation": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": "C171",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "6f1a874d02fb2a6a574a27e2b9295a0862706d4b5965812706f2027cfed6c925",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Joanna took a picture of a sunset while hiking near Fort Wayne last summer.",
+    "explanation": "Joanna identifies the photo as a sunset picture and says she took it on a hike near Fort Wayne last summer.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "Wow, that sunset pic looks incredible!"
+      },
+      {
+        "document_id": "D1",
+        "quote": "I took that pic on a hike last summer near Fort Wayne."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.341264,
+    "thread_setup_seconds": 0.197773,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.341264,
+    "turn_seconds": 5.143491,
+    "first_text_seconds": 4.289072,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13648,
+      "completion_tokens": 166,
+      "total_tokens": 13814,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 49
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C171-01.json"
+  ]
+}

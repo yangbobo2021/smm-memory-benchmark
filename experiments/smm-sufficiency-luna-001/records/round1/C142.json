@@ -1,0 +1,55 @@
+{
+  "id": "C142",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "e664f20202219082c7cc25f815a70e3db4a65be43574c218c549468e53c3597e",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "Dave took up photography, but the documents do not establish that he picked it up in October 2023.",
+    "explanation": "The November 17 conversation says Dave had taken up photography; it does not say when he started, so the October timing is unresolved.",
+    "evidence": [
+      {
+        "document_id": "D3",
+        "quote": "I've taken up photography and it's been great"
+      }
+    ],
+    "missing_information": [
+      "Whether Dave started photography in October 2023."
+    ],
+    "next_query": "Dave photography took up started October hobby"
+  },
+  "metrics": {
+    "seconds": 7.73102,
+    "thread_setup_seconds": 0.112699,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.73102,
+    "turn_seconds": 7.618322,
+    "first_text_seconds": 6.282724,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13909,
+      "completion_tokens": 278,
+      "total_tokens": 14187,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 157
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C142-01.json"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "P18",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "9eee359450d23f004ca3c239481de415899e73731f16577be5dafb2463af7e53",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "You spent $800 on the designer handbag.",
+    "explanation": "You explicitly stated the handbag cost $800.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 4.194381,
+    "thread_setup_seconds": 0.082928,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.194381,
+    "turn_seconds": 4.111454,
+    "first_text_seconds": 3.508863,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 22842,
+      "completion_tokens": 111,
+      "total_tokens": 22953,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 27
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "P18-01.json"
+  ]
+}

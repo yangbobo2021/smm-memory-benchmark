@@ -1,0 +1,59 @@
+{
+  "id": "C083",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "e93c49d02c1d532609976623b7056f554998e6386890b160ec9414f7aff8770f",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "The conversations don’t establish how many people work at Dave’s shop, so I can’t tell whether it employs a lot of people.",
+    "explanation": "Dave says he opened the shop and works on cars there, but no staff or employee count is mentioned.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I finally opened my own car maintenance shop!"
+      },
+      {
+        "document_id": "D1",
+        "quote": "I work on all kinds of cars at the shop"
+      }
+    ],
+    "missing_information": [
+      "Whether Dave employs other people at the shop, and how many."
+    ],
+    "next_query": "Dave car shop employees staff mechanics employ people"
+  },
+  "metrics": {
+    "seconds": 5.664396,
+    "thread_setup_seconds": 0.307831,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.664396,
+    "turn_seconds": 5.356565,
+    "first_text_seconds": 4.366543,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14339,
+      "completion_tokens": 247,
+      "total_tokens": 14586,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 103
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C083-01.json"
+  ]
+}

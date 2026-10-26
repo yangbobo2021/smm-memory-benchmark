@@ -1,0 +1,51 @@
+{
+  "id": "C048",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "cfb48bbe5b9549564c55daca9eb36b64157743c3af23bb4ce31c1273d4319df4",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Daisy is a Labrador.",
+    "explanation": "James explicitly identifies Daisy’s breed.",
+    "evidence": [
+      {
+        "document_id": "D5",
+        "quote": "One of them, Daisy, is a Labrador."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 6.240056,
+    "thread_setup_seconds": 0.263233,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.240056,
+    "turn_seconds": 5.976823,
+    "first_text_seconds": 5.204107,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14873,
+      "completion_tokens": 88,
+      "total_tokens": 14961,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 17
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "C029",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "7c4c6656af09cb434cba13708607cac8b54c947b1c822dd7cc13d5f08c937547",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "He suggested having a beer somewhere instead; he didn’t give a specific reason for rejecting Starbucks.",
+    "explanation": "The conversation shows John proposing beer as an alternative, but does not say that he disliked Starbucks or coffee.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I don't mind meeting up, but why Starbucks? Maybe we can have a beer somewhere?"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 6.038433,
+    "thread_setup_seconds": 0.124188,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.038433,
+    "turn_seconds": 5.914245,
+    "first_text_seconds": 5.14302,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14030,
+      "completion_tokens": 191,
+      "total_tokens": 14221,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 85
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

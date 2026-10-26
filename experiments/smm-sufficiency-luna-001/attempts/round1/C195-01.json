@@ -1,0 +1,51 @@
+{
+  "id": "C195",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "38e8b3b4dd4901c2801709330f6bba1f785eb51242ea9a2a74ffc5693dc77b8a",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "James asked Samantha to be his girlfriend on September 3, 2022.",
+    "explanation": "In the September 4, 2022 conversation, James says he asked her “yesterday.”",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "Yesterday, when we were at the theater, Samantha loves theater, I asked her to become my girlfriend, and she agreed."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.545667,
+    "thread_setup_seconds": 0.161361,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.545667,
+    "turn_seconds": 5.384306,
+    "first_text_seconds": 4.731907,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13973,
+      "completion_tokens": 207,
+      "total_tokens": 14180,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 97
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

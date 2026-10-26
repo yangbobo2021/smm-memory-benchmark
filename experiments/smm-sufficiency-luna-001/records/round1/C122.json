@@ -1,0 +1,53 @@
+{
+  "id": "C122",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "9e5512236728395581f27520de1cd3e766636cd75d4d2592958b16b956af7549",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Seven people attended Nate’s gaming party in June 2022.",
+    "explanation": "Nate explicitly gave the attendance count in the June 24 conversation.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "There were 7 people that attended"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 4.769648,
+    "thread_setup_seconds": 0.139965,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.769648,
+    "turn_seconds": 4.629683,
+    "first_text_seconds": 4.061629,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13569,
+      "completion_tokens": 119,
+      "total_tokens": 13688,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 37
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C122-01.json"
+  ]
+}

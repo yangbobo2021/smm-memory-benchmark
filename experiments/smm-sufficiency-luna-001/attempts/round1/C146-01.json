@@ -1,0 +1,51 @@
+{
+  "id": "C146",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "12c4351fa73fd5b0096843ef924ad4fa2f1e23f3bdcd0c98868d815e2b3011df",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Jon is offering dance classes and workshops, plus one-on-one mentoring and training to help dancers reach their full potential.",
+    "explanation": "Jon directly describes the support he is offering dancers at his studio.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "Besides the dance classes and workshops, I'm offering one-on-one mentoring and training to help dancers reach their full potential."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.389926,
+    "thread_setup_seconds": 0.128076,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.389926,
+    "turn_seconds": 5.26185,
+    "first_text_seconds": 4.558326,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13796,
+      "completion_tokens": 145,
+      "total_tokens": 13941,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 38
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

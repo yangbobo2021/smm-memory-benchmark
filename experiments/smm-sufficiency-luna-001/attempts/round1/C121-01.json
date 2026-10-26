@@ -1,0 +1,51 @@
+{
+  "id": "C121",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "bc668e7ba4e8d8e20be452f06cd0be231de11faaa98bbaa0e331f036f8355e50",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Caroline has children’s books, including classics, stories from different cultures, and educational books.",
+    "explanation": "Caroline explicitly lists the kinds of books in her library.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I've got lots of kids' books- classics, stories from different cultures, educational books, all of that."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.969364,
+    "thread_setup_seconds": 0.109499,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.969364,
+    "turn_seconds": 5.859865,
+    "first_text_seconds": 5.112148,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14437,
+      "completion_tokens": 136,
+      "total_tokens": 14573,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 35
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "C088",
+  "stage": "round2",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "d20bed1d08536b0b028475499eb9189affc1c2ee6c6ce1a1af307706181e7a58",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "Jolene said she and her partner traveled to a meditation retreat in Phuket for a few weeks, which could have affected availability, but the documents do not say that this was why a September 8 meeting was rescheduled.",
+    "explanation": "The retreat is mentioned in a conversation authored September 12, but no document confirms the September 8 meeting or links the trip to rescheduling it.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "Last weekend my partner and I traveled to a meditation retreat for a few weeks in Phuket."
+      }
+    ],
+    "missing_information": [
+      "Confirmation that Jolene and Deborah had a meeting scheduled for September 8, 2023, and the stated reason it had to be rescheduled."
+    ],
+    "next_query": "Jolene Deborah September 8 meeting reschedule rescheduled retreat Phuket availability"
+  },
+  "metrics": {
+    "seconds": 8.212653,
+    "thread_setup_seconds": 0.132218,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.212653,
+    "turn_seconds": 8.080435,
+    "first_text_seconds": 6.244039,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 19194,
+      "completion_tokens": 416,
+      "total_tokens": 19610,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 231
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

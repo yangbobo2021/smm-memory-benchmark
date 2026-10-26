@@ -1,0 +1,61 @@
+{
+  "id": "C137",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "525f796f3427b0c590293beeb183b9c8df0517c14001721d5aaeb32eabd49850",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "Melanie has multiple children, including a daughter, but the exact number is not stated.",
+    "explanation": "The conversations refer to her children in the plural and mention her youngest, but do not give a total.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I finally took my kids to a pottery workshop."
+      },
+      {
+        "document_id": "D2",
+        "quote": "I'll never forget the day my youngest took her first steps."
+      },
+      {
+        "document_id": "D5",
+        "quote": "We celebrated my daughter's birthday"
+      }
+    ],
+    "missing_information": [
+      "The exact number of children Melanie has."
+    ],
+    "next_query": "Melanie kids children youngest daughter family"
+  },
+  "metrics": {
+    "seconds": 6.108595,
+    "thread_setup_seconds": 0.17784,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.108595,
+    "turn_seconds": 5.930755,
+    "first_text_seconds": 4.985752,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 15191,
+      "completion_tokens": 213,
+      "total_tokens": 15404,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 67
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

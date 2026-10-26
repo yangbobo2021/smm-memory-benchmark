@@ -1,0 +1,57 @@
+{
+  "id": "C153",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "286707b03dc76ecbe075fb3860ffb7f081e643930556ae93157bb50e96c0e885",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "John received some money for second place and also got a trophy.",
+    "explanation": "John explicitly says he received money for 2nd place and then mentions getting a trophy.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I still received some money for the 2nd place."
+      },
+      {
+        "document_id": "D1",
+        "quote": "Yeah, I also got this trophy!"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.808163,
+    "thread_setup_seconds": 0.123999,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.808163,
+    "turn_seconds": 5.684164,
+    "first_text_seconds": 5.043548,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13833,
+      "completion_tokens": 152,
+      "total_tokens": 13985,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 44
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C153-01.json"
+  ]
+}

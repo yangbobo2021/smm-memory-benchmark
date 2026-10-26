@@ -1,0 +1,55 @@
+{
+  "id": "C160",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "a39983da990e2453261b7fc64591c0e73af306de84eccd6fedd55cf9b013bc86",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "James and Samantha decided to move in together. They rented an apartment near McGee’s bar.",
+    "explanation": "The 31 October conversation directly states their decision and the apartment they rented.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "Samantha and I have decided to move in together!"
+      },
+      {
+        "document_id": "D1",
+        "quote": "We rented an apartment not far from McGee's bar."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.221457,
+    "thread_setup_seconds": 0.11983,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.221457,
+    "turn_seconds": 5.101626,
+    "first_text_seconds": 4.107263,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13972,
+      "completion_tokens": 164,
+      "total_tokens": 14136,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 50
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

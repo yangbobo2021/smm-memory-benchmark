@@ -1,0 +1,55 @@
+{
+  "id": "C050",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "00c09b9bf332f7208f9b3e1b2fdae6e31f6543690fd19bb061f41e0a63afeea9",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "Dave—not Calvin—said he had arranged regular walks with friends in the park. The documents do not say what Calvin and his friends arranged for there.",
+    "explanation": "The only explicit park arrangement is attributed to Dave, so it does not establish an arrangement by Calvin and his friends.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I arranged with friends for regular walks together in the park."
+      }
+    ],
+    "missing_information": [
+      "Whether Calvin and his friends made a park arrangement, and what it was for."
+    ],
+    "next_query": "Calvin friends park arranged gathering picnic walk"
+  },
+  "metrics": {
+    "seconds": 7.96295,
+    "thread_setup_seconds": 0.158692,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.96295,
+    "turn_seconds": 7.804258,
+    "first_text_seconds": 6.185623,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13888,
+      "completion_tokens": 251,
+      "total_tokens": 14139,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 115
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C050-01.json"
+  ]
+}

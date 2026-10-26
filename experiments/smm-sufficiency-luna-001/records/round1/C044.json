@@ -1,0 +1,61 @@
+{
+  "id": "C044",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "f0aec002bccdd7ff3f54936985659e4cc6fb911b27a21f34c8acdde119f7a1ad",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "After Sam’s hiking trip with friends, Evan shared healthy snack ideas, including cookies and an energy-balls recipe, and said he’d send Sam the cookie recipes. The conversation doesn’t say they hiked together.",
+    "explanation": "D2 links Sam’s recent hiking trip with Evan’s subsequent discussion of healthy snacks and recipes.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "I’ve got to share some of these new healthy snacks I’ve been trying."
+      },
+      {
+        "document_id": "D2",
+        "quote": "You also need to try these cookies, they are awesome! I’ll send you the recipes."
+      },
+      {
+        "document_id": "D2",
+        "quote": "Check out this cool recipe I discovered for these energy balls."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 6.933383,
+    "thread_setup_seconds": 0.140106,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.933383,
+    "turn_seconds": 6.793277,
+    "first_text_seconds": 5.506525,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14075,
+      "completion_tokens": 365,
+      "total_tokens": 14440,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 190
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C044-01.json"
+  ]
+}

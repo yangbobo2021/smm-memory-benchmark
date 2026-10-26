@@ -1,0 +1,57 @@
+{
+  "id": "L016",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "464a70ac28ef40d52be1b11396d475806969fa9b47018cd591802622fa6a6f96",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "I can’t confirm which bike you actually fixed or serviced over the past weekend. You said you had fixed a flat on your mountain bike on March 15, and on March 19 you said you had decided to upgrade your road bike’s pedals, but that doesn’t confirm you completed the upgrade.",
+    "explanation": "The mountain-bike repair was described as happening on Wednesday, March 15. The Sunday, March 19 message describes a decision to upgrade the road bike, not a confirmed repair or service.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I finally got around to fixing that flat tire on my mountain bike today"
+      },
+      {
+        "document_id": "D2",
+        "quote": "I decided to upgrade my road bike's pedals to clipless pedals today"
+      }
+    ],
+    "missing_information": [
+      "Whether you actually fixed or serviced a bike during the March 18–19 weekend, and which bike it was."
+    ],
+    "next_query": "bike fixed repaired serviced maintenance weekend mountain road bike pedals"
+  },
+  "metrics": {
+    "seconds": 11.751511,
+    "thread_setup_seconds": 0.094276,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.751511,
+    "turn_seconds": 11.657235,
+    "first_text_seconds": 9.530025,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 28146,
+      "completion_tokens": 442,
+      "total_tokens": 28588,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 227
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

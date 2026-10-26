@@ -1,0 +1,63 @@
+{
+  "id": "C183",
+  "stage": "round2",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "400fd65bbd11e4dcff7559f43221d27d4adbe881ae22353d1b6a1171b3332a45",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "John explicitly describes one ankle injury; the total number is unclear.",
+    "explanation": "D4 mentions an ankle injury. D2 and D6 mention an injury without identifying the body part, so the conversations do not establish whether those refer to the same ankle injury or additional ankle injuries.",
+    "evidence": [
+      {
+        "document_id": "D4",
+        "quote": "Last season, I had a major challenge when I hurt my ankle."
+      },
+      {
+        "document_id": "D2",
+        "quote": "Yeah, I injured myself not too long ago."
+      },
+      {
+        "document_id": "D6",
+        "quote": "it's been a tough week for me with this injury."
+      }
+    ],
+    "missing_information": [
+      "Whether the unspecified injuries in D2 and D6 were ankle injuries and whether they were the same event as D4's ankle injury; whether John had other ankle injuries."
+    ],
+    "next_query": "John ankle hurt injury setback rehab physical therapy recovery basketball"
+  },
+  "metrics": {
+    "seconds": 8.547966,
+    "thread_setup_seconds": 0.115188,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.547966,
+    "turn_seconds": 8.432778,
+    "first_text_seconds": 6.945899,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 19854,
+      "completion_tokens": 432,
+      "total_tokens": 20286,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 235
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C183-01.json"
+  ]
+}

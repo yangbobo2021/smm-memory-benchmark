@@ -1,0 +1,65 @@
+{
+  "id": "C037",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "5c4b1383b62fb56f0b2fdc8578fb6e0a5edef6818a5b58ed2fc280f6cddcee14",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Sam faced weight-related health concerns and discomfort that limited his movement. Evan had a suspicious finding during a check-up that led to a hospital visit, but it turned out to be a misunderstanding and doctors said he was fine.",
+    "explanation": "The conversations describe Sam’s ongoing weight and mobility concerns, and Evan’s resolved hospital scare.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "the weight wasn't great. It was pretty eye-opening."
+      },
+      {
+        "document_id": "D4",
+        "quote": "I've been dealing with some discomfort and it's been limiting my movement."
+      },
+      {
+        "document_id": "D4",
+        "quote": "They found something suspicious during a check-up, which freaked me out. Thankfully, it was all a misunderstanding"
+      },
+      {
+        "document_id": "D4",
+        "quote": "Doctors said everything is fine"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 43.239874,
+    "thread_setup_seconds": 0.122929,
+    "rate_wait_seconds": 38.281593,
+    "active_seconds": 4.958281,
+    "turn_seconds": 43.116945,
+    "first_text_seconds": 41.817861,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13933,
+      "completion_tokens": 310,
+      "total_tokens": 14243,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 122
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "reused_from": "experiments/smm-sufficiency-luna-pilot-001/records/C037.json",
+  "pilot_record_sha256": "6eef8c3220822d6976759997df2f5ae8799799530c946d78002e72ae07f4aa91",
+  "original_pilot_request_file_sha256": "cd2b7be145573cb730529dbf5860f4491723320a01651bf5e52f4e082bf942d5"
+}

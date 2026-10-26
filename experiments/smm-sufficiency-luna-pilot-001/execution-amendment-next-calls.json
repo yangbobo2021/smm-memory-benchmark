@@ -1,0 +1,13 @@
+{
+  "kind": "prospective-execution-policy",
+  "reason": "User correction after the four fixed first-round calls: no fixed spacing; on 429, wait 30 seconds and retry the same request once.",
+  "effective_for": "future calls only; all four existing receipts and the original pilot protocol remain immutable",
+  "minimum_start_interval_seconds": 0,
+  "on_429": {
+    "wait_seconds": 30,
+    "same_request_retry_limit": 1,
+    "preserve_each_attempt_receipt": true,
+    "on_second_429": "stop and report failure"
+  },
+  "no_other_error_retries": true
+}

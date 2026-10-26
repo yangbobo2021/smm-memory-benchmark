@@ -1,0 +1,57 @@
+{
+  "id": "C150",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "e81880a2e03d37ddddd4510e8767076ab32c4a9d162b19c97ca94b524b2ffd8b",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "James planned a dog-walking and pet-care app with John, connecting pet owners with reliable dog walkers and offering pet-care information.",
+    "explanation": "James describes this as the app they could build together; it is a plan, not evidence that they built it.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "Will be actually cool to build an app for dog walking and pet care."
+      },
+      {
+        "document_id": "D1",
+        "quote": "The goal is to connect pet owners with reliable dog walkers and provide helpful information on pet care."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.642498,
+    "thread_setup_seconds": 0.18739,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.642498,
+    "turn_seconds": 5.455108,
+    "first_text_seconds": 4.416034,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14697,
+      "completion_tokens": 189,
+      "total_tokens": 14886,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 49
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C150-01.json"
+  ]
+}

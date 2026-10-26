@@ -1,0 +1,51 @@
+{
+  "id": "P15",
+  "stage": "round1",
+  "number": 1,
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "d7094a19e1f36aefc2c72bc212bf3c1e205df3393eb0f7930a951ba6c6ad9764",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "International Budget Hostel.",
+    "explanation": "It was the listed hostel explicitly described as being near Amsterdam’s Red Light District.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 6.850396,
+    "thread_setup_seconds": 0.098889,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.850396,
+    "turn_seconds": 6.751507,
+    "first_text_seconds": 5.823657,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 21903,
+      "completion_tokens": 171,
+      "total_tokens": 22074,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 89
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "C093",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "d33c28de4b8b44bc49c75198139830f8084b8860b66de81e15e05969575c6f00",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Gina said she had just teamed up with a local artist on February 8, 2023.",
+    "explanation": "The conversation is dated 2023-02-08, and Gina says she had \"just teamed up\" with the artist.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "just teamed up with a local artist for some cool designs."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.392237,
+    "thread_setup_seconds": 0.183678,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.392237,
+    "turn_seconds": 5.208558,
+    "first_text_seconds": 4.513482,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14630,
+      "completion_tokens": 182,
+      "total_tokens": 14812,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 75
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C093-01.json"
+  ]
+}

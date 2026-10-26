@@ -1,0 +1,18 @@
+{
+  "kind": "frozen-execution-policy",
+  "id": "SMM-SF-LUNA001",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "minimum_start_interval_seconds": 0,
+  "workers": 1,
+  "on_429_wait_seconds": 30,
+  "additional_attempts_after_429": 1,
+  "stop_after_second_429": true,
+  "preserve_all_attempts": true,
+  "reuse_pilot_cases": [
+    "P01",
+    "C037",
+    "L011",
+    "P07"
+  ]
+}

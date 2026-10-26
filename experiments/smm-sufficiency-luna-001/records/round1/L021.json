@@ -1,0 +1,57 @@
+{
+  "id": "L021",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "1ce7c2ceeddf7611e5ede8310fd1b8bc6dc35bf1dd085b75ae48e20e6a67e6eb",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "You attended the Holiday Market 7 days before buying the iPhone 13 Pro.",
+    "explanation": "The Holiday Market was described as occurring a week before Black Friday, and the phone purchase was on Black Friday.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "a week before Black Friday"
+      },
+      {
+        "document_id": "D1",
+        "quote": "on Black Friday"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 9.108248,
+    "thread_setup_seconds": 0.105127,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.108248,
+    "turn_seconds": 9.00312,
+    "first_text_seconds": 8.041294,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 26154,
+      "completion_tokens": 235,
+      "total_tokens": 26389,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 131
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "L021-01.json"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "runtime-parameter-binding-before-new-luna-calls",
+  "reason": "The frozen setup file used on_429_wait_seconds; the shared runner expects retry_wait_seconds. Both express the same user-requested 30-second retry rule. No model input or label changes.",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "workers": 1,
+  "minimum_start_interval_seconds": 0,
+  "retry_wait_seconds": 30,
+  "additional_attempts_after_429": 1,
+  "preserve_each_attempt_receipt": true,
+  "pilot_reused_first_round": ["P01", "C037", "L011", "P07"]
+}

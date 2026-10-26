@@ -1,0 +1,61 @@
+{
+  "id": "C052",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "fdb089014b7a55cef82bc26e8459721dd7ccf68c1f0749150402eeb98010c86c",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "John says surfing feels unreal, exciting, and freeing, and that he loves the connection to nature.",
+    "explanation": "John directly describes his feelings while surfing in D1.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "The waves, the wind, it's super exciting and free-feeling."
+      },
+      {
+        "document_id": "D1",
+        "quote": "I started surfing five years ago and it's been great. I love the connection to nature."
+      },
+      {
+        "document_id": "D1",
+        "quote": "surfing and riding the waves. The feeling was unreal!"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 7.046156,
+    "thread_setup_seconds": 0.40009,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.046156,
+    "turn_seconds": 6.646066,
+    "first_text_seconds": 5.468774,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 15363,
+      "completion_tokens": 176,
+      "total_tokens": 15539,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 35
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C052-01.json"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "C108",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "bfc1070ef333638e50d3539df3f4eaa31965e3dc8799e1ab0047b57e4f005ef5",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Dave has been working on engine swaps and suspension modifications, and is learning body modifications to give a classic muscle car a modern twist.",
+    "explanation": "Dave directly describes the modifications he has done and what he is learning in the workshop.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I've been working on this car, doing engine swaps and suspension modifications. Now I'm learning about body modifications."
+      },
+      {
+        "document_id": "D1",
+        "quote": "Giving this classic muscle car a modern twist is a challenge but so fun!"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 7.534584,
+    "thread_setup_seconds": 0.991927,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.534584,
+    "turn_seconds": 6.542657,
+    "first_text_seconds": 5.253433,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14276,
+      "completion_tokens": 238,
+      "total_tokens": 14514,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 102
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C108-01.json"
+  ]
+}

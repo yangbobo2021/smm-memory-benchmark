@@ -1,0 +1,54 @@
+{
+  "id": "L006",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "f78b0c39e22cf24fb21f9e3e403db5845c920c03e90e459445266bba230cd2bb",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "You mentioned baking a chocolate cake for your friend’s birthday party. The recipe used espresso powder to intensify the chocolate flavor.",
+    "explanation": "The April 10 conversation says you had just baked it the previous weekend.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "I just baked a chocolate cake for my friend's birthday party last weekend that turned out amazing. It was a new recipe I found online that used espresso powder to intensify the chocolate flavor."
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 7.658047,
+    "thread_setup_seconds": 0.103599,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.658047,
+    "turn_seconds": 7.554448,
+    "first_text_seconds": 6.860562,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 25046,
+      "completion_tokens": 265,
+      "total_tokens": 25311,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 140
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "L006-01.json",
+    "L006-02.json"
+  ]
+}

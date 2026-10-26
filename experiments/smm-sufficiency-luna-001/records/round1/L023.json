@@ -1,0 +1,57 @@
+{
+  "id": "L023",
+  "stage": "round1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "9521d026d86a83dfba8f29dc8a686d664650b0ce5f232509ae84801e9e75f0b0",
+  "output": {
+    "decision": "sufficient",
+    "answer_or_partial": "Michael's engagement party happened first: it was on May 6, 2023, while your cousin's wedding was on June 15, 2023.",
+    "explanation": "Each conversation says the event happened “today”; their authored dates establish that the engagement party was earlier.",
+    "evidence": [
+      {
+        "document_id": "D1",
+        "quote": "I just came back from Michael's engagement party at a trendy rooftop bar today"
+      },
+      {
+        "document_id": "D2",
+        "quote": "I just walked down the aisle as a bridesmaid at my cousin's wedding today"
+      }
+    ],
+    "missing_information": [],
+    "next_query": ""
+  },
+  "metrics": {
+    "seconds": 5.04271,
+    "thread_setup_seconds": 0.131449,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.04271,
+    "turn_seconds": 4.911262,
+    "first_text_seconds": 3.848117,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 21080,
+      "completion_tokens": 225,
+      "total_tokens": 21305,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 84
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "L023-01.json"
+  ]
+}

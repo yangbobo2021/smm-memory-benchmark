@@ -1,0 +1,64 @@
+{
+  "id": "C078",
+  "stage": "round2",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "request_sha256": "1d3cf0b1ef58cd391244bb4fe39350f37184fc79476b5b200224ef811cdd6c9e",
+  "output": {
+    "decision": "insufficient",
+    "answer_or_partial": "At least twice: Joanna described finding a trail in April and more trails in May.",
+    "explanation": "Those are two documented occasions. A June conversation mentions a planned hike on a new trail, but doesn’t confirm she found it; the total number of occasions remains unknown.",
+    "evidence": [
+      {
+        "document_id": "D2",
+        "quote": "I found an awesome hiking trail in my hometown yesterday!"
+      },
+      {
+        "document_id": "D1",
+        "quote": "I went hiking and found some more amazing trails in my town."
+      },
+      {
+        "document_id": "D6",
+        "quote": "We're checking out a new trail with a rad waterfall."
+      }
+    ],
+    "missing_information": [
+      "Whether Joanna found new hiking trails on other occasions, including whether the planned June hike resulted in a new trail discovery."
+    ],
+    "next_query": "Joanna hiking buddies new trail waterfall found trails"
+  },
+  "metrics": {
+    "seconds": 10.046969,
+    "thread_setup_seconds": 1.619426,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.046969,
+    "turn_seconds": 8.427542,
+    "first_text_seconds": 6.650142,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 17509,
+      "completion_tokens": 345,
+      "total_tokens": 17854,
+      "cached_prompt_tokens": 9344,
+      "reasoning_tokens": 162
+    }
+  },
+  "error": null,
+  "validation": {
+    "schema_and_branch_valid": true,
+    "literal_quotes_valid": true,
+    "literal_quote_failures": []
+  },
+  "attempt_receipts": [
+    "C078-01.json",
+    "C078-02.json"
+  ]
+}
