@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [Top1–Top5 complete-evidence coverage: BM25, vector, and their union](analyses/top-n-evidence-v1/README.md)
 - [Browse all 25 cases and their inputs/outputs](docs/CASE_INDEX.md)
 - [What was recorded, and what was not](docs/IO_GUIDE.md)
 - [Complete Low / High comparison](experiments/smm-baseline-001/artifacts/high-effort-comparison-v1/README.md)

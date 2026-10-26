@@ -1,0 +1,20 @@
+{
+  "id": "SMM-B001-TOPN-001",
+  "version": 1,
+  "parent_experiment": "SMM-B001 / 1.0.0",
+  "design": "Retrospective offline analysis of the existing frozen rankings; no new retrieval, embedding, selection or answering calls.",
+  "cases": "All 25 frozen cases; the 23 non-ambiguous answer cases are a secondary slice, not a replacement denominator.",
+  "unit": "One complete original conversation, including original timestamps and role headers; no excerpt or summary truncation.",
+  "query": "The frozen original question, without keyword rewriting.",
+  "routes": ["bm25", "vector", "union"],
+  "cutoffs": [1, 2, 3, 4, 5],
+  "ranking_path": "native.native.<bm25|vector>",
+  "union": "BM25 TopN union vector TopN, deduplicated by source_id. No numerical score fusion or reranking.",
+  "primary": "A case is complete iff every registered necessary evidence atom has at least one witness in the selected complete source conversations. All atoms must be covered in the same candidate set.",
+  "secondary": "A case has all official references iff every official_reference_sources ID is selected. This is stricter where references are redundant.",
+  "micro": "Covered registered atoms / 36 and selected official reference occurrences / 43 are diagnostics, not the primary case-completeness rate.",
+  "cost": "Distinct selected conversations and the sum of their exact Unicode character counts. Excludes prompt/JSON overhead; not token counts or measured latency.",
+  "integrity": "Verify frozen file SHA256, source text SHA256, witness offsets, exact quotations, role spans, timestamps, ranking uniqueness, descending scores and source membership.",
+  "annotation_policy": "Reuse existing evidence and reference labels without adding or removing witnesses after viewing ranks. Scores describe registered evidence coverage, not an exhaustive semantic adjudication of all possible alternative sources.",
+  "limitations": "Known retrospective English positive slice; 25 cases, no uncertainty reduction by treating ranks or atoms as independent new questions. TopN was chosen after inspecting these cases. Coverage does not establish reading correctness, citation validity, answer accuracy or generalization. No new model calls."
+}
