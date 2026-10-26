@@ -1,0 +1,192 @@
+{
+  "source_id": "ce75c23c4a140576e602f23d9",
+  "source_sha256": "20c12d1c7d3777e5a8a1d36b4ef8efa03288ee579acb855c2fef2708d8bc7df1",
+  "request_sha256": "004f96a8d12f4958265ceda6f53f90bff2d642961f07f2dfcbb9b1ef02ced2ea",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ce75c23c4a140576e602f23d9",
+    "source_sha256": "20c12d1c7d3777e5a8a1d36b4ef8efa03288ee579acb855c2fef2708d8bc7df1",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey James, good catching up! Been a while huh? I made a huge call - recently left my IT job after 3 years. It was tough but I wanted something that made a difference. And now with this new job, I am happy about my decision. I am loving the new job!"
+      },
+      {
+        "turn": 1,
+        "role": "James",
+        "text": "Hey John! Great to hear from you. Leaving after 3 years is a big step - how did it feel?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "At first, it was super scary, but I knew I had to make a change and focus on things that align with my values and passions."
+      },
+      {
+        "turn": 3,
+        "role": "James",
+        "text": "Wow, John, that sounds really brave. I hope it brings you joy and satisfaction."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Thanks, James. It wasn't easy, but sometimes you gotta take a leap to follow your heart."
+      },
+      {
+        "turn": 5,
+        "role": "James",
+        "text": "Taking risks pays off! Way to be brave. I'm proud of you!"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Your support means a lot. Lately, I've been thinking about what truly makes me happy, and I'm really drawn to the gaming industry. I'm passionate about it and it's time to turn that into a career. I want to become an organizer of tournaments for various computer games in our state. For example, for CS:GO. It's a new journey for me."
+      },
+      {
+        "turn": 7,
+        "role": "James",
+        "text": "Cool! You always mentioned your love for gaming. What other game do you want to organize competitions for? And what`s your plan now?"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Also, I can host Fortnite competitions. I have already made some connections that will help me with this. My plan is to gain more experience and perfect my skills to be successful in this field."
+      },
+      {
+        "turn": 9,
+        "role": "James",
+        "text": "Sounds like a solid plan! Trying out different game genres can be a great way to widen your skills and knowledge."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Thanks! I am very glad that you support me in my new endeavor!"
+      },
+      {
+        "turn": 11,
+        "role": "James",
+        "text": "I will always be here for you! If you need any financial assistance or advice, please contact me!"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "I will definitely do this if necessary! By the way, what's new with you?"
+      },
+      {
+        "turn": 13,
+        "role": "James",
+        "text": "Yesterday I took my puppy to the clinic."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "God, James, what happened to your puppy? Is it OK?"
+      },
+      {
+        "turn": 15,
+        "role": "James",
+        "text": "Don't worry. This was just a routine examination. Also, the puppy was vaccinated to prevent him from catching the seasonal canine disease."
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Phew, great that he's okay. It's great that you care so much about your pets!"
+      },
+      {
+        "turn": 17,
+        "role": "James",
+        "text": "They are the source of my joy, so I will always take care of them!"
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "You're a great host, James! Well, I have to go, bye!"
+      },
+      {
+        "turn": 19,
+        "role": "James",
+        "text": "Thanks, John! Take care, bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s career change into gaming tournaments",
+        "keywords": [
+          "John",
+          "James",
+          "IT job",
+          "career change",
+          "personal values",
+          "gaming industry",
+          "tournament organizer",
+          "CS:GO",
+          "Fortnite",
+          "career experience",
+          "financial advice"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "James’s puppy clinic visit",
+        "keywords": [
+          "James",
+          "puppy",
+          "veterinary clinic",
+          "routine examination",
+          "vaccination",
+          "seasonal canine disease",
+          "pet care"
+        ],
+        "turns": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.273045,
+    "thread_setup_seconds": 0.175647,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.273045,
+    "turn_seconds": 9.097398,
+    "first_text_seconds": 7.898175,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10716,
+      "completion_tokens": 334,
+      "total_tokens": 11050,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 193
+    }
+  },
+  "error": null
+}

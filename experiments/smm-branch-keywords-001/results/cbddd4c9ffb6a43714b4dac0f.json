@@ -1,0 +1,203 @@
+{
+  "source_id": "cbddd4c9ffb6a43714b4dac0f",
+  "source_sha256": "de187d29c6acc15de88f51d9275e38b85c936ec556ac73d5a25c3fafe607250b",
+  "request_sha256": "64d24dc384ac63c9a4d86dc7ed4f530ecae88858bd6c9ba092fee957291996d2",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cbddd4c9ffb6a43714b4dac0f",
+    "source_sha256": "de187d29c6acc15de88f51d9275e38b85c936ec556ac73d5a25c3fafe607250b",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John, hope you're doing well. Yesterday, we started on a road trip. It was fun spending time with the family and my dogs. Exploring new places and taking in nature with the furballs was awesome!"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey James! Wow, what an adventure! Lately, I've been busy with something. Guess what? I had a great accomplishment this Tuesday! It was awesome."
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "That's great news. What did you do?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "I won the regional chess tournament. It was intense but I came out on top!"
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "That's awesome! Congrats! How did it feel to come out on top?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "It felt so good. All my hard work and practice paid off and it was great to conquer the challenges. It gave me a huge confidence boost. So proud of myself!"
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "Winning must have felt so good. What was it like when you won? What strategies did you use to get ready?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "My strategy involved analyzing and anticipating my opponent's moves to stay one step ahead."
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Cool! It's all about studying the game to gain the edge. Do you have any tips for improving?"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Yeah, studying opening moves and strategies can really help. It sets the tone and builds a strong foundation. Learning from experienced players and analyzing past games is important too. Plus the chess advice you gave me earlier also helped. Would you like some resources on chess openings?"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "Sure, I'd love to check out some resources on chess openings. Thank you!"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "I've got you covered on that. Here's a helpful resource for chess openings. Happy to help!"
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Thanks for the suggestion, John. What games are you currently playing? I'm always looking for new recommendations."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "I'm hooked on this great game called FIFA 23. This is a great football game with the ability to play online with other players from all over the world! Enjoy!"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "Wow, that sounds awesome! I just wanted to try a new gaming genre, so why not try the sports genre."
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "You need to practice a little first, and then we can play together."
+      },
+      {
+        "turn": 16,
+        "role": "James",
+        "text": "Great idea! I hope it's easy to control."
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Not at all, all you need is a gamepad and a sense of timing."
+      },
+      {
+        "turn": 18,
+        "role": "James",
+        "text": "Great! Well, I'll go train!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "James’s family road trip",
+        "keywords": [
+          "James",
+          "road trip",
+          "family",
+          "dogs",
+          "nature",
+          "exploring places",
+          "yesterday"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "John’s chess tournament win and chess advice",
+        "keywords": [
+          "John",
+          "regional chess tournament",
+          "Tuesday",
+          "tournament win",
+          "opponent moves",
+          "chess strategy",
+          "opening moves",
+          "experienced players",
+          "past games",
+          "chess resources"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "FIFA 23 recommendation and playing together",
+        "keywords": [
+          "FIFA 23",
+          "football game",
+          "online multiplayer",
+          "sports genre",
+          "gaming recommendation",
+          "gamepad",
+          "timing",
+          "practice",
+          "playing together"
+        ],
+        "turns": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.489177,
+    "thread_setup_seconds": 0.336787,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.489177,
+    "turn_seconds": 7.15239,
+    "first_text_seconds": 5.410421,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10637,
+      "completion_tokens": 251,
+      "total_tokens": 10888,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 67
+    }
+  },
+  "error": null
+}

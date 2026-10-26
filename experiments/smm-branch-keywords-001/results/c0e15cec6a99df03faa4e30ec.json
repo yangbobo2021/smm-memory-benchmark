@@ -1,0 +1,196 @@
+{
+  "source_id": "c0e15cec6a99df03faa4e30ec",
+  "source_sha256": "14c6feb53d7abe2b6c34458526b1c9a77d37e2968356c6672d942787ebbf08ee",
+  "request_sha256": "6f77e9eda282a2796faa723ecb1543b604d66cf360ac6a983692bb69c43adad2",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c0e15cec6a99df03faa4e30ec",
+    "source_sha256": "14c6feb53d7abe2b6c34458526b1c9a77d37e2968356c6672d942787ebbf08ee",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Tim! Great to chat again. So much has happened!"
+      },
+      {
+        "turn": 1,
+        "role": "Tim",
+        "text": "Hey John! Great chatting with you as always. What's been happening lately? I've been reading as usual."
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "My wife and I were road tripping out on the European coastline, and it was amazing! The views were spectacular, and we had lots of fun bonding and creating amazing memories. It was such a nice change to my regular life."
+      },
+      {
+        "turn": 3,
+        "role": "Tim",
+        "text": "Wow! Sounds like an incredible road trip. I'm glad you and your wife had such a great time!"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Thanks! Yeah, it was awesome. We got to see some epic spots. It's hard to describe how beautiful they were!"
+      },
+      {
+        "turn": 5,
+        "role": "Tim",
+        "text": "Those places must've been amazing! Nature sure has a way of leaving us speechless."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Nature sure is powerful and beautiful! It's really humbling to witness such sights."
+      },
+      {
+        "turn": 7,
+        "role": "Tim",
+        "text": "Yeah! It always makes us realize how huge the world is and how special it is. These moments really show us the beauty around us. Anyways, have you read or watched anything good recently?"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Yep, I just finished this amazing fantasy series. It was a wild ride with so many twists. The author is amazing at creating awesome storylines and characters - I love getting lost in those fantasy worlds."
+      },
+      {
+        "turn": 9,
+        "role": "Tim",
+        "text": "That's amazing! Same here. There's something special about being lost in an awesome fantasy realm and seeing what happens. It's like an escape. \"That\" is one of my favorite fantasy shows. Have you seen it?"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Yeah, I saw \"That\"! It's amazing to see those worlds and characters come alive. It's a great way to escape reality!"
+      },
+      {
+        "turn": 11,
+        "role": "Tim",
+        "text": "Yeah, it's awesome how books and movies can take you away. A great escape, right?"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Definitely, it's like a mental break, giving our minds a rest and letting them wander. So refreshing!"
+      },
+      {
+        "turn": 13,
+        "role": "Tim",
+        "text": "It's like entering another world! We get to take a break from everything and just let our minds wander. It's so nice and refreshing."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "And that's just what we need sometimes."
+      },
+      {
+        "turn": 15,
+        "role": "Tim",
+        "text": "Taking a break from life can help us recharge and get some peace. Plus, it gives us a chance to reconnect with ourselves and tackle life's challenges with a new outlook."
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Yeah, taking time for ourselves is crucial. It helps us stay sharp and focused. Plus, it helps us gain new perspectives and tackle challenges with more energy. Finding the right balance is key and I'll keep that in mind as I continue my journey."
+      },
+      {
+        "turn": 17,
+        "role": "Tim",
+        "text": "Balance is key and it varies. Take care of yourself, both mentally and physically, and you'll rock it. You got this, bud!"
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "Thanks! Your support means a lot. I'll keep pushing forward. Take care, buddy!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "European coastal road trip",
+        "keywords": [
+          "European coastline",
+          "road trip",
+          "wife",
+          "scenic views",
+          "nature",
+          "shared memories"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Fantasy series and screen adaptation",
+        "keywords": [
+          "fantasy series",
+          "author",
+          "storylines",
+          "characters",
+          "fantasy realm",
+          "That",
+          "fantasy show",
+          "books and movies"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Taking breaks and finding balance",
+        "keywords": [
+          "mental break",
+          "recharge",
+          "peace",
+          "self-care",
+          "mental health",
+          "physical health",
+          "new perspective",
+          "life challenges",
+          "balance"
+        ],
+        "turns": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.233957,
+    "thread_setup_seconds": 0.12201,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.233957,
+    "turn_seconds": 8.111948,
+    "first_text_seconds": 6.403153,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10721,
+      "completion_tokens": 306,
+      "total_tokens": 11027,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 149
+    }
+  },
+  "error": null
+}

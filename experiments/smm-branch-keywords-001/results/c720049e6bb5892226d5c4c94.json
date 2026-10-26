@@ -1,0 +1,194 @@
+{
+  "source_id": "c720049e6bb5892226d5c4c94",
+  "source_sha256": "254ffb52dea3eb4c59b06f22c3a727e3d51106a3ff6d6dfed448226b825eef98",
+  "request_sha256": "5e5e901ae420b799d39816f0ecb986b9ac450374c56a45aebf42d78db1f4acd1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c720049e6bb5892226d5c4c94",
+    "source_sha256": "254ffb52dea3eb4c59b06f22c3a727e3d51106a3ff6d6dfed448226b825eef98",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jon",
+        "text": "Gina, you won't believe it - I got mentored by this amazing business dude yesterday! It was really inspiring and now I'm even more pumped to chase my dreams. What's been up with you lately?"
+      },
+      {
+        "turn": 1,
+        "role": "Gina",
+        "text": "Wow, Jon! Mentors can really help. I'm working on my online store, growing the customer base. It's tough but I'm determined. How about you? Any new things happening?"
+      },
+      {
+        "turn": 2,
+        "role": "Jon",
+        "text": "Been doing some promotion for my business. Crazy ride so far, but I'm hanging in there. Got any tips for marketing?"
+      },
+      {
+        "turn": 3,
+        "role": "Gina",
+        "text": "Awesome! Marketing is key. Use social media channels and work with influencers for bigger reach."
+      },
+      {
+        "turn": 4,
+        "role": "Jon",
+        "text": "Thanks for the advice, Gina! I already started doing what you said about social media and posted some of my dance videos. It's creating a bit of a stir."
+      },
+      {
+        "turn": 5,
+        "role": "Gina",
+        "text": "Nice! Glad your dance vids are doing well online. Keep it up!"
+      },
+      {
+        "turn": 6,
+        "role": "Jon",
+        "text": "Your help really helps. Hey, have you thought about being an entrepreneur?"
+      },
+      {
+        "turn": 7,
+        "role": "Gina",
+        "text": "Ha, yeah, Jon. I've been one 'cause I lost my job. I opened an online clothing store and it's been great! Being my own boss and doing something I love is awesome."
+      },
+      {
+        "turn": 8,
+        "role": "Jon",
+        "text": "Wow, Gina! You did great taking that leap. Congrats! Got any advice for someone just starting out?"
+      },
+      {
+        "turn": 9,
+        "role": "Gina",
+        "text": "Thanks, Jon! It was a huge jump, but totally worth it. My advice: stay passionate, focused and resilient. Challenges will come, but believe in yourself and keep going. And stay open to learning and improving."
+      },
+      {
+        "turn": 10,
+        "role": "Jon",
+        "text": "Appreciate your advice. Gotta stay resilient and focused, that's key!"
+      },
+      {
+        "turn": 11,
+        "role": "Gina",
+        "text": "Yep Jon, staying resilient and focused is key for any entrepreneur. Keep going and don't give up! You got this!"
+      },
+      {
+        "turn": 12,
+        "role": "Jon",
+        "text": "Thanks! I won't quit, no matter what. Your encouragement really motivates me to keep going."
+      },
+      {
+        "turn": 13,
+        "role": "Gina",
+        "text": "Way to go, Jon! Don't quit, remember, failures lead you closer to success. Here's a pic from when I was dancing - it was a tough road, but it was worth it!"
+      },
+      {
+        "turn": 14,
+        "role": "Jon",
+        "text": "Wow, that's an awesome pic! You guys look great and passionate about dancing. Reminds me how much I love performing. Thanks for sharing!"
+      },
+      {
+        "turn": 15,
+        "role": "Gina",
+        "text": "Thanks! I'm glad the pic reminded you of your love for dancing. Keep going after your dreams!"
+      },
+      {
+        "turn": 16,
+        "role": "Jon",
+        "text": "Sure thing, Gina! Your help means a lot to me. I'm not giving up."
+      },
+      {
+        "turn": 17,
+        "role": "Gina",
+        "text": "Go, Jon! I'm here for you. Keep going!"
+      },
+      {
+        "turn": 18,
+        "role": "Jon",
+        "text": "Knowing you've got my back really helps keep me going. I won't let you down!"
+      },
+      {
+        "turn": 19,
+        "role": "Gina",
+        "text": "No worries, Jon! You're really inspiring with your determination and passion for dance. Keep it up!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Entrepreneurship, online stores, and marketing advice",
+        "keywords": [
+          "entrepreneurship",
+          "online clothing store",
+          "customer base",
+          "business promotion",
+          "social media marketing",
+          "influencer marketing",
+          "business mentorship",
+          "resilience",
+          "focus",
+          "startup advice"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "Dance videos and encouragement to perform",
+        "keywords": [
+          "dance videos",
+          "social media posts",
+          "dance performance",
+          "dancing photo",
+          "passion for dance",
+          "performing",
+          "dreams",
+          "determination"
+        ],
+        "turns": [
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.860997,
+    "thread_setup_seconds": 0.176265,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.860997,
+    "turn_seconds": 10.684731,
+    "first_text_seconds": 9.807106,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10730,
+      "completion_tokens": 446,
+      "total_tokens": 11176,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 292
+    }
+  },
+  "error": null
+}

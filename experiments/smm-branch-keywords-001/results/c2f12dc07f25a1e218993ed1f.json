@@ -1,0 +1,237 @@
+{
+  "source_id": "c2f12dc07f25a1e218993ed1f",
+  "source_sha256": "68c816d4380ceea382552eca9d08de4ae173a5194d64a9efdd6cd3be1e7fac6e",
+  "request_sha256": "2346bae35cb9e0c128a08ceab9610ec5152fb41dd713812cfbab8cfbf17250ef",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c2f12dc07f25a1e218993ed1f",
+    "source_sha256": "68c816d4380ceea382552eca9d08de4ae173a5194d64a9efdd6cd3be1e7fac6e",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Hey Evan, long time no see! I've started eating healthier - what's new with you? Picked up any new hobbies?"
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "Hey Sam! That's awesome about your healthier eating! For me, I had a setback last week - messed up my knee playing b-ball with the kids. It's been tough to stay active since. I really miss going on adventures like we did last year - good times with the family!"
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Hey Evan, sorry to hear about your knee. It must be tough. Are there any ways to stay active while you heal up?"
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "Thanks, Sam. PT has helped some. I can't do intense workouts, but I'm doing easy exercises to keep it strong. Not as good as being active outdoors, but still something."
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "Glad PT is helping, Evan! Taking care of yourself is key – have you explored any fun indoor activities or hobbies?"
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "I do my favorite watercolor painting to keep me busy. It's a chill way to relax and get into the colors. By the way, something happened two weeks ago! You're not gonna believe this, I had a bit of an adventure recently. Helped a lost tourist find their way, and we ended up taking an unexpected tour around the city. It was a blast!"
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "Hey Evan, that sounds like a fun and unexpected event! It's always interesting how helping someone can turn into a little adventure of its own. And how's your watercolor painting going?"
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "It's been great! I find painting to be a great stress reliever. Here's what I did last week."
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "Wow, those are awesome! So cool. Where did you get the inspiration for them?"
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "Thanks, Sam! The sunset painting was inspired by a vacation a few years back. The colors were so stunning. The cactus painting came from a road trip last month. Such cool places!"
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "Wow, Evan, your paintings are awesome! How do you decide what to paint?"
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "Thanks, Sam! I usually paint what's on my mind or something I'm feeling. It can be good memories or places I wanna go to. It's more like expressing myself through art."
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "That's really amazing, Evan. Expressing yourself through art is such a powerful form of self-expression."
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "Thanks, Sam. Yeah, it's really a great way to express myself and my emotions. It's a cool way to communicate without using words. So, do you have any other ways in which you express yourself?"
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Drawing is cool. I'm still just learning how to draw, but I love expressing myself through writing. It's therapeutic and helps me sort out my feelings. Though, I've been a bit frustrated lately with my new phone. Its navigation app keeps malfunctioning, making getting around a bit of a challenge."
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "Cool, Sam! Writing is a great way to express yourself. What kind of writing do you enjoy? And about the phone, I recommend trying to update it, it usually works for me!"
+      },
+      {
+        "turn": 16,
+        "role": "Sam",
+        "text": "Thanks for the tip, Evan! Writing in my journal and doing creative writing is a good way for me to express my innermost thoughts and feelings."
+      },
+      {
+        "turn": 17,
+        "role": "Evan",
+        "text": "It can be super therapeutic. It gives you a place to express yourself. Keep it up!"
+      },
+      {
+        "turn": 18,
+        "role": "Sam",
+        "text": "Thanks, Evan! It really helps me make sense of things and express my feelings. It's like having a conversation with myself."
+      },
+      {
+        "turn": 19,
+        "role": "Evan",
+        "text": "Gotcha, it's like having a place to figure stuff out and make sense of it all. We all need an outlet to express our thoughts and feelings."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Sam’s healthier eating",
+        "keywords": [
+          "healthy eating",
+          "healthier eating",
+          "Sam"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Evan’s knee injury and recovery",
+        "keywords": [
+          "knee injury",
+          "basketball",
+          "physical therapy",
+          "easy exercises",
+          "staying active"
+        ],
+        "turns": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Evan’s unexpected city tour",
+        "keywords": [
+          "lost tourist",
+          "helping a tourist",
+          "city tour",
+          "unexpected adventure",
+          "two weeks ago"
+        ],
+        "turns": [
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Evan’s watercolor painting",
+        "keywords": [
+          "watercolor painting",
+          "stress relief",
+          "sunset painting",
+          "cactus painting",
+          "vacation inspiration",
+          "road trip"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "label": "Sam’s writing and self-expression",
+        "keywords": [
+          "drawing",
+          "journal writing",
+          "creative writing",
+          "self-expression",
+          "sorting out feelings"
+        ],
+        "turns": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "label": "Sam’s malfunctioning phone navigation app",
+        "keywords": [
+          "new phone",
+          "navigation app",
+          "malfunction",
+          "getting around",
+          "software update"
+        ],
+        "turns": [
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 14.495106,
+    "thread_setup_seconds": 0.366286,
+    "rate_wait_seconds": 0,
+    "active_seconds": 14.495106,
+    "turn_seconds": 14.128819,
+    "first_text_seconds": 11.707396,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10904,
+      "completion_tokens": 733,
+      "total_tokens": 11637,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 478
+    }
+  },
+  "error": null
+}

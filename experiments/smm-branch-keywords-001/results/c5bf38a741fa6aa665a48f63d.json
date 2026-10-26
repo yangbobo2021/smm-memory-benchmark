@@ -1,0 +1,195 @@
+{
+  "source_id": "c5bf38a741fa6aa665a48f63d",
+  "source_sha256": "070f14ec9f7a8909efd6bbb55576ccb535a81988121d6ac599ad69261aae56d6",
+  "request_sha256": "69dcfc9cc0fc9be49e2b095db3e3f6b7b80866d3679608a3128e4274b9f5268b",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c5bf38a741fa6aa665a48f63d",
+    "source_sha256": "070f14ec9f7a8909efd6bbb55576ccb535a81988121d6ac599ad69261aae56d6",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Gina",
+        "text": "Hey Jon! Long time no chat! How's the dance studio? Last week was wild, I got noticed by fashion editors and it's been amazing but kinda scary. Everything's exciting but it's a lot of pressure to keep going up!"
+      },
+      {
+        "turn": 1,
+        "role": "Jon",
+        "text": "Hey Gina! Congrats on the fashion editors reach-out, that's awesome! Dance practice has been fun and exhausting. I'm gonna stay determined and make my own path by going full-time with my biz idea."
+      },
+      {
+        "turn": 2,
+        "role": "Gina",
+        "text": "Just remember that sometimes stumbling blocks can be opened doors. Keep going!"
+      },
+      {
+        "turn": 3,
+        "role": "Jon",
+        "text": "Thanks! Your support and encouragement means a lot. Losing my job was a bummer, but it pushed me to take the plunge and go for my biz dreams. Started to learn all these marketing and analytics tools to push the biz forward today. It's been tricky, but I'm up for the challenge and I'm gonna make this work!"
+      },
+      {
+        "turn": 4,
+        "role": "Gina",
+        "text": "Go get 'em, Jon!"
+      },
+      {
+        "turn": 5,
+        "role": "Jon",
+        "text": "I'm also excited to guide and mentor aspiring dancers on their dreams."
+      },
+      {
+        "turn": 6,
+        "role": "Gina",
+        "text": "Wow, Jon! That's awesome. Loving what you do and bringing joy to others is so rewarding. You're definitely the perfect mentor & guide. Your positivity and determination will make your dance studio a hit!"
+      },
+      {
+        "turn": 7,
+        "role": "Jon",
+        "text": "Thanks, Gina - really appreciate your words and encouragement! Dance has the power to bring us together and create sweet moments. Moments like this remind me why I'm chasing my dream and keep me pushing through any struggles."
+      },
+      {
+        "turn": 8,
+        "role": "Gina",
+        "text": "Take comfort in knowing you've got a solid community cheering you on, me included. Keep on pushing!"
+      },
+      {
+        "turn": 9,
+        "role": "Jon",
+        "text": "Feeling supported by all of you means so much. It gives me the oomph to keep chasing my dreams. Your faith in me is priceless - I won't let you down!"
+      },
+      {
+        "turn": 10,
+        "role": "Gina",
+        "text": "Don't let anything stop you. You have potential!"
+      },
+      {
+        "turn": 11,
+        "role": "Jon",
+        "text": "Thanks, Gina! Your faith in me is a real boost. I'm gonna make my dreams come true!"
+      },
+      {
+        "turn": 12,
+        "role": "Gina",
+        "text": "Keep pushing and you'll get there. Your dreams are so close!"
+      },
+      {
+        "turn": 13,
+        "role": "Jon",
+        "text": "Thanks, Gina! I won't quit, even when it's hard. I'm gonna make it!"
+      },
+      {
+        "turn": 14,
+        "role": "Gina",
+        "text": "You got this, Jon! Don't let the bumps in the road bring you down. Keep going and make your dreams a reality! I'm rooting for you!"
+      },
+      {
+        "turn": 15,
+        "role": "Jon",
+        "text": "Thanks, Gina! Your belief in me means the world. I'm not gonna let anything or anyone stop me. I'll keep pushing and make my dreams come true. Thanks for being a great friend. You rock!"
+      },
+      {
+        "turn": 16,
+        "role": "Gina",
+        "text": "Hey Jon, glad I could help! Always here to cheer you on."
+      },
+      {
+        "turn": 17,
+        "role": "Jon",
+        "text": "Thanks! Glad that you are on my side."
+      },
+      {
+        "turn": 18,
+        "role": "Gina",
+        "text": "Sure, see ya. Bye!"
+      },
+      {
+        "turn": 19,
+        "role": "Jon",
+        "text": "Bye!"
+      },
+      {
+        "turn": 20,
+        "role": "Gina",
+        "text": ";)"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gina’s fashion-editor recognition",
+        "keywords": [
+          "Gina",
+          "fashion editors",
+          "being noticed",
+          "career pressure",
+          "exciting opportunity"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Jon’s dance-studio business and mentorship",
+        "keywords": [
+          "Jon",
+          "dance studio",
+          "full-time business",
+          "business idea",
+          "job loss",
+          "marketing tools",
+          "analytics tools",
+          "aspiring dancers",
+          "mentorship",
+          "encouragement"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.072147,
+    "thread_setup_seconds": 0.118379,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.072147,
+    "turn_seconds": 7.953768,
+    "first_text_seconds": 6.917588,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10727,
+      "completion_tokens": 314,
+      "total_tokens": 11041,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 178
+    }
+  },
+  "error": null
+}

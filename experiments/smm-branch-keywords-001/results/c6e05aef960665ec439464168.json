@@ -1,0 +1,176 @@
+{
+  "source_id": "c6e05aef960665ec439464168",
+  "source_sha256": "cbb308a3572279e0d5f3f73a4f61b73df49cf6585d135e738e18eb5289009dd1",
+  "request_sha256": "f2e6a49a638f22c35bc6628df0cbdab1c702e820ba77f0c2976c0e7cc9385055",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c6e05aef960665ec439464168",
+    "source_sha256": "cbb308a3572279e0d5f3f73a4f61b73df49cf6585d135e738e18eb5289009dd1",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John, been a while since we chatted. How's it going?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Yo Tim! Great to hear from you. Things have been wild! Last week I got this amazing deal with a renowned outdoor gear company. So pumped!"
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "That's awesome about the deal! I'm curious, what kind of gear did you end up getting? And how did the photoshoot turn out?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Cheers! Got some awesome hiking stuff and outdoor gear - all top-notch. The photoshoot went really well too. We did it in a gorgeous forest and the photographer got some epic shots of me doing my thing - it was amazing!"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Wow! That sounds amazing. Being out in such a gorgeous location must have been incredible. I'd love to see one of the epic shots you got! Do you have any pictures from the photoshoot?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Here you go, here's a pic. Nature puts me in a great mood and always gets me energized!"
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "That's an amazing photo! I can see why it inspires you - the rocks and river look so peaceful. What drew you to that spot?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "I stumbled across this spot while hiking. The sound of that river was so soothing, I felt so at peace surrounded by those rocks. It was like nature was telling me to stop and admire its beauty."
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Wow, that sounds amazing. It's true, nature has a way of bringing peace and joy. Anything else like that been happening lately?"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Things have been going great on the court. We've been putting in a lot of work and achieving our goals, which is awesome."
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Hard work pays off, right? What have you and your team been up to lately?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "We gave it our all during last week's scrimmage. It's amazing to see our team's growth. We know it won't be easy, but it'll be worth it when we see the results."
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "What areas have you seen the most growth in during your training?"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Our team has seen the most growth in communication and bonding. It has really helped our performances by allowing us to understand each other's strengths and weaknesses."
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Wow, that's awesome! Glad to hear you guys are bonding. Keep it up!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Thanks! Let's keep at it and continue supporting each other. Appreciate your assistance!"
+      },
+      {
+        "turn": 16,
+        "role": "Tim",
+        "text": "Yeah, let's support each other. I'm here for you. Just keep believing in yourself! Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Outdoor gear deal and forest photoshoot",
+        "keywords": [
+          "John",
+          "Tim",
+          "outdoor gear company",
+          "hiking gear",
+          "photoshoot",
+          "forest",
+          "hiking",
+          "river",
+          "rocks",
+          "nature"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Team training and court progress",
+        "keywords": [
+          "John",
+          "Tim",
+          "basketball court",
+          "team training",
+          "scrimmage",
+          "communication",
+          "team bonding",
+          "performance",
+          "last week"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.345401,
+    "thread_setup_seconds": 0.198497,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.345401,
+    "turn_seconds": 10.146904,
+    "first_text_seconds": 8.732793,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10636,
+      "completion_tokens": 326,
+      "total_tokens": 10962,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 194
+    }
+  },
+  "error": null
+}

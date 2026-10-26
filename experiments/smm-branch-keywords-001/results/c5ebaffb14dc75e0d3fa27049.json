@@ -1,0 +1,199 @@
+{
+  "source_id": "c5ebaffb14dc75e0d3fa27049",
+  "source_sha256": "b040222137a85ca343bd0b5fa39d85c8b780a377d26d1361cdb588ce488329fd",
+  "request_sha256": "3e245d58ff6a4f5a535201fd3a6e06ebb8bf88c51eb110b342a24dfd3b7cce87",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c5ebaffb14dc75e0d3fa27049",
+    "source_sha256": "b040222137a85ca343bd0b5fa39d85c8b780a377d26d1361cdb588ce488329fd",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Nate",
+        "text": "Hey Joanna! How've you been? Been a busy week since we talked."
+      },
+      {
+        "turn": 1,
+        "role": "Joanna",
+        "text": "Hey Nate! Just finished something - pretty wild journey!"
+      },
+      {
+        "turn": 2,
+        "role": "Nate",
+        "text": "Way to go! I just got a new addition to the family, this is Max!"
+      },
+      {
+        "turn": 3,
+        "role": "Joanna",
+        "text": "Wow, he's adorable! How long have you had him? I can see why you're thrilled!"
+      },
+      {
+        "turn": 4,
+        "role": "Nate",
+        "text": "Thanks! It's awesome - he's adopted and so full of energy, and he's filling my life with so much joy. He's even keeping my other pets active."
+      },
+      {
+        "turn": 5,
+        "role": "Joanna",
+        "text": "Pets sure do make life better! Glad Max is bringing you lots of joy."
+      },
+      {
+        "turn": 6,
+        "role": "Nate",
+        "text": "Yep, totally! Pets make us so much happier and never let us down. Have you thought any more of getting one of your own?"
+      },
+      {
+        "turn": 7,
+        "role": "Joanna",
+        "text": "Unfortunately, allergies make it so I don't really want to get any, and I'm too lazy to research alternative pets for my allergies."
+      },
+      {
+        "turn": 8,
+        "role": "Nate",
+        "text": "Aww, that's unfortunate. It's nice seeing the joy pets bring to others, though. How do you find comfort when you don't have any?"
+      },
+      {
+        "turn": 9,
+        "role": "Joanna",
+        "text": "Writing and creative projects are what get me through tough times. I'm also grateful for my supportive friends."
+      },
+      {
+        "turn": 10,
+        "role": "Nate",
+        "text": "Wow, that's awesome! Those both can definitely be therapeutic. It's great to have such positive relationships that make such a great impact."
+      },
+      {
+        "turn": 11,
+        "role": "Joanna",
+        "text": "Yeah. It's so nice to have friends who understand and appreciate my work - it's priceless being able to talk about it together and receive feedback. Here's a look at what I've been working on – it's been quite a journey, but I made it!"
+      },
+      {
+        "turn": 12,
+        "role": "Nate",
+        "text": "Wow, that looks great Joanna! Is that your third one?"
+      },
+      {
+        "turn": 13,
+        "role": "Joanna",
+        "text": "Yep! I chose to write about this because it's really personal. It's about loss, identity, and connection. It's a story I've had for ages but just got the guts to write it. It was hard, but I'm so proud of it."
+      },
+      {
+        "turn": 14,
+        "role": "Nate",
+        "text": "That sounds impressive. You really do like writing about sadness and loss don't you."
+      },
+      {
+        "turn": 15,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Yeah I really do. I had to be vulnerable and dig deep into those topics. But I think meaningful stories come from personal experiences and feelings. It was scary, but I found that I write best when I'm being true to myself - even if it's hard."
+      },
+      {
+        "turn": 16,
+        "role": "Nate",
+        "text": "Well done, Joanna! It takes guts to explore your experiences and feelings. I'm proud of you for staying strong and being true to yourself. Keep it up!"
+      },
+      {
+        "turn": 17,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Your support really means a lot. Knowing I've got people like you cheering me on makes this journey way easier."
+      },
+      {
+        "turn": 18,
+        "role": "Nate",
+        "text": "No worries, Joanna! Keep going and reach for your dreams. You've got tons of talent and potential!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Nate’s adopted pet Max",
+        "keywords": [
+          "Nate",
+          "Max",
+          "adoption",
+          "pets",
+          "energy",
+          "joy",
+          "pet companionship"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Joanna’s allergies and finding comfort",
+        "keywords": [
+          "Joanna",
+          "pet allergies",
+          "alternative pets",
+          "writing",
+          "creative projects",
+          "supportive friends",
+          "comfort"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Joanna’s personal writing project",
+        "keywords": [
+          "Joanna",
+          "third story",
+          "loss",
+          "identity",
+          "connection",
+          "personal experience",
+          "vulnerability",
+          "friend feedback",
+          "Nate’s encouragement"
+        ],
+        "turns": [
+          1,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.871687,
+    "thread_setup_seconds": 0.127119,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.871687,
+    "turn_seconds": 8.744567,
+    "first_text_seconds": 7.332536,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10723,
+      "completion_tokens": 426,
+      "total_tokens": 11149,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 262
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,177 @@
+{
+  "source_id": "caff6cd8c86e41346f2f7b285",
+  "source_sha256": "53aa4b559a6e2b5537db34cd3912fa5e081d875ea63d2b40605fc551d639d6b2",
+  "request_sha256": "116f8f5a0bb75525417522aad8b78b21780115cf95155f1f254f4ecc5960c480",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "caff6cd8c86e41346f2f7b285",
+    "source_sha256": "53aa4b559a6e2b5537db34cd3912fa5e081d875ea63d2b40605fc551d639d6b2",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam, hope you're doing good. Wanted to share some amazing news - my partner is pregnant! We're so excited! It's been a while since we had a kiddo around."
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Congrats, Ev! That's great news! Parenthood is so amazing. How are you feeling about it?"
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "So excited and a bit nervous! It's been a while since I had a toddler around but I'm really looking forward to it. Parenthood is so rewarding. I still remember when my first child was born, the joy was amazing. Looking forward to witness the miracle of life and build more memories with my family!"
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "Wow, you're gonna be an amazing parent! Treasure those memories, they're truly special."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Thanks Sam! Absolutely. Talking of memories, I want to show you this. It's a collage of some of our top family memories. Each photo has an amazing moment - birthdays, holidays, vacations - so good to look back and recall all the great times we had."
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "That's so lovely, Evan. Your family looks so happy. What's the story behind that sign in the center?"
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "Oh, that one? It's from our trip to Banff. We have this sign in the frame that says 'Bring it on Home' - it's our family's motto, always reminding us of the importance of togetherness, no matter where we are."
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "That's really touching, Evan. It's important to have something that keeps the family bond strong."
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "Absolutely, Sam. My family means the world to me. They're my rock. I'm looking forward to expanding our family and creating even more beautiful memories."
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "That's wonderful to hear, Evan! It's clear how much you value your family. Are you thinking of any specific plans or events to add to that collage?"
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "Thanks, Sam! Yeah, we're planning a big family reunion next summer. It's going to be a blast and a perfect opportunity to add to our collage."
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "Sounds fantastic! If you need any tips on organizing such a big event, just let me know. I'm always here to support and celebrate your family's milestones."
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Thanks, Sam! Your support means a lot. I'll keep you updated. Take care, bye!"
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "Take care, Evan! Can't wait to hear about it. Bye!"
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "Bye Sam. I'll definitely keep you updated. Thanks for the kind words and support. Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Pregnancy and growing family",
+        "keywords": [
+          "pregnancy",
+          "new baby",
+          "parenthood",
+          "nervousness",
+          "family expansion",
+          "family memories"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          8
+        ]
+      },
+      {
+        "label": "Family memory collage",
+        "keywords": [
+          "family photo collage",
+          "birthdays",
+          "holidays",
+          "vacations",
+          "family memories"
+        ],
+        "turns": [
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Banff family motto",
+        "keywords": [
+          "Banff",
+          "family sign",
+          "“Bring it on Home”",
+          "togetherness",
+          "family bond"
+        ],
+        "turns": [
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Next summer family reunion",
+        "keywords": [
+          "family reunion",
+          "next summer",
+          "event planning",
+          "family milestones"
+        ],
+        "turns": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.675533,
+    "thread_setup_seconds": 0.138627,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.675533,
+    "turn_seconds": 8.536906,
+    "first_text_seconds": 6.62015,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10626,
+      "completion_tokens": 280,
+      "total_tokens": 10906,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 116
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,190 @@
+{
+  "source_id": "ca9f7fefaaf9fbd0ea335569d",
+  "source_sha256": "8495bdbf246aae6f4ada3dbc25861f2d9532f58060bf502cffbacb014c476fdd",
+  "request_sha256": "3403e7900bf8862514717d241dbdf8d766405adb10e51a61affc82eddc37e495",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ca9f7fefaaf9fbd0ea335569d",
+    "source_sha256": "8495bdbf246aae6f4ada3dbc25861f2d9532f58060bf502cffbacb014c476fdd",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Joanna",
+        "text": "Hey Nate! Yesterday was crazy cool - I wrote a few bits for a screenplay that appeared on the big screen yesterday! It was nerve-wracking but so inspiring to see my words come alive!"
+      },
+      {
+        "turn": 1,
+        "role": "Nate",
+        "text": "Congrats, Joanna! Seeing your hard work pay off like that must've felt amazing. I bet it was scary too, but awesome! You're so inspiring. By the way, last time we saw eachother, I noticed a spiderman pin on your purse. Is Spider-Man your favorite superhero, or do you have another fave?"
+      },
+      {
+        "turn": 2,
+        "role": "Joanna",
+        "text": "Thanks, Nate! It was a real roller coaster, but seeing the hard work pay off was amazing. Spider-Man has always been a favorite of mine - I mean, who doesn't love Peter Parker's struggles between being a hero and being a person? But I'm kind of a sucker for any superhero - everyone has their own rad story and powers. Do you have a favorite superhero?"
+      },
+      {
+        "turn": 3,
+        "role": "Nate",
+        "text": "That's great, Joanna! Iron Man is my top pick. I love his tech and that sarcastic humor. Seeing these figures just makes me feel invincible!"
+      },
+      {
+        "turn": 4,
+        "role": "Joanna",
+        "text": "Wow, Nate! That's awesome. I love the tech and funny jokes of Iron Man too. What made you get that figure?"
+      },
+      {
+        "turn": 5,
+        "role": "Nate",
+        "text": "Thanks Joanna! I got it because it reminded me of something I love. Its presence in my room is a good reminder to keep working on my goals. Any inspiring things in your room?"
+      },
+      {
+        "turn": 6,
+        "role": "Joanna",
+        "text": "My cork board is full of inspiring quotes and pictures for motivation and creativity. It's my little corner of inspiration."
+      },
+      {
+        "turn": 7,
+        "role": "Nate",
+        "text": "Wow Joanna, that sounds great! Could you show me a picture of it?"
+      },
+      {
+        "turn": 8,
+        "role": "Joanna",
+        "text": "Here ya go, a pic of my cork board. It's got quotes, photos, and little keepsakes."
+      },
+      {
+        "turn": 9,
+        "role": "Nate",
+        "text": "That's a great pic of your family! What made you hang it on your cork board?"
+      },
+      {
+        "turn": 10,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Having that picture on my cork board reminds me of the love and encouragement from them every day."
+      },
+      {
+        "turn": 11,
+        "role": "Nate",
+        "text": "That's great, Joanna. Family support is invaluable. It's so good to have those reminders."
+      },
+      {
+        "turn": 12,
+        "role": "Joanna",
+        "text": "Absolutely, it means a lot and keeps me going."
+      },
+      {
+        "turn": 13,
+        "role": "Nate",
+        "text": "I really should start a cork board of my own shouldn't I. That seems like a really valuable thing!"
+      },
+      {
+        "turn": 14,
+        "role": "Joanna",
+        "text": "I would definitely recommend it! As long as your willing to explain what it is to your friends."
+      },
+      {
+        "turn": 15,
+        "role": "Nate",
+        "text": "Of course! Well see you later Joanna!"
+      },
+      {
+        "turn": 16,
+        "role": "Joanna",
+        "text": "Bye Nate!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Joanna’s screenplay on the big screen",
+        "keywords": [
+          "Joanna",
+          "Nate",
+          "screenplay",
+          "screenwriting",
+          "big screen",
+          "creative achievement",
+          "nervousness",
+          "inspiration"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Favorite superheroes and Iron Man figure",
+        "keywords": [
+          "Spider-Man",
+          "Peter Parker",
+          "Iron Man",
+          "superhero",
+          "superhero figure",
+          "technology",
+          "sarcastic humor",
+          "personal goals"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Motivational cork board and family photo",
+        "keywords": [
+          "cork board",
+          "motivational quotes",
+          "photos",
+          "keepsakes",
+          "family photo",
+          "family support",
+          "motivation",
+          "room decor"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.61871,
+    "thread_setup_seconds": 0.131962,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.61871,
+    "turn_seconds": 8.486749,
+    "first_text_seconds": 6.425361,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10657,
+      "completion_tokens": 337,
+      "total_tokens": 10994,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 154
+    }
+  },
+  "error": null
+}

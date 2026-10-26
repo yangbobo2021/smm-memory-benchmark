@@ -1,0 +1,163 @@
+{
+  "source_id": "cf849f5da2d43d7ff8d50a01b",
+  "source_sha256": "5d117b8166b8a236bb60208ecd74344595f2a62db08550d401ccd95d72e67bae",
+  "request_sha256": "afb3027745321fe4362c295b1d274d799110e1ff09e4362591560cd05df05017",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf849f5da2d43d7ff8d50a01b",
+    "source_sha256": "5d117b8166b8a236bb60208ecd74344595f2a62db08550d401ccd95d72e67bae",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam, good to hear from you. I've hit a bit of a snag - my new Prius, the one I just bought, broke down. It's a bit of a stressor since I rely on it for my active lifestyle and road trips. It's frustrating when new things go awry so soon."
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan, that's rough. Dealing with a new car breaking down is such a hassle, especially when it's your main mode of transport."
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "You're telling me. I was really counting on this new Prius to be reliable. It's always a challenge when you have to deal with unexpected issues like this. But, I guess it's just one of those things - even new cars can have problems."
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "It's tough when your plans get derailed by something like this. But hey, sometimes these setbacks lead to new opportunities."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "True, I'm trying to see it as a chance to explore other ways of staying active and traveling. Maybe it's an opportunity to try something different."
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "Exactly, it's all about finding the silver lining. Speaking of new things, I attended a Weight Watchers meeting yesterday. Learned some great tips."
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "That smoothie bowl looks fantastic! How was the meeting? Yeah, I've been thinking about trying yoga, something gentle yet effective for stress relief and flexibility. What's your take on it, Sam?"
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "The meeting was really insightful, and that smoothie bowl was a hit! Yoga's a great choice, it's done wonders for my flexibility and stress levels. You should definitely try it."
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "I think I will. Thanks for the suggestion, Sam."
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "Anytime, Evan. If you need any yoga tips or anything else, just let me know."
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "Your support's been invaluable. Thanks again, Sam!"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "No worries, Evan. We all need a bit of help when trying new things. It's great to have support."
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Absolutely. It makes a big difference knowing you're not alone in these situations."
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "Definitely. Take care, and let me know how the yoga goes. Bye!"
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "Will do. Thanks for everything, Sam. Talk soon. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Evan’s new Prius breakdown",
+        "keywords": [
+          "Evan",
+          "Sam",
+          "Prius",
+          "car breakdown",
+          "reliability",
+          "active lifestyle",
+          "road trips",
+          "unexpected issue"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Weight Watchers and trying yoga",
+        "keywords": [
+          "Evan",
+          "Sam",
+          "Weight Watchers",
+          "meeting",
+          "smoothie bowl",
+          "yoga",
+          "flexibility",
+          "stress relief",
+          "support"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.712463,
+    "thread_setup_seconds": 0.128355,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.712463,
+    "turn_seconds": 9.584108,
+    "first_text_seconds": 8.510607,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10574,
+      "completion_tokens": 295,
+      "total_tokens": 10869,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 167
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,195 @@
+{
+  "source_id": "c099c629be363928b0b525ceb",
+  "source_sha256": "55440e7def9dcf2e418b94e64c2677cc1a6d88fb54beb9f98e8a04ab6812bf1f",
+  "request_sha256": "25706c8820e6c30c1a6a4216260d2563b7dd7e35c26c6d47204b463675192ece",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c099c629be363928b0b525ceb",
+    "source_sha256": "55440e7def9dcf2e418b94e64c2677cc1a6d88fb54beb9f98e8a04ab6812bf1f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Hey Evan, I need to talk to you. My friends were mocking my weight last Friday and it hurt. That made me realize I need to make changes."
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "Hey Sam, sorry about that. Don't worry, progress takes time. Let's work on it together."
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Thanks for the support, Evan. I'm working on my health and getting active!"
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "That's great, Sam! I struggled with my health a few years ago, but stuck with it. Here's a reminder of my commitment - my gym membership card. It's not just about exercise, diet and lifestyle changes also play a big role."
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "That's awesome, Evan! What do you think made the biggest impact on your health journey?"
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "I made some dietary changes, like cutting down on sugary snacks and eating more veggies and fruit, and it made a big impact on my health. Have you considered any changes?"
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "Yep, I'm reducing my soda and candy intake. It's tough, but I'm determined to make a change."
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "Go for it, Sam! It's tough at first, but you got this. Try flavored seltzer water instead. It can be a great alternative to soda. Btw I can't stop thinking about that new mystery novel I started. It's so gripping!"
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "Sounds good, Evan. I've tried it before and it was nice. Do you have any ideas for low-calorie snacks to pair with it? And what's the novel?"
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "Definitely, how about some flavored seltzer with some air-popped popcorn or fruit? It's yum and healthy! The novel I'm reading is \"The Great Gatsby\"."
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "Yum, that sounds good! Thanks! And I'll definitely read that novel sometime."
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "No worries, Sam! Focus on healthy swaps and taking small steps. Stay upbeat!"
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "That reminder is inspiring. Thanks for reminding me to focus on progress, not perfection."
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "By the way, have you thought about exercising? Trust me, it's just as important as eating right."
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Starting tomorrow, I will go to the gym and exercise regularly. The sooner I start, the sooner I will see the rewards of this activity."
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "That's awesome, Sam! It's such a rewarding and tough activity - keep going and have fun!"
+      },
+      {
+        "turn": 16,
+        "role": "Sam",
+        "text": "Thanks, Evan! Your support means a lot. I really appreciate it."
+      },
+      {
+        "turn": 17,
+        "role": "Evan",
+        "text": "No worries, you've got this!"
+      },
+      {
+        "turn": 18,
+        "role": "Sam",
+        "text": "Thanks, Evan. I really appreciate it."
+      },
+      {
+        "turn": 19,
+        "role": "Evan",
+        "text": "No worries, Sam. I'm here if you need me. Keep going!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Sam’s health and fitness changes",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "weight-related teasing",
+          "health journey",
+          "dietary changes",
+          "sugary snacks",
+          "soda",
+          "fruit and vegetables",
+          "flavored seltzer",
+          "low-calorie snacks",
+          "gym",
+          "exercise"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "label": "Mystery novel conversation",
+        "keywords": [
+          "mystery novel",
+          "The Great Gatsby",
+          "reading"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.526257,
+    "thread_setup_seconds": 0.076753,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.526257,
+    "turn_seconds": 8.449503,
+    "first_text_seconds": 6.710904,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10701,
+      "completion_tokens": 264,
+      "total_tokens": 10965,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 116
+    }
+  },
+  "error": null
+}

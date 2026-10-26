@@ -1,0 +1,217 @@
+{
+  "source_id": "ce58fa7a79aad99ab659c719b",
+  "source_sha256": "5f950572578950ca8d976a1f9032ec65d31313ea51e2ca80940ab7f8f10db69f",
+  "request_sha256": "4fcad8bc61049809c23eab6c8ec46bef314ddc268dab07d70badc21f65e817d2",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ce58fa7a79aad99ab659c719b",
+    "source_sha256": "5f950572578950ca8d976a1f9032ec65d31313ea51e2ca80940ab7f8f10db69f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hey Jolene, had a tough week. Storm forced us to cancel our yoga getaway."
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Sorry to hear about it. How are you feeling now?"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "I was bummed about it, but I'm doing better now. It was just a setback, but I found comfort in my work and spending time at home. Reminds me to be grateful for the little things. And you? How's it going?"
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "My partner and I plan a camping trip to connect with nature and practice yoga."
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "It can be both good and tough to plan activities with a busy schedule - what strategies do you use?"
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "Having a routine helps me stay on top of everything I need to do. I have a schedule for classes, studying, and personal time. Self-care activities like yoga and meditation help me stay balanced and relax."
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "I'd love to learn more about how you do it."
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": " I can tell you about it if you're interested. It took a bit of experimenting, but it's really helped me."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "Sounds great! Let's set up a coffee date and talk about it!"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "Wanna meet up at that cafe next Monday? Let's try fresh pastries."
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": "Sounds good, Jolene! When did you have in mind? That cafe rocks."
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "How about Wednesday at 4? Can't wait to catch up over coffee!"
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "That pic looks so peaceful. Reminded me of a cool hidden coffee shop near me. Rate it!"
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "Tell me more about it when we meet, maybe next time we’ll be there."
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "Sorry, I remembered that I already have plans for this day."
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": "Now I'll see when it's more convenient for me."
+      },
+      {
+        "turn": 16,
+        "role": "Deborah",
+        "text": "Thank you for your understanding, I'm waiting."
+      },
+      {
+        "turn": 17,
+        "role": "Jolene",
+        "text": "How about Friday at 5? I will need to sort out the books from this bookcase and I will be free."
+      },
+      {
+        "turn": 18,
+        "role": "Deborah",
+        "text": "Absolutely, let's do that! Can't wait for our coffee date next week. See you then. Stay safe!"
+      },
+      {
+        "turn": 19,
+        "role": "Jolene",
+        "text": "See ya soon, Deb! Be safe and I'm excited for our coffee date!"
+      },
+      {
+        "turn": 20,
+        "role": "Deborah",
+        "text": "Maybe just grab me some interesting books!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Canceled yoga getaway and coping",
+        "keywords": [
+          "Deborah",
+          "Jolene",
+          "storm",
+          "canceled yoga getaway",
+          "disappointment",
+          "work",
+          "time at home",
+          "gratitude"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Routine, self-care, and camping plans",
+        "keywords": [
+          "Jolene",
+          "partner",
+          "camping trip",
+          "nature",
+          "yoga",
+          "routine",
+          "schedule",
+          "classes",
+          "studying",
+          "meditation"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Coffee date plans and cafe ideas",
+        "keywords": [
+          "coffee date",
+          "cafe",
+          "fresh pastries",
+          "next Monday",
+          "Wednesday at 4",
+          "Friday at 5",
+          "hidden coffee shop",
+          "rescheduling",
+          "bookcase",
+          "interesting books"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.779527,
+    "thread_setup_seconds": 0.236148,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.779527,
+    "turn_seconds": 12.54338,
+    "first_text_seconds": 10.685414,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10653,
+      "completion_tokens": 451,
+      "total_tokens": 11104,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 255
+    }
+  },
+  "error": null
+}

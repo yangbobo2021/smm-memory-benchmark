@@ -1,0 +1,168 @@
+{
+  "source_id": "c1a8a7bafb176afe97c2f6f73",
+  "source_sha256": "1bff36ef06d8a718d7a5b15d0c68176f2901fae841cab98cf7b64547cd615e34",
+  "request_sha256": "18ed592a53c4991d5302c03dd9a944e00893df2470488cfcd529bdfa8fecc199",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c1a8a7bafb176afe97c2f6f73",
+    "source_sha256": "1bff36ef06d8a718d7a5b15d0c68176f2901fae841cab98cf7b64547cd615e34",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Morning, Evan. I've been trying to keep up with my new health routine, but it's tough. My family's really pushing for it, and I feel so pressured."
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "I hear you, Sam. It's important to have people who encourage you, but not stress you out. By the way, I just got back from my morning walk. It really helps to start the day actively."
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Yeah, it's easier when you have a great support system. Thanks for being there for me."
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "No worries, Sam. I'll be there for you. Take it slow and treat yourself."
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "Thanks for the reminder to take it easy. I sometimes get impatient with myself when I want results fast, but I gotta be patient."
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "Yep, progress takes time. So just take it one step at a time."
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "Yes, you're right, Evan. Taking it slow is better than doing too much. I appreciate your support."
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "I get it, Sam. I went through a similar phase a twoyears ago. Changed my diet, started walking regularly, things like that."
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "Wow, Evan, you look great! How did you manage the change?"
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "I started focusing more on my well-being rather than fixating on quick results. Letting go of that pressure made a huge difference."
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "That's impressive, Evan. It's inspiring to see how you transformed by changing your mindset."
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "Thanks, Sam. Letting go of unrealistic expectations was liberating, both physically and mentally."
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "You're really doing great, Evan! I want to feel that same sense of freedom."
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "Thanks, Sam. Just take it one day at a time. Celebrate small victories."
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Thanks, Evan! Focusing on small wins sounds like a plan. I'll take it one day at a time."
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "Exactly! Congrats on every little victory. Keep it up, I'm here for you."
+      },
+      {
+        "turn": 16,
+        "role": "Sam",
+        "text": "Your support means everything. Here's to moving forward!"
+      },
+      {
+        "turn": 17,
+        "role": "Evan",
+        "text": "Anytime, Sam! Let's keep pushing ahead. I'm here to help you. Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Sam’s health-routine motivation and support",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "health routine",
+          "family pressure",
+          "support system",
+          "morning walk",
+          "diet change",
+          "well-being",
+          "patience",
+          "small victories",
+          "two years ago"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 5.34524,
+    "thread_setup_seconds": 0.179325,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.34524,
+    "turn_seconds": 5.165915,
+    "first_text_seconds": 4.243602,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10595,
+      "completion_tokens": 187,
+      "total_tokens": 10782,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 83
+    }
+  },
+  "error": null
+}

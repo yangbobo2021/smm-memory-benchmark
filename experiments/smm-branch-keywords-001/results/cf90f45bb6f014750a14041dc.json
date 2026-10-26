@@ -1,0 +1,196 @@
+{
+  "source_id": "cf90f45bb6f014750a14041dc",
+  "source_sha256": "86a920eada3c75092f8703d089a90e256a48078aead890a8eea8ab62b1329681",
+  "request_sha256": "1a24491cdd2a8fb201da97f51c0592a232d226b066e56882c9e7808fdaaf7f74",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf90f45bb6f014750a14041dc",
+    "source_sha256": "86a920eada3c75092f8703d089a90e256a48078aead890a8eea8ab62b1329681",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jon",
+        "text": "Hi Gina! Been hectic for me lately. Started hitting the gym last week to stay on track with the venture. Gotta figure out how to balance it all, but it's going well. How about you?"
+      },
+      {
+        "turn": 1,
+        "role": "Gina",
+        "text": "Hey Jon! Great to hear from you. Been having some tough times lately."
+      },
+      {
+        "turn": 2,
+        "role": "Jon",
+        "text": "Oof, sorry to hear that. What's up? Is there anything I can do to help?"
+      },
+      {
+        "turn": 3,
+        "role": "Gina",
+        "text": "Thanks, Jon! Appreciate your offer. Since I lost my job at Door Dash, things have been tough. But here's some good news - I've got something to share!"
+      },
+      {
+        "turn": 4,
+        "role": "Jon",
+        "text": "Wow, that's awesome! Can't wait to hear it!"
+      },
+      {
+        "turn": 5,
+        "role": "Gina",
+        "text": "Yay! My online clothes store is open! I've been dreaming of this for a while now - can't wait to see what happens!"
+      },
+      {
+        "turn": 6,
+        "role": "Jon",
+        "text": "Congrats! That's awesome! What gave you the idea to start the online store?"
+      },
+      {
+        "turn": 7,
+        "role": "Gina",
+        "text": "Thanks! I'm passionate about fashion trends and finding unique pieces. Plus, I wanted to blend my love for dance and fashion, so it was a perfect match."
+      },
+      {
+        "turn": 8,
+        "role": "Jon",
+        "text": "Wow, that's awesome! Combining your two interests into a store is super cool. Best of luck with it!"
+      },
+      {
+        "turn": 9,
+        "role": "Gina",
+        "text": "Thanks! How is biz going? I hope it's going well!"
+      },
+      {
+        "turn": 10,
+        "role": "Jon",
+        "text": "Thanks for askin', Gina! Losing my job was hard, but I'm livin' my dreams now. Startin' my biz has been tough but I'm gonna make it! I keep facing new challenges, but I'm sure it'll be worth it in the end."
+      },
+      {
+        "turn": 11,
+        "role": "Gina",
+        "text": "Yeah, starting and running my own biz has had its ups and downs - but it's been an amazing ride!"
+      },
+      {
+        "turn": 12,
+        "role": "Jon",
+        "text": "Yeah, it's been a rollercoaster. But your success really inspires me to keep pushing forward. Your determination is awesome!"
+      },
+      {
+        "turn": 13,
+        "role": "Gina",
+        "text": "Thanks, Jon! Your words are really encouraging. Glad my journey is inspiring others."
+      },
+      {
+        "turn": 14,
+        "role": "Jon",
+        "text": "Yeah, totally! It's great we both face the same challenges, it motivates us and it's like having a partner to dance with!"
+      },
+      {
+        "turn": 15,
+        "role": "Gina",
+        "text": "Yep! We're both on different paths, but it's nice to have someone to root for us. We can do it!"
+      },
+      {
+        "turn": 16,
+        "role": "Jon",
+        "text": "Definitely! Having someone back us up is great. Let's keep going and reach success together!"
+      },
+      {
+        "turn": 17,
+        "role": "Gina",
+        "text": "Let's keep chasing our dreams, supporting each other, and celebrating achievements. We can do great things together!"
+      },
+      {
+        "turn": 18,
+        "role": "Jon",
+        "text": "Yeah, Gina, thanks for having my back. Here's to taking on new heights, and all the trials that come with it. Cheers!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Jon’s gym routine and venture balance",
+        "keywords": [
+          "Jon",
+          "gym",
+          "venture",
+          "work-life balance",
+          "last week"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Gina’s DoorDash job loss and online clothing store launch",
+        "keywords": [
+          "Gina",
+          "DoorDash",
+          "job loss",
+          "online clothing store",
+          "fashion trends",
+          "dance",
+          "unique clothing"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Shared business challenges and mutual encouragement",
+        "keywords": [
+          "Jon",
+          "Gina",
+          "business startup",
+          "business challenges",
+          "entrepreneurship",
+          "support",
+          "success"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.41136,
+    "thread_setup_seconds": 0.117422,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.41136,
+    "turn_seconds": 9.293939,
+    "first_text_seconds": 7.608417,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10679,
+      "completion_tokens": 442,
+      "total_tokens": 11121,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 279
+    }
+  },
+  "error": null
+}

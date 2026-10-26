@@ -1,0 +1,192 @@
+{
+  "source_id": "cef25b6be8959d13615d190d1",
+  "source_sha256": "aebbfd02679daf510d46b6be5c620f4b3f0f5ce86b4f5ce41316e580a21327f0",
+  "request_sha256": "895509058eebbb9d8527a0c1711c8dba47edc63138834b6197d4dd4e1e7fc52d",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cef25b6be8959d13615d190d1",
+    "source_sha256": "aebbfd02679daf510d46b6be5c620f4b3f0f5ce86b4f5ce41316e580a21327f0",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria, great to chat again! I joined a service-focused online group last week and it's been an emotional ride. Everyone there is incredible with their own inspiring stories. They've opened my eyes to new perspectives, and I'm feeling a sense of connection and purpose with them."
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Wow, John! That's amazing news. It's great to see you finding such a supportive community that is making a difference."
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Thanks, Maria! It's great to have a group of people with the same passion for serving. It's been really inspiring sharing stories, advice, and encouragement."
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "That's great to hear! It's always inspiring to share thos things with like-minded individuals. By the way, have you had the chance to meet any of them in person?\n"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "We held some events and got to meet some people. We went to a homeless shelter to give out food and supplies. Seeing the smiles on their faces, we knew we made a real difference. We also organized a toy drive for kids in need. It was amazing seeing the community come together to spread some joy."
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "That sounds great, John. It's nice to see the difference you're making. Do you have any ideas for future projects?"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "We're brainstorming some to help underserved communities get access to education, mentorship, job training, and resume building. The goal is to empower individuals in achieving their aspirations."
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "That's great, John! Empowering individuals through education and mentorship is crucial for helping them reach their goals. Can't wait to see the initiatives you come up with!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Thanks, Maria! I'm really excited about them too. I believe that providing the right assistance and resources can make a lasting impact."
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "Yep John, a bit of support can make an amazing change. You're spot on about it, it really is powerful. Keep doing what you're doing, it's really inspiring!"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Thanks, Maria! I really appreciate your support, It means a lot to me. Especially after I failed the military aptitude test recently, I've been feeling a bit stressed out."
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "No worries, John. I'm here for you and I got your back. Nature's beauty reminds me to slow down and enjoy the small stuff."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "That's a chill pic! Where did you find it?"
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "I took it at the beach last month. Watching the sunset was so peaceful, it made me feel connected to nature and appreciate life's small moments."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Wow, nature can be so beautiful! It reminds me of the film camera I had as a kid, I took plenty of beach pics. Thanks for sharing."
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "Glad you enjoyed it, John! It's amazing how beautiful it can be."
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Yeah, it does. It helps us remember the small joys, especially when life gets busy."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Service community and outreach projects",
+        "keywords": [
+          "John",
+          "Maria",
+          "online service group",
+          "volunteering",
+          "homeless shelter",
+          "food and supplies",
+          "toy drive",
+          "underserved communities",
+          "education and mentorship",
+          "job training",
+          "resume building"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Military aptitude test setback",
+        "keywords": [
+          "John",
+          "military aptitude test",
+          "failed test",
+          "stress",
+          "emotional support",
+          "Maria"
+        ],
+        "turns": [
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Beach sunset and childhood photography",
+        "keywords": [
+          "Maria",
+          "beach",
+          "sunset",
+          "nature",
+          "small joys",
+          "film camera",
+          "childhood",
+          "beach photographs",
+          "last month"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.880959,
+    "thread_setup_seconds": 0.211986,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.880959,
+    "turn_seconds": 9.668973,
+    "first_text_seconds": 7.931286,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10712,
+      "completion_tokens": 344,
+      "total_tokens": 11056,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 167
+    }
+  },
+  "error": null
+}

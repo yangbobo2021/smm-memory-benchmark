@@ -1,0 +1,172 @@
+{
+  "source_id": "c1c393bf410c5ae3d8d75a966",
+  "source_sha256": "e55fc070c6af67cf10c69fb803ba3af67756d38122ebeb4536f83b69342ccd86",
+  "request_sha256": "bd7e8ae2e04c84675aded1f83ab09f50849df46e3bcee88b86d24854a9bcbde3",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c1c393bf410c5ae3d8d75a966",
+    "source_sha256": "e55fc070c6af67cf10c69fb803ba3af67756d38122ebeb4536f83b69342ccd86",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Calvin! Long time no talk. How's it going? Crazy news - I'm teaming up with a local garage. Take a look at what we working on together!"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave, great to hear from you! That's awesome news about teaming up with a local garage. Super inspiring seeing you follow your passion. Congratulations on this new venture. It's impressive how far you've come since we last chatted. How's everything going?"
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "Thanks, Calvin! I'm loving this job. I get to work with awesome mechanics and share my knowledge about cars. Here's what I'm currently working on! It's a cool project, even if it's a bit challenging. 🤩"
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "That car looks awesome! You're putting in a lot of effort and it's great to see the end result. Keep up the good work. Got any plans for what's next?"
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Thanks Calvin! Appreciate the support. I'm gonna keep learning more about auto engineering, maybe even build a custom car from scratch someday - that's the dream! For now, just gonna keep working on this project and assisting customers."
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Wow, Dave! You're so inspiring - good for you for pushing yourself to achieve your dream. Making a custom car sounds awesome. Don't forget to relax and enjoy the process too!"
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Gotta take time to chill. Do you have any hobbies that help you relax?"
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "Hey Dave, long drives in [this car] really help me relax. The feeling of the wind and the open road is so freeing. It helps me clear my head. What do you like to do to chill out? "
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "Yeah, I hear you! Driving with the wind in your hair is so calming. Taking a walk around is a great way to destress, too. Exploring, taking in the sights and sounds - it's such a peaceful experience."
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Yea, I totally hear ya. Embracing nature has been really calming for me too. I've been loving getting to know Japanese culture. On the other hand, I'm stuck with my music at the moment, like my creativity's frozen or something. Any tips?"
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "If I'm having trouble coming up with ideas, I usually immerse myself in something I love, like concerts or my favorite albums. Doing that usually helps to jumpstart my inspiration. Maybe try taking a break from music and explore other things. Plus, have some fun while you're at it!"
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Taking a break is great for getting my mojo back. I'll definitely take your advice and explore. Appreciate the help! You're awesome!"
+      },
+      {
+        "turn": 12,
+        "role": "Dave",
+        "text": "No worries, Calvin! Glad I could help. Keep pursuing your music and never give up. You're awesome! 🤘"
+      },
+      {
+        "turn": 13,
+        "role": "Calvin",
+        "text": "Thanks, appreciate it. Won't give up. Let's stay in touch! Bye!"
+      },
+      {
+        "turn": 14,
+        "role": "Dave",
+        "text": "Sure, Calvin! Keep in touch. If you ever need help, just let me know. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dave’s garage work and custom-car dream",
+        "keywords": [
+          "Dave",
+          "Calvin",
+          "local garage",
+          "auto engineering",
+          "mechanics",
+          "car project",
+          "customer assistance",
+          "custom car"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Relaxation through driving and walks",
+        "keywords": [
+          "long drives",
+          "open road",
+          "relaxation",
+          "walking",
+          "destressing",
+          "nature"
+        ],
+        "turns": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Japanese culture and overcoming a music block",
+        "keywords": [
+          "Japanese culture",
+          "music creativity",
+          "creative block",
+          "inspiration",
+          "concerts",
+          "favorite albums",
+          "taking a break"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.272007,
+    "thread_setup_seconds": 0.156214,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.272007,
+    "turn_seconds": 9.115793,
+    "first_text_seconds": 7.664743,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10723,
+      "completion_tokens": 256,
+      "total_tokens": 10979,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 101
+    }
+  },
+  "error": null
+}

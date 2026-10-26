@@ -1,0 +1,216 @@
+{
+  "source_id": "cb4bd95586355fe3bfcd49754",
+  "source_sha256": "690fc3982f5791841a37c1d924d2f99379dd7625527c20d01a181d489ccd8710",
+  "request_sha256": "35e076e0c9060b67b005efeef6579f0fad7bfb9592a61db31b173c556471f1eb",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cb4bd95586355fe3bfcd49754",
+    "source_sha256": "690fc3982f5791841a37c1d924d2f99379dd7625527c20d01a181d489ccd8710",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Tim, nice to meet you! What's up? Anything new happening?"
+      },
+      {
+        "turn": 1,
+        "role": "Tim",
+        "text": "Hey John! Great to meet you. Been discussing collaborations for a Harry Potter fan project I am working on - super excited! Anything interesting happening for you?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "That's great! I just signed with a new team - excited for the season!"
+      },
+      {
+        "turn": 3,
+        "role": "Tim",
+        "text": "Woohoo! Congrats on the new team. Which team did you sign with?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "The Minnesota Wolves! I can't wait to play with them!"
+      },
+      {
+        "turn": 5,
+        "role": "Tim",
+        "text": "Cool! What position are you playing for the team? Any exciting games coming up?"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "I'm a shooting guard for the team and our season opener is next week - so excited!"
+      },
+      {
+        "turn": 7,
+        "role": "Tim",
+        "text": "Cool! Have any goals in mind?"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Yeah, my goal is to improve my shooting percentage. Been practicing hard and gonna make it happen."
+      },
+      {
+        "turn": 9,
+        "role": "Tim",
+        "text": "Sounds good! What challenges have you encountered during your pre-season training?"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Fitting into the new team's style of play was a challenge during pre-season."
+      },
+      {
+        "turn": 11,
+        "role": "Tim",
+        "text": "That sounds rough. How are things going with the new team?"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Things are going well! The team has been really nice and I'm having fun. How's your fan project coming along?"
+      },
+      {
+        "turn": 13,
+        "role": "Tim",
+        "text": "It's been going well! Last week I talked to my friend who is a fan of Harry Potter and we're figuring out ideas, so it's been great to get lost in that magical world!"
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "That's great! Loving it when people are passionate about their work. What kind of collaborations are you involved in for the fan project? I love talking to people about my sneaker collection."
+      },
+      {
+        "turn": 15,
+        "role": "Tim",
+        "text": "Thanks! We'll be discussing various aspects of the Harry Potter universe, like characters, spells, and magical creatures. It's great to see fans coming together for this."
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Wow! Have you been to any places related to it?"
+      },
+      {
+        "turn": 17,
+        "role": "Tim",
+        "text": "I went to a place in London a few years ago - it was like walking into a Harry Potter movie! I also went on a tour which was amazing. Have you been to any of the real Potter places? I'd love to explore them someday!"
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "No, but it sounds fun! Going to those places is definitely on my to-do list."
+      },
+      {
+        "turn": 19,
+        "role": "Tim",
+        "text": "Definitely add it to your list! It's a really fun experience. Let me know if you need any tips for visiting. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s Minnesota Wolves basketball season",
+        "keywords": [
+          "John",
+          "Minnesota Wolves",
+          "shooting guard",
+          "season opener",
+          "next week",
+          "shooting percentage",
+          "pre-season training",
+          "team play style"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "Tim’s Harry Potter fan project",
+        "keywords": [
+          "Tim",
+          "Harry Potter",
+          "fan project",
+          "collaboration",
+          "characters",
+          "spells",
+          "magical creatures",
+          "fan discussions"
+        ],
+        "turns": [
+          1,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "Harry Potter places and London tour",
+        "keywords": [
+          "Harry Potter",
+          "London",
+          "film-related place",
+          "tour",
+          "visiting",
+          "to-do list"
+        ],
+        "turns": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "label": "John’s sneaker collection",
+        "keywords": [
+          "John",
+          "sneaker collection",
+          "talking to people"
+        ],
+        "turns": [
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.634725,
+    "thread_setup_seconds": 0.18919,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.634725,
+    "turn_seconds": 7.445535,
+    "first_text_seconds": 5.737815,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10646,
+      "completion_tokens": 386,
+      "total_tokens": 11032,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 185
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,186 @@
+{
+  "source_id": "cdb131035d8d890ad1c33325e",
+  "source_sha256": "1cb43056ba4393ef5161638ab2ee3a80299e5bd4cdb2ed1e6597f033f0fdd39b",
+  "request_sha256": "81affe35a5473f90934e0b8653c43f8b6b3700f6fbc5b848b5964482c04a4a5d",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cdb131035d8d890ad1c33325e",
+    "source_sha256": "1cb43056ba4393ef5161638ab2ee3a80299e5bd4cdb2ed1e6597f033f0fdd39b",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria, how's it going? Been real busy tackling a project to support military veterans. Trying to get a petition going, it's pretty rewarding but kinda stressful. How are you?"
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Hey John, I'm good. Sorry to hear it's been rough. How did you decide to take on that project?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Hi Maria, thanks for asking. I've always been passionate about veterans and their rights. Last week, I realized again how much they've done for us and wanted to show my appreciation in some way. So, I worked on a project to support them. It's my way of giving back."
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "Wow, John! What a kind gesture. It's really cool seeing you making a difference."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Thanks, Maria. It sure has taken a lot of work, but I think it's worth it. Just want to let them know their hard work is appreciated."
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Wow, John, that's awesome! Your project is going to be great for them!"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Yeah, I hope so. They've given so much and deserve our backing. I want to help make their lives better."
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "That's great, John! It's awesome that you're doing that."
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "I'm really passionate about making sure veterans are supported and valued in our community, so let's make it happen!"
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "Count me in, John! I'm in to help out with that. Let's make a difference together."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Awesome, Maria! I knew you'd be on board. With your help, we can make a real impact. Thank you so much! Here's a pic from last Friday with some veterans who are really excited about this. Their support keeps me motivated."
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "Wow, John, that looks great! What did you do to make them so happy?"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Thanks, Maria! We had a great time throwing a small party and inviting some veterans to share their stories. It was awesome seeing them make connections and find camaraderie. All the smiles and new friendships made it really heartwarming."
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "Wow, John, that's really heartwarming! Stories and connections can truly make a difference."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Yeah, Maria. It reminded me of that sense of community and togetherness. It made me realize how important it is to help veterans."
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "Yeah John! It's great to see how your project is making a difference for them. The sense of community and support really matters. Keep doing what you're doing; I'm here to back you up!"
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Thanks, Maria! Your support means a lot. Together, we can make a difference for our veterans!"
+      },
+      {
+        "turn": 17,
+        "role": "Maria",
+        "text": "Yep, John! Keep going and we'll make a difference! I'm currently planning a ring-toss tournament for the homeless shelter's fundraiser later this month, I can't wait to see the impact it will make. "
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "Wow, sounds fun! I can't wait to hear more about it. Talk to you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s veterans-support project",
+        "keywords": [
+          "John",
+          "Maria",
+          "military veterans",
+          "veterans’ rights",
+          "petition",
+          "community support",
+          "giving back",
+          "veterans’ story-sharing party",
+          "camaraderie",
+          "last Friday"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "label": "Homeless shelter fundraiser tournament",
+        "keywords": [
+          "Maria",
+          "John",
+          "homeless shelter",
+          "fundraiser",
+          "ring-toss tournament",
+          "later this month"
+        ],
+        "turns": [
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 5.754883,
+    "thread_setup_seconds": 0.209955,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.754883,
+    "turn_seconds": 5.544928,
+    "first_text_seconds": 4.402796,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10748,
+      "completion_tokens": 200,
+      "total_tokens": 10948,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 59
+    }
+  },
+  "error": null
+}

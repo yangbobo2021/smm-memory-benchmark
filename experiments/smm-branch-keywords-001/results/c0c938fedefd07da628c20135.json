@@ -1,0 +1,167 @@
+{
+  "source_id": "c0c938fedefd07da628c20135",
+  "source_sha256": "7319c34e81d5a30e798f2c0dd0fbcf588ff0405c4e2fe9ffa046c545c0724920",
+  "request_sha256": "018116a8e87f10f0ec57ef548f66ae8663f36feafe916a9cccb7444e58b88767",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c0c938fedefd07da628c20135",
+    "source_sha256": "7319c34e81d5a30e798f2c0dd0fbcf588ff0405c4e2fe9ffa046c545c0724920",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Andrew",
+        "text": "Hi Audrey! I had a great hike last weekend with some friends and my girlfriend at the spot we found recently. Nature was so peaceful – it was so nice to just relax and take it in. How's your week been? Anything exciting going on lately?"
+      },
+      {
+        "turn": 1,
+        "role": "Audrey",
+        "text": "Hey Andrew! That hike sounds great. Nature is good for the soul, right? My week's been good - taking care of my four doggies and making sure they're happy and healthy took up most of my free time. Also, exciting news! I signed up for a workshop about bonding with my pet next month. Can't wait to learn new stuff and strengthen my bond with my pets. What's up with you?"
+      },
+      {
+        "turn": 2,
+        "role": "Andrew",
+        "text": "That's awesome! Glad have the opportunity to bond with your pets. That workshop sounds cool. Where did you hear about it? And the one in the picture is adorable!"
+      },
+      {
+        "turn": 3,
+        "role": "Audrey",
+        "text": "I know right? I saw this workshop flyer at my local pet store. It was a positive reinforcement training class and I wanted to give it a shot. The volunteer in the store was nice enough to let me meet their dog – he was so friendly and playful!"
+      },
+      {
+        "turn": 4,
+        "role": "Andrew",
+        "text": "Cool! Positive reinforcement can really help you bond with your dogs. Do you think they'll catch on quickly?"
+      },
+      {
+        "turn": 5,
+        "role": "Audrey",
+        "text": "I'm sure they'll catch on really quick! They're quick learners and love rewards! Can't wait to learn how to train them better."
+      },
+      {
+        "turn": 6,
+        "role": "Andrew",
+        "text": "That's awesome! Keep me updated on their progress."
+      },
+      {
+        "turn": 7,
+        "role": "Audrey",
+        "text": "Definitely! I'll keep you updated on how it all goes and how my pups are doing. Fingers crossed they'll be extra behaved. And I'll let you know some tips on training your future dog as well!"
+      },
+      {
+        "turn": 8,
+        "role": "Andrew",
+        "text": "Thanks! I'm excited to hear about it. Have a great time at the workshop!"
+      },
+      {
+        "turn": 9,
+        "role": "Audrey",
+        "text": "I'll definitely have a good time and make the most of it. I'm sure this is a must learn for any dog owner."
+      },
+      {
+        "turn": 10,
+        "role": "Andrew",
+        "text": "You think so? Wow, you must be a good salesperson because I'm almost sold on this class haha."
+      },
+      {
+        "turn": 11,
+        "role": "Audrey",
+        "text": "Haha, I just think its important to have pets learn how to behave on a positive reinforcement way. Punishment is never the proper way for pets ya know?"
+      },
+      {
+        "turn": 12,
+        "role": "Andrew",
+        "text": "Yeah I would't want to be punished, let alone puppies and dogs."
+      },
+      {
+        "turn": 13,
+        "role": "Audrey",
+        "text": "Right!? I don't want to hurt any of my dogs. Just by thinking of it gives me pain."
+      },
+      {
+        "turn": 14,
+        "role": "Andrew",
+        "text": "Yeah I feel you. Anyways, let me look into their classes. I'll talk to you soon, have fun!"
+      },
+      {
+        "turn": 15,
+        "role": "Audrey",
+        "text": "Yup, ttyl!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Andrew’s weekend hike",
+        "keywords": [
+          "weekend hike",
+          "friends",
+          "girlfriend",
+          "nature",
+          "relaxation"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Audrey’s positive-reinforcement dog workshop",
+        "keywords": [
+          "Audrey",
+          "four dogs",
+          "pet bonding",
+          "positive reinforcement",
+          "training class",
+          "local pet store",
+          "workshop flyer",
+          "next month",
+          "rewards",
+          "punishment"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.487533,
+    "thread_setup_seconds": 0.157531,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.487533,
+    "turn_seconds": 7.330002,
+    "first_text_seconds": 6.505335,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10657,
+      "completion_tokens": 266,
+      "total_tokens": 10923,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 138
+    }
+  },
+  "error": null
+}

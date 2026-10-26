@@ -1,0 +1,215 @@
+{
+  "source_id": "c01d5f1bad856e63f2d259c53",
+  "source_sha256": "bd89ce4150b607998fe9667e1256eaaaf34a136c10d9b7762f05bb7c92f38e1b",
+  "request_sha256": "d25c46c7e102e37d55e63cfe89355ee2846a1514ac707c01b98f0641c4961610",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c01d5f1bad856e63f2d259c53",
+    "source_sha256": "bd89ce4150b607998fe9667e1256eaaaf34a136c10d9b7762f05bb7c92f38e1b",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Andrew",
+        "text": "Hey! Since we last spoke, I've been looking for a doggo to adopt - browsing websites, visiting shelters and asking friends of theirs. It's been both fun and annoying!"
+      },
+      {
+        "turn": 1,
+        "role": "Audrey",
+        "text": "Sounds like a fun and demanding task! Getting to meet new pups must bring so much happiness. What  do you think you can do to make the process smoother?"
+      },
+      {
+        "turn": 2,
+        "role": "Andrew",
+        "text": "Meeting all these adorable pups has been awesome! For those considering getting a pup, the size of living space and the exercise needs of the breed are important. For me, a person living in an apartment, a smaller dog would be best, but if one is active, consider getting one that loves to play and run."
+      },
+      {
+        "turn": 3,
+        "role": "Audrey",
+        "text": "That's some good advice! It's important to consider the space and energy needs of a dog."
+      },
+      {
+        "turn": 4,
+        "role": "Andrew",
+        "text": "Yeah! Finding a pet-friendly place to live has been tough too. I'm contacting landlords and checking out neighborhoods to find the perfect spot."
+      },
+      {
+        "turn": 5,
+        "role": "Audrey",
+        "text": "Guessing it's tough to find housing. Any particular part of town you want to live in?"
+      },
+      {
+        "turn": 6,
+        "role": "Andrew",
+        "text": "I'm looking for a place near a park or woods, so I can stay close to nature and give the dog a large open space to run around"
+      },
+      {
+        "turn": 7,
+        "role": "Audrey",
+        "text": "That's a good plan! I'm lucky to have a park near me - it's great for my pup's walks. Last Friday we took a road trip - we went to a beautiful national park and my dogs had a blast! It was an awesome trip!"
+      },
+      {
+        "turn": 8,
+        "role": "Andrew",
+        "text": "Nice! Glad the pups had a great road trip. Do you take them on road trips often?"
+      },
+      {
+        "turn": 9,
+        "role": "Audrey",
+        "text": "I take them on road trips once every couple of months. It's a great way for them to explore and stay active."
+      },
+      {
+        "turn": 10,
+        "role": "Andrew",
+        "text": "Wow, that's awesome! I really wish I could go on a road trip with a furry companion."
+      },
+      {
+        "turn": 11,
+        "role": "Audrey",
+        "text": "It's a cool experience. Having your furry friends on a road trip is an amazing experience. They make it really fun and exciting. It's definitely something to look forward to!"
+      },
+      {
+        "turn": 12,
+        "role": "Andrew",
+        "text": "Adding that to my bucket list! Can't wait for the day I actually go on a trip with my dog!"
+      },
+      {
+        "turn": 13,
+        "role": "Audrey",
+        "text": "Good luck with your search! Fingers crossed you find the perfect one."
+      },
+      {
+        "turn": 14,
+        "role": "Andrew",
+        "text": "Thanks! Your help is much appreciated. I'm still on the lookout for the perfect furry friend."
+      },
+      {
+        "turn": 15,
+        "role": "Audrey",
+        "text": "Not a problem, I'm glad to help! Good luck with your search!"
+      },
+      {
+        "turn": 16,
+        "role": "Andrew",
+        "text": "Thanks! I'll let you know how it goes. "
+      },
+      {
+        "turn": 17,
+        "role": "Audrey",
+        "text": "Definitely, keep me posted and let me know if you need any suggestions or help."
+      },
+      {
+        "turn": 18,
+        "role": "Andrew",
+        "text": "Will do! Really apprecieate it. "
+      },
+      {
+        "turn": 19,
+        "role": "Audrey",
+        "text": "Yup! You got it, I'll be expecting a pic of your dog soon! :)"
+      },
+      {
+        "turn": 20,
+        "role": "Andrew",
+        "text": "Haha I can't wait. I'll ttyl, gotta check out another shelter soon."
+      },
+      {
+        "turn": 21,
+        "role": "Audrey",
+        "text": "Have fun! Ttyl!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Adopting a suitable dog",
+        "keywords": [
+          "dog adoption",
+          "animal shelter",
+          "dog breed",
+          "apartment living",
+          "small dog",
+          "exercise needs",
+          "active dog",
+          "puppy search"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "label": "Pet-friendly housing near nature",
+        "keywords": [
+          "pet-friendly housing",
+          "landlord",
+          "neighborhood",
+          "park",
+          "woods",
+          "open space"
+        ],
+        "turns": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Road trips with dogs",
+        "keywords": [
+          "road trip",
+          "national park",
+          "dog walks",
+          "nature exploration",
+          "dog exercise",
+          "travel frequency"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.21211,
+    "thread_setup_seconds": 0.206632,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.21211,
+    "turn_seconds": 7.005478,
+    "first_text_seconds": 5.394479,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10775,
+      "completion_tokens": 325,
+      "total_tokens": 11100,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 158
+    }
+  },
+  "error": null
+}

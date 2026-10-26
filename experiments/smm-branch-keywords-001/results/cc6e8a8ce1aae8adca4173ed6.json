@@ -1,0 +1,202 @@
+{
+  "source_id": "cc6e8a8ce1aae8adca4173ed6",
+  "source_sha256": "b429e150dfb69b3d8d30abdb15b439f37528eb7e843e9b68486c894b678bd4cd",
+  "request_sha256": "3b7cd32ddd95d01523b788b678b0af1888d2e0e2d461e9f4ecbb7c19e121341b",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cc6e8a8ce1aae8adca4173ed6",
+    "source_sha256": "b429e150dfb69b3d8d30abdb15b439f37528eb7e843e9b68486c894b678bd4cd",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Melanie",
+        "text": "Hey Caroline, hope all's good! I had a quiet weekend after we went camping with my fam two weekends ago. It was great to unplug and hang with the kids. What've you been up to? Anything fun over the weekend?"
+      },
+      {
+        "turn": 1,
+        "role": "Caroline",
+        "text": "Hey Melanie! That sounds great! Last weekend I joined a mentorship program for LGBTQ youth - it's really rewarding to help the community."
+      },
+      {
+        "turn": 2,
+        "role": "Melanie",
+        "text": "Wow, Caroline! It's great that you're helping out. How's it going? Got any cool experiences you can share?"
+      },
+      {
+        "turn": 3,
+        "role": "Caroline",
+        "text": "The mentoring is going great! I've met some amazing young folks and supported them along the way. It's inspiring to see how resilient and strong they are."
+      },
+      {
+        "turn": 4,
+        "role": "Melanie",
+        "text": "Wow, Caroline, that sounds super rewarding! Young people's resilience is amazing. Care to share some stories?"
+      },
+      {
+        "turn": 5,
+        "role": "Caroline",
+        "text": "I mentor a transgender teen just like me. We've been working on building up confidence and finding positive strategies, and it's really been paying off! We had a great time at the LGBT pride event last month."
+      },
+      {
+        "turn": 6,
+        "role": "Melanie",
+        "text": "Caroline, awesome news that you two are getting along! What was it like for you both? Care to fill me in?"
+      },
+      {
+        "turn": 7,
+        "role": "Caroline",
+        "text": "The pride event was awesome! It was so encouraging to be surrounded by so much love and acceptance."
+      },
+      {
+        "turn": 8,
+        "role": "Melanie",
+        "text": "Wow! What's the best part you remember from it?"
+      },
+      {
+        "turn": 9,
+        "role": "Caroline",
+        "text": "Seeing my mentee's face light up when they saw the support was the best! Such a special moment."
+      },
+      {
+        "turn": 10,
+        "role": "Melanie",
+        "text": "Wow, Caroline! They must have felt so appreciated. It's awesome to see the difference we can make in each other's lives. Any other exciting LGBTQ advocacy stuff coming up?"
+      },
+      {
+        "turn": 11,
+        "role": "Caroline",
+        "text": "Yay! Next month I'm having an LGBTQ art show with my paintings - can't wait!"
+      },
+      {
+        "turn": 12,
+        "role": "Melanie",
+        "text": "Wow, Caroline, that sounds awesome! Can't wait to see your art - got any previews?"
+      },
+      {
+        "turn": 13,
+        "role": "Caroline",
+        "text": "Check out my painting for the art show! Hope you like it."
+      },
+      {
+        "turn": 14,
+        "role": "Melanie",
+        "text": "Wow, Caroline, that painting is awesome! Those colors are so vivid and the whole thing looks really unified. What inspired you?"
+      },
+      {
+        "turn": 15,
+        "role": "Caroline",
+        "text": "Thanks, Melanie! I painted this after I visited a LGBTQ center. I wanted to capture everyone's unity and strength."
+      },
+      {
+        "turn": 16,
+        "role": "Melanie",
+        "text": "Wow, Caroline! It really conveys unity and strength - such a gorgeous piece! My kids and I just finished another painting like our last one."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Family camping weekend",
+        "keywords": [
+          "Melanie",
+          "Caroline",
+          "camping",
+          "family",
+          "children",
+          "quiet weekend",
+          "unplugging"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "LGBTQ youth mentorship and Pride event",
+        "keywords": [
+          "Caroline",
+          "LGBTQ youth",
+          "mentorship program",
+          "transgender teen",
+          "confidence",
+          "resilience",
+          "LGBT Pride event",
+          "love and acceptance",
+          "last month"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Caroline’s LGBTQ art show painting",
+        "keywords": [
+          "Caroline",
+          "LGBTQ art show",
+          "painting",
+          "vivid colors",
+          "LGBTQ center",
+          "unity",
+          "strength",
+          "next month"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "label": "Melanie and her children’s painting",
+        "keywords": [
+          "Melanie",
+          "children",
+          "painting",
+          "another painting",
+          "family art"
+        ],
+        "turns": [
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.248426,
+    "thread_setup_seconds": 0.53005,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.248426,
+    "turn_seconds": 9.718376,
+    "first_text_seconds": 7.771523,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10635,
+      "completion_tokens": 446,
+      "total_tokens": 11081,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 236
+    }
+  },
+  "error": null
+}

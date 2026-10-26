@@ -1,0 +1,158 @@
+{
+  "source_id": "cf1bbd88d7372a272cdcd01f2",
+  "source_sha256": "a69c64207a4f489ccfc0a9adb45d0d53d861469cf4c1c26556b01c39c409a34f",
+  "request_sha256": "db3dd13f573b8a2a899916589022460322c1e49e129fb70f24d908a74e2e78de",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf1bbd88d7372a272cdcd01f2",
+    "source_sha256": "a69c64207a4f489ccfc0a9adb45d0d53d861469cf4c1c26556b01c39c409a34f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Since we last talked, I went to a networking event to meet more artists. So cool! The people I met will help me build up my fan base. Super excited about what it could lead to. You? Anything new since we last spoke?"
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Calvin! That's cool that you've been networking with other artists. Nice! I've been getting into photography recently. I've seen some amazing places and taken some great shots. Would you like to see them?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Yeah, show me what you got!"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Look at this magnificent sunset I captured on camera. It's truly breathtaking to witness such beautiful sunsets! The sky looks like it's on fire!"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Wow, that view looks awesome! What city is it? Have you taken any good pictures lately?"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "That's Boston, Cal! Check this out, I took this picture last month, and got a great shot - it was stunning!"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "Wow, that pic is amazing! In your last photo, is that the clock tower? I was there a few years back, it's such a beautiful city. You're so talented, Dave!"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Your kind words mean a lot. Yep, that's the clock tower in the last photo. I snapped it at sunset and the colors were stunning. Photography helps me capture and appreciate the beauty of nature. It's been an awesome creative outlet and I'm loving it."
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Wow, Dave! Sounds like you're having a blast with your photography. Hope it's bringing you lots of joy. By the way, how is your car project going?"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Hey Calvin, photography has been great for me! The car project is doing well - I just finished restoring it and it looks amazing. Wanna come by and check it out? How's everything with the music? Any updates?"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "That's awesome, Dave! Your car project sounds amazing. I've had some great collaborations recently and my album is almost finished. I'll send you some previews soon. Let me know when you're free for a catch-up."
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Cool, Calvin! Can't wait to hear it. Let me know when you're free and take it easy!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Cheers! I'll let you know when I'm free. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Calvin’s music career",
+        "keywords": [
+          "Calvin",
+          "networking event",
+          "artists",
+          "fan base",
+          "music collaborations",
+          "album",
+          "previews"
+        ],
+        "turns": [
+          0,
+          10
+        ]
+      },
+      {
+        "label": "Dave’s Boston photography",
+        "keywords": [
+          "Dave",
+          "photography",
+          "Boston",
+          "sunset",
+          "clock tower",
+          "last month",
+          "creative outlet"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Dave’s car restoration",
+        "keywords": [
+          "Dave",
+          "car project",
+          "restoring",
+          "finished restoration",
+          "come by"
+        ],
+        "turns": [
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 6.654989,
+    "thread_setup_seconds": 0.37093,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.654989,
+    "turn_seconds": 6.284059,
+    "first_text_seconds": 5.290276,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10570,
+      "completion_tokens": 309,
+      "total_tokens": 10879,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 175
+    }
+  },
+  "error": null
+}

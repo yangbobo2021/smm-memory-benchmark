@@ -1,0 +1,180 @@
+{
+  "source_id": "cbb821dcf1cbe29465f76da7d",
+  "source_sha256": "ca02e229006dd213db36777b338d02cb2463f6a8d823d70a6f654ecee0eb0dbf",
+  "request_sha256": "b8765caeb41ebe28404690070425b8a27cc87e9e4ffdee01e131fcff609d6a2b",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cbb821dcf1cbe29465f76da7d",
+    "source_sha256": "ca02e229006dd213db36777b338d02cb2463f6a8d823d70a6f654ecee0eb0dbf",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John! Long time no chat - I adopted a pup from a shelter in Stamford last week and my days have been so much happier with him in the fam. I named it Ned. Any progress on your gaming goals?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey James! Congrats on getting a pup! They really do make days brighter. I haven't made much progress with gaming lately, life's been busy with work and stuff but it's always nice to remember how happy gaming makes me. It's a good way to forget the stresses of life."
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "Thanks, John! Gaming really does help forget about the stresses of life. It's like heading into another world! Have you played any interesting games lately?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "I'm playing this new RPG that has a really cool story and world. It's kinda like getting transported to a futuristic dystopia."
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "Sounds great! Will I like it? I'm always up for trying new games."
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "You'll love it! It has a fun story and an awesome world. Plus, it has some tough gameplay. However, the game is a little laggy and sometimes produces errors. Here is one of them that I came across yesterday."
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "The game must still be raw. I'd rather wait until the bugs are completely fixed, and then I'll try it out."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Even with minor bugs, the game still looks great. The graphics are awesome and the gameplay is super immersive. I'm sure you should try it out now. I can send you a link."
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Okay, you convinced me. Well, I'll wait for the link then, thanks!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Cool, I'll send it to you. Let me know what you think after you check it out!"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "Cool, John! I'll check it out and let you know what I think. I'm excited to give it a try."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Thanks, James! Excited to hear your thoughts. Have a great time!"
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Cheers! Will do. Enjoy the gaming! Bye!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Bye for now!"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "See ya! Take care!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Ned puppy adoption",
+        "keywords": [
+          "James",
+          "Ned",
+          "shelter",
+          "Stamford",
+          "puppy adoption",
+          "last week"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Gaming goals and stress relief",
+        "keywords": [
+          "John",
+          "gaming goals",
+          "work",
+          "life stress",
+          "stress relief",
+          "immersive escape"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Buggy dystopian RPG recommendation",
+        "keywords": [
+          "John",
+          "James",
+          "RPG",
+          "futuristic dystopia",
+          "game story",
+          "lag",
+          "errors",
+          "game bugs",
+          "game link",
+          "trying a game"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.89975,
+    "thread_setup_seconds": 0.367938,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.89975,
+    "turn_seconds": 11.531811,
+    "first_text_seconds": 9.866739,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10554,
+      "completion_tokens": 292,
+      "total_tokens": 10846,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 134
+    }
+  },
+  "error": null
+}

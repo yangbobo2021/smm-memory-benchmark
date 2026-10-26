@@ -1,0 +1,189 @@
+{
+  "source_id": "c9e87d747219ed074b99d4fd0",
+  "source_sha256": "26383e062ac7b923e1ac6c62c8cb0186fc4f3c28260c2b034ea91b3766bf9e38",
+  "request_sha256": "54a778b252ae8401e610fda5e0593f8bb0f7608d24b6b1d33c0c42af9421f533",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c9e87d747219ed074b99d4fd0",
+    "source_sha256": "26383e062ac7b923e1ac6c62c8cb0186fc4f3c28260c2b034ea91b3766bf9e38",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave, long time no see! I just took my Ferrari for a service and it was so stressful. I'm kinda attached to it. Can you relate? What kind of hobbies give you a feeling of being restored?"
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Calvin, I understand the stress of getting a car serviced. Fixing cars is like therapy for me. Growing up working on cars with my dad, refurbishing them gives me a sense of fulfillment."
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Wow, Dave, that's awesome! Must feel great to have a hobby that makes you proud. Remember any good memories from working on cars with your dad?"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Yeah, definitely! I have fond memories of working on cars with my dad as a kid. We spent one summer restoring an old car. It was hard work, but seeing the end result and knowing that we did it together was really satisfying."
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "That's awesome, Dave! Working together on projects like that really brings people closer. Do you have any pictures from that time?"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Yes, I have one, take a look. It was a wonderful experience."
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "Aww, that's cool, Dave. Reminiscing is always fun! That pic you shared takes me back to my trip to the Ferrari dealership. I saw a lot of amazing cars, but as for me, my car is the best and  I'm pretty proud of this. Sure, it's just material, but it reminds me of my hard work and dedication. It really inspires me. Take a look at this beauty!"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Your car looks great, Calvin! I can tell why you're proud. Having something like that is motivating. It's like a reminder of what you can achieve."
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Seeing it everyday keeps me motivated and reminds me to keep pushing."
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Sounds like you're really motivated, Calvin. What's the biggest goal you're working towards, music-wise or something else?"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "My plan for now is to expand my brand worldwide and grow my fanbase. I want my music to reach more people and make an impact. Working with artists from around the globe and challenging myself to create special music are goals of mine too. Look at the photo of how I performed with the boys last night, they are great at the music!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Wow, Calvin! Working with different artists and crafting great sounds will definitely help you reach your goals. Keep it up and keep making a difference!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Your support and encouragement mean a lot to me. I'm determined to make my dreams come true."
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Glad to help, Calvin! Eager to see what you do. Keep at it and never forget your dreams!"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "Thanks, Dave! I appreciate your support, it means a lot to me. I'll keep going for my dreams."
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "No problem, Calvin! Just remember to stay focused and keep going. You've got this!"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "Thanks, Dave! I'll stay focused and keep going. Appreciate your belief!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Ferrari ownership and pride",
+        "keywords": [
+          "Calvin",
+          "Dave",
+          "Ferrari",
+          "car service",
+          "car dealership",
+          "car pride",
+          "motivation"
+        ],
+        "turns": [
+          0,
+          1,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Restoring cars with his father",
+        "keywords": [
+          "Dave",
+          "car restoration",
+          "father",
+          "childhood",
+          "summer",
+          "car repair",
+          "fulfillment"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Calvin’s music and global growth goals",
+        "keywords": [
+          "Calvin",
+          "Dave",
+          "music",
+          "brand expansion",
+          "worldwide fanbase",
+          "artist collaboration",
+          "live performance",
+          "last night",
+          "dreams"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.104049,
+    "thread_setup_seconds": 0.144218,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.104049,
+    "turn_seconds": 9.959831,
+    "first_text_seconds": 7.84289,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10756,
+      "completion_tokens": 417,
+      "total_tokens": 11173,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 251
+    }
+  },
+  "error": null
+}

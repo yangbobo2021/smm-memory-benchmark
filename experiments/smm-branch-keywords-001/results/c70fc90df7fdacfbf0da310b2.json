@@ -1,0 +1,202 @@
+{
+  "source_id": "c70fc90df7fdacfbf0da310b2",
+  "source_sha256": "7174317093fe0d051806ef2f6a93e368cc13cc16a2620520acd0b4af2541eefc",
+  "request_sha256": "1139ef2a6821e41ca36d3e29d654c2bbe1084e0f0d18664ffa30b3ea66fadebf",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c70fc90df7fdacfbf0da310b2",
+    "source_sha256": "7174317093fe0d051806ef2f6a93e368cc13cc16a2620520acd0b4af2541eefc",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jon",
+        "text": "Hey Gina, hope you're doing great! Still working on my biz. Took a short trip last week to Rome to clear my mind a little."
+      },
+      {
+        "turn": 1,
+        "role": "Gina",
+        "text": "Hi! Good for you! It definitely will help you to concentrate on your biz better."
+      },
+      {
+        "turn": 2,
+        "role": "Jon",
+        "text": "Thanks, Gina. Still working on opening a dance studio."
+      },
+      {
+        "turn": 3,
+        "role": "Gina",
+        "text": "When are you opening the studio?"
+      },
+      {
+        "turn": 4,
+        "role": "Jon",
+        "text": "The official opening night is tomorrow. I'm working hard to make everything just right. Can't wait to see it all come together!"
+      },
+      {
+        "turn": 5,
+        "role": "Gina",
+        "text": "Congrats, Jon! The studio looks amazing. You've put a lot of work into this and I'm so pumped for the launch tomorrow. Don't miss a beat!"
+      },
+      {
+        "turn": 6,
+        "role": "Jon",
+        "text": "Thanks, Gina! I'm excited! It's been a wild ride, but I'm feeling good and ready to give it my best."
+      },
+      {
+        "turn": 7,
+        "role": "Gina",
+        "text": "Wow, Jon, you must be so excited! You've come so far since we last talked, and tomorrow's gonna be a blast! All those long nights were worth it - so take some time to savor it. Capture the joy and thrill that dance brings - it's magical!"
+      },
+      {
+        "turn": 8,
+        "role": "Jon",
+        "text": "Tomorrow's gonna be an awesome night and I'm not gonna forget a second of it. I put so much into this and I want to savor all the good vibes. Thanks for always having my back. You're the best!"
+      },
+      {
+        "turn": 9,
+        "role": "Gina",
+        "text": "I'm always proud of you. Enjoy the good feels tomorrow, you earned it!"
+      },
+      {
+        "turn": 10,
+        "role": "Jon",
+        "text": "Thanks! Your pride and support mean a lot. Looking forward to enjoying the moment with you."
+      },
+      {
+        "turn": 11,
+        "role": "Gina",
+        "text": "I'll be right by your side, Jon. Let's live it up and make some great memories tomorrow. So excited!"
+      },
+      {
+        "turn": 12,
+        "role": "Jon",
+        "text": "Yeah! Let's make some awesome memories tomorrow at the grand opening!"
+      },
+      {
+        "turn": 13,
+        "role": "Gina",
+        "text": "Can't wait to make more memories at your dance studio!"
+      },
+      {
+        "turn": 14,
+        "role": "Jon",
+        "text": "Looking forward to more cool memories!"
+      },
+      {
+        "turn": 15,
+        "role": "Gina",
+        "text": "I love being around friends and having such a great time. Can't wait to have fun at your dance studio!"
+      },
+      {
+        "turn": 16,
+        "role": "Jon",
+        "text": "Agreed!"
+      },
+      {
+        "turn": 17,
+        "role": "Gina",
+        "text": "Can't wait for tomorrow's grand opening!"
+      },
+      {
+        "turn": 18,
+        "role": "Jon",
+        "text": "Woohoo! Tomorrow's opening will be so much fun. Can't wait for it - and for you to be there!"
+      },
+      {
+        "turn": 19,
+        "role": "Gina",
+        "text": "Can't wait too!"
+      },
+      {
+        "turn": 20,
+        "role": "Jon",
+        "text": "Definitely! Let's make tomorrow unforgettable, Gina. See you there! Bye!"
+      },
+      {
+        "turn": 21,
+        "role": "Gina",
+        "text": "See you tomorrow. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Rome trip",
+        "keywords": [
+          "Rome",
+          "short trip",
+          "last week",
+          "clear mind"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Dance studio grand opening",
+        "keywords": [
+          "Jon",
+          "Gina",
+          "dance studio",
+          "business",
+          "grand opening",
+          "official opening night",
+          "tomorrow",
+          "launch",
+          "friendship",
+          "celebration"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.684871,
+    "thread_setup_seconds": 0.188793,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.684871,
+    "turn_seconds": 9.496078,
+    "first_text_seconds": 9.343871,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10663,
+      "completion_tokens": 249,
+      "total_tokens": 10912,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 123
+    }
+  },
+  "error": null
+}

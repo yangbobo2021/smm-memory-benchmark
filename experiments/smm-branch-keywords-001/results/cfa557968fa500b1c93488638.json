@@ -1,0 +1,208 @@
+{
+  "source_id": "cfa557968fa500b1c93488638",
+  "source_sha256": "b795772fc2ef6f6ed0a5f2771e1aa32fb3dc41699dec0585ac32ad2d3ddfab10",
+  "request_sha256": "b328204c8c0924a46d3e20cefb07593e643ae06c87ada477652d547e9e9f1e47",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cfa557968fa500b1c93488638",
+    "source_sha256": "b795772fc2ef6f6ed0a5f2771e1aa32fb3dc41699dec0585ac32ad2d3ddfab10",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John! Look how cute it is. My dog came to me today while I was playing on the console. What is new?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": " Your pup is so cute, remind me what's their name? I've been helping my younger siblings out with programming since they joined the programming course. It's really cool to see them get into it."
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": " His name's Ned and he's been awesome since I adopted him. I can't imagine life without him. It's great to hear that your siblings signed up for programming."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "That's right, his name is Ned, how could I forget?!"
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "Regarding your siblings, are you already working on anything cool with them?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Yeah! We're working on a cool project together that involves coding. It's a game and it's helping them learn."
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "Wow, learning and gaming sounds like a fantastic combination for coding education! Can you share more details about the game?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Yeah, they're playing a simple, text-based adventure game, working on their coding skills and having fun. I'm so proud of them! Maybe they'll even create their own video games, huh? Any new game designs on your mind?"
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Wow, sounds cool John! Learning coding with a text-based adventure game is impressive stuff. As for me, I've been trying out different genres of games and now I'm dying to create a strategy game like Civilization - love how complicated and in-depth they are. Fingers crossed, one day I'll make my own awesome strategy game!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Wow, James, that's impressive! It's gonna be awesome. Can't wait to see what you come up with!"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": " Are you free tomorrow?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Yes, tomorrow is my day off. Do you have any suggestions on how to spend tomorrow?"
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Yes, we can go to Starbucks for coffee if you want."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "I don't mind meeting up, but why Starbucks? Maybe we can have a beer somewhere?"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "Well, how about we go to McGee's pub then? I heard they serve a great stout there!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Great idea, except I don't like dark beer. Maybe there's something else there?"
+      },
+      {
+        "turn": 16,
+        "role": "James",
+        "text": "Of course, there are also light beers!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Great, then I agree! See you tomorrow at McGee's Pub!"
+      },
+      {
+        "turn": 18,
+        "role": "James",
+        "text": "See you John, bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "James’s dog Ned",
+        "keywords": [
+          "Ned",
+          "dog",
+          "adoption",
+          "pet",
+          "cute"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "John’s siblings learning programming",
+        "keywords": [
+          "younger siblings",
+          "programming course",
+          "coding",
+          "text-based adventure game",
+          "programming education"
+        ],
+        "turns": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "James’s strategy game idea",
+        "keywords": [
+          "strategy game",
+          "Civilization",
+          "game design",
+          "video game"
+        ],
+        "turns": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Tomorrow’s pub meetup",
+        "keywords": [
+          "tomorrow",
+          "day off",
+          "Starbucks",
+          "McGee’s Pub",
+          "stout",
+          "light beer",
+          "dark beer"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.478197,
+    "thread_setup_seconds": 0.150949,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.478197,
+    "turn_seconds": 7.327248,
+    "first_text_seconds": 5.64188,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10629,
+      "completion_tokens": 278,
+      "total_tokens": 10907,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 94
+    }
+  },
+  "error": null
+}

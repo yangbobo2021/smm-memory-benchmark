@@ -1,0 +1,211 @@
+{
+  "source_id": "c5db4ceed5f9ef14b48a93ed5",
+  "source_sha256": "2b2802a4b664c86790c7eb5c73ee8e4dcd267e29c25eb7dd3bed9fc25ad09187",
+  "request_sha256": "5bf495f12cff3308fb27805bfa8aa8d311329054b002267736250816e5f40539",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c5db4ceed5f9ef14b48a93ed5",
+    "source_sha256": "2b2802a4b664c86790c7eb5c73ee8e4dcd267e29c25eb7dd3bed9fc25ad09187",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "I had a great time at the music festival with my pals! The vibes were unreal and the music was magical. It was so freeing to dance and bop around. Music brings us together and helps us show our feelings. It reminds me of my mom and her soothing voice when she'd sing lullabies to me. Lucky to have those memories!"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Wow, festivals sound so fun! Here's me and my partner at one last year - had an awesome time! It's my way of expressing myself and getting away from all the stress of everyday life. Just got back from a trip with my partner - so cool!"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "Wow, what a gorgeous shot! It looks so tranquil and serene. You two look very happy together. Trips create awesome memories that we can share. Where did you go on your trip and what's something you'll never forget?"
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "Thanks! We had an awesome yoga retreat. The place was so peaceful and the view during yoga was amazing - the sunrise lit up the whole sky with bright colors. It was so beautiful, it made us feel so alive and grateful."
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "Wow, what a view!  How did it make you feel?"
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "It was amazing! Doing yoga with that backdrop made me feel connected to nature and myself. I felt incredibly peaceful and thankful."
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "Like, it's no wonder looking at such beauty can really help us refocus and connect with who we are. Have you ever experienced that?"
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "I remember taking a hike with my partner and coming across a waterfall oasis. Everything just felt so peaceful and my worries just disappeared. It was such a refreshing experience."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "Are you planning to experience it again soon?"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "Yeah! I'm planning to get out in nature again next month. It's going to be great reconnecting with it!"
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": " Enjoy it! This photo made me think of a gorgeous blossom tree from near my home. Every spring, it was magical to watch it bloom."
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "That sounds magical! How was it watching the tree bloom each spring?"
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "It was like admiring nature's artwork. It filled me with awe and made me appreciate the beauty of life. Even in tough times, there's hope for growth."
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "This photo I took is a great visual representation of that idea. It reminds me that I can keep growing through any obstacles."
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "It really captures resilience and strength. I love how you find inspiration in the small things."
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": "Thanks, Deborah! Appreciating those small things is important. It helps me remember that even when times are tough, there's always something positive to hang onto."
+      },
+      {
+        "turn": 16,
+        "role": "Deborah",
+        "text": "It's a great habit. Thanks for reminding me!"
+      },
+      {
+        "turn": 17,
+        "role": "Jolene",
+        "text": "Sure Deb, it's great catching up. Keep on finding those beauties!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Music festivals and personal memories",
+        "keywords": [
+          "music festival",
+          "friends",
+          "dance",
+          "self-expression",
+          "stress relief",
+          "mother",
+          "lullabies",
+          "shared memories"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Partner’s yoga retreat and sunrise",
+        "keywords": [
+          "partner",
+          "yoga retreat",
+          "peaceful view",
+          "sunrise",
+          "bright colors",
+          "nature connection",
+          "gratitude"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Waterfall hike and plans to reconnect with nature",
+        "keywords": [
+          "hike",
+          "waterfall oasis",
+          "partner",
+          "peacefulness",
+          "worries",
+          "nature",
+          "next month"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Spring blossom tree and growth through hardship",
+        "keywords": [
+          "blossom tree",
+          "near home",
+          "spring",
+          "bloom",
+          "nature’s artwork",
+          "hope",
+          "growth",
+          "photo",
+          "resilience",
+          "small things"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.80507,
+    "thread_setup_seconds": 0.138097,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.80507,
+    "turn_seconds": 10.666974,
+    "first_text_seconds": 8.945782,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10741,
+      "completion_tokens": 609,
+      "total_tokens": 11350,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 395
+    }
+  },
+  "error": null
+}

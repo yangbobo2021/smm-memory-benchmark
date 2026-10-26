@@ -1,0 +1,213 @@
+{
+  "source_id": "c7c5ad2e78611ab12b70a4b10",
+  "source_sha256": "b4cd79ff06ece6434c716543e787d39702b5942da047888cc96031c13e23a565",
+  "request_sha256": "a1d9a757d917aae1115b3b6d23646ec6a28dcf4a896f1b51578411082c5a63df",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c7c5ad2e78611ab12b70a4b10",
+    "source_sha256": "b4cd79ff06ece6434c716543e787d39702b5942da047888cc96031c13e23a565",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave, been a few days, so I wanted to let you in on some cool news.  I just got a new car and it's amazing! Finally owning a luxury car was a dream come true and I'm so stoked."
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Woohoo, Calvin! Congrats on the new car! How's it driving?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Nice car! It's an amazing ride - super smooth and real powerful. Like a rockstar behind the wheel! Thanks, man!"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Wow, Calvin! Owning something like this must feel amazing. Is this your first one? Show me a pic! What's it called?"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Woohoo! I finally got myself this beauty. Here's a pic from yesterday when I took it for a ride. Can't believe I'm actually driving it. Definitely what I deserve after all this hard work. Every time I step in, it's like an adrenaline rush!"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Calvin, that car looks awesome! You must feel amazing every time you get inside! You deserved it - congrats buddy!"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "Woah, I'm on cloud nine! Hard work pays off. What's up with you, Dave?"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Doing good. Last weekend, I went to a music festival in Boston - it was awesome! So many cool bands playing and the atmosphere was electric. I love music, it reminded me why I love it. Here's a pic, take a look."
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Wow, sounds like a blast! Which one was your favorite?"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Wow, there were so many great bands! If I had to pick a favorite, it would definitely be Aerosmith. Their performance was incredible. I'll show you a pic I took when they were playing."
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Cool! Lovin' Aerosmith."
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "I finally saw them live and it was such an amazing experience! He was jamming out to one of their hits. Check out this epic picture of them!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Cool, Dave! Seeing your favorite singers live must have been wild! Did you get a chance to hang out with them after the show?"
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Nah, didn't get to hang with them after the show, but seeing them live was cool enough. It's always a dream to see your favorites performing!"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "Yeah, it's always a dream to see your favorites doing their thing! So glad you got to experience that."
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Yeah, it was an incredible experience. So, anything new happening in your life?"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "Got a new ride and wrote some new tunes - had a few studio sessions last week and I'm excited to collaborate. Can't wait to share it with everyone!"
+      },
+      {
+        "turn": 17,
+        "role": "Dave",
+        "text": "Cool, Calvin! Looking forward to hearing your new tunes. Keep me updated on how your collaborations go!"
+      },
+      {
+        "turn": 18,
+        "role": "Calvin",
+        "text": "Yeah, no worries! I'll definitely let you know how it goes. Cheers!"
+      },
+      {
+        "turn": 19,
+        "role": "Dave",
+        "text": "Enjoy the collaborations, Calvin! Stay safe!"
+      },
+      {
+        "turn": 20,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Gonna have fun and stay safe with it. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Calvin’s new luxury car",
+        "keywords": [
+          "Calvin",
+          "Dave",
+          "new car",
+          "luxury car",
+          "smooth ride",
+          "powerful car",
+          "hard work",
+          "adrenaline rush"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          16
+        ]
+      },
+      {
+        "label": "Boston music festival and Aerosmith",
+        "keywords": [
+          "Dave",
+          "Calvin",
+          "Boston",
+          "music festival",
+          "Aerosmith",
+          "live performance",
+          "favorite band",
+          "last weekend"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "Calvin’s new songs and studio collaboration",
+        "keywords": [
+          "Calvin",
+          "Dave",
+          "new tunes",
+          "studio session",
+          "collaboration",
+          "share music",
+          "last week"
+        ],
+        "turns": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.696783,
+    "thread_setup_seconds": 0.126767,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.696783,
+    "turn_seconds": 8.570016,
+    "first_text_seconds": 7.164513,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10792,
+      "completion_tokens": 346,
+      "total_tokens": 11138,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 166
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,188 @@
+{
+  "source_id": "cfdb086509e9507eb56336975",
+  "source_sha256": "6364bbf8101bcb4774443dd73199a5d9fe5e45f284bc21bbd72354e5fc35accd",
+  "request_sha256": "c140a5f31c4d97ac50cef9f2bb2704a1468d5278a09d368ece141b3f375920c0",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cfdb086509e9507eb56336975",
+    "source_sha256": "6364bbf8101bcb4774443dd73199a5d9fe5e45f284bc21bbd72354e5fc35accd",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam, good to hear from you! Since we last talked, lots has been happening! Last weekend, I took my family on a road trip to Jasper. It was amazing! We drove through the Icefields Parkway and the glaciers and lakes were gorgeous. I got a shot of a glacier, check it out!"
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan, looks amazing! I've never been to Jasper, but it looks breathtaking. Tell me more about your road trip. Was it relaxing?"
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "Hey Sam, thanks for asking! It was great - fresh air, peacefulness and a cozy cabin surrounded by mountains and forests made it feel like a real retreat."
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "That sounds great, Evan! It's so important to take time for ourselves and find peace, especially after a hard week. Mine's been tough."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Sorry to hear that, Sam. Is there anything I can do to help?"
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "Thanks, Evan. Appreciate the offer, but had a check-up with my doctor a few days ago and, yikes, the weight wasn't great. It was pretty eye-opening."
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "That must have been a challenging experience, Sam. It's tough when we have to confront our own health challenges. Remember, it's never too late to make positive changes for a healthier lifestyle. Is there anything I can do to support you in this journey?"
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "Thanks, Evan. Breaking old habits isn't easy. Do you have any tips for starting the process?"
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "Yeah, what worked for me was finding a fitness routine I really enjoy. It's my go-to, I love the feeling of being healthy and strong. Making it fun and finding little ways to make smarter choices in my diet really added up. Don't forget, you got this!"
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "Thanks, Evan. Like you said, I've been looking for a hobby to stay motivated. I've been thinking about trying painting. Do you think it will help me de-stress?"
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "Of course, Sam! Painting is a great way to relieve stress and be creative. It gives you the freedom to explore colors and textures and express feelings. I've been doing it for a few years now and it helps me find peace. But unfortunately it won't help you with your weight problem, besides painting I recommend exercising!"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "Thanks, Evan! Appreciate the encouragement. I'll give it a go and let you know how it turns out."
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Awesome, Sam! Have fun with it and don't put too much pressure on yourself. Can't wait to hear how it's going!"
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "Cheers, Evan! I won't stress - just gonna enjoy it."
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "Alright Sam, have fun with it! Keep me updated!"
+      },
+      {
+        "turn": 15,
+        "role": "Sam",
+        "text": "Thanks, Evan! Will do. Bye for now."
+      },
+      {
+        "turn": 16,
+        "role": "Evan",
+        "text": "Take care, Sam! I'll catch up with you later."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Jasper family road trip",
+        "keywords": [
+          "Jasper",
+          "family road trip",
+          "Icefields Parkway",
+          "glacier",
+          "lake",
+          "cozy cabin",
+          "mountains",
+          "forests"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Sam’s weight and lifestyle changes",
+        "keywords": [
+          "doctor check-up",
+          "weight",
+          "health challenge",
+          "healthy lifestyle",
+          "fitness routine",
+          "exercise",
+          "diet choices",
+          "habit change"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "label": "Painting as a stress-relief hobby",
+        "keywords": [
+          "painting",
+          "hobby",
+          "stress relief",
+          "creativity",
+          "colors",
+          "textures",
+          "self-expression",
+          "de-stress"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.76956,
+    "thread_setup_seconds": 0.272594,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.76956,
+    "turn_seconds": 9.496965,
+    "first_text_seconds": 7.694212,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10716,
+      "completion_tokens": 323,
+      "total_tokens": 11039,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 156
+    }
+  },
+  "error": null
+}

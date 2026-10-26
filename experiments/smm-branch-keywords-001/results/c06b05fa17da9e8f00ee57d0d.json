@@ -1,0 +1,191 @@
+{
+  "source_id": "c06b05fa17da9e8f00ee57d0d",
+  "source_sha256": "71c50f06291f9d836c47fda5ffc7b529ef23efdc9a60371e1ddd7f44e0ec1a60",
+  "request_sha256": "85ccefb79e7b8c1f2af2e2d48214d4e985c3903f863abee26f75807628ac0ad3",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c06b05fa17da9e8f00ee57d0d",
+    "source_sha256": "71c50f06291f9d836c47fda5ffc7b529ef23efdc9a60371e1ddd7f44e0ec1a60",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hey Jolene, just catching up. I went to a cool event last week with the aim to support each other - pretty inspiring. Have you been connecting with anyone lately?"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Hey Deb, great to hear from you! I've been focusing on studying and my relationship with my partner. We're taking little trips to the beach, it's a great way to relax. How about you, anything new going on?"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "I was busy too - went to a community meetup last Friday. We shared stories and it was nice to feel how connected we are. It made me think about how important relationships are. How about you, how are things going in that area?"
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "I'm really thankful for my significant other right now. It's great to have someone encouraging my goals! How are things with your friends and family? Any updates on that front?"
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "Relationships with family and friends are so vital. My yoga pals have been my second family - we've held each other up through a lot. The other day I found this old photo. That was when I first started doing yoga. My mum was my biggest fan and source of motivation. She'd often come to my classes with me."
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "Our loved ones sure are supportive! When I was 10, my parents got me that and it was the start of my passion for video games."
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "Cool that they shared that with you. Did you learn on your own or did they teach you?"
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "I taught myself, but my dad was always supportive and my mom would play games with me. "
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "That's awesome! Sounds like you had a lot of support from your parents. What was your favorite game to play with mom?"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "One of my favorites was \"Monster Hunter: World\". The immersive story and open-world gaming are amazing!"
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": " It can be so freeing when you get immersed in a game like that. "
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "Yeah! It's my way to de-stress and take a break from life."
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "What's up this month? Anything fun happening for you?"
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "Got a lot of finals coming up this month, so I've been studying real hard. It's been quite stressful, but it'll be worth it in the end. Thinking about taking a trip somewhere to relax and recharge afterward."
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "Good luck with it! Let me know if there's anything I can do to assist you."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Community connections and relationships",
+        "keywords": [
+          "community meetup",
+          "mutual support",
+          "relationships",
+          "significant other",
+          "partner",
+          "friends",
+          "family",
+          "beach trips"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Yoga and family support",
+        "keywords": [
+          "yoga",
+          "yoga friends",
+          "second family",
+          "old photo",
+          "mother",
+          "motivation",
+          "yoga classes"
+        ],
+        "turns": [
+          4
+        ]
+      },
+      {
+        "label": "Childhood video games",
+        "keywords": [
+          "video games",
+          "childhood",
+          "parents",
+          "self-taught",
+          "father",
+          "mother",
+          "Monster Hunter: World",
+          "stress relief"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Finals and a recovery trip",
+        "keywords": [
+          "finals",
+          "studying",
+          "stress",
+          "this month",
+          "trip",
+          "relax",
+          "recharge",
+          "assistance"
+        ],
+        "turns": [
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.890073,
+    "thread_setup_seconds": 0.180397,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.890073,
+    "turn_seconds": 9.709676,
+    "first_text_seconds": 7.940677,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10637,
+      "completion_tokens": 461,
+      "total_tokens": 11098,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 266
+    }
+  },
+  "error": null
+}

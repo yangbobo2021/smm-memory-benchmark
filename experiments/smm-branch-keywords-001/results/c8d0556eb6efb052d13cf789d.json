@@ -1,0 +1,130 @@
+{
+  "source_id": "c8d0556eb6efb052d13cf789d",
+  "source_sha256": "61368a6ff46a4495838839e21b8c58ded6131b147325018fa3e587b0239df0b7",
+  "request_sha256": "a25b0339e39fecba890330b004d71d280e3e0ce90ba3752bd980de8205f625e6",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c8d0556eb6efb052d13cf789d",
+    "source_sha256": "61368a6ff46a4495838839e21b8c58ded6131b147325018fa3e587b0239df0b7",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Calvin! Been a while, what's up? I'm tied up with car stuff lately, yesterday I came back from San Francsico with some great insights and knowledge on car modification that I want to share with you! Changing things around, and giving an old car a new life - so satisfying!"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave! Nice to hear from you. That's cool! I totally understand the satisfaction you get from fixing cars. It's like you're giving them new life."
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "Yeah, it's great fixing stuff up and seeing it turn out better. It's really rewarding and gives me a sense of purpose. Plus, it feels like I'm making a difference when I fix someone's car."
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "Wow, you must feel great making a real difference in someone's life, like being their superhero!"
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Yeah, it's great! It feels really good to make a difference and see their relief when their car is fixed. Makes me proud!"
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Wow, Dave, that's awesome! You should be really proud of yourself for bringing joy to others. I booked a flight ticket to Boston last week! I'm so excited about my upcoming trip to Boston. Look at this! See you soon, buddy!"
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Cool! Let me know when you're free and we can catch up in Boston."
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "Yeah, for sure! I'll let you know when I'm in Boston. See you soon!"
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "Looking forward to seeing you! Have a safe trip, see ya!"
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Gotta stay safe on the trip. Can't wait to see you there! I will contact you when I arrive. Goodbye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Car modification and repair",
+        "keywords": [
+          "car modification",
+          "old car restoration",
+          "car repair",
+          "San Francisco",
+          "Dave",
+          "helping car owners",
+          "sense of purpose"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Boston trip and meetup",
+        "keywords": [
+          "Boston",
+          "flight ticket",
+          "upcoming trip",
+          "meetup",
+          "Calvin",
+          "arrival",
+          "safe travel"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 5.196273,
+    "thread_setup_seconds": 0.123884,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.196273,
+    "turn_seconds": 5.072389,
+    "first_text_seconds": 4.273013,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10413,
+      "completion_tokens": 182,
+      "total_tokens": 10595,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 74
+    }
+  },
+  "error": null
+}

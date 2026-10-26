@@ -1,0 +1,205 @@
+{
+  "source_id": "c9068063ccb39205237d24350",
+  "source_sha256": "3c78ccaa1aa0342c2b9da9499e33b32063cd7852d91275f009d763fd262834e8",
+  "request_sha256": "badb779fb121dba3d8c338b7a4b0bb71a9c0745f4cdbe5edf3fd2ad58e0296cf",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c9068063ccb39205237d24350",
+    "source_sha256": "3c78ccaa1aa0342c2b9da9499e33b32063cd7852d91275f009d763fd262834e8",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey James, long time no talk! A lot has happened during this time. Let me fill you in."
+      },
+      {
+        "turn": 1,
+        "role": "James",
+        "text": "Hey John! Awesome to hear from you. Yeah, a lot has happened. Let's catch up!"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "I finally got my dream job! After lots of interviews and late nights, I got the offer and was ecstatic. Can't wait to start my journey!"
+      },
+      {
+        "turn": 3,
+        "role": "James",
+        "text": "Wow, John! Congrats on getting your dream job. I'm super stoked for you. When do you start?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Thank you! ! I'm starting next month."
+      },
+      {
+        "turn": 5,
+        "role": "James",
+        "text": "It can be rough getting started, but I'm sure you'll do great. Don't be afraid to seek help if you need it. Can't wait to hear about your experience! By the way, I recently started a course that combines my passion for gaming and programming. It's fun and challenging, and it has definitely increased my excitement for both."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Cool! That sounds awesome. Combining your love of gaming and coding sounds like a dream. Tell me more! Are there any interesting projects you're working on?"
+      },
+      {
+        "turn": 7,
+        "role": "James",
+        "text": "Yes, we are currently working on a new part of the football simulator. I was working on collecting player databases. It wasn't easy, but I did it!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Cool! Did you choose this course because you love football?"
+      },
+      {
+        "turn": 9,
+        "role": "James",
+        "text": "Not least because of this. I love football, but, of course, the most important reason is to improve yourself. But it’s nice if it’s also connected with something you like."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "I completely agree! By the way, did you watch the Liverpool vs Chelsea match?"
+      },
+      {
+        "turn": 11,
+        "role": "James",
+        "text": "Of course, they played well! As I like to say, there is no sport better than football, no club better than Liverpool! I don't miss a single match of theirs!"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "It looks like you really root for this team!"
+      },
+      {
+        "turn": 13,
+        "role": "James",
+        "text": "Absolutely! They are forever in my heart, they are a great team. I hope they become champions next season!"
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "As a Manchester City fan, I can't agree with you. You'll see, our two teams will fight for the championship, and mine will win!"
+      },
+      {
+        "turn": 15,
+        "role": "James",
+        "text": "I'm sure you're wrong, John. Manchester City are in bad form and their transfer policy is terrible!"
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "You may be right, but the City manager can handle it, you'll see!"
+      },
+      {
+        "turn": 17,
+        "role": "James",
+        "text": "I bet we'll be higher than you in the final standings!"
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "I'll take the bet, James! This will be a great battle!"
+      },
+      {
+        "turn": 19,
+        "role": "James",
+        "text": "Sure, John!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s dream job",
+        "keywords": [
+          "John",
+          "dream job",
+          "job offer",
+          "interviews",
+          "starting next month",
+          "career advice"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "James’s gaming and programming course",
+        "keywords": [
+          "James",
+          "gaming",
+          "programming",
+          "football simulator",
+          "player database",
+          "course project",
+          "self-improvement"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Liverpool–Manchester City rivalry",
+        "keywords": [
+          "Liverpool",
+          "Manchester City",
+          "Chelsea",
+          "football match",
+          "club fandom",
+          "championship",
+          "transfer policy",
+          "bet"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.865431,
+    "thread_setup_seconds": 0.085209,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.865431,
+    "turn_seconds": 10.780222,
+    "first_text_seconds": 8.93907,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10675,
+      "completion_tokens": 256,
+      "total_tokens": 10931,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 94
+    }
+  },
+  "error": null
+}

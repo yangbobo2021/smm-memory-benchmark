@@ -1,0 +1,149 @@
+{
+  "source_id": "cbe0886c4663549f807e6829b",
+  "source_sha256": "b1637ceab56654fa852821c122fff7d35f8c0d0f212419d5781b49ad92497d11",
+  "request_sha256": "a317d6b60515ce7e49b0622991d628d927a91efa7e6c683b93af382983ee2590",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cbe0886c4663549f807e6829b",
+    "source_sha256": "b1637ceab56654fa852821c122fff7d35f8c0d0f212419d5781b49ad92497d11",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John! Been a while since we chatted. Sorry 'bout not getting back sooner. How's it going? Any new games you're into?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey James! No worries, I know you are really busy at work. I'm good, thanks for asking. Oh, I've been organizing something with my friends yesterday - it was cool! Guess what it was, I'll give you a little hint."
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "Wow, John, that looks awesome! Is it an icon of a new game?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Nope, not a new game. We put together a tournament for our favorite game, CS:GO. Lots showed up and we made a bunch of money for charity!"
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "Wow John, organizing that tournament for charity must have been a ton of effort, but it sounds like it was so worth it!"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Definitely worth it! It took some planning and coordination, but seeing everyone come together for a good cause was so rewarding."
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "It must have been great to see the results of that effort. Have you considered organizing more events like that in the future?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Yeah, for sure! It was awesome and I want to do more events like that. It combines my interests and helps the community. Plus, it's great to get people together for some friendly competition."
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Combining gaming and volunteering is a great idea! So fun and fulfilling. Where did you send the collected money?"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Our main goal was to raise money for a dog shelter, which is not far from the street where I live. And we did it!"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "Helping animals is really important!"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "I agree. We still had some money left after helping the shelter, and we decided to use this money to buy groceries and cook some food for the homeless. They were very happy about it."
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Glad you are helping those in need! You are doing a great job John, keep up the good work!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Thanks for your support, James! I won't stop there, I will do more and more good things!"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "I'm really proud of you!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "CS:GO charity tournament and community aid",
+        "keywords": [
+          "CS:GO",
+          "charity tournament",
+          "friends",
+          "event planning",
+          "fundraising",
+          "dog shelter",
+          "homeless people",
+          "groceries",
+          "community volunteering",
+          "future events"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.37453,
+    "thread_setup_seconds": 0.420471,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.37453,
+    "turn_seconds": 10.954059,
+    "first_text_seconds": 10.001853,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10550,
+      "completion_tokens": 249,
+      "total_tokens": 10799,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 153
+    }
+  },
+  "error": null
+}

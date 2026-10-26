@@ -1,0 +1,187 @@
+{
+  "source_id": "c43432414e53d1532caa8f2e0",
+  "source_sha256": "ec6ffb465984656b0edd315d09c607028e27073b22473118e3e5821a228e5796",
+  "request_sha256": "6dc6c1e39c3601cbb23fbe64af024203ea3fa700445e66cebc0d853dc7863890",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c43432414e53d1532caa8f2e0",
+    "source_sha256": "ec6ffb465984656b0edd315d09c607028e27073b22473118e3e5821a228e5796",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Long time no chat! Lots has gone down since we last caught up."
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Calvin! Long time no chat! How's everything been going since we last caught up?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Hey Dave, not everything has been going smoothly. I had an incident last week where my place got flooded, but thankfully, I managed to save my music gear and favorite microphone. It's been tough, but I'm staying positive and looking forward to getting everything fixed up."
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Man, that's rough, Calvin. Sorry to hear about that. But I'm glad you could save your music gear and mic - those are the important things. Stay positive, pal. Anything I can do to help?"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Thanks, Dave. Appreciate the support. Waiting on insurance to kick in so I can start repairs - fingers crossed it won't take too long. Take a look at my creative haven, where I pour my heart into the music."
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "That studio looks awesome, Cal! I hope you get it fixed soon so you can continue creating music. Hang in there!"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Can't wait to get back to making music. Anything exciting you're working on these days?"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "I'm so excited, I opened my car shop last week! Invited some friends over to celebrate and it's been amazing. Super stoked to share my passion and help out with folks' rides. It's been incredible so far."
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Way to go, Dave! Congrats on opening your own car shop! Your excitement is contagious. Keep up the great work!"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Your support is greatly appreciated. It's been quite a journey so far, and I'm excited to see what the future holds. How about you? Anything exciting happening in the world of music for you?"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Thanks Dave! Super excited for my upcoming performance in Tokyo this month. It's gonna be great to show my music to a whole new crowd and hopefully expand my following!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Cool, Cal! Doing a show in Tokyo, wow! I'm sure the audience is gonna love it. Wishing you all the luck! Let me know how it goes."
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Sure thing, Dave! I'll keep you posted on how it goes. Thanks for the good luck! Look what a wonderful night! \n"
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "That looks great! Where did you snap that pic?"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "I took that pic in Tokyo last night. The skyline was stunning!"
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "Wow, great shot! The night skyline really pops with those city lights. I gotta take a trip there soon!"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "Thanks Dave! The city lights there are amazing. You should visit, it's awesome!"
+      },
+      {
+        "turn": 17,
+        "role": "Dave",
+        "text": "Definitely adding it to my list. Thanks!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Flooded music studio and repairs",
+        "keywords": [
+          "home flood",
+          "music gear",
+          "microphone",
+          "insurance claim",
+          "studio repairs",
+          "creative studio"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Dave opens a car shop",
+        "keywords": [
+          "Dave",
+          "car shop",
+          "grand opening",
+          "celebration",
+          "automotive repair"
+        ],
+        "turns": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Calvin's Tokyo performance and night skyline",
+        "keywords": [
+          "Calvin",
+          "Tokyo",
+          "music performance",
+          "live show",
+          "city lights",
+          "night skyline",
+          "travel"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.123564,
+    "thread_setup_seconds": 0.268988,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.123564,
+    "turn_seconds": 11.854576,
+    "first_text_seconds": 10.388255,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10707,
+      "completion_tokens": 374,
+      "total_tokens": 11081,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 224
+    }
+  },
+  "error": null
+}

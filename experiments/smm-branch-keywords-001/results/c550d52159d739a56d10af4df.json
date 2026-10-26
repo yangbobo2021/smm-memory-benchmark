@@ -1,0 +1,174 @@
+{
+  "source_id": "c550d52159d739a56d10af4df",
+  "source_sha256": "1edd397e9bf641ae91a71f1e74fceff43769d24d7415260c382ba2749ac2d089",
+  "request_sha256": "7e563db48762fcd9b6a2caf198a61caf1b688cbefe9de9b246b120d841587c27",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c550d52159d739a56d10af4df",
+    "source_sha256": "1edd397e9bf641ae91a71f1e74fceff43769d24d7415260c382ba2749ac2d089",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Joanna",
+        "text": "Nate, can you believe it? I'm finally filming my own movie from the road-trip script!"
+      },
+      {
+        "turn": 1,
+        "role": "Nate",
+        "text": "Congrats, Joanna! Not surprised at all that your hard work paid off. Must feel awesome to see your script come alive in a movie! Pretty cool when something you love brings success, right? Tell me more about your movie!"
+      },
+      {
+        "turn": 2,
+        "role": "Joanna",
+        "text": "Woohoo, thanks Nate! It's pretty wild to see it come alive. Every day on set is awesome and full of potential. Being able to show my vision is awesome."
+      },
+      {
+        "turn": 3,
+        "role": "Nate",
+        "text": "I think so too! What's been the coolest moment on set?"
+      },
+      {
+        "turn": 4,
+        "role": "Joanna",
+        "text": "One of the actors came up to me and told me how much she liked my script! I was so excited when that happened - it gave me chills!"
+      },
+      {
+        "turn": 5,
+        "role": "Nate",
+        "text": "Wow Joanna, that must have been so exciting! It's incredible when you get those moments of joy. Anyway, I took my turtles to the beach in Tampa yesterday! They always bring me peace in the craziness of life."
+      },
+      {
+        "turn": 6,
+        "role": "Joanna",
+        "text": "Woah, that's awesome, Nate! You must really enjoy having them around - they're so cool! What do you love most about having them?"
+      },
+      {
+        "turn": 7,
+        "role": "Nate",
+        "text": "Your completely right! I really love having them around. They're so cool and they make me feel calm. Plus, they don't require much looking after, which is great. I love seeing them soaking in the sun like this."
+      },
+      {
+        "turn": 8,
+        "role": "Joanna",
+        "text": "That's awesome, Nate! They look so serene and happy. It's great to have something like that."
+      },
+      {
+        "turn": 9,
+        "role": "Nate",
+        "text": "Yeah, turtles are like zen masters! They always remind me to slow down and appreciate the small things in life. I'm loving experimenting with flavors right now. Here are some colorful bowls of coconut milk ice cream that I made."
+      },
+      {
+        "turn": 10,
+        "role": "Joanna",
+        "text": "Hey Nate, that looks really yummy! The colors and mix-ins give it a nice kick."
+      },
+      {
+        "turn": 11,
+        "role": "Nate",
+        "text": "Nice! I'm glad you like it too. This recipe really jazzes it up. Wanna give it a try?"
+      },
+      {
+        "turn": 12,
+        "role": "Joanna",
+        "text": "Definitely, Nate! That ice cream looks mouthwatering. Thanks so much for offering!"
+      },
+      {
+        "turn": 13,
+        "role": "Nate",
+        "text": "No worries, Joanna. Hope you enjoy it!"
+      },
+      {
+        "turn": 14,
+        "role": "Joanna",
+        "text": "Yea, no worries! It was great catching up. Take it easy!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Joanna’s road-trip movie",
+        "keywords": [
+          "Joanna",
+          "Nate",
+          "road-trip script",
+          "movie filming",
+          "movie set",
+          "actor praise",
+          "creative vision"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Nate’s turtles in Tampa",
+        "keywords": [
+          "Nate",
+          "Joanna",
+          "turtles",
+          "Tampa",
+          "beach",
+          "calm",
+          "sunbathing"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Coconut milk ice cream",
+        "keywords": [
+          "Nate",
+          "Joanna",
+          "coconut milk ice cream",
+          "colorful bowls",
+          "mix-ins",
+          "recipe",
+          "taste"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.118017,
+    "thread_setup_seconds": 0.139564,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.118017,
+    "turn_seconds": 10.978453,
+    "first_text_seconds": 9.433003,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10587,
+      "completion_tokens": 322,
+      "total_tokens": 10909,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 162
+    }
+  },
+  "error": null
+}

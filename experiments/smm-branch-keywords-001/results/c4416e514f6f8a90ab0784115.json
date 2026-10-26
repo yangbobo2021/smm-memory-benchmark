@@ -1,0 +1,149 @@
+{
+  "source_id": "c4416e514f6f8a90ab0784115",
+  "source_sha256": "5afe86915a7893db1bafbed80857bd5208c511c1fdc1511439c04001b4af616f",
+  "request_sha256": "eddd7fc4de985a54dd27ad1376fbaa44398d580be1a716bac057a53c7e9cbf37",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c4416e514f6f8a90ab0784115",
+    "source_sha256": "5afe86915a7893db1bafbed80857bd5208c511c1fdc1511439c04001b4af616f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jolene",
+        "text": "Hey Deb! So sorry for the late reply, been super busy. Last weekend my partner and I traveled to a meditation retreat for a few weeks in Phuket. Amazing experience! Nature, reflection and a break from engineering studies were awesome - it helped me find inner peace."
+      },
+      {
+        "turn": 1,
+        "role": "Deborah",
+        "text": " I'd love to hear more about your reflections there and how they changed you."
+      },
+      {
+        "turn": 2,
+        "role": "Jolene",
+        "text": "At the retreat, I had time to reflect on what makes me happy. It made me realize the importance of incorporating relaxation, self-care, and balance in life alongside my engineering studies. The beauty of nature there was so inspiring and refreshing!"
+      },
+      {
+        "turn": 3,
+        "role": "Deborah",
+        "text": " Was there anything from the retreat that stood out to you?"
+      },
+      {
+        "turn": 4,
+        "role": "Jolene",
+        "text": "The one session that really stood out was about releasing expectations and judgments and just savoring the present. It was a strong reminder to not just dwell on the finish line, but to appreciate the journey too. I usually get too consumed with hitting my goals that I forget to appreciate the ride."
+      },
+      {
+        "turn": 5,
+        "role": "Deborah",
+        "text": " I've been thinking about this a lot, too. Life's full of small moments and being grateful for those can really boost our happiness."
+      },
+      {
+        "turn": 6,
+        "role": "Jolene",
+        "text": "Yup, totally agree! Sometimes we get too focused on the big stuff and don't appreciate all the tiny wins. Like the feeling of the sun or a great cup of coffee - can be small but they make life much better. Trying to be more mindful and grateful to take it all in now."
+      },
+      {
+        "turn": 7,
+        "role": "Deborah",
+        "text": "That's great, Jolene! Practicing mindfulness and gratitude can really change our day-to-day. Even just a different outlook can make the little things in life joyful. Glad you're getting into it!"
+      },
+      {
+        "turn": 8,
+        "role": "Jolene",
+        "text": "I'm experiencing a new level of joy and happiness!"
+      },
+      {
+        "turn": 9,
+        "role": "Deborah",
+        "text": " It's wonderful to see your progress, and I'm excited to be on this journey with you!"
+      },
+      {
+        "turn": 10,
+        "role": "Jolene",
+        "text": "Thanks, Deb! Appreciate your support. It's great that we can do this together."
+      },
+      {
+        "turn": 11,
+        "role": "Deborah",
+        "text": "Having a supportive community definitely helps. We can motivate and encourage each other! By the way, I recently played a game. I don't remember what it's called. This is a card game about cats, where you take cards one by one from a deck, and then you can attack your opponent with them. We'll definitely play it with you!"
+      },
+      {
+        "turn": 12,
+        "role": "Jolene",
+        "text": "I look forward to meeting you and playing this game!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Phuket retreat and mindfulness",
+        "keywords": [
+          "Jolene",
+          "Deborah",
+          "Phuket",
+          "meditation retreat",
+          "engineering studies",
+          "self-care",
+          "life balance",
+          "mindfulness",
+          "gratitude",
+          "present moment"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Unidentified cat card game",
+        "keywords": [
+          "cat card game",
+          "deck of cards",
+          "card-drawing",
+          "attacking opponents",
+          "playing together"
+        ],
+        "turns": [
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.682962,
+    "thread_setup_seconds": 0.286832,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.682962,
+    "turn_seconds": 9.39613,
+    "first_text_seconds": 7.524255,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10593,
+      "completion_tokens": 192,
+      "total_tokens": 10785,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 69
+    }
+  },
+  "error": null
+}

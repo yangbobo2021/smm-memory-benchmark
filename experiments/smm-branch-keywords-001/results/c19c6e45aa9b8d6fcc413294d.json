@@ -1,0 +1,182 @@
+{
+  "source_id": "c19c6e45aa9b8d6fcc413294d",
+  "source_sha256": "95cc6755a34c5f46434caedee6c7be27cc68962fb49cb015a80f3ea5f7362f15",
+  "request_sha256": "a7df7913f6fd055a2dfd5470be9b4d513b39b0f5713f26cf1d4dfc72cb499654",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c19c6e45aa9b8d6fcc413294d",
+    "source_sha256": "95cc6755a34c5f46434caedee6c7be27cc68962fb49cb015a80f3ea5f7362f15",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hey Jolene! Great to see you! Had a blast biking nearby with my neighbor last week - was so freeing and beautiful. Checked out an art show with a friend today - really cool and inspiring stuff. Reminded me of my mom."
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Hey Deborah! Sounds like you had a blast biking and at the art show. Your photo looks like you were really into it! Did it make you think profound thoughts?"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "My mom was interested in art. She believed art could give out strong emotions and uniquely connect us. When I go to an art show, it's like we're still experiencing it together even though she's gone. It's hard but comforting."
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "Losing someone is hard, but finding something that helps you cope is great."
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "Finding ways to keep her memory alive gives me peace. It's amazing how something simple like artwork can bring back powerful emotions and remind us of those we've lost. It's about finding solace in the things we love, and art has done that for me."
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "Even though my snakes can't chat or understand what I'm going through, our time together is valuable and teaches me to take time and be in tune with myself. Similarly, playing video games with my partner after a long day is a great way for me to relax."
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "Simple things can indeed bring us the most happiness. How have these activities helped you during tough times?"
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "It brings us closer together!"
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "This kind of comfort can be really helpful when times get tough."
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "Just so you know, I've been working on a big project lately - it's been tough but also really cool to watch it take shape. Can't wait to see the final result!"
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": "I am waiting to hear how everything turns out. Keep up the good work!"
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "Thanks Deb! Your support means a lot. I'll keep you updated on the progress of the project."
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "Glad my support means a lot to you! I'll always be here for you. "
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "Take care!"
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "Enjoy your day and make time for the things that bring you joy. See ya!"
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": " I'll make sure to find time for that. Have a good one!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Biking with a neighbor",
+        "keywords": [
+          "biking",
+          "neighbor",
+          "last week"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Art and remembrance of Deborah’s mother",
+        "keywords": [
+          "art show",
+          "Deborah",
+          "mother",
+          "grief",
+          "memory",
+          "solace"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Jolene’s relaxing activities",
+        "keywords": [
+          "snakes",
+          "video games",
+          "partner",
+          "relaxation",
+          "tough times"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Jolene’s big project",
+        "keywords": [
+          "Jolene",
+          "project",
+          "progress",
+          "final result"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.422855,
+    "thread_setup_seconds": 0.148378,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.422855,
+    "turn_seconds": 12.274476,
+    "first_text_seconds": 10.825547,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10603,
+      "completion_tokens": 469,
+      "total_tokens": 11072,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 310
+    }
+  },
+  "error": null
+}

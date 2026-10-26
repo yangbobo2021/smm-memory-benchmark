@@ -1,0 +1,201 @@
+{
+  "source_id": "cbfb5c425265fc05c0bb703e1",
+  "source_sha256": "3686180a991d9edf577af0d642a4729a31a8f534422b5b7f430b1dab7c3fbc38",
+  "request_sha256": "5c1ceb6a9d19b475ac8f87e52c594e14cae494d1840d5d4ce0dc27c5f79b7281",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cbfb5c425265fc05c0bb703e1",
+    "source_sha256": "3686180a991d9edf577af0d642a4729a31a8f534422b5b7f430b1dab7c3fbc38",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria, I've been busy doing the petition I started - it's tricky but it's been cool getting back in touch with my buddies and gaining support. I got this picture of my workmates when we went on a hiking trip, they really make me keep going! What have you been up to? Anything new with your charity?"
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Hey John! Cool that it's going well - you and your friends look like a great team! I'm busy at the shelter getting ready for a fundraiser next week. Hopefully, I can raise enough to cover basic needs for the homeless."
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Wow, Maria! Raising money is crucial for those in need. Is there any way I can help out with your fundraiser?"
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "Thanks, John! Appreciate your help. We need to get the word out about the chili cook-off at the fundraiser. Here's the poster!"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Wow, it looks awesome! I'll make sure to spread the word about it. Is there anything else I can do to assist?"
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Thanks, John! Your help is really appreciated. If you know anyone who might be interested in volunteering for the event, let me know. We can do this!"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Yep, Maria! I'll ask around to see if anyone I know wants to help. We'll find some awesome people for the cause. Let's make a change!"
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "Way to go, John! Let's help those in need. Thanks for your support!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "No problem, Maria! Working together with passionate people like you is awesome! Let's make a difference."
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "Yeah, working with passionate people like you is really motivating."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Yeah, Maria! We're making a difference and we'll keep it up! Here's a pic of my fam at the beach."
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "Wow, John, that pic is gorgeous! It really gives me hope to appreciate the little moments."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Thanks, Maria! It's moments like these that give me hope too."
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "Yeah, John! They give me peace and make me appreciate life."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Glad the photo made you feel that way, Maria. Cherish those little moments!"
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "Thanks, John. I definitely will!"
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Thanks for letting me help, Maria. It's moments like these that make life worth living."
+      },
+      {
+        "turn": 17,
+        "role": "Maria",
+        "text": "Yep, John. These reminders help us stay motivated to make a positive impact. Well, talk to you soon!"
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "Yeah, Maria! We're really making progress towards making a positive impact. I believe in us! See ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s petition and hiking support",
+        "keywords": [
+          "John",
+          "petition",
+          "workmates",
+          "hiking trip",
+          "buddies",
+          "support",
+          "motivation"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Maria’s shelter fundraiser",
+        "keywords": [
+          "Maria",
+          "homeless shelter",
+          "fundraiser",
+          "next week",
+          "chili cook-off",
+          "poster",
+          "volunteer",
+          "spread the word",
+          "positive impact"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          17,
+          18
+        ]
+      },
+      {
+        "label": "John’s family beach photo",
+        "keywords": [
+          "John",
+          "family",
+          "beach",
+          "photo",
+          "little moments",
+          "hope",
+          "peace",
+          "appreciate life"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.740787,
+    "thread_setup_seconds": 0.197595,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.740787,
+    "turn_seconds": 9.543193,
+    "first_text_seconds": 7.989973,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10670,
+      "completion_tokens": 306,
+      "total_tokens": 10976,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 137
+    }
+  },
+  "error": null
+}

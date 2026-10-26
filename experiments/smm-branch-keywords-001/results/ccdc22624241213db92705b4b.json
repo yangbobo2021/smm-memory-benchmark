@@ -1,0 +1,188 @@
+{
+  "source_id": "ccdc22624241213db92705b4b",
+  "source_sha256": "59bb08bfd92e01bc28fb18298699c1ae3743d1eee628ccee7e384d2aeb00a279",
+  "request_sha256": "a4375a5698d1669e544da88a4b5746f0de3d04f0f87b12f90544eb5c8c02d4c1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ccdc22624241213db92705b4b",
+    "source_sha256": "59bb08bfd92e01bc28fb18298699c1ae3743d1eee628ccee7e384d2aeb00a279",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria, great chatting with you again! Crazy thing happened since we last talked. I lost my job at the mechanical engineering company. They tanked and it's been really rough. Never saw this coming."
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Sorry to hear about your job, John. I can only imagine how tough it must be. How are you holding up?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Thanks for your care, Maria. It's been tough but I'm trying to stay up. I've been looking into some opportunities in the tech industry for a while now. Maybe this is the change I need, you gave me the push!"
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "Hey John, glad you're looking into other avenues. Any promising leads come up?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Thanks Maria! I may have found a job at a tech company I like that needs my mechanical skills for their hardware team. It feels different, but I think it's a great opportunity to learn and contribute."
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Wow, John, that sounds like the perfect job for you! You're so adaptable, I'm sure you'll do great. Good luck!"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Thanks, Maria! I appreciate your support, it really means a lot."
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "Hey John, I'm here for you! Staying positive makes a big difference, even in tough times. Yesterday, I took up some community work with my friends from church. It was super rewarding!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Wow, Maria! That's great. Glad it was rewarding for you."
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "Thanks, John! These moments remind me of how important kindness and compassion are. Have you had any volunteer experiences you'd like to share?"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "I haven't been able to volunteer much lately, but I definitely care about it. Last year, I helped renovate a rundown community center back home. It took a lot of work, but seeing the impact on the community was so worth it."
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "John, that's great! Must be really satisfying to witness the positive effect it's having on your hometown."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Yeah! It was really cool to see everyone come together and help out - it's been amazing to see it so busy!"
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "Wow, John, awesome job! Keep doing what you're doing - you're making a real difference!"
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "It's really encouraging to hear that. I'll keep pushing forward and doing my best."
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "You got this! You're inspiring and keep making a difference."
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "I appreciate it! Your words are really motivating."
+      },
+      {
+        "turn": 17,
+        "role": "Maria",
+        "text": "No worries, John. I'm here to support you. If there's anything else I can do, just let me know."
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "Thanks, Maria. Your support means a lot to me. If I need anything, I'll be sure to reach out."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s job loss and move toward tech",
+        "keywords": [
+          "John",
+          "Maria",
+          "job loss",
+          "mechanical engineering company",
+          "tech industry",
+          "hardware team",
+          "mechanical skills",
+          "career change"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Church volunteering and community center renovation",
+        "keywords": [
+          "Maria",
+          "John",
+          "church friends",
+          "community work",
+          "volunteering",
+          "community center",
+          "renovation",
+          "hometown",
+          "kindness",
+          "compassion"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.423358,
+    "thread_setup_seconds": 0.147356,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.423358,
+    "turn_seconds": 9.276001,
+    "first_text_seconds": 6.563621,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10688,
+      "completion_tokens": 296,
+      "total_tokens": 10984,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 153
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,230 @@
+{
+  "source_id": "c950574499c453ed6c91762b8",
+  "source_sha256": "d2646422dd16df851d10013cd27158ef16d3e126b6f715e958741a330f8a070c",
+  "request_sha256": "67fe4b045ad0e96cba2569b14b4b0d31390bd58dc3a71cbafb90e532fd8fff47",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c950574499c453ed6c91762b8",
+    "source_sha256": "d2646422dd16df851d10013cd27158ef16d3e126b6f715e958741a330f8a070c",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hi Maria, since we last chatted, I'm volunteering as a mentor for a local school. It's really rewarding to see how much I can help these students."
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Wow, John! You're doing great things. Kudos for helping kids learn. On another note, I just adopted this cute pup from a shelter last week. She brings so much joy! I feel blessed to be able to give her a home."
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Wow, Maria, how cute! What's her name? Do she and your other dog get along?"
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "Her name is Shadow! She's full of energy and always puts a smile on my face. She's been a great addition to my life. They get along great."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Aww, that sounds adorable! Animals really bring a lot of joy and love, don't they? Did you have any pets growing up?"
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "No, I didn't. But having a furry pal definitely brightens my days."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "They sure do!  I'll have to look into shelters near me soon, it would be great to have a new pup in the house."
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "Yeah, John! Pets are great at making you feel loved. It's awesome having them around, they bring so much joy! How's everything going with the mentoring program? Are the students making progress?"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "They're doing great - there's been a real improvement in their confidence and skills. It was so amazing to see one of them last week, so excited to show me their essay. It was a proud moment! How's your new pup doing, Maria?"
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "Awesome, John! Sounds like it's really making a difference. The little one is doing great - learning commands and house training.\n"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Wow, cool Maria! Your little one is so smart and keen to learn, must be awesome!"
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "She's an amazing learner - so much fun to work with and watch her grow. She's brought me so much joy!"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Animals are amazing— They can be incredible companions."
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "Yeah, they can really comfort us and make us feel understood in ways others can't. It's amazing how they bring us so much happiness."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Yeah, animals bring us peace and understanding, plus we can always count on them. That's so priceless."
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "Absolutely, John. They're always there for us."
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Yeah, my family is awesome - me, the missus, and the kids. Even when times are hard, they always have my back. Best thing ever, really."
+      },
+      {
+        "turn": 17,
+        "role": "Maria",
+        "text": "That picture is so cute! What activities do you all enjoy doing together?"
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "Thanks, Maria! We love being outdoors - going for hikes, hanging out at the park, having picnics - plus playing board games and having movie nights at home. "
+      },
+      {
+        "turn": 19,
+        "role": "Maria",
+        "text": "Sounds like a blast, John! Spending time with family is so important, and that all sounds perfect. Have a great time!"
+      },
+      {
+        "turn": 20,
+        "role": "John",
+        "text": "Thanks, Maria! I'm off to spend some time with them now. Have a good day!"
+      },
+      {
+        "turn": 21,
+        "role": "Maria",
+        "text": "Enjoy your family time, John! Have a great day!"
+      },
+      {
+        "turn": 22,
+        "role": "John",
+        "text": "Thanks, Maria! You too! Stay safe!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "School mentoring",
+        "keywords": [
+          "John",
+          "local school",
+          "mentor",
+          "students",
+          "confidence",
+          "skills",
+          "essay",
+          "student progress",
+          "last week"
+        ],
+        "turns": [
+          0,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Maria’s adopted dog",
+        "keywords": [
+          "Maria",
+          "Shadow",
+          "shelter",
+          "puppy",
+          "house training",
+          "commands",
+          "pet adoption",
+          "companionship",
+          "growing up"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "John’s family activities",
+        "keywords": [
+          "John",
+          "family",
+          "wife",
+          "kids",
+          "hiking",
+          "park",
+          "picnics",
+          "board games",
+          "movie nights",
+          "outdoors"
+        ],
+        "turns": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 6.912518,
+    "thread_setup_seconds": 0.093583,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.912518,
+    "turn_seconds": 6.818935,
+    "first_text_seconds": 5.349717,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10828,
+      "completion_tokens": 298,
+      "total_tokens": 11126,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 121
+    }
+  },
+  "error": null
+}

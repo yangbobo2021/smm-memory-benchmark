@@ -1,0 +1,153 @@
+{
+  "source_id": "cc4fb5a3a25adb4c48276e80b",
+  "source_sha256": "2a6fad3db7f305bd092baef2d5de6cce2b1ac18ced45650ff247c908a5a335f5",
+  "request_sha256": "187bce796615e8b9d7989a85dc56eaf1a3e0727f6a4eb85a0246356c76a7c7fa",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cc4fb5a3a25adb4c48276e80b",
+    "source_sha256": "2a6fad3db7f305bd092baef2d5de6cce2b1ac18ced45650ff247c908a5a335f5",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Maria, since we talked, it's been tough. My old area was hit by a nasty flood last week. The infrastructure wasn't great so lots of homes were ruined. It's reminding me we need to fix things up in our community."
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Sorry to hear about what happened in your area, John. That must have been tough for you and everyone there. Is there anything I can do to help?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Thanks a lot, Maria. Your offer means a lot to me. I'm getting people together to chat about this and discuss potential solutions. I'd really appreciate your thoughts.\n"
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "Hey John, I'm down to join the meeting and contribute to making our community better. Let's do this!"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Nice work, Maria! Your determination never ceases to amaze me. Let's get to work!"
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Definitely, John! Your commitment to helping others is inspiring. It's great to have a friend like you who shares the same passion. Let's join forces and make the change we desire in our community."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "That means a lot, Maria. Your support and friendship mean everything. Together, we can really make a difference and motivate others too. Let's keep it up!"
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "John, let's keep working together to make a difference in our community. Our actions, no matter how small, can have a big impact. Let's continue to spread kindness and inspire hope."
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Definitely, little steps count! We can really make a difference together - let's do it!"
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "Yep, let's create a positivity ripple! Little acts of kindness and helping hands can really transform lives. Let's keep improving our community."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Yeah, let's work hard to help those around us. We can make a difference!"
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "Yeah, John! Change starts small, so with hard work, we can really make something great. I'm glad to have you here."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Thanks, Maria. Your support means a lot and it's awesome to have you by my side in our community work. Let's keep going and making great things happen!"
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "For sure! We can keep doing great stuff and making a difference. Well, I'm off to have dinner with some friends from the gym. Talk to you later!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Flood recovery and community action",
+        "keywords": [
+          "John",
+          "Maria",
+          "flood",
+          "damaged homes",
+          "infrastructure",
+          "community improvement",
+          "meeting",
+          "volunteering",
+          "mutual support",
+          "kindness"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "Dinner with gym friends",
+        "keywords": [
+          "dinner",
+          "friends",
+          "gym"
+        ],
+        "turns": [
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.029183,
+    "thread_setup_seconds": 0.996676,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.029183,
+    "turn_seconds": 11.032506,
+    "first_text_seconds": 9.848548,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10567,
+      "completion_tokens": 236,
+      "total_tokens": 10803,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 126
+    }
+  },
+  "error": null
+}

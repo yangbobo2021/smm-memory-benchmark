@@ -1,0 +1,183 @@
+{
+  "source_id": "c6fc1ee0febe9cde190ad49cc",
+  "source_sha256": "6a27a4a7d53c29aff513d68ce0a55908d44768d028631d151148d71a63a920b9",
+  "request_sha256": "d0af1751b49c61c89a1757dc03f977d112eda6e7e34f74cbc3c07d009e837931",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c6fc1ee0febe9cde190ad49cc",
+    "source_sha256": "6a27a4a7d53c29aff513d68ce0a55908d44768d028631d151148d71a63a920b9",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Maria",
+        "text": "Hey John! Long time no see! What's up?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Maria! Good to see you. Just got back from a family road trip yesterday, it was fun! Anything exciting happening for you?"
+      },
+      {
+        "turn": 2,
+        "role": "Maria",
+        "text": "Been busy volunteering at the homeless shelter and keeping fit. Just started doing aerial yoga, it's great. Have you tried any other cool workout classes?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Woah, Maria, that sounds cool! I'm doing kickboxing and it's giving me so much energy."
+      },
+      {
+        "turn": 4,
+        "role": "Maria",
+        "text": "Cool, John. Kickboxing is a perfect way to stay in shape and de-stress. Do you have any goals you're working towards?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Yeah Maria, I'm really hoping to get into local politics. I love helping the community and making it a better place."
+      },
+      {
+        "turn": 6,
+        "role": "Maria",
+        "text": "Woohoo, John! That's awesome! Any specific areas you want to tackle?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "I'm passionate about improving education and infrastructure in our community. Those are my main focuses."
+      },
+      {
+        "turn": 8,
+        "role": "Maria",
+        "text": "Wow, John! It's great to hear that. Could you tell me what got you interested in those topics?"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Growing up, I saw how lack of education and crumbling infrastructure affected my neighborhood. I don't want future generations to go through that, so I think schools and infrastructure should be funded properly. Here's a pic of a school last year, after they got the funding."
+      },
+      {
+        "turn": 10,
+        "role": "Maria",
+        "text": "Looks good! How did the extra funding help with building the school?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "It enabled needed repairs and renovations, making the learning environment safer and more modern for students."
+      },
+      {
+        "turn": 12,
+        "role": "Maria",
+        "text": "Wow John, it really made a difference for schools and students! It must have been great to be involved. What's your next move in politics?"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "I'm gonna chat with local leaders and organizations, get support and gather ideas for my next move."
+      },
+      {
+        "turn": 14,
+        "role": "Maria",
+        "text": "Sounds good, John. Let's get support and great ideas from local leaders and organizations. Keep me posted on how your campaign is going."
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Got it! Thanks, Maria. I definitely will."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Family road trip",
+        "keywords": [
+          "family road trip",
+          "recent travel",
+          "yesterday"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "Volunteering at homeless shelter",
+        "keywords": [
+          "volunteer",
+          "homeless shelter",
+          "community service"
+        ],
+        "turns": [
+          2
+        ]
+      },
+      {
+        "label": "Fitness and workout classes",
+        "keywords": [
+          "aerial yoga",
+          "kickboxing",
+          "fitness",
+          "stress relief",
+          "workout goals"
+        ],
+        "turns": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Local political goals and community improvements",
+        "keywords": [
+          "local politics",
+          "education funding",
+          "infrastructure repair",
+          "school renovation",
+          "local leaders",
+          "campaign"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.892214,
+    "thread_setup_seconds": 0.53356,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.892214,
+    "turn_seconds": 8.358654,
+    "first_text_seconds": 7.076184,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10539,
+      "completion_tokens": 384,
+      "total_tokens": 10923,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 223
+    }
+  },
+  "error": null
+}

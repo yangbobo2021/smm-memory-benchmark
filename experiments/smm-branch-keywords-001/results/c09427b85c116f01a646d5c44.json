@@ -1,0 +1,162 @@
+{
+  "source_id": "c09427b85c116f01a646d5c44",
+  "source_sha256": "f07b4b61c89179185ea6c0bcc6cce2261f12d1cd52c5aacbd249ad6f87365795",
+  "request_sha256": "1ab4570fe8af88e2f794c15b14e00d4a4f0318dfcc3e7c0613f9034035bf7cda",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c09427b85c116f01a646d5c44",
+    "source_sha256": "f07b4b61c89179185ea6c0bcc6cce2261f12d1cd52c5aacbd249ad6f87365795",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey James! Busy few weeks for sure, but I'm pushing through. Got an email about a volunteer gig at a game dev non-profit. It's something I've wanted to do for a while, and could be the perfect start to a career that combines my two loves - gaming and helping. So stoked!"
+      },
+      {
+        "turn": 1,
+        "role": "James",
+        "text": "Hey John, that sounds awesome! Combining your two loves - gaming and helping people - must be really exciting! So what kind of gig did they offer you?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "They asked me to be a programming mentor for game developers. I'll be teaching coding and assisting with projects. I'm really excited to share my knowledge and motivate people who are passionate about gaming."
+      },
+      {
+        "turn": 3,
+        "role": "James",
+        "text": "Wow, John! Mentoring programmers to make games sounds awesome! You must love it. How do you feel about starting this journey?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "I'm so excited and inspired! It's a great chance to help them and boost my own skills. I love sharing what I know and seeing others reach their potential - it's so rewarding!"
+      },
+      {
+        "turn": 5,
+        "role": "James",
+        "text": "It's so rewarding to see how much joy you get from it. Keep going, you're doing great!"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Thanks, James! Your support really means a lot. It's so fulfilling to use my skills to make a difference. I hope this opens more opportunities for me."
+      },
+      {
+        "turn": 7,
+        "role": "James",
+        "text": "I'm sure it will lead to great things. You got this! Oh, and I got this cool video card last week - I'm so excited to jump into it again!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Cool, James! What kind of games are you excited to play on it?"
+      },
+      {
+        "turn": 9,
+        "role": "James",
+        "text": " I'm super into RPGs, so I'm excited about getting this video card and playing some new games. Have you heard any great things about Cyberpunk 2077? Do you think this game is worthy of my attention?"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Yeah, I played it - it's awesome! Such an immersive world and an amazing story. I'm sure you'll love it!"
+      },
+      {
+        "turn": 11,
+        "role": "James",
+        "text": "I'm so excited for it! The world and story sound perfect. Thanks for recommending it, John!"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "No worries, James! Hope you have a blast playing. Let me know what you think!"
+      },
+      {
+        "turn": 13,
+        "role": "James",
+        "text": "Cool, John. Will do! Take care, see ya!"
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Take care! Enjoy that new computer. Later!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s game-development mentoring volunteer role",
+        "keywords": [
+          "John",
+          "game-development nonprofit",
+          "volunteer programming mentor",
+          "game developers",
+          "coding instruction",
+          "project assistance",
+          "career opportunity",
+          "gaming and helping"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "James’s new video card and Cyberpunk 2077",
+        "keywords": [
+          "James",
+          "video card",
+          "RPG",
+          "Cyberpunk 2077",
+          "game recommendation",
+          "immersive world",
+          "story"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 5.327629,
+    "thread_setup_seconds": 0.102721,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.327629,
+    "turn_seconds": 5.224908,
+    "first_text_seconds": 4.043945,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10586,
+      "completion_tokens": 199,
+      "total_tokens": 10785,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 63
+    }
+  },
+  "error": null
+}

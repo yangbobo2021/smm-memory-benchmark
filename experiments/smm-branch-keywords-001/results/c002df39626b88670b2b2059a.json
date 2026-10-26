@@ -1,0 +1,173 @@
+{
+  "source_id": "c002df39626b88670b2b2059a",
+  "source_sha256": "356dcea0c059e86f468520b77a2058d71c6fbbc403d94e41bb201506870c5119",
+  "request_sha256": "5f4d205accb7ac7357f9110eeeb0845c3e21f403a7df45eb5af26b170ece04bc",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c002df39626b88670b2b2059a",
+    "source_sha256": "356dcea0c059e86f468520b77a2058d71c6fbbc403d94e41bb201506870c5119",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Gina",
+        "text": "Hey Jon, what's been up? Some pretty cool stuff happened since we talked. I have acquired some new unique pieces for my store."
+      },
+      {
+        "turn": 1,
+        "role": "Jon",
+        "text": "Congrats on your store, Gina! Happy for you! It looks sick - is it a unique piece you're selling?"
+      },
+      {
+        "turn": 2,
+        "role": "Gina",
+        "text": "Thanks! This hoodie isn't for sale, it's from my own collection. I made a limited edition line last week to show off my style and creativity - it was tough but worth it!"
+      },
+      {
+        "turn": 3,
+        "role": "Jon",
+        "text": "What gave you the idea?"
+      },
+      {
+        "turn": 4,
+        "role": "Gina",
+        "text": "This design reminds me of the grit it takes to stand out and face challenges."
+      },
+      {
+        "turn": 5,
+        "role": "Jon",
+        "text": "That's awesome, Gina! Yesterday I chose to go to networking events to make things happen. It's been tough but I'm staying determined and focused."
+      },
+      {
+        "turn": 6,
+        "role": "Gina",
+        "text": "Way to go, Jon! Attending those networking events takes guts and drive. Keep it up!"
+      },
+      {
+        "turn": 7,
+        "role": "Jon",
+        "text": "Thanks! It's been tough going since I lost my job, but I'm sure investing my time in my business will pay off eventually. I really appreciate your help."
+      },
+      {
+        "turn": 8,
+        "role": "Gina",
+        "text": "No worries, Jon! You got this! Let me know if you need anything."
+      },
+      {
+        "turn": 9,
+        "role": "Jon",
+        "text": "Your help matters to me. I am writing all my plans down."
+      },
+      {
+        "turn": 10,
+        "role": "Gina",
+        "text": "Nice work! Tracking your plans and goals is key. It's like a picture of all your progress."
+      },
+      {
+        "turn": 11,
+        "role": "Jon",
+        "text": "Thanks, Gina! Seeing my goals written down on paper really helps keep me motivated and focused on what I have to do. I know it won't be easy, but I'm sure it'll pay off. Thanks for the support!"
+      },
+      {
+        "turn": 12,
+        "role": "Gina",
+        "text": "No worries, Jon! When things get rough, keep persevering and keep working hard. You'll get there! Don't quit!"
+      },
+      {
+        "turn": 13,
+        "role": "Jon",
+        "text": "Thanks, Gina! That sign reminds me to never give up, however hard things get. I'll keep going!"
+      },
+      {
+        "turn": 14,
+        "role": "Gina",
+        "text": "Believe in yourself and keep going. You can do it!"
+      },
+      {
+        "turn": 15,
+        "role": "Jon",
+        "text": "Thanks! I'm feeling confident and won't give up. Your support means a ton to me."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gina’s limited-edition hoodie",
+        "keywords": [
+          "Gina",
+          "store",
+          "personal collection",
+          "hoodie",
+          "limited-edition line",
+          "design",
+          "creativity",
+          "grit",
+          "challenges",
+          "last week"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Jon’s business plans and perseverance after job loss",
+        "keywords": [
+          "Jon",
+          "Gina",
+          "job loss",
+          "networking events",
+          "business",
+          "written plans",
+          "goals",
+          "motivation",
+          "perseverance",
+          "support",
+          "yesterday"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.549154,
+    "thread_setup_seconds": 0.102511,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.549154,
+    "turn_seconds": 7.446643,
+    "first_text_seconds": 6.1412,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10537,
+      "completion_tokens": 244,
+      "total_tokens": 10781,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 97
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,178 @@
+{
+  "source_id": "cbe8837627dd6a0418ea2f0d0",
+  "source_sha256": "9944a33fe4528394858dd6956f8434756fa7c871f6a7879d598d488fddedf81e",
+  "request_sha256": "dd55ffdca39817dcf144391d891893ba3df7b774d4235a185e26ea24df18d75f",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cbe8837627dd6a0418ea2f0d0",
+    "source_sha256": "9944a33fe4528394858dd6956f8434756fa7c871f6a7879d598d488fddedf81e",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria! Guess what? I'm now part of the fire-fighting brigade. I'm super excited to be involved and help out my community!"
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Wow John, that's impressive! You're really enthusiastic about making a change. How's your experience been so far?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": " I was impressed with their dedication and how well they worked together. Just being around them was so inspiring!"
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "That's amazing. Must have been awesome to see all those people working together."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "It definitely was! Everyone was so into it. It's amazing how a group can succeed at something so important. It only took us two hours. We worked hard but did something good – it was really satisfying."
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Wow, John! It looks like everyone was working hard. Did you raise any donations? "
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Yup, we raised a ton! We got stuff like canned food, toiletries, and clothes to help out. Feels great to be part of it!"
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "I bet! It's great to see the community coming together to support the local fire station. "
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "You're right, Maria. It's great to help out and see everyone coming together for this cause. It gives me a sense of purpose and passion. I feel like this is my true calling."
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "Awesome, John! Loving your newfound passion. You're doing great things - keep it up! It's wonderful to see everyone coming together for this cause."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Thanks, Maria! Your support means a lot to me. It's amazing how finding my passion has made such a big impact. I'll keep working hard on it. The donations even helped get a brand new fire truck!"
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "Look at that - we all donated for it, and it looks awesome!"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Thanks for being a part of this with me, Maria. I appreciate your support."
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "Hey John, I'm here for you. Last Friday, I spent some time at the shelter volunteering at the front desk. Seeing the smiles on their faces when they got food or a bed really made me feel good. We have the power to make a difference in people's lives."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Maria, I'm glad you're finding fulfillment there. It's amazing how a little kindness can have such a big impact on someone's life. Let's continue making a difference in our community!"
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "Yeah, John! Let's keep spreading kindness. It's awesome to know we can bring joy and comfort to those who need it."
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Yeah, Maria, let's keep each other and everyone else motivated to make a difference! Together, our impact will surely last."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Fire brigade community fundraiser",
+        "keywords": [
+          "John",
+          "Maria",
+          "fire-fighting brigade",
+          "local fire station",
+          "community volunteering",
+          "canned food",
+          "toiletries",
+          "clothes",
+          "donations",
+          "fire truck"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "Shelter front-desk volunteering",
+        "keywords": [
+          "Maria",
+          "John",
+          "shelter",
+          "front desk",
+          "volunteer",
+          "last Friday",
+          "food",
+          "bed",
+          "kindness",
+          "community impact"
+        ],
+        "turns": [
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.295361,
+    "thread_setup_seconds": 0.331054,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.295361,
+    "turn_seconds": 7.964307,
+    "first_text_seconds": 6.638894,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10662,
+      "completion_tokens": 238,
+      "total_tokens": 10900,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 98
+    }
+  },
+  "error": null
+}

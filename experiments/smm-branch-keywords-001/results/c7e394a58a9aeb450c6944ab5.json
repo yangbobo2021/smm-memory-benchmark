@@ -1,0 +1,211 @@
+{
+  "source_id": "c7e394a58a9aeb450c6944ab5",
+  "source_sha256": "f7b332b25cf0ee52ab2f58aa96dd92872da6b131b9f97af4bb5a1869df0635a4",
+  "request_sha256": "c1497d065491e8389eeb5e05bb4ddfdb490a825ac46c156d4558ee344a0e9380",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c7e394a58a9aeb450c6944ab5",
+    "source_sha256": "f7b332b25cf0ee52ab2f58aa96dd92872da6b131b9f97af4bb5a1869df0635a4",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam, long time no talk! Hope you're doing great. I just got back from a rad vacay with my new SO in Canada. Tried some awesome activities too - think hiking, biking... all that cool stuff. We loved exploring the outdoors together, it was so awesome!"
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan! Good to hear from you. Wow, Canada sounds amazing! That photo looks stunning. Wish I could do something like that. Things have been a bit challenging for me lately; some stuff has been hard on my health."
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "Sorry to hear that things haven't been going well. Dealing with health issues can be tough. Is there anything I can do to help?"
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "Thanks, Evan. Your support means a lot to me. It's tough staying positive, but knowing I have people like you in my corner makes it easier."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Glad to support you, Sam. Surrounding ourselves with people who care is key. What's on that note? A reminder or quote to stay motivated?"
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "Yeah, it's actually a quote that's been helping me stay motivated. It reminds me that progress is more important than perfection. Taking small steps towards a healthier life is still progress."
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "Cool mindset, Sam! I totally agree, progress over perfection. Mind sharing the quote with me? I would love to get something out of it too."
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "\"Don't fear it, just take the first step. It's been helping me move forward to healthier habits!\""
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "Love the quote, Sam. That mindset really helps me too. Thanks!"
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "You're welcome! Glad it helps. These times can be challenging."
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "They can be tough, but remember to celebrate the small wins - every step forward counts!"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "You're absolutely right! Celebrating those small wins is crucial. It's easy to get caught up in the challenges and setbacks, but those little victories are what keep me motivated. Thanks for the reminder, it's much appreciated."
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Absolutely, Sam. Remember, every small victory is a step forward, so keep up the good work! I'm cheering for you! And hey, I could use some cheering too - I've been searching for my keys for the last half hour with no luck! I'm losing it every week.."
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "Oh, I'll definitely be your cheerleader once I get some sleep, Evan! Funny you mention that, I had this amazing dream last night where I was soaring over skyscrapers. It felt incredible! Makes me wonder what it signifies..."
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "That does sound like an amazing dream! Maybe you should check out a dream interpretation book; it could offer some insights. Sweet dreams, Sam!"
+      },
+      {
+        "turn": 15,
+        "role": "Sam",
+        "text": "Thanks for the suggestion, Evan. I'll look into it. This journey feels endless at times, but I'm convinced it's going to be rewarding in the end. So good luck with your keys, Evan!"
+      },
+      {
+        "turn": 16,
+        "role": "Evan",
+        "text": "I'll just keep going, step by step, and I'll definitely find those keys!"
+      },
+      {
+        "turn": 17,
+        "role": "Sam",
+        "text": "That's for sure!"
+      },
+      {
+        "turn": 18,
+        "role": "Evan",
+        "text": "Go to bed already, bud! And take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Canada outdoor vacation with new partner",
+        "keywords": [
+          "Canada",
+          "vacation",
+          "new significant other",
+          "hiking",
+          "biking",
+          "outdoors",
+          "travel"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Sam’s health and progress mindset",
+        "keywords": [
+          "Sam",
+          "health issues",
+          "healthy habits",
+          "progress over perfection",
+          "motivational quote",
+          "small steps",
+          "small wins",
+          "health journey"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          15
+        ]
+      },
+      {
+        "label": "Evan’s missing keys",
+        "keywords": [
+          "Evan",
+          "lost keys",
+          "searching",
+          "half an hour",
+          "forgetfulness",
+          "cheering"
+        ],
+        "turns": [
+          12,
+          15,
+          16
+        ]
+      },
+      {
+        "label": "Sam’s dream of flying over skyscrapers",
+        "keywords": [
+          "Sam",
+          "dream",
+          "soaring",
+          "skyscrapers",
+          "dream interpretation book",
+          "sleep"
+        ],
+        "turns": [
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.272195,
+    "thread_setup_seconds": 0.133104,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.272195,
+    "turn_seconds": 10.139091,
+    "first_text_seconds": 8.318137,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10792,
+      "completion_tokens": 578,
+      "total_tokens": 11370,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 378
+    }
+  },
+  "error": null
+}

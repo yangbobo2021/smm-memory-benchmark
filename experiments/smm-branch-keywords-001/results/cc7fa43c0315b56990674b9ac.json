@@ -1,0 +1,178 @@
+{
+  "source_id": "cc7fa43c0315b56990674b9ac",
+  "source_sha256": "0ae3c29a4b99ee53fe8c7cf16cc5e3977f53a13622cc44ad1f356e4495535815",
+  "request_sha256": "a7f5be4458510c6f9fd659747dd53c413f7192d2a436c54b6494b1f6df50ccc7",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cc7fa43c0315b56990674b9ac",
+    "source_sha256": "0ae3c29a4b99ee53fe8c7cf16cc5e3977f53a13622cc44ad1f356e4495535815",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Andrew",
+        "text": "Hi Audrey! Been a while since I hear from you. How's it been?"
+      },
+      {
+        "turn": 1,
+        "role": "Audrey",
+        "text": "Hey Andrew! It's been a wild ride! I did something fun with my pups over the weekend, took them to the beach and it was so fun to see them playing in the ocean."
+      },
+      {
+        "turn": 2,
+        "role": "Andrew",
+        "text": "Sounds great! Did they love being at the beach? Did they enjoy the water? Here's a pic of my last trip to the beach."
+      },
+      {
+        "turn": 3,
+        "role": "Audrey",
+        "text": "The dogs had a blast swimming at the beach! Have you been there lately?"
+      },
+      {
+        "turn": 4,
+        "role": "Andrew",
+        "text": "Haven't been to the beach in a while. Miss being outdoors. It's hard to find open spaces in the city. Used to hike a lot, but it's more challenging now with my work life balance."
+      },
+      {
+        "turn": 5,
+        "role": "Audrey",
+        "text": "Oof, that's rough. I can imagine how much you miss being outdoors and surrounded by nature."
+      },
+      {
+        "turn": 6,
+        "role": "Andrew",
+        "text": "Yeah, it's been tough. Exploring nature was my escape - a way to find peace. But with my job and living here, it's been harder to get that feeling back. I feel a void in my heart."
+      },
+      {
+        "turn": 7,
+        "role": "Audrey",
+        "text": "Yeah, I get how it's like something is missing without being in the nature. But there are still some ways to appreciate it in the city, like getting some plants for your place or taking a trip to the park on the weekends."
+      },
+      {
+        "turn": 8,
+        "role": "Andrew",
+        "text": "Yeah true. I should get some more plants for my house. Can't beat being outside tho, but they can still bring some peace. I'll look into it. Thanks for the tip!"
+      },
+      {
+        "turn": 9,
+        "role": "Audrey",
+        "text": "Of course! If you need help or advice, just let me know. Plants can make your home so peaceful."
+      },
+      {
+        "turn": 10,
+        "role": "Andrew",
+        "text": "Thanks! I'll definitely reach out if I need any help or advice. Thanks again for offering!"
+      },
+      {
+        "turn": 11,
+        "role": "Audrey",
+        "text": "No problem at all! Glad to be of assistance."
+      },
+      {
+        "turn": 12,
+        "role": "Andrew",
+        "text": "Oh you've helped so much. "
+      },
+      {
+        "turn": 13,
+        "role": "Audrey",
+        "text": "Haha i'm just doing what I can do to help."
+      },
+      {
+        "turn": 14,
+        "role": "Andrew",
+        "text": "Thank you really. Well, take care and say hi to your dogs for me."
+      },
+      {
+        "turn": 15,
+        "role": "Audrey",
+        "text": "Haha I will. Take care. Talk later!"
+      },
+      {
+        "turn": 16,
+        "role": "Andrew",
+        "text": "Yup, have a great week. "
+      },
+      {
+        "turn": 17,
+        "role": "Audrey",
+        "text": "Have a great week! Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Audrey’s dogs at the beach",
+        "keywords": [
+          "Audrey",
+          "Andrew",
+          "dogs",
+          "beach",
+          "ocean swimming",
+          "weekend trip",
+          "beach photo"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "Andrew misses outdoor time and considers houseplants",
+        "keywords": [
+          "Andrew",
+          "Audrey",
+          "hiking",
+          "nature",
+          "city",
+          "work-life balance",
+          "houseplants",
+          "park visits",
+          "peace"
+        ],
+        "turns": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.936588,
+    "thread_setup_seconds": 0.224406,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.936588,
+    "turn_seconds": 10.712182,
+    "first_text_seconds": 9.360543,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10607,
+      "completion_tokens": 237,
+      "total_tokens": 10844,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 108
+    }
+  },
+  "error": null
+}

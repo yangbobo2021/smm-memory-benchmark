@@ -1,0 +1,194 @@
+{
+  "source_id": "cde1dfba519737390a9ad4dce",
+  "source_sha256": "f0748084ba059a6d79d8382846ae213acde523c4f69a574a6c21969bb7bd9855",
+  "request_sha256": "082e4b160e9456581fef73d8b9767a6c0c1ea1076c03aa72d9fee85c15e01323",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cde1dfba519737390a9ad4dce",
+    "source_sha256": "f0748084ba059a6d79d8382846ae213acde523c4f69a574a6c21969bb7bd9855",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hi Jolene! We haven't corresponded for a long time!"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Hey Deb, yeah life can get chaotic. How's it been going lately?"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "So much has been going on lately. I started this yoga class in the neighborhood - it's such a good feeling! Now I get to share the exercise with my neighbors and watch it really transform them."
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": " Congrats. How did you do this?"
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "Thanks! My neighbors were interested in trying yoga, so I hosted a class for them on Friday. It was great to see everyone embrace and enjoy it. Here is our photo together."
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "That's cool! What made you want to start teaching it?"
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "I find it calming and wanted to share that with others. Giving people peace and awareness brings me so much happiness."
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "Wow, Deb! It's awesome when we can share something we love and make things better for others."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "Teaching it is awesome because it can help others and I've made such great friends through it. It's really nice for building community connections."
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "That's really motivating. It's great to have support in tough times."
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": "It's one of life's best parts, right?"
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "Yeah, having someone to rely on is key in tough times. It really makes a difference in how we handle life. Plus, there's something I wanted to tell you."
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "What's up? I'm listening. We'll figure it out."
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "I'm having a hard time dealing with my Engineering assignments. It's a lot to manage and I'm struggling to keep up. Can we still talk about time management?"
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "Sure, Jolene. Let's find a time that works for both of us."
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": "Let's find a time to chat - I'll check my schedule and get back to you."
+      },
+      {
+        "turn": 16,
+        "role": "Deborah",
+        "text": "Take your time, Jolene. We'll work it out. Take care of yourself, OK?"
+      },
+      {
+        "turn": 17,
+        "role": "Jolene",
+        "text": " I'll make sure to take it. See you soon!"
+      },
+      {
+        "turn": 18,
+        "role": "Deborah",
+        "text": " I'm here for you if you need me. Let's catch up soon."
+      },
+      {
+        "turn": 19,
+        "role": "Jolene",
+        "text": "Have a great day!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Deborah teaches neighborhood yoga",
+        "keywords": [
+          "Deborah",
+          "Jolene",
+          "neighborhood yoga class",
+          "Friday",
+          "yoga teaching",
+          "exercise",
+          "calm",
+          "peace",
+          "awareness",
+          "community connections",
+          "new friends",
+          "class photo"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Jolene seeks help with engineering assignments",
+        "keywords": [
+          "Jolene",
+          "Deborah",
+          "engineering assignments",
+          "time management",
+          "struggling to keep up",
+          "schedule",
+          "support",
+          "tough times",
+          "chat"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.605635,
+    "thread_setup_seconds": 0.176113,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.605635,
+    "turn_seconds": 9.429522,
+    "first_text_seconds": 7.991468,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10620,
+      "completion_tokens": 210,
+      "total_tokens": 10830,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 61
+    }
+  },
+  "error": null
+}

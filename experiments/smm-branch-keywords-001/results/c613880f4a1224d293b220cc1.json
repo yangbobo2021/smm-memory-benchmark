@@ -1,0 +1,192 @@
+{
+  "source_id": "c613880f4a1224d293b220cc1",
+  "source_sha256": "6e3e94708e974aef713dfb4fb077c3b45dcb0fba4a93119e4f45a9df3c7157c2",
+  "request_sha256": "61b5c324b38ff340b78917224ed434f69c7b66e984b1ed8f2a85f2d6e1aef713",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c613880f4a1224d293b220cc1",
+    "source_sha256": "6e3e94708e974aef713dfb4fb077c3b45dcb0fba4a93119e4f45a9df3c7157c2",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Joanna",
+        "text": "Hey Nate! Great to hear from you! Quite a week since we last talked - something awesome happened to me!"
+      },
+      {
+        "turn": 1,
+        "role": "Nate",
+        "text": "Hey Jo! Great hearing from you! What happened?"
+      },
+      {
+        "turn": 2,
+        "role": "Joanna",
+        "text": "I went hiking and found some more amazing trails in my town. It was such an awesome experience! I think I am an expert hiker now."
+      },
+      {
+        "turn": 3,
+        "role": "Nate",
+        "text": "Sounds great, Jo! Happy you had an awesome experience. Did you happen to take any photos of it?"
+      },
+      {
+        "turn": 4,
+        "role": "Joanna",
+        "text": "Yeah, I did! Loved this spot on the hike. The rush of the water was so soothing."
+      },
+      {
+        "turn": 5,
+        "role": "Nate",
+        "text": "Wow, looks great! Where did you take this picture? I love the dark sky and green scenery."
+      },
+      {
+        "turn": 6,
+        "role": "Joanna",
+        "text": "Thanks! I took this photo at a beautiful location called Whispering Falls. It was really peaceful and serene."
+      },
+      {
+        "turn": 7,
+        "role": "Nate",
+        "text": "I wish I could have been there! Your hikes sound like a blast."
+      },
+      {
+        "turn": 8,
+        "role": "Joanna",
+        "text": "It was awesome, Nate. The sound of that place and the beauty of nature made me so calm and peaceful. Everything else faded away and all that mattered was the present."
+      },
+      {
+        "turn": 9,
+        "role": "Nate",
+        "text": "That's great. Glad you found a spot that calms you down - nature sure can be a break from the craziness."
+      },
+      {
+        "turn": 10,
+        "role": "Joanna",
+        "text": "Nature totally inspires me and it's so calming to be surrounded by its beauty. Hiking has opened up a whole new world for me and I feel like a different person now."
+      },
+      {
+        "turn": 11,
+        "role": "Nate",
+        "text": "Wow, Jo, that's really cool! It's great to have something that gets those creative juices flowing."
+      },
+      {
+        "turn": 12,
+        "role": "Joanna",
+        "text": "I always feel like I could write a whole movie when I'm out there in cool places like that!"
+      },
+      {
+        "turn": 13,
+        "role": "Nate",
+        "text": "Wow! That's really cool that it inspires you that much! For me I just get deep in thought and think about my life or new recipes."
+      },
+      {
+        "turn": 14,
+        "role": "Joanna",
+        "text": "I think about my life too sometimes when I'm out and about, but there was something special about these trails that made me feel like writing a drama."
+      },
+      {
+        "turn": 15,
+        "role": "Nate",
+        "text": "Hey, we should go together sometime, don't you think? Maybe I'll start to think of a drama myself and publish my own screenplay."
+      },
+      {
+        "turn": 16,
+        "role": "Joanna",
+        "text": "Haha, now that would be something! Sure, you should come down and join me on the trails sometime!"
+      },
+      {
+        "turn": 17,
+        "role": "Nate",
+        "text": "Sounds like a plan! Thanks for the invite Joanna!"
+      },
+      {
+        "turn": 18,
+        "role": "Joanna",
+        "text": "Sure thing Nate! See you later!"
+      },
+      {
+        "turn": 19,
+        "role": "Nate",
+        "text": "See ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Joanna’s hike to Whispering Falls",
+        "keywords": [
+          "Joanna",
+          "Nate",
+          "hiking",
+          "local trails",
+          "Whispering Falls",
+          "waterfall",
+          "hiking photos",
+          "peaceful nature"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Nature-inspired drama and a planned hike",
+        "keywords": [
+          "nature inspiration",
+          "creative writing",
+          "movie",
+          "drama",
+          "screenplay",
+          "Nate’s recipes",
+          "joint hike",
+          "trail invitation"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.750056,
+    "thread_setup_seconds": 0.15834,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.750056,
+    "turn_seconds": 11.591716,
+    "first_text_seconds": 10.146088,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10669,
+      "completion_tokens": 274,
+      "total_tokens": 10943,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 130
+    }
+  },
+  "error": null
+}

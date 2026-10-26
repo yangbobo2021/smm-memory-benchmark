@@ -1,0 +1,194 @@
+{
+  "source_id": "c323763f62fbc6608d3a60d9d",
+  "source_sha256": "e10b5a17ed5f386d6a225adf4ccdeec8bcaafd569de414baf5c1c8284b36f217",
+  "request_sha256": "aa3b04c3ebbb06d23c4a76988aede952ebb7ae3e48505334a44c2cf78b6ff1ce",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c323763f62fbc6608d3a60d9d",
+    "source_sha256": "e10b5a17ed5f386d6a225adf4ccdeec8bcaafd569de414baf5c1c8284b36f217",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Yesterday I met with some incredible artists in Boston and we talked about working together. It was such an inspiring and exciting experience - they all have individual styles and I'm stoked to collaborate with them on new music."
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Awesome, Calvin! Connecting with all those talented artists must have been an inspiring experience. Can't wait to hear what you come up with in your collaboration. Let me know how it goes! Also, how did you arrange that meeting?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Hey Dave, it was awesome talking to those artists! Our mutual friend knew we'd be a great fit. Can't wait to show you the final result. Also, check out this project - I love working on it to chill out. How about you? Got any hobbies to help you relax?"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Wow, Calvin, that car looks great! Working on cars really helps me relax, it's therapeutic to see them come back to life. I've been working on that Ford Mustang I found in a junkyard - it was in bad shape, but I knew it had potential."
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Wow, Dave! It's awesome that you can bring things back to life. Do you have any pictures of it looking amazing? I'd love to see how it turned out!"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Hey Calvin, check out this photo! I put in a lot of work restoring it, but the result is awesome. It's so satisfying to bring an old car back to life."
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "We've been greatly privileged to have been granted this opportunity. It's so satisfying to bring it back to life! "
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Wow, it's so satisfying! Here are my hands after a day in the garage - permanently stained with grease. But it's worth it when you see the end result."
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Yeah, Dave! Those hands show you worked hard. You put in lots of effort. You should definitely be proud!"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Thanks, Calvin. I love being able to transform something old and beat-up into something beautiful. It's the small successes that make me feel proud and fulfilled."
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Yeah, those little wins matter. They give us a sense of accomplishment and bring us joy. It's truly inspiring to see how much we can grow."
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Sure, Calvin! It's awesome seeing the progress and development, both in our projects and ourselves. Hard work really does pay off!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Yeah, hard work and dedication are definitely key to reaching our goals and potential. It's awesome to see our growth and progress."
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Yeah, it's great to see our progress. It's really motivating and keeps me pushing for more."
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "Agreed, Dave! Progress is what keeps us motivated and pushing for more. Let's never give up and keep striving for success. We know that hard work and determination matter, and it's what sets us apart. Onwards to our goals!"
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "Let's keep going! We won't lose focus on our goals. Hard work and determination will get us there. Let's do this!"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "Yeah, let's do it! Let's stay focused and work hard to make our dreams happen. We can make it happen together! Wishing you all the best until we meet again!\n\n\n\n\n "
+      },
+      {
+        "turn": 17,
+        "role": "Dave",
+        "text": "Yep, Calvin! Together, we can do amazing things if we work together and stay motivated. We got this! Take care and stay well!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Boston artists and music collaboration",
+        "keywords": [
+          "Boston",
+          "artists",
+          "mutual friend",
+          "music",
+          "collaboration",
+          "meeting"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Ford Mustang restoration hobby",
+        "keywords": [
+          "Ford Mustang",
+          "junkyard",
+          "car restoration",
+          "garage",
+          "grease-stained hands",
+          "relaxation",
+          "before-and-after photo"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Motivation, progress, and pursuing goals",
+        "keywords": [
+          "hard work",
+          "dedication",
+          "progress",
+          "personal growth",
+          "motivation",
+          "determination",
+          "goals",
+          "success"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.486257,
+    "thread_setup_seconds": 0.147837,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.486257,
+    "turn_seconds": 9.33842,
+    "first_text_seconds": 7.743311,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10833,
+      "completion_tokens": 348,
+      "total_tokens": 11181,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 182
+    }
+  },
+  "error": null
+}

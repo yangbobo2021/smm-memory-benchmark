@@ -1,0 +1,187 @@
+{
+  "source_id": "cb7dcd9a40047f36005366699",
+  "source_sha256": "639882b57fff24edc3124226285c9e11e123f3cd5f8e2e7384629e98f7e41898",
+  "request_sha256": "c14a0e806f95b5c5ac89e5a8cdf532f829423340e4e9e5df7ced1783cd8d5f30",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cb7dcd9a40047f36005366699",
+    "source_sha256": "639882b57fff24edc3124226285c9e11e123f3cd5f8e2e7384629e98f7e41898",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Gina",
+        "text": "Hey Jon! Long time no talk! A lot's happened - I just got accepted for a fashion internship!"
+      },
+      {
+        "turn": 1,
+        "role": "Jon",
+        "text": "Congrats, Gina! That's awesome news about the fashion internship. 🎉 So stoked for you. Where is the internship and how're you feelin' about it?"
+      },
+      {
+        "turn": 2,
+        "role": "Gina",
+        "text": "Thanks! I'm excited and kinda nervous. Gonna be a big change. It's part-time position in the fashion department of an international company."
+      },
+      {
+        "turn": 3,
+        "role": "Jon",
+        "text": "Way to go, Gina! You really stepped up. What's your plan for the future?"
+      },
+      {
+        "turn": 4,
+        "role": "Gina",
+        "text": "Thanks! I'm a mix of excited and scared to get into fashion, but I'm trying to stay upbeat and learn as much as I can. What about you? Got something new?"
+      },
+      {
+        "turn": 5,
+        "role": "Jon",
+        "text": "I'm currently reading \"The Lean Startup\" and hoping it'll give me tips for my biz."
+      },
+      {
+        "turn": 6,
+        "role": "Gina",
+        "text": "It sounds great! Could it spark any ideas for your dance studio?"
+      },
+      {
+        "turn": 7,
+        "role": "Jon",
+        "text": "Yeah, the book got me thinking about building a focused and efficient business. Adapting and tweaking from customer feedback is important too, so I'm gonna try it out!"
+      },
+      {
+        "turn": 8,
+        "role": "Gina",
+        "text": "Woah, Jon, that whiteboard's got a bunch of good ideas! How you gonna keep track and stay on schedule with those dates?"
+      },
+      {
+        "turn": 9,
+        "role": "Jon",
+        "text": "Thanks, Gina! It helps me keep track of ideas and milestones. Gives me a visual of my progress and keeps me organized."
+      },
+      {
+        "turn": 10,
+        "role": "Gina",
+        "text": "Nice idea! Having something visual can help with organizing and motivation. What're you working on currently?"
+      },
+      {
+        "turn": 11,
+        "role": "Jon",
+        "text": "I'm wrapping up the business plan and looking for investors. My passion for the project and belief in its success are driving me."
+      },
+      {
+        "turn": 12,
+        "role": "Gina",
+        "text": "Wow, Jon! Impressed by your commitment. How's the hunt for investors going?"
+      },
+      {
+        "turn": 13,
+        "role": "Jon",
+        "text": "Thanks! Searching for investors has been tough, but I'm staying hopeful. It's all a process and I'm learning a ton."
+      },
+      {
+        "turn": 14,
+        "role": "Gina",
+        "text": "Yeah Jon, you've got the right attitude! Keep learning and growing through it all. Keep going!"
+      },
+      {
+        "turn": 15,
+        "role": "Jon",
+        "text": "Thanks! I really appreciate your help. I'm gonna keep on going and never quit."
+      },
+      {
+        "turn": 16,
+        "role": "Gina",
+        "text": "Keep it up!"
+      },
+      {
+        "turn": 17,
+        "role": "Jon",
+        "text": "Thanks! Your words really mean a lot. Don't worry, I won't let anything get me down."
+      },
+      {
+        "turn": 18,
+        "role": "Gina",
+        "text": "Go Jon! Obstacles are inevitable, but you can do awesome things. Keep going!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gina’s fashion internship",
+        "keywords": [
+          "Gina",
+          "fashion internship",
+          "part-time position",
+          "fashion department",
+          "international company",
+          "career plans",
+          "nervous",
+          "excited"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Jon’s dance studio business plan",
+        "keywords": [
+          "Jon",
+          "The Lean Startup",
+          "dance studio",
+          "customer feedback",
+          "business plan",
+          "whiteboard",
+          "milestones",
+          "investors",
+          "startup"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 6.595595,
+    "thread_setup_seconds": 0.092926,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.595595,
+    "turn_seconds": 6.502669,
+    "first_text_seconds": 5.574723,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10640,
+      "completion_tokens": 279,
+      "total_tokens": 10919,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 142
+    }
+  },
+  "error": null
+}

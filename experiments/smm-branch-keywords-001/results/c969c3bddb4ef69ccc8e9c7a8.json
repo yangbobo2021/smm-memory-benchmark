@@ -1,0 +1,191 @@
+{
+  "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+  "source_sha256": "44ffd5be3098cd8916d9ab987c9db934f604b7d86de6f280fe0b878e33e48d92",
+  "request_sha256": "316d2d8312aec5e40a7ee673169045f24ed91441aefc557340854dd6ecdc21fc",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+    "source_sha256": "44ffd5be3098cd8916d9ab987c9db934f604b7d86de6f280fe0b878e33e48d92",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Maria",
+        "text": "Hey John, long time no talk! A lot has happened since then. I've been struggling, but I'm focusing on the positive and relying on my friends and fam for support."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Maria, sorry to hear that. That's rough, but it's great that you're focusing on the positive. Having support from your loved ones can make a big difference. How have they been helping you out?"
+      },
+      {
+        "turn": 2,
+        "role": "Maria",
+        "text": "Hey John, thanks. My family has been there for me all the way. They've been my rock, giving me words of encouragement and reminding me I'm not alone. It's a relief to have their support."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "That's great, Maria! It's such a blessing to have family who always supports us and reminds us that we're not alone. They know us like no one else and stick by us no matter what. Last week, we had a blast at a live music event. Seeing them dancing and having fun was awesome. The energy in the air was amazing."
+      },
+      {
+        "turn": 4,
+        "role": "Maria",
+        "text": "Wow, John! The energy from the crowd must have unreal! So glad you and your family got to experience that lively event. These are the moments that make the best memories."
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Thanks, Maria! It was definitely an amazing experience. Moments like these remind me to appreciate the ones I love. Life can be tough, but finding silver linings helps me keep going. How have you been finding silver linings in tough times?"
+      },
+      {
+        "turn": 6,
+        "role": "Maria",
+        "text": "Volunteering at the shelter made me feel great to help, even if just for a bit."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Wow, Maria! That's really amazing. It must have felt great to help out. Do you have any special memories from your experience?"
+      },
+      {
+        "turn": 8,
+        "role": "Maria",
+        "text": "There are so many, but one that stands out was when I met someone special at the shelter. They'd been sad for months, but when I was playing with the kids, they suddenly laughed - it was so uplifting! I won't forget that."
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "That's a really nice memory, Maria! It's amazing how just playing with kids can bring such joy and happiness. It shows how even a brief moment with someone can make a difference. Thanks for sharing it with me."
+      },
+      {
+        "turn": 10,
+        "role": "Maria",
+        "text": "No problem, John! It was really nice. Being able to make a difference brings me joy."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "It's great knowing that our actions can brighten someone else's life. Keep it up!"
+      },
+      {
+        "turn": 12,
+        "role": "Maria",
+        "text": "Thanks, John! Gonna continue doing it - it's my way of spreading kindness and positivity."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Maria, that's great! Your way of passing on kindness and positivity is making a big impact on the world. You're really making a difference."
+      },
+      {
+        "turn": 14,
+        "role": "Maria",
+        "text": "Thanks, John! Your words really mean a lot. It's always nice to know that what I'm doing is making an impact."
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "You definitely are. Keep going with it!"
+      },
+      {
+        "turn": 16,
+        "role": "Maria",
+        "text": "Thanks, John! I definitely will. Speak to you soon!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "That's awesome, Maria! Keep that positivity going and keep making a difference. Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Family support during hardship",
+        "keywords": [
+          "Maria",
+          "John",
+          "family support",
+          "emotional hardship",
+          "encouragement",
+          "feeling not alone"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Live music outing with family",
+        "keywords": [
+          "John",
+          "Maria",
+          "live music event",
+          "family",
+          "dancing",
+          "silver linings"
+        ],
+        "turns": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Shelter volunteering and spreading kindness",
+        "keywords": [
+          "Maria",
+          "John",
+          "shelter volunteering",
+          "playing with children",
+          "laughter",
+          "kindness",
+          "positivity",
+          "making a difference"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.15677,
+    "thread_setup_seconds": 0.087718,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.15677,
+    "turn_seconds": 11.069052,
+    "first_text_seconds": 9.432126,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10756,
+      "completion_tokens": 360,
+      "total_tokens": 11116,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 200
+    }
+  },
+  "error": null
+}

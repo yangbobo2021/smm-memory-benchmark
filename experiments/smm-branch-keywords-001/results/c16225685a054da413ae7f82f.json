@@ -1,0 +1,184 @@
+{
+  "source_id": "c16225685a054da413ae7f82f",
+  "source_sha256": "03da30f218ab7e1bb61c0e0605dd2cb09767757ab9ee23071d1f7e10a5b36a95",
+  "request_sha256": "597c6b0acdec58ef87af47a0016b10175268ed7742f75edea9ce20a2754a36e4",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c16225685a054da413ae7f82f",
+    "source_sha256": "03da30f218ab7e1bb61c0e0605dd2cb09767757ab9ee23071d1f7e10a5b36a95",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Calvin! Haven't talked in a while! Last Friday I had a card-night with my friends, it was so much fun. We laughed and had a great time! Take a look at the photo!"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave! Great to hear from you, card night sounds like a blast! Always love having fun with friends. Guess what? I scored a deal to continue collaboration with Frank Ocean! This is a dream come true for me, I've been working hard and it's finally paying off. No words can describe how happy I am."
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "Wow Calvin, congrats! Super excited for you. How did this chance come up?"
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "Thanks, Dave! I had the opportunity to meet Frank Ocean at a music festival in Tokyo and we clicked. We've been speaking and sharing ideas we arranged a meeting and recorded a song in the studio at my mansion - it's been great!"
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Wow, Tokyo sounds like an incredible experience!"
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "It was an incredible experience, Dave! The city was buzzing with energy and the festival crowd was so lively - it was like fuel for my soul. Look at this photo, that's amazing!"
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Wow, that sounds incredible! What was it like playing at the festival? Must have been an amazing experience."
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "It was a dream come true, Dave! The festival had buzzing energy and a super upbeat crowd. We all felt connected, it was amazing!"
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "Sounds like you had a blast! Did any other collaborations come out of that performance? Any upcoming concerts we should know about?"
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Yeah Dave, someone even noticed my performance and now we're working together, which is wild. My tour ends soon and I'm heading to Boston. Maybe we can meet up then!"
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "Sounds great! Fill me in on the details when you have them and let's meet up when you're here. Can't wait to hear all about everything!"
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "Of course, Dave can't wait to catch up! I almost forgot, yesterday my friends and I recorded a podcast where we discuss the rapidly evolving rap industry!"
+      },
+      {
+        "turn": 12,
+        "role": "Dave",
+        "text": "That sounds fantastic! I'm looking forward to listening to your podcast and learning more about the rap industry. Keep up the great work!"
+      },
+      {
+        "turn": 13,
+        "role": "Calvin",
+        "text": "I'll let you know when the podcast will be uploaded. Take care!"
+      },
+      {
+        "turn": 14,
+        "role": "Dave",
+        "text": "Sure, Calvin! Looking forward to hearing about it. See ya then!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dave’s card night",
+        "keywords": [
+          "card night",
+          "friends",
+          "last Friday",
+          "photo",
+          "laughter"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Calvin’s Frank Ocean collaboration and Tokyo festival",
+        "keywords": [
+          "Calvin",
+          "Frank Ocean",
+          "Tokyo",
+          "music festival",
+          "festival performance",
+          "studio recording",
+          "mansion",
+          "song collaboration"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Boston visit and meetup",
+        "keywords": [
+          "Boston",
+          "Calvin’s tour",
+          "tour ending",
+          "meetup",
+          "catch up"
+        ],
+        "turns": [
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Rap industry podcast",
+        "keywords": [
+          "podcast",
+          "rap industry",
+          "friends",
+          "recording",
+          "upload"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 13.454901,
+    "thread_setup_seconds": 0.187186,
+    "rate_wait_seconds": 0,
+    "active_seconds": 13.454901,
+    "turn_seconds": 13.267715,
+    "first_text_seconds": 9.691744,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10613,
+      "completion_tokens": 296,
+      "total_tokens": 10909,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 123
+    }
+  },
+  "error": null
+}

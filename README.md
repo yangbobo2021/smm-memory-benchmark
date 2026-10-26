@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [GPT-6 Luna high discussion-branch keyword indexing: 272 conversations, 200 LoCoMo questions, BM25/vector controls](experiments/smm-branch-keywords-001/README.md)
 - [BM25 as an Agent retrieval tool: completed lexical variants, authored query inputs, Top5/Top10 coverage, and decision-gate evidence review](analyses/bm25-route-review-001/README.md)
 - [Five-route candidate-budget comparison: BM25/vector Top5, Top10, and their 5+5 union against answer dependencies](analyses/five-candidate-routes-001/README.md)
 - [Agent sufficiency judgment and one follow-up BM25 search: GPT-6 Luna high, 257 cases](experiments/smm-sufficiency-luna-001/INDEX.md)

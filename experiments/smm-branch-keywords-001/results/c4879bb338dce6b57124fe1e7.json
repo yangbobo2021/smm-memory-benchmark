@@ -1,0 +1,204 @@
+{
+  "source_id": "c4879bb338dce6b57124fe1e7",
+  "source_sha256": "812fc010e6bbcc756c02b5be823a7c4545deb709aafcaa79740f6d64452e3129",
+  "request_sha256": "354cd8dffb7ef316a7fcc75db3ac643bd0fb2bf5796631d76dc67c74c8fa8bba",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c4879bb338dce6b57124fe1e7",
+    "source_sha256": "812fc010e6bbcc756c02b5be823a7c4545deb709aafcaa79740f6d64452e3129",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Audrey",
+        "text": "Hey Andrew, hope you're doing ok. I recently had a good week - I went to a pet store last Monday to buy toys for my dogs and it was great seeing them so excited when I got them home. It made me realize how much I love them and how much joy they bring me."
+      },
+      {
+        "turn": 1,
+        "role": "Andrew",
+        "text": "Hi Audrey! Pets really can make our lives better, huh? Speaking of which, I've got some awesome news -- I recently adopted another pup from a shelter. He's the best."
+      },
+      {
+        "turn": 2,
+        "role": "Audrey",
+        "text": "Wow! That's awesome news! How's he doing in his new home?"
+      },
+      {
+        "turn": 3,
+        "role": "Andrew",
+        "text": "Thanks! He's doing great in his new home. Still getting used to Toby and the new environment. Toby needs some time to get along with him too. I never imagined having pets would bring so much happiness. Pets really bring lots of joy and companionship to our lives."
+      },
+      {
+        "turn": 4,
+        "role": "Audrey",
+        "text": "That's awesome! What is his name?"
+      },
+      {
+        "turn": 5,
+        "role": "Andrew",
+        "text": "I named him Buddy because he's my buddy and I hope him and Toby become buddies!"
+      },
+      {
+        "turn": 6,
+        "role": "Audrey",
+        "text": "That's perfect! Sounds like Buddy really is your sidekick. Do you have any favorite activities you two like to do together?"
+      },
+      {
+        "turn": 7,
+        "role": "Andrew",
+        "text": "Yeah, Buddy and I have a great time doing walks. It's a nice way to spend time together and get some fresh air."
+      },
+      {
+        "turn": 8,
+        "role": "Audrey",
+        "text": "Nice! Buddy seems to be having a great time! It's nice to spend time together and get some fresh air."
+      },
+      {
+        "turn": 9,
+        "role": "Andrew",
+        "text": "Yep, he loves checking out new hiking trails with us. It's awesome to see him so stoked and interested in everything nature has to offer."
+      },
+      {
+        "turn": 10,
+        "role": "Audrey",
+        "text": "That sounds awesome! Have fun exploring the trails!"
+      },
+      {
+        "turn": 11,
+        "role": "Andrew",
+        "text": "Yup! I will be taking both of them to the trails together soon!"
+      },
+      {
+        "turn": 12,
+        "role": "Audrey",
+        "text": "I can't wait for our hike with the furry friends next month - it's gonna be awesome!"
+      },
+      {
+        "turn": 13,
+        "role": "Andrew",
+        "text": "Oh yeah! It going to be fun with the new addition."
+      },
+      {
+        "turn": 14,
+        "role": "Audrey",
+        "text": "Ooo where is this gorgeous spot? I need to take my pups for a stroll there."
+      },
+      {
+        "turn": 15,
+        "role": "Andrew",
+        "text": "Haha is nowhere near the city. Wish I could take them to a place like this, far from the city."
+      },
+      {
+        "turn": 16,
+        "role": "Audrey",
+        "text": "That sounds like a great getaway from the city tho! I'm hoping we can find something just as nice for our hike."
+      },
+      {
+        "turn": 17,
+        "role": "Andrew",
+        "text": "Well if that's what you want, then let's find something just as nice for our hike."
+      },
+      {
+        "turn": 18,
+        "role": "Audrey",
+        "text": "Yep! I'll do some research and see if I can find an awesome place like that."
+      },
+      {
+        "turn": 19,
+        "role": "Andrew",
+        "text": "Awesome! I really appreciate your effort! Let's see if there's somewhere like that."
+      },
+      {
+        "turn": 20,
+        "role": "Audrey",
+        "text": "You just wait. I'm gonna find the best spot for the hike. Haha."
+      },
+      {
+        "turn": 21,
+        "role": "Andrew",
+        "text": "Haha, I can't wait!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dogs, adoption, and companionship",
+        "keywords": [
+          "Audrey",
+          "Andrew",
+          "pet store",
+          "dog toys",
+          "shelter adoption",
+          "Buddy",
+          "Toby",
+          "dog walks",
+          "companionship"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Planning a dog-friendly hike",
+        "keywords": [
+          "hiking trails",
+          "next month",
+          "furry friends",
+          "getaway from the city",
+          "hike location",
+          "research",
+          "stroll"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.223495,
+    "thread_setup_seconds": 0.28291,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.223495,
+    "turn_seconds": 11.940585,
+    "first_text_seconds": 10.115698,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10737,
+      "completion_tokens": 353,
+      "total_tokens": 11090,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 209
+    }
+  },
+  "error": null
+}

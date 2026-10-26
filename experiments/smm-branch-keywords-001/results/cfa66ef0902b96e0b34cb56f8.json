@@ -1,0 +1,167 @@
+{
+  "source_id": "cfa66ef0902b96e0b34cb56f8",
+  "source_sha256": "24d85efbbd8fcbe1069508475006f32dead7d9b68011c06605c543bc713c2f03",
+  "request_sha256": "97a1b196b18b3f69b01dc942a007d5c42848e9ea9c2adef7f998426e68701071",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cfa66ef0902b96e0b34cb56f8",
+    "source_sha256": "24d85efbbd8fcbe1069508475006f32dead7d9b68011c06605c543bc713c2f03",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey James! Hope you're doing great. I've some amazing news - I held a gaming tourney with my buddies last night. We played Fortnite and a few other games. We raised a decent amount for a children's hospital. Combining gaming and a good cause felt awesome!"
+      },
+      {
+        "turn": 1,
+        "role": "James",
+        "text": "Hey John! Awesome job organizing a gaming tournament for a children's hospital! Combining gaming and a good cause - that's really cool! Tell me more about who helped out and what other games were played."
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Thanks! We all pulled together for a great cause. My gaming pals and I also played Overwatch and Apex Legends. Everyone had a blast raising money for the kids' hospital. The atmosphere was awesome and everyone was so competitive. In the end, we raised a good amount. Feels good to use our love of gaming for good!"
+      },
+      {
+        "turn": 3,
+        "role": "James",
+        "text": "Wow, that sounds like a blast! It's great how gaming can bring people together like that. You made a huge difference in the kids' lives! Do you have any photos from the tournament?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "I got a great shot at the tournament. Check it out! Everyone was so hyped, and it felt great knowing we were playing for a good cause."
+      },
+      {
+        "turn": 5,
+        "role": "James",
+        "text": "Wow, this photo rocks!"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Thanks! I'm glad you enjoyed it. It was a really awesome moment - unforgettable for all of us! What's new with you?"
+      },
+      {
+        "turn": 7,
+        "role": "James",
+        "text": "I actually have something new, Samantha and I have decided to move in together!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Wow, that's a really big decision! I hope you both have weighed the pros and cons. Where are you going to live?"
+      },
+      {
+        "turn": 9,
+        "role": "James",
+        "text": "Of course, this was a mutual and informed decision. We rented an apartment not far from McGee's bar."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "You love spending time together in this bar, don't you?"
+      },
+      {
+        "turn": 11,
+        "role": "James",
+        "text": "We just love it! I’ll be honest, one of the criteria for our choice of apartment was this particular bar nearby."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Awesome, James! Excited to hear how it goes. Keep me posted and good luck!"
+      },
+      {
+        "turn": 13,
+        "role": "James",
+        "text": "Thanks, John! I'll be sure to keep you updated. I really appreciate your support. Take care!"
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "No worries! I'm here for you whenever you need. Stay safe and chat soon!"
+      },
+      {
+        "turn": 15,
+        "role": "James",
+        "text": "Thanks! Appreciate your support. Stay safe and talk to you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gaming fundraiser tournament",
+        "keywords": [
+          "gaming tournament",
+          "children's hospital",
+          "fundraising",
+          "Fortnite",
+          "Overwatch",
+          "Apex Legends",
+          "gaming friends",
+          "tournament photo"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "James and Samantha move in together",
+        "keywords": [
+          "James",
+          "Samantha",
+          "move in together",
+          "rented apartment",
+          "McGee's bar",
+          "apartment location",
+          "mutual decision"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 5.717457,
+    "thread_setup_seconds": 0.130054,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.717457,
+    "turn_seconds": 5.587403,
+    "first_text_seconds": 4.548933,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10608,
+      "completion_tokens": 189,
+      "total_tokens": 10797,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 59
+    }
+  },
+  "error": null
+}

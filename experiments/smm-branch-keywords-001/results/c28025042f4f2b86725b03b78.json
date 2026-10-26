@@ -1,0 +1,229 @@
+{
+  "source_id": "c28025042f4f2b86725b03b78",
+  "source_sha256": "301b1dae822fe39684b79265368014cde51a57d5cee817b24ddac1bbd1c86da8",
+  "request_sha256": "6287521cb178d9d3426864609f275c142d8bc68f30df331fc51ce323a7d38e7f",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c28025042f4f2b86725b03b78",
+    "source_sha256": "301b1dae822fe39684b79265368014cde51a57d5cee817b24ddac1bbd1c86da8",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Calvin, long time no talk! A lot has happened. I've taken up photography and it's been great - been taking pics of the scenery around here which is really cool."
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave, it's great to hear from you! Can't wait to see your pics. I went to a fancy gala in Boston yesterday and met some interesting people. Check out this pic of me and the crew!"
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "Calvin, that event looks amazing! You all look awesome. Who did you have the most interesting chat with?"
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Had an awesome time. I had a really interesting chat with this cool artist and we clicked over music and art. We talked about our favorite artists, art, and how the power of music connects us all. It was such an inspiring conversation - I feel like I'm on a creative high. We have a photo together, take a look!"
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "That's amazing, Calvin! Music really does bring people together and foster creativity. Glad to hear you had such an inspiring conversation! Take a look at my new vintage camera that I bought this month, which takes awesome photos!"
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Hey Dave, music really brings people together, huh? Do you use this camera for photos? They always turn out so good!"
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Yes, Calvin, this camera is very good, it helps me capture those special moments really clearly."
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "Having a good camera is key for capturing those special moments. What do you like to take photos of?"
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "Yeah, being able to take good pics is key. I love capturing the beauty of nature - sunsets, beaches, waves. Just got this one recently, check this out!"
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Nice job, Dave! That shot looks great! Nature's so amazing!"
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "Thanks, Calvin! It's incredible how much emotion and beauty nature can convey through a photo."
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "Yeah, nature really does the trick. Its beauty helps us appreciate life when it's tough. Like a breath of fresh air!"
+      },
+      {
+        "turn": 12,
+        "role": "Dave",
+        "text": "I totally agree, nature really can boost our spirits in tough times. Also, here's a picture I snapped last week! It's a peaceful scene with rocks and a waterfall. Pretty cool, huh?"
+      },
+      {
+        "turn": 13,
+        "role": "Calvin",
+        "text": "Wow Dave, that picture is stunning! Where was that taken? It looks so serene!"
+      },
+      {
+        "turn": 14,
+        "role": "Dave",
+        "text": "Thanks, Calvin! I found this serene spot in a nearby park and took this pic."
+      },
+      {
+        "turn": 15,
+        "role": "Calvin",
+        "text": "Wow, that sounds like such a peaceful and serene spot. Can't wait to check it out myself sometime. Check out this beautiful picture that I shot in a Japanese garden, that's wild!"
+      },
+      {
+        "turn": 16,
+        "role": "Dave",
+        "text": "Cool, Calvin! Found an even better spot, with a bench under a tree with pink flowers - so peaceful. A perfect spot to relax and take in the beauty."
+      },
+      {
+        "turn": 17,
+        "role": "Calvin",
+        "text": "That sounds great, Dave! Can't wait to see it."
+      },
+      {
+        "turn": 18,
+        "role": "Dave",
+        "text": "Check it out, Calvin. It's really calming, I think you'll like it. We will definitely go there! Is there anything else you'd like to share?"
+      },
+      {
+        "turn": 19,
+        "role": "Calvin",
+        "text": "Thank you for asking, Dave! Yes, I have a few more great news! I've accepted an invitation to perform at an upcoming show in Boston! It's going to be an unforgettable musical experience. Can't wait to fill you in on all the details. Catch up with you soon!"
+      },
+      {
+        "turn": 20,
+        "role": "Dave",
+        "text": "Wow, Calvin! That's amazing news! Congratulations on both the gala attendance and the upcoming performance. I can't wait to hear all about it and maybe even catch one of your shows in Boston. Let me know when you're free to catch up. Cheers to your musical journey!"
+      },
+      {
+        "turn": 21,
+        "role": "Calvin",
+        "text": "Thanks, Dave! I'll catch you when I'm in Boston. Cheers!"
+      },
+      {
+        "turn": 22,
+        "role": "Dave",
+        "text": "Looking forward to seeing you. Stay safe, talk to you soon!"
+      },
+      {
+        "turn": 23,
+        "role": "Calvin",
+        "text": "Thanks! You too. Talk to you later!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Boston gala and artist conversation",
+        "keywords": [
+          "Boston",
+          "gala",
+          "artist",
+          "music",
+          "art",
+          "creative conversation"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          20
+        ]
+      },
+      {
+        "label": "Dave’s nature photography",
+        "keywords": [
+          "photography",
+          "vintage camera",
+          "nature photography",
+          "sunset",
+          "beach",
+          "waves",
+          "waterfall",
+          "nearby park",
+          "Japanese garden",
+          "pink flowers"
+        ],
+        "turns": [
+          0,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "label": "Calvin’s upcoming Boston show",
+        "keywords": [
+          "Boston",
+          "upcoming show",
+          "musical performance",
+          "invitation",
+          "concert plans"
+        ],
+        "turns": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.757252,
+    "thread_setup_seconds": 0.109889,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.757252,
+    "turn_seconds": 12.647363,
+    "first_text_seconds": 10.336747,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10982,
+      "completion_tokens": 399,
+      "total_tokens": 11381,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 227
+    }
+  },
+  "error": null
+}

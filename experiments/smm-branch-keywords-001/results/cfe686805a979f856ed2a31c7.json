@@ -1,0 +1,180 @@
+{
+  "source_id": "cfe686805a979f856ed2a31c7",
+  "source_sha256": "feaebb269a43e90c299b6a4fdb61193e6e3556b0f782afb144a0e16d4206cea3",
+  "request_sha256": "cdd9f9ab4f83cccd425a3bcd9c6af30ee9c54dc30f5135e2722beee24ac06575",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cfe686805a979f856ed2a31c7",
+    "source_sha256": "feaebb269a43e90c299b6a4fdb61193e6e3556b0f782afb144a0e16d4206cea3",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jolene",
+        "text": "Hey Deborah, totally buzzing! Had a great night out last night - dinner, and drinks with my friends. So glad I got to let my hair down. You?"
+      },
+      {
+        "turn": 1,
+        "role": "Deborah",
+        "text": "Sounds great, Jolene! I just visited this place and it was so calming. Nostalgic too."
+      },
+      {
+        "turn": 2,
+        "role": "Jolene",
+        "text": "Wow, those flowers are beautiful! What type are they? It looks so peaceful there."
+      },
+      {
+        "turn": 3,
+        "role": "Deborah",
+        "text": "The roses and dahlias bring me peace. I lost a friend last week, so I've been spending time in the garden to find some comfort."
+      },
+      {
+        "turn": 4,
+        "role": "Jolene",
+        "text": "Sorry to hear about your friend, Deb. Losing someone can be really tough. How are you holding up?"
+      },
+      {
+        "turn": 5,
+        "role": "Deborah",
+        "text": "Thanks for the kind words. It's been tough, but I'm comforted by remembering our time together. It reminds me of how special life is."
+      },
+      {
+        "turn": 6,
+        "role": "Jolene",
+        "text": "Memories can give us so much comfort and joy."
+      },
+      {
+        "turn": 7,
+        "role": "Deborah",
+        "text": "Memories keep our loved ones close. This is the last photo with Karlie which was taken last summer when we hiked. It was our last one. We had such a great time! Every time I see it, I can't help but smile."
+      },
+      {
+        "turn": 8,
+        "role": "Jolene",
+        "text": "Wow, looks like a great trip! Where else have you traveled?"
+      },
+      {
+        "turn": 9,
+        "role": "Deborah",
+        "text": "I've been blessed to travel to a few places and Bali last year was one of my favs. It was a gorgeous island that gave me peace, great for yoga."
+      },
+      {
+        "turn": 10,
+        "role": "Jolene",
+        "text": "Wow, that's great! Is yoga on the beach a thing? I've been wanting to try it."
+      },
+      {
+        "turn": 11,
+        "role": "Deborah",
+        "text": "The sound of the waves and the fresh air is wonderful!"
+      },
+      {
+        "turn": 12,
+        "role": "Jolene",
+        "text": "I'll definitely give it a go! It sounds peaceful. Thanks!"
+      },
+      {
+        "turn": 13,
+        "role": "Deborah",
+        "text": "Let me know how it goes. Enjoy it!"
+      },
+      {
+        "turn": 14,
+        "role": "Jolene",
+        "text": "I'll keep you posted if I decide to go there."
+      },
+      {
+        "turn": 15,
+        "role": "Deborah",
+        "text": "Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Jolene’s night out",
+        "keywords": [
+          "Jolene",
+          "dinner",
+          "drinks",
+          "friends",
+          "night out"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Deborah’s garden and memories of Karlie",
+        "keywords": [
+          "Deborah",
+          "garden",
+          "roses",
+          "dahlias",
+          "friend loss",
+          "memories",
+          "Karlie",
+          "hiking",
+          "last photo"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Bali travel and beach yoga",
+        "keywords": [
+          "Bali",
+          "travel",
+          "island",
+          "yoga",
+          "beach yoga",
+          "waves",
+          "fresh air"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.909322,
+    "thread_setup_seconds": 0.135263,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.909322,
+    "turn_seconds": 10.774059,
+    "first_text_seconds": 9.756592,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10530,
+      "completion_tokens": 381,
+      "total_tokens": 10911,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 220
+    }
+  },
+  "error": null
+}

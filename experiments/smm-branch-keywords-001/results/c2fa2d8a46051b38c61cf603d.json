@@ -1,0 +1,170 @@
+{
+  "source_id": "c2fa2d8a46051b38c61cf603d",
+  "source_sha256": "da3dd79161f21c2288381cd62963bd552857f6df64bee740e897f9f3ac63d572",
+  "request_sha256": "dfbe6077ff1d25916fddaddc3137394a4d3660ddf52a98af5c352ddc7f2d47d4",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c2fa2d8a46051b38c61cf603d",
+    "source_sha256": "da3dd79161f21c2288381cd62963bd552857f6df64bee740e897f9f3ac63d572",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John, last weekend I had an awesome time at the amusement park with my friends. It was a great break from the virtual world. I went on some awesome roller coasters and it reminded me of when I was a kid. Everything was so real and exciting; it felt like I was in a video game!"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey James! Sounds like an awesome time! I bet those rides brought back some great memories. Were there any other attractions besides the roller coaster?"
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "Of course, I also managed to ride the Ferris wheel, electric cars and buggies. What's new with you?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "That's really cool! Last Friday I entered a local tournament and took second place! It was a wild experience and the competitive energy was insane."
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "Wow, John that's awesome! Congrats on your achievement! I can imagine the rush you must have felt during the tournament. Did you receive any rewards or prizes for your success?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "I was stoked about my achievement. Though I didn't win the tournament, I still received some money for the 2nd place. Seeing my effort pay off was awesome."
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "Awesome news! You don't have to win every time, growth and progress are most important. "
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Yeah, I also got this trophy! So satisfying. It reminds me to always put in my best effort. What about you? Any success stories lately?"
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Congrats on your achievement, John! That trophy looks awesome. Last month, I had a personal milestone. There were definitely tough times, but it reminds me of all the hard work. I feel a huge sense of accomplishment and I'm ready for the future opportunities!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Congrats on the milestone. What was it and what made it challenging? What did you learn?"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "I finished a big project I had been working on for months. It was challenging because I had to learn a new language and handle many details. I learned a lot about problem-solving, patience, and perseverance. Now I feel more confident to take on even bigger projects."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": " That's awesome you learned a language and handled all those details. Great job, you definitely picked up some great skills! Remember, determination and confidence make any project a success. Good work!"
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Thanks, I appreciate your support. I'll definitely keep that in mind."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "No worries, I'm here to help. Keep going and reach those goals!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "James’s amusement park visit",
+        "keywords": [
+          "amusement park",
+          "friends",
+          "roller coaster",
+          "Ferris wheel",
+          "electric car",
+          "buggy",
+          "last weekend",
+          "virtual world"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "John’s local tournament result",
+        "keywords": [
+          "local tournament",
+          "second place",
+          "money prize",
+          "trophy",
+          "competitive energy",
+          "effort",
+          "last Friday"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "James’s completed project milestone",
+        "keywords": [
+          "personal milestone",
+          "big project",
+          "new language",
+          "problem-solving",
+          "patience",
+          "perseverance",
+          "confidence",
+          "last month"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.576617,
+    "thread_setup_seconds": 0.147685,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.576617,
+    "turn_seconds": 9.428932,
+    "first_text_seconds": 8.047966,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10604,
+      "completion_tokens": 238,
+      "total_tokens": 10842,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 78
+    }
+  },
+  "error": null
+}

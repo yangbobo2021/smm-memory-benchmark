@@ -1,0 +1,202 @@
+{
+  "source_id": "c307fa733602b5c35078e8b1c",
+  "source_sha256": "b28d18b7a3d1a0143e26ce67a0f44412f1d17296f023fd4f01f068bd31896bb1",
+  "request_sha256": "85e67af50b59b182b8f8351ff5f31405e13b328e01c7638b6e95d2b6fb9a6042",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c307fa733602b5c35078e8b1c",
+    "source_sha256": "b28d18b7a3d1a0143e26ce67a0f44412f1d17296f023fd4f01f068bd31896bb1",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam, what's up? Long time no see, huh? Lots has happened."
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan! Long time no see. I'm doing okay, been through a few bumps. How about you?"
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "It's not easy for us right now, my son had an accident last Tuesday, he fell off his bike and it was rough. But he's doing better now. How are you dealing with all this?"
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "Darn, sorry to hear that. Hope he's feeling better. Same here, it's been tough lately. After we talked, I started thinking about ways to cope with it, but it's been challenging."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Life can be hard sometimes. Do you have any hobbies or activities that make you happy?"
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "I used to love hiking, but it's been a while since I had the chance to do it."
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "I remember you mentioning that! Hiking is indeed a great way to center oneself and be one with nature. We should definitely plan a hike soon!"
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "Yeah, I'm struggling with my weight and it's affecting my confidence. I feel like I can't overcome all the challenges with my weight, I keep lacking motivation."
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "Yeah, I understand it can be challenging. But remember, it's important to believe in yourself and take it one day at a time, Sam. Your worth is not defined by your weight."
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "Cheers, Evan. Appreciate the help. It's tough breaking out of my comfort zone."
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "Stepping out of your comfort zone can be intimidating, but it's totally worth it. Just challenge yourself to try something new, even if it's just a little thing. You got this!"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "Thanks, Evan. I'll take your advice. Trying new things can be difficult."
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Yeah, trying something new and succeeding gives a great feeling of accomplishment. Give it a go, even if it's just a little thing. You'll be amazed!"
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "She looks so confident! What kind of painting is that in the background?"
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "\nThis is a contemporary figurative painting that I've finished few days ago, emphasizing the emotional state through expressive brushwork and vibrant color choices. It captures a moment of introspection, where the subject is deeply immersed in thought. Very proud of it!"
+      },
+      {
+        "turn": 15,
+        "role": "Sam",
+        "text": "That's amazing work, who's the girl standing next to painting?"
+      },
+      {
+        "turn": 16,
+        "role": "Evan",
+        "text": "That's a close friend of mine who helped me get this painting published in the exhibition!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Evan’s son’s bike accident",
+        "keywords": [
+          "Evan",
+          "Sam",
+          "son",
+          "bike accident",
+          "last Tuesday",
+          "recovery",
+          "coping with hardship"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Hiking as a hobby",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "hiking",
+          "hobby",
+          "nature",
+          "plan a hike"
+        ],
+        "turns": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Weight, confidence, and motivation",
+        "keywords": [
+          "Sam",
+          "weight",
+          "confidence",
+          "motivation",
+          "comfort zone",
+          "trying new things",
+          "self-worth",
+          "encouragement"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "Figurative painting and exhibition",
+        "keywords": [
+          "Evan",
+          "Sam",
+          "contemporary figurative painting",
+          "expressive brushwork",
+          "vibrant colors",
+          "introspection",
+          "close friend",
+          "exhibition",
+          "painting publication"
+        ],
+        "turns": [
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.199917,
+    "thread_setup_seconds": 0.138665,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.199917,
+    "turn_seconds": 9.061252,
+    "first_text_seconds": 7.175786,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10646,
+      "completion_tokens": 348,
+      "total_tokens": 10994,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 140
+    }
+  },
+  "error": null
+}

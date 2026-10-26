@@ -1,0 +1,204 @@
+{
+  "source_id": "cbf3a77bf28f9814081a8ef96",
+  "source_sha256": "acc8da8a44716a3e6c8068aac2424de0934f0cd02f06c39ad8d566dc6cec6e3c",
+  "request_sha256": "58009dc19456ee5a2d2a84f9907e93085359c5b75d79908092ccfd2fb1e3f768",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cbf3a77bf28f9814081a8ef96",
+    "source_sha256": "acc8da8a44716a3e6c8068aac2424de0934f0cd02f06c39ad8d566dc6cec6e3c",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John, it's been a few days! I got a no for a summer job I wanted which wasn't great but I'm staying positive. On your NYC trip, did you have any troubles? How did you handle them?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Tim! Sorry to hear about the job, but your positivity will help you find something great! My trip went okay - I had some trouble figuring out the subway at first, but then it was easy after someone helped explain it. How about you? Anything new you've tackled?"
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Thanks! Appreciate your encouragement. Yesterday, I tackled something new - I gave a presentation in class. I was nervous but I made it. Small step, but feels like progress."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Cool, Tim! Taking the plunge and presenting can be tough, but awesome work! Progress is progress, keep it up. By the way, I've been trying out cooking recipes. Made this tasty soup recently - it was real good!"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Wow, that looks great! How did you make it? Do you have a recipe you can share?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Thanks, I just sort of made it up on the spot so I don't have a recipe."
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "That's ok! I can look some up. Can you tell me what spices you used in the soup?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "I added some sage for a nice flavor. Enjoy!"
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Thanks! Excited to try this. Love experimenting with spices. By the way, have you been to Universal Studios? Planning a trip there next month."
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Cool! Haven't been there yet, but I've heard great things about Universal Studios. It's definitely on my bucket list. Have you been before?"
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Nope, but it's my first time going. I'm super stoked for the Harry Potter stuff. Can't wait!"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Cool! It's gonna be a blast, like stepping into another world. Have a great time!"
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "Thanks! I'll definitely have a blast. I'll let you know how it goes!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Great! Can't wait to hear about it. Have a safe trip!"
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Thanks! I'll make sure to have a safe trip."
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Bye! Take care and let's catch up soon!"
+      },
+      {
+        "turn": 16,
+        "role": "Tim",
+        "text": "Take care! Can't wait to catch up. Talk soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Summer job rejection and encouragement",
+        "keywords": [
+          "summer job",
+          "job rejection",
+          "positivity",
+          "encouragement"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "NYC subway navigation",
+        "keywords": [
+          "NYC trip",
+          "subway",
+          "navigation",
+          "asking for help"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Class presentation and progress",
+        "keywords": [
+          "class presentation",
+          "nervousness",
+          "personal progress",
+          "public speaking"
+        ],
+        "turns": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Improvised soup recipe and sage",
+        "keywords": [
+          "cooking",
+          "soup",
+          "improvised recipe",
+          "sage",
+          "spices"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "First Universal Studios trip",
+        "keywords": [
+          "Universal Studios",
+          "next month",
+          "first visit",
+          "Harry Potter",
+          "theme park"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.625935,
+    "thread_setup_seconds": 0.396692,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.625935,
+    "turn_seconds": 8.229242,
+    "first_text_seconds": 6.332853,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10607,
+      "completion_tokens": 311,
+      "total_tokens": 10918,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 111
+    }
+  },
+  "error": null
+}

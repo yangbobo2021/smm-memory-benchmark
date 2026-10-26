@@ -1,0 +1,203 @@
+{
+  "source_id": "cd7c3763c669b10838fb7cafc",
+  "source_sha256": "01360a40c5d2e7cd179cbffe55e5165ccc01d5ada8a020fb2c500b5ad60c2f64",
+  "request_sha256": "3193dd2d6731fb8333c49ce324b37f8ad9f06bec3d0de103230df0fb10324167",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cd7c3763c669b10838fb7cafc",
+    "source_sha256": "01360a40c5d2e7cd179cbffe55e5165ccc01d5ada8a020fb2c500b5ad60c2f64",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hey Jolene, nice to meet you! How's your week going? Anything fun happened?"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Hi Deb! Good to meet you! Yeah, my week's been busy. I finished an electrical engineering project last week - took a lot of work, but it's done now. Anything fun happening for you?"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "Congrats! Last week I visited a place that holds a lot of memories for me. It was my mother`s old house."
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "Why does it hold such special memories for you?"
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "It was full of memories, she passed away a few years ago. This is our last photo together."
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "Sorry about your loss, Deb. My mother also passed away last year. This is my room in her house, I also have many memories there. Is there anything special about it you remember?"
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "My mom's house had a special bench near the window. She loved to sit there every morning and take in the view. I come to sit here sometimes, it helps me stay connected to her."
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "Staying connected is super important. Do you have something to remember her by? This pendant reminds me of my mother, she gave it to me in 2010  in Paris."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "Yes, I also have a pendant that reminds me of my mother. And what is special for you about your jewelry?"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "It has a special symbol on it that represents freedom for me. It's a nice reminder to go for my goals and not get held back."
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": "It should really give you strength and energy!"
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "Do you have goals?"
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "One of my goals is to keep teaching yoga and supporting my community. I'm passionate about helping people find peace and joy through it."
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "What inspired you to go down this route?"
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "Yoga helped me find peace during a rough time, and now I'm passionate about sharing that with others."
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": "It is truly inspiring!"
+      },
+      {
+        "turn": 16,
+        "role": "Deborah",
+        "text": "Gotta run, bye!"
+      },
+      {
+        "turn": 17,
+        "role": "Jolene",
+        "text": "Looking forward to the next chat!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Jolene’s electrical engineering project",
+        "keywords": [
+          "Jolene",
+          "electrical engineering",
+          "project",
+          "completion",
+          "last week"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "Deborah’s mother’s house and memories",
+        "keywords": [
+          "Deborah",
+          "mother",
+          "old house",
+          "window bench",
+          "morning view",
+          "photograph",
+          "bereavement"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Jolene’s mother, room, and pendant",
+        "keywords": [
+          "Jolene",
+          "mother",
+          "room",
+          "mother’s house",
+          "pendant",
+          "Paris",
+          "2010",
+          "freedom symbol",
+          "personal goals"
+        ],
+        "turns": [
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Deborah’s yoga teaching and community goals",
+        "keywords": [
+          "Deborah",
+          "yoga",
+          "teaching",
+          "community",
+          "peace",
+          "joy",
+          "personal goals",
+          "rough time"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.377205,
+    "thread_setup_seconds": 0.221715,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.377205,
+    "turn_seconds": 11.15549,
+    "first_text_seconds": 9.414746,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10594,
+      "completion_tokens": 441,
+      "total_tokens": 11035,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 239
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,155 @@
+{
+  "source_id": "c5e499f3f44b2b99dfa1e6936",
+  "source_sha256": "5a595ef4b051515b5388cf65182ca30a2393e2f52d61769be83d1ec17b026cb7",
+  "request_sha256": "dfb1a9c6e5b50cf6f0d34faa77da53cfb5431e56703ddf29b566da1603a53832",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c5e499f3f44b2b99dfa1e6936",
+    "source_sha256": "5a595ef4b051515b5388cf65182ca30a2393e2f52d61769be83d1ec17b026cb7",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jon",
+        "text": "Hey Gina! We haven't talked in a few days. Been rehearsing hard and working on business plans. It's been stressful, but dancing has kept me going."
+      },
+      {
+        "turn": 1,
+        "role": "Gina",
+        "text": "Hey Jon! Remember, just do it! You should get to the point where anyone else would quit and you're not going to stop there. No, what are you waiting for? Do it! Just do it!"
+      },
+      {
+        "turn": 2,
+        "role": "Jon",
+        "text": "Ha, ha! Thanks, Gina. Sounds familiar, who do those words belong to?"
+      },
+      {
+        "turn": 3,
+        "role": "Gina",
+        "text": "It's Shia Labeouf!"
+      },
+      {
+        "turn": 4,
+        "role": "Jon",
+        "text": "Ahhahha, really!? Yea, that definitely him."
+      },
+      {
+        "turn": 5,
+        "role": "Gina",
+        "text": "Hah, yeah!) But really having a creative space for dancers is so important. Last Friday at dance class with a group of friends I felt it. Your studio will be a go-to spot for self-expression. Keep up the good work and don't forget your passion for dance."
+      },
+      {
+        "turn": 6,
+        "role": "Jon",
+        "text": "Thanks, Gina! Your words of encouragement keep me motivated. Can't wait 'til my studio starts welcoming dancers of all ages and backgrounds!"
+      },
+      {
+        "turn": 7,
+        "role": "Gina",
+        "text": "I'm so happy to see my words motivating you, Jon. <3"
+      },
+      {
+        "turn": 8,
+        "role": "Jon",
+        "text": "Thanks a ton, Gina! Your help and encouragement mean a lot. Your support will help me make it happen."
+      },
+      {
+        "turn": 9,
+        "role": "Gina",
+        "text": "You're welcome, Jon! I'm here to support you. Every step's getting you closer to your dream. Never give up! You're doing great."
+      },
+      {
+        "turn": 10,
+        "role": "Jon",
+        "text": "Thanks, Gina! I won't quit. I'm gonna keep going, whatever comes my way."
+      },
+      {
+        "turn": 11,
+        "role": "Gina",
+        "text": "Remember Jon, Just do it!"
+      },
+      {
+        "turn": 12,
+        "role": "Jon",
+        "text": "Ah ha ha, yeah, JUST DOING IT!"
+      },
+      {
+        "turn": 13,
+        "role": "Gina",
+        "text": "That's the spirit! Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Jon’s dance studio dream",
+        "keywords": [
+          "Jon",
+          "Gina",
+          "dance rehearsal",
+          "business plans",
+          "dance studio",
+          "creative space",
+          "self-expression",
+          "dancers of all ages and backgrounds",
+          "Friday dance class",
+          "encouragement"
+        ],
+        "turns": [
+          0,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13
+        ]
+      },
+      {
+        "label": "“Just do it” quote exchange",
+        "keywords": [
+          "“Just do it”",
+          "Shia LaBeouf",
+          "quote attribution",
+          "motivation",
+          "joking"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.226398,
+    "thread_setup_seconds": 0.199341,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.226398,
+    "turn_seconds": 7.027057,
+    "first_text_seconds": 5.945284,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10462,
+      "completion_tokens": 332,
+      "total_tokens": 10794,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 199
+    }
+  },
+  "error": null
+}

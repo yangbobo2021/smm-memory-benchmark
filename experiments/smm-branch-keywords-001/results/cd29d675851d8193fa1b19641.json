@@ -1,0 +1,177 @@
+{
+  "source_id": "cd29d675851d8193fa1b19641",
+  "source_sha256": "f63ca30028c301f08d666ad8e78279992c1a0d586c9bdb17bb40a75b3690c1e8",
+  "request_sha256": "04f285e3d38f97c9d64682b4d63d2941b33e5a08a2d4df0af2ad3e8fab4eb54f",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cd29d675851d8193fa1b19641",
+    "source_sha256": "f63ca30028c301f08d666ad8e78279992c1a0d586c9bdb17bb40a75b3690c1e8",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jolene",
+        "text": "Hey Deb, long time no talk. A lot's happened! On Friday I had a breakthrough with my engineering project. Finally found a solution to a prob that's been bugging me. Feels great to see my hard work paying off."
+      },
+      {
+        "turn": 1,
+        "role": "Deborah",
+        "text": "You've really proven your skills. Feels great, right? Keep it up! And I bought new props for the yoga class! Here it is in action."
+      },
+      {
+        "turn": 2,
+        "role": "Jolene",
+        "text": "Oh, I also have new details for this case! Rate it!"
+      },
+      {
+        "turn": 3,
+        "role": "Deborah",
+        "text": "That`s cool! I also bought this candle for the atmosphere and to improve my yoga practice. How about you? When you do it, what feelings do you get?"
+      },
+      {
+        "turn": 4,
+        "role": "Jolene",
+        "text": "I feel relaxed during this activity. I love creating a serene space with soothing scents like lavender and rosemary. Do you have any favorite scents or rituals for when you do it?"
+      },
+      {
+        "turn": 5,
+        "role": "Deborah",
+        "text": "I'm also a big fan of scents like this! Candles and essential oils add warmth and calm to my yoga session. It's amazing how certain smells can transport you to a place of peace.  Do you have any other ways to enhance your yoga practice?"
+      },
+      {
+        "turn": 6,
+        "role": "Jolene",
+        "text": "I find music helps me. Any favorite tracks?"
+      },
+      {
+        "turn": 7,
+        "role": "Deborah",
+        "text": "I find instrumental tracks with mellow melodies and rhythms help create a peaceful vibe. One of my favorites is a track called \"Savana.\" What songs/artists do you like listening to during your practice?"
+      },
+      {
+        "turn": 8,
+        "role": "Jolene",
+        "text": "I love listening to Nils Frahm and Olafur Arnalds during my practice. Their music is so calming and puts me in a different headspace. Do you have any recommendations for other similar artists or tracks I should check out?"
+      },
+      {
+        "turn": 9,
+        "role": "Deborah",
+        "text": "Also, I'm listening to an album called 'Sleep,' which is great for meditation and deep relaxation. Hope you find it as calming as I do!"
+      },
+      {
+        "turn": 10,
+        "role": "Jolene",
+        "text": "Thanks for the tips, Deborah! I'm gonna check them out. It's always good to have some new tunes for yoga!"
+      },
+      {
+        "turn": 11,
+        "role": "Deborah",
+        "text": " Let me know your thoughts on the albums!"
+      },
+      {
+        "turn": 12,
+        "role": "Jolene",
+        "text": "See you!"
+      },
+      {
+        "turn": 13,
+        "role": "Deborah",
+        "text": "Take care and keep up the good work!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Engineering project breakthrough",
+        "keywords": [
+          "engineering project",
+          "breakthrough",
+          "problem-solving",
+          "hard work",
+          "Friday"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Unspecified case details and rating",
+        "keywords": [
+          "case",
+          "new details",
+          "rating"
+        ],
+        "turns": [
+          2
+        ]
+      },
+      {
+        "label": "Yoga props, candles, and calming scents",
+        "keywords": [
+          "yoga class",
+          "props",
+          "candle",
+          "essential oils",
+          "lavender",
+          "rosemary",
+          "relaxation",
+          "ritual"
+        ],
+        "turns": [
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Music for yoga and meditation",
+        "keywords": [
+          "yoga practice",
+          "instrumental music",
+          "Savana",
+          "Nils Frahm",
+          "Ólafur Arnalds",
+          "Sleep album",
+          "meditation",
+          "relaxation"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.812726,
+    "thread_setup_seconds": 0.179787,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.812726,
+    "turn_seconds": 10.63294,
+    "first_text_seconds": 8.640925,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10560,
+      "completion_tokens": 451,
+      "total_tokens": 11011,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 268
+    }
+  },
+  "error": null
+}

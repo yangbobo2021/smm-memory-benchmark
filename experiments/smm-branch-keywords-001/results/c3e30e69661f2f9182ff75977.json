@@ -1,0 +1,167 @@
+{
+  "source_id": "c3e30e69661f2f9182ff75977",
+  "source_sha256": "af293151b0643bd40bf5349dea5baecae5f3b82c0741bb33fbb4ad80b44ca0e0",
+  "request_sha256": "d77dda1194bd9d386af13b5b665820b8db389ed3f3d3346dfa4e0a954f6b3840",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c3e30e69661f2f9182ff75977",
+    "source_sha256": "af293151b0643bd40bf5349dea5baecae5f3b82c0741bb33fbb4ad80b44ca0e0",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jolene",
+        "text": "Hi Deb! How're you? I've been busy. My engineering professor gave us a huge robotics project. It's tough but fun, it's making me get creative and problem-solve."
+      },
+      {
+        "turn": 1,
+        "role": "Deborah",
+        "text": "Hey Jolene! It's great to hear from you. It sounds challenging but interesting! It must be really putting your creative and problem-solving skills to the test. How did you feel when you first received the project? Are you enjoying working on it?"
+      },
+      {
+        "turn": 2,
+        "role": "Jolene",
+        "text": "When I got it, I felt a mix of emotions - excited and nervous. But now, I'm really enjoying it! It's like trying to solve a puzzle, figuring out the best design and programming. Seeing the robot come together is awesome too!"
+      },
+      {
+        "turn": 3,
+        "role": "Deborah",
+        "text": "That's awesome, Jolene! You're enjoying the process. It must be really satisfying to see it come together. Keep up the good work! Oh, by the way, I met my new neighbor Anna yesterday!"
+      },
+      {
+        "turn": 4,
+        "role": "Jolene",
+        "text": "How did you two meet?"
+      },
+      {
+        "turn": 5,
+        "role": "Deborah",
+        "text": "It happened at yoga in the park."
+      },
+      {
+        "turn": 6,
+        "role": "Jolene",
+        "text": "Wow, that's awesome! It's great connecting with people who have similar interests. Did you two talk about it?"
+      },
+      {
+        "turn": 7,
+        "role": "Deborah",
+        "text": "Yeah, we talked about how it has improved our lives and the sense of community it gives."
+      },
+      {
+        "turn": 8,
+        "role": "Jolene",
+        "text": "Sounds great!"
+      },
+      {
+        "turn": 9,
+        "role": "Deborah",
+        "text": "Have you ever thought about resuming yoga?"
+      },
+      {
+        "turn": 10,
+        "role": "Jolene",
+        "text": "Well... we planned to play the console with my partner."
+      },
+      {
+        "turn": 11,
+        "role": "Deborah",
+        "text": "It's also good that you have something to do together."
+      },
+      {
+        "turn": 12,
+        "role": "Jolene",
+        "text": "Thanks for the kind words!"
+      },
+      {
+        "turn": 13,
+        "role": "Deborah",
+        "text": "Gotta run bye!"
+      },
+      {
+        "turn": 14,
+        "role": "Jolene",
+        "text": "See you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Robotics engineering project",
+        "keywords": [
+          "Jolene",
+          "engineering professor",
+          "robotics project",
+          "robot design",
+          "programming",
+          "problem-solving"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Anna and yoga in the park",
+        "keywords": [
+          "Deborah",
+          "Anna",
+          "new neighbor",
+          "yoga in the park",
+          "community",
+          "resuming yoga"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Console gaming with partner",
+        "keywords": [
+          "Jolene",
+          "partner",
+          "console gaming",
+          "shared activity"
+        ],
+        "turns": [
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.067545,
+    "thread_setup_seconds": 0.535858,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.067545,
+    "turn_seconds": 8.531687,
+    "first_text_seconds": 7.441919,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10466,
+      "completion_tokens": 370,
+      "total_tokens": 10836,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 232
+    }
+  },
+  "error": null
+}

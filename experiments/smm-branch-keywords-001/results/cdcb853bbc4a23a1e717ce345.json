@@ -1,0 +1,174 @@
+{
+  "source_id": "cdcb853bbc4a23a1e717ce345",
+  "source_sha256": "d9430de12b8dc32acde6bdf0d49d96c72a84a95fdd027a58c7666f0831dfbc79",
+  "request_sha256": "fc92b20699b40df4af660573e6cad9061534e6509d09b4cf0edad6a55430c2c6",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cdcb853bbc4a23a1e717ce345",
+    "source_sha256": "d9430de12b8dc32acde6bdf0d49d96c72a84a95fdd027a58c7666f0831dfbc79",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John! Hope you're doing good. Guess what? I went to a castle during my trip to the UK last Friday and it was unbelievable! The architecture and the history were amazing!"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Tim! That's awesome! Yeah, it was really cool. Oh man, it's been a tough week for me with this injury. But I'm staying positive. How about you? How's your week been?"
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Ouch, bummer about the injury. Hang tight. This week has been swamped with exams for me but I'm plowing through."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Cheers, Tim. Injury's been rough, but I'm staying positive. How's the exam prep coming? Confident?"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Exams can be challenging, but I'm putting in my best effort. Feeling optimistic and working diligently! How do you stay motivated during difficult study sessions?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "I visualize my goals and success for focus and motivation. It really helps me stay motivated during tough studying. Do you have any study tricks?"
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "That's cool! I like breaking up my studying into smaller parts. 25 minutes on, then 5 minutes off for something fun. It's less overwhelming and keeps me on track."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Nice work! Breaking it down into smaller parts is definitely a smart move. I wish you all the best on your exams!"
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Thanks! Appreciate your support. I hope your injury heals soon."
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Sure thing, Tim! Got your back. I hope so too. The doctor said it's not too serious."
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "That's good to hear, I'm glad."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "I hate not being on the court."
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "I bet. It's like if I couldn't read due to an injury."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "I'm pushing on though. Talk soon!"
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Take care! Keep pushing on. Talk soon."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "UK castle visit",
+        "keywords": [
+          "United Kingdom",
+          "castle",
+          "trip",
+          "last Friday",
+          "architecture",
+          "history"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Injury and missing the court",
+        "keywords": [
+          "injury",
+          "doctor",
+          "not too serious",
+          "court",
+          "recovery",
+          "staying positive"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "label": "Exam preparation and study motivation",
+        "keywords": [
+          "exams",
+          "exam preparation",
+          "study sessions",
+          "visualize goals",
+          "study tricks",
+          "25 minutes on, 5 minutes off",
+          "study breaks"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.314337,
+    "thread_setup_seconds": 0.156466,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.314337,
+    "turn_seconds": 8.157871,
+    "first_text_seconds": 6.841177,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10496,
+      "completion_tokens": 306,
+      "total_tokens": 10802,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 152
+    }
+  },
+  "error": null
+}

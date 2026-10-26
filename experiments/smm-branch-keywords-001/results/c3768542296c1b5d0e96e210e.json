@@ -1,0 +1,203 @@
+{
+  "source_id": "c3768542296c1b5d0e96e210e",
+  "source_sha256": "2c8be6e439383ba73fe6c1b59f8115790c12277e0542cdecdb61ac61035265a3",
+  "request_sha256": "6574418f595a0c7fb6d07aea45992d19d1941155e77a1df28318da2dc99e3d44",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c3768542296c1b5d0e96e210e",
+    "source_sha256": "2c8be6e439383ba73fe6c1b59f8115790c12277e0542cdecdb61ac61035265a3",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hey Jolene! Great news - I just started a project for a cleanup in our community and have been trying to raise funds for it. It's been amazing to see everyone come together to make a difference. How've you been? Anything new going on?"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Hey Debs! Congrats on your project for the community! As for me, life's been a rollercoaster lately. Last week, I had a huge setback with my project. I put in so much work and it all crashed and I lost everything. SO frustrating and depressing."
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "Jolene, sorry to hear that. It must be really tough. I'm here for you and if I can do anything, just let me know. Is there anything that's helping you cope?"
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "Your support means a lot. Susie really helps when times get tough. Pets have been great company. Video games have also been a nice distraction."
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "They can really provide love and comfort, especially during tough times. How did you come to have Susie?"
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "I adopted her two years ago when I was feeling lonely and wanted some company."
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "That's great, Jolene! Animals sure have a way of bringing us happiness. They understand us and provide us with comfort. Plus, having a pet teaches us responsibility. She came at the perfect time - cherish those moments with her and find strength in her presence."
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "Thanks Deborah. Having her around shows me I can stay strong and find joy in the small stuff."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "Enjoying the little things is key. Those little moments can give us a boost and push us forward. How have you been taking care of yourself lately?"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "I'm trying to prioritize self-care, like yoga and meditation. It helps me stay balanced and grounded."
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": " If you're interested, I can suggest some routines for you to try."
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": " I'm always on the lookout for new routines to mix things up."
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "In the meantime, check out this great place for yoga."
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "This room looks perfect for it. Do you have any favorite routines you can share?"
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "One of my favorite yoga routines is a gentle flow that's all about breathing and grounding. It helps me find my chill. I'll send you a tutorial video with the poses. This is me in the process :)"
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": "Wow! Does that help you find your chill or improve your concentration?"
+      },
+      {
+        "turn": 16,
+        "role": "Deborah",
+        "text": "It's a great way to find balance in tough times. Try it out and let me know what you think!"
+      },
+      {
+        "turn": 17,
+        "role": "Jolene",
+        "text": "Can't wait to try it out. Let's chat soon!"
+      },
+      {
+        "turn": 18,
+        "role": "Deborah",
+        "text": "Let me know how it goes. Talk to you later!"
+      },
+      {
+        "turn": 19,
+        "role": "Jolene",
+        "text": "Yep, I'll practice and update you. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Community cleanup fundraiser",
+        "keywords": [
+          "Deborah",
+          "community cleanup",
+          "fundraising",
+          "community project"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Jolene’s project setback and coping",
+        "keywords": [
+          "Jolene",
+          "project setback",
+          "project loss",
+          "emotional support",
+          "Susie",
+          "pet adoption",
+          "video games",
+          "loneliness"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Yoga and self-care routines",
+        "keywords": [
+          "self-care",
+          "yoga",
+          "meditation",
+          "gentle flow",
+          "breathing",
+          "grounding",
+          "tutorial video",
+          "concentration"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.647574,
+    "thread_setup_seconds": 0.281814,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.647574,
+    "turn_seconds": 9.365761,
+    "first_text_seconds": 7.688326,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10751,
+      "completion_tokens": 403,
+      "total_tokens": 11154,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 238
+    }
+  },
+  "error": null
+}

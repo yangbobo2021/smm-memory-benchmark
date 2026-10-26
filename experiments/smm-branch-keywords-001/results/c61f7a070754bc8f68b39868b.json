@@ -1,0 +1,183 @@
+{
+  "source_id": "c61f7a070754bc8f68b39868b",
+  "source_sha256": "8f321e8f7f16212e26c8dea3677a47dadb50d4d0ee569295b4e0587880abc96d",
+  "request_sha256": "f5a4e2c5a4301ab68a0849d69a2550ee54dfc11882e9ce173e1374b545bb283c",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c61f7a070754bc8f68b39868b",
+    "source_sha256": "8f321e8f7f16212e26c8dea3677a47dadb50d4d0ee569295b4e0587880abc96d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jolene",
+        "text": "Hey Deborah! Been a few days since we last talked so I wanted to fill you in on something cool. Last Wednesday I did a mini retreat to assess where I'm at in life. It was a dope experience that totally gave me a new outlook."
+      },
+      {
+        "turn": 1,
+        "role": "Deborah",
+        "text": "Hey Jolene! Sounds great. Taking time to reflect can be really awesome. Did you gain any new insights from it?"
+      },
+      {
+        "turn": 2,
+        "role": "Jolene",
+        "text": "Yep! I achieved so much more than I imagined. It was a real confidence boost."
+      },
+      {
+        "turn": 3,
+        "role": "Deborah",
+        "text": "You deserve credit for stepping outside your comfort zone and believing in yourself. What cool stuff did you accomplish at the retreat?"
+      },
+      {
+        "turn": 4,
+        "role": "Jolene",
+        "text": "I really accomplished something with my engineering project - I came up with some neat solutions and I'm really excited about it."
+      },
+      {
+        "turn": 5,
+        "role": "Deborah",
+        "text": "Let's go into more detail."
+      },
+      {
+        "turn": 6,
+        "role": "Jolene",
+        "text": " Green tech could really make a difference in disadvantaged areas. I'd like to look into it and see how I can contribute. Hey, speaking of helping out, I had an idea: a volunteer program where engineers teach STEM to underprivileged kids. What do you think of that?"
+      },
+      {
+        "turn": 7,
+        "role": "Deborah",
+        "text": "That sounds great, Jolene! It's a great way to help and inspire others. They would benefit a lot from your knowledge. Have you thought of a plan yet?"
+      },
+      {
+        "turn": 8,
+        "role": "Jolene",
+        "text": "Haven't finished planning yet but I'm thinking of teaming up with local schools/centers to do workshops. We could even invite engineers as guest speakers to show kids their career options."
+      },
+      {
+        "turn": 9,
+        "role": "Deborah",
+        "text": "Having guest speakers, like them, would definitely give the kids a real-world view. Have you reached out to any schools or centers yet?"
+      },
+      {
+        "turn": 10,
+        "role": "Jolene",
+        "text": "No, not yet. I want to solidify the plan first. Can't wait to start reaching out, though!"
+      },
+      {
+        "turn": 11,
+        "role": "Deborah",
+        "text": "That makes sense. I'm excited to hear how you reach out and help those kids. Let me know how it goes!"
+      },
+      {
+        "turn": 12,
+        "role": "Jolene",
+        "text": "I'll keep you posted! Appreciate the support! Here are my sketches in the planner."
+      },
+      {
+        "turn": 13,
+        "role": "Deborah",
+        "text": "Sounds like you're doing great. Let me know if you need more tips or information."
+      },
+      {
+        "turn": 14,
+        "role": "Jolene",
+        "text": "Thanks, Deb! If I need anything else, I'll let you know. You're awesome!"
+      },
+      {
+        "turn": 15,
+        "role": "Deborah",
+        "text": "You're awesome too! Take care!"
+      },
+      {
+        "turn": 16,
+        "role": "Jolene",
+        "text": "Stay safe!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Mini-retreat reflection and engineering project",
+        "keywords": [
+          "Jolene",
+          "Deborah",
+          "mini retreat",
+          "self-reflection",
+          "confidence",
+          "engineering project",
+          "solutions",
+          "last Wednesday"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Green technology in disadvantaged areas",
+        "keywords": [
+          "green technology",
+          "disadvantaged areas",
+          "engineering",
+          "contribution"
+        ],
+        "turns": [
+          6
+        ]
+      },
+      {
+        "label": "Volunteer STEM workshops for underprivileged kids",
+        "keywords": [
+          "volunteer program",
+          "STEM education",
+          "underprivileged kids",
+          "engineers",
+          "local schools",
+          "community centers",
+          "workshops",
+          "guest speakers",
+          "planner sketches"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.504136,
+    "thread_setup_seconds": 0.203287,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.504136,
+    "turn_seconds": 7.300849,
+    "first_text_seconds": 5.910733,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10621,
+      "completion_tokens": 343,
+      "total_tokens": 10964,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 181
+    }
+  },
+  "error": null
+}

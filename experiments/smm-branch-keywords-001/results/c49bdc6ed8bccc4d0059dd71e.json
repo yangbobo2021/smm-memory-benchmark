@@ -1,0 +1,204 @@
+{
+  "source_id": "c49bdc6ed8bccc4d0059dd71e",
+  "source_sha256": "5bfc73cf3671035f8de14cdfa9d50d152dbdacd9dfb9012360cbef7023c35a7d",
+  "request_sha256": "b020201e36487ce79c9c0942adb98464b26bfeab3ae057ec9cfe095aa87a6108",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c49bdc6ed8bccc4d0059dd71e",
+    "source_sha256": "5bfc73cf3671035f8de14cdfa9d50d152dbdacd9dfb9012360cbef7023c35a7d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John! Long time no talk - hope you're doing well. Guess what? Last week I actually won an online gaming tournament! It was such an exciting experience and it blew my mind when I won. Winning felt so good and it really motivated me to keep improving."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey James! Congrats on winning the online gaming tournament! It's super fulfilling to see your hard work pay off. So happy for you!"
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "Thanks! It was really fulfilling to see my hard work pay off with a victory in the tournament. How are you?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Feeling the tug of emotion lately. Determined and passionate on one hand, but feeling overwhelmed and stressed on the other. Balancing personal and professional is kind of a challenge. How have you been?"
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "Yeah, staying balanced can be tough. I'm trying to take breaks from my hobbies and do other things. Lately I've become interested in extreme sports. Yesterday, for example, I was doing rope jumping. The highest height I jumped from was 150 meters!"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Wow, how cool! What other extreme sport have you tried?"
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "Just three days ago, I was surfing. Catching a wave is so cool! It's strange, but it relaxes me so much. How do you like to relax?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "I like to relax by reading. I love entering the imaginative worlds of authors - it's a fun escape from reality. "
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "I also love to read, especially while snuggled under the covers on a cold winter day. But now it’s summer and I want something more exciting! By the way, I bought air tickets to Toronto, and I’m leaving the day after tomorrow evening."
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Cool, this is already the fourth country you will visit! Will you only be in Toronto, or will you be visiting somewhere else?"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "I also plan to visit Vancouver. Maybe, I'll go somewhere else."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "When are you coming back?"
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "I plan to return on July 20, I’ll definitely bring you some kind of souvenir!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Thanks James! I will be waiting for you from your journey! Bon Voyage!"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "Thank you, John! Take care and see you soon!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Take care, bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Online gaming tournament win",
+        "keywords": [
+          "online gaming tournament",
+          "win",
+          "hard work",
+          "victory",
+          "motivation"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Stress and work-life balance",
+        "keywords": [
+          "emotional stress",
+          "overwhelmed",
+          "personal life",
+          "professional life",
+          "balance"
+        ],
+        "turns": [
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Extreme sports and relaxation",
+        "keywords": [
+          "extreme sports",
+          "rope jumping",
+          "150 meters",
+          "surfing",
+          "three days ago",
+          "relaxation"
+        ],
+        "turns": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Reading for escape",
+        "keywords": [
+          "reading",
+          "imaginative worlds",
+          "authors",
+          "cold winter day",
+          "relaxation"
+        ],
+        "turns": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Canada trip to Toronto and Vancouver",
+        "keywords": [
+          "Canada",
+          "Toronto",
+          "Vancouver",
+          "air tickets",
+          "day after tomorrow evening",
+          "July 20",
+          "souvenir",
+          "fourth country"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.286345,
+    "thread_setup_seconds": 0.198648,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.286345,
+    "turn_seconds": 12.087697,
+    "first_text_seconds": 9.532426,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10594,
+      "completion_tokens": 345,
+      "total_tokens": 10939,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 125
+    }
+  },
+  "error": null
+}

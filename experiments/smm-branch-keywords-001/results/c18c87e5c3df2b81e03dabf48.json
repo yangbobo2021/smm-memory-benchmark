@@ -1,0 +1,180 @@
+{
+  "source_id": "c18c87e5c3df2b81e03dabf48",
+  "source_sha256": "668253152ba345a581f587afd000a2b6db5d75dbfb09cf47cd62f8f66f40bba4",
+  "request_sha256": "83492ce8db2913c8a55a1c23e2dffb263eb8e1d125484a5e6fbc5ab2b7a2bcd4",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c18c87e5c3df2b81e03dabf48",
+    "source_sha256": "668253152ba345a581f587afd000a2b6db5d75dbfb09cf47cd62f8f66f40bba4",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Audrey",
+        "text": "Hey Andrew! Long time no talk! Last Friday I took my fur kids to the pet salon - they were so psyched and their tails were wagging like crazy! It took a while for them to calm down, but all cut up they looked so cute! "
+      },
+      {
+        "turn": 1,
+        "role": "Andrew",
+        "text": "Hey Audrey! Nice to hear from you. Sounds adorable! Do you have any pictures of them all groomed up?"
+      },
+      {
+        "turn": 2,
+        "role": "Audrey",
+        "text": "Here's a pic of them, looking all groomed. Look at those shiny coats! To top it off, they were really good at the salon - I always worry about them in new places."
+      },
+      {
+        "turn": 3,
+        "role": "Andrew",
+        "text": "Wow, they look great! Love seeing them happy and calm in new places."
+      },
+      {
+        "turn": 4,
+        "role": "Audrey",
+        "text": "Thanks! It means a lot to see them happy and settled in new places. I guess I'm doing a good job as a doggy mom then, haha! Have you taken your furry friends to the groomers yet?"
+      },
+      {
+        "turn": 5,
+        "role": "Andrew",
+        "text": "No, we haven't got the chance to take them to the groomer yet. But will do that soon! So guess what, I can't help myself but to adpot another dog the other day. Here's a photo of the doggo!"
+      },
+      {
+        "turn": 6,
+        "role": "Audrey",
+        "text": "That's great news! What's the pups name?"
+      },
+      {
+        "turn": 7,
+        "role": "Andrew",
+        "text": "It took us a while to decide, but we ended up going with 'Scout' for our pup - it seemed perfect for their adventurous spirit."
+      },
+      {
+        "turn": 8,
+        "role": "Audrey",
+        "text": "That's a great name for your pup! Fits their adventurous spirit. What's Scout's first adventure gonna be?"
+      },
+      {
+        "turn": 9,
+        "role": "Andrew",
+        "text": "Thanks! We're gonna take Scout, Toby, and Buddy to a nearby park. It's not big, but we can all have fun and get some fresh air!"
+      },
+      {
+        "turn": 10,
+        "role": "Audrey",
+        "text": "Sounds like a great start for Scout! Start small, and gradually give them more exposure. They'll have a great time, just make sure to keep them leashed."
+      },
+      {
+        "turn": 11,
+        "role": "Andrew",
+        "text": "Yeah, safety first! For now, we're keeping the new addition on a leash while they get used to being outside. That pic you of your dog at the park is so cute. So we got some essentials for their comfort and entertainment, like a bed, toys, and some puppy pads just in case. It's like their own little safe haven."
+      },
+      {
+        "turn": 12,
+        "role": "Audrey",
+        "text": "Wow, that's so great that you two are creating a safe and fun space for Scout. It's really important they have a place that makes them feel secure. Slowly introduce Scout to Toby and Buddy, it takes time for the pups to get used to each other too! Scout is so lucky to have you and your girlfriend! "
+      },
+      {
+        "turn": 13,
+        "role": "Andrew",
+        "text": "Thanks! We feel so lucky to have Scout. It's been amazing having so many furry friends! How are your dogs doing now? "
+      },
+      {
+        "turn": 14,
+        "role": "Audrey",
+        "text": "They're doing great! Exploring, meeting new people...they feel so loved and safe. I'm really glad they're part of my life!"
+      },
+      {
+        "turn": 15,
+        "role": "Andrew",
+        "text": "That's great to hear! Dogs truly bring so much joy and friendship. I'm glad they're happy with you."
+      },
+      {
+        "turn": 16,
+        "role": "Audrey",
+        "text": "Thanks! They're really awesome and bring so much joy and friendship. I'm so grateful to have them in my life as a part of my family."
+      },
+      {
+        "turn": 17,
+        "role": "Andrew",
+        "text": "Yeah, it's great! Dogs are always there for us. We should count ourselves lucky to have such amazing furry friends as family member."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Audrey’s dogs at the groomer",
+        "keywords": [
+          "Audrey",
+          "dog grooming",
+          "pet salon",
+          "shiny coats",
+          "well-behaved dogs",
+          "last Friday"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Andrew adopts Scout",
+        "keywords": [
+          "Andrew",
+          "Scout",
+          "dog adoption",
+          "Toby",
+          "Buddy",
+          "nearby park",
+          "leash",
+          "dog bed",
+          "toys",
+          "puppy pads"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.17984,
+    "thread_setup_seconds": 0.177821,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.17984,
+    "turn_seconds": 7.002018,
+    "first_text_seconds": 5.889062,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10816,
+      "completion_tokens": 280,
+      "total_tokens": 11096,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 146
+    }
+  },
+  "error": null
+}

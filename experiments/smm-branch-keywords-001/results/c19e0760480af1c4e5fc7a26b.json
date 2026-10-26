@@ -1,0 +1,186 @@
+{
+  "source_id": "c19e0760480af1c4e5fc7a26b",
+  "source_sha256": "37b4e6e484eb250081f4f56fd1933e5666390b4720f5432bdc68913996d0103d",
+  "request_sha256": "5dc6ecac5003ad875f99f1a562efc713f4015a1440a7dd63523508373dc833d4",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c19e0760480af1c4e5fc7a26b",
+    "source_sha256": "37b4e6e484eb250081f4f56fd1933e5666390b4720f5432bdc68913996d0103d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Nate",
+        "text": "Hey Joanna! Sorry I haven't been around. I made my friend some ice cream and they loved it!"
+      },
+      {
+        "turn": 1,
+        "role": "Joanna",
+        "text": "No worries, Nate! Glad to hear it. What flavor did you make?"
+      },
+      {
+        "turn": 2,
+        "role": "Nate",
+        "text": "I whipped up some chocolate and vanilla swirl."
+      },
+      {
+        "turn": 3,
+        "role": "Joanna",
+        "text": "That looks delicious! Unfortunately, I can't have dairy, so no ice cream for me. Do you happen to have a dairy-free recipe that I could try?"
+      },
+      {
+        "turn": 4,
+        "role": "Nate",
+        "text": "Sure, I know one recipe using coconut milk. Would you like me to send it to you?"
+      },
+      {
+        "turn": 5,
+        "role": "Joanna",
+        "text": "Yeah, definitely! I'm keen to try your recipe. Always up for something sweet."
+      },
+      {
+        "turn": 6,
+        "role": "Nate",
+        "text": "Cool, I'll do that. I'm all about these desserts, let me know what you think!"
+      },
+      {
+        "turn": 7,
+        "role": "Joanna",
+        "text": "Definitely keeping you posted! Love your creations!"
+      },
+      {
+        "turn": 8,
+        "role": "Nate",
+        "text": "Thanks, Joanna! It means a lot that you enjoy the desserts I bake."
+      },
+      {
+        "turn": 9,
+        "role": "Joanna",
+        "text": "Yeah Nate, your cooking is amazing! I can't stop thinking about the screenplay, so I just started writing another one while I wait to hear back about how the first one did."
+      },
+      {
+        "turn": 10,
+        "role": "Nate",
+        "text": "I hear that, taking your mind of something like that is very challenging. What's the new one about?"
+      },
+      {
+        "turn": 11,
+        "role": "Joanna",
+        "text": "It's about a thirty year old woman on a journey of self-discovery after a loss. Somewhat similar to the last one, but hey, that's just the kind of thing I'm inspired to write about!"
+      },
+      {
+        "turn": 12,
+        "role": "Nate",
+        "text": "Interesting! That's a deep topic. Love to hear more about it."
+      },
+      {
+        "turn": 13,
+        "role": "Joanna",
+        "text": "Thanks, Nate! It's my own story. The main character is dealing with some tough stuff: loss and trying to figure out who they are. They take a road trip to heal and grow."
+      },
+      {
+        "turn": 14,
+        "role": "Nate",
+        "text": "Wow, Joanna, that sounds awesome. I love stories that tackle important issues. What inspired you to this one?"
+      },
+      {
+        "turn": 15,
+        "role": "Joanna",
+        "text": "Thanks, Nate! It was inspired by personal experiences and my own journey of self-discovery."
+      },
+      {
+        "turn": 16,
+        "role": "Nate",
+        "text": "Wow, Joanna, that takes guts! I can't wait to see it all come together. I'm also pumped to see how your first one will do!"
+      },
+      {
+        "turn": 17,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Appreciate your support. Hoping my screenplay gets noticed and makes it to the screen. Fingers crossed!"
+      },
+      {
+        "turn": 18,
+        "role": "Nate",
+        "text": "Crossing my fingers for you! Hope your screenplay finds a fan and is given its due. Good luck!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dairy-free ice cream recipe",
+        "keywords": [
+          "Nate",
+          "Joanna",
+          "chocolate and vanilla swirl",
+          "dairy-free ice cream",
+          "coconut milk",
+          "recipe",
+          "dessert"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Joanna’s screenplay writing",
+        "keywords": [
+          "Joanna",
+          "Nate",
+          "screenplay",
+          "personal experience",
+          "self-discovery",
+          "loss",
+          "road trip",
+          "screen adaptation",
+          "first screenplay"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.003922,
+    "thread_setup_seconds": 0.123445,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.003922,
+    "turn_seconds": 6.880477,
+    "first_text_seconds": 5.969325,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10653,
+      "completion_tokens": 199,
+      "total_tokens": 10852,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 60
+    }
+  },
+  "error": null
+}

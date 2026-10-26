@@ -1,0 +1,216 @@
+{
+  "source_id": "c9374b3eec6067d6a0cb1328e",
+  "source_sha256": "03b7e9b1259cd43baa3a2b3f4e3be8e4420bd4f6b97d9d2bbb64fb1b90576f1a",
+  "request_sha256": "9d19d707223d863683a896b1ad35ac511e255ac21e2f9b9871b0720b7da74170",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c9374b3eec6067d6a0cb1328e",
+    "source_sha256": "03b7e9b1259cd43baa3a2b3f4e3be8e4420bd4f6b97d9d2bbb64fb1b90576f1a",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Caroline",
+        "text": "Hi Melanie! Hope you're doing good. Guess what I did this week? I took the first step towards becoming a mom - I applied to adoption agencies! It's a big decision, but I think I'm ready to give all my love to a child. I got lots of help from this adoption advice/assistance group I attended. It was great!"
+      },
+      {
+        "turn": 1,
+        "role": "Melanie",
+        "text": "Caroline, congrats! So proud of you for taking this step. How does it feel? Also, do you have any pets?"
+      },
+      {
+        "turn": 2,
+        "role": "Caroline",
+        "text": "Thanks, Mel! Exciting but kinda nerve-wracking. Parenting's such a big responsibility. And yup, I do- Oscar, my guinea pig. He's been great. How are your pets?"
+      },
+      {
+        "turn": 3,
+        "role": "Melanie",
+        "text": "Yeah, it's normal to be both excited and nervous with a big decision. And thanks for asking, they're good- we got another cat named Bailey too. Here's a pic of Oliver. Can you show me one of Oscar?"
+      },
+      {
+        "turn": 4,
+        "role": "Caroline",
+        "text": "He's so cute! What’s the funniest thing Oliver's done? And sure, check out this pic of him eating parsley! Veggies are his fave!"
+      },
+      {
+        "turn": 5,
+        "role": "Melanie",
+        "text": "Oliver's hilarious! He hid his bone in my slipper once! Cute, right? Almost as silly as when I got to feed a horse a carrot. "
+      },
+      {
+        "turn": 6,
+        "role": "Caroline",
+        "text": "That's so funny! I used to go horseback riding with my dad when I was a kid, we'd go through the fields, feeling the wind. It was so special. I've always had a love for horses!"
+      },
+      {
+        "turn": 7,
+        "role": "Melanie",
+        "text": "Wow, that sounds great - I agree, they're awesome. Here's a photo of my horse painting I did recently."
+      },
+      {
+        "turn": 8,
+        "role": "Caroline",
+        "text": "Wow, Melanie, that's amazing! Love all the details and how you got the horse's grace and strength. Do you like painting animals?"
+      },
+      {
+        "turn": 9,
+        "role": "Melanie",
+        "text": "Thanks, Caroline! Glad you like it. Yeah, I love to. It's peaceful and special. Horses have such grace! Do you like to paint too?"
+      },
+      {
+        "turn": 10,
+        "role": "Caroline",
+        "text": "Painting's great for expressing myself. I love creating art! Here's a recent self-portrait I made last week."
+      },
+      {
+        "turn": 11,
+        "role": "Melanie",
+        "text": "Caroline, that's great! The blue's really powerful, huh? How'd you feel while painting it?"
+      },
+      {
+        "turn": 12,
+        "role": "Caroline",
+        "text": "Thanks, Mel! I felt liberated and empowered doing it. Painting helps me explore my identity and be true to myself. It's definitely therapeutic."
+      },
+      {
+        "turn": 13,
+        "role": "Melanie",
+        "text": "Wow, Caroline, that's great! Art's awesome for showing us who we really are and getting in touch with ourselves. What else helps you out?"
+      },
+      {
+        "turn": 14,
+        "role": "Caroline",
+        "text": "Thanks, Melanie. Art gives me a sense of freedom, but so does having supportive people around, promoting LGBTQ rights and being true to myself. I want to live authentically and help others to do the same."
+      },
+      {
+        "turn": 15,
+        "role": "Melanie",
+        "text": "Wow, Caroline! That's amazing. You really care about being real and helping others. Wishing you the best on your adoption journey!"
+      },
+      {
+        "turn": 16,
+        "role": "Caroline",
+        "text": "Thanks, Melanie! I really appreciate it. Excited for the future! Bye!"
+      },
+      {
+        "turn": 17,
+        "role": "Melanie",
+        "text": "Bye Caroline. I'm here for you. Take care of yourself."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Adoption journey",
+        "keywords": [
+          "Caroline",
+          "Melanie",
+          "adoption agency",
+          "adoption journey",
+          "parenthood",
+          "adoption advice group",
+          "excitement",
+          "nervousness"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "label": "Pets and funny animal stories",
+        "keywords": [
+          "Oscar",
+          "guinea pig",
+          "Oliver",
+          "Bailey",
+          "cat",
+          "parsley",
+          "slipper",
+          "hidden bone"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Horses and horseback riding",
+        "keywords": [
+          "horse",
+          "horseback riding",
+          "Caroline's father",
+          "childhood",
+          "fields",
+          "carrot",
+          "horse painting",
+          "animal painting"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Art, identity, and LGBTQ rights",
+        "keywords": [
+          "painting",
+          "self-portrait",
+          "blue",
+          "self-expression",
+          "identity",
+          "therapeutic art",
+          "authenticity",
+          "supportive people",
+          "LGBTQ rights"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.159892,
+    "thread_setup_seconds": 0.094163,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.159892,
+    "turn_seconds": 10.065729,
+    "first_text_seconds": 8.029996,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10797,
+      "completion_tokens": 474,
+      "total_tokens": 11271,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 242
+    }
+  },
+  "error": null
+}

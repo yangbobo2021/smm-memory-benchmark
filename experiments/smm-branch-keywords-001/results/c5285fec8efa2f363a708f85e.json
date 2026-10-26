@@ -1,0 +1,173 @@
+{
+  "source_id": "c5285fec8efa2f363a708f85e",
+  "source_sha256": "c85529eb4a4844e4e67bd47b6448c52d3d9384514592925c86df77b1ec2e0bfb",
+  "request_sha256": "69e91ecfbcb055fb512848e206b7733c74f02a3b58e72e1e38cae5a10abe4d0c",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c5285fec8efa2f363a708f85e",
+    "source_sha256": "c85529eb4a4844e4e67bd47b6448c52d3d9384514592925c86df77b1ec2e0bfb",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jon",
+        "text": "Hey Gina, how's it going?"
+      },
+      {
+        "turn": 1,
+        "role": "Gina",
+        "text": "Hey Jon, my online clothing store has been a roller coaster but rewarding. Starting a business takes courage - you hang in there too!"
+      },
+      {
+        "turn": 2,
+        "role": "Jon",
+        "text": "Thanks Gina! It's been tough, but I'm gonna make it happen. It's been great! And hey, you're awesome with your store. How's it going?"
+      },
+      {
+        "turn": 3,
+        "role": "Gina",
+        "text": "Thanks! Appreciate your kind words. Store's going good, just been keeping up with fashion trends so I can offer the best pieces to customers. It's been a lot of work, but really enjoying it. Got any advice or tips on running a successful biz?"
+      },
+      {
+        "turn": 4,
+        "role": "Jon",
+        "text": "Yeah, brand identity is key. Make sure yours stands out. Also be sure to build relationships with your customers – let them know you care. And don't forget to stay positive and motivate others. Your energy will be contagious!"
+      },
+      {
+        "turn": 5,
+        "role": "Gina",
+        "text": "Thanks for the advice, Jon! Building relationships and creating a strong brand image for my store is something I'm always working on. You're right, staying positive is key. What helps you stay motivated with your dance studio business?"
+      },
+      {
+        "turn": 6,
+        "role": "Jon",
+        "text": "Seeing my students succeed motivates me. It's awesome to help them learn and reach their goals. Your support, Gina, means a lot too. Here's a photo of us after during one of the dance clases."
+      },
+      {
+        "turn": 7,
+        "role": "Gina",
+        "text": "That's awesome, Jon! Seeing your students grow and succeed must be really fulfilling. Glad I can be part of this journey!"
+      },
+      {
+        "turn": 8,
+        "role": "Jon",
+        "text": "Thanks for being there for me! It's really made a huge difference and it feels great."
+      },
+      {
+        "turn": 9,
+        "role": "Gina",
+        "text": "Glad I could help, Jon! It's nice to be part of something positive. Supporting your dreams is awesome!"
+      },
+      {
+        "turn": 10,
+        "role": "Jon",
+        "text": "Thanks for being there for me. Your help means a lot."
+      },
+      {
+        "turn": 11,
+        "role": "Gina",
+        "text": "I'm here for you, rooting for you all the way."
+      },
+      {
+        "turn": 12,
+        "role": "Jon",
+        "text": "Thanks, I'm really grateful for your help with staying motivated."
+      },
+      {
+        "turn": 13,
+        "role": "Gina",
+        "text": "Glad to cheer you on. Keep going and never give up!"
+      },
+      {
+        "turn": 14,
+        "role": "Jon",
+        "text": "Thanks, Gina! I won't quit - your words motivate me to keep going!"
+      },
+      {
+        "turn": 15,
+        "role": "Gina",
+        "text": "Believe in yourself. Even when it's tough, you got this! Keep going!"
+      },
+      {
+        "turn": 16,
+        "role": "Jon",
+        "text": "I'm gonna keep on believing in myself. Thanks for the kind words!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gina’s online clothing store",
+        "keywords": [
+          "Gina",
+          "online clothing store",
+          "fashion trends",
+          "brand identity",
+          "customer relationships",
+          "business advice",
+          "staying positive"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Jon’s dance studio and motivation",
+        "keywords": [
+          "Jon",
+          "dance studio",
+          "students",
+          "dance classes",
+          "student success",
+          "motivation",
+          "mutual support",
+          "encouragement"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.659471,
+    "thread_setup_seconds": 0.18562,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.659471,
+    "turn_seconds": 10.47385,
+    "first_text_seconds": 9.576316,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10602,
+      "completion_tokens": 290,
+      "total_tokens": 10892,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 161
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,214 @@
+{
+  "source_id": "c4e9db782b6a0f05af00a30ba",
+  "source_sha256": "48732420d98448e976fd41efeb4c6bc59830e29e80dc740cf8f2381cf6832931",
+  "request_sha256": "8d7df5b15777fc29a9852846f613fed83322b6437576990fb1e8e294f7e733b1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c4e9db782b6a0f05af00a30ba",
+    "source_sha256": "48732420d98448e976fd41efeb4c6bc59830e29e80dc740cf8f2381cf6832931",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John, long time no talk. On Friday, I got great news - I'm finally in the study abroad program I applied for! Next month, I'm off to Ireland for a semester."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Congrats, Tim! That's amazing news. So, where are you going to stay?"
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Thanks! I'm gonna stay in Galway, it's great for its arts and Irish music. This place has such a vibrant atmosphere."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Awesome, Galway looks amazing! Is there anything in particular that you're keen to check out while you're there?"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Yep! I'm so excited to explore the nature - it looks amazing!"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Wow, great view! Have you visited any other places?"
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "I want to visit The Cliffs of Moher. It has amazing ocean views and awesome cliffs."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Wow, that's awesome! I could stop by there after my season."
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Cool, let me know if you're around!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Yep, I'll let you know. Oh, I held a benefit basketball game last week."
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Wow! How did the game go?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "The game turned out to be a total success! Lots of people showed up and had a great time, plus we were able to raise some money for charity."
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "Great job organizing the event. That's really making a difference!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Thanks! It's amazing how basketball brings people together and creates a positive impact!"
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "You rock! Keep it up!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Thanks, Tim! It's awesome to see how sports can unite people. By the way, what book are you currently reading?"
+      },
+      {
+        "turn": 16,
+        "role": "Tim",
+        "text": "I'm currently reading a fantasy novel called \"The Name of the Wind\" by Patrick Rothfuss. It's really good!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "\"The Name of the Wind\" sounds cool. I'll add it to my list. Thanks!"
+      },
+      {
+        "turn": 18,
+        "role": "Tim",
+        "text": "I hope you enjoy it! Let me know your thoughts."
+      },
+      {
+        "turn": 19,
+        "role": "John",
+        "text": "Will do! Thanks for the recommendation!"
+      },
+      {
+        "turn": 20,
+        "role": "Tim",
+        "text": "No problem. Talk to you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Tim’s Ireland study abroad and Galway trip",
+        "keywords": [
+          "Tim",
+          "John",
+          "study abroad",
+          "Ireland",
+          "semester",
+          "Galway",
+          "Irish music",
+          "nature",
+          "Cliffs of Moher",
+          "ocean views"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "John’s benefit basketball game",
+        "keywords": [
+          "John",
+          "Tim",
+          "benefit basketball game",
+          "charity",
+          "fundraising",
+          "event organization",
+          "sports",
+          "community impact",
+          "last week"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "The Name of the Wind recommendation",
+        "keywords": [
+          "The Name of the Wind",
+          "Patrick Rothfuss",
+          "fantasy novel",
+          "book recommendation",
+          "reading"
+        ],
+        "turns": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.047908,
+    "thread_setup_seconds": 0.399394,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.047908,
+    "turn_seconds": 11.648514,
+    "first_text_seconds": 9.945987,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10583,
+      "completion_tokens": 283,
+      "total_tokens": 10866,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 99
+    }
+  },
+  "error": null
+}

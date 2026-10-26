@@ -1,0 +1,193 @@
+{
+  "source_id": "c347a5c918a85f34890688685",
+  "source_sha256": "97a376936a4ab448adc10b3576894d645dca85197d04b3340dc0b5f6ddce4838",
+  "request_sha256": "54c5235f4c84da351a65da89c35d15b33456624f6b48dc10a47f9516c8069e42",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c347a5c918a85f34890688685",
+    "source_sha256": "97a376936a4ab448adc10b3576894d645dca85197d04b3340dc0b5f6ddce4838",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Long time no see. I just went to an awesome music thingy in Tokyo - so cool!"
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Calvin! Great to hear from you. How was the music thingy in Tokyo? See any cool bands?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Hey Dave! The festival in Tokyo was awesome! Didn't see any bands, but met lots of talented artists and industry people. Totally enriching!"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Wow, Calvin, sounds great! What did you learn from it?"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "I learned a lot and got some great advice from professionals in the music industry. It was inspiring!"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Wow, Calvin! Bet that was inspiring being surrounded by professionals. Did you get any advice from them?"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "The producer gave me some advice to stay true to myself and sound unique. It got me thinking about where I want my music to go. It's really motivating!"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Wow, Calvin! It's really motivating to see you staying true to yourself. It got me thinking, where do you see your music taking you?"
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Thanks, Dave! I'm dreaming of touring the world, performing for different people and connecting with them. I hope my music can reach a global audience and make an impact. I'm also looking forward to my upcoming trip to Boston after I finish the Frank Ocean tour. I've heard that the music scene there is awesome, so I can't wait to check it out!"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Sounds like an amazing plan, Cal! I can't wait for your trip to Boston. I'll show you around town and all the cool spots. The music scene there is awesome, with places like Paradise Rock, House of Blues, and Fenway Park. You'll definitely have some great performances there. Count me in for the front row when you're up onstage! Oh, and by the way, check out this pic."
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Wow, Boston looks great! Thanks for the tips. And, awesome pic!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Last weekend I went to a car show. Classic cars are so charming and the dedication people put into restoring them is amazing. That's why I'm so into auto engineering. Can't wait to show you some when you come to Boston! Oh, almost forgot to send a photo, look at this beautiful car!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Wow, Dave, that car looks great! Take a look at my car, I put a lot of work into it. Can't wait to see more when I'm in Boston!"
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Thanks! It definitely took a lot of work. Have you had a chance to check out Boston apart from the gigs?"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "Not yet, been pretty busy with rehearsals and traveling. But I'm looking forward to exploring the city, trying out some delicious food, and visiting the popular attractions. Maybe we can grab a bite together when I'm there?"
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "Definitely, Cal! Let's grab some food and I'll show you my favorite spots in the city. Can't wait to show them to you!"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "Sounds great, Dave! Can't wait to try out the food there with you. It'll be fun!"
+      },
+      {
+        "turn": 17,
+        "role": "Dave",
+        "text": "It'll be great, Cal! Can't wait to show you the amazing music and food here. See you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Tokyo music festival and music career",
+        "keywords": [
+          "Tokyo",
+          "music festival",
+          "music industry",
+          "producer advice",
+          "unique sound",
+          "music career",
+          "world tour",
+          "Frank Ocean tour"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Boston trip, music venues, and food",
+        "keywords": [
+          "Boston",
+          "Paradise Rock",
+          "House of Blues",
+          "Fenway Park",
+          "music scene",
+          "performances",
+          "city attractions",
+          "food"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "label": "Classic cars and auto engineering",
+        "keywords": [
+          "classic cars",
+          "car show",
+          "car restoration",
+          "auto engineering",
+          "car photo"
+        ],
+        "turns": [
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.976055,
+    "thread_setup_seconds": 0.098326,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.976055,
+    "turn_seconds": 9.877729,
+    "first_text_seconds": 8.336699,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10792,
+      "completion_tokens": 386,
+      "total_tokens": 11178,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 219
+    }
+  },
+  "error": null
+}

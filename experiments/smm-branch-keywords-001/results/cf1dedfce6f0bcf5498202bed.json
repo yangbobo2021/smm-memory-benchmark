@@ -1,0 +1,192 @@
+{
+  "source_id": "cf1dedfce6f0bcf5498202bed",
+  "source_sha256": "7ef2525dabb98f45ad04ad5fa1d07e983b1a1cd1602124800fd3a69c711ef6f8",
+  "request_sha256": "117c08601190a6fc37dc6c90820aba6ebae2526800757dd09023c33d38bacefc",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf1dedfce6f0bcf5498202bed",
+    "source_sha256": "7ef2525dabb98f45ad04ad5fa1d07e983b1a1cd1602124800fd3a69c711ef6f8",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John, since our last chat, something awesome happened. Last Friday, I started introducing Max, Daisy and the new pup Ned. It was hard at first, but they're slowly adapting. It's sweet to watch them bond and have fun together."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Wow, that's cool, James! Seeing them bonding and having a great time is so sweet. Do you have a picture of them together?"
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "Yep, I got a great pic last night. Check it out!"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Wow, they look so cute! I can almost feel the love and joy in this photo. These last few days really got me thinking about my own future."
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "What's been on your mind regarding the future?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Lately, I've been thinking about my career and where I want to be in the future. I'm driven and passionate, and I also want to make a positive impact on the world."
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "Gotcha, John. Finding a way to make a difference matters. Have you thought about any ideas on how to do that?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Yeah, I have. I've been looking into volunteering and thinking of going into non-profit work. I want to put my passions and abilities to use for causes I really care about."
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Wow, John that sounds great! I'm sure with your skills and passion, you could do some really cool things with nonprofits. Here's a pic I took when I volunteered last month. It was really rewarding to see how little gifts can do so much!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "That's awesome, James! Was it cool to see the impact of the gifts? Can you tell me more about the organization you volunteered with?"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "It was great to see how much a simple act of kindness can mean to someone in need. I volunteered with an organization that provides necessary items to those who are less fortunate. It felt so rewarding to help, even if it was in a small way."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "I think this is exactly what I need. Can you take me there this weekend?"
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Of course I can! I think there are still some of the previous staff there and I can even introduce you to them."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Thank you very much! Will there be some kind of interview required?"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "No, this is not necessary. All you need is to be a friendly and polite person, and also have a great desire to help people. I'm sure you will succeed!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Thanks for your support! I want to make this world a better place, and with your help I will definitely achieve my goal."
+      },
+      {
+        "turn": 16,
+        "role": "James",
+        "text": "We can do this together!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Thanks, James. Your support means a lot to me. I'm determined to make a positive impact."
+      },
+      {
+        "turn": 18,
+        "role": "James",
+        "text": "You got this! Stay focused on your dreams and don't give up."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Introducing the pets",
+        "keywords": [
+          "James",
+          "John",
+          "Max",
+          "Daisy",
+          "Ned",
+          "new puppy",
+          "pet introduction",
+          "bonding",
+          "adaptation",
+          "photo"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "John’s nonprofit volunteering plans",
+        "keywords": [
+          "John",
+          "James",
+          "career goals",
+          "positive impact",
+          "volunteering",
+          "nonprofit work",
+          "charitable organization",
+          "essential items",
+          "people in need",
+          "weekend visit",
+          "interview"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.102886,
+    "thread_setup_seconds": 0.305175,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.102886,
+    "turn_seconds": 8.797711,
+    "first_text_seconds": 6.604054,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10724,
+      "completion_tokens": 283,
+      "total_tokens": 11007,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 137
+    }
+  },
+  "error": null
+}

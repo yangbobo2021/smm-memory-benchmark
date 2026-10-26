@@ -1,0 +1,192 @@
+{
+  "source_id": "cf80270c6159ed2490555e2c3",
+  "source_sha256": "bb47707317fb3bf79041e06bbe57559b5bcdd18dc7cee21c84577015fd3b5632",
+  "request_sha256": "cd50566fc0194a883fd8281578c0e300e8810e370a78fae947ca90aa1db0fcdb",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf80270c6159ed2490555e2c3",
+    "source_sha256": "bb47707317fb3bf79041e06bbe57559b5bcdd18dc7cee21c84577015fd3b5632",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Caroline",
+        "text": "Since we last spoke, some big things have happened. Last week I went to an LGBTQ+ pride parade. Everyone was so happy and it made me feel like I belonged. It showed me how much our community has grown, it was amazing!"
+      },
+      {
+        "turn": 1,
+        "role": "Melanie",
+        "text": "Wow, Caroline, sounds like the parade was an awesome experience! It's great to see the love and support for the LGBTQ+ community. Congrats! Has this experience influenced your goals at all?"
+      },
+      {
+        "turn": 2,
+        "role": "Caroline",
+        "text": "Thanks, Mel! It really motivated me for sure. Talking to the community made me want to use my story to help others too - I'm still thinking that counseling and mental health is the way to go. I'm super excited to give back. "
+      },
+      {
+        "turn": 3,
+        "role": "Melanie",
+        "text": "Wow, Caroline! That's great! I just signed up for a pottery class yesterday. It's like therapy for me, letting me express myself and get creative. Have you found any activities that make you feel the same way?"
+      },
+      {
+        "turn": 4,
+        "role": "Caroline",
+        "text": "Wow, Melanie! I'm getting creative too, just learning the piano. What made you try pottery?"
+      },
+      {
+        "turn": 5,
+        "role": "Melanie",
+        "text": "I'm a big fan of pottery - the creativity and skill is awesome. Plus, making it is so calming. Look at this!"
+      },
+      {
+        "turn": 6,
+        "role": "Caroline",
+        "text": "That bowl is gorgeous! The black and white design looks so fancy. Did you make it?"
+      },
+      {
+        "turn": 7,
+        "role": "Melanie",
+        "text": "Thanks, Caroline! Yeah, I made this bowl in my class. It took some work, but I'm pretty proud of it."
+      },
+      {
+        "turn": 8,
+        "role": "Caroline",
+        "text": "Nice job! You really put in the work and it definitely shows. Your creativity looks great!"
+      },
+      {
+        "turn": 9,
+        "role": "Melanie",
+        "text": "Thanks, Caroline! Your kind words mean a lot. Pottery is a huge part of my life, not just a hobby - it helps me express my emotions. Clay is incredible, it brings me so much joy!"
+      },
+      {
+        "turn": 10,
+        "role": "Caroline",
+        "text": "Wow, Mel, I'm so stoked for you that art is helping you express yourself and bring you joy! Keep it up!"
+      },
+      {
+        "turn": 11,
+        "role": "Melanie",
+        "text": "Thanks, Caroline! I'm excited to see where pottery takes me. Anything coming up you're looking forward to?"
+      },
+      {
+        "turn": 12,
+        "role": "Caroline",
+        "text": "Thanks Mel! I'm going to a transgender conference this month. I'm so excited to meet other people in the community and learn more about advocacy. It's gonna be great!"
+      },
+      {
+        "turn": 13,
+        "role": "Melanie",
+        "text": "Sounds awesome, Caroline! Have a great time and learn a lot. Have fun!"
+      },
+      {
+        "turn": 14,
+        "role": "Caroline",
+        "text": "Cool, thanks Mel! Can't wait. I'll keep ya posted. Bye!"
+      },
+      {
+        "turn": 15,
+        "role": "Melanie",
+        "text": "Bye, Caroline! Can't wait to hear about it. Have fun and stay safe!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Caroline’s pride parade experience and counseling goals",
+        "keywords": [
+          "Caroline",
+          "LGBTQ+ pride parade",
+          "community belonging",
+          "community growth",
+          "personal story",
+          "counseling",
+          "mental health",
+          "helping others"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Melanie’s pottery class and handmade bowl",
+        "keywords": [
+          "Melanie",
+          "pottery class",
+          "ceramic bowl",
+          "black-and-white design",
+          "creative expression",
+          "emotional expression",
+          "calming activity",
+          "joy"
+        ],
+        "turns": [
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Caroline learning piano",
+        "keywords": [
+          "Caroline",
+          "piano",
+          "learning music",
+          "creative activity"
+        ],
+        "turns": [
+          4
+        ]
+      },
+      {
+        "label": "Caroline’s upcoming transgender conference",
+        "keywords": [
+          "Caroline",
+          "transgender conference",
+          "this month",
+          "LGBTQ+ community",
+          "advocacy",
+          "meeting people"
+        ],
+        "turns": [
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.367633,
+    "thread_setup_seconds": 0.131204,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.367633,
+    "turn_seconds": 10.236429,
+    "first_text_seconds": 8.362357,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10647,
+      "completion_tokens": 348,
+      "total_tokens": 10995,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 138
+    }
+  },
+  "error": null
+}

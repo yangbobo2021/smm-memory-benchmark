@@ -1,0 +1,218 @@
+{
+  "source_id": "c7650f704fe331b2566c673ed",
+  "source_sha256": "d231100d4df073c0d74219c24d74af8daa91807238ec014bdf189453b9cf6c7f",
+  "request_sha256": "e6fc7f083f4614f7ce1762b1d5eb1ff917e9318b81f7899225a28a5cca872180",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c7650f704fe331b2566c673ed",
+    "source_sha256": "d231100d4df073c0d74219c24d74af8daa91807238ec014bdf189453b9cf6c7f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Nate",
+        "text": "Hey Joanna, what's been up? Haven't seen you since we last talked."
+      },
+      {
+        "turn": 1,
+        "role": "Joanna",
+        "text": "Hey Nate! I have been revising and perfecting the recipe I made for my family and it turned out really tasty. What's been happening with you?"
+      },
+      {
+        "turn": 2,
+        "role": "Nate",
+        "text": "Hey Joanna! That's cool. I've been getting so stressed lately because of my tournament progress - tough competitors - but my turtles always cheer me up."
+      },
+      {
+        "turn": 3,
+        "role": "Joanna",
+        "text": "Pets have a way of brightening our days. I still have that stuffed animal dog you gave me! I named her Tilly, and she's always with me while I write."
+      },
+      {
+        "turn": 4,
+        "role": "Nate",
+        "text": "Glad to hear it! What made you name her Tilly?"
+      },
+      {
+        "turn": 5,
+        "role": "Joanna",
+        "text": "I used to have a dog back in Michigan with that name, but then I got allergic and we had to get rid of her. The name helps me remember her back when I used to be able to hold and squeeze animal without an allergic reaction!"
+      },
+      {
+        "turn": 6,
+        "role": "Nate",
+        "text": "That's so touching! Glad the stuffed animal means so much!"
+      },
+      {
+        "turn": 7,
+        "role": "Joanna",
+        "text": "Tilly helps me stay focused and brings me so much joy. It's amazing how even stuffed animals can do that!"
+      },
+      {
+        "turn": 8,
+        "role": "Nate",
+        "text": "It really is, I'm not sure I'll ever understand why watching my turtles slowly walk around makes me so happy. But I'm very glad it does."
+      },
+      {
+        "turn": 9,
+        "role": "Joanna",
+        "text": "Same here! So have you been up to anything recenly?"
+      },
+      {
+        "turn": 10,
+        "role": "Nate",
+        "text": "Yeah, I've just been practicing for my next video game tournemant. How about you?"
+      },
+      {
+        "turn": 11,
+        "role": "Joanna",
+        "text": "Well, I had a bit of a setback recently - another rejection from a production company."
+      },
+      {
+        "turn": 12,
+        "role": "Nate",
+        "text": "Bummer, Joanna. Is this the one you sent to a film contest? Rejections suck, but don't forget they don't define you. Keep at it and you'll find the perfect opportunity."
+      },
+      {
+        "turn": 13,
+        "role": "Joanna",
+        "text": "Yeah.. Thanks, Nate. It's hard, but I won't let it slow me down. I'm gonna keep grinding and moving ahead."
+      },
+      {
+        "turn": 14,
+        "role": "Nate",
+        "text": "That's what I like to hear! I really respect you for that and being able to bounce back whenever something sad happens!"
+      },
+      {
+        "turn": 15,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Your encouragement really means a lot. I'm gonna keep pushing forward and believing in myself."
+      },
+      {
+        "turn": 16,
+        "role": "Nate",
+        "text": "You got this, and don't ever forget that you have people cheering you on from the sidelines wherever you go."
+      },
+      {
+        "turn": 17,
+        "role": "Joanna",
+        "text": "Thanks! I'll see you around!"
+      },
+      {
+        "turn": 18,
+        "role": "Nate",
+        "text": "No problem! Catch you later!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Family recipe revision",
+        "keywords": [
+          "recipe",
+          "revise",
+          "perfect",
+          "family",
+          "cooking"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "Video game tournament practice and stress",
+        "keywords": [
+          "video game tournament",
+          "practice",
+          "tournament progress",
+          "stress",
+          "competitors"
+        ],
+        "turns": [
+          2,
+          10
+        ]
+      },
+      {
+        "label": "Nate’s turtles as a source of comfort",
+        "keywords": [
+          "turtle",
+          "pet",
+          "cheer up",
+          "watching",
+          "happiness"
+        ],
+        "turns": [
+          2,
+          8
+        ]
+      },
+      {
+        "label": "Tilly stuffed dog and Michigan dog memories",
+        "keywords": [
+          "Tilly",
+          "stuffed animal",
+          "Michigan",
+          "dog",
+          "allergy",
+          "memory",
+          "writing",
+          "focus",
+          "joy"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Joanna’s production company rejection and perseverance",
+        "keywords": [
+          "production company",
+          "rejection",
+          "film contest",
+          "encouragement",
+          "perseverance",
+          "self-belief"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.222321,
+    "thread_setup_seconds": 0.382618,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.222321,
+    "turn_seconds": 9.839703,
+    "first_text_seconds": 7.619964,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10655,
+      "completion_tokens": 483,
+      "total_tokens": 11138,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 265
+    }
+  },
+  "error": null
+}

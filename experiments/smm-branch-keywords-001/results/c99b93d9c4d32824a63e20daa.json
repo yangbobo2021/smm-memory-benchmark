@@ -1,0 +1,185 @@
+{
+  "source_id": "c99b93d9c4d32824a63e20daa",
+  "source_sha256": "225f995d13c0dfc907a6fa125a6ad568716bb10f5a3bcb4e1024f9eeca4c78a6",
+  "request_sha256": "6bf143d957b3fa7b1769546b3ab1ac6110f9f238c38976033467fb49b64f7b57",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c99b93d9c4d32824a63e20daa",
+    "source_sha256": "225f995d13c0dfc907a6fa125a6ad568716bb10f5a3bcb4e1024f9eeca4c78a6",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Maria",
+        "text": "Hey John, what's been going on? I just wanted to check in. Last week was wild - I volunteered at the homeless shelter and they gave me a medal! It was humbling and I'm really glad I could help."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Maria! Congrats on the recognition! It's really touching to see how much you're doing to help out. Last weekend, I participated in a community event to raise money for a good cause. We got a great turnout and it was amazing to be surrounded by so many supportive people."
+      },
+      {
+        "turn": 2,
+        "role": "Maria",
+        "text": "John, that sounds inspiring! Community events like that are always amazing. This pic is heartwarming, that little girl has such a cute smile. What was the event all about?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "I set up a 5K charity run in our neighborhood. It was all for a good cause - to help out veterans and their families. We were able to raise some funds! Here's a pic from the day."
+      },
+      {
+        "turn": 4,
+        "role": "Maria",
+        "text": "John, that's awesome! That is such an important cause. It's an honor to know someone like you who takes initiative. The photo you shared is so powerful! Could you tell me more about how you organized the run?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Thanks, Maria! It means a lot to me. It was hard work - getting sponsors, coordinating with the city, and spreading the word. But seeing everyone come together to support our veterans made it worth it."
+      },
+      {
+        "turn": 6,
+        "role": "Maria",
+        "text": "Wow, John, that sounds like a lot of effort! Your dedication definitely paid off. Were there any challenges along the way?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Definitely, Maria! Getting sponsors was difficult. I had to reach out to several businesses through different means, but it paid off. We ended up with some awesome sponsors that made the event a hit."
+      },
+      {
+        "turn": 8,
+        "role": "Maria",
+        "text": "Wow, John! You really overcame those challenges. Have you done events for any other causes?"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Yep, we worked with a local organization that helps victims of domestic abuse. We raised awareness and funds at the event for the cause — it's unfortunate how many people suffer from it."
+      },
+      {
+        "turn": 10,
+        "role": "Maria",
+        "text": "Oof, John, that's really sad. Domestic abuse is horrible. You did great raising awareness and funds. It's important we support the organizations fighting against it."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Thanks, Maria. It's a tough issue, but we've gotta do what we can. It's really wonderful to see people come together for such an important cause."
+      },
+      {
+        "turn": 12,
+        "role": "Maria",
+        "text": "Agree, John! It's great to see community power in action. Let's keep spreading awareness and supporting causes like this."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Yeah Maria! I totally agree! Together, we can do so much. Let's keep spreading the good vibes and making our community better. "
+      },
+      {
+        "turn": 14,
+        "role": "Maria",
+        "text": "You rock! Let's keep spreading positivity and making a difference. We got this!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Yeah, we got this. Thanks for your help!"
+      },
+      {
+        "turn": 16,
+        "role": "Maria",
+        "text": "Yeah, John! It's really cool to have a friend like you who's just as passionate and motivated. Let's talk again soon!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Yeah Maria! Friends like you make a big difference. Talk to you later!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Homeless-shelter volunteering",
+        "keywords": [
+          "Maria",
+          "homeless shelter",
+          "volunteering",
+          "medal",
+          "community service"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Neighborhood 5K for veterans",
+        "keywords": [
+          "John",
+          "5K charity run",
+          "veterans",
+          "veterans' families",
+          "sponsors",
+          "city coordination",
+          "fundraising"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Domestic-abuse awareness fundraiser",
+        "keywords": [
+          "domestic abuse",
+          "local organization",
+          "awareness",
+          "fundraising",
+          "victims",
+          "community support"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.12364,
+    "thread_setup_seconds": 0.152187,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.12364,
+    "turn_seconds": 9.971453,
+    "first_text_seconds": 8.897572,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10769,
+      "completion_tokens": 402,
+      "total_tokens": 11171,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 250
+    }
+  },
+  "error": null
+}

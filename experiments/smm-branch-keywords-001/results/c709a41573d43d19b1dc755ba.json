@@ -1,0 +1,191 @@
+{
+  "source_id": "c709a41573d43d19b1dc755ba",
+  "source_sha256": "0c09dd1d36445e918fff999f53d34c17115ea23a32a75cfb73ce651a3bcbc001",
+  "request_sha256": "f228c8b34a5ba50f48f1e912a1122afefb0ea58793009fa1162f449e418ee8d4",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c709a41573d43d19b1dc755ba",
+    "source_sha256": "0c09dd1d36445e918fff999f53d34c17115ea23a32a75cfb73ce651a3bcbc001",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey James, been a few days. The convo got me thinking about my passions and goals. Thanks for encouraging me to try new game genres."
+      },
+      {
+        "turn": 1,
+        "role": "James",
+        "text": "Hey John! Nice to hear from you! Glad our chat made an impact. What sort of games are you interested in exploring?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Lately, I've been playing some different genres like strategy and RPG games instead of my usual shooters. I’m already thinking about making competitions for them too."
+      },
+      {
+        "turn": 3,
+        "role": "James",
+        "text": "That's great, John! Trying out different genres can really add to your gaming experiences. Have you come across any standout games?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Hooked a new RPG that I've been playing lately! The storytelling and characters are amazing, can't get enough of it."
+      },
+      {
+        "turn": 5,
+        "role": "James",
+        "text": "Sounds great! I think storytelling is what makes RPGs so fun. What game are you playing? Do you have any favorite characters?"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "I'm playing \"The Witcher 3\"! There's this awesome monster hunter with a cool story, and I'm totally hooked, trying to make the right choices to shape the world. It's really immersive."
+      },
+      {
+        "turn": 7,
+        "role": "James",
+        "text": "Yeah, \"The Witcher 3\" is amazing! I love how you can shape the world with your choices and feel the impact. The graphics are insane too - check out this pic."
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "That's a great pic! The graphics are truly stunning! By the way, look how I organized my workplace!"
+      },
+      {
+        "turn": 9,
+        "role": "James",
+        "text": "Cool! Wall lighting adds beauty to your workspace."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Thanks James! What's new with you?"
+      },
+      {
+        "turn": 11,
+        "role": "James",
+        "text": "Yesterday I took my three dogs to a beach outing to have fun and bond with other dogkeepers."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Cool! Surely you gained a new experience from communicating with other dog lovers!"
+      },
+      {
+        "turn": 13,
+        "role": "James",
+        "text": "Yes, we had fun and I even met one beautiful girl. I'm thinking of asking her out on a date! She left me her phone number, I think I'll call tomorrow."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Wow! That's cool, what's her name? Be sure to call her, everything will work out!"
+      },
+      {
+        "turn": 15,
+        "role": "James",
+        "text": " She is Samantha. I'll definitely call her!"
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Yoohoo! Hope you have a wonderful time!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gaming and The Witcher 3",
+        "keywords": [
+          "John",
+          "James",
+          "game genres",
+          "strategy games",
+          "RPGs",
+          "shooters",
+          "competitions",
+          "The Witcher 3",
+          "monster hunter",
+          "player choices"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Workspace organization",
+        "keywords": [
+          "John",
+          "James",
+          "workplace",
+          "workspace organization",
+          "wall lighting",
+          "graphics photo"
+        ],
+        "turns": [
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Beach outing and Samantha date",
+        "keywords": [
+          "James",
+          "John",
+          "three dogs",
+          "beach outing",
+          "dogkeepers",
+          "dog lovers",
+          "Samantha",
+          "phone number",
+          "call tomorrow",
+          "date"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.079576,
+    "thread_setup_seconds": 0.33839,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.079576,
+    "turn_seconds": 9.741186,
+    "first_text_seconds": 8.037849,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10572,
+      "completion_tokens": 269,
+      "total_tokens": 10841,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 99
+    }
+  },
+  "error": null
+}

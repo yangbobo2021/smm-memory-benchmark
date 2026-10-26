@@ -1,0 +1,162 @@
+{
+  "source_id": "c176d5ff52917b2bf853bccc7",
+  "source_sha256": "6612dc336588e1e33e583e3ada8fc36397ba6900ed418980c6aec8be68feff00",
+  "request_sha256": "b32359a963f520f2293754e279e8d1a2b5bd08f751aab4a766b035999101aa9e",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c176d5ff52917b2bf853bccc7",
+    "source_sha256": "6612dc336588e1e33e583e3ada8fc36397ba6900ed418980c6aec8be68feff00",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Hey Evan, hope you're doing okay. I wanted to chat about something that's been bothering me lately... I went for a check-up Monday and my doc said my weight's a serious health risk - if I don't make changes soon, it can get worse. I know I made jokes about it, but it's really hitting me. Been having a hard time."
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "Hey Sam, tough news. Yeah, our health can really put a damper on things. I started lifting weights one year ago and it's been a journey. It was a struggle at first, but I'm seeing some gains. You interested in trying it out?"
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Hey Evan, I'm interested in getting into it. Any advice on how to get started? Thanks!"
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "Hey Sam, that's awesome! It's important to start out with good form and technique. Find a trainer who can help you avoid injuries while you build your strength. Start with something small, and as you get stronger, the intensity can increase. Stay consistent with your workout routine and let me know how it goes! Good luck!"
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "Thanks, Evan. I'm going to find someone who can help me out. I'll keep you posted!"
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "No problem, Sam. Can't wait to hear about your progress. Keep up the hard work!"
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "Thanks, Evan. I appreciate your support. It really means a lot to me. I'll definitely keep you posted on my progress."
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "You're welcome, Sam! It takes time, so be patient with yourself. Your health matters, and I believe in you. Keep going and stay upbeat. You got this!"
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "Thanks, Evan. I'll stay positive and keep going. Your support means a lot."
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "Hey Sam, glad I can be here for you! Progress is key, so keep pushing on and stay positive. You got this!"
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "Wow, Evan, that's really inspiring. Gonna keep believing in it!"
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "Go get 'em! Believe in your abilities and you'll reach your goals. Stay motivated!"
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "Thanks Evan! Your words gave me a boost. I'm staying motivated and believing in myself."
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "Awesome! Keep staying motivated and believing in yourself. You've got this!"
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Thanks, Evan! Your support means a lot to me."
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "No prob, Sam! I'm here for you. Just keep taking one step at a time, and you'll get there eventually!"
+      },
+      {
+        "turn": 16,
+        "role": "Sam",
+        "text": "Sure, Evan. I'll take it slow. See ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Sam’s health-motivated weightlifting plan",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "weight-related health risk",
+          "doctor check-up",
+          "weightlifting",
+          "personal trainer",
+          "proper form",
+          "gradual intensity",
+          "consistent workouts",
+          "motivation",
+          "emotional support"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.799094,
+    "thread_setup_seconds": 0.386665,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.799094,
+    "turn_seconds": 7.412429,
+    "first_text_seconds": 6.34789,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10652,
+      "completion_tokens": 183,
+      "total_tokens": 10835,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 77
+    }
+  },
+  "error": null
+}

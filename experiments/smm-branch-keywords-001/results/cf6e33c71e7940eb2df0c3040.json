@@ -1,0 +1,158 @@
+{
+  "source_id": "cf6e33c71e7940eb2df0c3040",
+  "source_sha256": "5fb62a6af9a140565e63cb8a4326ae6a3253ebab665ad333895152a983daa28d",
+  "request_sha256": "30553b4a1c22638737eb44867c8c118967448907ee6efdc220c5dbd3ec984036",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf6e33c71e7940eb2df0c3040",
+    "source_sha256": "5fb62a6af9a140565e63cb8a4326ae6a3253ebab665ad333895152a983daa28d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jon",
+        "text": "Hey Gina, hope you're doing ok! Still following my passion for dance. It's been bumpy, but I'm determined to make it work. I'm still searching for a place to open my dance studio."
+      },
+      {
+        "turn": 1,
+        "role": "Gina",
+        "text": "Hi Jon! So happy you're pushing forward with dancing! Inspiring 💪 I emailed some wholesalers and one replied and said yes today! I'm over the moon because now I can expand my clothing store and get closer to my customers. Check it out - here's a pic!"
+      },
+      {
+        "turn": 2,
+        "role": "Jon",
+        "text": "Wow, Gina! You found the perfect spot for your store. Way to go, hard work's paying off!"
+      },
+      {
+        "turn": 3,
+        "role": "Gina",
+        "text": "Thanks! Glad you like it. Yeah, it's a great spot. Here's a peek at the space I designed. Cozy and inviting - perfect for customers to check out all the trendy pieces."
+      },
+      {
+        "turn": 4,
+        "role": "Jon",
+        "text": "Wow, it looks great! Must've taken you ages to design it. What made you pick out the furniture and decor?"
+      },
+      {
+        "turn": 5,
+        "role": "Gina",
+        "text": "Thanks! It took a bit of time but I wanted to make the place look like my own style and make my customers feel cozy. I chose furniture that looks great and is comfy too. The chandelier adds a nice glam feel while matching the style of the store."
+      },
+      {
+        "turn": 6,
+        "role": "Jon",
+        "text": "Your store looks great - your customers will be so comfy."
+      },
+      {
+        "turn": 7,
+        "role": "Gina",
+        "text": "Thanks! Making my spot comfortable and inviting for my customers is key. I want 'em to feel like they're in a cool oasis. Just creating an experience that'll make 'em wanna come back."
+      },
+      {
+        "turn": 8,
+        "role": "Jon",
+        "text": "That's a great goal! Creating a special experience for customers is the key to making them feel welcome and coming back. I think you can create that space you're imagining."
+      },
+      {
+        "turn": 9,
+        "role": "Gina",
+        "text": "Thanks. Your support means a lot. I'm sure with my hard work and effort, I can make a special shopping experience for my customers. It's tough but I'm up for the challenge!"
+      },
+      {
+        "turn": 10,
+        "role": "Jon",
+        "text": "I'm always here to support you! Go create something awesome with your store. Keep it up!"
+      },
+      {
+        "turn": 11,
+        "role": "Gina",
+        "text": "Thanks, Jon! I'll try my best. You're gonna do great with your dance studio, just keep going and stay positive! We'll get through this!"
+      },
+      {
+        "turn": 12,
+        "role": "Jon",
+        "text": "Thanks! Your words mean a lot. I'm staying positive and pushing forward. We've put our hearts into our dreams and I'm sure we'll make it."
+      },
+      {
+        "turn": 13,
+        "role": "Gina",
+        "text": "Sure thing, Jon! Stay motivated and keep going. Hard work pays off eventually. We can do this!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gina’s clothing store expansion and design",
+        "keywords": [
+          "Gina",
+          "clothing store",
+          "wholesalers",
+          "store expansion",
+          "store location",
+          "store design",
+          "furniture",
+          "chandelier",
+          "customer experience",
+          "cozy shopping space"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Jon’s dance studio plans",
+        "keywords": [
+          "Jon",
+          "dance",
+          "dance studio",
+          "studio location",
+          "pursuing a passion",
+          "hard work",
+          "staying positive"
+        ],
+        "turns": [
+          0,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.505645,
+    "thread_setup_seconds": 0.119642,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.505645,
+    "turn_seconds": 8.386003,
+    "first_text_seconds": 6.529665,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10610,
+      "completion_tokens": 255,
+      "total_tokens": 10865,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 119
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,200 @@
+{
+  "source_id": "caa68955e73ce32d84871eeb3",
+  "source_sha256": "78244181cb20a3abd053da22ce28b5c51fe1701c4d536649565e92db8df9f51f",
+  "request_sha256": "a8f4125e3b64cb42cca6340e7a6a2646ed0e9768aed280d1aa4bb42944027e82",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "caa68955e73ce32d84871eeb3",
+    "source_sha256": "78244181cb20a3abd053da22ce28b5c51fe1701c4d536649565e92db8df9f51f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jolene",
+        "text": "Woohoo! I signed up for a meditation course at a retreat near a lake. Can't wait to share this experience with my partner and learn some new techniques. Sooo excited!"
+      },
+      {
+        "turn": 1,
+        "role": "Deborah",
+        "text": "That`s awesome! It looks so calm in the pic - I hope you enjoy your experience and learn some new techniques!"
+      },
+      {
+        "turn": 2,
+        "role": "Jolene",
+        "text": " It's amazing how something so easy can make such a big difference to our health!"
+      },
+      {
+        "turn": 3,
+        "role": "Deborah",
+        "text": "Yep, it's become part of my routine now. Can't imagine my life without it."
+      },
+      {
+        "turn": 4,
+        "role": "Jolene",
+        "text": "Yeah, same! It helps me stay balanced during my studies."
+      },
+      {
+        "turn": 5,
+        "role": "Deborah",
+        "text": "Glad to hear it, Jolene. How's the project going?"
+      },
+      {
+        "turn": 6,
+        "role": "Jolene",
+        "text": " It's tough but I'm chugging along. Thanks!"
+      },
+      {
+        "turn": 7,
+        "role": "Deborah",
+        "text": "You're so strong for handling all the challenges. You've got this!"
+      },
+      {
+        "turn": 8,
+        "role": "Jolene",
+        "text": "Thanks, Deb! Your support really means a lot. I'll keep pushing forward."
+      },
+      {
+        "turn": 9,
+        "role": "Deborah",
+        "text": "No worries, Jolene. I'm here if you need me. Take care of yourself and don't forget to rest up."
+      },
+      {
+        "turn": 10,
+        "role": "Jolene",
+        "text": "What have you been doing lately?"
+      },
+      {
+        "turn": 11,
+        "role": "Deborah",
+        "text": "I recently saw this wonderful sunrise again."
+      },
+      {
+        "turn": 12,
+        "role": "Jolene",
+        "text": "Glimpsing that calms me. Taking beach walks relaxes me. "
+      },
+      {
+        "turn": 13,
+        "role": "Deborah",
+        "text": "Did my photo remind you of something?"
+      },
+      {
+        "turn": 14,
+        "role": "Jolene",
+        "text": "That shot was like a reminder of my last beach getaway. So chill and nice. "
+      },
+      {
+        "turn": 15,
+        "role": "Deborah",
+        "text": "Glad it brought back good memories. "
+      },
+      {
+        "turn": 16,
+        "role": "Jolene",
+        "text": "Maybe one day we will be able to watch the sunrise together!"
+      },
+      {
+        "turn": 17,
+        "role": "Deborah",
+        "text": "An offer I can't refuse!"
+      },
+      {
+        "turn": 18,
+        "role": "Jolene",
+        "text": "Bye, Deb! See you later!"
+      },
+      {
+        "turn": 19,
+        "role": "Deborah",
+        "text": "See ya! Stay safe and catch you later. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Meditation course and routine",
+        "keywords": [
+          "meditation course",
+          "lake retreat",
+          "partner",
+          "meditation techniques",
+          "health",
+          "daily routine",
+          "study balance"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Project challenges and encouragement",
+        "keywords": [
+          "project",
+          "study workload",
+          "challenges",
+          "support",
+          "perseverance",
+          "rest"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Sunrise photo and beach memories",
+        "keywords": [
+          "sunrise",
+          "photo",
+          "beach walks",
+          "beach getaway",
+          "relaxation",
+          "shared sunrise"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.624433,
+    "thread_setup_seconds": 0.240509,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.624433,
+    "turn_seconds": 9.383924,
+    "first_text_seconds": 7.289824,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10532,
+      "completion_tokens": 256,
+      "total_tokens": 10788,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 101
+    }
+  },
+  "error": null
+}

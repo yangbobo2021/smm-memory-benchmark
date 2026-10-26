@@ -1,0 +1,229 @@
+{
+  "source_id": "c35d111897b19242ca312ec88",
+  "source_sha256": "24387969957e4a52922a19c2fb4a75a9bec169f18c1ce3e06adc18bc49b8836d",
+  "request_sha256": "18f3d1614cddc9741b5430b70ac2dd9f1fd38f46ab057c5c264fe02ab87823ca",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c35d111897b19242ca312ec88",
+    "source_sha256": "24387969957e4a52922a19c2fb4a75a9bec169f18c1ce3e06adc18bc49b8836d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Nate",
+        "text": "Hey Joanna! Long time no see! What's up? Anything fun going on?"
+      },
+      {
+        "turn": 1,
+        "role": "Joanna",
+        "text": "Hey Nate! Long time no see! I've been working on a project lately - it's been pretty cool. What about you - any fun projects or hobbies?"
+      },
+      {
+        "turn": 2,
+        "role": "Nate",
+        "text": "Hey Joanna! That's cool! I won my first video game tournament last week - so exciting!"
+      },
+      {
+        "turn": 3,
+        "role": "Joanna",
+        "text": "Wow Nate! Congrats on winning! Tell me more - what game was it?"
+      },
+      {
+        "turn": 4,
+        "role": "Nate",
+        "text": "Thanks! it's a team shooter game."
+      },
+      {
+        "turn": 5,
+        "role": "Joanna",
+        "text": "Wow, great job! What was is called?"
+      },
+      {
+        "turn": 6,
+        "role": "Nate",
+        "text": "The game was called Counter-Strike: Global Offensive, and me and my team had a blast to the very end!"
+      },
+      {
+        "turn": 7,
+        "role": "Joanna",
+        "text": "Cool, Nate! Sounds like a fun experience, even if I'm not into games."
+      },
+      {
+        "turn": 8,
+        "role": "Nate",
+        "text": "It was! How about you? Do you have any hobbies you love?"
+      },
+      {
+        "turn": 9,
+        "role": "Joanna",
+        "text": "Yeah! Besides writing, I also enjoy reading, watching movies, and exploring nature. Anything else you enjoy doing, Nate?"
+      },
+      {
+        "turn": 10,
+        "role": "Nate",
+        "text": "Playing video games and watching movies are my main hobbies."
+      },
+      {
+        "turn": 11,
+        "role": "Joanna",
+        "text": "Cool, Nate! So we both have similar interests. What type of movies do you like best?"
+      },
+      {
+        "turn": 12,
+        "role": "Nate",
+        "text": "I love action and sci-fi movies, the effects are so cool! What about you, what's your favorite genre?"
+      },
+      {
+        "turn": 13,
+        "role": "Joanna",
+        "text": "I'm all about dramas and romcoms. I love getting immersed in the feelings and plots."
+      },
+      {
+        "turn": 14,
+        "role": "Nate",
+        "text": "Wow, movies can be so powerful! Do you have any recommendations for me?"
+      },
+      {
+        "turn": 15,
+        "role": "Joanna",
+        "text": "Yeah, totally! Have you seen this romantic drama that's all about memory and relationships? It's such a good one."
+      },
+      {
+        "turn": 16,
+        "role": "Nate",
+        "text": "Oh cool! I might check that one out some time soon! I do love watching classics."
+      },
+      {
+        "turn": 17,
+        "role": "Joanna",
+        "text": "Yep, that movie is awesome. I first watched it around 3 years ago. I even went out and got a physical copy!"
+      },
+      {
+        "turn": 18,
+        "role": "Nate",
+        "text": "Sounds cool! Have you seen it a lot? sounds like you know the movie well!"
+      },
+      {
+        "turn": 19,
+        "role": "Joanna",
+        "text": "A few times. It's one of my favorites! I really like the idea and the acting."
+      },
+      {
+        "turn": 20,
+        "role": "Nate",
+        "text": "Cool! I'll definitely check it out. Thanks for the recommendation!"
+      },
+      {
+        "turn": 21,
+        "role": "Joanna",
+        "text": "No problem, Nate! Let me know if you like it!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Catching up and Joanna’s project",
+        "keywords": [
+          "Nate",
+          "Joanna",
+          "long time no see",
+          "project",
+          "catching up"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Nate’s Counter-Strike tournament win",
+        "keywords": [
+          "Nate",
+          "video game tournament",
+          "Counter-Strike: Global Offensive",
+          "team shooter",
+          "last week"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Hobbies and movie tastes",
+        "keywords": [
+          "Joanna",
+          "Nate",
+          "writing",
+          "reading",
+          "exploring nature",
+          "video games",
+          "action movies",
+          "science fiction",
+          "dramas",
+          "romantic comedies"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "label": "Romantic drama recommendation",
+        "keywords": [
+          "romantic drama",
+          "memory",
+          "relationships",
+          "movie recommendation",
+          "physical copy",
+          "three years ago",
+          "acting"
+        ],
+        "turns": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.775394,
+    "thread_setup_seconds": 0.077393,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.775394,
+    "turn_seconds": 10.698002,
+    "first_text_seconds": 7.370656,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10659,
+      "completion_tokens": 441,
+      "total_tokens": 11100,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 229
+    }
+  },
+  "error": null
+}

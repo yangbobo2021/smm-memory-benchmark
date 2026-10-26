@@ -1,0 +1,180 @@
+{
+  "source_id": "ce133a49ad3fdc00d791042d9",
+  "source_sha256": "c97215c15aaa7762bdf694b9e3f0a20f32fbfc3b36bf3ead0d670b6e4fa59666",
+  "request_sha256": "d0f41be585a0f79210589c4e669381ec7c8034c3769493423039ba743a3fd7e6",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ce133a49ad3fdc00d791042d9",
+    "source_sha256": "c97215c15aaa7762bdf694b9e3f0a20f32fbfc3b36bf3ead0d670b6e4fa59666",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Andrew",
+        "text": "Hi Audrey! How have you been lately? My girlfriend and I went to this awesome wine tasting last weekend. It was great! We tried so many unique wines and learned a lot. I was surprised at how much I enjoyed it. A reminder to step out of the comfort zone!"
+      },
+      {
+        "turn": 1,
+        "role": "Audrey",
+        "text": "Hey! Ha, glad you had fun at the wine tasting. Yeah, trying new things can be cool. By the way, I had an unexpected adventure last week. I had an accident while playing with my pups at the park. Taking care of them with one arm has been tricky but we're managing. What's been up with you? Any new interests?"
+      },
+      {
+        "turn": 2,
+        "role": "Andrew",
+        "text": "Ouch! Are you feeling better? Sending healing vibes to you and your pups. So I recently tried out this new spot in town that serves sushi and it was great. Do you have anything that you've been wanting to try lately?"
+      },
+      {
+        "turn": 3,
+        "role": "Audrey",
+        "text": "Thanks! Appreciate it, feeling better each day. And wow that Sushi looks phenomenal. I know what to get for dinner tonight."
+      },
+      {
+        "turn": 4,
+        "role": "Andrew",
+        "text": "Taking it one day at a time is the way to go. A while ago I've been curious about trying sushi. Never done it before, but always hear it's good. Now I understand what the hype is. Have you ever tried it?"
+      },
+      {
+        "turn": 5,
+        "role": "Audrey",
+        "text": "Yess! Sushi is delicious! I love them! There are so many types and flavors to try. Definitely give it a go and try different things! Don't limit yourself in your comofort zone!"
+      },
+      {
+        "turn": 6,
+        "role": "Andrew",
+        "text": "Thanks for the encouragement! I'm looking forward to trying more soon. Do you have any tips for someone who's new to sushi?"
+      },
+      {
+        "turn": 7,
+        "role": "Audrey",
+        "text": "Definitely try a California or salmon roll first when trying sushi - they're easier. Mix it up with different sauces and dips too - it makes it more tasty. Enjoy and let me know how it goes!"
+      },
+      {
+        "turn": 8,
+        "role": "Andrew",
+        "text": "Thanks for the tips! Gonna go with a California or salmon roll and try out some sauces. I'll let you know how it goes."
+      },
+      {
+        "turn": 9,
+        "role": "Audrey",
+        "text": "Glad to help! Can't wait to hear about your sushi adventure. Take your time and have fun!"
+      },
+      {
+        "turn": 10,
+        "role": "Andrew",
+        "text": "I'm really excited to try different sushi. It's going to be a great time!"
+      },
+      {
+        "turn": 11,
+        "role": "Audrey",
+        "text": "Have fun! You'll definitely need some time to get used to, but once you start I believe you'll love it! Take some pics and show me what you enjoy."
+      },
+      {
+        "turn": 12,
+        "role": "Andrew",
+        "text": "Haha, I'll make sure to take some photos and show you my sushi adventure."
+      },
+      {
+        "turn": 13,
+        "role": "Audrey",
+        "text": "Enjoy! Now I'm gonna order some sushi for tonight. Thanks!"
+      },
+      {
+        "turn": 14,
+        "role": "Andrew",
+        "text": "Haha! You're welcomoe! Have a good one!"
+      },
+      {
+        "turn": 15,
+        "role": "Audrey",
+        "text": "Take care and have a good one!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Wine tasting and trying new things",
+        "keywords": [
+          "Andrew",
+          "Audrey",
+          "wine tasting",
+          "girlfriend",
+          "comfort zone",
+          "new experiences"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Audrey’s park accident and recovery",
+        "keywords": [
+          "Audrey",
+          "Andrew",
+          "park accident",
+          "puppies",
+          "arm injury",
+          "recovery"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "First-time sushi recommendations",
+        "keywords": [
+          "Andrew",
+          "Audrey",
+          "sushi",
+          "California roll",
+          "salmon roll",
+          "sauces and dips",
+          "sushi photos"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.786279,
+    "thread_setup_seconds": 0.134022,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.786279,
+    "turn_seconds": 8.652257,
+    "first_text_seconds": 7.453964,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10684,
+      "completion_tokens": 310,
+      "total_tokens": 10994,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 151
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,207 @@
+{
+  "source_id": "c08a011985f84a3d80171942f",
+  "source_sha256": "1425854245007f0448fcb6f5de44dc798a26a0688813914848df2f863e203f30",
+  "request_sha256": "04cdf5577fe42cb76fca6dc024b963e584fd5520196c20b853f923cbdf38f85e",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c08a011985f84a3d80171942f",
+    "source_sha256": "1425854245007f0448fcb6f5de44dc798a26a0688813914848df2f863e203f30",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John, catch up time! What've you been up to? Any good b-ball games lately?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Tim! Nice to talk again. The b-ball games have been crazy. We had a real battle against another team last week. It was close until the final buzzer but we got the win."
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Congrats, John! That sounds like an intense game."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Thanks! We won! It was really close, but we made it!"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Wow, that's amazing! Winning must have been so thrilling!"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Winning was such a thrill, and it was an awesome moment. These experiences really make me love the game."
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "You must have been so pumped when it happened! Winning can give us a real confidence boost and makes us keep going with our passions."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Yeah, it really does. It keeps me motivated to keep putting in the effort and makes all the tough times worth it. Here's a pic I took during a morning workout, it's a reminder that the journey can be awesome."
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "That's a good spot for a morning workout! Can you tell me about some challenges you've faced?"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Yeah, I injured myself not too long ago. It sucked because I had to miss some games and couldn't help my team."
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Ouch, that's rough. Have you been able to stay active or keep up with your fitness routine while you're recovering?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "It's been tough, but I'm trying to stay active and do my rehab. I do physical therapy exercises every day."
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "Cool, rehab can be tough but it's key to keep it up. How's it coming along?"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "It's going great! I've been working hard and it's paying off. Last Friday, I had a milestone moment at the gym. I was able to jog a bit with no pain, which was such a relief!"
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Wow! How was it jogging without any discomfort?"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "It was great! After being out for so long, jogging without any pain was a huge success. My wife and I hosted a small get-together with friends and family to celebrate."
+      },
+      {
+        "turn": 16,
+        "role": "Tim",
+        "text": "Congrats! That's awesome. Keep at it and you'll be back in no time. That sounds fun, how was it?"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Thanks! Appreciate the support and encouragement. I'm gonna keep pushing and staying positive. It was good to see everyone again! We had a ton of fun."
+      },
+      {
+        "turn": 18,
+        "role": "Tim",
+        "text": "I'm glad everyone had fun!"
+      },
+      {
+        "turn": 19,
+        "role": "John",
+        "text": "Me too. Talk to you later!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Close basketball win and motivation",
+        "keywords": [
+          "basketball",
+          "close game",
+          "final buzzer",
+          "team victory",
+          "thrill",
+          "confidence boost",
+          "motivation",
+          "passion"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Injury rehabilitation and return to jogging",
+        "keywords": [
+          "morning workout",
+          "injury",
+          "missed games",
+          "physical therapy",
+          "rehabilitation",
+          "gym",
+          "pain-free jogging",
+          "last Friday",
+          "fitness"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "label": "Recovery milestone celebration",
+        "keywords": [
+          "wife",
+          "get-together",
+          "friends",
+          "family",
+          "celebration",
+          "support",
+          "staying positive"
+        ],
+        "turns": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.32124,
+    "thread_setup_seconds": 0.118993,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.32124,
+    "turn_seconds": 9.202247,
+    "first_text_seconds": 7.263305,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10674,
+      "completion_tokens": 319,
+      "total_tokens": 10993,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 144
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,193 @@
+{
+  "source_id": "c8b39ab3ed8428d688548cf45",
+  "source_sha256": "76fe3533b654f3f28535203478070467a6ee7cdbb3e1889bc29b35031f8b81d9",
+  "request_sha256": "ebeced3c6122d0e37bc2779edb84a31f9154090950faf969cd69e37ba6725fb4",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c8b39ab3ed8428d688548cf45",
+    "source_sha256": "76fe3533b654f3f28535203478070467a6ee7cdbb3e1889bc29b35031f8b81d9",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Hey Evan! I've been missing our chats. I had quite the health scare last weekend - ended up in the ER with a severe stomachache. Turns out, it was gastritis, which was pretty alarming. It was a wake-up call for me to start prioritizing my health, like adopting a more nutritious diet and getting regular exercise. On top of that, my phone's been giving me a hard time, adding to the stress."
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "Hey Sam, sorry to hear about that. Gastritis can be tough. Taking care of ourselves is important. BTW, I've been focusing on fitness and it's been really beneficial for my overall well-being. Funny thing, I had another encounter with a lost tourist recently. Seems like helping tourists is becoming a recurring theme in my life!"
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Thanks, Evan! Glad you've found that it's been good for you! I totally need to get into it too. Just getting started is hard - any tips for staying motivated? Also, you mentioned another lost tourist? Seems like you're becoming the go-to guy for tourists in need!"
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "Yup, Sam! Set some goals, like a certain distance to run or number of push-ups to do. It'll give you something to strive for and stay motivated. Also, try to find an exercise that you enjoy and maybe even get a buddy for extra fun and accountability. Sound good?"
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "Yeah, that sounds like a good idea. Having goals and someone to exercise with might help. I'll give it a try!"
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "Awesome, Sam! Getting started will get easier with time. And don't forget it's about feeling good and reaching goals, too. Let's plan a hike soon!"
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "Sounds awesome, Evan! Can't wait to go on a hike with you. It's going to be a fun challenge and a great opportunity to appreciate the beauty of nature."
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "Definitely, Sam! Hiking is an awesome way to bond with nature and push ourselves. It's gonna be a cool memory for us both. It's great to see progress, was just at the gym yesterday. Gaining strength!"
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "Super excited to get fit with ya. Let's hit the trails soon!"
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "Thanks, Sam! That's so nice of you. We'll definitely have a great time on our hike!"
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "Totally! I'm so pumped for this hike. Connecting with nature is exactly what I need. Thanks so much for the support and always being there. Means a lot."
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "Sure thing! Our hike is going to be awesome, I can tell. I'm always here to support you."
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "Thanks, Evan. I appreciate your support."
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "No problem, Sam. Whenever you need support, I'm here for you. Stay safe!"
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Thanks, I'll get in touch if I need anything. Stay safe. Bye!"
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "Later! Stay safe and don't hesitate to holler if you need anything. Can't wait to hit the trail."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Gastritis and health scare",
+        "keywords": [
+          "Sam",
+          "gastritis",
+          "emergency room",
+          "severe stomachache",
+          "health scare",
+          "nutritious diet",
+          "health priorities"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Fitness motivation and planned hike",
+        "keywords": [
+          "fitness",
+          "exercise goals",
+          "running distance",
+          "push-ups",
+          "exercise buddy",
+          "gym",
+          "strength training",
+          "hiking",
+          "nature"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "Phone trouble",
+        "keywords": [
+          "phone",
+          "phone problems",
+          "stress"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Helping lost tourists",
+        "keywords": [
+          "Evan",
+          "lost tourist",
+          "helping tourists",
+          "recurring encounters"
+        ],
+        "turns": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.772934,
+    "thread_setup_seconds": 0.126605,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.772934,
+    "turn_seconds": 10.646329,
+    "first_text_seconds": 8.425047,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10736,
+      "completion_tokens": 337,
+      "total_tokens": 11073,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 154
+    }
+  },
+  "error": null
+}

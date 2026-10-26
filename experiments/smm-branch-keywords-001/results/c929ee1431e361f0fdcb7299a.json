@@ -1,0 +1,202 @@
+{
+  "source_id": "c929ee1431e361f0fdcb7299a",
+  "source_sha256": "20f69f95eb9555c9404eb5553f2df687a14f8712bfd864022e07d7f31e03e07c",
+  "request_sha256": "0364a33ff1ddfadf02910f4805f56ab5bc772976b08735869ef635329e124c84",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c929ee1431e361f0fdcb7299a",
+    "source_sha256": "20f69f95eb9555c9404eb5553f2df687a14f8712bfd864022e07d7f31e03e07c",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John! Been a while, but hope you're doing well. My Unity strategy game is finally finished—it took loads of time and effort, but I'm really proud. Your support and encouragement made a real difference. Thanks for believing in me!"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey James! Congrats on finishing your game! It looks amazing and I'm so proud of you for all the hard work you put in. Can I see more of it? Got any other screenshots to show me?"
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "I appreciate your support. Check out this screenshot from it."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "This game looks great! What inspired you to create it?"
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "I've always loved playing strategy games like Civilization and Total War, so I decided to challenge myself and create one of my own."
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "That's awesome! I love those games too. It must have been quite an experience making your own. Did you face any difficulties during development?"
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "It was a bit challenging to get everything right, balancing mechanics and ensuring fairness. But with some trial and error, I managed to get it to where I wanted it."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Wow, that must have been a challenge, especially since you had to make sure the game was enjoyable and balanced. Congratulations on completing it! What were some key takeaways from the experience?"
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Thanks, John! It was definitely a learning experience. Perseverance and patience are key, and I'm proud of what I created after sticking with it. Also, feedback and collaboration are essential, and the help from others really made the game better. It was great!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Awesome that you learned those lessons! Collaboration and feedback make a huge impact on any project. I've been teaching my siblings coding. It's been a fulfilling experience and they're already creating their own programs - amazing!"
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "Wow, John! Cool seeing others learn with your help. What kind of programs are they making?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "They're starting small, making basic games and stories. It's inspiring how fast they learn and the good time they're having."
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Wow! It's inspiring how fast they learn and the good time they're having. I bet they'll be creating their own complex projects soon!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "I'm excited to see how far they can go! With their passion for video games like me, hopefully they can use those coding skills to make something cool. I'm so proud of them, can't wait to see what they come up with!"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "I'm proud of them too! Seeing the next generation pick up coding and making their own games is awesome. Can't wait to see what they create!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Thanks, James, for the support. I really appreciate it."
+      },
+      {
+        "turn": 16,
+        "role": "James",
+        "text": "Yeah, you're the best! I'm here for you, no doubt."
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": " Your friendship really means a lot. I'm going through some difficult times now and it's really good to know I've got someone like you."
+      },
+      {
+        "turn": 18,
+        "role": "James",
+        "text": "Just know I'm here if you need someone to talk or vent to. It might help alleviate some of the difficult times you're going through."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "James’s Unity strategy game",
+        "keywords": [
+          "James",
+          "Unity",
+          "strategy game",
+          "Civilization",
+          "Total War",
+          "game development",
+          "game balance",
+          "perseverance",
+          "feedback",
+          "collaboration"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "John teaches his siblings coding",
+        "keywords": [
+          "John",
+          "siblings",
+          "coding",
+          "basic games",
+          "stories",
+          "programming",
+          "video games",
+          "next generation"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "label": "Friendship and support during difficult times",
+        "keywords": [
+          "James",
+          "John",
+          "friendship",
+          "emotional support",
+          "difficult times",
+          "talk",
+          "vent"
+        ],
+        "turns": [
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.074402,
+    "thread_setup_seconds": 2.589469,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.074402,
+    "turn_seconds": 7.484933,
+    "first_text_seconds": 5.548599,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10762,
+      "completion_tokens": 262,
+      "total_tokens": 11024,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 93
+    }
+  },
+  "error": null
+}

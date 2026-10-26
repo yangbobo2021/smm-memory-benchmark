@@ -1,0 +1,197 @@
+{
+  "source_id": "cf0bc01bfc8852f961e33e9de",
+  "source_sha256": "d0aa568004a32170a58039510b554b9172c90cc49b15dfdcc143d636aa3ade6a",
+  "request_sha256": "23f1e5302b2a0e56c8062a1ff8f2188df77c096e997ae1b25aac8e766b969953",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf0bc01bfc8852f961e33e9de",
+    "source_sha256": "d0aa568004a32170a58039510b554b9172c90cc49b15dfdcc143d636aa3ade6a",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John, this week's been really busy for me. Assignments and exams are overwhelming. I'm not giving up though! I'm trying to find a way to juggle studying with my fantasy reading hobby. How have you been?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Tim! I know the stress of exams and homework, but you got this! I'm doing OK, cheers for asking. Last week I visited home and caught up with my family and old friends. We had a great time talking about our childhood - it reminds me of the good ol' times!"
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Thanks for the pic! That group looks like a great squad. How long did you all play together?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "We were teammates for four years in high school, so we've played together for quite some time. Have you ever been part of a sports team?"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Nope, never been on a sports team. I'm more into reading and fantasy novels. I love sinking into different magical worlds. It's one of the reasons I love traveling to new places, to experience a different kind of magic."
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Wow, Tim, that's an awesome book collection! It's cool to escape to different worlds with a hobby. By the way, I love discovering new cities - check out this pic from one of my trips to New York City!"
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "Wow! That skyline looks amazing - I've been wanting to visit NYC. How was it?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Thanks! It was amazing. Everywhere you go there's something new and exciting. Exploring the city and trying all the restaurants was awesome. It's a must-visit!"
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Adding NYC to my travel list, sounds like a great adventure! I heard there's so much to explore and try out. Can't wait to visit!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Trust me, NYC is amazing! It's got so much to check out - the culture, food - you won't regret it. It's an adventure you'll never forget!"
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Woohoo! Sounds like a fun place with lots of potential. Can't wait to experience it for myself!"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Awesome! Can't wait to hear when you are going. Let me know and I'm sure I can help you out."
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "Yep, I'll let you know! Thanks for being so helpful."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Sure thing! Any time you need help, don't hesitate to reach out."
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Thanks! Your support means a lot to me. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Exam pressure and study-life balance",
+        "keywords": [
+          "Tim",
+          "assignments",
+          "exams",
+          "study",
+          "fantasy reading",
+          "hobby"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Fantasy novels and reading",
+        "keywords": [
+          "Tim",
+          "fantasy novels",
+          "book collection",
+          "magical worlds",
+          "reading"
+        ],
+        "turns": [
+          4,
+          5
+        ]
+      },
+      {
+        "label": "John’s family visit and childhood memories",
+        "keywords": [
+          "John",
+          "home visit",
+          "family",
+          "old friends",
+          "childhood"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "High-school sports teammates",
+        "keywords": [
+          "John",
+          "Tim",
+          "sports team",
+          "teammates",
+          "high school",
+          "four years"
+        ],
+        "turns": [
+          2,
+          3
+        ]
+      },
+      {
+        "label": "New York City travel plans",
+        "keywords": [
+          "New York City",
+          "NYC",
+          "skyline",
+          "travel",
+          "restaurants",
+          "culture",
+          "food",
+          "travel list"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 14.316521,
+    "thread_setup_seconds": 0.184768,
+    "rate_wait_seconds": 0,
+    "active_seconds": 14.316521,
+    "turn_seconds": 14.131753,
+    "first_text_seconds": 12.040692,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10600,
+      "completion_tokens": 584,
+      "total_tokens": 11184,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 379
+    }
+  },
+  "error": null
+}

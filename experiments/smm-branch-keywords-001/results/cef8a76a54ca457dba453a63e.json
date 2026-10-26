@@ -1,0 +1,277 @@
+{
+  "source_id": "cef8a76a54ca457dba453a63e",
+  "source_sha256": "59c16ba64710f7f9686e340065e7452ec075f78fba60261cc3f7e9473c35eb9b",
+  "request_sha256": "2d5d8b42b7ae45a1e408ed4bf4c5fae479f44c5c8c623c28d9f07cb7c50b1428",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cef8a76a54ca457dba453a63e",
+    "source_sha256": "59c16ba64710f7f9686e340065e7452ec075f78fba60261cc3f7e9473c35eb9b",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Maria",
+        "text": "Hey John, how're you doing? I'm sorry about Max. Losing a pet is tough. Some friends from church and I went camping last weekend - it was a blast! Just something nice to take my mind off things. Anything fun in your life lately?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Maria, thanks for your kind words. It's still tough, but I'm finding some comfort in the good memories. Wow, your camping trip sounds awesome! I went on a mountaineering trip last week with some workmates. It was great and helped clear my head. Anything else cool happening in your life?"
+      },
+      {
+        "turn": 2,
+        "role": "Maria",
+        "text": "Glad you're finding comfort, John. That mountaineering trip sounds amazing. Did you reach the summit? When I was younger, my family and I went on a road trip to Oregon."
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Thanks, Maria! Yeah, we made it to the top and the view was stunning. It was tough but awesome. Your family trip must have been great too, right? What was the prettiest spot?"
+      },
+      {
+        "turn": 4,
+        "role": "Maria",
+        "text": "Hiking to the top and seeing this was awesome! Breath-taking."
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Wow, Maria! That waterfall and bridge look amazing! What a view. How was it being there?"
+      },
+      {
+        "turn": 6,
+        "role": "Maria",
+        "text": "I felt like I was in a fairy tale! The water sounded so calming and the surroundings were beautiful. It was truly magical!"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Wow, Maria, that sounds awesome! It seems like nature has a way of calming us down, huh?"
+      },
+      {
+        "turn": 8,
+        "role": "Maria",
+        "text": "Yeah, it's like a natural soul-soother when things get tough."
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Yeah, for sure. It's like a reset button, you know? Have you ever gone camping or mountain climbing before?"
+      },
+      {
+        "turn": 10,
+        "role": "Maria",
+        "text": "I've gone camping a few times but never tried mountain climbing. Sounds thrilling though! Have you been camping before?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Yeah, plenty of times. It's an awesome way to get away from it all and be at one with nature. I love how uncomplicated it is."
+      },
+      {
+        "turn": 12,
+        "role": "Maria",
+        "text": "Yeah John, I get it. Being in nature helps us take a break from life's craziness and recognize what truly matters."
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Yeah, Maria. It's important to appreciate the small things and find moments of peace amidst chaos. Nature really helps with that. How about you? How do you find peaceful moments?"
+      },
+      {
+        "turn": 14,
+        "role": "Maria",
+        "text": "Finding my Zen is a mix of things - a moment to myself plus favorite tunes is usually enough. I also enjoy aerial yoga, it's a great way to switch off and focus on my body."
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Cool, Maria! Glad you found something that gives you some peace. Do you have a favorite yoga pose?"
+      },
+      {
+        "turn": 16,
+        "role": "Maria",
+        "text": "Thanks, John! It's tough to pick just one, but I really enjoy the upside-down poses. They make me feel free and light."
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Wow, Maria, that sounds awesome! I can imagine that must be challenging, but it's great to see you embracing them. Keep up the amazing work!"
+      },
+      {
+        "turn": 18,
+        "role": "Maria",
+        "text": "Thanks, John! It can be tough, but aerial yoga is totally worth it. I love the freedom and connection it brings. Appreciate your support!"
+      },
+      {
+        "turn": 19,
+        "role": "John",
+        "text": "Yes, Maria! I'm here for you. Glad you found something that makes you happy. This is what makes me smile. Keep shining!\n"
+      },
+      {
+        "turn": 20,
+        "role": "Maria",
+        "text": "Wow! Looks like you had fun - what happened there?"
+      },
+      {
+        "turn": 21,
+        "role": "John",
+        "text": "It was an awesome day at the park with my family. The kids had a lot of fun on the playground, and we had some really nice family time."
+      },
+      {
+        "turn": 22,
+        "role": "Maria",
+        "text": "Wow, that's great to hear, John! Cherish those family time moments!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Max and pet loss",
+        "keywords": [
+          "Max",
+          "pet loss",
+          "condolence",
+          "good memories",
+          "comfort"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Maria’s church camping trip",
+        "keywords": [
+          "Maria",
+          "church friends",
+          "camping",
+          "last weekend",
+          "outdoors"
+        ],
+        "turns": [
+          0,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "John’s mountaineering trip",
+        "keywords": [
+          "John",
+          "mountaineering",
+          "workmates",
+          "last week",
+          "summit",
+          "mountain climbing"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Maria’s Oregon road trip",
+        "keywords": [
+          "Oregon",
+          "family road trip",
+          "hiking",
+          "waterfall",
+          "bridge",
+          "fairy tale"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Nature as a source of calm",
+        "keywords": [
+          "nature",
+          "peace",
+          "soul-soother",
+          "reset",
+          "life’s chaos",
+          "small things"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "label": "Maria’s ways to find peace",
+        "keywords": [
+          "Zen",
+          "favorite music",
+          "aerial yoga",
+          "upside-down poses",
+          "freedom",
+          "body focus"
+        ],
+        "turns": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "label": "John’s family day at the park",
+        "keywords": [
+          "park",
+          "family time",
+          "children",
+          "playground"
+        ],
+        "turns": [
+          20,
+          21,
+          22
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.311619,
+    "thread_setup_seconds": 0.263637,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.311619,
+    "turn_seconds": 12.047982,
+    "first_text_seconds": 8.329721,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10918,
+      "completion_tokens": 528,
+      "total_tokens": 11446,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 223
+    }
+  },
+  "error": null
+}

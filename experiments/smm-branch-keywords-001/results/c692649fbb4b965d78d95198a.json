@@ -1,0 +1,200 @@
+{
+  "source_id": "c692649fbb4b965d78d95198a",
+  "source_sha256": "f6393b1e6e28e12b9c3aa11b430eaf790f2f2ee047de8ecec63076dbb9d6fd32",
+  "request_sha256": "ea4cd6871d16c09d7a1de28918e903afd7d507012d53c0146fa711b6e6a80414",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c692649fbb4b965d78d95198a",
+    "source_sha256": "f6393b1e6e28e12b9c3aa11b430eaf790f2f2ee047de8ecec63076dbb9d6fd32",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Nate",
+        "text": "Hey Joanna! Long time no talk. So much has happened. Look how cute they are! Hanging with them has been a big help, especially recently. Speaking of which, I just had a letdown in a video game tourney - I didn't do too great, even though I tried. It was a setback, but I'm trying to stay positive."
+      },
+      {
+        "turn": 1,
+        "role": "Joanna",
+        "text": "Hey Nate! Cute turtles! Bummer about the setback. Any positive vibes comin' your way? I just revised on of my old recipes and made this!"
+      },
+      {
+        "turn": 2,
+        "role": "Nate",
+        "text": "Hey Joanna, yeah it's a bummer that I didn't do well. But it's all part of the learning curve, you know? Also that looks super good! Anyways, how are you holding up?"
+      },
+      {
+        "turn": 3,
+        "role": "Joanna",
+        "text": "I'm doing OK, thanks. Just been tinkering with that recipe and a few others. It's helping me find some comfort and getting creative."
+      },
+      {
+        "turn": 4,
+        "role": "Nate",
+        "text": "What else are you making? It's always satisfying to see the kind of things you do when your in one of those moods!"
+      },
+      {
+        "turn": 5,
+        "role": "Joanna",
+        "text": "Been tweaking a dessert recipe to make it yummier and more accessible."
+      },
+      {
+        "turn": 6,
+        "role": "Nate",
+        "text": "Wow, that sounds great! What flavors are you experimenting with?"
+      },
+      {
+        "turn": 7,
+        "role": "Joanna",
+        "text": "Trying out different flavors like chocolate, raspberry, and coconut has been a blast!"
+      },
+      {
+        "turn": 8,
+        "role": "Nate",
+        "text": "Sounds delicious! Are you only trying dairy-free options?"
+      },
+      {
+        "turn": 9,
+        "role": "Joanna",
+        "text": "Yeah, since I'm lactose intolerant I'm trying out dairy-free options like coconut or almond milk instead. It's been a fun challenge seeing how to make yummy treats that suit everyone's diets. I even made these dairy-free chocolate coconut cupcakes with raspberry frosting."
+      },
+      {
+        "turn": 10,
+        "role": "Nate",
+        "text": "Woah, those look great, Joanna! It's cool that you make desserts that work for everyone's diets. Do you have any more yummy recipes hiding in there?"
+      },
+      {
+        "turn": 11,
+        "role": "Joanna",
+        "text": "Yep! I've been making all sorts of desserts that work for everyone's diets - cookies, pies, cakes - everything! I'll share more recipes with you soon."
+      },
+      {
+        "turn": 12,
+        "role": "Nate",
+        "text": "Can't wait to try them. Can I join you sometime? I think baking and cooking really brings us together!"
+      },
+      {
+        "turn": 13,
+        "role": "Joanna",
+        "text": "Yeah, Nate! A fellow Chef in the kitchen is always a great help! Speaking of which, i'm curious, any more tips for dairy-free baking?"
+      },
+      {
+        "turn": 14,
+        "role": "Nate",
+        "text": "You can use stuff like dairy-free margarine or coconut oil instead of butter, and make sure to check the labels to ensure they're dairy-free. Good luck!"
+      },
+      {
+        "turn": 15,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Love your ideas, can't wait to try them out!"
+      },
+      {
+        "turn": 16,
+        "role": "Nate",
+        "text": "No problem! I love to help, so just shoot me a question anytime you need!"
+      },
+      {
+        "turn": 17,
+        "role": "Joanna",
+        "text": "Got it Nate, I'll see you soon!"
+      },
+      {
+        "turn": 18,
+        "role": "Nate",
+        "text": "Bye Joanna! Good luck!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Nate’s tournament setback",
+        "keywords": [
+          "video game tournament",
+          "disappointment",
+          "setback",
+          "learning curve",
+          "staying positive"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Turtles as comfort",
+        "keywords": [
+          "turtles",
+          "Joanna",
+          "Nate",
+          "companionship",
+          "emotional support"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Joanna’s dairy-free baking",
+        "keywords": [
+          "dairy-free baking",
+          "dessert recipes",
+          "lactose intolerance",
+          "chocolate",
+          "raspberry",
+          "coconut",
+          "cupcakes",
+          "almond milk",
+          "dairy-free margarine",
+          "coconut oil"
+        ],
+        "turns": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.479102,
+    "thread_setup_seconds": 0.353917,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.479102,
+    "turn_seconds": 9.125185,
+    "first_text_seconds": 7.759201,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10724,
+      "completion_tokens": 337,
+      "total_tokens": 11061,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 158
+    }
+  },
+  "error": null
+}

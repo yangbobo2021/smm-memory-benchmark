@@ -1,0 +1,167 @@
+{
+  "source_id": "cf4d692d08f9e8ab716341940",
+  "source_sha256": "00eb67b7f457f821d6e59faebb65ab5016a2d84347af3ac0b9171dfac6cbf85b",
+  "request_sha256": "e4737022af544599c10097f404bc370a41f1b7dd2a4687c79be61e18afb7bd54",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cf4d692d08f9e8ab716341940",
+    "source_sha256": "00eb67b7f457f821d6e59faebb65ab5016a2d84347af3ac0b9171dfac6cbf85b",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jon",
+        "text": "Hi Gina! I just wanted to fill you in on my business. Yesterday, I went to a fair to show off my studio, it was both stressful and great! I got some possible leads, so that was awesome. But overall, I've learned that this biz is no cakewalk and having confidence in yourself is important for making it successful!"
+      },
+      {
+        "turn": 1,
+        "role": "Gina",
+        "text": "Hey Jon, congrats on the fair! It's awesome to see your hard work paying off. Keep on pushing, pal, you're headed for greatness. Oh, and BTW, I started my own online clothing store not so long ago - pretty cool, huh?"
+      },
+      {
+        "turn": 2,
+        "role": "Jon",
+        "text": "Thanks, Gina! Appreciate your support. Your store looks great, I remember it!"
+      },
+      {
+        "turn": 3,
+        "role": "Gina",
+        "text": "Thanks, Jon! After losing my job, I wanted to take control of my own destiny and this seemed like the perfect way to do it. It's been a tough journey, but very rewarding."
+      },
+      {
+        "turn": 4,
+        "role": "Jon",
+        "text": "Wow, you're awesome for going for it! Setbacks can help us reach our potential, right? I'm having trouble with my business project. Any advice on staying motivated even when times are tough?"
+      },
+      {
+        "turn": 5,
+        "role": "Gina",
+        "text": "Yeah Jon! Challenges are awesome for learning and growth. To stay motivated, I think of the big goal and why I'm doing it. I also get help from people who support me. And of course, I dance it out. Do you need advice on anything in particular?"
+      },
+      {
+        "turn": 6,
+        "role": "Jon",
+        "text": "I've been feeling kinda low on confidence lately. It's hard to run a business when you don't have faith in yourself. Any tips on how you stay confident in your business?"
+      },
+      {
+        "turn": 7,
+        "role": "Gina",
+        "text": "I get it, Jon. Confidence is important in business. I stay motivated by reminding myself of my successes and progress. It also helps to have a good support system. Just focus on why you started this – because you love it! Have faith in yourself, Jon. I do!"
+      },
+      {
+        "turn": 8,
+        "role": "Jon",
+        "text": "Thanks! Your words mean a lot. Gotta focus on success and why I started. You're right, I love it and that'll keep my confidence up."
+      },
+      {
+        "turn": 9,
+        "role": "Gina",
+        "text": "No worries, Jon! Sounds like what I said was helpful. You're incredibly talented and passionate about dance. Don't forget, believe in yourself and your abilities. Tackle any obstacle that comes your way and keep shining!"
+      },
+      {
+        "turn": 10,
+        "role": "Jon",
+        "text": "Thanks! Your support means a lot. I'm gonna keep going and reach my dreams no matter what."
+      },
+      {
+        "turn": 11,
+        "role": "Gina",
+        "text": "Go for it, Jon! You got this! Don't let anything stop you. We're in this together!"
+      },
+      {
+        "turn": 12,
+        "role": "Jon",
+        "text": "Appreciate your encouragement. We'll keep pushing each other on this path."
+      },
+      {
+        "turn": 13,
+        "role": "Gina",
+        "text": "Yeah! Let's keep each other going. We can do it!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Jon’s studio business and confidence",
+        "keywords": [
+          "Jon",
+          "studio business",
+          "business fair",
+          "possible leads",
+          "entrepreneurship",
+          "motivation",
+          "self-confidence",
+          "support system"
+        ],
+        "turns": [
+          0,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "label": "Gina’s online clothing store",
+        "keywords": [
+          "Gina",
+          "online clothing store",
+          "job loss",
+          "self-employment",
+          "business journey",
+          "taking control"
+        ],
+        "turns": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Dancing as encouragement and stress relief",
+        "keywords": [
+          "dance",
+          "dancing",
+          "stress relief",
+          "personal passion"
+        ],
+        "turns": [
+          5,
+          9
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.942012,
+    "thread_setup_seconds": 0.122497,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.942012,
+    "turn_seconds": 10.819515,
+    "first_text_seconds": 9.400727,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10664,
+      "completion_tokens": 349,
+      "total_tokens": 11013,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 197
+    }
+  },
+  "error": null
+}

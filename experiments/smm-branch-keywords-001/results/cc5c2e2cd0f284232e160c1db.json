@@ -1,0 +1,183 @@
+{
+  "source_id": "cc5c2e2cd0f284232e160c1db",
+  "source_sha256": "20806176fe9e6d578d60ff501a0da56c44f2d224b7fc53a58661f14f277828dd",
+  "request_sha256": "7b166fea9bfa2e1561674281795535c48404ededc4ee0c9350aebcb2b7bdf8bd",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cc5c2e2cd0f284232e160c1db",
+    "source_sha256": "20806176fe9e6d578d60ff501a0da56c44f2d224b7fc53a58661f14f277828dd",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Andrew",
+        "text": "Hey! So much has changed since last time we talked - meet Toby, my puppy. He's a bundle of joy and I couldn't resist taking him home, city living and all. How've you been?"
+      },
+      {
+        "turn": 1,
+        "role": "Audrey",
+        "text": "OMG! Toby looks so adorable! Congrats on your new addition. I'm sure you're really happy right now! I so happy for you!"
+      },
+      {
+        "turn": 2,
+        "role": "Andrew",
+        "text": "Haha yeah! Toby's definitely bringing a lot of joy. Since we last talked, work has been piling up and I've been stuck inside. I miss the peace and feeling of freedom that comes with going for a hike."
+      },
+      {
+        "turn": 3,
+        "role": "Audrey",
+        "text": "Yeah you're really stressed then! When work's non-stop, it's hard to get outdoors. Hiking is a great way to relax and take in nature. Do you have plans to go hiking soon? We should plan a trip for both of us and our pups!"
+      },
+      {
+        "turn": 4,
+        "role": "Andrew",
+        "text": "Yeah work's been stressful lately and I need a break. I have plans for a hike next month and thought it'd be cool if you and the pups could come along. We can enjoy nature and have a fun time!"
+      },
+      {
+        "turn": 5,
+        "role": "Audrey",
+        "text": "Sounds great! I'm in for the hike, and my dogs can come too. Thanks for inviting us! I made these personalized tags for them. Take a look! "
+      },
+      {
+        "turn": 6,
+        "role": "Andrew",
+        "text": "Wow, those look great! Did you make them? It's really cool!"
+      },
+      {
+        "turn": 7,
+        "role": "Audrey",
+        "text": "Thanks! Yeah, I made them myself. I wanted each one to be special and fit their personalities."
+      },
+      {
+        "turn": 8,
+        "role": "Andrew",
+        "text": "Wow, that's so cool. You really put so much love into making them, which makes them extra special."
+      },
+      {
+        "turn": 9,
+        "role": "Audrey",
+        "text": "Thanks! I did put a lot of love into making these tags. I want my pets to feel seen and loved."
+      },
+      {
+        "turn": 10,
+        "role": "Andrew",
+        "text": "It really are the small things like these show we care a ton about out pets."
+      },
+      {
+        "turn": 11,
+        "role": "Audrey",
+        "text": "Yep! Small acts of love like that make a big difference in our relationships with our furry pals. Let's make sure they know how much we care!"
+      },
+      {
+        "turn": 12,
+        "role": "Andrew",
+        "text": "Definitely! They bring us so much joy, so it's only fair that we show them how special they are. Can't wait for our hike - and for Toby and your pups to meet!"
+      },
+      {
+        "turn": 13,
+        "role": "Audrey",
+        "text": "Can't wait either! It's going to be loads of fun and a great memory."
+      },
+      {
+        "turn": 14,
+        "role": "Andrew",
+        "text": "Yep! It'll be an adventure alright. "
+      },
+      {
+        "turn": 15,
+        "role": "Audrey",
+        "text": "Counting down the days 'til our hike! Gotta get them ready soon!"
+      },
+      {
+        "turn": 16,
+        "role": "Andrew",
+        "text": "Same here! It's gonna be awesome. Let's talk later k?"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Andrew’s new puppy Toby",
+        "keywords": [
+          "Andrew",
+          "Toby",
+          "puppy",
+          "city living",
+          "new pet"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Hike plans with the dogs",
+        "keywords": [
+          "work stress",
+          "hiking",
+          "next month",
+          "Audrey",
+          "dogs",
+          "nature",
+          "meet Toby"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "label": "Audrey’s handmade pet tags",
+        "keywords": [
+          "Audrey",
+          "personalized tags",
+          "handmade",
+          "pets",
+          "small acts of love",
+          "pet relationships"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.025477,
+    "thread_setup_seconds": 0.260575,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.025477,
+    "turn_seconds": 7.764902,
+    "first_text_seconds": 6.652066,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10655,
+      "completion_tokens": 342,
+      "total_tokens": 10997,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 192
+    }
+  },
+  "error": null
+}

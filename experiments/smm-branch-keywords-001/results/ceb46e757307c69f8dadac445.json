@@ -1,0 +1,238 @@
+{
+  "source_id": "ceb46e757307c69f8dadac445",
+  "source_sha256": "57c763985616c3b54edf92e95f53b720c6c4ebd5a66687bba6f939cc0ec3445c",
+  "request_sha256": "fd5ea293de740f5202f2fe22ce5278be478cb0451deaf5e8fb1fcf78a19d1fb0",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ceb46e757307c69f8dadac445",
+    "source_sha256": "57c763985616c3b54edf92e95f53b720c6c4ebd5a66687bba6f939cc0ec3445c",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Hey Evan! I’m really getting into this healthier lifestyle—just took my friends on an epic hiking trip last Friday!"
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "Hey Sam! That’s fantastic—nothing like a good hike to feel alive. We took the Prius for a long drive to the mountains last weekend. It was perfect until we got into a little scrape on the way back."
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Oh no, were you guys okay after the accident?"
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "Yeah, we were fine, thanks. Just a minor accident, but it put a bit of a damper on telling my work friends about getting married. They’ve been a great support, though."
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "I bet they were thrilled to hear about your marriage, despite the mishap!"
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "Absolutely, it's been a whirlwind of emotions. Good thing the accident was minor. Just a reminder to take it easy on the road, I guess."
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "True, it’s important to stay safe. Glad you can still enjoy the peaceful moments after something like that."
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "Definitely, nature brings peace and clarity - it's a great experience."
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "Nature can make everything else seem small and help us find peace inside. It reminds us of the bigger picture, you know?"
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "For sure, and nature has been a great healer. Speaking of which, I’ve got to share some of these new healthy snacks I’ve been trying."
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "They look healthy and delicious! Perfect for after a hike or, I guess, post-accident recovery, huh?"
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "Exactly! They’re packed with nutrients and really easy to make. You also need to try these cookies, they are awesome! I’ll send you the recipes."
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "Thanks, I’d appreciate that. It’s good to find new ways to stay healthy. Do you have any healthier snack ideas?"
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "Yeah, I've been trying to eat healthier too. Check out this cool recipe I discovered for these energy balls."
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Do you like them? I know they can be an acquired taste."
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "I enjoy the taste of these. They're energizing and a healthy way to satisfy your sweet tooth."
+      },
+      {
+        "turn": 16,
+        "role": "Sam",
+        "text": "Awesome! Always on the lookout for healthy snacks, thanks for the tip!"
+      },
+      {
+        "turn": 17,
+        "role": "Evan",
+        "text": "Glad to help - hope you enjoy it!"
+      },
+      {
+        "turn": 18,
+        "role": "Sam",
+        "text": "Thanks, Evan! I'll give these a try. They look yum. Your help means a lot to me. Btw you know what? I went to the store again and, unsurprisingly, had issues with the self-checkout. It's becoming a regular annoyance."
+      },
+      {
+        "turn": 19,
+        "role": "Evan",
+        "text": "That's very strange, I've never had a problem with it once!"
+      },
+      {
+        "turn": 20,
+        "role": "Sam",
+        "text": "Apparently I attract that to me, if you ever want to be in that situation, call me at the store with you!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Hiking, nature, and healthy living",
+        "keywords": [
+          "healthy lifestyle",
+          "hiking trip",
+          "friends",
+          "mountains",
+          "nature",
+          "peace",
+          "clarity",
+          "healing"
+        ],
+        "turns": [
+          0,
+          1,
+          6,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "label": "Prius road-trip accident",
+        "keywords": [
+          "Prius",
+          "mountain drive",
+          "minor accident",
+          "road safety",
+          "scrape",
+          "recovery"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          10
+        ]
+      },
+      {
+        "label": "Evan’s marriage and work friends",
+        "keywords": [
+          "marriage",
+          "work friends",
+          "support",
+          "announcement"
+        ],
+        "turns": [
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Healthy snacks and recipes",
+        "keywords": [
+          "healthy snacks",
+          "cookies",
+          "recipe",
+          "energy balls",
+          "nutrients",
+          "sweet tooth",
+          "healthier eating"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "label": "Sam’s self-checkout problems",
+        "keywords": [
+          "self-checkout",
+          "grocery store",
+          "recurring annoyance",
+          "store visit"
+        ],
+        "turns": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.977153,
+    "thread_setup_seconds": 0.174676,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.977153,
+    "turn_seconds": 12.802478,
+    "first_text_seconds": 10.560463,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10747,
+      "completion_tokens": 523,
+      "total_tokens": 11270,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 286
+    }
+  },
+  "error": null
+}

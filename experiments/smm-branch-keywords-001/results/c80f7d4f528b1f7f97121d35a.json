@@ -1,0 +1,193 @@
+{
+  "source_id": "c80f7d4f528b1f7f97121d35a",
+  "source_sha256": "af0145ba1d613a7f8ae490c35ce3a11dccd2a455a591982dff0bd257dfafdea0",
+  "request_sha256": "cd00b1c7235f22ec26cb6443c96c3fc7309c0884ca925c54c293c4fb7a065095",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c80f7d4f528b1f7f97121d35a",
+    "source_sha256": "af0145ba1d613a7f8ae490c35ce3a11dccd2a455a591982dff0bd257dfafdea0",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Nice to meet you! How's it going since we talked?"
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Calvin! Nice to meet you too! Things have been going well since we last talked. I attended this awesome event recently. It was like a car lover's paradise! They had so many classic cars on show, I was in awe. I even had the opportunity to speak with some of the owners and hear their fascinating stories. It was super inspiring. What about you? Anything exciting happening in your life lately?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "That event sounds great! Something really exciting happened to me - I just had a big life change! Here's my new mansion - pretty cool huh?"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Wow! Congrats on the big change! What inspired you to start this journey?"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "I'm so excited to learn about Japanese culture and get a chance to expand."
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Wow, Calvin, learning about new cultures is awesome! Have you ever been to Japan?"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "Never been there before. Fascinated by the traditions and can't wait to get a taste of the culture."
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Wow, Japan sounds amazing. Can't wait to hear all about it! When are you leaving?"
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "I'm heading there next month. I'll be staying in such a nice place while I'm there.\n\n"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "That looks cozy! Where'd you find a place to stay there?"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Wow, my agent found me this awesome place, so thankful!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Awesome! Having a place to stay is key. What are your plans for the trip?"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "I'm planning to explore the city, try out different local cuisines, and perhaps collaborate with musicians in the area."
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Sounds great! Collaborating with local musicians would be an amazing experience. How long are you planning to stay in Japan?"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "I'm gonna be in Japan for a few months then off to Boston! I can't wait!"
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "That's great, can't wait for you to return from your trip. I've been spending lots of time at this beautiful park lately - so calming. Have you been there before?"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "No, I've never been in that park. Looks like a chill spot. I'll definitely check it out when I'm back. Appreciate the tip!"
+      },
+      {
+        "turn": 17,
+        "role": "Dave",
+        "text": "Cool! Enjoy your trip! Let me know if you need any more recommendations. Have fun!"
+      },
+      {
+        "turn": 18,
+        "role": "Calvin",
+        "text": "Thanks, Dave! If I need any help, I'll be sure to let you know. Stay safe!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dave’s classic-car event",
+        "keywords": [
+          "classic cars",
+          "car show",
+          "car owners",
+          "event",
+          "inspiring stories"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "Calvin’s life change and Japan trip",
+        "keywords": [
+          "Calvin",
+          "mansion",
+          "Japanese culture",
+          "Japan",
+          "next month",
+          "local cuisine",
+          "musicians",
+          "Boston",
+          "travel accommodation",
+          "agent"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "label": "Dave’s calming park recommendation",
+        "keywords": [
+          "park",
+          "recommendation",
+          "relaxation",
+          "visit"
+        ],
+        "turns": [
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.182303,
+    "thread_setup_seconds": 0.114475,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.182303,
+    "turn_seconds": 12.067828,
+    "first_text_seconds": 10.472283,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10666,
+      "completion_tokens": 523,
+      "total_tokens": 11189,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 374
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,148 @@
+{
+  "source_id": "c640fd1be1d60cc9de8c5d4c6",
+  "source_sha256": "eb79f2a840d44f529b30f9a5ee3d26b3086626a3173003e8f2092090ea91f106",
+  "request_sha256": "a604bc08ee6f8456a3a3e1ce8736f8b359ed5ee38818ff4f64be0afc0309cf59",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c640fd1be1d60cc9de8c5d4c6",
+    "source_sha256": "eb79f2a840d44f529b30f9a5ee3d26b3086626a3173003e8f2092090ea91f106",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Nate",
+        "text": "Hey Joanna! Long time no talk, how's it going? Crazy stuff's been happening since we last chatted."
+      },
+      {
+        "turn": 1,
+        "role": "Joanna",
+        "text": "Hey Nate! Been quite a ride - in a good way - had an audition yesterday for a writing gig."
+      },
+      {
+        "turn": 2,
+        "role": "Nate",
+        "text": "Congrats! How did it go? Are you excited?"
+      },
+      {
+        "turn": 3,
+        "role": "Joanna",
+        "text": "Thanks, Nate! It went alright. Mixed emotions - definitely excited but also a bit anxious. Keep those fingers crossed!"
+      },
+      {
+        "turn": 4,
+        "role": "Nate",
+        "text": "Yeah, I get it. Mixed emotions are rough, but I have faith in you! Keep me posted - you got this!"
+      },
+      {
+        "turn": 5,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Your support means a lot. I'll make sure to keep you updated. Anything new on your end?"
+      },
+      {
+        "turn": 6,
+        "role": "Nate",
+        "text": "Yeah actually - I'm currently participating in the video game tournament again and it's INTENSE! There's so much adrenaline flowing."
+      },
+      {
+        "turn": 7,
+        "role": "Joanna",
+        "text": "Best of luck in the tournament! It sounds like it would be difficult to go through so many days of intense gaming! This is my go-to place for writing inspiration. It helps me stay sharp and motivated."
+      },
+      {
+        "turn": 8,
+        "role": "Nate",
+        "text": "Wow, that's a lot of books. Do you have any advice for someone like me who wants to pursue writing?"
+      },
+      {
+        "turn": 9,
+        "role": "Joanna",
+        "text": "Definitely! Read lots and try out different genres. Build a solid understanding of literature. Don't be afraid to write and share, even if it's just with friends. Practicing and gathering feedback will make you better. Have faith in yourself and continue following your writing dreams - it's tough but worth it."
+      },
+      {
+        "turn": 10,
+        "role": "Nate",
+        "text": "Thanks, Joanna. Really appreciate your help and kind words. I'm going to keep working hard on it and see what happens. Good luck with your project, I'm sure it will turn out great!"
+      },
+      {
+        "turn": 11,
+        "role": "Joanna",
+        "text": "Thanks Nate! Appreciate your kind words and support. Let's keep going for our dreams and work hard. Catch you later!"
+      },
+      {
+        "turn": 12,
+        "role": "Nate",
+        "text": "Bye Joanna! Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Joanna’s writing audition and writing advice",
+        "keywords": [
+          "Joanna",
+          "Nate",
+          "writing gig",
+          "audition",
+          "writing inspiration",
+          "books",
+          "writing advice",
+          "genres",
+          "feedback",
+          "writing dreams"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Nate’s video game tournament",
+        "keywords": [
+          "Nate",
+          "video game tournament",
+          "gaming",
+          "adrenaline",
+          "intense competition"
+        ],
+        "turns": [
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.478705,
+    "thread_setup_seconds": 0.135962,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.478705,
+    "turn_seconds": 9.342743,
+    "first_text_seconds": 7.691682,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10502,
+      "completion_tokens": 274,
+      "total_tokens": 10776,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 156
+    }
+  },
+  "error": null
+}

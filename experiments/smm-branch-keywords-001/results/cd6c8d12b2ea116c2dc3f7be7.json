@@ -1,0 +1,179 @@
+{
+  "source_id": "cd6c8d12b2ea116c2dc3f7be7",
+  "source_sha256": "70f6d9a41ea205cd09086563cd9f12354400ebf6d6b6b1b2f48c024fb86189aa",
+  "request_sha256": "7932b1d27315716945603913573ab5b42f579539b9ed7c9266a0ea745c89741f",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cd6c8d12b2ea116c2dc3f7be7",
+    "source_sha256": "70f6d9a41ea205cd09086563cd9f12354400ebf6d6b6b1b2f48c024fb86189aa",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Since we last spoke, I made a meditation guide for my yoga retreat. How about you?"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "I have been stressed since I lost my work files. I was so overwhelmed...but meditation kept me chill and I got my clarity back, thank goodness. Really appreciate the practice!"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "It's amazing how it can give you peace and calm in times like that. If you ever need any support, just let me know - we're in this together!"
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": " Appreciate your support! BTW, I wanted to share this with you."
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "Your creativity is amazing! "
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "Thanks, Deb! I was inspired by my love for space and engines, so I designed these notebooks with elements like galaxies and circuitry. I think they turned out really cool!"
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "You have such a knack for turning these into art. They make me feel excited just by looking at them. Your creativity is amazing! Does that usually inspire your engineering projects too?"
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "Seeing art and design in various things gives me a unique perspective on problems."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "Got any neat projects or ideas you're pumped about?"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": " Working on a cool project now - a prototype that could revolutionize aerial surveillance. Can't wait to see the results!"
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": "I admire your ambition to make a difference. Do you have any specific plans or goals for this project?"
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "My aim is to devise a more productive and affordable aerial surveillance system. It'll help with responding to emergencies and monitoring the environment. It'll make the world a better, safer place."
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "I love your commitment. Keep going!"
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "Thanks, Deb! Your support means a lot. I'll keep pushing and doing my best to make a difference."
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "You got this!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Meditation, yoga retreat, and lost files",
+        "keywords": [
+          "Deborah",
+          "Jolene",
+          "meditation guide",
+          "yoga retreat",
+          "lost work files",
+          "stress relief",
+          "calm",
+          "clarity",
+          "support"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Space- and circuitry-inspired notebooks",
+        "keywords": [
+          "Jolene",
+          "Deborah",
+          "notebooks",
+          "space",
+          "engines",
+          "galaxies",
+          "circuitry",
+          "art and design",
+          "engineering perspective"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Aerial surveillance prototype",
+        "keywords": [
+          "Jolene",
+          "Deborah",
+          "aerial surveillance",
+          "prototype",
+          "productive system",
+          "affordable system",
+          "emergency response",
+          "environmental monitoring"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.037543,
+    "thread_setup_seconds": 0.114024,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.037543,
+    "turn_seconds": 10.923519,
+    "first_text_seconds": 9.127855,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10505,
+      "completion_tokens": 514,
+      "total_tokens": 11019,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 331
+    }
+  },
+  "error": null
+}

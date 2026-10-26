@@ -1,0 +1,236 @@
+{
+  "source_id": "c741631fb6839e944cc293c6b",
+  "source_sha256": "60d54d75aa05d9ef470bd6d273a59daa5ac07cb200f0496f316bbe26509aa553",
+  "request_sha256": "fb03baf15307a0a690cb33dab6be2342ec580d667de9a9ce5e92fd6301e894bc",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c741631fb6839e944cc293c6b",
+    "source_sha256": "60d54d75aa05d9ef470bd6d273a59daa5ac07cb200f0496f316bbe26509aa553",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hey Jolene! How's it going? We haven't talked in a while. I've been busy getting ready for a yoga retreat with some buddies. A chance to hang out with people who think like me and find peace and understanding. Sounds awesome!"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Hey Deb! Been super hectic with internship and stuff. That retreat sounds awesome, I could definitely use a break!"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "By the way, I tried a new pose - Dancer Pose (Natarajasana). Rate, did I succeed?"
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "You are amazing as always! Here are new photos of Seraphim in the new aquarium that I bought the day before yesterday."
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "Where'd you get it? I'm always drawn to animals, they bring so much joy. What's its story?"
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": " I got her last year, she's a great pet. She always cheers me up and brings a sense of peace. Spending time with her is so comforting."
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "Pets really do make life more enjoyable and bright. "
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": " I'm so thankful it's here. Plus, it's nice to have a calm creature around."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "How have things been besides that?"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "Things have been intense lately. I'm really pushing myself to succeed, and sometimes it feels overwhelming. But I'm determined to overcome any obstacles and achieve my goals."
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": "Keep up the hard work and remember to relax too."
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": "Thanks, Deborah! I had a big breakthrough with this project - so exciting and rewarding!"
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "Awesome, Jolene! I'm really glad your project worked out. "
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "Stop talking about me, tell me more about your retreat."
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "I'd rather show you a photo. This is also a new yoga pose that we tried. It is a tree pose."
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": "What's that statue in the picture?"
+      },
+      {
+        "turn": 16,
+        "role": "Deborah",
+        "text": "It's a symbol of peace and enlightenment."
+      },
+      {
+        "turn": 17,
+        "role": "Jolene",
+        "text": "Wow, it looks gorgeous! I'd love to visit a retreat like that. It seems like the ideal spot to find peace and refreshment."
+      },
+      {
+        "turn": 18,
+        "role": "Deborah",
+        "text": "It's perfect for reflecting and getting centered."
+      },
+      {
+        "turn": 19,
+        "role": "Jolene",
+        "text": "I could really use some chill time like that. Sounds so peaceful."
+      },
+      {
+        "turn": 20,
+        "role": "Deborah",
+        "text": "Yeah, we all need some peaceful time to relax."
+      },
+      {
+        "turn": 21,
+        "role": "Jolene",
+        "text": "Gotta run, have a nice day!"
+      },
+      {
+        "turn": 22,
+        "role": "Deborah",
+        "text": "See you!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Yoga retreat and peaceful setting",
+        "keywords": [
+          "yoga retreat",
+          "Deborah",
+          "Jolene",
+          "tree pose",
+          "statue",
+          "peace",
+          "enlightenment",
+          "reflection",
+          "relaxation",
+          "visit"
+        ],
+        "turns": [
+          0,
+          1,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "label": "Dancer Pose attempt",
+        "keywords": [
+          "Dancer Pose",
+          "Natarajasana",
+          "yoga pose",
+          "photo",
+          "rating"
+        ],
+        "turns": [
+          2
+        ]
+      },
+      {
+        "label": "Seraphim and the new aquarium",
+        "keywords": [
+          "Seraphim",
+          "aquarium",
+          "pet",
+          "photos",
+          "comfort",
+          "calm",
+          "peace"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Jolene’s workload and project breakthrough",
+        "keywords": [
+          "internship",
+          "intense workload",
+          "overwhelm",
+          "goals",
+          "obstacles",
+          "project",
+          "breakthrough",
+          "success"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.76629,
+    "thread_setup_seconds": 0.170689,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.76629,
+    "turn_seconds": 9.595602,
+    "first_text_seconds": 7.516078,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10686,
+      "completion_tokens": 446,
+      "total_tokens": 11132,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 234
+    }
+  },
+  "error": null
+}

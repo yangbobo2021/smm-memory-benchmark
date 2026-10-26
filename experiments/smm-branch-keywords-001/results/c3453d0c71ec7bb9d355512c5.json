@@ -1,0 +1,237 @@
+{
+  "source_id": "c3453d0c71ec7bb9d355512c5",
+  "source_sha256": "e5c12f4efb9e5e950456dbfbb82bc149b4fa409ec851f231a081809f03fe3d53",
+  "request_sha256": "4f9689c777720b0bcc9eead274915ce0f2eed1c3f4d8c33ef748b026e2089598",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c3453d0c71ec7bb9d355512c5",
+    "source_sha256": "e5c12f4efb9e5e950456dbfbb82bc149b4fa409ec851f231a081809f03fe3d53",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Audrey",
+        "text": "Hey Andrew! Good to see ya! What's been up since we last talked?"
+      },
+      {
+        "turn": 1,
+        "role": "Andrew",
+        "text": "Hey Audrey! So, I started a new job as a Financial Analyst last week - it's been quite a change from my previous job. How about you? Anything interesting happening?"
+      },
+      {
+        "turn": 2,
+        "role": "Audrey",
+        "text": "Congrats on the new job! So I got these new collars and tags for my dogs - so cute!"
+      },
+      {
+        "turn": 3,
+        "role": "Andrew",
+        "text": "Thanks! That sounds cute. Can I see a picture?"
+      },
+      {
+        "turn": 4,
+        "role": "Audrey",
+        "text": "Sure! See them with their new collars, cute right?"
+      },
+      {
+        "turn": 5,
+        "role": "Andrew",
+        "text": "Cute little guys! What are their names and how long have you had them?"
+      },
+      {
+        "turn": 6,
+        "role": "Audrey",
+        "text": "I've had them for 3 years! Their names are Pepper, Precious and Panda. I can't live without my little ones!"
+      },
+      {
+        "turn": 7,
+        "role": "Andrew",
+        "text": "That's awesome! Have you always wanted a dog, even with living in the city? Can they still go on adventures?"
+      },
+      {
+        "turn": 8,
+        "role": "Audrey",
+        "text": "Absolutely! They're city dogs and we explore all the time. They love trying out new parks and trails. We go on adventures together very often."
+      },
+      {
+        "turn": 9,
+        "role": "Andrew",
+        "text": "Wow, sounds like they make life so awesome! Kinda jealous of all those fun outings with them."
+      },
+      {
+        "turn": 10,
+        "role": "Audrey",
+        "text": "They really do! It's great how much happiness they bring. Do you have any pets?"
+      },
+      {
+        "turn": 11,
+        "role": "Andrew",
+        "text": "No, no pets right now. But I do love animals."
+      },
+      {
+        "turn": 12,
+        "role": "Audrey",
+        "text": "That's great to hear! Animals are truly amazing. Do you have a favorite animal?"
+      },
+      {
+        "turn": 13,
+        "role": "Andrew",
+        "text": "I've always been awed by birds. Their power to soar and explore new spots is amazing."
+      },
+      {
+        "turn": 14,
+        "role": "Audrey",
+        "text": "Yeah, birds are amazing! I can imagine it feels incredible to soar and see the world from up high. Do you have a favorite type of bird?"
+      },
+      {
+        "turn": 15,
+        "role": "Andrew",
+        "text": "Eagles have always mesmerized me; they're so strong and graceful!"
+      },
+      {
+        "turn": 16,
+        "role": "Audrey",
+        "text": "Yeah they're beautiful. Do you go bird-watching? It must be awesome to see them up close."
+      },
+      {
+        "turn": 17,
+        "role": "Andrew",
+        "text": "Haven't specifically gone out for bird-watching, but I do spot them when I hike."
+      },
+      {
+        "turn": 18,
+        "role": "Audrey",
+        "text": "Nice, spotting pretty birds while hiking must be great. Do you have any favorite hiking spots?"
+      },
+      {
+        "turn": 19,
+        "role": "Andrew",
+        "text": "Fox Hollow is a great trail to hike on weekends; the views are awesome!"
+      },
+      {
+        "turn": 20,
+        "role": "Audrey",
+        "text": "Cool, gonna give it a try. Thanks for the suggestion!"
+      },
+      {
+        "turn": 21,
+        "role": "Andrew",
+        "text": "No problem! Let me know how you like it. Have fun hiking!"
+      },
+      {
+        "turn": 22,
+        "role": "Audrey",
+        "text": "Thanks! I'll let you know. Have a good one!"
+      },
+      {
+        "turn": 23,
+        "role": "Andrew",
+        "text": "Take care and have a good one! See ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Andrew’s new financial analyst job",
+        "keywords": [
+          "Andrew",
+          "Financial Analyst",
+          "new job",
+          "previous job",
+          "last week"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "Audrey’s dogs and city adventures",
+        "keywords": [
+          "Audrey",
+          "Pepper",
+          "Precious",
+          "Panda",
+          "dog collars",
+          "dog tags",
+          "city dogs",
+          "parks",
+          "trails",
+          "three years"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Andrew’s interest in birds and eagles",
+        "keywords": [
+          "birds",
+          "eagles",
+          "soaring",
+          "bird-watching",
+          "hiking"
+        ],
+        "turns": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "label": "Fox Hollow weekend hiking recommendation",
+        "keywords": [
+          "Fox Hollow",
+          "hiking",
+          "weekends",
+          "trail",
+          "views"
+        ],
+        "turns": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.199022,
+    "thread_setup_seconds": 0.08952,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.199022,
+    "turn_seconds": 12.109503,
+    "first_text_seconds": 8.821208,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10723,
+      "completion_tokens": 379,
+      "total_tokens": 11102,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 182
+    }
+  },
+  "error": null
+}

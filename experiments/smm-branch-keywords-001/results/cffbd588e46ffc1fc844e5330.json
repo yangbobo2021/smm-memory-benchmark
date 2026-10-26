@@ -1,0 +1,187 @@
+{
+  "source_id": "cffbd588e46ffc1fc844e5330",
+  "source_sha256": "1d4b1573a2222c2a35fcdd5919b78b40c5404b56dd6d883568b95a42ed928e1b",
+  "request_sha256": "7150b3e29ea29e00fe34a67f478de3dced15a39176b8afef6030922b7734371a",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cffbd588e46ffc1fc844e5330",
+    "source_sha256": "1d4b1573a2222c2a35fcdd5919b78b40c5404b56dd6d883568b95a42ed928e1b",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Tim, great to see you! Any new success stories?"
+      },
+      {
+        "turn": 1,
+        "role": "Tim",
+        "text": "Hey John, I had a tough time with my English lit class. Did an analysis on this series and I think it went ok!"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Thanks! It's a bummer about your English lit class, but you did your best. By the way, I had a career-high in assists last Friday in our big game against our rival. Yay!"
+      },
+      {
+        "turn": 3,
+        "role": "Tim",
+        "text": "Congrats! That's awesome. How did it feel being out there making those plays?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Thanks! It felt great being out there, making plays for my team. I love seeing my teammates succeed because of the opportunities I create for them. The atmosphere in the arena was really electric and playing against our rivals added an extra level of intensity. It was a memorable night!"
+      },
+      {
+        "turn": 5,
+        "role": "Tim",
+        "text": "Sounds incredible! Must have been quite an atmosphere. Have you had any other games that were as thrilling as this one?"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "I've had some thrilling games in my career. My favorite was when we were down 10 in the 4th and I hit the buzzer-beater shot to win. The atmosphere was incredible and it was such a thrilling experience. Those moments make me love basketball so much."
+      },
+      {
+        "turn": 7,
+        "role": "Tim",
+        "text": "Wow, John! Moments like that make us love sports, huh? I still think about this pic you sent me a while back."
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Yeah, that pic reminds me of when I was younger. I'd practice basketball outside for hours, dreaming of playing in big games. It was my way of dealing with doubts and stress. It's amazing how a ball and hoop can be so powerful, right?"
+      },
+      {
+        "turn": 9,
+        "role": "Tim",
+        "text": "Yeah! Sports are the best. When we're feeling down, it's a way to express ourselves and stay positive. It's awesome how much basketball has done for you. Keep going with your dreams!"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Thanks! Appreciate the support. It's been a significant part of my life and allows me to be myself and pursue my passions. Gonna keep chasing my dreams!"
+      },
+      {
+        "turn": 11,
+        "role": "Tim",
+        "text": "Wow! It's really important to do our own thing and follow our dreams. Keep it up, you're gonna do amazing things!"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Your encouragement means a lot. Let's keep pushing and following our dreams - we can make a difference!"
+      },
+      {
+        "turn": 13,
+        "role": "Tim",
+        "text": "Definitely. We both have so much potential! Let's keep supporting each other on our journey towards our dreams."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Yeah, you're super inspiring and motivating. Keep it up!"
+      },
+      {
+        "turn": 15,
+        "role": "Tim",
+        "text": "Thanks, it means a lot. Let's keep each other motivated. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "English literature class",
+        "keywords": [
+          "English literature",
+          "class difficulty",
+          "series analysis",
+          "schoolwork"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "Career-high assists against rivals",
+        "keywords": [
+          "career-high assists",
+          "basketball",
+          "rival team",
+          "Friday game",
+          "team opportunities",
+          "arena atmosphere"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Buzzer-beater win",
+        "keywords": [
+          "basketball",
+          "buzzer-beater",
+          "fourth quarter",
+          "10-point deficit",
+          "game-winning shot"
+        ],
+        "turns": [
+          6
+        ]
+      },
+      {
+        "label": "Basketball, childhood practice, and dreams",
+        "keywords": [
+          "old photo",
+          "childhood",
+          "outdoor basketball practice",
+          "stress coping",
+          "self-expression",
+          "personal dreams",
+          "mutual encouragement"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.60673,
+    "thread_setup_seconds": 0.146514,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.60673,
+    "turn_seconds": 9.460216,
+    "first_text_seconds": 7.567364,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10648,
+      "completion_tokens": 390,
+      "total_tokens": 11038,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 207
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,196 @@
+{
+  "source_id": "c6cb4e8b745d57608d137fa2e",
+  "source_sha256": "b9381286d84da8eeaf31298e803b00f5b5913450bf5e41d116ca662b89a6d18d",
+  "request_sha256": "924760c2fb4a3bb45c569c8387869922a2694c9303d8bb8902d451d474a9e6d5",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c6cb4e8b745d57608d137fa2e",
+    "source_sha256": "b9381286d84da8eeaf31298e803b00f5b5913450bf5e41d116ca662b89a6d18d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Last night I joined a fantasy literature forum and had a great talk about my fave books. It was so enriching!"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Wow, great to hear that you had a blast talking books! It's cool to connect with others who share your passion. On a different note, exciting things are happening--I'm exploring endorsement opportunities. Thinking about the possibilities pumps me up. It would be amazing to work with brands and do something special. It's so rewarding to have my hard work pay off like this."
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Wow, that's awesome! Congrats - you must be so stoked! Which brands are you looking to link up with?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Thanks! I'm really excited about this new journey! I'm currently considering sports brands like Nike and Under Armour. It would be great to collaborate with brands that are related to sports. However, I'm also open to exploring other brands that align with my values and interests. There are so many options out there, and I can't wait to see where this takes me!"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "That's awesome! It's gotta be a rush having all these options. Can't wait to see which brands you choose to work with - gonna be great!"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Thanks! Exciting times ahead! I'll keep you updated on which brands I choose. Can't wait to see where this journey leads me. Thanks for your support."
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "Yeah, John! Count on me for support. Can't wait to see what's up! This is my book collection so far."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Wow, nice bookshelf! That picture is really interesting. What's up with it?"
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Thanks! That picture is from MinaLima. They created all the props for the Harry Potter films, and I love their work. It's like having a piece of the wizarding world at home!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Wow, having that is so cool! Your enthusiasm for it is awesome. You really go for it!"
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Thanks! I have lots of reminders of it - kind of a way to escape reality."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Do those reminders help you escape the daily grind? Any chance you'll visit more places related to that world soon?"
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "Definitely, those reminders really help. And there's definitely a chance I'll be visiting more HP spots in the future. It feels like I'm stepping into the books!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "That sounds awesome! So cool that you get to immerse yourself in that world. So glad you found something that brings you so much joy. Keep diving in and enjoying it! Here's a pic from a recent game."
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Wow! That's awesome! Were you playing or watching?"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Thanks! That was from a game I just played. I was in it! It was awesome being out there, doing what I love. Such an awesome feeling."
+      },
+      {
+        "turn": 16,
+        "role": "Tim",
+        "text": "Wow! You look so into it in that pic – it must be so awesome playing at that level! Keep rockin' it!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Thanks! It's a blast. Giving it my all every time I'm on the court. Really appreciate your support!"
+      },
+      {
+        "turn": 18,
+        "role": "Tim",
+        "text": "Yeah, keep going! Don't give up on your dreams. Talk to you later!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Tim’s fantasy books and Harry Potter collection",
+        "keywords": [
+          "fantasy literature forum",
+          "favorite books",
+          "book collection",
+          "MinaLima",
+          "Harry Potter films",
+          "wizarding world",
+          "Harry Potter locations",
+          "escapism"
+        ],
+        "turns": [
+          0,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "John’s brand endorsement opportunities",
+        "keywords": [
+          "brand endorsement",
+          "Nike",
+          "Under Armour",
+          "sports brands",
+          "brand collaboration",
+          "personal values",
+          "interests"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "John playing in a recent game",
+        "keywords": [
+          "recent game",
+          "playing",
+          "court",
+          "sports performance",
+          "giving it my all"
+        ],
+        "turns": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.682773,
+    "thread_setup_seconds": 0.300081,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.682773,
+    "turn_seconds": 8.382693,
+    "first_text_seconds": 6.850544,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10784,
+      "completion_tokens": 409,
+      "total_tokens": 11193,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 241
+    }
+  },
+  "error": null
+}

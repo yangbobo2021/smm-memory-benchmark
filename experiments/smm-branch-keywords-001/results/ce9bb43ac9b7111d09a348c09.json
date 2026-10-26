@@ -1,0 +1,154 @@
+{
+  "source_id": "ce9bb43ac9b7111d09a348c09",
+  "source_sha256": "af6f5dfc04b61e1888dd4f15a839d7e313ea19e50e548cb2492894134d262fb7",
+  "request_sha256": "471efb4bd6acd0619147ec9385088212f7eb795c3d198269b245bd620adee2f5",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ce9bb43ac9b7111d09a348c09",
+    "source_sha256": "af6f5dfc04b61e1888dd4f15a839d7e313ea19e50e548cb2492894134d262fb7",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Cal, been ages since we spoke! Guess what? I just got back from a road trip with my friends - we saw some stunning countryside. It was such a lovely break from the corporate mayhem. Driving on those winding roads, taking in the views, and chatting with my friends recharged me totally - reminds me why I love cars so much. What did you end up doing?"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave! Great hearing from you! Wow, a road trip sounds awesome. I bet it felt great to get away from work and relax on those twisty roads. Recharging with your passion is awesome!"
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "It was great to get away and reconnect with my passion. Reminded me why I'm passionate about what I do. Makes the long hours worth it. Here's a pic what a wonderful place we found. Have you had any recent moments that made you remember what you love?"
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "I'm happy for you that you have found such an amazing place! Yeah, I'm working on this project to transform a Japanese mansion into a recording studio. It's been my dream to have a space for creating music with other artists. It's my sanctuary that reminds me why I love music. Here's a pic of the progress I made."
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Wow, Calvin, this looks amazing! You've made so much progress. Must be very fulfilling to have your own space. What kind of music have you been creating in there?"
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Thanks, Dave! It feels great having my own space to work in. I've been experimenting with different genres lately, pushing myself out of my comfort zone. Adding electronic elements to my songs gives them a fresh vibe. It's been an exciting process of self-discovery and growth!"
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Wow, Calvin, that's great! It must be an exciting process of self-discovery and growth to experiment with different genres. Does moving between styles present any challenges?"
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "Yeah, switching it up can be tough, but I think it's a matter of finding the right balance between sticking to my sound and trying new stuff. It can be intimidating, but that's what makes it so exciting and keeps me motivated to keep going!"
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "Yeah, I get it. Finding a balance is tricky but it's gotta keep things interesting. How are you dealing with the pressure and staying motivated?"
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "I started making music to follow my dreams, and I'm stoked about how far I've come. Collaborating with others and learning from them keeps me motivated. Surrounding myself with positive energy and passion helps as well."
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "Sounds like a great plan, Calvin! Surrounding yourself with good vibes and collaborating with others will give you a boost. You've achieved so much so far; keep going, buddy!"
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Your support means a lot to me. I'm gonna keep pushing myself and striving for my goals, so let's chat again soon."
+      },
+      {
+        "turn": 12,
+        "role": "Dave",
+        "text": "You got this! Keep pushing yourself and never lose sight of your goals. I'm your biggest fan. Let's chat soon!"
+      },
+      {
+        "turn": 13,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Appreciate your support. Let's catch up soon and chat. Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dave’s countryside road trip",
+        "keywords": [
+          "road trip",
+          "friends",
+          "countryside",
+          "winding roads",
+          "cars",
+          "work break"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Calvin’s recording studio and music",
+        "keywords": [
+          "Calvin",
+          "Japanese mansion",
+          "recording studio",
+          "music",
+          "electronic elements",
+          "genre experimentation",
+          "collaboration",
+          "motivation"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.448118,
+    "thread_setup_seconds": 0.152293,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.448118,
+    "turn_seconds": 7.295825,
+    "first_text_seconds": 6.489594,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10751,
+      "completion_tokens": 235,
+      "total_tokens": 10986,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 116
+    }
+  },
+  "error": null
+}

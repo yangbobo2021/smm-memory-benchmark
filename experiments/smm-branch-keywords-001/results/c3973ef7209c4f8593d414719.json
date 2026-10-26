@@ -1,0 +1,145 @@
+{
+  "source_id": "c3973ef7209c4f8593d414719",
+  "source_sha256": "f3d5e54f3658c8e3597b1c612a5fd90e1918bf3fc0870b9b17f8cda398ade147",
+  "request_sha256": "9514d1b91722863ad4891a4c7aa6a6c4e2917cd414a9ec2e6566ec3b907f118b",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c3973ef7209c4f8593d414719",
+    "source_sha256": "f3d5e54f3658c8e3597b1c612a5fd90e1918bf3fc0870b9b17f8cda398ade147",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam! Long time no talk! Hope all is good. What have I been doing these past few weeks?"
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan! Nice to hear from you. Life has been an up and down ride. Have you seen the pic I posted of my before and after body as a result of the diet? Working to motivate others to make better choices."
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "Hey Sam! Loving it. Making healthier choices has definitely made a difference for me. It's amazing how small changes can have such a big impact. How about you? Is it making a difference for you too?"
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "Hey Evan, thanks for the support! Handling all this has been kinda wild. I'm trying to make healthier choices, but there are still the occasional cravings for sugary drinks and snacks... it's a real struggle."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Yeah, breaking bad habits can be hard. Cravings can be tough too, but little victories count. What do you think sets off those cravings for you?"
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "It's usually stress, boredom, or just wanting comfort. You know, those sugary treats are so tempting, right?"
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "Yeah, I get it. When I'm stressed, I always turn to something comforting. But I've found that painting or going for a drive helps too!"
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "Wow Evan, that's an awesome painting! Good on you for finding a way to de-stress. I could really use something like that - maybe I'll give painting a go or find another calming hobby."
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "Hey Sam, painting is super chill for calming down. Wanna give it a try? I can help you get started and recommend some supplies if you're interested. Let me know!"
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "Sounds great, Evan! I want to give it a go and see if it relaxes me. Can you suggest some basic supplies for me to get started?"
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "Yep, painting is awesome! Get some acrylic paints, brushes, a canvas/paper, and a palette to mix colors. I can give you some recommendations if you want. Just let me know when you're ready and we can plan a painting session!"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "Sounds great, Evan! Can you help me pick out the stuff? Let's plan a painting session soon. I'm really excited!"
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Yeah, Sam - let's do it! Let's get everything ready and paint next Saturday. Can't wait!"
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "Sounds good, Evan! Can't wait to paint with you next Saturday. It'll be a fun and creative activity."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Sam’s diet changes and painting for stress relief",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "diet",
+          "before-and-after body photo",
+          "healthier choices",
+          "sugary drink cravings",
+          "stress and boredom",
+          "painting hobby",
+          "acrylic paints",
+          "painting supplies",
+          "painting session",
+          "next Saturday"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.431959,
+    "thread_setup_seconds": 0.340836,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.431959,
+    "turn_seconds": 11.091123,
+    "first_text_seconds": 10.428161,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10622,
+      "completion_tokens": 330,
+      "total_tokens": 10952,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 223
+    }
+  },
+  "error": null
+}

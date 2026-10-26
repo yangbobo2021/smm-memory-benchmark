@@ -1,0 +1,167 @@
+{
+  "source_id": "cca727a82a4f1cdaddd44d63a",
+  "source_sha256": "452e0e2ff44ff0d77790a811523d707d1cb17fea3e94d577a8e1cffc8393025f",
+  "request_sha256": "fc37f533539f3835ae4c53c3ee70de589c4ab302e498ba15504b208b2e954fea",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cca727a82a4f1cdaddd44d63a",
+    "source_sha256": "452e0e2ff44ff0d77790a811523d707d1cb17fea3e94d577a8e1cffc8393025f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Met with the creative team for my album yesterday. It was a long session, but awesome to see everything coming together. "
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Cal! Sounds great that your album's coming along. Are you feeling good about it? Here's a pic I just took."
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Dave, thanks for checking in. I'm feeling stoked about this album! We've been making some magic with a team in the studio, working on the music and everything. Look at what a wonderful studio we have! How have you been? Anything new since we talked?"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Hey, nice photo of the studio! Working in a team yields incredible results, well done! Keep pushing it! I've been doing good - thanks for asking. I've been exploring some parks on the weekends to relax - it's so peaceful being surrounded by nature. Are there any chill spots you enjoy in Boston?"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Thanks! That studio is great for creativity. I've never been to Boston before, but I hear the parks are amazing. Can't wait to visit next month. Anything cool you remember about Boston parks?"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "That sounds great! The Boston parks are awesome, especially in spring. It's so serene when you're walking around. I went for a stroll last Friday and it was amazing. It's so magical - I bet you'll love it! I love taking walks on the weekends, they recharge me for the entire upcoming week!"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "I'm excited to experience that serenity. I can't wait to take a walk in the parks and recharge. Hey, have you been on any hikes lately?"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Nah, haven't gone hiking recently, but it's awesome - being in nature and pushing yourself to new heights. Clears your mind and brings a sense of calm. Have you been to the mountains before? Heard they're super chill."
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Nah, haven't been to the mountains but I'm keen to go. Looking for a way to escape it all and de-stress. I want to go on a hike to a place similar to this. What's new and exciting happening for you, Dave?"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "I booked a trip to a mountainous region for next month! Finally gonna be able to see those majestic peaks! Gonna be an amazing experience!"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Cool, Dave! Have a great time. I'm sure it's going to be an amazing experience. Take lots of pics and show me when you get back."
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Yep, Calvin! Gonna take lots of pics. Can't wait to show you when I get back!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Have fun exploring the mountains, Dave! Safe travels and see you soon. Take care!"
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Take care, see you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Calvin’s album and studio session",
+        "keywords": [
+          "Calvin",
+          "album",
+          "creative team",
+          "studio",
+          "music",
+          "recording session"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Boston parks and weekend walks",
+        "keywords": [
+          "Boston",
+          "parks",
+          "spring",
+          "weekend walks",
+          "nature",
+          "visit next month",
+          "relaxation"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Hiking and mountain trips",
+        "keywords": [
+          "hiking",
+          "mountains",
+          "mountainous region",
+          "Dave",
+          "trip next month",
+          "majestic peaks",
+          "de-stress"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.863045,
+    "thread_setup_seconds": 0.351305,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.863045,
+    "turn_seconds": 8.511739,
+    "first_text_seconds": 7.042422,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10662,
+      "completion_tokens": 279,
+      "total_tokens": 10941,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 127
+    }
+  },
+  "error": null
+}

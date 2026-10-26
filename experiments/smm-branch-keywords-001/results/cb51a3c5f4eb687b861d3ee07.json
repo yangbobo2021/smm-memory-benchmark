@@ -1,0 +1,205 @@
+{
+  "source_id": "cb51a3c5f4eb687b861d3ee07",
+  "source_sha256": "3b631c23c563bcbb16a5ab2926df68763b9de1dcd49a4575ce7bf66fdb5a93ba",
+  "request_sha256": "b935499346d3f3cc2428cb6120a1168d24b639f391d5e8749ec45a6d6ecbac39",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cb51a3c5f4eb687b861d3ee07",
+    "source_sha256": "3b631c23c563bcbb16a5ab2926df68763b9de1dcd49a4575ce7bf66fdb5a93ba",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Caroline",
+        "text": "Hey Mel! Long time no talk. Lots has been going on since then!"
+      },
+      {
+        "turn": 1,
+        "role": "Melanie",
+        "text": "Hey Caroline! Missed you. Anything new? Spill the beans!"
+      },
+      {
+        "turn": 2,
+        "role": "Caroline",
+        "text": "Since our last chat, I've been looking into counseling or mental health work more. I'm passionate about helping people and making a positive impact. It's tough, but really rewarding too. Anything new happening with you?"
+      },
+      {
+        "turn": 3,
+        "role": "Melanie",
+        "text": "That's awesome, Caroline! Congrats on following your dreams. Yesterday I took the kids to the museum - it was so cool spending time with them and seeing their eyes light up!"
+      },
+      {
+        "turn": 4,
+        "role": "Caroline",
+        "text": "Melanie, that's a great pic! That must have been awesome. What were they so stoked about?"
+      },
+      {
+        "turn": 5,
+        "role": "Melanie",
+        "text": "They were stoked for the dinosaur exhibit! They love learning about animals and the bones were so cool. It reminds me why I love being a mom."
+      },
+      {
+        "turn": 6,
+        "role": "Caroline",
+        "text": "Being a mom is awesome. I'm creating a library for when I have kids. I'm really looking forward to reading to them and opening up their minds."
+      },
+      {
+        "turn": 7,
+        "role": "Melanie",
+        "text": "Sounds great! What kind of books you got in your library?"
+      },
+      {
+        "turn": 8,
+        "role": "Caroline",
+        "text": "I've got lots of kids' books- classics, stories from different cultures, educational books, all of that. What's a favorite book you remember from your childhood?"
+      },
+      {
+        "turn": 9,
+        "role": "Melanie",
+        "text": "I loved reading \"Charlotte's Web\" as a kid. It was so cool seeing how friendship and compassion can make a difference."
+      },
+      {
+        "turn": 10,
+        "role": "Caroline",
+        "text": "Wow, that's great! It sure shows how important friendship and compassion are. It's made me appreciate how lucky I am to have my friends and family helping with my transition. They make all the difference. We even had a picnic last week!"
+      },
+      {
+        "turn": 11,
+        "role": "Melanie",
+        "text": "That's a gorgeous photo, Caroline! Wow, the love around you is awesome. How have your friends and fam been helping you out with your transition?"
+      },
+      {
+        "turn": 12,
+        "role": "Caroline",
+        "text": "Thanks, Melanie! This support network has been amazing. They've been there for me every step of the way giving me love, guidance, and acceptance. I couldn't have done it without them."
+      },
+      {
+        "turn": 13,
+        "role": "Melanie",
+        "text": "Wow, Caroline! It's great you have people to support you, that's really awesome!"
+      },
+      {
+        "turn": 14,
+        "role": "Caroline",
+        "text": "I'm so lucky to have such a great support system around me. Their love and encouragement has really helped me accept and grow into my true self. They've been instrumental in my transition."
+      },
+      {
+        "turn": 15,
+        "role": "Melanie",
+        "text": "Glad you have support, Caroline! Unconditional love is so important. Here's a pic of my family camping at the beach. We love it, it brings us closer!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Caroline’s counseling and mental health interests",
+        "keywords": [
+          "Caroline",
+          "counseling",
+          "mental health work",
+          "helping people",
+          "career interests"
+        ],
+        "turns": [
+          2
+        ]
+      },
+      {
+        "label": "Melanie’s museum trip with the kids",
+        "keywords": [
+          "Melanie",
+          "kids",
+          "museum",
+          "dinosaur exhibit",
+          "animals",
+          "motherhood"
+        ],
+        "turns": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Children’s library and childhood books",
+        "keywords": [
+          "Caroline",
+          "children’s library",
+          "children’s books",
+          "classic books",
+          "cultural stories",
+          "educational books",
+          "Charlotte’s Web",
+          "friendship",
+          "compassion"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Caroline’s transition and support network",
+        "keywords": [
+          "Caroline",
+          "transition",
+          "friends and family",
+          "support network",
+          "acceptance",
+          "true self",
+          "picnic",
+          "love",
+          "guidance"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "label": "Melanie’s family beach camping",
+        "keywords": [
+          "Melanie",
+          "family",
+          "camping",
+          "beach",
+          "family bonding"
+        ],
+        "turns": [
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.786381,
+    "thread_setup_seconds": 0.266294,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.786381,
+    "turn_seconds": 10.520086,
+    "first_text_seconds": 8.077986,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10655,
+      "completion_tokens": 512,
+      "total_tokens": 11167,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 275
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,179 @@
+{
+  "source_id": "c904d3995b7c3fd2862ebff7d",
+  "source_sha256": "98291d4b0c4a74856701317441d3524d79b316896060d9d0d277b684bdbdfb90",
+  "request_sha256": "804531d641ed897e3aa80041487579565f08c4e29203ae8d7b9ecf8ddbe3b5b7",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c904d3995b7c3fd2862ebff7d",
+    "source_sha256": "98291d4b0c4a74856701317441d3524d79b316896060d9d0d277b684bdbdfb90",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria, since we last spoke I went to that community mtg. It was really interesting hearing everyone's worries and how it affects our area. It made me realize how crucial the upgrades are, especially for the kids. I'm really upset seeing the state of our education. How do you think we can make things better?"
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Hey John, cool that you made it. You're right, it's really sad to see the state of education. We should fight for more money and resources for schools and raise awareness about the importance of education. It's not just for our kids, but for all of us too!"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Yup, education is essential for a successful society. I totally agree that we should fight for more money and resources for our schools. It breaks my heart that our kids don't have the proper stuff they need. They deserve better."
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "Yeah, John. Our kids are our future; they should have the best. It kills me to think about all the kids without the proper stuff they need. It's just not right."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "It's definitely isn't, Maria. My kids have so much and others don't. We really need to do something about it."
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Sure, it's not right that some kids get all they need while others have nothing to help them succeed. We gotta do something! Last week I volunteered at a shelter during an event for kids, and it's been a great experience."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Wow, Maria! That's really making a big impact. What made you decide to get involved with that?"
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "I started volunteering to help make a difference. My aunt believed in volunteering, and used to help my family out when we were struggling, so I'm inspired by her. It makes me happy knowing I can brighten somebody's day."
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Wow, Maria. That's amazing! I can imagine it's incredibly rewarding. Is there a particular moment that stands out to you as the most impactful?"
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "For me, it was when I noticed a little girl around 8 sitting all alone. She seemed so sad. So, I sat with her and we talked. Turns out she had no other family - it broke my heart. I was able to give her some comfort and a listening ear. We ended up laughing and having a good time."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Wow, what a touching moment, Maria. I'm glad you were there for her when she needed someone. I'm sure it made a big impact."
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "That's nice of you, John. What's the photo about?"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "It reminds me of something from my childhood. I had a little doll like this and it always made me feel better. It reminds me to always look out for others, especially when they're feeling down."
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "That's sweet. Spreading kindness and support can really make a difference, especially when someone is feeling down. Thanks for sharing."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "No problem, Maria. It's important to support each other when we're feeling down. You never know the difference a kind gesture can make."
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "Yep, kindness is key and a little compassion can really turn someone's day around. So glad we're on the same page here."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "School funding and education resources",
+        "keywords": [
+          "education",
+          "school funding",
+          "school resources",
+          "children",
+          "community meeting",
+          "education upgrades"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Volunteering at a children’s shelter",
+        "keywords": [
+          "volunteering",
+          "children’s shelter",
+          "kids’ event",
+          "Maria’s aunt",
+          "family support",
+          "lonely girl",
+          "comfort",
+          "listening"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Childhood doll and kindness",
+        "keywords": [
+          "photo",
+          "childhood",
+          "doll",
+          "kindness",
+          "compassion",
+          "emotional support"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.328797,
+    "thread_setup_seconds": 0.09087,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.328797,
+    "turn_seconds": 8.237927,
+    "first_text_seconds": 7.011002,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10766,
+      "completion_tokens": 263,
+      "total_tokens": 11029,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 105
+    }
+  },
+  "error": null
+}

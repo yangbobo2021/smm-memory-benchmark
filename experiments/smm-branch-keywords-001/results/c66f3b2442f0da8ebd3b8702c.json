@@ -1,0 +1,212 @@
+{
+  "source_id": "c66f3b2442f0da8ebd3b8702c",
+  "source_sha256": "45cd0361729ef19255802ebdc1bc8e2377500790a42160772453dd8192688da6",
+  "request_sha256": "b53aa2fc0ce9283c5580df1f3c360b12fdb4f1877334bf008e48b854da0ad865",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c66f3b2442f0da8ebd3b8702c",
+    "source_sha256": "45cd0361729ef19255802ebdc1bc8e2377500790a42160772453dd8192688da6",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John! It's been ages since we last talked. Guess what? Last week I went to a Harry Potter conference in the UK - it was incredible! There were so many people who shared the same love of HP as me, it was like a magical family. I felt so inspired and like I got a new lease of life. I love how my passion for fantasy stuff brings me closer to people from all over the world, it's pretty cool."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Tim! Great to hear from you. It's awesome how our passions connect us with others, yeah? You sound like you fit right in and got a real buzz out of it. I feel the same way with my team."
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Wow, you guys look great! How have games been going?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "It was an intense season with both tough losses and great wins. Overall, I'd say we did pretty well."
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Cool! Sounds like you guys had some tough games. How did you handle those?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Thanks! We faced tough opponents but that's what drives us to get better. We back each other up and won't quit."
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "Congrats! That's awesome. It must feel good, right?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Yeah, it feels great! All that hard work and effort was totally worth it. We even won a trophy!"
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Way to go! You must have been elated up there with that trophy. All the hard work paid off! Congrats - I'm so proud of you. Keep it up!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Thanks! I was definitely elated. Your support really means a lot to me. I'll keep working hard."
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "No problem! I'm here for you anytime. Keep believing in yourself!"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Thanks! Appreciate your support. Always staying filled with self-belief."
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "You got this! Stay motivated and remember that anything is possible with hard work. Keep pushing for your goals!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Thanks! Your encouragement means a lot to me. I'm feeling motivated and ready to keep pushing for my goals! I'm going to need some new shoes after all these games though."
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Glad my encouragement helped! These are amazing - like walking on clouds! Game changer!"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "They look comfortable. Where did you get them?"
+      },
+      {
+        "turn": 16,
+        "role": "Tim",
+        "text": "I got them online - they're super comfy! Definitely recommend!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Cheers! I'll definitely check them out. Thanks for the recommendation!"
+      },
+      {
+        "turn": 18,
+        "role": "Tim",
+        "text": "No worries. Let me know if there's anything else I can assist you with. Always here to help!"
+      },
+      {
+        "turn": 19,
+        "role": "John",
+        "text": "Thanks! Appreciate it. I'll reach out if I need anything."
+      },
+      {
+        "turn": 20,
+        "role": "Tim",
+        "text": "Cool! Stay motivated and keep chasing those dreams! Chat soon!"
+      },
+      {
+        "turn": 21,
+        "role": "John",
+        "text": "Thanks! I'll definitely stay motivated and keep chasing those dreams. You too, keep up the passion. Talk soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Harry Potter conference in the UK",
+        "keywords": [
+          "Harry Potter",
+          "fantasy",
+          "conference",
+          "United Kingdom",
+          "fan community",
+          "shared passion"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "John’s team season and trophy",
+        "keywords": [
+          "team",
+          "games",
+          "season",
+          "tough losses",
+          "wins",
+          "opponents",
+          "teamwork",
+          "trophy",
+          "self-belief",
+          "motivation"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "label": "Online shoe recommendation",
+        "keywords": [
+          "shoes",
+          "online shopping",
+          "comfort",
+          "recommendation"
+        ],
+        "turns": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.53958,
+    "thread_setup_seconds": 0.224493,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.53958,
+    "turn_seconds": 11.315087,
+    "first_text_seconds": 10.078586,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10745,
+      "completion_tokens": 352,
+      "total_tokens": 11097,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 197
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,155 @@
+{
+  "source_id": "cc33657a59394105b5bcb266f",
+  "source_sha256": "5d2ce2d2323a81f91dc7600c63dd14ff8c3ac6b0697e68ac1e73630e38ef056d",
+  "request_sha256": "81585e2e5e0d9ab574e523524073c54a639fd7a5040c7a2137b247a805b2d92d",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cc33657a59394105b5bcb266f",
+    "source_sha256": "5d2ce2d2323a81f91dc7600c63dd14ff8c3ac6b0697e68ac1e73630e38ef056d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Audrey",
+        "text": "Hey how's it going? Yesterday took my pups to the park, it was awesome! Seeing them running around and playing without a leash was awesome. It filled my heart with joy - their happiness brought me so much peace. "
+      },
+      {
+        "turn": 1,
+        "role": "Andrew",
+        "text": "That sounds amazing! Must have been so happy watching them running around. It's moments like that which show us how amazing animals are. Glad you had a great time. By the way, I think you mentioned before that you've taken them on a hiking trip? "
+      },
+      {
+        "turn": 2,
+        "role": "Audrey",
+        "text": "Yeah, I took them for a hike before. We went to a national park last week and made it to this beautiful peak. It was stunning during the sunset, and I'll never forget it. My furry pals were running around as it was so awesome. It felt like a slice of paradise. The breeze was nice and you could hear birds chirping."
+      },
+      {
+        "turn": 3,
+        "role": "Andrew",
+        "text": "That sounds amazing! I'm sure it was a memorable experience. Did you manage to capture it? I'd love to see a photo!"
+      },
+      {
+        "turn": 4,
+        "role": "Audrey",
+        "text": "Yep! I took a bunch of photos. This one of my favorites."
+      },
+      {
+        "turn": 5,
+        "role": "Andrew",
+        "text": "Wow, incredible sunset and the scenery! Must have been magical. Thanks for sharing!"
+      },
+      {
+        "turn": 6,
+        "role": "Audrey",
+        "text": "It was really special. Nature always cheers me up and makes me feel grateful. Glad you could experience it too. Oh, how are things going with your search for a furry friend?"
+      },
+      {
+        "turn": 7,
+        "role": "Andrew",
+        "text": "I'm still on the hunt, but it's tough finding a pet-friendly spot in the city. Been checking out some places, but no luck so far. A bit discouraged but I'm determined to find the right place and dog."
+      },
+      {
+        "turn": 8,
+        "role": "Audrey",
+        "text": "Oof, Hang in there, you'll find the perfect place for you and your new furry friend."
+      },
+      {
+        "turn": 9,
+        "role": "Andrew",
+        "text": "Thanks! I won't give up. "
+      },
+      {
+        "turn": 10,
+        "role": "Audrey",
+        "text": "I'm here to support! Email me your criterias so I can help you find a great spot for your furry friend."
+      },
+      {
+        "turn": 11,
+        "role": "Andrew",
+        "text": "Thanks! Your assistance is greatly appreciated. So thankful for your help."
+      },
+      {
+        "turn": 12,
+        "role": "Audrey",
+        "text": "Not a problem at all! We'll keep searching. Stay positive!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dogs’ park and hiking trip",
+        "keywords": [
+          "Audrey",
+          "Andrew",
+          "dogs",
+          "park visit",
+          "off-leash play",
+          "hiking",
+          "national park",
+          "mountain peak",
+          "sunset",
+          "photos",
+          "nature"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Finding a pet-friendly place and dog",
+        "keywords": [
+          "Andrew",
+          "Audrey",
+          "pet-friendly housing",
+          "city",
+          "dog search",
+          "housing criteria",
+          "email",
+          "support",
+          "apartment search"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.745316,
+    "thread_setup_seconds": 0.356345,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.745316,
+    "turn_seconds": 11.388971,
+    "first_text_seconds": 10.324311,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10536,
+      "completion_tokens": 312,
+      "total_tokens": 10848,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 178
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,187 @@
+{
+  "source_id": "c90e4713780f878d264275228",
+  "source_sha256": "4befc98bb7c6bfeddde7dbba69c6eeeeb7e2a7015898026cd1121e05651ee60c",
+  "request_sha256": "cddbc80efe43d3065cbcab65e6fa435d7f85687288c5011be24aa23963fe3559",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c90e4713780f878d264275228",
+    "source_sha256": "4befc98bb7c6bfeddde7dbba69c6eeeeb7e2a7015898026cd1121e05651ee60c",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Been ages since we chatted. So much has gone down. Touring with Frank Ocean last week was wild. Tokyo was unreal -- the crowd was insane. I felt so alive when performing, can't find the words to express it."
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Wow, that's awesome, Cal! I bet it was an incredible experience. Congrats! Look what I've been up to recently, that's my neighbor's car. He's been having some trouble with the engine, but now it's done by myself!"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Thanks, Dave! It was an amazing experience - the energy and love from the fans was crazy. The car in the pic? It's the one you were fixing up the engine for a friend? Working on cars helps me chill and clear my head."
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Yes, Cal! It's not difficult for me to help my neighbors with their cars. Working on cars is definitely therapeutic. Does it relax you as much as it does me?"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Yeah, totally! Fixing cars really calms me down and gives me a real sense of achievement - like meditating. Do you have any hobbies that give you the same satisfaction?"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "I'm passionate about fixing up things. It's more than just a hobby - it gives me a sense of achievement and purpose. I get a real buzz transforming something that's not working into something that runs smoothly - it's like giving it a second chance."
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "That's so inspiring, Dave. You find purpose in transforming things – like when you create something new or collaborate with others. We're both making something great out of nothing, it's amazing, right?"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Yeah Cal, it's kinda cool how we can take something and make it look amazing. Giving it a new life makes me feel powerful and happy - like I really achieved something."
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Yeah, Dave! That feeling of power and happiness is amazing! It's great to see what we created with all our hard work and ideas."
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Yeah, Calvin! Accomplishment keeps me motivated. You mentioned Tokyo lit you up. Do you always enjoy performing live?"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Performing live always fuels my soul! I love the rush and connection with the crowd, the feeling's indescribable—it's an absolute high!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Wow, I bet it feels awesome. The connection between artist and audience must be so powerful. Look at the atmosphere in this photo, it's just off the charts!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Yeah, Dave! That feeling is amazing. Everyone is part of it, it's like one big harmony."
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "That's awesome! Music really brings people together and creates a great atmosphere. It's like therapy for us all. So, what's next for your music?"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "Cool, can't wait for the tour with Frank! I'm buzzing to perform in Boston and see what it's like. Gonna be great playing for folks from home. What do you think of the music scene there?"
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "Hey, Boston's music scene is awesome! Tons of talented musicians and cool places to play. It'll be a blast performing there - I'll be there to cheer you on!"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Your support means a lot to me. Can't wait to experience the music scene there."
+      },
+      {
+        "turn": 17,
+        "role": "Dave",
+        "text": "Great, Calvin! Have a great time in Boston. Can't wait to hear all about it when you get back!"
+      },
+      {
+        "turn": 18,
+        "role": "Calvin",
+        "text": "Thanks! I'll fill you in on all the details when I get back. See you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Car repair as a therapeutic hobby",
+        "keywords": [
+          "Dave",
+          "Calvin",
+          "neighbor's car",
+          "engine repair",
+          "fixing cars",
+          "therapeutic hobby",
+          "sense of achievement",
+          "giving things new life"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Live music and touring",
+        "keywords": [
+          "Calvin",
+          "Dave",
+          "Frank Ocean",
+          "Tokyo",
+          "Boston",
+          "music tour",
+          "live performance",
+          "audience connection",
+          "music scene"
+        ],
+        "turns": [
+          0,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.393111,
+    "thread_setup_seconds": 0.108679,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.393111,
+    "turn_seconds": 10.284432,
+    "first_text_seconds": 8.528367,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10854,
+      "completion_tokens": 352,
+      "total_tokens": 11206,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 213
+    }
+  },
+  "error": null
+}

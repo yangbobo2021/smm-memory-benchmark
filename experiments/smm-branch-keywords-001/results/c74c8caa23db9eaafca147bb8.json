@@ -1,0 +1,199 @@
+{
+  "source_id": "c74c8caa23db9eaafca147bb8",
+  "source_sha256": "bf1160ae53a34c0779ce32983d32683f7244d2e8f049f5ddffc520c2262c8f57",
+  "request_sha256": "f08e767516ead3af1ecbb1b534aa422ec207fd8c51d54380b729f3396b7a6a7f",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c74c8caa23db9eaafca147bb8",
+    "source_sha256": "bf1160ae53a34c0779ce32983d32683f7244d2e8f049f5ddffc520c2262c8f57",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Andrew",
+        "text": "Hey Audrey, hope you're doing good! So I've decided to take a break from work yesterday and check out a new cafe. It was a nice change and reminded me of how the great outdoors is always there to offer you peace. Here's a photo from my last hike - so serene! How's your month been so far?"
+      },
+      {
+        "turn": 1,
+        "role": "Audrey",
+        "text": "Hi Andrew! The cafe sounds great, and the hike pic's great! August's been eventful - I learned a new skill! It was really awesome, making sure they were pampered and happy. I've always loved caring for my pups, and now taking care of their grooming myself makes me closer to them. They look so cute post-grooming!"
+      },
+      {
+        "turn": 2,
+        "role": "Andrew",
+        "text": "Wow that's awesome! You're doing an amazing job taking care of your pups. Can you show me a pic of them after the grooming? I bet they look adorable!"
+      },
+      {
+        "turn": 3,
+        "role": "Audrey",
+        "text": "Here's a photo of them after their grooming - look how soft and fluffy they are!"
+      },
+      {
+        "turn": 4,
+        "role": "Andrew",
+        "text": "Wow, they look so cute and fluffy! You did such a great job. How did you do it so well? I've always wanted to learn dog grooming but never got the time."
+      },
+      {
+        "turn": 5,
+        "role": "Audrey",
+        "text": "I took a dog grooming course and learned lots of techniques. Would you like to hear some tips?"
+      },
+      {
+        "turn": 6,
+        "role": "Andrew",
+        "text": "Of course! I'd love to hear some tips. It's something I've always been interested in."
+      },
+      {
+        "turn": 7,
+        "role": "Audrey",
+        "text": "Grooming slowly and gently, paying attention to sensitive areas like ears and paws. And remember to stay patient and positive throughout the grooming process."
+      },
+      {
+        "turn": 8,
+        "role": "Andrew",
+        "text": "Cool tips! I'll remember them if I ever get to groom Toby. Thanks!"
+      },
+      {
+        "turn": 9,
+        "role": "Audrey",
+        "text": "No problem, glad the tips helped. If you ever give it a shot, let me know and I can provide more advice."
+      },
+      {
+        "turn": 10,
+        "role": "Andrew",
+        "text": "Thanks! I'll let you know if I decide to give it a try. Appreciate your help. What are your plans for the weekend?"
+      },
+      {
+        "turn": 11,
+        "role": "Audrey",
+        "text": "I'm taking them out for a stroll in the park - they love it and it's a good workout for us. Any weekend plans for you?"
+      },
+      {
+        "turn": 12,
+        "role": "Andrew",
+        "text": "This weekend I'm heading to a nature reserve to reconnect with the outdoors - excited!"
+      },
+      {
+        "turn": 13,
+        "role": "Audrey",
+        "text": "Cool! Have a great time reconnecting with nature. Don't forget to take some nice pictures!"
+      },
+      {
+        "turn": 14,
+        "role": "Andrew",
+        "text": "Sure thing, I'll get some awesome pics to show you when I return. "
+      },
+      {
+        "turn": 15,
+        "role": "Audrey",
+        "text": "Haha thanks! Your pics of hikes are always nice."
+      },
+      {
+        "turn": 16,
+        "role": "Andrew",
+        "text": "Yeah! I really wanted to save the moment ya know?"
+      },
+      {
+        "turn": 17,
+        "role": "Audrey",
+        "text": "No wonder. Now I can't wait for the pics. Take care and have fun! My dogs will be waiting too!"
+      },
+      {
+        "turn": 18,
+        "role": "Andrew",
+        "text": "Thanks! Can't wait to show you them when I'm back. See ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dog grooming and care tips",
+        "keywords": [
+          "Audrey",
+          "pups",
+          "dog grooming",
+          "grooming course",
+          "sensitive areas",
+          "ears and paws",
+          "patience",
+          "Toby"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Cafe break and outdoor photos",
+        "keywords": [
+          "Andrew",
+          "cafe",
+          "work break",
+          "hike",
+          "nature reserve",
+          "outdoors",
+          "weekend plans",
+          "photos"
+        ],
+        "turns": [
+          0,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "label": "Dogs’ park stroll",
+        "keywords": [
+          "Audrey",
+          "dogs",
+          "park stroll",
+          "weekend",
+          "walk",
+          "workout"
+        ],
+        "turns": [
+          11
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 16.250721,
+    "thread_setup_seconds": 2.901752,
+    "rate_wait_seconds": 0,
+    "active_seconds": 16.250721,
+    "turn_seconds": 13.34897,
+    "first_text_seconds": 11.375309,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10715,
+      "completion_tokens": 499,
+      "total_tokens": 11214,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 333
+    }
+  },
+  "error": null
+}

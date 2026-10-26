@@ -1,0 +1,158 @@
+{
+  "source_id": "cdd6e915be62b998a88256c25",
+  "source_sha256": "b57a81cc70b544fe5d2763d8c9bf49e0458d841bae770aa674ae14c7025d5d2a",
+  "request_sha256": "74a96cba64ccd525c49c894d3cb7bd5ae8df24dd447e6cb1b2f4d43681955a58",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cdd6e915be62b998a88256c25",
+    "source_sha256": "b57a81cc70b544fe5d2763d8c9bf49e0458d841bae770aa674ae14c7025d5d2a",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Nate",
+        "text": "Hey Jo, guess what I did? Dyed my hair last week - come see!"
+      },
+      {
+        "turn": 1,
+        "role": "Joanna",
+        "text": "Wow, Nate! Can't wait to see it. Must feel so liberating! How're you feeling?"
+      },
+      {
+        "turn": 2,
+        "role": "Nate",
+        "text": "I'm so stoked about it! Check it out!"
+      },
+      {
+        "turn": 3,
+        "role": "Joanna",
+        "text": "Wow, your new hair color looks amazing! What made you choose that shade? Tell me all about it!"
+      },
+      {
+        "turn": 4,
+        "role": "Nate",
+        "text": "Thanks Jo! I picked this color because it's bright and bold - like me! I wanted to stand out from the regular options."
+      },
+      {
+        "turn": 5,
+        "role": "Joanna",
+        "text": "That's amazing, Nate! Your boldness really inspired me. It reminded me of this gorgeous sunset I saw while hiking the other day. It made me realize the importance of showing the world who we are."
+      },
+      {
+        "turn": 6,
+        "role": "Nate",
+        "text": "Wow, that sunset looks awesome! Jealous! I bet you had a great time. Are there any more exciting trips coming up for you?"
+      },
+      {
+        "turn": 7,
+        "role": "Joanna",
+        "text": "I did! the sky was so gorgeous! Wish I had a vacation lined up, but right now my writing is consuming me. Hoping for some good news soon!"
+      },
+      {
+        "turn": 8,
+        "role": "Nate",
+        "text": "I understand, Joanna. Big projects can be so taxing. Keep me posted on how it goes, alright?"
+      },
+      {
+        "turn": 9,
+        "role": "Joanna",
+        "text": "Cheers, Nate! Your support means a lot. I'll definitely keep you updated."
+      },
+      {
+        "turn": 10,
+        "role": "Nate",
+        "text": "Sounds great, See you soon?"
+      },
+      {
+        "turn": 11,
+        "role": "Joanna",
+        "text": "Totally! Bye Nate!"
+      },
+      {
+        "turn": 12,
+        "role": "Nate",
+        "text": "Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Nate’s bold hair dye",
+        "keywords": [
+          "Nate",
+          "Joanna",
+          "hair dye",
+          "bright bold color",
+          "standing out",
+          "self-expression"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Joanna’s sunset hike and future trips",
+        "keywords": [
+          "Joanna",
+          "sunset",
+          "hiking",
+          "vacation",
+          "upcoming trips",
+          "showing who we are"
+        ],
+        "turns": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Joanna’s writing project",
+        "keywords": [
+          "Joanna",
+          "writing",
+          "big project",
+          "good news",
+          "support",
+          "updates"
+        ],
+        "turns": [
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 6.79934,
+    "thread_setup_seconds": 0.158496,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.79934,
+    "turn_seconds": 6.640844,
+    "first_text_seconds": 5.501084,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10410,
+      "completion_tokens": 267,
+      "total_tokens": 10677,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 122
+    }
+  },
+  "error": null
+}

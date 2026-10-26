@@ -1,0 +1,219 @@
+{
+  "source_id": "cde8756ab379f796052821cfd",
+  "source_sha256": "7990dcead73171348a71153e0553bb167caa6c50f21008636acbc9ce62842ee4",
+  "request_sha256": "c67db9c92f7d8bfe457ce31c415b9c65ce491fed832ff1379491e472fda21373",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cde8756ab379f796052821cfd",
+    "source_sha256": "7990dcead73171348a71153e0553bb167caa6c50f21008636acbc9ce62842ee4",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "James",
+        "text": "Hey John, it's been a few days since we talked. So much has gone on, both good and bad. Yesterday, when we were at the theater, Samantha loves theater, I asked her to become my girlfriend, and she agreed. We have gone through a lot in this short period. There were good and bad, but I'm happy with her. All that ups and downs were a bit overwhelming, but it's part of life. What about you? Anything interesting lately?"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey James, this is great news! Where else have you been besides the theater? My parents just started learning coding from me - it's been a learning experience, but I'm glad to help them out. It binds us a little closer. Look at this photo, this is my father coding his own program for the first time.\n "
+      },
+      {
+        "turn": 2,
+        "role": "James",
+        "text": "That's great, John! Looks like he's having a good time in the pic. Samantha and I were also at McGee's bar. It turned out that she loves a good lager beer. She and I have so much in common!"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "I'm glad you finally found someone other than dogs that brings you joy. Well done, you will succeed!"
+      },
+      {
+        "turn": 4,
+        "role": "James",
+        "text": "Thanks, John. She and I are going to a baseball game next Sunday, want to join? I'll show you what Samantha looks like."
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Yeah! Let's do it. It'll be a fun experience!"
+      },
+      {
+        "turn": 6,
+        "role": "James",
+        "text": "Great. Well, what else is new in your life?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "I bought some new gaming equipment to improve my skills. For example, new headphones."
+      },
+      {
+        "turn": 8,
+        "role": "James",
+        "text": "Cool, which company did you choose? And what other devices did you buy?"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "I chose headphones from Sennheiser. Judging by the reviews, they have excellent sound. Also, I bought a mouse from Logitech."
+      },
+      {
+        "turn": 10,
+        "role": "James",
+        "text": "Cool! I hope the new devices will improve your skill and you will play even better!"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "I really hope so too. Well, do you have anything new besides the great news about you and Samantha?"
+      },
+      {
+        "turn": 12,
+        "role": "James",
+        "text": "Yes, two days ago I signed up for a cooking class. I never liked cooking, but I felt that I wanted to learn something new. At the first lesson we prepared several simple dishes. I got a great omelette the first time!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "Cool! I’ve never heard of your desire to cook, you surprise me! How much do these cooking courses cost and what else did you cook there?"
+      },
+      {
+        "turn": 14,
+        "role": "James",
+        "text": "At only $10 per class, it's very cheap! Also, I made meringue there and they taught us how to make the dough."
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Really cheap. It's great that you are always looking for a way to improve yourself!"
+      },
+      {
+        "turn": 16,
+        "role": "James",
+        "text": "Thanks for your support, John! I really appreciate it. I hope I can treat you to my creation once I learn a little more about cooking."
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "I look forward to it, James, you can do it!"
+      },
+      {
+        "turn": 18,
+        "role": "James",
+        "text": "Your words give me even more strength to pursue my new hobby!"
+      },
+      {
+        "turn": 19,
+        "role": "John",
+        "text": "That's why we are friends, to support each other! Well, I have to go, bye!"
+      },
+      {
+        "turn": 20,
+        "role": "James",
+        "text": "Take care, John, bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "James and Samantha’s relationship and outings",
+        "keywords": [
+          "James",
+          "Samantha",
+          "girlfriend",
+          "theater",
+          "McGee’s bar",
+          "lager beer",
+          "baseball game",
+          "next Sunday"
+        ],
+        "turns": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "John teaches his parents coding",
+        "keywords": [
+          "John",
+          "parents",
+          "coding",
+          "father",
+          "first program",
+          "photo"
+        ],
+        "turns": [
+          1
+        ]
+      },
+      {
+        "label": "John’s gaming equipment",
+        "keywords": [
+          "gaming equipment",
+          "headphones",
+          "Sennheiser",
+          "Logitech",
+          "mouse",
+          "gaming skills"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "James’s cooking class and new hobby",
+        "keywords": [
+          "cooking class",
+          "$10 per class",
+          "omelette",
+          "meringue",
+          "dough",
+          "cooking",
+          "new hobby"
+        ],
+        "turns": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.8195,
+    "thread_setup_seconds": 0.252644,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.8195,
+    "turn_seconds": 11.566856,
+    "first_text_seconds": 9.547483,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10815,
+      "completion_tokens": 375,
+      "total_tokens": 11190,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 179
+    }
+  },
+  "error": null
+}

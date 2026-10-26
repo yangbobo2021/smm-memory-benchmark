@@ -1,0 +1,164 @@
+{
+  "source_id": "ca114e7eb0f5679907c5fa27c",
+  "source_sha256": "65aee3664ab311bbfa3280524b3791cbd257e5db1043fb9091275d5d1aac74bc",
+  "request_sha256": "7d398e9e2cb8e9ac44bb016ec7a4384b643317192b6c62bb1f542a1b085a66a0",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ca114e7eb0f5679907c5fa27c",
+    "source_sha256": "65aee3664ab311bbfa3280524b3791cbd257e5db1043fb9091275d5d1aac74bc",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Sorry it took me so long to get back to you. Crazy times since we talked! My album finally dropped on the 11th and it was a wild feeling. Everyone's been loving it and it's motivated me to keep going."
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Calvin! Congrats on your album release - that's awesome! Has it been overwhelming or inspiring?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Thanks, Dave! It's been a lot. Seeing everyone get behind it has been awesome. It's kinda overwhelming to think so many appreciate it. It's also cool that it's connecting with people. It really motivates me to make even better music."
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "That's awesome, Calvin! It's such a great feeling when your work gets noticed and makes a positive difference. It must be really motivating for you to keep chasing your dreams."
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Yeah, moments like this remind me why I got into music - making a difference and sharing my own story. It's exciting to get positive feedback and it gives me strength to keep going and reach more people. My journey's just getting started!"
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Wow, Calvin! You've come a long way since we started talking music. What's next for you? Anything exciting coming up?"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "Thanks Dave! Lots of cool stuff happening. Next up, a tour - so excited! After that, I'm off to explore and grow my brand. Can't wait to see what the future has in store!"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Wow, Calvin! Congrats on the upcoming tour! Can't wait to see you perform. Do you have any cities or venues in mind?"
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Yay! Dave! We're hitting some awesome spots - it's gonna be epic!"
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "That sounds awesome, Calvin! Live music is the best. I'm sure you're gonna have a blast on tour and make some awesome memories. If you ever want to check out my garage and see some cool cars, I'd love to show you around. Keep rockin'!"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Thanks, Dave! I'll definitely take you up on that offer. It would be fun to check out your garage and maybe even get some ideas for future projects. I'll let you know when I'm in Boston. Keep pursuing your passions and keep those cars rolling. You rock!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Appreciate the kind words and support. Can't wait for your visit! Take care and keep creating amazing music! Check out pic of my garage, it looks stunning!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Thanks! I can't wait for your visit either. Take care and keep enjoying your hobbies!"
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Sure thing! Thanks again for your help. Bye! Have a great day."
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "No problem! Always good chatting with you. Have an awesome day!"
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Catch you later. Have a great day!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Calvin’s album, music career, and tour",
+        "keywords": [
+          "Calvin",
+          "album release",
+          "music",
+          "positive feedback",
+          "music career",
+          "upcoming tour",
+          "brand growth",
+          "11th"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Dave’s garage and possible Boston visit",
+        "keywords": [
+          "Dave",
+          "garage",
+          "cars",
+          "Boston",
+          "garage visit",
+          "future projects",
+          "garage photo"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 6.622383,
+    "thread_setup_seconds": 0.086801,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.622383,
+    "turn_seconds": 6.535582,
+    "first_text_seconds": 5.643651,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10689,
+      "completion_tokens": 267,
+      "total_tokens": 10956,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 147
+    }
+  },
+  "error": null
+}

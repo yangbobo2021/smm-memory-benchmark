@@ -1,0 +1,157 @@
+{
+  "source_id": "ce08bdcbc8b2fc20c5e30b4ab",
+  "source_sha256": "b81e07edac530685c0a45f00339745ab293ff66965c01f202963bd8ea70ec17c",
+  "request_sha256": "b7b2e8f0b0ee49c44e134f5d3e8b0c19a92cba7f46e5a1a1a789779fb9739d95",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ce08bdcbc8b2fc20c5e30b4ab",
+    "source_sha256": "b81e07edac530685c0a45f00339745ab293ff66965c01f202963bd8ea70ec17c",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John! How's it going? Hope all is good."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Tim! Things have been good. Something exciting happened recently for me. What about you? How's everything going?"
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "Cool news! I'm trying to get my head around the visa requirements for some places I want to visit. It's kind of overwhelming but I'm excited! What have you been up to?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Last week was wild - something incredible happened. But it's a total dream come true - just crazy! I got an endorsement with a popular beverage company!"
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Congrats! How did it feel to seal the deal?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Thanks! It felt crazy. It's not just about the signing, but it's about feeling like all the hard work paid off - like all those training hours weren't for nothing."
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "Wow! I bet you were thrilled when everything finally worked out. That sense of accomplishment is awesome and really boosts your self-esteem. I can imagine all the hard work you put into it was definitely worth it."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Yeah, it's great when you reach a goal and it feels rewarding. It's a reminder that you're going in the right direction, and all the hard work was worth it. What's something you feel proud of recently?"
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "I'm proud of researching visa requirements for countries I want to visit. It feels like taking initiative is a step towards making my travel dreams a reality!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Great going! Taking initiative is a must if you wanna achieve your goals. I'm excited to hear about all your future adventures!"
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Thanks! I'll keep you in the loop about my travels. Is there anywhere you recommend visiting?"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Barcelona is a must-visit city! You'll love exploring the culture, admiring the architecture, and tasting the amazing food in each neighborhood. Plus, the nearby beaches are great for soaking up the sun. Definitely add it to your travel list!"
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "Barcelona sounds awesome! I've heard so many great things. Definitely adding it to my list. Thanks!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "No problem! Glad you liked the suggestion. Let me know if you have any other questions or need help with anything."
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Cheers! I owe you one. Let me know if you need anything. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s beverage-company endorsement",
+        "keywords": [
+          "John",
+          "beverage company",
+          "endorsement",
+          "signing",
+          "training hours",
+          "hard work",
+          "accomplishment",
+          "self-esteem"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Tim’s travel planning and Barcelona recommendation",
+        "keywords": [
+          "Tim",
+          "visa requirements",
+          "travel plans",
+          "travel dreams",
+          "Barcelona",
+          "architecture",
+          "neighborhood food",
+          "nearby beaches"
+        ],
+        "turns": [
+          2,
+          8,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.308849,
+    "thread_setup_seconds": 0.249049,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.308849,
+    "turn_seconds": 10.059799,
+    "first_text_seconds": 9.491973,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10575,
+      "completion_tokens": 254,
+      "total_tokens": 10829,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 138
+    }
+  },
+  "error": null
+}

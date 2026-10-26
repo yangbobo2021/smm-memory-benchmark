@@ -1,0 +1,152 @@
+{
+  "source_id": "cfee7416163f9da91715a483f",
+  "source_sha256": "53e5f60ed444e0d7c0816870a09b300bab83f09d7ae69f1feaa287ae16b9b140",
+  "request_sha256": "cf9672f57ea6f664ccbdd97417f62c229f3134e7924dad21ca63c6407a3ee205",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cfee7416163f9da91715a483f",
+    "source_sha256": "53e5f60ed444e0d7c0816870a09b300bab83f09d7ae69f1feaa287ae16b9b140",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Calvin! Long time no talk! Got some cool news to share - last night was a blast! My band and I were jamming and the music just kept flowing. We had so much fun rehearsing! Also, last weekend, I had the opportunity to attend a rock concert here in Boston. Just take a look at what an amazing atmosphere it was!"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave! That's awesome! When everything just clicks during a jam session, it's such a great feeling. Do you happen to have any recordings of those sessions? That sounds fantastic! Rock concerts always have such an electrifying atmosphere! "
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "Hey Calvin! I wish we had recorded the jam, but we were way too into it and totally forgot."
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "Aww, bummer! I would've loved to hear that music. Oh well, some of the best memories can't be captured on video or audio. It's like those special moments that stay in our hearts and minds. Take a look at this cool Disney poster!"
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Wow, that's a gorgeous poster! It reminds me of one of my favorite Disney movies. I love the lesson it teaches about following your dreams no matter what others say. Have you seen it yet?"
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Thanks! Ratatouille is one of my favorites! It's all about going after what you love, no matter what anyone says. Last time we talked, you mentioned your car hobby - how's that going?"
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Thanks, Calvin! It's been awesome. Been restoring this vintage beauty - here is the final result pic, take a look!"
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "Nice work, Dave! That looks amazing. Is it satisfying to see your hard work pay off?"
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "Thanks, Calvin! It's so satisfying to see this brought back to life, especially with people's reactions when they see the finished product - makes all the hard work worth it."
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Dave, it's awesome seeing people happy thanks to you! Fixing cars is such an art. You're inspiring - keep up the good work!"
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "Thanks, Calvin! It means a lot that you appreciate what I do. I'm glad that I can make people happy and that's what I'm gonna keep doing. Got to go now, I have a lot of work to do! Take care!"
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "You're really talented, Dave. Keep making people happy and doing what you love. That's what it's all about. See you soon, have a nice one!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Band jam and Boston rock concert",
+        "keywords": [
+          "band rehearsal",
+          "jam session",
+          "music recording",
+          "rock concert",
+          "Boston",
+          "last weekend"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Ratatouille and following your dreams",
+        "keywords": [
+          "Disney poster",
+          "Ratatouille",
+          "following your dreams",
+          "favorite movie"
+        ],
+        "turns": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Vintage car restoration",
+        "keywords": [
+          "car hobby",
+          "vintage car",
+          "restoration",
+          "finished result",
+          "hard work",
+          "customer reactions"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.458729,
+    "thread_setup_seconds": 0.162479,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.458729,
+    "turn_seconds": 8.29625,
+    "first_text_seconds": 7.108915,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10597,
+      "completion_tokens": 206,
+      "total_tokens": 10803,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 68
+    }
+  },
+  "error": null
+}

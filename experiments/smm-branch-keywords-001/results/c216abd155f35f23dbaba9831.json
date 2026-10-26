@@ -1,0 +1,219 @@
+{
+  "source_id": "c216abd155f35f23dbaba9831",
+  "source_sha256": "98e4b65cb6ee1b07fdbc5eeb4ce96aa0e9da607b6605e1562bd8b1627e5128f2",
+  "request_sha256": "41d53a1760f7b7b0f6b5d7673fff2749cacd73364fbee5470fbce65b1bf8b6c3",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c216abd155f35f23dbaba9831",
+    "source_sha256": "98e4b65cb6ee1b07fdbc5eeb4ce96aa0e9da607b6605e1562bd8b1627e5128f2",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Calvin, how's the car doing after the crash? You were stoked to get back on the road, right?"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave! Thanks for checking in. It's all good now, the car's fixed and going strong. Nothing better than cruising around - it's the best! Look at how my car looks right now. How've you been? Anything new?"
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "Glad to hear your car's fixed and going strong! I've been good too. Just been hanging out with friends at parks lately. I arranged with friends for regular walks together in the park."
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "\nThat sounds like a great plan! Regular walks with friends can be a wonderful way to spend time together and stay active. Fresh air and buddies can do wonders. Do you have a favorite spot for hanging out?"
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Yeah, today we are going to that spot. Look at that lovely photo."
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Wow, what a view! That sunset over the river is gorgeous. It must be so tranquil there. Reminds me of living in my Japanese mansion with the epic cityscape. It's like a dream come true! Look at this photo I took from my backyard of the mansion. It's so beautiful!"
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Yeah, the peace by the river is really nice. But living in a Japanese mansion surrounded by that city skyline must be stunning. The views must be amazing!"
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "Ah, it really is beautiful. Whenever I look out the windows and see the city lights, it's so awe-inspiring. Luxury and beauty on a whole new level. Look at the front part of the mansion."
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "That mansion looks great! I bet the view from inside is stunning. Must be amazing living there. Anything else you're looking forward to doing in Japan?"
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Thanks Dave! Japan is indeed amazing. Can't wait to try the food and check out the culture. Have you ever been there?"
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "Nope, never been to Japan but I'm so keen to go one day. I've heard it's full of vibes, good eats and awesome tech. Plus, being able to experience the culture would be amazing - I'm hooked on their music!"
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "Japan definitely has it all - vibes, food, tech, and an amazing culture. It's like stepping into another world. I've been working on some cool music collaborations with Japanese artists, and I'm really excited to hear how it turns out!"
+      },
+      {
+        "turn": 12,
+        "role": "Dave",
+        "text": "Cool, Cal! Working with them is a great chance - can't wait for the tunes!"
+      },
+      {
+        "turn": 13,
+        "role": "Calvin",
+        "text": "Thanks! I'll share some clips when everything's ready. Collaborating with various artists is always exciting, it's a chance to create something unique."
+      },
+      {
+        "turn": 14,
+        "role": "Dave",
+        "text": "Way to go, Cal! Collaborating with different artists to create something special sounds amazing. Can't wait to see/hear the end product!"
+      },
+      {
+        "turn": 15,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Appreciate all the help. It's gonna be awesome - can't wait to show you. Great catching up, gotta get back to work now. Take care!"
+      },
+      {
+        "turn": 16,
+        "role": "Dave",
+        "text": "Hey Cal, take care and don't overwork yourself! Talk to you soon. Stay safe!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Car repaired after crash",
+        "keywords": [
+          "car crash",
+          "car repair",
+          "driving",
+          "cruising"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Regular walks and riverside visit",
+        "keywords": [
+          "park walks",
+          "friends",
+          "regular walks",
+          "river sunset",
+          "riverside photo"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Japanese mansion and city views",
+        "keywords": [
+          "Japanese mansion",
+          "backyard photo",
+          "mansion exterior",
+          "city skyline",
+          "city lights"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Interest in visiting Japan",
+        "keywords": [
+          "Japan travel",
+          "Japanese food",
+          "Japanese culture",
+          "Japanese technology",
+          "Japanese music"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Music collaborations with Japanese artists",
+        "keywords": [
+          "music collaboration",
+          "Japanese artists",
+          "music clips",
+          "creative work",
+          "finished tracks"
+        ],
+        "turns": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "Dave reminds Calvin to rest",
+        "keywords": [
+          "overwork",
+          "work",
+          "stay safe",
+          "goodbye"
+        ],
+        "turns": [
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.687317,
+    "thread_setup_seconds": 0.120012,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.687317,
+    "turn_seconds": 8.567305,
+    "first_text_seconds": 6.193635,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10775,
+      "completion_tokens": 456,
+      "total_tokens": 11231,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 219
+    }
+  },
+  "error": null
+}

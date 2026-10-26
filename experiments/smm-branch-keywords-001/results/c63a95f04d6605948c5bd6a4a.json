@@ -1,0 +1,195 @@
+{
+  "source_id": "c63a95f04d6605948c5bd6a4a",
+  "source_sha256": "3b53f65e1f777f533d772a16e3352688419be08be6d9487175c7003b027dbd3e",
+  "request_sha256": "bf1678127a657017c6b3fcd39e978a74dda3db52357e0806adcbe8e583aea05c",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c63a95f04d6605948c5bd6a4a",
+    "source_sha256": "3b53f65e1f777f533d772a16e3352688419be08be6d9487175c7003b027dbd3e",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Caroline",
+        "text": "Hey Melanie! Long time no talk! A lot's been going on in my life! Take a look at this."
+      },
+      {
+        "turn": 1,
+        "role": "Melanie",
+        "text": "Hey, Caroline! Nice to hear from you! Love the necklace, any special meaning to it?"
+      },
+      {
+        "turn": 2,
+        "role": "Caroline",
+        "text": "Thanks, Melanie! This necklace is super special to me - a gift from my grandma in my home country, Sweden. She gave it to me when I was young, and it stands for love, faith and strength. It's like a reminder of my roots and all the love and support I get from my family."
+      },
+      {
+        "turn": 3,
+        "role": "Melanie",
+        "text": "That's gorgeous, Caroline! It's awesome what items can mean so much to us, right? Got any other objects that you treasure, like that necklace?"
+      },
+      {
+        "turn": 4,
+        "role": "Caroline",
+        "text": "Yep, Melanie! I've got some other stuff with sentimental value, like my hand-painted bowl. A friend made it for my 18th birthday ten years ago. The pattern and colors are awesome-- it reminds me of art and self-expression."
+      },
+      {
+        "turn": 5,
+        "role": "Melanie",
+        "text": "That sounds great, Caroline! It's awesome having stuff around that make us think of good connections and times. Actually, I just took my fam camping in the mountains last week - it was a really nice time together!"
+      },
+      {
+        "turn": 6,
+        "role": "Caroline",
+        "text": "Sounds great, Mel. Glad you made some new family mems. How was it? Anything fun?"
+      },
+      {
+        "turn": 7,
+        "role": "Melanie",
+        "text": "It was an awesome time, Caroline! We explored nature, roasted marshmallows around the campfire and even went on a hike. The view from the top was amazing! The 2 younger kids love nature. It was so special having these moments together as a family - I'll never forget it!"
+      },
+      {
+        "turn": 8,
+        "role": "Caroline",
+        "text": "That's awesome, Melanie! Family moments like that are so special. Glad y'all had such a great time."
+      },
+      {
+        "turn": 9,
+        "role": "Melanie",
+        "text": "Thanks, Caroline! Family time matters to me. What's up with you lately?"
+      },
+      {
+        "turn": 10,
+        "role": "Caroline",
+        "text": "Lately, I've been looking into counseling and mental health as a career. I want to help people who have gone through the same things as me."
+      },
+      {
+        "turn": 11,
+        "role": "Melanie",
+        "text": "Sounds great! What kind of counseling and mental health services do you want to persue?"
+      },
+      {
+        "turn": 12,
+        "role": "Caroline",
+        "text": "I'm still figuring out the details, but I'm thinking of working with trans people, helping them accept themselves and supporting their mental health. Last Friday, I went to an LGBTQ+ counseling workshop and it was really enlightening. They talked about different therapeutic methods and how to best work with trans people. Seeing how passionate these pros were about making a safe space for people like me was amazing."
+      },
+      {
+        "turn": 13,
+        "role": "Melanie",
+        "text": "Woah, Caroline, it sounds like you're doing some impressive work. It's inspiring to see your dedication to helping others. What motivated you to pursue counseling?"
+      },
+      {
+        "turn": 14,
+        "role": "Caroline",
+        "text": "Thanks, Melanie. It really mattered. My own journey and the support I got made a huge difference. Now I want to help people go through it too. I saw how counseling and support groups improved my life, so I started caring more about mental health and understanding myself. Now I'm passionate about creating a safe, inviting place for people to grow."
+      },
+      {
+        "turn": 15,
+        "role": "Melanie",
+        "text": "Wow, Caroline! You've gained so much from your own experience. Your passion and hard work to help others is awesome. Keep it up, you're making a big impact!"
+      },
+      {
+        "turn": 16,
+        "role": "Caroline",
+        "text": "Thanks, Melanie! Your kind words mean a lot."
+      },
+      {
+        "turn": 17,
+        "role": "Melanie",
+        "text": "Congrats Caroline! Good on you for going after what you really care about."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Sentimental keepsakes",
+        "keywords": [
+          "necklace",
+          "grandmother",
+          "Sweden",
+          "family roots",
+          "love, faith, and strength",
+          "hand-painted bowl",
+          "18th birthday",
+          "art and self-expression"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Family camping trip",
+        "keywords": [
+          "camping",
+          "mountains",
+          "family time",
+          "nature",
+          "campfire",
+          "marshmallows",
+          "hiking",
+          "last week"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Counseling career and support for trans people",
+        "keywords": [
+          "counseling",
+          "mental health",
+          "trans people",
+          "LGBTQ+ workshop",
+          "therapeutic methods",
+          "self-acceptance",
+          "support groups",
+          "safe space"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.707227,
+    "thread_setup_seconds": 2.585314,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.707227,
+    "turn_seconds": 9.121912,
+    "first_text_seconds": 7.444471,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10847,
+      "completion_tokens": 322,
+      "total_tokens": 11169,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 134
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,175 @@
+{
+  "source_id": "c816d95de6221988ebca1ed21",
+  "source_sha256": "bb1f7f4b6ff6de5af301f1f4dd9d0df1f0033bb66b0f0a15e11cce5e49d03374",
+  "request_sha256": "1a98c819cfd396dc21e9f6dfdaec0be955971fcc0b717eba4e08e0e5f2de4189",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c816d95de6221988ebca1ed21",
+    "source_sha256": "bb1f7f4b6ff6de5af301f1f4dd9d0df1f0033bb66b0f0a15e11cce5e49d03374",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Deborah",
+        "text": "Hey Jolene! Good to hear from you! A lot's happened since we talked - last week I got to go to this yoga retreat near my mom's place. It was so cool - I got to hang with nature and really get to know myself. Definitely life-changing! That's how beautiful it was there!"
+      },
+      {
+        "turn": 1,
+        "role": "Jolene",
+        "text": "Wow, Deb, sounds great! Glad you got to connect with yourself and nature. That's my own way to relax. What are your thoughts on life now?"
+      },
+      {
+        "turn": 2,
+        "role": "Deborah",
+        "text": "Life's been super meaningful lately. Nature and self-reflection have helped me see how beautiful every moment is. We can really grow and learn when we listen to ourselves. What's been up with you lately? Any insights or experiences?\n"
+      },
+      {
+        "turn": 3,
+        "role": "Jolene",
+        "text": "Life's been hectic, but I'm making strides toward my goals. It's tough, but satisfying."
+      },
+      {
+        "turn": 4,
+        "role": "Deborah",
+        "text": "Can you tell me a bit more about it and what you've achieved?"
+      },
+      {
+        "turn": 5,
+        "role": "Jolene",
+        "text": "My goal is to be successful in my field and make a positive impact. I've been studying, attending workshops, and networking to make it happen. Recently, I had the opportunity to present at a virtual conference and received positive feedback.  It was a great experience and confirmed that I'm on the right track."
+      },
+      {
+        "turn": 6,
+        "role": "Deborah",
+        "text": "You really put your heart and soul into it. Must have been amazing having it go so well. How did it feel when people gave you positive feedback? Any ideas for what comes next?"
+      },
+      {
+        "turn": 7,
+        "role": "Jolene",
+        "text": "I was thrilled to receive such positive feedback! It felt so rewarding to know that my efforts were appreciated. Right now, I'm focusing on studying and gaining more experience. I'm even thinking about more internships to further enhance my skills. Exciting times! Hopefully, there will be more updates to share with you soon."
+      },
+      {
+        "turn": 8,
+        "role": "Deborah",
+        "text": "Wow, Jolene! Way to go! I'm super proud of all you've achieved. Let me know if you need any help. Onward!"
+      },
+      {
+        "turn": 9,
+        "role": "Jolene",
+        "text": "Thanks, Deb! Your support means a lot to me. "
+      },
+      {
+        "turn": 10,
+        "role": "Deborah",
+        "text": "No problem. You got this! "
+      },
+      {
+        "turn": 11,
+        "role": "Jolene",
+        "text": " I'm not giving up, just gonna keep pushing forward."
+      },
+      {
+        "turn": 12,
+        "role": "Deborah",
+        "text": "Reach for your goals and don't forget to enjoy the journey. "
+      },
+      {
+        "turn": 13,
+        "role": "Jolene",
+        "text": "Thanks, Deb. Your support means a lot. I'll keep pushing forward and remember to enjoy every step of the way."
+      },
+      {
+        "turn": 14,
+        "role": "Deborah",
+        "text": "Come on! The journey's as important as the destination. Take time for yourself and find joy in it. We believe in you!"
+      },
+      {
+        "turn": 15,
+        "role": "Jolene",
+        "text": "Yeah, you're right! I'll take your advice and find joy on the way. Cheers for the support!"
+      },
+      {
+        "turn": 16,
+        "role": "Deborah",
+        "text": "Always by your side!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Yoga retreat and self-reflection",
+        "keywords": [
+          "yoga retreat",
+          "nature",
+          "self-reflection",
+          "life meaning",
+          "personal growth",
+          "enjoying the moment"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Jolene’s career goals and perseverance",
+        "keywords": [
+          "career success",
+          "positive impact",
+          "studying",
+          "workshops",
+          "networking",
+          "virtual conference",
+          "positive feedback",
+          "internships",
+          "skill development",
+          "perseverance",
+          "encouragement"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.623251,
+    "thread_setup_seconds": 0.218606,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.623251,
+    "turn_seconds": 8.404645,
+    "first_text_seconds": 7.399859,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10701,
+      "completion_tokens": 374,
+      "total_tokens": 11075,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 232
+    }
+  },
+  "error": null
+}

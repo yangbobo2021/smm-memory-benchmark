@@ -1,0 +1,163 @@
+{
+  "source_id": "c5a1159bc98596610a32be898",
+  "source_sha256": "f0c4a3de0d4bda98a661f902ad208d4cac4f1c055166423c25ae7827f05a6bcc",
+  "request_sha256": "4d0547806fbc919f4e24a40516d8adf6ca8ac75a18211caca7d0d77793287d4f",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c5a1159bc98596610a32be898",
+    "source_sha256": "f0c4a3de0d4bda98a661f902ad208d4cac4f1c055166423c25ae7827f05a6bcc",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Jolene",
+        "text": "Been thinking a lot about my plans lately, especially after checking in with my bf. It's been up and down!  Some days it feels like I'm trying to juggle my engineering, relationship, and growing as a person, and I just don't know how to handle it all. How do you manage when it's too much?"
+      },
+      {
+        "turn": 1,
+        "role": "Deborah",
+        "text": "Finding ways to restore balance is important. Taking time for yourself and recognizing your needs can make a difference. "
+      },
+      {
+        "turn": 2,
+        "role": "Jolene",
+        "text": "Thanks, Deb! I've been trying out some time management strategies recently and started using a bullet journal. It's been really helpful for tracking my tasks and staying organized."
+      },
+      {
+        "turn": 3,
+        "role": "Deborah",
+        "text": " It's great to hear that it's been helping you out!"
+      },
+      {
+        "turn": 4,
+        "role": "Jolene",
+        "text": " Not only does it help me stay on top of everything, but it's also so satisfying when I cross tasks off my list. Here's a pic of my newest spread with one of my favorite quotes."
+      },
+      {
+        "turn": 5,
+        "role": "Deborah",
+        "text": "I love this quote. So uplifting. Does it motivate you when you see it?"
+      },
+      {
+        "turn": 6,
+        "role": "Jolene",
+        "text": "Yeah, it's like a little reminder to stick to my goals and never give up."
+      },
+      {
+        "turn": 7,
+        "role": "Deborah",
+        "text": "Gotcha! Visual reminders like this photo can be super motivating. Keep focusing on your goals, Jolene, and don't give up! I led a meditation yoga sessionto the elderly at a local care home last week during sunset. Nature can be really helpful for finding peace. Have you tried mindfulness too? "
+      },
+      {
+        "turn": 8,
+        "role": "Jolene",
+        "text": "Haven't tried it yet, but I'm keen to give it a shot. That sounds really peaceful. I could use some of that calm in my life right now.  I'm interested in destressing and trying mindfulness. "
+      },
+      {
+        "turn": 9,
+        "role": "Deborah",
+        "text": "I started with workshops and books, and now mindfulness is a huge part of my life."
+      },
+      {
+        "turn": 10,
+        "role": "Jolene",
+        "text": " I'll definitely look into some of it. Can't wait to get started!"
+      },
+      {
+        "turn": 11,
+        "role": "Deborah",
+        "text": "That's great, Jolene! I'm so glad you're willing to try some mindfulness. It can be really helpful. Let me know if you need any help getting started - I'm happy to assist you with your journey!"
+      },
+      {
+        "turn": 12,
+        "role": "Jolene",
+        "text": " I really appreciate it."
+      },
+      {
+        "turn": 13,
+        "role": "Deborah",
+        "text": "We're in this together. Give me a shout if you need anything. Bye for now."
+      },
+      {
+        "turn": 14,
+        "role": "Jolene",
+        "text": "Thanks, I'll hit you up if I need anything. Bye for now."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Balancing life with a bullet journal",
+        "keywords": [
+          "engineering",
+          "relationship",
+          "personal growth",
+          "time management",
+          "bullet journal",
+          "task tracking",
+          "motivational quote",
+          "goals"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Mindfulness and meditation yoga",
+        "keywords": [
+          "mindfulness",
+          "destressing",
+          "meditation yoga",
+          "elderly care home",
+          "sunset",
+          "workshops",
+          "books",
+          "peace"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.62887,
+    "thread_setup_seconds": 0.089976,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.62887,
+    "turn_seconds": 7.538894,
+    "first_text_seconds": 6.364595,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10606,
+      "completion_tokens": 317,
+      "total_tokens": 10923,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 189
+    }
+  },
+  "error": null
+}

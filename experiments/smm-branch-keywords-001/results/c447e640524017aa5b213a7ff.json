@@ -1,0 +1,166 @@
+{
+  "source_id": "c447e640524017aa5b213a7ff",
+  "source_sha256": "c9a2cfe9f82e9b21f20e1abf3aed36baf182dc35649c3ce03627f0f8c733fc87",
+  "request_sha256": "0775c1d26c0eeb621334313f1c6fa81272e56f96815de2d7390b5acdf5e8fdd1",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c447e640524017aa5b213a7ff",
+    "source_sha256": "c9a2cfe9f82e9b21f20e1abf3aed36baf182dc35649c3ce03627f0f8c733fc87",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey James! How's it going? I had a blast last week when my programmer friends and I organized an online comp. It was awesome to see everyone show off their skills! Anything new in your life?"
+      },
+      {
+        "turn": 1,
+        "role": "James",
+        "text": "Hey John, congrats! Something cool happened to me recently. I made my first game and released it for the gaming community - it was so exciting!"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Congrats on releasing your game, James! Was it fulfilling to see players engage with the game world you created?"
+      },
+      {
+        "turn": 3,
+        "role": "James",
+        "text": " It was so fulfilling to see players engage with the game world I created. I'm really happy they're having fun with something I put so much work into."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "So cool that people are enjoying it! What inspired you to create it?"
+      },
+      {
+        "turn": 5,
+        "role": "James",
+        "text": "Playing video games was always great, but creating my own game was really special. Witcher 3 gave me a ton of inspiration, with its amazing world and story. Plus, it pushed me to create something cool."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "The Witcher 3 obviously had a huge impact on you. You must have put a ton of hard work and dedication into your game. Do you have any plans for future game development?"
+      },
+      {
+        "turn": 7,
+        "role": "James",
+        "text": "I put in so much effort and it paid off - now, I'm ready to make more games in different genres and test out new ideas. I'm pumped to see where this journey leads!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": " I can't wait to see where your journey leads and the new creations you come up with. Your determination and love for game development is incredible. Keep going and you'll do great things!"
+      },
+      {
+        "turn": 9,
+        "role": "James",
+        "text": "I'm really looking forward to creating more enjoyable experiences!"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "I'm here for you. Anything you need, count on me!"
+      },
+      {
+        "turn": 11,
+        "role": "James",
+        "text": "Thanks, John! Your support is really appreciated."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "No worries, James! We make a good team."
+      },
+      {
+        "turn": 13,
+        "role": "James",
+        "text": "Yeah, totally. You've always been there for me, John. Thanks for having my back."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Online programming competition",
+        "keywords": [
+          "programmer friends",
+          "online competition",
+          "skill showcase"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "James’s game release and future development",
+        "keywords": [
+          "James",
+          "first game",
+          "gaming community",
+          "player engagement",
+          "game world",
+          "Witcher 3",
+          "inspiration",
+          "game development",
+          "new genres",
+          "future games"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "John and James’s friendship and support",
+        "keywords": [
+          "John",
+          "James",
+          "friendship",
+          "support",
+          "encouragement",
+          "having someone’s back"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.512421,
+    "thread_setup_seconds": 0.182015,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.512421,
+    "turn_seconds": 10.330407,
+    "first_text_seconds": 7.899457,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10510,
+      "completion_tokens": 272,
+      "total_tokens": 10782,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 120
+    }
+  },
+  "error": null
+}

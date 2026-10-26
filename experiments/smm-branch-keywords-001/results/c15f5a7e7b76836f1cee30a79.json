@@ -1,0 +1,175 @@
+{
+  "source_id": "c15f5a7e7b76836f1cee30a79",
+  "source_sha256": "0c5787f01c96cde7484877365d33f0ed5b7a20b5acdd7285c32d351b0c81bc0a",
+  "request_sha256": "b2fd8a2022e5c421900c36c19d847a58e3eeeec32656c2856881b61ea087ba08",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c15f5a7e7b76836f1cee30a79",
+    "source_sha256": "0c5787f01c96cde7484877365d33f0ed5b7a20b5acdd7285c32d351b0c81bc0a",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey James, it's been a bit since we last talked. Something cool happened recently - I volunteered my programming skills for a social cause. It was cool to use my passion to do something good. I made a software tool for one charitable foundation which helped streamline their operations and make them run more smoothly. Seeing my skills making a real difference in the world was really rewarding."
+      },
+      {
+        "turn": 1,
+        "role": "James",
+        "text": "Hey John! Glad to hear from you. It's awesome that you used your skills to make a difference. Bet it was cool to see it in action. Would love to hear more about it!"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Previously, this foundation used paper records and all inventory was recorded manually. I made an application that structured their work, and now everything they need for inventory is in one application on their smartphone."
+      },
+      {
+        "turn": 3,
+        "role": "James",
+        "text": "Wow John, that's awesome! Must feel great to be part of something so important. I would love to see any visual examples of the impact your software made."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Yeah, here's a screenshot of the system. It'll make tracking inventory, resources, and donations run smoother and generate reports for analysis. Feels great knowing my skills are making a real difference to them."
+      },
+      {
+        "turn": 5,
+        "role": "James",
+        "text": "Wow John, that's awesome! What motivated you to create such an amazing system for them?"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "I was inspired by their passion for helping kids, so I wanted to contribute in any way I could. Plus, coding lets me challenge myself and expand my skills, so this was a great chance to do both. It's really rewarding to use my coding skills to make a difference."
+      },
+      {
+        "turn": 7,
+        "role": "James",
+        "text": "That's really great, John! It's awesome how you blended your passion with a good cause. How did it affect you?"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "It showed me the power of tech to make positive changes, beyond just my own enjoyment. It gave me a real sense of purpose."
+      },
+      {
+        "turn": 9,
+        "role": "James",
+        "text": "Discovering our passions is truly rewarding. How do you think this experience will impact your future plans?"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "This experience has given me a clearer sense of purpose and motivated me to use my programming skills to make a positive impact. I'm now considering volunteer roles and potentially a career in the non-profit sector."
+      },
+      {
+        "turn": 11,
+        "role": "James",
+        "text": "That's really inspiring. Have you found any non-profit organizations that align with your values and passion for programming?"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "I haven’t found it yet, but to be honest I haven’t looked for it. I think it won’t be difficult for me to find the organization I need."
+      },
+      {
+        "turn": 13,
+        "role": "James",
+        "text": "There are lots of places where you can show off your skills! I'm sure you'll find one that's perfect for you in making a difference."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "I'll be happy to find a place where my skills and passions are a perfect match. I'm hoping to make a positive impact there."
+      },
+      {
+        "turn": 15,
+        "role": "James",
+        "text": "I'm sure you'll find the right spot, John. Your skills and passions will be a great addition. Good luck!"
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Thanks, your encouragement means a lot."
+      },
+      {
+        "turn": 17,
+        "role": "James",
+        "text": "I'm here for you. Good luck!"
+      },
+      {
+        "turn": 18,
+        "role": "John",
+        "text": "Thanks, James! Appreciate it. Take care and talk soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "John’s charity inventory app and nonprofit plans",
+        "keywords": [
+          "John",
+          "James",
+          "charitable foundation",
+          "volunteer programming",
+          "inventory management app",
+          "smartphone",
+          "paper records",
+          "resources and donations",
+          "reports",
+          "helping kids",
+          "sense of purpose",
+          "nonprofit career"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.731921,
+    "thread_setup_seconds": 0.190183,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.731921,
+    "turn_seconds": 10.541738,
+    "first_text_seconds": 9.378327,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10778,
+      "completion_tokens": 257,
+      "total_tokens": 11035,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 145
+    }
+  },
+  "error": null
+}

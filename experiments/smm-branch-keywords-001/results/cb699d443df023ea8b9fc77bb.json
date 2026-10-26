@@ -1,0 +1,180 @@
+{
+  "source_id": "cb699d443df023ea8b9fc77bb",
+  "source_sha256": "f098dccf61fe36dbe1668632237397f858586f2660e44ce43bb89b10f1bb693e",
+  "request_sha256": "2b98df2017f254b015314424ef30a28bd22f25062a62ee27a0a704cc0dbb3955",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cb699d443df023ea8b9fc77bb",
+    "source_sha256": "f098dccf61fe36dbe1668632237397f858586f2660e44ce43bb89b10f1bb693e",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Joanna",
+        "text": "Hey Nate, long time no see! How have you been? I just got done submitting my recent screenplay to a film contest just to see how others might like it!"
+      },
+      {
+        "turn": 1,
+        "role": "Nate",
+        "text": "That's really cool Joanna! I hope it does well, and I've been doing great! The gaming party was a great success! We even played some Chess afterward just for fun."
+      },
+      {
+        "turn": 2,
+        "role": "Joanna",
+        "text": "Nice! Did your friends like the controller accessories?"
+      },
+      {
+        "turn": 3,
+        "role": "Nate",
+        "text": "Most of them did! I can't say if all of them will continue to use them or not, but that's beside the point."
+      },
+      {
+        "turn": 4,
+        "role": "Joanna",
+        "text": "Yeah Nate, you're right. It doesn't matter if they use it, its the thought that matters right?"
+      },
+      {
+        "turn": 5,
+        "role": "Nate",
+        "text": "Absolutely! There were 7 people that attended, and 6 of them said they'd want to do it again next month!"
+      },
+      {
+        "turn": 6,
+        "role": "Joanna",
+        "text": "That sounds like a huge success then! Congrats!"
+      },
+      {
+        "turn": 7,
+        "role": "Nate",
+        "text": "Thanks! On another note, I made vegan ice cream last Friday and shared it with some people in my vegan diet group. It was awesome!"
+      },
+      {
+        "turn": 8,
+        "role": "Joanna",
+        "text": "Mm, yum! Can you give me the recipe for that? It sounds like it'd be a good recipe!"
+      },
+      {
+        "turn": 9,
+        "role": "Nate",
+        "text": "Sure thing! I can give it to you tomorrow, how does that sound?"
+      },
+      {
+        "turn": 10,
+        "role": "Joanna",
+        "text": "Awesome! I'm going to make it for my family this weekend - can't wait!"
+      },
+      {
+        "turn": 11,
+        "role": "Nate",
+        "text": "Nice one, Joanna! Hope you and your family like it. Let me know how it went!"
+      },
+      {
+        "turn": 12,
+        "role": "Joanna",
+        "text": "Sure thing! They love it when I make them new things!"
+      },
+      {
+        "turn": 13,
+        "role": "Nate",
+        "text": "Then I have no doubt they'll love the icecream!"
+      },
+      {
+        "turn": 14,
+        "role": "Joanna",
+        "text": "Thanks Nate! Your support is greatly appreciated. I'll make sure to keep you updated."
+      },
+      {
+        "turn": 15,
+        "role": "Nate",
+        "text": "Can't wait to hear about it. Have a great day! Take care."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Screenplay film-contest submission",
+        "keywords": [
+          "Joanna",
+          "screenplay",
+          "film contest",
+          "submission",
+          "recent"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "Gaming party and controller accessories",
+        "keywords": [
+          "Nate",
+          "gaming party",
+          "Chess",
+          "controller accessories",
+          "seven attendees",
+          "six interested",
+          "next month"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Vegan ice cream recipe for family",
+        "keywords": [
+          "Nate",
+          "Joanna",
+          "vegan ice cream",
+          "recipe",
+          "vegan diet group",
+          "last Friday",
+          "tomorrow",
+          "this weekend",
+          "family"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.073423,
+    "thread_setup_seconds": 0.08474,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.073423,
+    "turn_seconds": 11.988684,
+    "first_text_seconds": 10.275175,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10504,
+      "completion_tokens": 326,
+      "total_tokens": 10830,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 168
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,169 @@
+{
+  "source_id": "c5f909707b97ef172706b298a",
+  "source_sha256": "5e7613e8e4fe1dc578f5910694f0ed2b93ba7ff298b7770b3abd5263640c7466",
+  "request_sha256": "0235ae7eca952897bf722c57e4a038c643a91cd6e0980ce746c60306cdea1306",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c5f909707b97ef172706b298a",
+    "source_sha256": "5e7613e8e4fe1dc578f5910694f0ed2b93ba7ff298b7770b3abd5263640c7466",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Cal, how's it going? Something cool happened since last we talked - I got to go to a car workshop in San Francisco! So cool to dive into the world of car restoration and see all the different techniques. People were really passionate and dedicated - truly inspiring!"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave! That's awesome! Car workshops sound totally cool and inspiring. Glad you found something that really gets you going."
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "It's always great to learn and grow. So, what have you been up to lately?"
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "As you know, I had an amazing experience touring with a well-known artist. The feeling of performing and connecting with the audience was unreal. We ended with a show in Japan and then I had the opportunity to explore my new place - it's like a dream come true!"
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Wow, Calvin! I bet playing for an eager audience was an incredible experience. Exploring Japan must have been amazing! How did Tokyo react to your music? Did you have any special moments there?"
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Thanks, Dave! That show in Tokyo was awesome! Everyone was so into it when I played one of my songs and sang along. It was a magical moment."
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Wow, Calvin, sounds amazing! Got any pictures from that show? Would love to see the atmosphere."
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "Yeah, here's a pic I took. It was so awesome - I loved how the crowd was into it. These moments are why I love my job."
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "The energy in that pic is awesome! Seeing everyone with their hands up must have been really cool. It's great when your passion brings joy to others!"
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Yeah, that was buzzing! It's moments like these that make me so proud and motivated. I'm all about spreading joy with my art. So, how's your project going?"
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "Yeah, the project is going great! Here's a pic of the car I'm restoring. It's pretty cool seeing it go from a beat-up mess to a real beauty."
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "Wow Dave, that car is going to look amazing when you're done. How long do you think it will take to restore it?"
+      },
+      {
+        "turn": 12,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Fingers crossed it'll be all fixed up by the end of next month. Lots of elbow grease but it'll be worth the transformation."
+      },
+      {
+        "turn": 13,
+        "role": "Calvin",
+        "text": "Wow, Dave, I'm really excited to see the end result of your hard work! You've got some serious talent!"
+      },
+      {
+        "turn": 14,
+        "role": "Dave",
+        "text": "Thanks, Cal! Your support means a lot to me."
+      },
+      {
+        "turn": 15,
+        "role": "Calvin",
+        "text": "You got this, Dave! I'm always here for you. Seeing your enthusiasm is amazing. Keep growing, buddy. It'll be worth it! Good luck with that. See ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Dave’s car restoration workshop and project",
+        "keywords": [
+          "Dave",
+          "San Francisco",
+          "car workshop",
+          "car restoration",
+          "restoration techniques",
+          "restoration project",
+          "car",
+          "end of next month"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "Calvin’s Japan tour and Tokyo performance",
+        "keywords": [
+          "Calvin",
+          "artist tour",
+          "Japan",
+          "Tokyo",
+          "live performance",
+          "song",
+          "audience",
+          "concert photo",
+          "music"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.983776,
+    "thread_setup_seconds": 0.134783,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.983776,
+    "turn_seconds": 10.848993,
+    "first_text_seconds": 9.34464,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10678,
+      "completion_tokens": 378,
+      "total_tokens": 11056,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 246
+    }
+  },
+  "error": null
+}

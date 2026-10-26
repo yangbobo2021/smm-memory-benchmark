@@ -1,0 +1,241 @@
+{
+  "source_id": "c99fb7fe96d5c161f81dab820",
+  "source_sha256": "76ffe437a047acf55bbc8664fff808dc0295038b067f458bbb866412a50f8c91",
+  "request_sha256": "213ad8363768089c0fa0fb112c3de3983a1f4c779f4a49c396705630b1959ebd",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c99fb7fe96d5c161f81dab820",
+    "source_sha256": "76ffe437a047acf55bbc8664fff808dc0295038b067f458bbb866412a50f8c91",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Dave",
+        "text": "Hey Calvin, good to catch up again! Had a tough time with my car project. Worked on the engine of the vintage Mustang, thought I'd fixed it, but when I started it up, heard a weird noise. So disappointing after putting so much work in. Take a look at the engine!"
+      },
+      {
+        "turn": 1,
+        "role": "Calvin",
+        "text": "Hey Dave, sorry to hear about the car trouble. That must be disappointing after putting so much work into it. Yeah, fixing cars can be tricky. But hey, check out this pic! It's a sign of my hard work and dedication. Looking at it reminds me how far I've come."
+      },
+      {
+        "turn": 2,
+        "role": "Dave",
+        "text": "Wow, thanks Calvin! I love the way the sunlight hits this. It's definitely a great symbol of all your hard work. I bet you feel really proud when you look at it. Any special memories with it?"
+      },
+      {
+        "turn": 3,
+        "role": "Calvin",
+        "text": "Yeah, Dave, I had an amazing drive one summer day. The wind blowing through my hair and the rush of freedom - it was unforgettable. I've pondered the intricacies of life, taking a moment to truly appreciate the path I've chosen and the decisions that have shaped my journey. Also, my trip to Japan was incredible - the culture, the people, everything was so cool. I'm already longing to go back, it was an experience that made all the hard work worth it."
+      },
+      {
+        "turn": 4,
+        "role": "Dave",
+        "text": "Wow, Calvin, that's awesome! That feeling of freedom in the summer is the best. A moment of reflection not only makes the journey interesting but also productive! Hey, any songs from your childhood that bring back memories?"
+      },
+      {
+        "turn": 5,
+        "role": "Calvin",
+        "text": "Yeah, there's this one song that always makes me smile. It played during a road trip with my dad and we had so much fun singing along to it."
+      },
+      {
+        "turn": 6,
+        "role": "Dave",
+        "text": "Sounds awesome, Calvin! Road trips with family are always a treat. What's the name of the song?"
+      },
+      {
+        "turn": 7,
+        "role": "Calvin",
+        "text": "We used to rock a song by Tupac and Dr. Dre called \"California Love\". Ah, those were the days!"
+      },
+      {
+        "turn": 8,
+        "role": "Dave",
+        "text": "Sounds great, Cal! \"California Love\" is a classic! Let me know if you wanna jam some music together!"
+      },
+      {
+        "turn": 9,
+        "role": "Calvin",
+        "text": "Yeah, let's do it! That would be awesome."
+      },
+      {
+        "turn": 10,
+        "role": "Dave",
+        "text": "I'm stoked, Calvin! We can crank up the music and have an awesome jam session. Can't wait!"
+      },
+      {
+        "turn": 11,
+        "role": "Calvin",
+        "text": "Yeah, Dave! Gonna be great! Can't wait to see what we can do."
+      },
+      {
+        "turn": 12,
+        "role": "Dave",
+        "text": "Yeah, let's do it! It'll be awesome. Let's rock it!"
+      },
+      {
+        "turn": 13,
+        "role": "Calvin",
+        "text": "Yeah, let's do this! I can't wait!"
+      },
+      {
+        "turn": 14,
+        "role": "Dave",
+        "text": "Nice one, Calvin! Let's make some awesome memories and have a great time. See ya soon!"
+      },
+      {
+        "turn": 15,
+        "role": "Calvin",
+        "text": "Count me in. Can't wait to create something special. See you soon!"
+      },
+      {
+        "turn": 16,
+        "role": "Dave",
+        "text": "Yep, Calvin! Can't wait to see you soon. Take it easy till then."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Vintage Mustang engine trouble",
+        "keywords": [
+          "Dave",
+          "vintage Mustang",
+          "engine",
+          "strange noise",
+          "car project",
+          "repair"
+        ],
+        "turns": [
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Calvin’s hard-work photo",
+        "keywords": [
+          "Calvin",
+          "photo",
+          "sunlight",
+          "hard work",
+          "dedication",
+          "pride"
+        ],
+        "turns": [
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Summer drive and freedom",
+        "keywords": [
+          "Calvin",
+          "summer drive",
+          "wind",
+          "freedom",
+          "memorable drive"
+        ],
+        "turns": [
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Reflection on life choices",
+        "keywords": [
+          "Calvin",
+          "life reflection",
+          "personal journey",
+          "decisions",
+          "chosen path"
+        ],
+        "turns": [
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Trip to Japan",
+        "keywords": [
+          "Calvin",
+          "Japan",
+          "travel",
+          "culture",
+          "people",
+          "return visit"
+        ],
+        "turns": [
+          3
+        ]
+      },
+      {
+        "label": "California Love childhood road trip",
+        "keywords": [
+          "Calvin",
+          "Dave",
+          "childhood song",
+          "road trip",
+          "father",
+          "Tupac",
+          "Dr. Dre",
+          "California Love"
+        ],
+        "turns": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Planned jam session",
+        "keywords": [
+          "Calvin",
+          "Dave",
+          "jam session",
+          "music",
+          "meetup",
+          "making memories"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 13.652944,
+    "thread_setup_seconds": 0.094092,
+    "rate_wait_seconds": 0,
+    "active_seconds": 13.652944,
+    "turn_seconds": 13.558852,
+    "first_text_seconds": 10.908981,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10715,
+      "completion_tokens": 611,
+      "total_tokens": 11326,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 330
+    }
+  },
+  "error": null
+}

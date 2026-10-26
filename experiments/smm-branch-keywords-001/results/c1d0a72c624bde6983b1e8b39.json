@@ -1,0 +1,210 @@
+{
+  "source_id": "c1d0a72c624bde6983b1e8b39",
+  "source_sha256": "ee913416cda89effc8682a8e9b494a492b4b0d733dec38f630ceba7aad8c40ed",
+  "request_sha256": "696abd132e2d364c8f1e3d27005f4af5dbac0e47fb4b0428d97ed66dd6aea905",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c1d0a72c624bde6983b1e8b39",
+    "source_sha256": "ee913416cda89effc8682a8e9b494a492b4b0d733dec38f630ceba7aad8c40ed",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hi Dave! Nice to hear from you. Since last chat, some things have happened. I had a lil car accident last Friday, kinda upsetting but no one was hurt. I've been dealing with insurance and repairs - taking up a lot of time and energy. Look at this photo!"
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Sorry to hear about the car accident, Calvin. I'm glad to hear that nobody was hurt. Dealing with insurance and repairs can definitely be time-consuming and draining. Have you encountered any issues in the insurance process so far?"
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "Hey Dave, thanks for checking in! The insurance process was a hassle - it took forever and there was a ton of paperwork. But it's all sorted now, and I'm getting it fixed up. Can't wait to drive it again!"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "How long did it take to get everything sorted out? I'm glad it's all taken care of now!"
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "It only took a week to sort everything out. I was worried about the cost, but it wasn't too bad. Look at this photo from the auto repair shop. "
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Cool! Glad it wasn't too expensive. Who are him?"
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "That's the mechanic. He knows the stuff and is doing his best to get my car running again."
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "That's great to hear! Skilled and knowledgeable people working on your car - are you feeling confident?"
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "Feeling way more confident and excited to show off my car! Trusting their expertise."
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "Great, Cal! It's awesome when you trust the people fixing it. Sounds like they're doing a great job. It'll be back to normal soon!"
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Thanks, Dave! Excited to drive again. Appreciate your help! Look what a wonderful view from living room!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Wow, what an amazing view! Where is it? I haven't seen anything like that before!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Thanks, Dave! It's from a small town in Japan. The view of the mountains is unbelievably stunning!"
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Wow! Did you get to that place yet?"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "Nope, not yet! I haven't been there before, but it's on my to-do list for after my tour with Frank Ocean ends. Can't wait to see them in person! Look at that snowy peak."
+      },
+      {
+        "turn": 15,
+        "role": "Dave",
+        "text": "Looks awesome! Have you ever tried skiing before? It looks like loads of fun!"
+      },
+      {
+        "turn": 16,
+        "role": "Calvin",
+        "text": "Haven't tried it before, but it does look like a lot of fun! I might give it a try once. So what's up with you, is anything new in your daily routine?"
+      },
+      {
+        "turn": 17,
+        "role": "Dave",
+        "text": "Yes, Cal! I recently joined a rock band and have been practicing guitar. Look at this photo – it's us, the guys! "
+      },
+      {
+        "turn": 18,
+        "role": "Calvin",
+        "text": "Playing guitar in a rock band is awesome, Dave! It will bring you a lot of emotions."
+      },
+      {
+        "turn": 19,
+        "role": "Dave",
+        "text": "Sounds good, Calvin! Good company and great music, lift the mood and bring a lot of positive emotions! I have to go now. I'll see you soon!"
+      },
+      {
+        "turn": 20,
+        "role": "Calvin",
+        "text": "Thanks, Dave! let's keep in touch, take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Car accident and repair",
+        "keywords": [
+          "car accident",
+          "insurance claim",
+          "paperwork",
+          "auto repair shop",
+          "mechanic",
+          "repair cost",
+          "one week",
+          "car repairs"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Japan mountain view and future skiing",
+        "keywords": [
+          "living room view",
+          "small town in Japan",
+          "mountains",
+          "snowy peak",
+          "Frank Ocean tour",
+          "travel plans",
+          "skiing"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "label": "Dave joins rock band",
+        "keywords": [
+          "rock band",
+          "guitar practice",
+          "bandmates",
+          "music",
+          "positive emotions"
+        ],
+        "turns": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.505777,
+    "thread_setup_seconds": 0.531922,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.505777,
+    "turn_seconds": 9.973856,
+    "first_text_seconds": 8.133188,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10803,
+      "completion_tokens": 326,
+      "total_tokens": 11129,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 156
+    }
+  },
+  "error": null
+}

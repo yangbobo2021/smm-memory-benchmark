@@ -1,0 +1,182 @@
+{
+  "source_id": "c7f5fa84a9e9f6afef6a69e20",
+  "source_sha256": "ec8a7c76fce80619bd6aca70ae99090c6a86badf241d1f6d7819cfb1e173adb3",
+  "request_sha256": "33aca051ac551dac3f4cf93e5ed69deb9a2a08227b0bd37238e42e0db0804414",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c7f5fa84a9e9f6afef6a69e20",
+    "source_sha256": "ec8a7c76fce80619bd6aca70ae99090c6a86badf241d1f6d7819cfb1e173adb3",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam, what's up? It's been a few days since we talked. How have you been? Life's been tough lately - my son had a soccer accident last Saturday and hurt his ankle, it was tough seeing him hurt! I just been looking after him and taking him to the doctor. As a dad, it's hard to watch your kid go through something like that."
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan, sorry to hear about what happened. I can imagine how hard it must have been for you. Things haven't been easy for me either. Had a tough week and a doc's appointment, so it was kinda like a wake-up call to take better care of myself. On a bright side, I'm taking a cooking class to learn how to make healthier meals."
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "Hey Sam, sorry to hear you had a rough week. At least it's forcing us both to take better care of ourselves, right? I hear the class you're taking is packed with healthy recipes. How's it been going? Have you picked up any yummy new meals?"
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "The cooking class has been great, I've learned awesome recipes. Last night I made this yummy grilled dish, so good!"
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Mmm, it looks delicious! What did you put in it? I want to eat healthy, so what kind of recipes do you suggest?"
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "Thanks, Evan! I marinated it with a few different ingredients and grilled it with some veggies. It turned out really flavorful! If you want, I can share more recipes from my cooking class. Just let me know what you're looking for!"
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "That'd be great, Sam! I'm looking to add more vegetables to my meals. Do you have any recipes for that?"
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "Yeah definitely, Evan. I have a tasty and easy roasted veg recipe that I can share with you. Oh, by the way, how have you been doing after the soccer incident? Must've been tough."
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "Thanks, Sam. His ankle is getting better, but still sore. It was rough at first, but thank goodness it was nothing serious."
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "Glad to hear his ankle is getting better. It's hard seeing someone we care about hurt. Look after yourself too, yeah? We gotta look after our health."
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "Yep, taking care of ourselves is a must. How have you been feeling lately?"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "I have been feeling a mix of emotions - somewhat concerned about my health but also motivated to make positive changes. Taking things one step at a time."
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "It's okay to feel overwhelmed, Sam. Just keep moving forward slowly and taking small steps. You're doing awesome."
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "Thanks, Evan, your encouragement means a lot to me. I'll keep going and take it one step at a time!"
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "No worries, just keep going and taking it one step at a time! You'll get there."
+      },
+      {
+        "turn": 15,
+        "role": "Sam",
+        "text": "Thanks, Evan. I really appreciate that. It means a lot."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Evan’s son’s soccer injury",
+        "keywords": [
+          "son",
+          "soccer accident",
+          "ankle injury",
+          "doctor visit",
+          "recovery",
+          "parental care"
+        ],
+        "turns": [
+          0,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Healthy cooking class and vegetable recipes",
+        "keywords": [
+          "cooking class",
+          "healthy recipes",
+          "grilled dish",
+          "marinade",
+          "vegetables",
+          "roasted vegetables",
+          "recipe sharing"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Sam’s health concerns and self-care",
+        "keywords": [
+          "doctor appointment",
+          "health concern",
+          "self-care",
+          "healthier meals",
+          "positive changes",
+          "small steps",
+          "encouragement"
+        ],
+        "turns": [
+          1,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.715963,
+    "thread_setup_seconds": 0.147538,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.715963,
+    "turn_seconds": 8.568425,
+    "first_text_seconds": 6.258499,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10743,
+      "completion_tokens": 357,
+      "total_tokens": 11100,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 184
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,202 @@
+{
+  "source_id": "c34fcef33af22ef585e54cc9a",
+  "source_sha256": "2cb189a76f800bd0f41a7396c3eab4985ce00bebd9f05fea47c4bd412f059a9d",
+  "request_sha256": "1b4d5ce1e8573b3f3d68f0ec4a8847f5dea3d81ec6211826eecafde91397e53f",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c34fcef33af22ef585e54cc9a",
+    "source_sha256": "2cb189a76f800bd0f41a7396c3eab4985ce00bebd9f05fea47c4bd412f059a9d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Calvin",
+        "text": "Hey Dave! Long time no talk! I had a great time yesterday, and visited some sights in Boston with a high school friend. It was really fun and eye-opening."
+      },
+      {
+        "turn": 1,
+        "role": "Dave",
+        "text": "Hey Calvin! Good to hear from you! Sounds like you had a blast in Boston - so much to do there! One of my favorites there is great for chilling and admiring nature. BTW, something cool I wanted to tell you about - I recently attended a conference in Detroit - it was so cool, I learned a lot."
+      },
+      {
+        "turn": 2,
+        "role": "Calvin",
+        "text": "I had a wonderful experience during my time in Boston. It had awesome architecture and a really cool history. I followed your advice and went there, it was so peaceful. Good to hear that you've learned a lot of new things at the conference in Detroit!"
+      },
+      {
+        "turn": 3,
+        "role": "Dave",
+        "text": "Glad you enjoyed Boston! It's got some great architecture and history. Working on this takes me out of my head and calms me down. Here's a pic of my latest car project."
+      },
+      {
+        "turn": 4,
+        "role": "Calvin",
+        "text": "Dave, that car looks awesome! What got you into engineering cars? I'm totally into cars too and love making new and powerful models."
+      },
+      {
+        "turn": 5,
+        "role": "Dave",
+        "text": "Thanks, Calvin! It's always been my thing. My dad took me to my first car show when I was 10, and I was wow-ed! I was hooked and wanted to learn more. Now I'm an automotive engineer and it's crazy to think that something so powerful and cool can be made from small parts."
+      },
+      {
+        "turn": 6,
+        "role": "Calvin",
+        "text": "That's awesome, Dave! So happy you followed your dreams and became an engineer. Seeing you work on cars is inspiring - it makes me want to keep pushing my music. Check this out - a pic of me performing with someone I admire! So amazing!"
+      },
+      {
+        "turn": 7,
+        "role": "Dave",
+        "text": "Wow, Calvin! That's amazing! You looked super comfortable on stage. Bet it was an incredible experience to perform with someone you admire. How did it feel being up there?"
+      },
+      {
+        "turn": 8,
+        "role": "Calvin",
+        "text": "It was unreal, Dave. Being up there with someone I admire - it was a dream come true. The energy, the crowd - it made me realize how much music means to me, it's like my passion and my purpose."
+      },
+      {
+        "turn": 9,
+        "role": "Dave",
+        "text": "That's great, Calvin. We both have discovered something that brings us fulfillment. It's a fortunate thing for us."
+      },
+      {
+        "turn": 10,
+        "role": "Calvin",
+        "text": "Definitely, Dave. It's awesome to find something that makes us happy. It's fulfilling and motivating too. I'm so glad we're on this journey together and curious to see what happens next!"
+      },
+      {
+        "turn": 11,
+        "role": "Dave",
+        "text": "Me too, Calvin! Let's see where it takes us. We can keep inspiring each other!"
+      },
+      {
+        "turn": 12,
+        "role": "Calvin",
+        "text": "Yep, let's keep inspiring each other to be our best selves. Keep going for your passion, buddy."
+      },
+      {
+        "turn": 13,
+        "role": "Dave",
+        "text": "Thanks, Calvin! Same to you! Keep pursuing your passion and keep dreaming. We got this! Got to go see you soon!"
+      },
+      {
+        "turn": 14,
+        "role": "Calvin",
+        "text": "Thanks, Dave! I appreciate your support. Let's keep pushing for our goals. Catch you later, see ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Boston sightseeing and history",
+        "keywords": [
+          "Boston",
+          "sightseeing",
+          "high school friend",
+          "architecture",
+          "history",
+          "nature",
+          "peaceful retreat"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Detroit conference",
+        "keywords": [
+          "Detroit",
+          "conference",
+          "learning",
+          "new things"
+        ],
+        "turns": [
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Automotive engineering and car project",
+        "keywords": [
+          "car project",
+          "automotive engineer",
+          "car engineering",
+          "car show",
+          "father",
+          "age 10",
+          "small parts"
+        ],
+        "turns": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Calvin’s music performance",
+        "keywords": [
+          "music",
+          "live performance",
+          "admired performer",
+          "stage",
+          "crowd",
+          "passion",
+          "purpose"
+        ],
+        "turns": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Mutual encouragement and pursuing passions",
+        "keywords": [
+          "Dave",
+          "Calvin",
+          "mutual support",
+          "inspiration",
+          "fulfillment",
+          "goals",
+          "dreams",
+          "future"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.721197,
+    "thread_setup_seconds": 0.100821,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.721197,
+    "turn_seconds": 7.620376,
+    "first_text_seconds": 5.820287,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10729,
+      "completion_tokens": 437,
+      "total_tokens": 11166,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 221
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,212 @@
+{
+  "source_id": "ce142a1d8fc9d169bfa9fda59",
+  "source_sha256": "5be85f5f182689c8a928f83961bf366b2c380cf860af43bc00026cffd9341802",
+  "request_sha256": "84de50051686848baa4272777712247b92910edc45347dedcf9a19fe767ef1fb",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ce142a1d8fc9d169bfa9fda59",
+    "source_sha256": "5be85f5f182689c8a928f83961bf366b2c380cf860af43bc00026cffd9341802",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Caroline",
+        "text": "Hey Mel! Good to see you! How have you been?"
+      },
+      {
+        "turn": 1,
+        "role": "Melanie",
+        "text": "Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?"
+      },
+      {
+        "turn": 2,
+        "role": "Caroline",
+        "text": "I went to a LGBTQ support group yesterday and it was so powerful."
+      },
+      {
+        "turn": 3,
+        "role": "Melanie",
+        "text": "Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?"
+      },
+      {
+        "turn": 4,
+        "role": "Caroline",
+        "text": "The transgender stories were so inspiring! I was so happy and thankful for all the support."
+      },
+      {
+        "turn": 5,
+        "role": "Melanie",
+        "text": "Wow, love that painting! So cool you found such a helpful group. What's it done for you?"
+      },
+      {
+        "turn": 6,
+        "role": "Caroline",
+        "text": "The support group has made me feel accepted and given me courage to embrace myself."
+      },
+      {
+        "turn": 7,
+        "role": "Melanie",
+        "text": "That's really cool. You've got guts. What now?"
+      },
+      {
+        "turn": 8,
+        "role": "Caroline",
+        "text": "Gonna continue my edu and check out career options, which is pretty exciting!"
+      },
+      {
+        "turn": 9,
+        "role": "Melanie",
+        "text": "Wow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?"
+      },
+      {
+        "turn": 10,
+        "role": "Caroline",
+        "text": "I'm keen on counseling or working in mental health - I'd love to support those with similar issues."
+      },
+      {
+        "turn": 11,
+        "role": "Melanie",
+        "text": "You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this."
+      },
+      {
+        "turn": 12,
+        "role": "Caroline",
+        "text": "Thanks, Melanie! That's really sweet. Is this your own painting?"
+      },
+      {
+        "turn": 13,
+        "role": "Melanie",
+        "text": "Yeah, I painted that lake sunrise last year! It's special to me."
+      },
+      {
+        "turn": 14,
+        "role": "Caroline",
+        "text": "Wow, Melanie! The colors really blend nicely. Painting looks like a great outlet for expressing yourself."
+      },
+      {
+        "turn": 15,
+        "role": "Melanie",
+        "text": "Thanks, Caroline! Painting's a fun way to express my feelings and get creative. It's a great way to relax after a long day."
+      },
+      {
+        "turn": 16,
+        "role": "Caroline",
+        "text": "Totally agree, Mel. Relaxing and expressing ourselves is key. Well, I'm off to go do some research."
+      },
+      {
+        "turn": 17,
+        "role": "Melanie",
+        "text": "Yep, Caroline. Taking care of ourselves is vital. I'm off to go swimming with the kids. Talk to you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "LGBTQ support and self-acceptance",
+        "keywords": [
+          "Caroline",
+          "LGBTQ support group",
+          "transgender stories",
+          "acceptance",
+          "self-acceptance",
+          "courage"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Education and mental-health career plans",
+        "keywords": [
+          "Caroline",
+          "education",
+          "career options",
+          "counseling",
+          "mental health",
+          "career research"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          16
+        ]
+      },
+      {
+        "label": "Melanie’s lake-sunrise painting",
+        "keywords": [
+          "Melanie",
+          "painting",
+          "lake sunrise",
+          "emotional expression",
+          "creativity",
+          "relaxation"
+        ],
+        "turns": [
+          5,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "label": "Melanie swimming with her kids",
+        "keywords": [
+          "Melanie",
+          "swimming",
+          "kids",
+          "self-care"
+        ],
+        "turns": [
+          17
+        ]
+      },
+      {
+        "label": "Melanie’s work and childcare busyness",
+        "keywords": [
+          "Melanie",
+          "work",
+          "kids",
+          "busy"
+        ],
+        "turns": [
+          1
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.556424,
+    "thread_setup_seconds": 0.183058,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.556424,
+    "turn_seconds": 10.373366,
+    "first_text_seconds": 7.116963,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10560,
+      "completion_tokens": 406,
+      "total_tokens": 10966,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 183
+    }
+  },
+  "error": null
+}

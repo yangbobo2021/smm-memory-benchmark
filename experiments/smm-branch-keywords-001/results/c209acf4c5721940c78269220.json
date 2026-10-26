@@ -1,0 +1,185 @@
+{
+  "source_id": "c209acf4c5721940c78269220",
+  "source_sha256": "b830e7d27730d6c69a1a0c1db6f87627aa2296514bd96c05543444d5f05625c7",
+  "request_sha256": "20c266b5ad6dbb2fca750203b834fbf96d1e925e620b1da1f41545517ea41634",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c209acf4c5721940c78269220",
+    "source_sha256": "b830e7d27730d6c69a1a0c1db6f87627aa2296514bd96c05543444d5f05625c7",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Melanie",
+        "text": "Hey Caroline, since we last chatted, I've had a lot of things happening to me. I ran a charity race for mental health last Saturday – it was really rewarding. Really made me think about taking care of our minds."
+      },
+      {
+        "turn": 1,
+        "role": "Caroline",
+        "text": "That charity race sounds great, Mel! Making a difference & raising awareness for mental health is super rewarding - I'm really proud of you for taking part!"
+      },
+      {
+        "turn": 2,
+        "role": "Melanie",
+        "text": "Thanks, Caroline! The event was really thought-provoking. I'm starting to realize that self-care is really important. It's a journey for me, but when I look after myself, I'm able to better look after my family."
+      },
+      {
+        "turn": 3,
+        "role": "Caroline",
+        "text": "I totally agree, Melanie. Taking care of ourselves is so important - even if it's not always easy. Great that you're prioritizing self-care."
+      },
+      {
+        "turn": 4,
+        "role": "Melanie",
+        "text": "Yeah, it's tough. So I'm carving out some me-time each day - running, reading, or playing my violin - which refreshes me and helps me stay present for my fam!"
+      },
+      {
+        "turn": 5,
+        "role": "Caroline",
+        "text": "That's great, Mel! Taking time for yourself is so important. You're doing an awesome job looking after yourself and your family!"
+      },
+      {
+        "turn": 6,
+        "role": "Melanie",
+        "text": "Thanks, Caroline. It's still a work in progress, but I'm doing my best. My kids are so excited about summer break! We're thinking about going camping next month. Any fun plans for the summer?"
+      },
+      {
+        "turn": 7,
+        "role": "Caroline",
+        "text": "Researching adoption agencies — it's been a dream to have a family and give a loving home to kids who need it."
+      },
+      {
+        "turn": 8,
+        "role": "Melanie",
+        "text": "Wow, Caroline! That's awesome! Taking in kids in need - you're so kind. Your future family is gonna be so lucky to have you!"
+      },
+      {
+        "turn": 9,
+        "role": "Caroline",
+        "text": "Thanks, Mel! My goal is to give kids a loving home. I'm truly grateful for all the support I've got from friends and mentors. Now the hard work starts to turn my dream into a reality. And here's one of the adoption agencies I'm looking into. It's a lot to take in, but I'm feeling hopeful and optimistic."
+      },
+      {
+        "turn": 10,
+        "role": "Melanie",
+        "text": "Wow, that agency looks great! What made you pick it?"
+      },
+      {
+        "turn": 11,
+        "role": "Caroline",
+        "text": "I chose them 'cause they help LGBTQ+ folks with adoption. Their inclusivity and support really spoke to me."
+      },
+      {
+        "turn": 12,
+        "role": "Melanie",
+        "text": "That's great, Caroline! Loving the inclusivity and support. Anything you're excited for in the adoption process?"
+      },
+      {
+        "turn": 13,
+        "role": "Caroline",
+        "text": "I'm thrilled to make a family for kids who need one. It'll be tough as a single parent, but I'm up for the challenge!"
+      },
+      {
+        "turn": 14,
+        "role": "Melanie",
+        "text": "You're doing something amazing! Creating a family for those kids is so lovely. You'll be an awesome mom! Good luck!"
+      },
+      {
+        "turn": 15,
+        "role": "Caroline",
+        "text": "Thanks, Melanie! Your kind words really mean a lot. I'll do my best to make sure these kids have a safe and loving home."
+      },
+      {
+        "turn": 16,
+        "role": "Melanie",
+        "text": "No doubts, Caroline. You have such a caring heart - they'll get all the love and stability they need! Excited for this new chapter!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Mental-health race and self-care",
+        "keywords": [
+          "mental health",
+          "charity race",
+          "self-care",
+          "me-time",
+          "running",
+          "reading",
+          "violin",
+          "family care"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Summer break and camping plans",
+        "keywords": [
+          "summer break",
+          "camping",
+          "next month",
+          "summer plans",
+          "kids"
+        ],
+        "turns": [
+          6
+        ]
+      },
+      {
+        "label": "Caroline’s adoption plans",
+        "keywords": [
+          "Caroline",
+          "adoption agency",
+          "LGBTQ+ adoption",
+          "inclusivity",
+          "single parent",
+          "loving home",
+          "family"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.787922,
+    "thread_setup_seconds": 0.121032,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.787922,
+    "turn_seconds": 9.66689,
+    "first_text_seconds": 8.574881,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10734,
+      "completion_tokens": 330,
+      "total_tokens": 11064,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 171
+    }
+  },
+  "error": null
+}

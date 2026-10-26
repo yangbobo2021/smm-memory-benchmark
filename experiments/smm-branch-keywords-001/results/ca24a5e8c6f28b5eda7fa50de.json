@@ -1,0 +1,194 @@
+{
+  "source_id": "ca24a5e8c6f28b5eda7fa50de",
+  "source_sha256": "eddba4bcf5cd23ec20199c3a3ebe6632a8154c80f1dcee73585e39b54a2e9c26",
+  "request_sha256": "8f72604ef1b783321a660e87c9880a7a698331b07d0bec57a503b5d7f523dd0d",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ca24a5e8c6f28b5eda7fa50de",
+    "source_sha256": "eddba4bcf5cd23ec20199c3a3ebe6632a8154c80f1dcee73585e39b54a2e9c26",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Tim",
+        "text": "Hey John! Long time no see! I just got back from the coolest Harry Potter party. Met lots of awesome people who were into the same stuff as me, had so much fun!"
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Tim! Sounds awesome! So glad you had a blast at the Harry Potter party. Last August I told you about my fun time at a charity event with Harry Potter trivia. Love being with people who are as passionate about Harry Potter as us! Did you dress up as any character?"
+      },
+      {
+        "turn": 2,
+        "role": "Tim",
+        "text": "It was awesome. I didn't dress as any character, but I wore my Gryffindor scarf. Everyone had cool costumes. I even got this as a treat. Any recent meet-ups with your basketball team?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "That frog looks yummy! I haven't had one in ages. Been having some wild games lately, we played a top team and it was tough, but we fought hard and got the win! It's awesome having my team to push us all."
+      },
+      {
+        "turn": 4,
+        "role": "Tim",
+        "text": "Wow, looks fun! What was the best part for you? And congratulations on the win!"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "Thanks! The best part for me was the camaraderie we built both on and off the court. Winning felt amazing and it was definitely worth all the hard work we put in."
+      },
+      {
+        "turn": 6,
+        "role": "Tim",
+        "text": "Wow, that's awesome! It's great to see how close you all have become. You must feel a great sense of unity. I'm reading this amazing series about the power of friendship and loyalty – really inspiring stuff. Anything special you do to keep that bond strong?"
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Sounds awesome! What kind of stuff do they do in the series? I'm sure the importance of friendship is emphasized. Same with us - we have team dinners, outings, and basketball games. It's those moments away from practice that really build and strengthen our unity."
+      },
+      {
+        "turn": 8,
+        "role": "Tim",
+        "text": "Awesome! Sounds like your team has something similar to the characters in the series. They rely on each other to push through challenges. By the way, what book are you currently reading? I'm always on the lookout for new reads!"
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Thanks! I'm currently reading a book that I really enjoy. I highly recommend it!"
+      },
+      {
+        "turn": 10,
+        "role": "Tim",
+        "text": "Sounds cool! Let me know the title so I can add it to my list!"
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "I'm reading \"Dune\" by Frank Herbert. It's a great story about religion and human control over ecology. What about you? What's the last book that moved you?"
+      },
+      {
+        "turn": 12,
+        "role": "Tim",
+        "text": "I haven't read that yet but I've heard great things! Just finished \"A Dance with Dragons\" and it's a really good story. Highly recommend it!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "That's cool! I've heard it's such an inspiring book. Have you read all of George R. R. Martin's books?"
+      },
+      {
+        "turn": 14,
+        "role": "Tim",
+        "text": "Just the GoT series. Have you tried reading any of them?"
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "No, I haven't read them yet but I'll definitely check them out. Cheers!"
+      },
+      {
+        "turn": 16,
+        "role": "Tim",
+        "text": "Let me know if you get around to them! Have a great day!"
+      },
+      {
+        "turn": 17,
+        "role": "John",
+        "text": "Thanks! I'll let you know. Have a great day!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Harry Potter fan events",
+        "keywords": [
+          "Harry Potter party",
+          "Harry Potter trivia",
+          "Gryffindor scarf",
+          "costumes",
+          "charity event",
+          "August"
+        ],
+        "turns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Basketball team bonding",
+        "keywords": [
+          "basketball team",
+          "tough game",
+          "team win",
+          "camaraderie",
+          "team dinners",
+          "outings",
+          "unity"
+        ],
+        "turns": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Books and recommendations",
+        "keywords": [
+          "friendship and loyalty",
+          "Dune",
+          "Frank Herbert",
+          "ecology",
+          "religion",
+          "A Dance with Dragons",
+          "George R. R. Martin",
+          "Game of Thrones series"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.951057,
+    "thread_setup_seconds": 0.099103,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.951057,
+    "turn_seconds": 8.851954,
+    "first_text_seconds": 7.027468,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10770,
+      "completion_tokens": 410,
+      "total_tokens": 11180,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 232
+    }
+  },
+  "error": null
+}

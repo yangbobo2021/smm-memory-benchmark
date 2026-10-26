@@ -1,0 +1,201 @@
+{
+  "source_id": "cd387b85982a45e4f67498a15",
+  "source_sha256": "852a48ed4a208eff7157e9c63cfa7aec6c5f949590c6025ccdd7e88e5747d3be",
+  "request_sha256": "858defdb29a0d180ee30d6bfa06bacf547e05ac976f5a4336896fe8135a8b5f9",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cd387b85982a45e4f67498a15",
+    "source_sha256": "852a48ed4a208eff7157e9c63cfa7aec6c5f949590c6025ccdd7e88e5747d3be",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam! Long time no talk! How're you doing? Life's been quite the rollercoaster lately. I had a health scare last week – a sudden heart palpitation incident that really shook me up. It's been a serious wake-up call about my lifestyle."
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan, great hearing from you! Sorry about that, glad you're feeling better now. Trying to eat healthier these days."
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "That salad looks yummy! I'm being extra careful with my health lately. I'm trying to eat less processed food and sugary snacks, even though I love ginger snaps. Have you made any changes to your diet recently?"
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "Nah, no changes for me. Still enjoying my soda and candy, although I know it's not the best habit to have."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Yeah, breaking habits can be tough. Making small changes can have a big impact later on. Have you considered swapping soda for flavored seltzer water? It's still bubbly and tasty, but without the sugar. And instead of candy, you could try dark chocolate with high cocoa content - it's a healthier option. What do you think?"
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "Yeah, good idea! I'll give it a try."
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "Awesome, Sam! Let me know how it goes. Making small changes can really help you live a healthier life. Don't forget - every step matters!"
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "Hey Evan, thanks! Appreciate it. I'll definitely keep you posted."
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "I'm here for you, Sam. Let's continue supporting each other on our health journeys. It's important to remember that progress takes time."
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "Yeah, you're right. It takes time, but I'm up for keep trying and making those tiny changes."
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "C'mon, keep it up! Every little bit counts, you'll get there!"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "Thanks, Evan! I appreciate your support, it means a lot to me to have you in my corner."
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Yes, Sam! I'm here for you. Let's rock our workouts and reach our goals! Exercise clears the mind - it's amazing!"
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "Wow, that's awesome! Could you give me a hand with getting started?"
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "Sure Sam, I'd be glad to help. Let's get together and I'll show you some basic exercises. We'll reach our goals!"
+      },
+      {
+        "turn": 15,
+        "role": "Sam",
+        "text": "Cool, can't wait! Thank you. By the way, I'm coming from the shop and I had a frustrating issue at the supermarket. The self-checkout machines were all broken, my mood is terrible now!"
+      },
+      {
+        "turn": 16,
+        "role": "Evan",
+        "text": "Sorry you were in that situation, hopefully it won't happen again!"
+      },
+      {
+        "turn": 17,
+        "role": "Sam",
+        "text": "Yeah, I hope so, take care of yourself."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Heart scare and healthier eating",
+        "keywords": [
+          "Evan",
+          "Sam",
+          "heart palpitations",
+          "health scare",
+          "lifestyle change",
+          "processed food",
+          "sugary snacks",
+          "ginger snaps",
+          "soda",
+          "flavored seltzer water",
+          "candy",
+          "dark chocolate",
+          "small changes"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Starting workouts together",
+        "keywords": [
+          "Evan",
+          "Sam",
+          "workout",
+          "basic exercises",
+          "exercise",
+          "fitness goals",
+          "getting started",
+          "exercise support"
+        ],
+        "turns": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "label": "Supermarket self-checkout breakdown",
+        "keywords": [
+          "supermarket",
+          "self-checkout machines",
+          "broken machines",
+          "frustration",
+          "bad mood",
+          "shop"
+        ],
+        "turns": [
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.203903,
+    "thread_setup_seconds": 0.294356,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.203903,
+    "turn_seconds": 6.909547,
+    "first_text_seconds": 5.491026,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10691,
+      "completion_tokens": 326,
+      "total_tokens": 11017,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 140
+    }
+  },
+  "error": {
+    "type": "AssertionError",
+    "message": ""
+  }
+}

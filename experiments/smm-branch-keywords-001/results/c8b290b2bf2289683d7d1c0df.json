@@ -1,0 +1,185 @@
+{
+  "source_id": "c8b290b2bf2289683d7d1c0df",
+  "source_sha256": "62776be41fc9733a3b03fb75b07b2a0e94af0dd015768a04b6d9f6e7dbe13bcf",
+  "request_sha256": "5513e54996977de5cd526633ce4fb7be59a88e7577e45aa8753a54d947350eb9",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c8b290b2bf2289683d7d1c0df",
+    "source_sha256": "62776be41fc9733a3b03fb75b07b2a0e94af0dd015768a04b6d9f6e7dbe13bcf",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Tim! We had a wild few days since we talked. I met back up with my teammates on the 15th after my trip and it was amazing! Everyone missed me. The atmosphere was electric and I felt so welcome being back with them. I'm so lucky to be a part of this team!"
+      },
+      {
+        "turn": 1,
+        "role": "Tim",
+        "text": "Wow, John, that sounds amazing! I'm so happy they gave you a warm welcome back. It's such a special feeling when you realize that you share the same passions and talents with others. It's like finding your true place in the world."
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Thanks! Wow, it was such an incredible experience. Being around people who share the same love for basketball creates a special kind of bond. Have you ever felt like you truly belonged somewhere?"
+      },
+      {
+        "turn": 3,
+        "role": "Tim",
+        "text": "Yeah, definitely. I felt like I belonged a few times, but last month at that event was one of my favorites. Everyone shared the same love for it and it felt like being in a world where everyone understood it. I'm really thankful for those experiences - it's great to know there are people out there who appreciate and share my interests."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Cool! It's great when you find a group that appreciates the same things. It really adds something special to our lives. So, do you have any exciting plans or events coming up?"
+      },
+      {
+        "turn": 5,
+        "role": "Tim",
+        "text": "I have no big events coming up, but I'm hoping to attend a book conference next month. It's an interesting gathering of authors, publishers and book lovers where we talk about our favorite novels and new releases. I'm excited to go because it'll help me learn more about literature and create a stronger bond to it."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "You're a real bookworm! It would be awesome to go to a book conference with you. Check out this photo of what my teammates gave me when we met. It's a sign of our friendship and all the love we have for each other."
+      },
+      {
+        "turn": 7,
+        "role": "Tim",
+        "text": "That's so cool of your teammates. Did they sign it for a special reason?"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Thanks! They signed it to show our friendship and appreciation. It's a great reminder of our bond."
+      },
+      {
+        "turn": 9,
+        "role": "Tim",
+        "text": "That's really cool. It's great that you have something to remind you of your friends. Keeping a bit of their energy and support with you is always nice."
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "Having something like this ball to remind me of the bond and support from my teammates is really comforting. It's a nice reminder of why I started playing basketball and my journey. It motivates me to stay strong and give it my all."
+      },
+      {
+        "turn": 11,
+        "role": "Tim",
+        "text": "That's so sweet. It's great to have something so meaningful to keep you motivated. I'll keep that in mind next time I need a push to reach my goals."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "It's really motivating to have something that reminds you of why you started, and having supportive people around is like having a cheer team that helps you through tough times."
+      },
+      {
+        "turn": 13,
+        "role": "Tim",
+        "text": "Yeah, that's true. Having them there to cheer you on can be a powerful source of strength."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Yeah, having that support really encourages me to give it my all and never give up. It's an awesome feeling!"
+      },
+      {
+        "turn": 15,
+        "role": "Tim",
+        "text": "It's awesome how much strength people can get from each other. Bye!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Basketball team reunion and belonging",
+        "keywords": [
+          "John",
+          "Tim",
+          "basketball",
+          "teammates",
+          "team reunion",
+          "15th",
+          "welcome back",
+          "belonging",
+          "shared interests"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Book conference plans",
+        "keywords": [
+          "Tim",
+          "book conference",
+          "next month",
+          "authors",
+          "publishers",
+          "novels",
+          "new releases",
+          "literature"
+        ],
+        "turns": [
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Signed basketball and team support",
+        "keywords": [
+          "John",
+          "Tim",
+          "signed basketball",
+          "teammates",
+          "friendship",
+          "appreciation",
+          "motivation",
+          "basketball journey",
+          "support"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.064981,
+    "thread_setup_seconds": 0.102742,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.064981,
+    "turn_seconds": 8.962239,
+    "first_text_seconds": 7.26084,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10775,
+      "completion_tokens": 339,
+      "total_tokens": 11114,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 171
+    }
+  },
+  "error": null
+}

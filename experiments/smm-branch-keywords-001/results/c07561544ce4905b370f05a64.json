@@ -1,0 +1,193 @@
+{
+  "source_id": "c07561544ce4905b370f05a64",
+  "source_sha256": "c16d580c0aafc7421987454ece749f9cc310994813928ad3b8a863dbb8488c8d",
+  "request_sha256": "fa6499aa3d74bfe96dcaebe91a77a96bca36784e302a33406d65e310c1080742",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c07561544ce4905b370f05a64",
+    "source_sha256": "c16d580c0aafc7421987454ece749f9cc310994813928ad3b8a863dbb8488c8d",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Hey Evan! Exciting news: I started a new diet and exercise routine last Monday and it's made a huge difference. I feel great! What about you, what changes have you made recently?"
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "Wow, Sam, great! Glad your new diet/exercise is going well. As for me, I've hit a sore spot lately. Twisted my knee last Friday and it's really painful, so it's been tough to stay consistent with my usual fitness routine. It's really frustrating because staying active is like, mega-important to me."
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Oh no, sorry to hear about that, Evan. It's frustrating when our bodies don't cooperate, isn't it? Is there anything I can do to help?"
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "Thanks, Sam. I appreciate the concern. Life throws us curveballs - that's life, right? By the way, remember that book I was talking about? It just gets better with every page, can't let it out of my hands!"
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "Life sure can be unpredictable and tough. Being adaptable and finding other ways to stay active is key when you're facing an obstacle. Maybe look into low-impact exercises or physical therapy to help with that? And damn, you really got me interested in this book haha!"
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "Yeah, PT for my knee is on the cards. Hopefully I'll get an appointment soon. Till then, just keeping it low-key and swimming to stay active."
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "Swimming is a good choice, Evan. It's low-impact and easy on the joints, plus it's refreshing. Keep up with the active lifestyle!"
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "Yeah, thanks for the push, Sam. Oh, hey, I came across this pic when I was tidying up. I took a road trip last month - the scenery was stunning and nature really chilled me out."
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "Wow, looks great! Where did you go? Bet it was nice to get away."
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "Thanks! I went up to the Rocky Mountains, it was so refreshing! The views were stunning and I felt so relaxed. Do you enjoy road trips and exploring nature?"
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "I haven't gone on a road trip in ages, but I love being surrounded by nature. It's so tranquil and refreshing. I'd love to go hiking more, but it can be a bit challenging sometimes. However, I am working on becoming healthier, so maybe a road trip and a hike will be possible soon."
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "That's cool, Sam. Nature can be really peaceful. I'd suggest going for more hikes, like I do. It's always been calming and fun. We should definitely do one together sometime."
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "Sounds like fun! Which lake do you recommend? I'd love to explore some of the local trails."
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "Check out this one! It's gorgeous and there are lots of trails nearby. You'll love it!"
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Wow, it looks great! Is it nearby? What a view!"
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "It's only a two-hour drive from here, but trust me, it's worth every minute for the incredible views and peaceful atmosphere."
+      },
+      {
+        "turn": 16,
+        "role": "Sam",
+        "text": "Cool, a day trip's doable. Nature's calling me, so I'm gonna go check it out! Thanks!"
+      },
+      {
+        "turn": 17,
+        "role": "Evan",
+        "text": "No worries, enjoy your time in nature. Take care! Bye!"
+      },
+      {
+        "turn": 18,
+        "role": "Sam",
+        "text": "Thanks Evan. Have a good one. See ya!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Fitness routine and knee recovery",
+        "keywords": [
+          "diet and exercise routine",
+          "knee injury",
+          "physical therapy",
+          "low-impact exercise",
+          "swimming",
+          "fitness consistency"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Evan’s engrossing book",
+        "keywords": [
+          "book",
+          "reading",
+          "can’t put it down"
+        ],
+        "turns": [
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Rocky Mountains road trip and local hiking",
+        "keywords": [
+          "road trip",
+          "Rocky Mountains",
+          "nature",
+          "hiking",
+          "lake",
+          "local trails",
+          "two-hour drive",
+          "day trip"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 5.993231,
+    "thread_setup_seconds": 0.103058,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.993231,
+    "turn_seconds": 5.890173,
+    "first_text_seconds": 4.803581,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10826,
+      "completion_tokens": 321,
+      "total_tokens": 11147,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 164
+    }
+  },
+  "error": null
+}

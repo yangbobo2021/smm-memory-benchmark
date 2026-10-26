@@ -1,0 +1,200 @@
+{
+  "source_id": "c8321ef49d3ce09cb4d607fa2",
+  "source_sha256": "57574b31ade4579ad899182f114f534fe74870cc641bc811f273957f8bba0f64",
+  "request_sha256": "e81627a416d116823642e12ff3036453022760f15c80aff2fbcf979c25a61711",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c8321ef49d3ce09cb4d607fa2",
+    "source_sha256": "57574b31ade4579ad899182f114f534fe74870cc641bc811f273957f8bba0f64",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria, last week was really eye-opening. I visited a veteran's hospital and met some amazing people. It made me appreciate what we have and the need to give back."
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "Wow, John! That sounds awesome. It's so important to appreciate and support those who served in the military. Did you learn anything cool during your visit?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "I heard some cool stories from an elderly veteran named Samuel. It was inspiring and heartbreaking, but seeing their resilience really filled me with hope. It reminded me why I wanted to join the military."
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "It's inspiring to see the resilience of the veterans in your group. Their stories are both inspiring and heartbreaking, but they fill us with hope."
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Thanks, Maria! It's great to be part of this organization and work with such passionate people. We're like a family - always supporting each other. Do anything fun lately?"
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Yeah, last weekend I had a picnic with some friends from church. We chilled under the trees, played games, and ate yummy food. It was great!"
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Looks fun! What games did you all play?"
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "Some fun ones like charades and a scavenger hunt. We all had a good laugh!"
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "Sounds like a blast! It's always great to have fun and bring out everyone's creative and silly sides with games like that. Laughter and joy are really important! I'm thinking of setting up something like this for my kids soon."
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "This looks like fun! Where did you see that?"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "There were arts and crafts at a community event last month. There were fun activities and games for families and everyone was having a blast. So I figured I'd try them out with my family and friends."
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "Wow, great idea! Connecting with others and discovering fun activities is always awesome. It's really cool how you adapted it for your family and friends!"
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Thanks, Maria! I couldn't agree more. Life's too short, let's have some fun!"
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "Sure, John! I'm glad we both understand the importance of making connections and enjoying life's simpler moments."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Yep, Maria! That's why it's important to keep spreading positivity and making a difference."
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "Definitely, John! Doing good and helping others brings joy. Even little acts of kindness can have a big effect. Let's keep working to make a difference!"
+      },
+      {
+        "turn": 16,
+        "role": "John",
+        "text": "Yep, Maria! Those things really matter. Little acts of kindness can really brighten someone's day. Let's keep spreading the love and making a difference."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Veteran hospital visit and military service",
+        "keywords": [
+          "veteran hospital",
+          "John",
+          "Maria",
+          "Samuel",
+          "elderly veteran",
+          "military service",
+          "resilience",
+          "veteran organization",
+          "support"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Church picnic and games",
+        "keywords": [
+          "church friends",
+          "picnic",
+          "last weekend",
+          "charades",
+          "scavenger hunt",
+          "games",
+          "laughter"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Community event crafts and family activities",
+        "keywords": [
+          "community event",
+          "last month",
+          "arts and crafts",
+          "family activities",
+          "John's kids",
+          "family and friends",
+          "games"
+        ],
+        "turns": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Kindness and spreading positivity",
+        "keywords": [
+          "acts of kindness",
+          "helping others",
+          "spreading positivity",
+          "making a difference",
+          "brighten someone's day",
+          "spreading love"
+        ],
+        "turns": [
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.987544,
+    "thread_setup_seconds": 0.120035,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.987544,
+    "turn_seconds": 8.867509,
+    "first_text_seconds": 7.227995,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10647,
+      "completion_tokens": 520,
+      "total_tokens": 11167,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 311
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,184 @@
+{
+  "source_id": "c9a054f15ebaa2c1a838eec19",
+  "source_sha256": "34fa1c45679b9f945d057109b60f4dd2a8b63c4da1e05e7885905b3533a0f9d1",
+  "request_sha256": "23e20e9f08e7ae1f85b7286888f1a30ccb46cf48e4cc32cb6ff31f56f83b5fc9",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c9a054f15ebaa2c1a838eec19",
+    "source_sha256": "34fa1c45679b9f945d057109b60f4dd2a8b63c4da1e05e7885905b3533a0f9d1",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Maria",
+        "text": "Hey John, I'm doing ok - hope you are too. Some interesting stuff has been going on; last week I dropped off that stuff I baked at the homeless shelter. It was great and I'm more motivated than ever to help people."
+      },
+      {
+        "turn": 1,
+        "role": "John",
+        "text": "Hey Maria, that's awesome! I'm really inspired by your drive to make a difference. You mentioned your work at the homeless shelter last time and it made me think of how I could help too, so I just joined a fire-fighting brigade. It's such a great feeling to do something to give back to my community!"
+      },
+      {
+        "turn": 2,
+        "role": "Maria",
+        "text": "Wow John, joining the fire brigade? That's great! How's it been so far?"
+      },
+      {
+        "turn": 3,
+        "role": "John",
+        "text": "Thanks, Maria! It's been tough, but really rewarding. The training was intense and taxing, but it changed my view on helping others. Last Sunday we had our first call-out, and it was intense. We responded to a situation and our team worked together to help those in need. Seeing their relief was awesome."
+      },
+      {
+        "turn": 4,
+        "role": "Maria",
+        "text": "Wow, John! What was it like being part of that rescue mission?"
+      },
+      {
+        "turn": 5,
+        "role": "John",
+        "text": "It was chaotic when we arrived, but we pulled together. I got a surge of energy and purpose, and we were able to save a family from a burning building. It was wild, but knowing we made a difference made it worth it."
+      },
+      {
+        "turn": 6,
+        "role": "Maria",
+        "text": "Wow John, that's intense! Helping out like that takes guts - it's inspiring to hear about the difference you made."
+      },
+      {
+        "turn": 7,
+        "role": "John",
+        "text": "Thanks, Maria! It was an adrenaline rush, and I couldn't have done it without them. We trust and rely on one another, and it's great to know that we have each other's backs. They've become like family to me."
+      },
+      {
+        "turn": 8,
+        "role": "Maria",
+        "text": "Sounds great, John! It must feel incredible to have a supportive team like that."
+      },
+      {
+        "turn": 9,
+        "role": "John",
+        "text": "Yeah, it really does feel helpful, Maria. We have different skills and talents, but they all contribute to serving and protecting our community. And it's a bond I haven't felt since my time in the military."
+      },
+      {
+        "turn": 10,
+        "role": "Maria",
+        "text": "Glad you've found that same strong bond. Having friends you can rely on makes a huge difference."
+      },
+      {
+        "turn": 11,
+        "role": "John",
+        "text": "Yeah, Maria! It's nice to know we're all in this together, striving to keep our community safe. I find it fulfilling and meaningful."
+      },
+      {
+        "turn": 12,
+        "role": "Maria",
+        "text": "Yeah John! It feels great to help people, and you're so awesome for it! Here's a shot I got when I volunteered. Reminds me being kind matters!"
+      },
+      {
+        "turn": 13,
+        "role": "John",
+        "text": "That's a cool photo, Maria! Small acts like that can really make a difference. Keep it up!"
+      },
+      {
+        "turn": 14,
+        "role": "Maria",
+        "text": "Thanks, John! I totally agree, so I'm gonna keep it up."
+      },
+      {
+        "turn": 15,
+        "role": "John",
+        "text": "Way to go, Maria! Keep on being positive and making a difference. You're doing great!"
+      },
+      {
+        "turn": 16,
+        "role": "Maria",
+        "text": "Thanks John! Your support means a lot to me. I'll definitely keep on going. Talk to you soon!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Maria’s homeless-shelter baking",
+        "keywords": [
+          "Maria",
+          "baking",
+          "homeless shelter",
+          "volunteering",
+          "helping people"
+        ],
+        "turns": [
+          0
+        ]
+      },
+      {
+        "label": "John’s fire-brigade rescue and team bond",
+        "keywords": [
+          "John",
+          "fire brigade",
+          "training",
+          "rescue",
+          "burning building",
+          "teamwork",
+          "community safety",
+          "military"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Maria’s volunteer photo and kindness",
+        "keywords": [
+          "Maria",
+          "volunteering",
+          "photo",
+          "kindness",
+          "small acts",
+          "encouragement"
+        ],
+        "turns": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 13.839385,
+    "thread_setup_seconds": 0.109038,
+    "rate_wait_seconds": 0,
+    "active_seconds": 13.839385,
+    "turn_seconds": 13.730347,
+    "first_text_seconds": 12.230187,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10731,
+      "completion_tokens": 516,
+      "total_tokens": 11247,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 355
+    }
+  },
+  "error": null
+}

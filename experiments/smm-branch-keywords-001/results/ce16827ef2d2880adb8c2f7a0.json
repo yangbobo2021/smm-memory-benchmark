@@ -1,0 +1,192 @@
+{
+  "source_id": "ce16827ef2d2880adb8c2f7a0",
+  "source_sha256": "4c54c89b6c55f501702564cb19d4f191f28ed6c1a1cccf12c6ff9c32a922949f",
+  "request_sha256": "4a683a5eea18433cc58f3858b277f0fdd0f4bee455ccf8c87228cf73e2d4b8a8",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "ce16827ef2d2880adb8c2f7a0",
+    "source_sha256": "4c54c89b6c55f501702564cb19d4f191f28ed6c1a1cccf12c6ff9c32a922949f",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Evan",
+        "text": "Hey Sam, how's it going? Been a while since we talked. Hope all is good."
+      },
+      {
+        "turn": 1,
+        "role": "Sam",
+        "text": "Hey Evan! It's been a rough week - I gave in and bought some unhealthy snacks. I feel kinda guilty. How's it going for you? That painting is awesome! Did you paint it?"
+      },
+      {
+        "turn": 2,
+        "role": "Evan",
+        "text": "Hey Sam, sorry to hear about the rough week. Don't worry about the snacks. I'm doing okay, just finished this painting of a sunset. It really helps me relax. So, how's everything going with you? Anything new and exciting?"
+      },
+      {
+        "turn": 3,
+        "role": "Sam",
+        "text": "Thanks, Evan! Yeah, I just couldn't resist them. Gotta do better. As for me, just dealing with work stress and trying to stay motivated."
+      },
+      {
+        "turn": 4,
+        "role": "Evan",
+        "text": "Hey Sam, work stress can really get to you. Have you tried anything new to de-stress? Maybe picking up a hobby or something could help."
+      },
+      {
+        "turn": 5,
+        "role": "Sam",
+        "text": "Thinking about trying something different outdoors. Any suggestions?"
+      },
+      {
+        "turn": 6,
+        "role": "Evan",
+        "text": "Sounds good! Have you ever tried kayaking? It's a fun and active way to paddle on a river or lake. What are your thoughts on that?"
+      },
+      {
+        "turn": 7,
+        "role": "Sam",
+        "text": "Kayaking sounds awesome! Haven't tried it yet, but it looks like a fun way to get in some exercise and enjoy nature. I'm definitely considering giving it a try. Thanks!"
+      },
+      {
+        "turn": 8,
+        "role": "Evan",
+        "text": "No worries, Sam! It's a fun way to get in some exercise and enjoy nature. Let me know when you're ready to give it a try and I can hook you up with a good spot."
+      },
+      {
+        "turn": 9,
+        "role": "Sam",
+        "text": "Thanks for the idea, my mate and I are just around the corner from kayaking on the lake, we're going to try that now!"
+      },
+      {
+        "turn": 10,
+        "role": "Evan",
+        "text": "Of course, let me know if you like it, we can plan a kayaking trip together, I'll pick a cool spot!"
+      },
+      {
+        "turn": 11,
+        "role": "Sam",
+        "text": "Yep, Evan! Can't wait. Thanks for the help!"
+      },
+      {
+        "turn": 12,
+        "role": "Evan",
+        "text": "Ready for an adventure? Where will you go?"
+      },
+      {
+        "turn": 13,
+        "role": "Sam",
+        "text": "We're traveling through Lake Tahoe! I heard it's great for kayaking."
+      },
+      {
+        "turn": 14,
+        "role": "Evan",
+        "text": "Hey Sam, it's an awesome pick! You'll love it there - clear water and gorgeous views. Have a blast and take lots of pics!"
+      },
+      {
+        "turn": 15,
+        "role": "Sam",
+        "text": "Thanks, Evan! I'm looking forward to it!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Sam’s snack guilt",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "unhealthy snacks",
+          "guilt",
+          "rough week"
+        ],
+        "turns": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Evan’s sunset painting",
+        "keywords": [
+          "Evan",
+          "Sam",
+          "sunset painting",
+          "painting",
+          "relaxation"
+        ],
+        "turns": [
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Work stress and staying motivated",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "work stress",
+          "motivation",
+          "de-stressing"
+        ],
+        "turns": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Kayaking plans at Lake Tahoe",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "kayaking",
+          "lake",
+          "outdoor exercise",
+          "nature",
+          "Lake Tahoe",
+          "travel"
+        ],
+        "turns": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 11.588929,
+    "thread_setup_seconds": 0.451567,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.588929,
+    "turn_seconds": 11.137363,
+    "first_text_seconds": 9.102862,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10600,
+      "completion_tokens": 445,
+      "total_tokens": 11045,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 265
+    }
+  },
+  "error": null
+}

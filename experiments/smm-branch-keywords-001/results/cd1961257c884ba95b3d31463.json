@@ -1,0 +1,167 @@
+{
+  "source_id": "cd1961257c884ba95b3d31463",
+  "source_sha256": "09de547cd6f383b0a3626a42daf87222ccdbdc754d68207f4bd1cfddd4dc8495",
+  "request_sha256": "0ce399e269acdd86e6c7ef2e6d125a4e52b4524ec091e9548ecf68a83a3db2da",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cd1961257c884ba95b3d31463",
+    "source_sha256": "09de547cd6f383b0a3626a42daf87222ccdbdc754d68207f4bd1cfddd4dc8495",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Joanna",
+        "text": "Hey Nate, long time no talk! I've been busy with writing projects and really going all out with it. It's been the best thing ever - a mix of highs and lows - and my journal's pretty much my rock. Writing's such a huge part of me now."
+      },
+      {
+        "turn": 1,
+        "role": "Nate",
+        "text": "Hey Joanna! Great to hear it! It's amazing how much a certain activity can become a part of our lives. Keep it up, you're inspiring! Is writing your way to solace and creativity?"
+      },
+      {
+        "turn": 2,
+        "role": "Joanna",
+        "text": "Yeah, definitely. Writing has become like an escape and a way to express my feelings. It gives me a chance to put all my thoughts and feelings down and make something good out of it. Words just have a magical way of healing."
+      },
+      {
+        "turn": 3,
+        "role": "Nate",
+        "text": "That's really cool, I like it! It's incredible how words can turn something sad into something special. I'm glad it worked for you. Anything cool happening recently?"
+      },
+      {
+        "turn": 4,
+        "role": "Joanna",
+        "text": "Yep. Last week, someone wrote me a letter after reading an online blog post I made about a hard moment in my life. Their words touched me; they said my story had brought them comfort. It was awesome to realize my words had that kind of power. It reminded me why I love writing."
+      },
+      {
+        "turn": 5,
+        "role": "Nate",
+        "text": "Nice work, Joanna! That must feel sureal. Keep it up - you're changing lives!"
+      },
+      {
+        "turn": 6,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Really appreciate your kind words. It's knowing that my writing can make a difference that keeps me going, even on tough days. So glad to have this outlet to share my stories and hopefully have an impact. How about you? Anything new since we last talked?"
+      },
+      {
+        "turn": 7,
+        "role": "Nate",
+        "text": "Thanks, Joanna! Your words mean a lot. Since we last spoke, I started teaching people how to make this. Sharing my love for dairy-free desserts has been fun and rewarding."
+      },
+      {
+        "turn": 8,
+        "role": "Joanna",
+        "text": "Yum, Nate! I love it when you make coconut milk icecream, it's so good!"
+      },
+      {
+        "turn": 9,
+        "role": "Nate",
+        "text": "I've been really into making this lately - it's creamy, rich, dairy-free and a new recipe! Wanna try it? I can share the recipe with you if you'd like!"
+      },
+      {
+        "turn": 10,
+        "role": "Joanna",
+        "text": "I'd love to try it! Thanks for sharing your love for dairy-free desserts. I really appreciate it!"
+      },
+      {
+        "turn": 11,
+        "role": "Nate",
+        "text": "No problem, Joanna! Always happy to share them with you. Sending you the recipe now!"
+      },
+      {
+        "turn": 12,
+        "role": "Joanna",
+        "text": "Thanks, Nate! Can't wait to surprise my family with something delicious!"
+      },
+      {
+        "turn": 13,
+        "role": "Nate",
+        "text": "No problem, Joanna! Wish them luck! Let me know how it goes. Have a blast baking!"
+      },
+      {
+        "turn": 14,
+        "role": "Joanna",
+        "text": "Thanks, Nate. I'll keep you posted. Have a great day."
+      },
+      {
+        "turn": 15,
+        "role": "Nate",
+        "text": "You too!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Joanna’s healing writing and reader impact",
+        "keywords": [
+          "Joanna",
+          "journaling",
+          "writing projects",
+          "emotional expression",
+          "writing as solace",
+          "online blog post",
+          "personal story",
+          "reader comfort"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Nate’s dairy-free dessert recipe",
+        "keywords": [
+          "Nate",
+          "dairy-free desserts",
+          "coconut milk ice cream",
+          "new recipe",
+          "recipe sharing",
+          "teaching dessert-making",
+          "family baking"
+        ],
+        "turns": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 9.124222,
+    "thread_setup_seconds": 0.206492,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.124222,
+    "turn_seconds": 8.917729,
+    "first_text_seconds": 7.622163,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10679,
+      "completion_tokens": 252,
+      "total_tokens": 10931,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 114
+    }
+  },
+  "error": null
+}

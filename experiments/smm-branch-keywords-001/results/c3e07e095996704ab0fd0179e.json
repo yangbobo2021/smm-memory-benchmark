@@ -1,0 +1,152 @@
+{
+  "source_id": "c3e07e095996704ab0fd0179e",
+  "source_sha256": "4300bf5c3235ad515762573381763f4b104d2b274d4a4b640043265f2f6a6cfb",
+  "request_sha256": "c90a77182d92a1b062a03aa918c08b3f77b6effb95bf52b687b8eb6a12f22a90",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c3e07e095996704ab0fd0179e",
+    "source_sha256": "4300bf5c3235ad515762573381763f4b104d2b274d4a4b640043265f2f6a6cfb",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Audrey",
+        "text": "Hey Andrew, I was thinking about what you said about missing nature the other day. It reminded me of when I couldn't walk my dogs because of a knee injury. It was tough 'cause they bring me so much joy. This pic was taken after I started walking again. It felt great to be able to get back out there!"
+      },
+      {
+        "turn": 1,
+        "role": "Andrew",
+        "text": "You know how it feel right? Bummer not being able to take them for a stroll. They must've been over the moon when you could finally take them out again. Glad you got that adorable pic too! Dogs are awesome like that, huh? Remind us to stop and smell the roses."
+      },
+      {
+        "turn": 2,
+        "role": "Audrey",
+        "text": "Yeah, it was like they couldn't wait! They definitely reminds us to appreciate life's little pleasures. They see the world so differently!"
+      },
+      {
+        "turn": 3,
+        "role": "Andrew",
+        "text": "Yeah, dogs sure know how to find the simple joys of life! Appreciating the little things is so important. Well speaking of interesting hobbies, I rememver you mentionoed about that jewelry earlier? I remember you saying you make them with recycled objects. That sounds cool - tell me more!"
+      },
+      {
+        "turn": 4,
+        "role": "Audrey",
+        "text": "Oh yes! I love making jewelry out of recycled stuff. It's a great way to show my love of creativity and sustainability. I hunt down things like bottle caps, buttons, and broken jewelry, and then turn them into one-of-a-kind pieces. Here's a photo of one of my favorite necklaces. They all hold a special story and have their own appeal. Plus, it's a small step in reducing waste."
+      },
+      {
+        "turn": 5,
+        "role": "Andrew",
+        "text": "That necklace looks awesome! The colors really stand out and the design is really cool. It's great that you're giving recycled objects new life. Do you make jewelry to sell or just as a hobby? Also, do you donate profits to a good cause?"
+      },
+      {
+        "turn": 6,
+        "role": "Audrey",
+        "text": "Thanks! I started making jewelry as a hobby and then started selling it. I donate a portion of my profits to a cause that's close to my heart. It's a way to combine two of my passions - making jewelry and making a difference. It's great that customers not only enjoy my work but also support a cause!"
+      },
+      {
+        "turn": 7,
+        "role": "Andrew",
+        "text": "Wow! It's amazing how you use your passion to make a difference in the world. Has this experience changed your perspective on other hobbies? And do you donate to any specific organization?"
+      },
+      {
+        "turn": 8,
+        "role": "Audrey",
+        "text": "Definitely! Any hobby can have an impact when used right - I donate to an animal shelter. They do great work, so it's my way of helping out."
+      },
+      {
+        "turn": 9,
+        "role": "Andrew",
+        "text": "That's awesome! It's really inspiring how dedicated you are to making a difference, even though you can't volunteer at the shelter anymore."
+      },
+      {
+        "turn": 10,
+        "role": "Audrey",
+        "text": "Yeah, I'm still finding ways to do good, even if I can't be there. Life's all about adapting and helping out."
+      },
+      {
+        "turn": 11,
+        "role": "Andrew",
+        "text": "Yeah, you got it. Life is all about rolling with the punches and making a difference, whatever happens. Your hard work is really amazing."
+      },
+      {
+        "turn": 12,
+        "role": "Audrey",
+        "text": "Thanks! I appreciate your kind words. Gotta stay strong and keep making a difference, even in challenging times."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Recovering from knee injury and walking dogs",
+        "keywords": [
+          "Audrey",
+          "Andrew",
+          "knee injury",
+          "dog walking",
+          "nature",
+          "simple joys",
+          "appreciation"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Recycled jewelry and animal-shelter donations",
+        "keywords": [
+          "Audrey",
+          "Andrew",
+          "recycled jewelry",
+          "bottle cap",
+          "button",
+          "necklace",
+          "selling jewelry",
+          "hobby",
+          "animal shelter",
+          "donation"
+        ],
+        "turns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.926675,
+    "thread_setup_seconds": 0.261462,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.926675,
+    "turn_seconds": 8.665213,
+    "first_text_seconds": 7.637716,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10726,
+      "completion_tokens": 204,
+      "total_tokens": 10930,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 72
+    }
+  },
+  "error": null
+}

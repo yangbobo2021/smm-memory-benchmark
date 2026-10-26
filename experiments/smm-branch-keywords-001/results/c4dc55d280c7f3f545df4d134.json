@@ -1,0 +1,164 @@
+{
+  "source_id": "c4dc55d280c7f3f545df4d134",
+  "source_sha256": "379f8fa81c70400b60b7aa350996b27b38fb35db755e260e17eed7e27dc282a0",
+  "request_sha256": "733cc375229e64d73afd4f0c7c5d034ff96d70cceedcab43bc7b019ee5f35626",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c4dc55d280c7f3f545df4d134",
+    "source_sha256": "379f8fa81c70400b60b7aa350996b27b38fb35db755e260e17eed7e27dc282a0",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Caroline",
+        "text": "Woohoo Melanie! I passed the adoption agency interviews last Friday! I'm so excited and thankful. This is a big move towards my goal of having a family."
+      },
+      {
+        "turn": 1,
+        "role": "Melanie",
+        "text": "Congrats, Caroline! Adoption sounds awesome. I'm so happy for you. These figurines I bought yesterday remind me of family love. Tell me, what's your vision for the future?"
+      },
+      {
+        "turn": 2,
+        "role": "Caroline",
+        "text": "Thanks so much, Melanie! It's beautiful! It really brings home how much love's in families - both blood and the ones we choose. I hope to build my own family and put a roof over kids who haven't had that before. For me, adoption is a way of giving back and showing love and acceptance."
+      },
+      {
+        "turn": 3,
+        "role": "Melanie",
+        "text": "Wow, Caroline, that's awesome. Giving a home to needy kids is such a loving way to build a family. Those kids will be so supported and happy in their new home."
+      },
+      {
+        "turn": 4,
+        "role": "Caroline",
+        "text": "Thanks, Melanie. My dream is to create a safe and loving home for these kids. Love and acceptance should be everyone's right, and I want them to experience it."
+      },
+      {
+        "turn": 5,
+        "role": "Melanie",
+        "text": "I totally agree, Caroline. Everyone deserves that. It's awesome to see how passionate you are about helping these kids."
+      },
+      {
+        "turn": 6,
+        "role": "Caroline",
+        "text": "Thanks, Mel. Finding self-acceptance was a long process, but now I'm ready to offer love and support to those who need it. It's empowering to make a positive difference in someone's life."
+      },
+      {
+        "turn": 7,
+        "role": "Melanie",
+        "text": "That must have been tough for you, Caroline. Respect for finding acceptance and helping others with what you've been through. You're so strong and inspiring."
+      },
+      {
+        "turn": 8,
+        "role": "Caroline",
+        "text": "Thanks, Melanie. Transitioning wasn't easy and acceptance wasn't either, but the help I got from friends, family and people I looked up to was invaluable. They boosted me through tough times and helped me find out who I really am. That's why I want to pass that same support to anyone who needs it. Bringing others comfort and helping them grow brings me such joy."
+      },
+      {
+        "turn": 9,
+        "role": "Melanie",
+        "text": "I'm so happy for you, Caroline. You found your true self and now you're helping others. You're so inspiring!"
+      },
+      {
+        "turn": 10,
+        "role": "Caroline",
+        "text": "Thanks, Melanie. Your support really means a lot. This journey has been amazing and I'm grateful I get to share it and help others with theirs. It's a real gift."
+      },
+      {
+        "turn": 11,
+        "role": "Melanie",
+        "text": "Absolutely! I'm so glad we can always be there for each other."
+      },
+      {
+        "turn": 12,
+        "role": "Caroline",
+        "text": "Glad you agree, Caroline. Appreciate the support of those close to me. Their encouragement made me who I am."
+      },
+      {
+        "turn": 13,
+        "role": "Melanie",
+        "text": "Glad you had support. Being yourself is great!"
+      },
+      {
+        "turn": 14,
+        "role": "Caroline",
+        "text": "Yeah, that's true! It's so freeing to just be yourself and live honestly. We can really accept who we are and be content."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Adoption and building a family",
+        "keywords": [
+          "Caroline",
+          "Melanie",
+          "adoption agency interview",
+          "adoption",
+          "family",
+          "figurines",
+          "safe and loving home",
+          "children in need",
+          "love and acceptance"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Transition, self-acceptance, and supporting others",
+        "keywords": [
+          "Caroline",
+          "Melanie",
+          "transition",
+          "self-acceptance",
+          "friends and family support",
+          "personal growth",
+          "helping others",
+          "being yourself",
+          "living honestly"
+        ],
+        "turns": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 8.653431,
+    "thread_setup_seconds": 0.293271,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.653431,
+    "turn_seconds": 8.36016,
+    "first_text_seconds": 6.496822,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10674,
+      "completion_tokens": 325,
+      "total_tokens": 10999,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 180
+    }
+  },
+  "error": null
+}

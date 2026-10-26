@@ -1,0 +1,195 @@
+{
+  "source_id": "cdc4a081215673c3d5558c1fa",
+  "source_sha256": "9930e3af0194e5c4a4593fd74b62c4a654dd9034f36d1402e4b127974a7386ae",
+  "request_sha256": "82f5ac6495b23e71f948efcb72469e66587a9337ca34247a8f015a20e3234b82",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cdc4a081215673c3d5558c1fa",
+    "source_sha256": "9930e3af0194e5c4a4593fd74b62c4a654dd9034f36d1402e4b127974a7386ae",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Audrey",
+        "text": "Hey Andrew, since we last spoke I got another tattoo of my four dogs on my arm! They really mean a lot to me so I thought it'd be nice to have them with me wherever I go. What've you been up to?"
+      },
+      {
+        "turn": 1,
+        "role": "Andrew",
+        "text": "Wow that's so cool! I recently went to a farm with my girlfriend to get some fresh veggies for dinner, and it was really nice. Have you been thinking about getting more fur babies or is four enough?"
+      },
+      {
+        "turn": 2,
+        "role": "Audrey",
+        "text": "Sounds great! I'd love to have more, but four is enough for now. They keep me busy and I want to make sure I give each of them the attention they deserve - four dogs is already a lot! I took them all to the vet and got them checked up, it was such a havoc that next time I'll bring them one by one."
+      },
+      {
+        "turn": 3,
+        "role": "Andrew",
+        "text": "Oof, that vet trip must have been chaotic. Yeah I'm sure they keep you busy! That photo you shared was sweet - do they have a favorite spot to relax?"
+      },
+      {
+        "turn": 4,
+        "role": "Audrey",
+        "text": "Yeah, for sure. They each have their favorite spot to chill. Pepper loves lounging on the couch, Pixie always curls up in her bed, Precious has her chair, and Panda loves to relax on his rug! They all have their own little cozy spots."
+      },
+      {
+        "turn": 5,
+        "role": "Andrew",
+        "text": "That sounds adorable! Pets always find their own little spots and it brings so much joy and comfort. Here's Toby at his favorite spot."
+      },
+      {
+        "turn": 6,
+        "role": "Audrey",
+        "text": "Yeah, they sure know how to get comfy! Here's a pic of them snuggling on my favorite blanket."
+      },
+      {
+        "turn": 7,
+        "role": "Andrew",
+        "text": "Aww, they're so adorable! They look so cozy. Do they always sleep like that?"
+      },
+      {
+        "turn": 8,
+        "role": "Audrey",
+        "text": "Yeah, they always sleep like that. They cuddle up together, especially when it's time to nap. They really are best friends."
+      },
+      {
+        "turn": 9,
+        "role": "Andrew",
+        "text": "Wow that's awesome! It must be great having furry friends to keep each other company."
+      },
+      {
+        "turn": 10,
+        "role": "Audrey",
+        "text": "Yeah, they're always there for each other. Seeing them together makes me so happy."
+      },
+      {
+        "turn": 11,
+        "role": "Andrew",
+        "text": "That sounds wonderful. No wonder it brings you so much happiness to have them around!"
+      },
+      {
+        "turn": 12,
+        "role": "Audrey",
+        "text": "Yeah they mean the world to me, so I can't imagine life without them."
+      },
+      {
+        "turn": 13,
+        "role": "Andrew",
+        "text": "Totally get it, pets bring such joy and feel like family. I can't imagine life without them."
+      },
+      {
+        "turn": 14,
+        "role": "Audrey",
+        "text": "Yep, pets are family. It's so sweet to see the connection between them. Here's a photo of me lying on the grass with them."
+      },
+      {
+        "turn": 15,
+        "role": "Andrew",
+        "text": "Wow, that's a great pic! Looks like you guys had a really good time outside."
+      },
+      {
+        "turn": 16,
+        "role": "Audrey",
+        "text": "Oh yeah it was a great day - we had tons of fun outside."
+      },
+      {
+        "turn": 17,
+        "role": "Andrew",
+        "text": "Glad you had a blast with them. Cherish those memories!"
+      },
+      {
+        "turn": 18,
+        "role": "Audrey",
+        "text": "Thanks! I'll always cherish those moments. They really make life so much brighter."
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Audrey’s four dogs and shared moments",
+        "keywords": [
+          "Audrey",
+          "Andrew",
+          "four dogs",
+          "dog tattoo",
+          "Pepper",
+          "Pixie",
+          "Precious",
+          "Panda",
+          "Toby",
+          "vet visit",
+          "favorite resting spots",
+          "cuddling",
+          "best friends",
+          "dog photos",
+          "outdoor time",
+          "pets as family"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "label": "Farm visit for fresh vegetables",
+        "keywords": [
+          "Andrew",
+          "girlfriend",
+          "farm",
+          "fresh vegetables",
+          "dinner"
+        ],
+        "turns": [
+          1
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 12.593556,
+    "thread_setup_seconds": 0.324201,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.593556,
+    "turn_seconds": 12.269355,
+    "first_text_seconds": 11.250719,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10739,
+      "completion_tokens": 421,
+      "total_tokens": 11160,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 268
+    }
+  },
+  "error": {
+    "type": "AssertionError",
+    "message": ""
+  }
+}

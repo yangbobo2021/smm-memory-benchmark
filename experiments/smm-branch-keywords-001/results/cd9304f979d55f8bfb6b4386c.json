@@ -1,0 +1,170 @@
+{
+  "source_id": "cd9304f979d55f8bfb6b4386c",
+  "source_sha256": "095e15e52265ce207908130f649bee8fe7977594c8ad8580a3afe69c22145ffa",
+  "request_sha256": "93db86a1f399dc975850fe0ee92c8062f3652d9115296ec5be368b0a7cef77e3",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "cd9304f979d55f8bfb6b4386c",
+    "source_sha256": "095e15e52265ce207908130f649bee8fe7977594c8ad8580a3afe69c22145ffa",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "John",
+        "text": "Hey Maria, long time no talk! Life's been pretty wild lately. The toughest thing to deal with is that we had to say goodbye to Max. He was such an important part of our family for 10 years and it's so hard to think he's not here wagging that tail anymore."
+      },
+      {
+        "turn": 1,
+        "role": "Maria",
+        "text": "John, I'm sorry to hear about Max. It can be tough to lose a pet - they're like family. How have you been coping?"
+      },
+      {
+        "turn": 2,
+        "role": "John",
+        "text": "Hey Maria, thanks for the kind words. We're all still sad about it, but have been comforted by the good times we had and the memories we have. It's tough, but we'll keep doing our best."
+      },
+      {
+        "turn": 3,
+        "role": "Maria",
+        "text": "Good to hear that you're finding comfort in the good times you had with Max. Pets really have a way of touching our hearts. Do you have any pictures you'd like to share?"
+      },
+      {
+        "turn": 4,
+        "role": "John",
+        "text": "Let's make sure we make progress in the coming weeks to ensure that we honor the memories of our loved ones. Here's a picture of him that I cherish. \n"
+      },
+      {
+        "turn": 5,
+        "role": "Maria",
+        "text": "Max looks so peaceful in that photo, just chilling in the backyard. It's nice to remember him like that. It's a great way to honor him."
+      },
+      {
+        "turn": 6,
+        "role": "John",
+        "text": "Yeah, that's how we'll think of him - peaceful and happy. He brought us so much joy. It's heartbreaking that he's gone but we're grateful to have had him as part of our family. He taught us a lot about love and loyalty."
+      },
+      {
+        "turn": 7,
+        "role": "Maria",
+        "text": "Max was truly awesome. Let's cherish the lessons he taught."
+      },
+      {
+        "turn": 8,
+        "role": "John",
+        "text": "He really taught us the importance of unconditional love and loyalty. I want my kids to learn that too. Our bond with him was so special and something I cherish."
+      },
+      {
+        "turn": 9,
+        "role": "Maria",
+        "text": "That's a great lesson to pass on to your kids, John. Both are really important for strong relationships. Any plans to give another pet a loving home?"
+      },
+      {
+        "turn": 10,
+        "role": "John",
+        "text": "We're considering adopting a rescue dog - for love and to teach our kids responsibility and compassion."
+      },
+      {
+        "turn": 11,
+        "role": "Maria",
+        "text": "John, that's such a great idea! It gives the pup a loving home and teaches your kids important values. If you need any help, let me know! I just started volunteering at a local dog shelter once a month."
+      },
+      {
+        "turn": 12,
+        "role": "John",
+        "text": "Thanks for the offer, Maria! It's so awesome to have friends like you. If we need help, we'll let you know. Appreciate it!"
+      },
+      {
+        "turn": 13,
+        "role": "Maria",
+        "text": "Sure thing, John. Let me know if you need any help."
+      },
+      {
+        "turn": 14,
+        "role": "John",
+        "text": "Sure thing, Maria. Thanks for the support! It means a lot to me."
+      },
+      {
+        "turn": 15,
+        "role": "Maria",
+        "text": "No worries, John. I'm here for you. Take care!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Grieving and remembering Max",
+        "keywords": [
+          "Max",
+          "pet loss",
+          "family dog",
+          "grief",
+          "cherished photo",
+          "backyard",
+          "memories",
+          "unconditional love",
+          "loyalty",
+          "children"
+        ],
+        "turns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Rescue dog adoption and shelter volunteering",
+        "keywords": [
+          "rescue dog",
+          "adoption",
+          "children's responsibility",
+          "compassion",
+          "loving home",
+          "local dog shelter",
+          "volunteering",
+          "once a month",
+          "Maria"
+        ],
+        "turns": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 10.025642,
+    "thread_setup_seconds": 0.136856,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.025642,
+    "turn_seconds": 9.888785,
+    "first_text_seconds": 8.253114,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10658,
+      "completion_tokens": 277,
+      "total_tokens": 10935,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 136
+    }
+  },
+  "error": null
+}

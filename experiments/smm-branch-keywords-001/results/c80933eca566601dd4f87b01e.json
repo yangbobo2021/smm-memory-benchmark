@@ -1,0 +1,225 @@
+{
+  "source_id": "c80933eca566601dd4f87b01e",
+  "source_sha256": "659a0b0462211a09c644bd5a26147ce89291b69c58a950fcd36bd7564b343d52",
+  "request_sha256": "9237a5a6eb3e2dd6caffee10b775bd4e681e06f9793cc3e9ec7da4d01f98d1cd",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "input": {
+    "source_id": "c80933eca566601dd4f87b01e",
+    "source_sha256": "659a0b0462211a09c644bd5a26147ce89291b69c58a950fcd36bd7564b343d52",
+    "turns": [
+      {
+        "turn": 0,
+        "role": "Sam",
+        "text": "Hey Evan, good to see you! What's new since we last met? Anything cool happening?"
+      },
+      {
+        "turn": 1,
+        "role": "Evan",
+        "text": "Hey Sam! Good to see you! Yeah, I just got back from a trip with my family in my new Prius."
+      },
+      {
+        "turn": 2,
+        "role": "Sam",
+        "text": "Wow, not bad, what happened to the old one? Where'd you go, by the way?"
+      },
+      {
+        "turn": 3,
+        "role": "Evan",
+        "text": "My old prius broke down, decided to get it repaired and sell it. Glad you asked, we went to Rockies, check it out."
+      },
+      {
+        "turn": 4,
+        "role": "Sam",
+        "text": "Wow! Looks amazing. When did you get to go there?"
+      },
+      {
+        "turn": 5,
+        "role": "Evan",
+        "text": "We all hiked the trails last week - the views were amazing!"
+      },
+      {
+        "turn": 6,
+        "role": "Sam",
+        "text": "Wow, that's cool. I love hiking, but it's been ages since I've done it. I did this hike with my dad way back when I was ten. Going hiking together was great fun, and really special for us."
+      },
+      {
+        "turn": 7,
+        "role": "Evan",
+        "text": "Aww, that's cute. How far did you two hike?"
+      },
+      {
+        "turn": 8,
+        "role": "Sam",
+        "text": "We hiked a good distance - quite a feat for me back then. It's definitely a great memory."
+      },
+      {
+        "turn": 9,
+        "role": "Evan",
+        "text": "What other hobbies have you found for yourself?"
+      },
+      {
+        "turn": 10,
+        "role": "Sam",
+        "text": "Nothing so far, but I was thinking about trying painting. Do you have any hobbies you love?"
+      },
+      {
+        "turn": 11,
+        "role": "Evan",
+        "text": "Cool idea, Sam! I love it. Have you tried it before?"
+      },
+      {
+        "turn": 12,
+        "role": "Sam",
+        "text": "Not yet, but I'm keen to give it a go. It looks like a nice way to chill and get creative."
+      },
+      {
+        "turn": 13,
+        "role": "Evan",
+        "text": "Yep, it's a great stress-buster. I started doing this a few years back."
+      },
+      {
+        "turn": 14,
+        "role": "Sam",
+        "text": "Wow, that's impressive! How did you get into watercolor painting?"
+      },
+      {
+        "turn": 15,
+        "role": "Evan",
+        "text": "My friend got me into it and gave me some advice, and I was hooked right away!"
+      },
+      {
+        "turn": 16,
+        "role": "Sam",
+        "text": "Wow! I hope I can find something I'm as passionate about as you are with watercolor painting."
+      },
+      {
+        "turn": 17,
+        "role": "Evan",
+        "text": "You'll find it, just keep trying new things until something sparks your excitement."
+      },
+      {
+        "turn": 18,
+        "role": "Sam",
+        "text": "Thanks, Evan! I'm excited to try new things, should be fun!"
+      },
+      {
+        "turn": 19,
+        "role": "Evan",
+        "text": "No worries, Sam! Super pumped for you! Let's catch up soon and see how you're enjoying your new hobbies!"
+      },
+      {
+        "turn": 20,
+        "role": "Sam",
+        "text": "Yeah, I'll keep you posted. See you soon!"
+      },
+      {
+        "turn": 21,
+        "role": "Evan",
+        "text": "Take it easy, Evan! Can't wait to see you. Have a good one!"
+      }
+    ]
+  },
+  "output": {
+    "branches": [
+      {
+        "label": "Evan’s Prius breakdown and sale",
+        "keywords": [
+          "Evan",
+          "Prius",
+          "car breakdown",
+          "repair",
+          "sell"
+        ],
+        "turns": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Family trip to the Rockies",
+        "keywords": [
+          "Evan",
+          "family trip",
+          "Rockies",
+          "hiking trails",
+          "last week"
+        ],
+        "turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Sam’s childhood hike with his dad",
+        "keywords": [
+          "Sam",
+          "father",
+          "hiking",
+          "age ten",
+          "childhood memory"
+        ],
+        "turns": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Sam exploring painting and Evan’s watercolor hobby",
+        "keywords": [
+          "Sam",
+          "Evan",
+          "painting",
+          "watercolor painting",
+          "new hobbies",
+          "friend’s advice",
+          "stress relief"
+        ],
+        "turns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "seconds": 7.061295,
+    "thread_setup_seconds": 0.237201,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.061295,
+    "turn_seconds": 6.824094,
+    "first_text_seconds": 5.379486,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10663,
+      "completion_tokens": 398,
+      "total_tokens": 11061,
+      "cached_prompt_tokens": 8960,
+      "reasoning_tokens": 205
+    }
+  },
+  "error": null
+}
