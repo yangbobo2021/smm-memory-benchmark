@@ -1,0 +1,152 @@
+{
+  "id": "P02",
+  "cohort": "P25",
+  "type": "knowledge-update",
+  "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+  "queries": {
+    "authored": "egg eggs dozen refrigerator fridge stocked stock remaining",
+    "stopword": "dozen eggs we currently stocked up refrigerator"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_babbaccb_1": 1,
+        "answer_babbaccb_2": 2
+      },
+      "top10_ids": [
+        "answer_babbaccb_1",
+        "answer_babbaccb_2",
+        "4f95fa24",
+        "837d3ff5_5",
+        "76703db4_3",
+        "857e2dc8_1",
+        "ultrachat_142406",
+        "51c82c8e_2",
+        "1e64d907_4",
+        "57144028_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_babbaccb_1": 1,
+        "answer_babbaccb_2": 2
+      },
+      "top10_ids": [
+        "answer_babbaccb_1",
+        "answer_babbaccb_2",
+        "4f95fa24",
+        "837d3ff5_5",
+        "6a3b5c13_1",
+        "5813c323_2",
+        "e78617c5_4",
+        "9a8051fa_1",
+        "857e2dc8_1",
+        "22aa7cca_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_babbaccb_1": 1,
+        "answer_babbaccb_2": 2
+      },
+      "top10_ids": [
+        "answer_babbaccb_1",
+        "answer_babbaccb_2",
+        "4f95fa24",
+        "837d3ff5_5",
+        "857e2dc8_1",
+        "51c82c8e_2",
+        "76703db4_3",
+        "1e64d907_4",
+        "57144028_2",
+        "9334f70b_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_babbaccb_1": 1,
+        "answer_babbaccb_2": 2
+      },
+      "top10_ids": [
+        "answer_babbaccb_1",
+        "answer_babbaccb_2",
+        "4f95fa24",
+        "837d3ff5_5",
+        "ultrachat_572130",
+        "sharegpt_kK4yZYp_35",
+        "51c82c8e_2",
+        "ultrachat_457346",
+        "sharegpt_jobjzzl_11",
+        "ultrachat_408857"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_babbaccb_1": 1,
+        "answer_babbaccb_2": 2
+      },
+      "top10_ids": [
+        "answer_babbaccb_1",
+        "answer_babbaccb_2",
+        "4f95fa24",
+        "837d3ff5_5",
+        "51c82c8e_2",
+        "6bb68985_1",
+        "ultrachat_572130",
+        "ultrachat_142406",
+        "76703db4_3",
+        "ultrachat_457346"
+      ]
+    }
+  }
+}

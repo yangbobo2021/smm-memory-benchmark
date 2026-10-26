@@ -1,0 +1,152 @@
+{
+  "id": "L010",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What was the social media activity I participated 5 days ago?",
+  "queries": {
+    "authored": "social media participated activity challenge",
+    "stopword": "social media activity participated 5 days ago"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_9793daa4_2": 380,
+        "answer_9793daa4_1": 18
+      },
+      "top10_ids": [
+        "3bcfaf0d",
+        "ultrachat_198743",
+        "ultrachat_289992",
+        "869fe9ba_1",
+        "14076ea0_2",
+        "ultrachat_374302",
+        "ultrachat_186296",
+        "59ec3c7c_1",
+        "e552e1f9_1",
+        "b7fa3417_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_9793daa4_2": null,
+        "answer_9793daa4_1": 10
+      },
+      "top10_ids": [
+        "ultrachat_198743",
+        "ultrachat_289992",
+        "3bcfaf0d",
+        "869fe9ba_1",
+        "e9e6abea",
+        "ultrachat_186296",
+        "ultrachat_41862",
+        "sharegpt_hzwc0HI_13",
+        "b7fa3417_1",
+        "answer_9793daa4_1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_9793daa4_2": 269,
+        "answer_9793daa4_1": 22
+      },
+      "top10_ids": [
+        "3bcfaf0d",
+        "ultrachat_198743",
+        "ultrachat_289992",
+        "869fe9ba_1",
+        "14076ea0_2",
+        "ultrachat_186296",
+        "ultrachat_374302",
+        "59ec3c7c_1",
+        "b7fa3417_1",
+        "dd25eeb5_3"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_9793daa4_2": 327,
+        "answer_9793daa4_1": 3
+      },
+      "top10_ids": [
+        "3bcfaf0d",
+        "4f2c8fc5_1",
+        "answer_9793daa4_1",
+        "ultrachat_530594",
+        "ultrachat_262317",
+        "944852d3_1",
+        "c6bed037_1",
+        "c8a64300",
+        "sharegpt_fQhexkP_56",
+        "cb200a97"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_9793daa4_2": 388,
+        "answer_9793daa4_1": 4
+      },
+      "top10_ids": [
+        "3bcfaf0d",
+        "4f2c8fc5_1",
+        "ultrachat_289992",
+        "answer_9793daa4_1",
+        "ultrachat_186296",
+        "14076ea0_2",
+        "ultrachat_530594",
+        "dd25eeb5_3",
+        "869fe9ba_1",
+        "ultrachat_262317"
+      ]
+    }
+  }
+}

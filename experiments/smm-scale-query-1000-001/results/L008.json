@@ -1,0 +1,91 @@
+{
+  "id": "L008",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c97c5be0bc4598f426c340330",
+    "ca2ef86fd28cb7f4dec49bd66"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c97c5be0bc4598f426c340330": 2,
+      "ca2ef86fd28cb7f4dec49bd66": 5
+    }
+  },
+  "authored": {
+    "query": "tomato tomatoes cucumber cucumbers planted plants initially",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c97c5be0bc4598f426c340330": 3,
+      "ca2ef86fd28cb7f4dec49bd66": 4
+    },
+    "top10_ids": [
+      "ce2d2c97fc14440244559ae47",
+      "ca90c0fc1320ad5dc2f8591a1",
+      "c97c5be0bc4598f426c340330",
+      "ca2ef86fd28cb7f4dec49bd66",
+      "c8ea19c76c71c2e64990f27c9",
+      "c8b7f5dac3289afd48af13edf",
+      "c6f05a6c556c1625c259666c0",
+      "cce4b4f458c8f6154e8be72c6",
+      "ca78dfadf9c3756a85a8e6422",
+      "caf51094440de5a51625a0f0e"
+    ],
+    "seconds": {
+      "build": 0.11373637500037148,
+      "query": 0.00035683300029631937
+    }
+  },
+  "stopword": {
+    "query": "plants initially plant tomatoes cucumbers",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c97c5be0bc4598f426c340330": 3,
+      "ca2ef86fd28cb7f4dec49bd66": 5
+    },
+    "top10_ids": [
+      "ce2d2c97fc14440244559ae47",
+      "ca90c0fc1320ad5dc2f8591a1",
+      "c97c5be0bc4598f426c340330",
+      "cce4b4f458c8f6154e8be72c6",
+      "ca2ef86fd28cb7f4dec49bd66",
+      "cb895bd3516b82052f13fc5e6",
+      "cb8c4e1a83a15c1acf26d7d1f",
+      "cab883581113fdaf37affd2e9",
+      "ceaff442a6bd7f1be599b238c",
+      "c09db3c226d495aa1cc1d4615"
+    ],
+    "seconds": {
+      "build": 0.11307762500018725,
+      "query": 0.0002691250001589651
+    }
+  }
+}

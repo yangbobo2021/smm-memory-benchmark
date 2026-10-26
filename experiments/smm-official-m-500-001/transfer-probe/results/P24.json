@@ -1,0 +1,147 @@
+{
+  "id": "P24",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "question": "How many days ago did I attend a networking event?",
+  "queries": {
+    "authored": "networking event attended attend date",
+    "stopword": "days ago attend networking event"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd54b7c_1": 2
+      },
+      "top10_ids": [
+        "ultrachat_418541",
+        "answer_0dd54b7c_1",
+        "591e65b7_1",
+        "e8de3056_3",
+        "ultrachat_525784",
+        "sharegpt_3hCiKrk_0",
+        "187b4852_3",
+        "ultrachat_165562",
+        "ultrachat_460461",
+        "1aaf8057_3"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd54b7c_1": 5
+      },
+      "top10_ids": [
+        "ultrachat_418541",
+        "591e65b7_1",
+        "ultrachat_435915",
+        "3bdb004d_2",
+        "answer_0dd54b7c_1",
+        "f11d26bc",
+        "425c5776",
+        "e8de3056_3",
+        "fd1bbf43_2",
+        "sharegpt_3hCiKrk_0"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd54b7c_1": 2
+      },
+      "top10_ids": [
+        "ultrachat_418541",
+        "answer_0dd54b7c_1",
+        "591e65b7_1",
+        "e8de3056_3",
+        "187b4852_3",
+        "ultrachat_460461",
+        "sharegpt_3hCiKrk_0",
+        "ultrachat_223962",
+        "ultrachat_525784",
+        "4284ce52_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd54b7c_1": 4
+      },
+      "top10_ids": [
+        "ultrachat_525784",
+        "ultrachat_460461",
+        "187b4852_3",
+        "answer_0dd54b7c_1",
+        "ultrachat_418541",
+        "ultrachat_435915",
+        "62a6d083",
+        "ultrachat_181352",
+        "ultrachat_450067",
+        "591e65b7_1"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd54b7c_1": 3
+      },
+      "top10_ids": [
+        "ultrachat_418541",
+        "ultrachat_525784",
+        "answer_0dd54b7c_1",
+        "187b4852_3",
+        "ultrachat_460461",
+        "591e65b7_1",
+        "ultrachat_435915",
+        "e8de3056_3",
+        "62a6d083",
+        "ultrachat_181352"
+      ]
+    }
+  }
+}

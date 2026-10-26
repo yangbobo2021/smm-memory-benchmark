@@ -1,0 +1,72 @@
+{
+  "id": "P23",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+  "official_question_id": "gpt4_8e165409",
+  "official_m_count": 469,
+  "official_m_occurrences": 472,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 47,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_d97db962_1": 3,
+      "answer_d97db962_2": 1
+    },
+    "top10_ids": [
+      "answer_d97db962_2",
+      "105e11c5_1",
+      "answer_d97db962_1",
+      "da3531f3_2",
+      "5b4d2438_2",
+      "92d7a0d2_2",
+      "ultrachat_257963",
+      "sharegpt_Z57GshY_0",
+      "20348a4d",
+      "8f6b938d_4"
+    ],
+    "build_seconds": 0.04500895899946045,
+    "query_seconds": 0.00366408300033072
+  }
+}

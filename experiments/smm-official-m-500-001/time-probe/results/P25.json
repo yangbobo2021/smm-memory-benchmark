@@ -1,0 +1,54 @@
+{
+  "id": "P25",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "question": "What time do I wake up on Tuesdays and Thursdays?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_9af4e346_2": 3,
+      "answer_9af4e346_1": 14
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_9af4e346_2": 3,
+      "answer_9af4e346_1": 14
+    },
+    "top10_ids": [
+      "9b90460f_1",
+      "aa31c397_3",
+      "answer_9af4e346_2",
+      "b2ecce8d_1",
+      "6de8645d_1",
+      "fce8bb8a_2",
+      "24b91514_2",
+      "b7fa3417_1",
+      "3c00365f_3",
+      "4b60c8fc"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.0019194159995095106,
+  "build_seconds": 0.0520774579999852
+}

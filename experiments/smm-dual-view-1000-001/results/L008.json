@@ -1,0 +1,91 @@
+{
+  "id": "L008",
+  "cohort": "L32",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+  "reference_sources": [
+    "c97c5be0bc4598f426c340330",
+    "ca2ef86fd28cb7f4dec49bd66"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c97c5be0bc4598f426c340330": 2,
+      "ca2ef86fd28cb7f4dec49bd66": 5
+    },
+    "top10_ids": [
+      "ce2d2c97fc14440244559ae47",
+      "c97c5be0bc4598f426c340330",
+      "ca90c0fc1320ad5dc2f8591a1",
+      "cce4b4f458c8f6154e8be72c6",
+      "ca2ef86fd28cb7f4dec49bd66",
+      "cb895bd3516b82052f13fc5e6",
+      "c65cc5bd2f81805ec9639528e",
+      "c3f893456c2090ccd4d2139cc",
+      "c13a89e277180c07a390eebba",
+      "ca722cb830ce76b391e670726"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c97c5be0bc4598f426c340330": 1,
+      "ca2ef86fd28cb7f4dec49bd66": 4
+    },
+    "top10_ids": [
+      "c97c5be0bc4598f426c340330",
+      "ca90c0fc1320ad5dc2f8591a1",
+      "ce2d2c97fc14440244559ae47",
+      "ca2ef86fd28cb7f4dec49bd66",
+      "ceaff442a6bd7f1be599b238c",
+      "c758e066044fa92b5b5320f41",
+      "c3f893456c2090ccd4d2139cc",
+      "ca33a8cf6e0121f76523422ff",
+      "cb8c4e1a83a15c1acf26d7d1f",
+      "c09db3c226d495aa1cc1d4615"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "selected_ids": [
+      "ce2d2c97fc14440244559ae47",
+      "c97c5be0bc4598f426c340330",
+      "ca90c0fc1320ad5dc2f8591a1",
+      "cce4b4f458c8f6154e8be72c6",
+      "ca2ef86fd28cb7f4dec49bd66",
+      "ceaff442a6bd7f1be599b238c",
+      "cb895bd3516b82052f13fc5e6",
+      "c65cc5bd2f81805ec9639528e",
+      "c3f893456c2090ccd4d2139cc",
+      "c13a89e277180c07a390eebba"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.11378208300084225,
+    "raw_query": 0.0032960829994408414,
+    "user_build": 0.013512625000657863,
+    "user_query": 0.0013549160012189532
+  }
+}

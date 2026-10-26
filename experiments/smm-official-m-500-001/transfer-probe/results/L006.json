@@ -1,0 +1,152 @@
+{
+  "id": "L006",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+  "queries": {
+    "authored": "friend cooked cooking made meal food",
+    "stopword": "mentioned cooking something friend couple days ago"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_dba89488_2": 195,
+        "answer_dba89488_1": 17
+      },
+      "top10_ids": [
+        "146d4508",
+        "efae71d5_1",
+        "sharegpt_p5ZjxkA_30",
+        "sharegpt_P6UZzFA_0",
+        "1bda7cb0_1",
+        "639cec58",
+        "84f029e2",
+        "f4270af7_2",
+        "05be3ff0_4",
+        "cd92ac85_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_dba89488_2": 93,
+        "answer_dba89488_1": 26
+      },
+      "top10_ids": [
+        "efae71d5_1",
+        "05be3ff0_4",
+        "1ddc89e9_2",
+        "cd92ac85_2",
+        "sharegpt_Yi0YvE7_0",
+        "16ebc8f8_2",
+        "b6bc5b09_3",
+        "2af27403_2",
+        "a68090b0_2",
+        "606bb407"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_dba89488_2": 198,
+        "answer_dba89488_1": 18
+      },
+      "top10_ids": [
+        "146d4508",
+        "efae71d5_1",
+        "sharegpt_p5ZjxkA_30",
+        "sharegpt_P6UZzFA_0",
+        "1bda7cb0_1",
+        "639cec58",
+        "84f029e2",
+        "f4270af7_2",
+        "05be3ff0_4",
+        "cd92ac85_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_dba89488_2": 184,
+        "answer_dba89488_1": 22
+      },
+      "top10_ids": [
+        "efae71d5_1",
+        "sharegpt_p5ZjxkA_30",
+        "5b900322_1",
+        "f7cd21e5",
+        "bf96f371_1",
+        "05be3ff0_4",
+        "65912979_2",
+        "eb6737c0_2",
+        "146d4508",
+        "84f029e2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_dba89488_2": 195,
+        "answer_dba89488_1": 15
+      },
+      "top10_ids": [
+        "efae71d5_1",
+        "sharegpt_p5ZjxkA_30",
+        "146d4508",
+        "05be3ff0_4",
+        "84f029e2",
+        "5b900322_1",
+        "f4270af7_2",
+        "eb6737c0_2",
+        "6ff85a46",
+        "65912979_2"
+      ]
+    }
+  }
+}

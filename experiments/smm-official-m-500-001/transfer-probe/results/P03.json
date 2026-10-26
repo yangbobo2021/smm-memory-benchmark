@@ -1,0 +1,152 @@
+{
+  "id": "P03",
+  "cohort": "P25",
+  "type": "knowledge-update",
+  "question": "How many issues of National Geographic have I finished reading?",
+  "queries": {
+    "authored": "National Geographic issues issue finished read reading",
+    "stopword": "issues national geographic finished reading"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_966cecbb_1": 1,
+        "answer_966cecbb_2": 2
+      },
+      "top10_ids": [
+        "answer_966cecbb_1",
+        "answer_966cecbb_2",
+        "33994682_2",
+        "732e1171_1",
+        "ultrachat_197004",
+        "3fd4980f",
+        "65ca99fb_2",
+        "ultrachat_165091",
+        "sharegpt_oeW6OUk_13",
+        "38d5deba"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_966cecbb_1": 1,
+        "answer_966cecbb_2": 2
+      },
+      "top10_ids": [
+        "answer_966cecbb_1",
+        "answer_966cecbb_2",
+        "33994682_2",
+        "732e1171_1",
+        "3fd4980f",
+        "ultrachat_197004",
+        "1224e362",
+        "46d9cf87",
+        "ultrachat_313633",
+        "65ca99fb_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_966cecbb_1": 1,
+        "answer_966cecbb_2": 2
+      },
+      "top10_ids": [
+        "answer_966cecbb_1",
+        "answer_966cecbb_2",
+        "33994682_2",
+        "732e1171_1",
+        "ultrachat_197004",
+        "3fd4980f",
+        "65ca99fb_2",
+        "ultrachat_165091",
+        "sharegpt_oeW6OUk_13",
+        "38d5deba"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_966cecbb_1": 1,
+        "answer_966cecbb_2": 2
+      },
+      "top10_ids": [
+        "answer_966cecbb_1",
+        "answer_966cecbb_2",
+        "ultrachat_507343",
+        "3fd4980f",
+        "147ab7e9_7",
+        "38d5deba",
+        "2ea34f20_1",
+        "ultrachat_392402",
+        "baed17da",
+        "e8b2d65e"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_966cecbb_1": 1,
+        "answer_966cecbb_2": 2
+      },
+      "top10_ids": [
+        "answer_966cecbb_1",
+        "answer_966cecbb_2",
+        "3fd4980f",
+        "38d5deba",
+        "ultrachat_234956",
+        "1224e362",
+        "65ca99fb_2",
+        "2ea34f20_1",
+        "ultrachat_507343",
+        "147ab7e9_7"
+      ]
+    }
+  }
+}

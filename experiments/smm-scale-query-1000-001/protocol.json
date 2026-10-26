@@ -1,0 +1,1882 @@
+{
+  "id": "SMM-SCALE-QUERY-1000-001",
+  "status": "frozen-before-ranking",
+  "baseline_protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "authored_runtime_sha256": "e15ab680677d6618960683069ddf470fba486780b0d57daee797b66f389fd04b",
+  "method": "same 1000 full source texts, SQLite FTS5 unicode61 whole-source BM25; only query text changes",
+  "variants": {
+    "raw": "baseline archived original question",
+    "authored": "earlier QI001 author-written keyword input, previously evaluated and not deployable or blind",
+    "stopword": "fixed common-function-word deletion, no stemming, synonyms, labels or corpus-aware tuning"
+  },
+  "stopwords": [
+    "a",
+    "an",
+    "and",
+    "are",
+    "as",
+    "at",
+    "be",
+    "been",
+    "being",
+    "by",
+    "can",
+    "could",
+    "did",
+    "do",
+    "does",
+    "for",
+    "from",
+    "had",
+    "has",
+    "have",
+    "he",
+    "her",
+    "his",
+    "how",
+    "i",
+    "in",
+    "into",
+    "is",
+    "it",
+    "its",
+    "many",
+    "me",
+    "much",
+    "my",
+    "of",
+    "on",
+    "or",
+    "our",
+    "ours",
+    "she",
+    "the",
+    "their",
+    "them",
+    "these",
+    "they",
+    "this",
+    "those",
+    "to",
+    "was",
+    "were",
+    "what",
+    "when",
+    "where",
+    "which",
+    "who",
+    "whom",
+    "why",
+    "will",
+    "with",
+    "would",
+    "you",
+    "your",
+    "yours"
+  ],
+  "cases": [
+    {
+      "id": "P01",
+      "cohort": "P25",
+      "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+      "authored_query": "Nightingale Kristin Hannah finished finish reading read",
+      "stopword_query": "finish reading nightingale kristin hannah"
+    },
+    {
+      "id": "P02",
+      "cohort": "P25",
+      "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+      "authored_query": "egg eggs dozen refrigerator fridge stocked stock remaining",
+      "stopword_query": "dozen eggs we currently stocked up refrigerator"
+    },
+    {
+      "id": "P03",
+      "cohort": "P25",
+      "question": "How many issues of National Geographic have I finished reading?",
+      "authored_query": "National Geographic issues issue finished read reading",
+      "stopword_query": "issues national geographic finished reading"
+    },
+    {
+      "id": "P04",
+      "cohort": "P25",
+      "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+      "authored_query": "Downtown Farmers Market earned earn earnings sales recent",
+      "stopword_query": "earn downtown farmers market most recent visit"
+    },
+    {
+      "id": "P05",
+      "cohort": "P25",
+      "question": "How many hours have I spent on my abstract ocean sculpture?",
+      "authored_query": "abstract ocean sculpture hours spent working",
+      "stopword_query": "hours spent abstract ocean sculpture"
+    },
+    {
+      "id": "P06",
+      "cohort": "P25",
+      "question": "How many days a week do I attend fitness classes?",
+      "authored_query": "fitness classes class attend attending weekly week schedule",
+      "stopword_query": "days week attend fitness classes"
+    },
+    {
+      "id": "P07",
+      "cohort": "P25",
+      "question": "How many dinner parties have I attended in the past month?",
+      "authored_query": "dinner parties party attended attend month",
+      "stopword_query": "dinner parties attended past month"
+    },
+    {
+      "id": "P08",
+      "cohort": "P25",
+      "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+      "authored_query": "citrus fruit fruits cocktails cocktail recipes used",
+      "stopword_query": "different types citrus fruits used cocktail recipes"
+    },
+    {
+      "id": "P09",
+      "cohort": "P25",
+      "question": "How many days did I spend participating in faith-related activities in December?",
+      "authored_query": "faith religious activities participated December",
+      "stopword_query": "days spend participating faith related activities december"
+    },
+    {
+      "id": "P10",
+      "cohort": "P25",
+      "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+      "authored_query": "projects project working simultaneously thesis",
+      "stopword_query": "projects working simultaneously excluding thesis"
+    },
+    {
+      "id": "P11",
+      "cohort": "P25",
+      "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+      "authored_query": "Vatican deli cured meats cheeses",
+      "stopword_query": "m planning visit vatican again wondering if remind name that famous deli near serves best cured meats cheeses"
+    },
+    {
+      "id": "P12",
+      "cohort": "P25",
+      "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+      "authored_query": "Netflix seasons season old shows available",
+      "stopword_query": "wanted check back previous conversation about netflix mentioned that able access all seasons old shows remember show used example one only last season available"
+    },
+    {
+      "id": "P13",
+      "cohort": "P25",
+      "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+      "authored_query": "Chiefs Jaguars Arrowhead Stadium played games",
+      "stopword_query": "looking back previous chat wanted confirm times chiefs play jaguars arrowhead stadium"
+    },
+    {
+      "id": "P14",
+      "cohort": "P25",
+      "question": "I was going through our previous conversation about the impact of the political climate in Catalonia on its literature and music. Can you remind me of the example you gave of a Spanish-Catalan singer-songwriter who supports unity between Catalonia and Spain?",
+      "authored_query": "Catalonia Spain unity singer songwriter political literature music",
+      "stopword_query": "going through previous conversation about impact political climate catalonia literature music remind example gave spanish catalan singer songwriter supports unity between spain"
+    },
+    {
+      "id": "P15",
+      "cohort": "P25",
+      "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+      "authored_query": "Amsterdam hostel Red Light District recommended",
+      "stopword_query": "m planning trip amsterdam again wondering name that hostel near red light district recommended last time"
+    },
+    {
+      "id": "P16",
+      "cohort": "P25",
+      "question": "How many skeins of worsted weight yarn did I find in my stash?",
+      "authored_query": "worsted weight yarn skeins skein stash found",
+      "stopword_query": "skeins worsted weight yarn find stash"
+    },
+    {
+      "id": "P17",
+      "cohort": "P25",
+      "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+      "authored_query": "Lake Michigan largemouth bass caught catch fishing",
+      "stopword_query": "largemouth bass catch fishing trip lake michigan"
+    },
+    {
+      "id": "P18",
+      "cohort": "P25",
+      "question": "How much did I spend on a designer handbag?",
+      "authored_query": "designer handbag bought purchased spent cost",
+      "stopword_query": "spend designer handbag"
+    },
+    {
+      "id": "P19",
+      "cohort": "P25",
+      "question": "Where did I buy my new tennis racket from?",
+      "authored_query": "tennis racket bought purchased store shop",
+      "stopword_query": "buy new tennis racket"
+    },
+    {
+      "id": "P20",
+      "cohort": "P25",
+      "question": "What time do I stop checking work emails and messages?",
+      "authored_query": "work emails messages stop checking evening cutoff",
+      "stopword_query": "time stop checking work emails messages"
+    },
+    {
+      "id": "P21",
+      "cohort": "P25",
+      "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+      "authored_query": "Emma Rachel Alex graduated graduation",
+      "stopword_query": "graduated first second third among emma rachel alex"
+    },
+    {
+      "id": "P22",
+      "cohort": "P25",
+      "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+      "authored_query": "Ibotta cashback app started using",
+      "stopword_query": "weeks ago start using cashback app ibotta"
+    },
+    {
+      "id": "P23",
+      "cohort": "P25",
+      "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+      "authored_query": "spider plant repotted repot cuttings neighbor Johnson",
+      "stopword_query": "days passed between day repotted previous spider plant gave neighbor mrs johnson few cuttings"
+    },
+    {
+      "id": "P24",
+      "cohort": "P25",
+      "question": "How many days ago did I attend a networking event?",
+      "authored_query": "networking event attended attend date",
+      "stopword_query": "days ago attend networking event"
+    },
+    {
+      "id": "P25",
+      "cohort": "P25",
+      "question": "What time do I wake up on Tuesdays and Thursdays?",
+      "authored_query": "wake waking up Tuesdays Thursdays Tuesday Thursday schedule",
+      "stopword_query": "time wake up tuesdays thursdays"
+    },
+    {
+      "id": "L001",
+      "cohort": "L32",
+      "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+      "authored_query": "Hawaii New York City trip travel days",
+      "stopword_query": "days spend total traveling hawaii new york city"
+    },
+    {
+      "id": "L002",
+      "cohort": "L32",
+      "question": "How many bikes do I currently own?",
+      "authored_query": "bike bikes bicycle bicycles own bought sold",
+      "stopword_query": "bikes currently own"
+    },
+    {
+      "id": "L003",
+      "cohort": "L32",
+      "question": "Where do I initially keep my old sneakers?",
+      "authored_query": "old sneakers kept keep stored initially originally",
+      "stopword_query": "initially keep old sneakers"
+    },
+    {
+      "id": "L004",
+      "cohort": "L32",
+      "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+      "authored_query": "art event attended participated held location",
+      "stopword_query": "mentioned that participated art related event two weeks ago held"
+    },
+    {
+      "id": "L005",
+      "cohort": "L32",
+      "question": "What is the order of airlines I flew with from earliest to latest before today?",
+      "authored_query": "airlines airline flew flown flights flight",
+      "stopword_query": "order airlines flew earliest latest before today"
+    },
+    {
+      "id": "L006",
+      "cohort": "L32",
+      "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+      "authored_query": "friend cooked cooking made meal food",
+      "stopword_query": "mentioned cooking something friend couple days ago"
+    },
+    {
+      "id": "L007",
+      "cohort": "L32",
+      "question": "What did I do with Rachel on the Wednesday two months ago?",
+      "authored_query": "Rachel Wednesday spent met together",
+      "stopword_query": "rachel wednesday two months ago"
+    },
+    {
+      "id": "L008",
+      "cohort": "L32",
+      "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+      "authored_query": "tomato tomatoes cucumber cucumbers planted plants initially",
+      "stopword_query": "plants initially plant tomatoes cucumbers"
+    },
+    {
+      "id": "L009",
+      "cohort": "L32",
+      "question": "How many years will I be when my friend Rachel gets married?",
+      "authored_query": "Rachel wedding married marriage age birthday",
+      "stopword_query": "years friend rachel gets married"
+    },
+    {
+      "id": "L010",
+      "cohort": "L32",
+      "question": "What was the social media activity I participated 5 days ago?",
+      "authored_query": "social media participated activity challenge",
+      "stopword_query": "social media activity participated 5 days ago"
+    },
+    {
+      "id": "L011",
+      "cohort": "L32",
+      "question": "How many times did I bake something in the past two weeks?",
+      "authored_query": "bake baked baking",
+      "stopword_query": "times bake something past two weeks"
+    },
+    {
+      "id": "L012",
+      "cohort": "L32",
+      "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+      "authored_query": "concert concerts musical events attended",
+      "stopword_query": "order concerts musical events attended past two months starting earliest"
+    },
+    {
+      "id": "L013",
+      "cohort": "L32",
+      "question": "How long have I been collecting vintage cameras?",
+      "authored_query": "vintage cameras camera collecting collected started",
+      "stopword_query": "long collecting vintage cameras"
+    },
+    {
+      "id": "L014",
+      "cohort": "L32",
+      "question": "How many months have passed since I last visited a museum with a friend?",
+      "authored_query": "museum visited visit friend months",
+      "stopword_query": "months passed since last visited museum friend"
+    },
+    {
+      "id": "L015",
+      "cohort": "L32",
+      "question": "What charity event did I participate in a month ago?",
+      "authored_query": "charity charitable event participated attended",
+      "stopword_query": "charity event participate month ago"
+    },
+    {
+      "id": "L016",
+      "cohort": "L32",
+      "question": "Which bike did I fixed or serviced the past weekend?",
+      "authored_query": "bike bicycle fixed fix serviced service weekend",
+      "stopword_query": "bike fixed serviced past weekend"
+    },
+    {
+      "id": "L017",
+      "cohort": "L32",
+      "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+      "authored_query": "laptop backpack bought ordered arrived delivered",
+      "stopword_query": "days take laptop backpack arrive after bought"
+    },
+    {
+      "id": "L018",
+      "cohort": "L32",
+      "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+      "authored_query": "business milestone achieved reached",
+      "stopword_query": "significant buisiness milestone mentioned four weeks ago"
+    },
+    {
+      "id": "L019",
+      "cohort": "L32",
+      "question": "How often do I see my therapist, Dr. Smith?",
+      "authored_query": "therapist Dr Smith appointments sessions frequency",
+      "stopword_query": "often see therapist dr smith"
+    },
+    {
+      "id": "L020",
+      "cohort": "L32",
+      "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+      "authored_query": "airport hotel train taxi fare cost",
+      "stopword_query": "save taking train airport hotel instead taxi"
+    },
+    {
+      "id": "L021",
+      "cohort": "L32",
+      "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+      "authored_query": "Holiday Market iPhone 13 Pro bought attended",
+      "stopword_query": "days before bought iphone 13 pro attend holiday market"
+    },
+    {
+      "id": "L022",
+      "cohort": "L32",
+      "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+      "authored_query": "competition investment bought purchased",
+      "stopword_query": "mentioned investment competition four weeks ago buy"
+    },
+    {
+      "id": "L023",
+      "cohort": "L32",
+      "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+      "authored_query": "cousin wedding Michael engagement party dates",
+      "stopword_query": "event happened first cousin s wedding michael engagement party"
+    },
+    {
+      "id": "L024",
+      "cohort": "L32",
+      "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+      "authored_query": "Nightingale Kristin Hannah started finished reading",
+      "stopword_query": "days take finish nightingale kristin hannah"
+    },
+    {
+      "id": "L025",
+      "cohort": "L32",
+      "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+      "authored_query": "Senior Software Engineer lead engineers team initially now",
+      "stopword_query": "engineers lead just started new role senior software engineer now"
+    },
+    {
+      "id": "L026",
+      "cohort": "L32",
+      "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+      "authored_query": "aunt crystal chandelier met received",
+      "stopword_query": "weeks ago meet up aunt receive crystal chandelier"
+    },
+    {
+      "id": "L027",
+      "cohort": "L32",
+      "question": "How many pages do I have left to read in 'The Nightingale'?",
+      "authored_query": "Nightingale pages read remaining total",
+      "stopword_query": "pages left read nightingale"
+    },
+    {
+      "id": "L028",
+      "cohort": "L32",
+      "question": "Who did I meet with during the lunch last Tuesday?",
+      "authored_query": "lunch Tuesday met person",
+      "stopword_query": "meet during lunch last tuesday"
+    },
+    {
+      "id": "L029",
+      "cohort": "L32",
+      "question": "What is the name of my cat?",
+      "authored_query": "cat name named",
+      "stopword_query": "name cat"
+    },
+    {
+      "id": "L030",
+      "cohort": "L32",
+      "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+      "authored_query": "high school Bachelor degree education years graduated",
+      "stopword_query": "years total spend formal education high school completion bachelor s degree"
+    },
+    {
+      "id": "L031",
+      "cohort": "L32",
+      "question": "How many different museums or galleries did I visit in the month of February?",
+      "authored_query": "museum museums gallery galleries visited February",
+      "stopword_query": "different museums galleries visit month february"
+    },
+    {
+      "id": "L032",
+      "cohort": "L32",
+      "question": "How much time do I dedicate to practicing guitar every day?",
+      "authored_query": "guitar practice practicing daily minutes hours",
+      "stopword_query": "time dedicate practicing guitar every day"
+    },
+    {
+      "id": "C001",
+      "cohort": "C200",
+      "question": "Where did Deborah get married?",
+      "authored_query": "Deborah married wedding ceremony location",
+      "stopword_query": "deborah get married"
+    },
+    {
+      "id": "C002",
+      "cohort": "C200",
+      "question": "When did John have a party with veterans?",
+      "authored_query": "John party veterans date",
+      "stopword_query": "john party veterans"
+    },
+    {
+      "id": "C003",
+      "cohort": "C200",
+      "question": "What is Nate's favorite dish from the cooking show he hosted?",
+      "authored_query": "Nate favorite dish cooking show hosted",
+      "stopword_query": "nate s favorite dish cooking show hosted"
+    },
+    {
+      "id": "C004",
+      "cohort": "C200",
+      "question": "What is the toughest part of car restoration according to Dave?",
+      "authored_query": "Dave car restoration toughest difficult challenging",
+      "stopword_query": "toughest part car restoration according dave"
+    },
+    {
+      "id": "C005",
+      "cohort": "C200",
+      "question": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+      "authored_query": "Audrey pups dogs weekend October 2023",
+      "stopword_query": "audrey pups over weekend before 4th october 2023"
+    },
+    {
+      "id": "C006",
+      "cohort": "C200",
+      "question": "Why did Deborah spend time in the garden?",
+      "authored_query": "Deborah garden gardening reason",
+      "stopword_query": "deborah spend time garden"
+    },
+    {
+      "id": "C007",
+      "cohort": "C200",
+      "question": "What event did Calvin attend in Boston?",
+      "authored_query": "Calvin Boston event attended",
+      "stopword_query": "event calvin attend boston"
+    },
+    {
+      "id": "C008",
+      "cohort": "C200",
+      "question": "Where did Jolene and her partner travel for a few weeks in September 2023?",
+      "authored_query": "Jolene partner travel trip September 2023",
+      "stopword_query": "jolene partner travel few weeks september 2023"
+    },
+    {
+      "id": "C009",
+      "cohort": "C200",
+      "question": "What was Melanie's favorite book from her childhood?",
+      "authored_query": "Melanie childhood favorite book",
+      "stopword_query": "melanie s favorite book childhood"
+    },
+    {
+      "id": "C010",
+      "cohort": "C200",
+      "question": "When did Melanie sign up for a pottery class?",
+      "authored_query": "Melanie pottery class signed signup",
+      "stopword_query": "melanie sign up pottery class"
+    },
+    {
+      "id": "C011",
+      "cohort": "C200",
+      "question": "When did John get married at a greenhouse?",
+      "authored_query": "John married wedding greenhouse",
+      "stopword_query": "john get married greenhouse"
+    },
+    {
+      "id": "C012",
+      "cohort": "C200",
+      "question": "What did Joanna find in old notebooks last week that prompted her to reflect on her progress as a writer?",
+      "authored_query": "Joanna old notebooks writing progress found",
+      "stopword_query": "joanna find old notebooks last week that prompted reflect progress writer"
+    },
+    {
+      "id": "C013",
+      "cohort": "C200",
+      "question": "In what country did Jolene buy snake Seraphim?",
+      "authored_query": "Jolene Seraphim snake bought country",
+      "stopword_query": "country jolene buy snake seraphim"
+    },
+    {
+      "id": "C014",
+      "cohort": "C200",
+      "question": "What is Nate's favorite book series about?",
+      "authored_query": "Nate favorite book series story",
+      "stopword_query": "nate s favorite book series about"
+    },
+    {
+      "id": "C015",
+      "cohort": "C200",
+      "question": "Does Evan live close to a beach or mountains?",
+      "authored_query": "Evan live lives beach mountains nearby",
+      "stopword_query": "evan live close beach mountains"
+    },
+    {
+      "id": "C016",
+      "cohort": "C200",
+      "question": "What does Joanna recommend to make a living room comfy like hers?",
+      "authored_query": "Joanna living room comfy comfortable recommend",
+      "stopword_query": "joanna recommend make living room comfy like hers"
+    },
+    {
+      "id": "C017",
+      "cohort": "C200",
+      "question": "When did John start playing professionally?",
+      "authored_query": "John playing professionally professional started career",
+      "stopword_query": "john start playing professionally"
+    },
+    {
+      "id": "C018",
+      "cohort": "C200",
+      "question": "Which popular music composer's tunes does Tim enjoy playing on the piano?",
+      "authored_query": "Tim piano composer tunes music",
+      "stopword_query": "popular music composer s tunes tim enjoy playing piano"
+    },
+    {
+      "id": "C019",
+      "cohort": "C200",
+      "question": "What aspect of \"The Witcher 3\" does John find immersive?",
+      "authored_query": "John Witcher 3 immersive immersion",
+      "stopword_query": "aspect witcher 3 john find immersive"
+    },
+    {
+      "id": "C020",
+      "cohort": "C200",
+      "question": "Why did John's teammates sign the basketball they gave him?",
+      "authored_query": "John teammates signed basketball gift",
+      "stopword_query": "john s teammates sign basketball gave him"
+    },
+    {
+      "id": "C021",
+      "cohort": "C200",
+      "question": "How many hikes has Joanna been on?",
+      "authored_query": "Joanna hike hikes hiking went",
+      "stopword_query": "hikes joanna"
+    },
+    {
+      "id": "C022",
+      "cohort": "C200",
+      "question": "Why does Nate like turtles as pets?",
+      "authored_query": "Nate turtles pets like",
+      "stopword_query": "nate like turtles pets"
+    },
+    {
+      "id": "C023",
+      "cohort": "C200",
+      "question": "What was one of Jolene's favorite games to play with her mom on the nintendo wii game system?",
+      "authored_query": "Jolene mom Nintendo Wii favorite game",
+      "stopword_query": "one jolene s favorite games play mom nintendo wii game system"
+    },
+    {
+      "id": "C024",
+      "cohort": "C200",
+      "question": "What were Deborah's mother's hobbies?",
+      "authored_query": "Deborah mother mom hobbies interests",
+      "stopword_query": "deborah s mother hobbies"
+    },
+    {
+      "id": "C025",
+      "cohort": "C200",
+      "question": "What did Melanie do after the road trip to relax?",
+      "authored_query": "Melanie road trip relax relaxed afterwards",
+      "stopword_query": "melanie after road trip relax"
+    },
+    {
+      "id": "C026",
+      "cohort": "C200",
+      "question": "Does Deborah live close to the beach or the mountains?",
+      "authored_query": "Deborah live lives beach mountains nearby",
+      "stopword_query": "deborah live close beach mountains"
+    },
+    {
+      "id": "C027",
+      "cohort": "C200",
+      "question": "What instruments does Melanie play?",
+      "authored_query": "Melanie instrument instruments play playing",
+      "stopword_query": "instruments melanie play"
+    },
+    {
+      "id": "C028",
+      "cohort": "C200",
+      "question": "How many dogs does Andrew have?",
+      "authored_query": "Andrew dogs dog pets number",
+      "stopword_query": "dogs andrew"
+    },
+    {
+      "id": "C029",
+      "cohort": "C200",
+      "question": "Why didn't John want to go to Starbucks?",
+      "authored_query": "John Starbucks refused wanted",
+      "stopword_query": "didn t john want go starbucks"
+    },
+    {
+      "id": "C030",
+      "cohort": "C200",
+      "question": "What did John say about NYC, enticing Tim to visit?",
+      "authored_query": "John NYC New York Tim visit",
+      "stopword_query": "john say about nyc enticing tim visit"
+    },
+    {
+      "id": "C031",
+      "cohort": "C200",
+      "question": "What kind of activities did Maria do at the picnic with her church friends?",
+      "authored_query": "Maria picnic church friends activities",
+      "stopword_query": "kind activities maria picnic church friends"
+    },
+    {
+      "id": "C032",
+      "cohort": "C200",
+      "question": "What did Joanna recently watch and recommend to Nate on February 7, 2022?",
+      "authored_query": "Joanna Nate watched recommend February 7 2022",
+      "stopword_query": "joanna recently watch recommend nate february 7 2022"
+    },
+    {
+      "id": "C033",
+      "cohort": "C200",
+      "question": "What kind of impact does Dave's blog on car mods have on people?",
+      "authored_query": "Dave car mods blog people impact",
+      "stopword_query": "kind impact dave s blog car mods people"
+    },
+    {
+      "id": "C034",
+      "cohort": "C200",
+      "question": "When did Dave take a photo of a Boston clock tower?",
+      "authored_query": "Dave Boston clock tower photo",
+      "stopword_query": "dave take photo boston clock tower"
+    },
+    {
+      "id": "C035",
+      "cohort": "C200",
+      "question": "What states has Maria vacationed at?",
+      "authored_query": "Maria vacation vacationed trip travel traveled",
+      "stopword_query": "states maria vacationed"
+    },
+    {
+      "id": "C036",
+      "cohort": "C200",
+      "question": "When did Deborah`s mother pass away?",
+      "authored_query": "Deborah mother mom died passed",
+      "stopword_query": "deborah s mother pass away"
+    },
+    {
+      "id": "C037",
+      "cohort": "C200",
+      "question": "What health scares did Sam and Evan experience?",
+      "authored_query": "Sam Evan health scare scares",
+      "stopword_query": "health scares sam evan experience"
+    },
+    {
+      "id": "C038",
+      "cohort": "C200",
+      "question": "When did Caroline meet up with her friends, family, and mentors?",
+      "authored_query": "Caroline friends family mentors met meetup",
+      "stopword_query": "caroline meet up friends family mentors"
+    },
+    {
+      "id": "C039",
+      "cohort": "C200",
+      "question": "What type of cars does Dave work on at his shop?",
+      "authored_query": "Dave shop cars type work",
+      "stopword_query": "type cars dave work shop"
+    },
+    {
+      "id": "C040",
+      "cohort": "C200",
+      "question": "What places has Nate met new people?",
+      "authored_query": "Nate met meet people places",
+      "stopword_query": "places nate met new people"
+    },
+    {
+      "id": "C041",
+      "cohort": "C200",
+      "question": "What is Joanna's project called in the writers group?",
+      "authored_query": "Joanna project writers group called name",
+      "stopword_query": "joanna s project called writers group"
+    },
+    {
+      "id": "C042",
+      "cohort": "C200",
+      "question": "What new activity has Tim started learning in August 2023?",
+      "authored_query": "Tim learning started activity August 2023",
+      "stopword_query": "new activity tim started learning august 2023"
+    },
+    {
+      "id": "C043",
+      "cohort": "C200",
+      "question": "What games does Jolene recommend for Deborah?",
+      "authored_query": "Jolene Deborah games recommend recommended",
+      "stopword_query": "games jolene recommend deborah"
+    },
+    {
+      "id": "C044",
+      "cohort": "C200",
+      "question": "What did Evan share with Sam after their hiking trip?",
+      "authored_query": "Evan Sam hiking trip shared",
+      "stopword_query": "evan share sam after hiking trip"
+    },
+    {
+      "id": "C045",
+      "cohort": "C200",
+      "question": "Whose phone number did James receive during the beach outing?",
+      "authored_query": "James phone number beach outing",
+      "stopword_query": "whose phone number james receive during beach outing"
+    },
+    {
+      "id": "C046",
+      "cohort": "C200",
+      "question": "What game is Nate currently playing and recommends to others on November 7, 2022?",
+      "authored_query": "Nate game playing recommends November 7 2022",
+      "stopword_query": "game nate currently playing recommends others november 7 2022"
+    },
+    {
+      "id": "C047",
+      "cohort": "C200",
+      "question": "What does Nate feel he could do when out in cool places like Whispering Falls?",
+      "authored_query": "Nate Whispering Falls cool places feel",
+      "stopword_query": "nate feel out cool places like whispering falls"
+    },
+    {
+      "id": "C048",
+      "cohort": "C200",
+      "question": "What breed is Daisy, one of James' dogs?",
+      "authored_query": "James Daisy dog breed",
+      "stopword_query": "breed daisy one james dogs"
+    },
+    {
+      "id": "C049",
+      "cohort": "C200",
+      "question": "What album does Deborah recommend for meditation and deep relaxation?",
+      "authored_query": "Deborah album meditation relaxation recommend",
+      "stopword_query": "album deborah recommend meditation deep relaxation"
+    },
+    {
+      "id": "C050",
+      "cohort": "C200",
+      "question": "What did Calvin and his friends arrange for in the park?",
+      "authored_query": "Calvin friends arranged park event",
+      "stopword_query": "calvin friends arrange park"
+    },
+    {
+      "id": "C051",
+      "cohort": "C200",
+      "question": "What type of volunteering have John and Maria both done?",
+      "authored_query": "John Maria volunteer volunteering volunteered",
+      "stopword_query": "type volunteering john maria both done"
+    },
+    {
+      "id": "C052",
+      "cohort": "C200",
+      "question": "How does John feel while surfing?",
+      "authored_query": "John surfing surf feel",
+      "stopword_query": "john feel while surfing"
+    },
+    {
+      "id": "C053",
+      "cohort": "C200",
+      "question": "How long was the car modification workshop in San Francisco?",
+      "authored_query": "car modification workshop San Francisco duration long",
+      "stopword_query": "long car modification workshop san francisco"
+    },
+    {
+      "id": "C054",
+      "cohort": "C200",
+      "question": "What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023?",
+      "authored_query": "Audrey friends hiking stumbled found June 26 2023",
+      "stopword_query": "audrey friends stumble across during hike few years back mentioned june 26 2023"
+    },
+    {
+      "id": "C055",
+      "cohort": "C200",
+      "question": "When did Maria join a gym?",
+      "authored_query": "Maria gym joined join",
+      "stopword_query": "maria join gym"
+    },
+    {
+      "id": "C056",
+      "cohort": "C200",
+      "question": "What is Evan's favorite food?",
+      "authored_query": "Evan favorite food dish",
+      "stopword_query": "evan s favorite food"
+    },
+    {
+      "id": "C057",
+      "cohort": "C200",
+      "question": "What is Dave's way to share his passion with others?",
+      "authored_query": "Dave passion share sharing others",
+      "stopword_query": "dave s way share passion others"
+    },
+    {
+      "id": "C058",
+      "cohort": "C200",
+      "question": "When did Melanie go to the pottery workshop?",
+      "authored_query": "Melanie pottery workshop attended went",
+      "stopword_query": "melanie go pottery workshop"
+    },
+    {
+      "id": "C059",
+      "cohort": "C200",
+      "question": "When is Melanie planning on going camping?",
+      "authored_query": "Melanie camping planning planned trip",
+      "stopword_query": "melanie planning going camping"
+    },
+    {
+      "id": "C060",
+      "cohort": "C200",
+      "question": "What did Evan mention he had been searching for fruitlessly for half an hour?",
+      "authored_query": "Evan searching searched half hour",
+      "stopword_query": "evan mention searching fruitlessly half hour"
+    },
+    {
+      "id": "C061",
+      "cohort": "C200",
+      "question": "What event did John participate in to show support for veterans' rights?",
+      "authored_query": "John veterans rights event support",
+      "stopword_query": "event john participate show support veterans rights"
+    },
+    {
+      "id": "C062",
+      "cohort": "C200",
+      "question": "What does John believe is important for children regarding veterans?",
+      "authored_query": "John children veterans important",
+      "stopword_query": "john believe important children regarding veterans"
+    },
+    {
+      "id": "C063",
+      "cohort": "C200",
+      "question": "What are the names of Jolene's snakes?",
+      "authored_query": "Jolene snakes snake names named",
+      "stopword_query": "names jolene s snakes"
+    },
+    {
+      "id": "C064",
+      "cohort": "C200",
+      "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+      "authored_query": "Maria girl shelter event February 2023",
+      "stopword_query": "maria sit little girl shelter event february 2023"
+    },
+    {
+      "id": "C065",
+      "cohort": "C200",
+      "question": "What motivates Joanna to keep writing even on tough days?",
+      "authored_query": "Joanna writing tough days motivation",
+      "stopword_query": "motivates joanna keep writing even tough days"
+    },
+    {
+      "id": "C066",
+      "cohort": "C200",
+      "question": "How long has Melanie been practicing art?",
+      "authored_query": "Melanie art practicing started years",
+      "stopword_query": "long melanie practicing art"
+    },
+    {
+      "id": "C067",
+      "cohort": "C200",
+      "question": "When did Melanie go on a hike after the roadtrip?",
+      "authored_query": "Melanie hike hiking roadtrip road trip after",
+      "stopword_query": "melanie go hike after roadtrip"
+    },
+    {
+      "id": "C068",
+      "cohort": "C200",
+      "question": "How does John describe the camping trip with Max?",
+      "authored_query": "John camping trip Max describe",
+      "stopword_query": "john describe camping trip max"
+    },
+    {
+      "id": "C069",
+      "cohort": "C200",
+      "question": "When did Melanie go to the museum?",
+      "authored_query": "Melanie museum visited went",
+      "stopword_query": "melanie go museum"
+    },
+    {
+      "id": "C070",
+      "cohort": "C200",
+      "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+      "authored_query": "John Harry Potter fan project collaborations",
+      "stopword_query": "aspects harry potter universe discussed john s fan project collaborations"
+    },
+    {
+      "id": "C071",
+      "cohort": "C200",
+      "question": "What kind of dream did James have recently?",
+      "authored_query": "James dream dreamed recently",
+      "stopword_query": "kind dream james recently"
+    },
+    {
+      "id": "C072",
+      "cohort": "C200",
+      "question": "What did Melanie and her family see during their camping trip last year?",
+      "authored_query": "Melanie family camping last year saw",
+      "stopword_query": "melanie family see during camping trip last year"
+    },
+    {
+      "id": "C073",
+      "cohort": "C200",
+      "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+      "authored_query": "Tim travel dreams hobby interests",
+      "stopword_query": "good hobby related travel dreams tim pick up"
+    },
+    {
+      "id": "C074",
+      "cohort": "C200",
+      "question": "Where did Deborah get her cats?",
+      "authored_query": "Deborah cats adopted got",
+      "stopword_query": "deborah get cats"
+    },
+    {
+      "id": "C075",
+      "cohort": "C200",
+      "question": "Do Jon and Gina start businesses out of what they love?",
+      "authored_query": "Jon Gina business businesses passion love",
+      "stopword_query": "jon gina start businesses out love"
+    },
+    {
+      "id": "C076",
+      "cohort": "C200",
+      "question": "What did Evan recommend Sam acquire to get started with painting?",
+      "authored_query": "Evan Sam painting started recommended supplies",
+      "stopword_query": "evan recommend sam acquire get started painting"
+    },
+    {
+      "id": "C077",
+      "cohort": "C200",
+      "question": "What offer does Gina make to Jon regarding social media?",
+      "authored_query": "Gina Jon social media offer help",
+      "stopword_query": "offer gina make jon regarding social media"
+    },
+    {
+      "id": "C078",
+      "cohort": "C200",
+      "question": "How many times has Joanna found new hiking trails?",
+      "authored_query": "Joanna hiking trails found discovered",
+      "stopword_query": "times joanna found new hiking trails"
+    },
+    {
+      "id": "C079",
+      "cohort": "C200",
+      "question": "What did Jolene design inspired by their love for space and engines?",
+      "authored_query": "Jolene design designed space engines",
+      "stopword_query": "jolene design inspired love space engines"
+    },
+    {
+      "id": "C080",
+      "cohort": "C200",
+      "question": "What kind of experiences are Audrey's dogs the best companions for?",
+      "authored_query": "Audrey dogs companions experiences",
+      "stopword_query": "kind experiences audrey s dogs best companions"
+    },
+    {
+      "id": "C081",
+      "cohort": "C200",
+      "question": "What does Dave aim to do with his passion for cars?",
+      "authored_query": "Dave cars passion aim goals",
+      "stopword_query": "dave aim passion cars"
+    },
+    {
+      "id": "C082",
+      "cohort": "C200",
+      "question": "What type of show did Nate host where he taught vegan ice cream recipes?",
+      "authored_query": "Nate show hosted vegan ice cream recipes",
+      "stopword_query": "type show nate host taught vegan ice cream recipes"
+    },
+    {
+      "id": "C083",
+      "cohort": "C200",
+      "question": "Does Dave's shop employ a lot of people?",
+      "authored_query": "Dave shop employ employees staff people",
+      "stopword_query": "dave s shop employ lot people"
+    },
+    {
+      "id": "C084",
+      "cohort": "C200",
+      "question": "What project was Jolene working on as of 1 February, 2023?",
+      "authored_query": "Jolene project working February 1 2023",
+      "stopword_query": "project jolene working 1 february 2023"
+    },
+    {
+      "id": "C085",
+      "cohort": "C200",
+      "question": "What book did John recently finish rereading that left him feeling inspired and hopeful about following dreams?",
+      "authored_query": "John book rereading inspired hopeful dreams",
+      "stopword_query": "book john recently finish rereading that left him feeling inspired hopeful about following dreams"
+    },
+    {
+      "id": "C086",
+      "cohort": "C200",
+      "question": "What was Tim's huge writing issue last week,as mentioned on November 6, 2023?",
+      "authored_query": "Tim writing issue problem November 6 2023",
+      "stopword_query": "tim s huge writing issue last week mentioned november 6 2023"
+    },
+    {
+      "id": "C087",
+      "cohort": "C200",
+      "question": "What did John suggest James practice before playing FIFA 23 together?",
+      "authored_query": "John James FIFA 23 practice suggested",
+      "stopword_query": "john suggest james practice before playing fifa 23 together"
+    },
+    {
+      "id": "C088",
+      "cohort": "C200",
+      "question": "Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",
+      "authored_query": "Jolene Deborah meeting reschedule September 8 2023",
+      "stopword_query": "jolene reschedule meeting deborah september 8 2023"
+    },
+    {
+      "id": "C089",
+      "cohort": "C200",
+      "question": "What has John been able to help the younger players achieve?",
+      "authored_query": "John younger players help achieve",
+      "stopword_query": "john able help younger players achieve"
+    },
+    {
+      "id": "C090",
+      "cohort": "C200",
+      "question": "What did Evan start doing a few years back as a stress-buster?",
+      "authored_query": "Evan stress buster started years",
+      "stopword_query": "evan start doing few years back stress buster"
+    },
+    {
+      "id": "C091",
+      "cohort": "C200",
+      "question": "When did Deborah lead a meditation session during the sunset?",
+      "authored_query": "Deborah meditation session sunset led",
+      "stopword_query": "deborah lead meditation session during sunset"
+    },
+    {
+      "id": "C092",
+      "cohort": "C200",
+      "question": "Which year did Jolene and her partner start dating?",
+      "authored_query": "Jolene partner dating started relationship year",
+      "stopword_query": "year jolene partner start dating"
+    },
+    {
+      "id": "C093",
+      "cohort": "C200",
+      "question": "When did Gina team up with a local artist for some cool designs?",
+      "authored_query": "Gina local artist designs collaboration",
+      "stopword_query": "gina team up local artist some cool designs"
+    },
+    {
+      "id": "C094",
+      "cohort": "C200",
+      "question": "Where was Tim in the week before 16 November 2023?",
+      "authored_query": "Tim visited traveled week November 16 2023",
+      "stopword_query": "tim week before 16 november 2023"
+    },
+    {
+      "id": "C095",
+      "cohort": "C200",
+      "question": "What personal health incidents does Evan face in 2023?",
+      "authored_query": "Evan personal health incidents 2023",
+      "stopword_query": "personal health incidents evan face 2023"
+    },
+    {
+      "id": "C096",
+      "cohort": "C200",
+      "question": "When did Maria receive a medal from the homeless shelter?",
+      "authored_query": "Maria medal homeless shelter received",
+      "stopword_query": "maria receive medal homeless shelter"
+    },
+    {
+      "id": "C097",
+      "cohort": "C200",
+      "question": "What activities has Melanie done with her family?",
+      "authored_query": "Melanie family activities together",
+      "stopword_query": "activities melanie done family"
+    },
+    {
+      "id": "C098",
+      "cohort": "C200",
+      "question": "How did John overcome his ankle injury from last season?",
+      "authored_query": "John ankle injury last season recovery recovered",
+      "stopword_query": "john overcome ankle injury last season"
+    },
+    {
+      "id": "C099",
+      "cohort": "C200",
+      "question": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+      "authored_query": "Evan Sam soda alternative water",
+      "stopword_query": "kind water evan suggest sam try alternative soda"
+    },
+    {
+      "id": "C100",
+      "cohort": "C200",
+      "question": "Where did Dave come back from with insights on car modification on 1st September 2023?",
+      "authored_query": "Dave returned car modification insights September 1 2023",
+      "stopword_query": "dave come back insights car modification 1st september 2023"
+    },
+    {
+      "id": "C101",
+      "cohort": "C200",
+      "question": "When Gina has lost her job at Door Dash?",
+      "authored_query": "Gina Door Dash DoorDash job lost",
+      "stopword_query": "gina lost job door dash"
+    },
+    {
+      "id": "C102",
+      "cohort": "C200",
+      "question": "What type of car did Evan get after his old Prius broke down?",
+      "authored_query": "Evan Prius broke car bought replacement",
+      "stopword_query": "type car evan get after old prius broke down"
+    },
+    {
+      "id": "C103",
+      "cohort": "C200",
+      "question": "Which events has Jon participated in to promote his business venture?",
+      "authored_query": "Jon business venture events participated promote",
+      "stopword_query": "events jon participated promote business venture"
+    },
+    {
+      "id": "C104",
+      "cohort": "C200",
+      "question": "When did someone write Joanna a touching letter?",
+      "authored_query": "Joanna touching letter received written",
+      "stopword_query": "someone write joanna touching letter"
+    },
+    {
+      "id": "C105",
+      "cohort": "C200",
+      "question": "Which places or events have John and James planned to meet at?",
+      "authored_query": "John James planned meet meeting places events",
+      "stopword_query": "places events john james planned meet"
+    },
+    {
+      "id": "C106",
+      "cohort": "C200",
+      "question": "What type of jewelry does Audrey make?",
+      "authored_query": "Audrey jewelry jewellery makes",
+      "stopword_query": "type jewelry audrey make"
+    },
+    {
+      "id": "C107",
+      "cohort": "C200",
+      "question": "Which outdoor gear company likely signed up John for an endorsement deal?",
+      "authored_query": "John outdoor gear company endorsement signed",
+      "stopword_query": "outdoor gear company likely signed up john endorsement deal"
+    },
+    {
+      "id": "C108",
+      "cohort": "C200",
+      "question": "What kind of modifications has Dave been working on in the car mod workshop?",
+      "authored_query": "Dave car mod modification workshop working",
+      "stopword_query": "kind modifications dave working car mod workshop"
+    },
+    {
+      "id": "C109",
+      "cohort": "C200",
+      "question": "What did John and his friends do with the remaining money after helping the dog shelter?",
+      "authored_query": "John friends money remaining dog shelter",
+      "stopword_query": "john friends remaining money after helping dog shelter"
+    },
+    {
+      "id": "C110",
+      "cohort": "C200",
+      "question": "What kind of meal did John and his family make together in the photo shared by John?",
+      "authored_query": "John family meal made cooking photo",
+      "stopword_query": "kind meal john family make together photo shared"
+    },
+    {
+      "id": "C111",
+      "cohort": "C200",
+      "question": "When did Nate get Tilly for Joanna?",
+      "authored_query": "Nate Joanna Tilly got acquired",
+      "stopword_query": "nate get tilly joanna"
+    },
+    {
+      "id": "C112",
+      "cohort": "C200",
+      "question": "Did Jolene teach herself how to play the console?",
+      "authored_query": "Jolene console play taught herself learning",
+      "stopword_query": "jolene teach herself play console"
+    },
+    {
+      "id": "C113",
+      "cohort": "C200",
+      "question": "What activity did Jolene and her partner plan to do together instead of resuming yoga?",
+      "authored_query": "Jolene partner yoga instead activity planned",
+      "stopword_query": "activity jolene partner plan together instead resuming yoga"
+    },
+    {
+      "id": "C114",
+      "cohort": "C200",
+      "question": "When did Caroline have a picnic?",
+      "authored_query": "Caroline picnic went date",
+      "stopword_query": "caroline picnic"
+    },
+    {
+      "id": "C115",
+      "cohort": "C200",
+      "question": "What did Anthony and John end up playing during the charity event?",
+      "authored_query": "Anthony John charity event played",
+      "stopword_query": "anthony john end up playing during charity event"
+    },
+    {
+      "id": "C116",
+      "cohort": "C200",
+      "question": "When did James, Samantha and John go to the baseball game together?",
+      "authored_query": "James Samantha John baseball game",
+      "stopword_query": "james samantha john go baseball game together"
+    },
+    {
+      "id": "C117",
+      "cohort": "C200",
+      "question": "When did Calvin met with local artists in Boston?",
+      "authored_query": "Calvin local artists Boston met",
+      "stopword_query": "calvin met local artists boston"
+    },
+    {
+      "id": "C118",
+      "cohort": "C200",
+      "question": "Which torunament did Nate win in the beginning of November 2022?",
+      "authored_query": "Nate tournament won November 2022",
+      "stopword_query": "torunament nate win beginning november 2022"
+    },
+    {
+      "id": "C119",
+      "cohort": "C200",
+      "question": "Which US state was Sam travelling in during October 2023?",
+      "authored_query": "Sam traveling travelling trip October 2023 state",
+      "stopword_query": "us state sam travelling during october 2023"
+    },
+    {
+      "id": "C120",
+      "cohort": "C200",
+      "question": "What is something that Audrey often dresses up her dogs with?",
+      "authored_query": "Audrey dogs dressed dresses accessories",
+      "stopword_query": "something that audrey often dresses up dogs"
+    },
+    {
+      "id": "C121",
+      "cohort": "C200",
+      "question": "What kind of books does Caroline have in her library?",
+      "authored_query": "Caroline library books kinds",
+      "stopword_query": "kind books caroline library"
+    },
+    {
+      "id": "C122",
+      "cohort": "C200",
+      "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+      "authored_query": "Nate gaming party June 2022 people attended",
+      "stopword_query": "people attended gaming party hosted nate june 2022"
+    },
+    {
+      "id": "C123",
+      "cohort": "C200",
+      "question": "How did Evan feel when he painted the piece with the bird flying over it?",
+      "authored_query": "Evan painted painting bird flying felt",
+      "stopword_query": "evan feel painted piece bird flying over"
+    },
+    {
+      "id": "C124",
+      "cohort": "C200",
+      "question": "What subject have Caroline and Melanie both painted?",
+      "authored_query": "Caroline Melanie painted painting subject",
+      "stopword_query": "subject caroline melanie both painted"
+    },
+    {
+      "id": "C125",
+      "cohort": "C200",
+      "question": "What inspired James to create his game?",
+      "authored_query": "James game created inspiration inspired",
+      "stopword_query": "inspired james create game"
+    },
+    {
+      "id": "C126",
+      "cohort": "C200",
+      "question": "What new content is Nate creating for YouTube?",
+      "authored_query": "Nate YouTube new content creating",
+      "stopword_query": "new content nate creating youtube"
+    },
+    {
+      "id": "C127",
+      "cohort": "C200",
+      "question": "What kind of stress was Sam dealing with in October 2023?",
+      "authored_query": "Sam stress October 2023 dealing",
+      "stopword_query": "kind stress sam dealing october 2023"
+    },
+    {
+      "id": "C128",
+      "cohort": "C200",
+      "question": "What inspires Joanna to create drawings of her characters?",
+      "authored_query": "Joanna characters drawings inspiration inspired",
+      "stopword_query": "inspires joanna create drawings characters"
+    },
+    {
+      "id": "C129",
+      "cohort": "C200",
+      "question": "Is Deborah married?",
+      "authored_query": "Deborah married marriage spouse wedding",
+      "stopword_query": "deborah married"
+    },
+    {
+      "id": "C130",
+      "cohort": "C200",
+      "question": "What martial arts has John done?",
+      "authored_query": "John martial arts trained practice",
+      "stopword_query": "martial arts john done"
+    },
+    {
+      "id": "C131",
+      "cohort": "C200",
+      "question": "What kind of event did John and his family attend in June 2023?",
+      "authored_query": "John family event June 2023 attended",
+      "stopword_query": "kind event john family attend june 2023"
+    },
+    {
+      "id": "C132",
+      "cohort": "C200",
+      "question": "What inspired Joanna's new screenplay on 25 February, 2022?",
+      "authored_query": "Joanna screenplay inspired February 25 2022",
+      "stopword_query": "inspired joanna s new screenplay 25 february 2022"
+    },
+    {
+      "id": "C133",
+      "cohort": "C200",
+      "question": "What is Jolene's favorite book which she mentioned on 4 February, 2023?",
+      "authored_query": "Jolene favorite book February 4 2023",
+      "stopword_query": "jolene s favorite book mentioned 4 february 2023"
+    },
+    {
+      "id": "C134",
+      "cohort": "C200",
+      "question": "What natural disaster affected John's old area on 7 July, 2023?",
+      "authored_query": "John old area natural disaster July 7 2023",
+      "stopword_query": "natural disaster affected john s old area 7 july 2023"
+    },
+    {
+      "id": "C135",
+      "cohort": "C200",
+      "question": "Where did Jolene and her partner spend most of September 2023?",
+      "authored_query": "Jolene partner September 2023 spent traveled",
+      "stopword_query": "jolene partner spend most september 2023"
+    },
+    {
+      "id": "C136",
+      "cohort": "C200",
+      "question": "When did Gina get her tattoo?",
+      "authored_query": "Gina tattoo got date",
+      "stopword_query": "gina get tattoo"
+    },
+    {
+      "id": "C137",
+      "cohort": "C200",
+      "question": "How many children does Melanie have?",
+      "authored_query": "Melanie children kids family number",
+      "stopword_query": "children melanie"
+    },
+    {
+      "id": "C138",
+      "cohort": "C200",
+      "question": "How many games has John mentioned winning?",
+      "authored_query": "John games wins won winning",
+      "stopword_query": "games john mentioned winning"
+    },
+    {
+      "id": "C139",
+      "cohort": "C200",
+      "question": "What does Dave do when he feels his creativity is frozen?",
+      "authored_query": "Dave creativity frozen blocked feels",
+      "stopword_query": "dave feels creativity frozen"
+    },
+    {
+      "id": "C140",
+      "cohort": "C200",
+      "question": "What J.K. Rowling quote does Tim resonate with?",
+      "authored_query": "Tim JK Rowling quote resonate",
+      "stopword_query": "j k rowling quote tim resonate"
+    },
+    {
+      "id": "C141",
+      "cohort": "C200",
+      "question": "Which activity has John done apart from yoga at the studio?",
+      "authored_query": "John studio yoga activity classes",
+      "stopword_query": "activity john done apart yoga studio"
+    },
+    {
+      "id": "C142",
+      "cohort": "C200",
+      "question": "Which hobby did Dave pick up in October 2023?",
+      "authored_query": "Dave hobby started October 2023",
+      "stopword_query": "hobby dave pick up october 2023"
+    },
+    {
+      "id": "C143",
+      "cohort": "C200",
+      "question": "When did Calvin first travel to Tokyo?",
+      "authored_query": "Calvin Tokyo first trip travel",
+      "stopword_query": "calvin first travel tokyo"
+    },
+    {
+      "id": "C144",
+      "cohort": "C200",
+      "question": "What did Caroline see at the council meeting for adoption?",
+      "authored_query": "Caroline adoption council meeting saw",
+      "stopword_query": "caroline see council meeting adoption"
+    },
+    {
+      "id": "C145",
+      "cohort": "C200",
+      "question": "How did the audience in Tokyo react when Calvin sang one of his songs?",
+      "authored_query": "Calvin Tokyo audience song sang reaction",
+      "stopword_query": "audience tokyo react calvin sang one songs"
+    },
+    {
+      "id": "C146",
+      "cohort": "C200",
+      "question": "What is Jon offering to the dancers at his dance studio?",
+      "authored_query": "Jon dancers dance studio offering",
+      "stopword_query": "jon offering dancers dance studio"
+    },
+    {
+      "id": "C147",
+      "cohort": "C200",
+      "question": "How is Maria's new puppy adjusting to its new home?",
+      "authored_query": "Maria puppy home adjusting",
+      "stopword_query": "maria s new puppy adjusting home"
+    },
+    {
+      "id": "C148",
+      "cohort": "C200",
+      "question": "What was Johns's reaction to sealing the deal with the beverage company?",
+      "authored_query": "John beverage company deal reaction",
+      "stopword_query": "johns s reaction sealing deal beverage company"
+    },
+    {
+      "id": "C149",
+      "cohort": "C200",
+      "question": "What kind of art does Caroline make?",
+      "authored_query": "Caroline art makes creates",
+      "stopword_query": "kind art caroline make"
+    },
+    {
+      "id": "C150",
+      "cohort": "C200",
+      "question": "What type of mobile application does James plan to build with John?",
+      "authored_query": "James John mobile application app build",
+      "stopword_query": "type mobile application james plan build john"
+    },
+    {
+      "id": "C151",
+      "cohort": "C200",
+      "question": "What time management techniques do Deborah and Jolene use?",
+      "authored_query": "Deborah Jolene time management techniques",
+      "stopword_query": "time management techniques deborah jolene use"
+    },
+    {
+      "id": "C152",
+      "cohort": "C200",
+      "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+      "authored_query": "Nate ice cream lactose free ingredient",
+      "stopword_query": "ingredient nate use make ice cream lactose free"
+    },
+    {
+      "id": "C153",
+      "cohort": "C200",
+      "question": "What did John receive for achieving second place in the tournament?",
+      "authored_query": "John tournament second place received prize",
+      "stopword_query": "john receive achieving second place tournament"
+    },
+    {
+      "id": "C154",
+      "cohort": "C200",
+      "question": "When did Calvin first get interested in cars?",
+      "authored_query": "Calvin cars interest interested first",
+      "stopword_query": "calvin first get interested cars"
+    },
+    {
+      "id": "C155",
+      "cohort": "C200",
+      "question": "When did Joanna have an audition for a writing gig?",
+      "authored_query": "Joanna writing gig audition",
+      "stopword_query": "joanna audition writing gig"
+    },
+    {
+      "id": "C156",
+      "cohort": "C200",
+      "question": "When did Andrew and his girlfriend go fishing?",
+      "authored_query": "Andrew girlfriend fishing went",
+      "stopword_query": "andrew girlfriend go fishing"
+    },
+    {
+      "id": "C157",
+      "cohort": "C200",
+      "question": "Where has Maria made friends?",
+      "authored_query": "Maria friends made met friendship",
+      "stopword_query": "maria made friends"
+    },
+    {
+      "id": "C158",
+      "cohort": "C200",
+      "question": "Who supports Calvin in tough times?",
+      "authored_query": "Calvin tough times support",
+      "stopword_query": "supports calvin tough times"
+    },
+    {
+      "id": "C159",
+      "cohort": "C200",
+      "question": "How long did the trail hike that Audrey went on with her pups take?",
+      "authored_query": "Audrey pups trail hike duration hours",
+      "stopword_query": "long trail hike that audrey went pups take"
+    },
+    {
+      "id": "C160",
+      "cohort": "C200",
+      "question": "What decision did James and Samantha make on 31 October, 2022?",
+      "authored_query": "James Samantha decision October 31 2022",
+      "stopword_query": "decision james samantha make 31 october 2022"
+    },
+    {
+      "id": "C161",
+      "cohort": "C200",
+      "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+      "authored_query": "Maria family money younger tough times help",
+      "stopword_query": "gave maria s family money younger going through tough times"
+    },
+    {
+      "id": "C162",
+      "cohort": "C200",
+      "question": "Who performed at the concert at Melanie's daughter's birthday?",
+      "authored_query": "Melanie daughter birthday concert performed",
+      "stopword_query": "performed concert melanie s daughter birthday"
+    },
+    {
+      "id": "C163",
+      "cohort": "C200",
+      "question": "When did Nate get purple hair?",
+      "authored_query": "Nate purple hair got",
+      "stopword_query": "nate get purple hair"
+    },
+    {
+      "id": "C164",
+      "cohort": "C200",
+      "question": "What genre is Joanna's first screenplay?",
+      "authored_query": "Joanna first screenplay genre",
+      "stopword_query": "genre joanna s first screenplay"
+    },
+    {
+      "id": "C165",
+      "cohort": "C200",
+      "question": "Which book did Tim recommend to John as a good story on 8th December, 2023?",
+      "authored_query": "Tim John book recommended December 8 2023",
+      "stopword_query": "book tim recommend john good story 8th december 2023"
+    },
+    {
+      "id": "C166",
+      "cohort": "C200",
+      "question": "How does Dave feel about the reactions of people when they see the finished restoration project?",
+      "authored_query": "Dave restoration finished project people reactions feel",
+      "stopword_query": "dave feel about reactions people see finished restoration project"
+    },
+    {
+      "id": "C167",
+      "cohort": "C200",
+      "question": "What type of projects is Jolene interested in getting involved in the future?",
+      "authored_query": "Jolene projects interested future",
+      "stopword_query": "type projects jolene interested getting involved future"
+    },
+    {
+      "id": "C168",
+      "cohort": "C200",
+      "question": "How does John describe the game season for his team?",
+      "authored_query": "John team game season describe",
+      "stopword_query": "john describe game season team"
+    },
+    {
+      "id": "C169",
+      "cohort": "C200",
+      "question": "What painting did Evan share with Sam in October?",
+      "authored_query": "Evan Sam painting shared October",
+      "stopword_query": "painting evan share sam october"
+    },
+    {
+      "id": "C170",
+      "cohort": "C200",
+      "question": "How many turtles does Nate have?",
+      "authored_query": "Nate turtles turtle number pets",
+      "stopword_query": "turtles nate"
+    },
+    {
+      "id": "C171",
+      "cohort": "C200",
+      "question": "What did Joanna take a picture of near Fort Wayne last summer?",
+      "authored_query": "Joanna picture photographed Fort Wayne summer",
+      "stopword_query": "joanna take picture near fort wayne last summer"
+    },
+    {
+      "id": "C172",
+      "cohort": "C200",
+      "question": "How many days did James plan to spend on his trip in Canada?",
+      "authored_query": "James Canada trip planned days duration",
+      "stopword_query": "days james plan spend trip canada"
+    },
+    {
+      "id": "C173",
+      "cohort": "C200",
+      "question": "What workshop did Caroline attend recently?",
+      "authored_query": "Caroline workshop attended recently",
+      "stopword_query": "workshop caroline attend recently"
+    },
+    {
+      "id": "C174",
+      "cohort": "C200",
+      "question": "What plans do Calvin and Dave have for when Calvin visits Boston?",
+      "authored_query": "Calvin Dave Boston visit plans",
+      "stopword_query": "plans calvin dave visits boston"
+    },
+    {
+      "id": "C175",
+      "cohort": "C200",
+      "question": "When did Caroline go to the LGBTQ conference?",
+      "authored_query": "Caroline LGBTQ conference attended",
+      "stopword_query": "caroline go lgbtq conference"
+    },
+    {
+      "id": "C176",
+      "cohort": "C200",
+      "question": "What do Melanie's family give her?",
+      "authored_query": "Melanie family give given",
+      "stopword_query": "melanie s family give"
+    },
+    {
+      "id": "C177",
+      "cohort": "C200",
+      "question": "What book recommendations has Joanna given to Nate?",
+      "authored_query": "Joanna Nate book books recommendations",
+      "stopword_query": "book recommendations joanna given nate"
+    },
+    {
+      "id": "C178",
+      "cohort": "C200",
+      "question": "What organization does Audrey donate a portion of his profits to?",
+      "authored_query": "Audrey profits donate organization charity",
+      "stopword_query": "organization audrey donate portion profits"
+    },
+    {
+      "id": "C179",
+      "cohort": "C200",
+      "question": "Which TV series does Tim mention watching?",
+      "authored_query": "Tim TV television series watching",
+      "stopword_query": "tv series tim mention watching"
+    },
+    {
+      "id": "C180",
+      "cohort": "C200",
+      "question": "What recurring issue frustrates Sam at the grocery store?",
+      "authored_query": "Sam grocery store recurring problem frustrated",
+      "stopword_query": "recurring issue frustrates sam grocery store"
+    },
+    {
+      "id": "C181",
+      "cohort": "C200",
+      "question": "Which ailment does Sam have to face due to his weight?",
+      "authored_query": "Sam weight ailment health condition",
+      "stopword_query": "ailment sam face due weight"
+    },
+    {
+      "id": "C182",
+      "cohort": "C200",
+      "question": "What are Melanie's pets' names?",
+      "authored_query": "Melanie pets names named",
+      "stopword_query": "melanie s pets names"
+    },
+    {
+      "id": "C183",
+      "cohort": "C200",
+      "question": "How many times has John injured his ankle?",
+      "authored_query": "John ankle injured injury times",
+      "stopword_query": "times john injured ankle"
+    },
+    {
+      "id": "C184",
+      "cohort": "C200",
+      "question": "When did Deborah meet Anna?",
+      "authored_query": "Deborah Anna met meeting",
+      "stopword_query": "deborah meet anna"
+    },
+    {
+      "id": "C185",
+      "cohort": "C200",
+      "question": "What did the posters at the poetry reading say?",
+      "authored_query": "poetry reading posters words text",
+      "stopword_query": "posters poetry reading say"
+    },
+    {
+      "id": "C186",
+      "cohort": "C200",
+      "question": "Does James live in Connecticut?",
+      "authored_query": "James live lives Connecticut",
+      "stopword_query": "james live connecticut"
+    },
+    {
+      "id": "C187",
+      "cohort": "C200",
+      "question": "What animal do both Nate and Joanna like?",
+      "authored_query": "Nate Joanna animal animals like",
+      "stopword_query": "animal both nate joanna like"
+    },
+    {
+      "id": "C188",
+      "cohort": "C200",
+      "question": "Would John be open to moving to another country?",
+      "authored_query": "John moving country abroad open",
+      "stopword_query": "john open moving another country"
+    },
+    {
+      "id": "C189",
+      "cohort": "C200",
+      "question": "What is the type of game \"Xenoblade Chronicles\" that Nate is playing?",
+      "authored_query": "Nate Xenoblade Chronicles game type genre",
+      "stopword_query": "type game xenoblade chronicles that nate playing"
+    },
+    {
+      "id": "C190",
+      "cohort": "C200",
+      "question": "What does Tim have that serves as a reminder of hard work and is his prized possession?",
+      "authored_query": "Tim prized possession hard work reminder",
+      "stopword_query": "tim that serves reminder hard work prized possession"
+    },
+    {
+      "id": "C191",
+      "cohort": "C200",
+      "question": "How many of Joanna's writing have made it to the big screen?",
+      "authored_query": "Joanna writing writings big screen adapted",
+      "stopword_query": "joanna s writing made big screen"
+    },
+    {
+      "id": "C192",
+      "cohort": "C200",
+      "question": "How long has John been playing the drums as of 27 March, 2022?",
+      "authored_query": "John drums playing years March 27 2022",
+      "stopword_query": "long john playing drums 27 march 2022"
+    },
+    {
+      "id": "C193",
+      "cohort": "C200",
+      "question": "What instrument is Tim learning to play in December 2023?",
+      "authored_query": "Tim instrument learning play December 2023",
+      "stopword_query": "instrument tim learning play december 2023"
+    },
+    {
+      "id": "C194",
+      "cohort": "C200",
+      "question": "When did Calvin plan on travelling to Tokyo the second time?",
+      "authored_query": "Calvin Tokyo second trip plan travel",
+      "stopword_query": "calvin plan travelling tokyo second time"
+    },
+    {
+      "id": "C195",
+      "cohort": "C200",
+      "question": "When did James ask Samantha to be his girlfriend?",
+      "authored_query": "James Samantha girlfriend asked dating",
+      "stopword_query": "james ask samantha girlfriend"
+    },
+    {
+      "id": "C196",
+      "cohort": "C200",
+      "question": "Which country were Jolene and her mother visiting in 2010?",
+      "authored_query": "Jolene mother visiting country 2010",
+      "stopword_query": "country jolene mother visiting 2010"
+    },
+    {
+      "id": "C197",
+      "cohort": "C200",
+      "question": "What advice did James receive from the famous players he met at the tournament?",
+      "authored_query": "James famous players tournament advice",
+      "stopword_query": "advice james receive famous players met tournament"
+    },
+    {
+      "id": "C198",
+      "cohort": "C200",
+      "question": "What book recommendation did Tim give to John for the trip?",
+      "authored_query": "Tim John book recommendation trip",
+      "stopword_query": "book recommendation tim give john trip"
+    },
+    {
+      "id": "C199",
+      "cohort": "C200",
+      "question": "What positive change did Jolene experience during the retreat?",
+      "authored_query": "Jolene retreat positive change experienced",
+      "stopword_query": "positive change jolene experience during retreat"
+    },
+    {
+      "id": "C200",
+      "cohort": "C200",
+      "question": "What organization is John teaming up with for his charity work?",
+      "authored_query": "John charity organization teaming work",
+      "stopword_query": "organization john teaming up charity work"
+    }
+  ],
+  "implementation_hashes": {
+    "prepare.py": "32e8dc7e47d6156530deb162886ac7f22d4f16ff13f642ba7baaf85fd1ced1b0",
+    "run.py": "1b1658b9bb8e78237c402cc57fe33d368533c6628799eba98ccb5d42c79d7b72"
+  }
+}

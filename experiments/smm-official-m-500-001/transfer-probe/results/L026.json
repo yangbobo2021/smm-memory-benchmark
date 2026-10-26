@@ -1,0 +1,147 @@
+{
+  "id": "L026",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+  "queries": {
+    "authored": "aunt crystal chandelier met received",
+    "stopword": "weeks ago meet up aunt receive crystal chandelier"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0b4a8adc_1": 1
+      },
+      "top10_ids": [
+        "answer_0b4a8adc_1",
+        "bd8708e2_3",
+        "5365840b_2",
+        "891f13f0",
+        "d8e33f5c_1",
+        "acda6a4e_2",
+        "35bc3132_2",
+        "183d2822_2",
+        "936b0969_1",
+        "eadc9568"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0b4a8adc_1": 1
+      },
+      "top10_ids": [
+        "answer_0b4a8adc_1",
+        "bd8708e2_3",
+        "sharegpt_DsdOMQX_0",
+        "5b4f00d1_3",
+        "eadc9568",
+        "acda6a4e_2",
+        "a3edf982_1",
+        "sharegpt_Sbn1By0_0",
+        "f51326ff_1",
+        "sharegpt_80caWYI_1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0b4a8adc_1": 1
+      },
+      "top10_ids": [
+        "answer_0b4a8adc_1",
+        "bd8708e2_3",
+        "5365840b_2",
+        "acda6a4e_2",
+        "35bc3132_2",
+        "891f13f0",
+        "936b0969_1",
+        "5fcca8bc_1",
+        "4b01a4d2",
+        "1da2160a_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0b4a8adc_1": 1
+      },
+      "top10_ids": [
+        "answer_0b4a8adc_1",
+        "sharegpt_ncOQGbs_0",
+        "35bc3132_2",
+        "d8e33f5c_1",
+        "183d2822_2",
+        "d441f4c5",
+        "2b5c911e_1",
+        "bd8708e2_3",
+        "6554fb34_1",
+        "acda6a4e_2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0b4a8adc_1": 1
+      },
+      "top10_ids": [
+        "answer_0b4a8adc_1",
+        "d8e33f5c_1",
+        "bd8708e2_3",
+        "35bc3132_2",
+        "183d2822_2",
+        "acda6a4e_2",
+        "sharegpt_ncOQGbs_0",
+        "891f13f0",
+        "2b5c911e_1",
+        "8f4ebed9_1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "P10",
+  "cohort": "P25",
+  "type": "multi-session",
+  "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+  "queries": {
+    "authored": "projects project working simultaneously thesis",
+    "stopword": "projects working simultaneously excluding thesis"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e7fe8c8b_1": 1,
+        "answer_e7fe8c8b_3": 23,
+        "answer_e7fe8c8b_2": 3
+      },
+      "top10_ids": [
+        "answer_e7fe8c8b_1",
+        "sharegpt_m0KUh1U_0",
+        "answer_e7fe8c8b_2",
+        "ultrachat_303726",
+        "d22efc51",
+        "ultrachat_479904",
+        "sharegpt_HaVuc1Y_0",
+        "ultrachat_315233",
+        "caefc9a7_1",
+        "ultrachat_299957"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e7fe8c8b_1": 1,
+        "answer_e7fe8c8b_3": 14,
+        "answer_e7fe8c8b_2": 2
+      },
+      "top10_ids": [
+        "answer_e7fe8c8b_1",
+        "answer_e7fe8c8b_2",
+        "sharegpt_m0KUh1U_0",
+        "ultrachat_480839",
+        "fff931f7",
+        "ultrachat_315233",
+        "9ca6b166_1",
+        "864a563d_5",
+        "d22efc51",
+        "sharegpt_LytoRNh_21"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e7fe8c8b_1": 1,
+        "answer_e7fe8c8b_3": 23,
+        "answer_e7fe8c8b_2": 3
+      },
+      "top10_ids": [
+        "answer_e7fe8c8b_1",
+        "sharegpt_m0KUh1U_0",
+        "answer_e7fe8c8b_2",
+        "ultrachat_303726",
+        "d22efc51",
+        "ultrachat_479904",
+        "sharegpt_HaVuc1Y_0",
+        "ultrachat_315233",
+        "caefc9a7_1",
+        "ultrachat_299957"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_e7fe8c8b_1": 1,
+        "answer_e7fe8c8b_3": 5,
+        "answer_e7fe8c8b_2": 2
+      },
+      "top10_ids": [
+        "answer_e7fe8c8b_1",
+        "answer_e7fe8c8b_2",
+        "sharegpt_LytoRNh_21",
+        "sharegpt_m0KUh1U_0",
+        "answer_e7fe8c8b_3",
+        "caefc9a7_1",
+        "ultrachat_480839",
+        "ultrachat_479904",
+        "ultrachat_520419",
+        "sharegpt_7XrE2aP_0"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_e7fe8c8b_1": 1,
+        "answer_e7fe8c8b_3": 9,
+        "answer_e7fe8c8b_2": 2
+      },
+      "top10_ids": [
+        "answer_e7fe8c8b_1",
+        "answer_e7fe8c8b_2",
+        "sharegpt_m0KUh1U_0",
+        "ultrachat_479904",
+        "caefc9a7_1",
+        "ultrachat_480839",
+        "sharegpt_LytoRNh_21",
+        "ultrachat_299957",
+        "answer_e7fe8c8b_3",
+        "sharegpt_7XrE2aP_0"
+      ]
+    }
+  }
+}

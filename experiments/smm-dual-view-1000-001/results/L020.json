@@ -1,0 +1,91 @@
+{
+  "id": "L020",
+  "cohort": "L32",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+  "reference_sources": [
+    "c22f886556611f0ca62ec6147",
+    "c64153e8530609acdfd6bc8cb"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c22f886556611f0ca62ec6147": 1,
+      "c64153e8530609acdfd6bc8cb": 2
+    },
+    "top10_ids": [
+      "c22f886556611f0ca62ec6147",
+      "c64153e8530609acdfd6bc8cb",
+      "ce9623f6fc3a634eadcef93f8",
+      "c51b35b0f266360ceee43c010",
+      "c122f2b5c7efa871faa36774a",
+      "ce2c1bc107b37900fdfa83a2c",
+      "cca09bf4542c2a1511645833d",
+      "c2da65519bb34b69e36f1e011",
+      "c08667e73c8710cabb2aaad23",
+      "c9d1170c7ed2432e59551846c"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c22f886556611f0ca62ec6147": 1,
+      "c64153e8530609acdfd6bc8cb": 2
+    },
+    "top10_ids": [
+      "c22f886556611f0ca62ec6147",
+      "c64153e8530609acdfd6bc8cb",
+      "ce9623f6fc3a634eadcef93f8",
+      "c51b35b0f266360ceee43c010",
+      "c27e04e7f206a6382ce741f32",
+      "c4da953665cd778918ab4e151",
+      "c08667e73c8710cabb2aaad23",
+      "cead2c4a6eb0dca23c11b2e0e",
+      "c90ca7a38c366c460d578972a",
+      "ce557920b9a6f92c1abb06e74"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "selected_ids": [
+      "c22f886556611f0ca62ec6147",
+      "c64153e8530609acdfd6bc8cb",
+      "ce9623f6fc3a634eadcef93f8",
+      "c51b35b0f266360ceee43c010",
+      "c122f2b5c7efa871faa36774a",
+      "c27e04e7f206a6382ce741f32",
+      "ce2c1bc107b37900fdfa83a2c",
+      "cca09bf4542c2a1511645833d",
+      "c2da65519bb34b69e36f1e011",
+      "c08667e73c8710cabb2aaad23"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.11388124999939464,
+    "raw_query": 0.009243165999578196,
+    "user_build": 0.013734791999013396,
+    "user_query": 0.0024702909995539812
+  }
+}

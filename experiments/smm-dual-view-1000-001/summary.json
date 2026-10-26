@@ -1,0 +1,48 @@
+{
+  "id": "SMM-DUAL-VIEW-1000-001",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "cohorts": {
+    "P25": {
+      "questions": 25,
+      "raw_top10_all": 19,
+      "user_top10_all": 22,
+      "dual10_all": 21,
+      "dual10_any": 25,
+      "dual10_gains": [
+        "P07",
+        "P20"
+      ],
+      "dual10_losses": [],
+      "user_build_median_s": 0.013308790999872144,
+      "user_query_median_s": 0.0013781670004391344
+    },
+    "L32": {
+      "questions": 32,
+      "raw_top10_all": 16,
+      "user_top10_all": 16,
+      "dual10_all": 17,
+      "dual10_any": 25,
+      "dual10_gains": [
+        "L021"
+      ],
+      "dual10_losses": [],
+      "user_build_median_s": 0.01350737500069954,
+      "user_query_median_s": 0.0014374164993569138
+    },
+    "all57": {
+      "questions": 57,
+      "raw_top10_all": 35,
+      "user_top10_all": 38,
+      "dual10_all": 38,
+      "dual10_any": 50,
+      "dual10_gains": [
+        "P07",
+        "P20",
+        "L021"
+      ],
+      "dual10_losses": [],
+      "user_build_median_s": 0.013393541999903391,
+      "user_query_median_s": 0.0013928750013292301
+    }
+  }
+}

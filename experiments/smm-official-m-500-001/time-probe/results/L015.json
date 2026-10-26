@@ -1,0 +1,62 @@
+{
+  "id": "L015",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What charity event did I participate in a month ago?",
+  "window": {
+    "start": "2023-03-01",
+    "end": "2023-03-31",
+    "rule": "months-ago"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_4bfcc251_4": 31,
+      "answer_4bfcc251_3": 9,
+      "answer_4bfcc251_2": 19,
+      "answer_4bfcc251_1": 1
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_4bfcc251_4": 45,
+      "answer_4bfcc251_3": 29,
+      "answer_4bfcc251_2": 36,
+      "answer_4bfcc251_1": 1
+    },
+    "top10_ids": [
+      "answer_4bfcc251_1",
+      "2b61f4a3_3",
+      "da0ad5c7_1",
+      "ultrachat_236018",
+      "21d86ebb_1",
+      "166d4800",
+      "521e7154",
+      "ultrachat_450185",
+      "65e9e722_2",
+      "cad59ac2_2"
+    ]
+  },
+  "time_bonus_count_in_raw100": 23,
+  "query_seconds": 0.0013677079987246543,
+  "build_seconds": 0.051486917000147514
+}

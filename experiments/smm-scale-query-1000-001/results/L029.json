@@ -1,0 +1,87 @@
+{
+  "id": "L029",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c8769768d9febb3bbe230d7aa"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c8769768d9febb3bbe230d7aa": 1
+    }
+  },
+  "authored": {
+    "query": "cat name named",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c8769768d9febb3bbe230d7aa": 3
+    },
+    "top10_ids": [
+      "c20cfa41d14aa1db1693d2dd4",
+      "cb0c66804ca95d82b12692651",
+      "c8769768d9febb3bbe230d7aa",
+      "c0206c314db995e8b60626ab7",
+      "c088e89171f9f3965b0debc6f",
+      "c98540a0158f4dd747abe6a22",
+      "c476ba94f6f66be700f194366",
+      "cc31616e453bc481f9071fa17",
+      "cdf33b71fe8477ad2d5d4dd95",
+      "cd691b8d2d4a7ecdc73949ae1"
+    ],
+    "seconds": {
+      "build": 0.11409137500049837,
+      "query": 0.00024537500030419324
+    }
+  },
+  "stopword": {
+    "query": "name cat",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c8769768d9febb3bbe230d7aa": 1
+    },
+    "top10_ids": [
+      "c8769768d9febb3bbe230d7aa",
+      "c20cfa41d14aa1db1693d2dd4",
+      "c476ba94f6f66be700f194366",
+      "cdf33b71fe8477ad2d5d4dd95",
+      "cd691b8d2d4a7ecdc73949ae1",
+      "c4e36231f5573cdc49748e389",
+      "c0206c314db995e8b60626ab7",
+      "cb0c66804ca95d82b12692651",
+      "cda3c8694290fb7c812fdf204",
+      "cb02306340efae1abb61b04d8"
+    ],
+    "seconds": {
+      "build": 0.11475729199992202,
+      "query": 0.00021504199958144454
+    }
+  }
+}

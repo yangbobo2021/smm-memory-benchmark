@@ -1,0 +1,72 @@
+{
+  "id": "L023",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+  "official_question_id": "gpt4_4929293a",
+  "official_m_count": 477,
+  "official_m_occurrences": 481,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 3,
+  "original_s": {
+    "count": 44,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_add9b012_2": 1,
+      "answer_add9b012_1": 2
+    },
+    "top10_ids": [
+      "answer_add9b012_2",
+      "answer_add9b012_1",
+      "ce291e98",
+      "ultrachat_205888",
+      "7d5df0e4",
+      "58ae7c4f_3",
+      "9baddc74",
+      "ultrachat_224196",
+      "04c33462_2",
+      "sharegpt_NZ4gHgF_0"
+    ],
+    "build_seconds": 0.04798662499888451,
+    "query_seconds": 0.0009496250004303874
+  }
+}

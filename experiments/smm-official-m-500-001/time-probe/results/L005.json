@@ -1,0 +1,60 @@
+{
+  "id": "L005",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What is the order of airlines I flew with from earliest to latest before today?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 5
+    },
+    "reference_positions": {
+      "answer_d8a1af6b_1": 8,
+      "answer_d8a1af6b_2": 6,
+      "answer_d8a1af6b_3": 4,
+      "answer_d8a1af6b_4": 2,
+      "answer_d8a1af6b_5": 9
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 5
+    },
+    "reference_positions": {
+      "answer_d8a1af6b_1": 8,
+      "answer_d8a1af6b_2": 6,
+      "answer_d8a1af6b_3": 4,
+      "answer_d8a1af6b_4": 2,
+      "answer_d8a1af6b_5": 9
+    },
+    "top10_ids": [
+      "ultrachat_170863",
+      "answer_d8a1af6b_4",
+      "0ec0648a",
+      "answer_d8a1af6b_3",
+      "sharegpt_QIcIecM_0",
+      "answer_d8a1af6b_2",
+      "ultrachat_300662",
+      "answer_d8a1af6b_1",
+      "answer_d8a1af6b_5",
+      "sharegpt_lz0ys5C_19"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.003337166999699548,
+  "build_seconds": 0.04719087499870511
+}

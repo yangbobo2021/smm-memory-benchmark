@@ -1,0 +1,91 @@
+{
+  "id": "C120",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c3fb82e2a1ab79e03385e8df4",
+    "c6638c80290604d1907736234"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c3fb82e2a1ab79e03385e8df4": 1,
+      "c6638c80290604d1907736234": 5
+    }
+  },
+  "authored": {
+    "query": "Audrey dogs dressed dresses accessories",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c3fb82e2a1ab79e03385e8df4": 17,
+      "c6638c80290604d1907736234": 4
+    },
+    "top10_ids": [
+      "c1a187e951f0e0254bb4fb0b4",
+      "c83413649c8fad2a1b8e52c8e",
+      "c0cb5497315b5f692644d7a05",
+      "c6638c80290604d1907736234",
+      "cb9ff4548964b6b623d512c73",
+      "c26d15cc1e49c4024420ad588",
+      "c733740442f3368cbe55fafe0",
+      "c0c938fedefd07da628c20135",
+      "cde7ef43a3a69da3551b22e08",
+      "c3453d0c71ec7bb9d355512c5"
+    ],
+    "seconds": {
+      "build": 0.018689458000153536,
+      "query": 9.441700058232527e-05
+    }
+  },
+  "stopword": {
+    "query": "something that audrey often dresses up dogs",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c3fb82e2a1ab79e03385e8df4": 4,
+      "c6638c80290604d1907736234": 3
+    },
+    "top10_ids": [
+      "c83413649c8fad2a1b8e52c8e",
+      "c3453d0c71ec7bb9d355512c5",
+      "c6638c80290604d1907736234",
+      "c3fb82e2a1ab79e03385e8df4",
+      "c01d5f1bad856e63f2d259c53",
+      "c1a187e951f0e0254bb4fb0b4",
+      "c0cb5497315b5f692644d7a05",
+      "cb9ff4548964b6b623d512c73",
+      "c26d15cc1e49c4024420ad588",
+      "c733740442f3368cbe55fafe0"
+    ],
+    "seconds": {
+      "build": 0.018962042000566726,
+      "query": 0.0010619170006975764
+    }
+  }
+}

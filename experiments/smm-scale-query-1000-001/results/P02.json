@@ -1,0 +1,91 @@
+{
+  "id": "P02",
+  "cohort": "P25",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c4d5e76892eb66ee21cf151ae",
+    "ca3586c9f696b9c5035ebf62c"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c4d5e76892eb66ee21cf151ae": 1,
+      "ca3586c9f696b9c5035ebf62c": 2
+    }
+  },
+  "authored": {
+    "query": "egg eggs dozen refrigerator fridge stocked stock remaining",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c4d5e76892eb66ee21cf151ae": 1,
+      "ca3586c9f696b9c5035ebf62c": 2
+    },
+    "top10_ids": [
+      "c4d5e76892eb66ee21cf151ae",
+      "ca3586c9f696b9c5035ebf62c",
+      "cf9dd31701b7948c8d962f804",
+      "c356f0c2dbd40c74c42301ed9",
+      "c5438f5ccb002d0ffe27c25b6",
+      "c469d71e158a5a107693234b5",
+      "c654999d26cc711cb86b932b3",
+      "cf39f9271ef3621d6738f9c43",
+      "cf086a9ffc4a6219d587d529d",
+      "ca1a9bd372b0b055f19c55962"
+    ],
+    "seconds": {
+      "build": 0.10194037499968545,
+      "query": 0.0002855419998013531
+    }
+  },
+  "stopword": {
+    "query": "dozen eggs we currently stocked up refrigerator",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c4d5e76892eb66ee21cf151ae": 1,
+      "ca3586c9f696b9c5035ebf62c": 2
+    },
+    "top10_ids": [
+      "c4d5e76892eb66ee21cf151ae",
+      "ca3586c9f696b9c5035ebf62c",
+      "cc4006300f03372462eec3b14",
+      "c356f0c2dbd40c74c42301ed9",
+      "cf9dd31701b7948c8d962f804",
+      "cf39f9271ef3621d6738f9c43",
+      "cc8f38b550919d574bfccb02a",
+      "ca1a9bd372b0b055f19c55962",
+      "cfdcbe1b28d7ed598d6348517",
+      "c654999d26cc711cb86b932b3"
+    ],
+    "seconds": {
+      "build": 0.1001205000002301,
+      "query": 0.0007922090007923543
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "L010",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What was the social media activity I participated 5 days ago?",
+  "window": {
+    "start": "2023-03-14",
+    "end": "2023-03-16",
+    "rule": "days-weeks-ago"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_9793daa4_2": 380,
+      "answer_9793daa4_1": 18
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_9793daa4_2": 380,
+      "answer_9793daa4_1": 5
+    },
+    "top10_ids": [
+      "ultrachat_198743",
+      "869fe9ba_1",
+      "e552e1f9_1",
+      "sharegpt_RrdCPkt_0",
+      "answer_9793daa4_1",
+      "2b4eaee0_2",
+      "36359cba_5",
+      "be2db5c4",
+      "c5d3cb68",
+      "4143d359"
+    ]
+  },
+  "time_bonus_count_in_raw100": 37,
+  "query_seconds": 0.0016078329990705242,
+  "build_seconds": 0.047445000000152504
+}

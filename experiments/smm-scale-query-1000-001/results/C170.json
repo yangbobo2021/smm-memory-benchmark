@@ -1,0 +1,91 @@
+{
+  "id": "C170",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c0d207f826accc2103af0c748",
+    "c215909f3fabfafe9478350bc"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c0d207f826accc2103af0c748": 9,
+      "c215909f3fabfafe9478350bc": 6
+    }
+  },
+  "authored": {
+    "query": "Nate turtles turtle number pets",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c0d207f826accc2103af0c748": 7,
+      "c215909f3fabfafe9478350bc": 4
+    },
+    "top10_ids": [
+      "c64d29fbe2c5978bd0f958293",
+      "ceb718bcf22d200f70c765c34",
+      "c7650f704fe331b2566c673ed",
+      "c215909f3fabfafe9478350bc",
+      "c3db30b91cfd5336ac2ca41e7",
+      "c252c867151f0796efa1faff5",
+      "c0d207f826accc2103af0c748",
+      "c550d52159d739a56d10af4df",
+      "c5ebaffb14dc75e0d3fa27049",
+      "cd7200baf8de3fc86cfe5a18c"
+    ],
+    "seconds": {
+      "build": 0.01889858300000924,
+      "query": 0.00011270799950580113
+    }
+  },
+  "stopword": {
+    "query": "turtles nate",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c0d207f826accc2103af0c748": 8,
+      "c215909f3fabfafe9478350bc": 5
+    },
+    "top10_ids": [
+      "c252c867151f0796efa1faff5",
+      "ceb718bcf22d200f70c765c34",
+      "c550d52159d739a56d10af4df",
+      "c7650f704fe331b2566c673ed",
+      "c215909f3fabfafe9478350bc",
+      "c692649fbb4b965d78d95198a",
+      "c64d29fbe2c5978bd0f958293",
+      "c0d207f826accc2103af0c748",
+      "c3db30b91cfd5336ac2ca41e7",
+      "cd7200baf8de3fc86cfe5a18c"
+    ],
+    "seconds": {
+      "build": 0.018906708000031358,
+      "query": 6.508399928861763e-05
+    }
+  }
+}

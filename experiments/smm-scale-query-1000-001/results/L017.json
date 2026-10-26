@@ -1,0 +1,91 @@
+{
+  "id": "L017",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c674eb0b089941fe44f00f93e",
+    "ca4b5799253845a52543e67f5"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c674eb0b089941fe44f00f93e": 1,
+      "ca4b5799253845a52543e67f5": 3
+    }
+  },
+  "authored": {
+    "query": "laptop backpack bought ordered arrived delivered",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c674eb0b089941fe44f00f93e": 3,
+      "ca4b5799253845a52543e67f5": 2
+    },
+    "top10_ids": [
+      "c7bef847d8e86b66fed348de0",
+      "ca4b5799253845a52543e67f5",
+      "c674eb0b089941fe44f00f93e",
+      "ce25ffdade98c208ee2fef7de",
+      "ca4d56e2e56f6e9a43665cecb",
+      "ccc336051495650fd9042ec9c",
+      "c4d9ab816e588e894615037d6",
+      "c577aa3494790ecc194a1f8c5",
+      "c8fa0124798386697b4564f0c",
+      "cec48b8f4254437d0c01aba32"
+    ],
+    "seconds": {
+      "build": 0.1129242080005497,
+      "query": 0.00021570799981418531
+    }
+  },
+  "stopword": {
+    "query": "days take laptop backpack arrive after bought",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c674eb0b089941fe44f00f93e": 2,
+      "ca4b5799253845a52543e67f5": 3
+    },
+    "top10_ids": [
+      "c7bef847d8e86b66fed348de0",
+      "c674eb0b089941fe44f00f93e",
+      "ca4b5799253845a52543e67f5",
+      "c238bc5941d068c0224e7cd63",
+      "ca4d56e2e56f6e9a43665cecb",
+      "cec48b8f4254437d0c01aba32",
+      "c1bc8cd164f95e3cbb4d2b554",
+      "c4d9ab816e588e894615037d6",
+      "c826a5493618dfadaf11dde30",
+      "c9a5feef095908ac1d934a6b9"
+    ],
+    "seconds": {
+      "build": 0.11196804199971666,
+      "query": 0.0007501249992856174
+    }
+  }
+}

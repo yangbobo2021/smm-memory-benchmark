@@ -1,0 +1,54 @@
+{
+  "id": "P23",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_d97db962_1": 3,
+      "answer_d97db962_2": 1
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_d97db962_1": 3,
+      "answer_d97db962_2": 1
+    },
+    "top10_ids": [
+      "answer_d97db962_2",
+      "105e11c5_1",
+      "answer_d97db962_1",
+      "da3531f3_2",
+      "5b4d2438_2",
+      "92d7a0d2_2",
+      "ultrachat_257963",
+      "sharegpt_Z57GshY_0",
+      "20348a4d",
+      "8f6b938d_4"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.004378332998385304,
+  "build_seconds": 0.05005712500133086
+}

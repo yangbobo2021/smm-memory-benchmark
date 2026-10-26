@@ -1,0 +1,60 @@
+{
+  "id": "L031",
+  "cohort": "L32",
+  "type": "multi-session",
+  "question": "How many different museums or galleries did I visit in the month of February?",
+  "window": {
+    "start": "2023-02-01",
+    "end": "2023-02-28",
+    "rule": "named-month"
+  },
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "answer_990c8992_3": 3,
+      "answer_990c8992_2": 1,
+      "answer_990c8992_1": 2
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "answer_990c8992_3": 3,
+      "answer_990c8992_2": 1,
+      "answer_990c8992_1": 2
+    },
+    "top10_ids": [
+      "answer_990c8992_2",
+      "answer_990c8992_1",
+      "answer_990c8992_3",
+      "5a137e32",
+      "5150a4e9_1",
+      "ff0bb7fd_1",
+      "e22dcbfd",
+      "6dd3172f",
+      "e0956e0a_1",
+      "ultrachat_111552"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.002787041999908979,
+  "build_seconds": 0.049558875000002445
+}

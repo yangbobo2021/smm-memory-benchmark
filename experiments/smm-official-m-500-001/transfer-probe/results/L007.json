@@ -1,0 +1,152 @@
+{
+  "id": "L007",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What did I do with Rachel on the Wednesday two months ago?",
+  "queries": {
+    "authored": "Rachel Wednesday spent met together",
+    "stopword": "rachel wednesday two months ago"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_4bebc783_1": 16,
+        "answer_4bebc783_2": 149
+      },
+      "top10_ids": [
+        "3dc8ba5f_4",
+        "463f506b",
+        "97c06b59",
+        "641da543",
+        "3a1ea336_2",
+        "b91a6a1c_1",
+        "69d4a637",
+        "sharegpt_0xZLAfJ_0",
+        "9bcdc1ec_1",
+        "33a813dd_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_4bebc783_1": 24,
+        "answer_4bebc783_2": null
+      },
+      "top10_ids": [
+        "641da543",
+        "b91a6a1c_1",
+        "sharegpt_rQvDyca_0",
+        "5c6feb52",
+        "3a1ea336_2",
+        "91cd9c5c_1",
+        "7fe7b2f0",
+        "9bcdc1ec_1",
+        "sharegpt_0xZLAfJ_0",
+        "3dc8ba5f_4"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_4bebc783_1": 12,
+        "answer_4bebc783_2": null
+      },
+      "top10_ids": [
+        "463f506b",
+        "97c06b59",
+        "641da543",
+        "3a1ea336_2",
+        "3dc8ba5f_4",
+        "b91a6a1c_1",
+        "sharegpt_0xZLAfJ_0",
+        "9bcdc1ec_1",
+        "33a813dd_1",
+        "c5e9cbd8_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_4bebc783_1": 27,
+        "answer_4bebc783_2": 271
+      },
+      "top10_ids": [
+        "3a1ea336_2",
+        "463f506b",
+        "252715f8_4",
+        "69d4a637",
+        "7585ab02_2",
+        "641da543",
+        "b4025421",
+        "sharegpt_0xZLAfJ_0",
+        "8a72813f_3",
+        "2ec56e02"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_4bebc783_1": 17,
+        "answer_4bebc783_2": 196
+      },
+      "top10_ids": [
+        "463f506b",
+        "3a1ea336_2",
+        "641da543",
+        "69d4a637",
+        "3dc8ba5f_4",
+        "252715f8_4",
+        "sharegpt_0xZLAfJ_0",
+        "97c06b59",
+        "f4f4b504_1",
+        "8a72813f_3"
+      ]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "L012",
+  "cohort": "L32",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+  "reference_sources": [
+    "c072c351ab3aa6eec8a6955af",
+    "c1cade60a4bbe81bd3eda1e28",
+    "c4ee19cb432e3d2855768463a",
+    "c67954bf412a6fafd6aa0ae3f",
+    "c8ad7b16e5ed94383f80ae023"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c072c351ab3aa6eec8a6955af": 25,
+      "c1cade60a4bbe81bd3eda1e28": 6,
+      "c4ee19cb432e3d2855768463a": 7,
+      "c67954bf412a6fafd6aa0ae3f": 1,
+      "c8ad7b16e5ed94383f80ae023": 699
+    },
+    "top10_ids": [
+      "c67954bf412a6fafd6aa0ae3f",
+      "c6cbc6509cb70223b7d26e34b",
+      "c6ed40c5effa9e5e0c9c0ee85",
+      "ca9ec654e125b426954ce6e98",
+      "cb4ef204380df2253fe7b2d8b",
+      "c1cade60a4bbe81bd3eda1e28",
+      "c4ee19cb432e3d2855768463a",
+      "c6be869ca16913ec4ee055e8f",
+      "c3ed553e1cfd1d1efa25483da",
+      "c361a8295408439302401769a"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c072c351ab3aa6eec8a6955af": 70,
+      "c1cade60a4bbe81bd3eda1e28": 12,
+      "c4ee19cb432e3d2855768463a": 8,
+      "c67954bf412a6fafd6aa0ae3f": 1,
+      "c8ad7b16e5ed94383f80ae023": 340
+    },
+    "top10_ids": [
+      "c67954bf412a6fafd6aa0ae3f",
+      "cea87531d49b0265662e7c5ee",
+      "c6be869ca16913ec4ee055e8f",
+      "c23d472c2d44376998fc911fa",
+      "ca9ec654e125b426954ce6e98",
+      "ca194573bab838bc02a805cf8",
+      "cc0d6e722dbcec5ec58a63815",
+      "c4ee19cb432e3d2855768463a",
+      "c7270bd8db37ceb9162cc7ade",
+      "cb4ef204380df2253fe7b2d8b"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "selected_ids": [
+      "c67954bf412a6fafd6aa0ae3f",
+      "c6cbc6509cb70223b7d26e34b",
+      "c6ed40c5effa9e5e0c9c0ee85",
+      "ca9ec654e125b426954ce6e98",
+      "cb4ef204380df2253fe7b2d8b",
+      "cea87531d49b0265662e7c5ee",
+      "c6be869ca16913ec4ee055e8f",
+      "c23d472c2d44376998fc911fa",
+      "c1cade60a4bbe81bd3eda1e28",
+      "c4ee19cb432e3d2855768463a"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.1062525409997761,
+    "raw_query": 0.007780792000630754,
+    "user_build": 0.013708833999771741,
+    "user_query": 0.0023162500001490116
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "L022",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+  "queries": {
+    "authored": "competition investment bought purchased",
+    "stopword": "mentioned investment competition four weeks ago buy"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_88841f27_1": 24,
+        "answer_88841f27_2": 114
+      },
+      "top10_ids": [
+        "sharegpt_2TXa4rw_0",
+        "ultrachat_93240",
+        "7f021fbd_1",
+        "b9e0c58b_2",
+        "7ae303b7_2",
+        "ultrachat_387027",
+        "990f3ef9_5",
+        "8c93baa7",
+        "2c1e886b_1",
+        "2e53911b_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_88841f27_1": 17,
+        "answer_88841f27_2": 36
+      },
+      "top10_ids": [
+        "sharegpt_SDqPQKf_0",
+        "d7cffd42_1",
+        "sharegpt_BbIiAwE_15",
+        "4f29941e_2",
+        "2e53911b_1",
+        "cd6be104_1",
+        "8e3887c3_2",
+        "ultrachat_94545",
+        "014a5d36",
+        "4464626e_4"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_88841f27_1": 18,
+        "answer_88841f27_2": 94
+      },
+      "top10_ids": [
+        "ultrachat_93240",
+        "sharegpt_2TXa4rw_0",
+        "7f021fbd_1",
+        "b9e0c58b_2",
+        "7ae303b7_2",
+        "ultrachat_387027",
+        "8c93baa7",
+        "2c1e886b_1",
+        "2e53911b_1",
+        "58e5adf2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_88841f27_1": 7,
+        "answer_88841f27_2": 28
+      },
+      "top10_ids": [
+        "sharegpt_XdObypG_5",
+        "sharegpt_sj5ZvVB_0",
+        "f0d946f3_1",
+        "sharegpt_SDqPQKf_0",
+        "990f3ef9_5",
+        "55cf4ce0_1",
+        "answer_88841f27_1",
+        "f27e27f9_3",
+        "b9e0c58b_2",
+        "7f021fbd_1"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_88841f27_1": 8,
+        "answer_88841f27_2": 51
+      },
+      "top10_ids": [
+        "990f3ef9_5",
+        "7f021fbd_1",
+        "b9e0c58b_2",
+        "7ae303b7_2",
+        "sharegpt_sj5ZvVB_0",
+        "cf812455",
+        "f0d946f3_1",
+        "answer_88841f27_1",
+        "2e53911b_1",
+        "sharegpt_2TXa4rw_0"
+      ]
+    }
+  }
+}

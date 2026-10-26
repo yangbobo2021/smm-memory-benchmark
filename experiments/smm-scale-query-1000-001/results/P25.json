@@ -1,0 +1,91 @@
+{
+  "id": "P25",
+  "cohort": "P25",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c1093bf2c8cd861890c957c5c",
+    "cfb475330aad6b2360694d630"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c1093bf2c8cd861890c957c5c": 3,
+      "cfb475330aad6b2360694d630": 17
+    }
+  },
+  "authored": {
+    "query": "wake waking up Tuesdays Thursdays Tuesday Thursday schedule",
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c1093bf2c8cd861890c957c5c": 7,
+      "cfb475330aad6b2360694d630": 31
+    },
+    "top10_ids": [
+      "c84d39d59ff97378681e84cb0",
+      "cb71f0264fe0eaafc9d3a17f2",
+      "c1a73bef6e02c1339adff8f8f",
+      "c8859e9ecc1df53dd1de999a0",
+      "c745d8270059d1a4d002cd60e",
+      "c09ba5310fc852c676aaa48f0",
+      "c1093bf2c8cd861890c957c5c",
+      "c34c038d853f4dffba4cba186",
+      "c37c81488376797b50e7f57d6",
+      "cbcd053731bc8056f8a8af43c"
+    ],
+    "seconds": {
+      "build": 0.11328104099993652,
+      "query": 0.0007105419999788865
+    }
+  },
+  "stopword": {
+    "query": "time wake up tuesdays thursdays",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c1093bf2c8cd861890c957c5c": 3,
+      "cfb475330aad6b2360694d630": 17
+    },
+    "top10_ids": [
+      "c84d39d59ff97378681e84cb0",
+      "c745d8270059d1a4d002cd60e",
+      "c1093bf2c8cd861890c957c5c",
+      "cb085d2aab287750bf4ff6afe",
+      "c95bc11382eb90959002d1849",
+      "cb71f0264fe0eaafc9d3a17f2",
+      "c8859e9ecc1df53dd1de999a0",
+      "c414c564929b0d01f4a7351df",
+      "c33d171a50faba4d23cf9ed9f",
+      "c1a73bef6e02c1339adff8f8f"
+    ],
+    "seconds": {
+      "build": 0.11180400000012014,
+      "query": 0.0008706250000614091
+    }
+  }
+}

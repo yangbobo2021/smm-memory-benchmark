@@ -1,0 +1,152 @@
+{
+  "id": "L016",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "Which bike did I fixed or serviced the past weekend?",
+  "queries": {
+    "authored": "bike bicycle fixed fix serviced service weekend",
+    "stopword": "bike fixed serviced past weekend"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_e28c1f0e_1": 1,
+        "answer_e28c1f0e_2": 18
+      },
+      "top10_ids": [
+        "answer_e28c1f0e_1",
+        "abc2ac45",
+        "fc69fd44_1",
+        "dfd4e4b7_2",
+        "1644e9cb",
+        "d3a29930",
+        "f03ee850_2",
+        "95efb7b4_2",
+        "c07b8034",
+        "2a9fd063_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_e28c1f0e_1": 1,
+        "answer_e28c1f0e_2": 17
+      },
+      "top10_ids": [
+        "answer_e28c1f0e_1",
+        "101d61e9_1",
+        "f03ee850_2",
+        "15519944_2",
+        "dfd4e4b7_2",
+        "e1b8999c_2",
+        "abc2ac45",
+        "fc69fd44_1",
+        "33994682_1",
+        "95efb7b4_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_e28c1f0e_1": 1,
+        "answer_e28c1f0e_2": 16
+      },
+      "top10_ids": [
+        "answer_e28c1f0e_1",
+        "abc2ac45",
+        "fc69fd44_1",
+        "f03ee850_2",
+        "dfd4e4b7_2",
+        "95efb7b4_2",
+        "c07b8034",
+        "1644e9cb",
+        "33994682_1",
+        "15519944_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e28c1f0e_1": 1,
+        "answer_e28c1f0e_2": 5
+      },
+      "top10_ids": [
+        "answer_e28c1f0e_1",
+        "abc2ac45",
+        "201d188a_4",
+        "f03ee850_2",
+        "answer_e28c1f0e_2",
+        "602ad002_2",
+        "64042965",
+        "c07b8034",
+        "95efb7b4_2",
+        "15519944_2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e28c1f0e_1": 1,
+        "answer_e28c1f0e_2": 9
+      },
+      "top10_ids": [
+        "answer_e28c1f0e_1",
+        "abc2ac45",
+        "f03ee850_2",
+        "95efb7b4_2",
+        "c07b8034",
+        "602ad002_2",
+        "201d188a_4",
+        "1644e9cb",
+        "answer_e28c1f0e_2",
+        "15519944_2"
+      ]
+    }
+  }
+}

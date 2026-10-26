@@ -1,0 +1,147 @@
+{
+  "id": "P13",
+  "cohort": "P25",
+  "type": "single-session-assistant",
+  "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+  "queries": {
+    "authored": "Chiefs Jaguars Arrowhead Stadium played games",
+    "stopword": "looking back previous chat wanted confirm times chiefs play jaguars arrowhead stadium"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_i9adwQn_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_i9adwQn_0",
+        "sharegpt_XBxKO5a_0",
+        "37b0482e_5",
+        "62b40a05_1",
+        "sharegpt_mLAFFUX_25",
+        "sharegpt_keHFRpf_0",
+        "a35679d5_4",
+        "1a82c794_1",
+        "81ff1eaa",
+        "sharegpt_Dvjs4NK_19"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_i9adwQn_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_i9adwQn_0",
+        "62b40a05_1",
+        "ultrachat_216470",
+        "ultrachat_159064",
+        "sharegpt_W6k69IL_9",
+        "ultrachat_324335",
+        "e426d9ac",
+        "145b8037_1",
+        "83fb74bf_3",
+        "5944b36a_3"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_i9adwQn_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_i9adwQn_0",
+        "sharegpt_XBxKO5a_0",
+        "62b40a05_1",
+        "37b0482e_5",
+        "7d5df0e4",
+        "1828fa6b",
+        "6b80ce8d_1",
+        "312bf939",
+        "sharegpt_mLAFFUX_25",
+        "a35679d5_4"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_i9adwQn_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_i9adwQn_0",
+        "62b40a05_1",
+        "ultrachat_257963",
+        "1828fa6b",
+        "37b0482e_5",
+        "3791e1ac",
+        "6551be60_2",
+        "ultrachat_221349",
+        "3abb8d8a_2",
+        "4925dffe_2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_i9adwQn_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_i9adwQn_0",
+        "62b40a05_1",
+        "37b0482e_5",
+        "6551be60_2",
+        "1828fa6b",
+        "1a82c794_1",
+        "sharegpt_XBxKO5a_0",
+        "ultrachat_257963",
+        "a35679d5_4",
+        "81ff1eaa"
+      ]
+    }
+  }
+}

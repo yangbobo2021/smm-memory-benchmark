@@ -1,0 +1,91 @@
+{
+  "id": "C075",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c373840166141e9b586ef7866",
+    "cf90f45bb6f014750a14041dc"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c373840166141e9b586ef7866": 1,
+      "cf90f45bb6f014750a14041dc": 3
+    }
+  },
+  "authored": {
+    "query": "Jon Gina business businesses passion love",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c373840166141e9b586ef7866": 4,
+      "cf90f45bb6f014750a14041dc": 18
+    },
+    "top10_ids": [
+      "c780bc24135b6b97b373811c4",
+      "c6b3a3d8807f81d16f165f6f7",
+      "c720049e6bb5892226d5c4c94",
+      "c373840166141e9b586ef7866",
+      "cb7dcd9a40047f36005366699",
+      "c1e820ecc40269ca06cd57f52",
+      "c5e499f3f44b2b99dfa1e6936",
+      "c053959005c44b8e1c4bc4d68",
+      "c3d99bc9a646cbf0bf1ad99e7",
+      "cf4d692d08f9e8ab716341940"
+    ],
+    "seconds": {
+      "build": 0.018649999999979627,
+      "query": 0.00045245799992699176
+    }
+  },
+  "stopword": {
+    "query": "jon gina start businesses out love",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c373840166141e9b586ef7866": 3,
+      "cf90f45bb6f014750a14041dc": 2
+    },
+    "top10_ids": [
+      "c9aff67e0ada07c3fa33c5c13",
+      "cf90f45bb6f014750a14041dc",
+      "c373840166141e9b586ef7866",
+      "c720049e6bb5892226d5c4c94",
+      "c7b81de162b16c76746562aa9",
+      "c70fc90df7fdacfbf0da310b2",
+      "c3d99bc9a646cbf0bf1ad99e7",
+      "c5e499f3f44b2b99dfa1e6936",
+      "c780bc24135b6b97b373811c4",
+      "c6b3a3d8807f81d16f165f6f7"
+    ],
+    "seconds": {
+      "build": 0.01877187500031141,
+      "query": 0.0007687080005780444
+    }
+  }
+}

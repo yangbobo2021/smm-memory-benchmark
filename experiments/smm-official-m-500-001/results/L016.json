@@ -1,0 +1,72 @@
+{
+  "id": "L016",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "Which bike did I fixed or serviced the past weekend?",
+  "official_question_id": "gpt4_e414231f",
+  "official_m_count": 475,
+  "official_m_occurrences": 478,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 46,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_e28c1f0e_1": 1,
+      "answer_e28c1f0e_2": 18
+    },
+    "top10_ids": [
+      "answer_e28c1f0e_1",
+      "abc2ac45",
+      "fc69fd44_1",
+      "dfd4e4b7_2",
+      "1644e9cb",
+      "d3a29930",
+      "f03ee850_2",
+      "95efb7b4_2",
+      "c07b8034",
+      "2a9fd063_2"
+    ],
+    "build_seconds": 0.04677704200003063,
+    "query_seconds": 0.001335709001068608
+  }
+}

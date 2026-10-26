@@ -1,0 +1,9 @@
+{
+  "id": "SMM-M-DUAL-001",
+  "status": "post-hoc M analysis; identical ordering previously frozen in SMM-DUAL-VIEW-1000-001",
+  "mixed1000_protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "transfer_protocol_sha256": "142c7a0abfebbe94c66b65796b53831265b6abd65f002848755a733c94c902a6",
+  "ordering": "whole Top5 then USER-only Top5, deduplicated, then remaining whole rank until 10 sources",
+  "primary_metric": "all official reference source IDs in selected ten; not answer correctness",
+  "caveat": "M had already been inspected before this combination was proposed; not blind independent validation"
+}

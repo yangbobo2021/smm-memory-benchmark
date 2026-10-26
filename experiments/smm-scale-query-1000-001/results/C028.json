@@ -1,0 +1,95 @@
+{
+  "id": "C028",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c18c87e5c3df2b81e03dabf48",
+    "c4879bb338dce6b57124fe1e7",
+    "cc5c2e2cd0f284232e160c1db"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c18c87e5c3df2b81e03dabf48": 5,
+      "c4879bb338dce6b57124fe1e7": 19,
+      "cc5c2e2cd0f284232e160c1db": 21
+    }
+  },
+  "authored": {
+    "query": "Andrew dogs dog pets number",
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "c18c87e5c3df2b81e03dabf48": 12,
+      "c4879bb338dce6b57124fe1e7": 14,
+      "cc5c2e2cd0f284232e160c1db": 16
+    },
+    "top10_ids": [
+      "c0c938fedefd07da628c20135",
+      "c3453d0c71ec7bb9d355512c5",
+      "c6638c80290604d1907736234",
+      "c83413649c8fad2a1b8e52c8e",
+      "cde7ef43a3a69da3551b22e08",
+      "c26d15cc1e49c4024420ad588",
+      "c0cb5497315b5f692644d7a05",
+      "cdc4a081215673c3d5558c1fa",
+      "cb9ff4548964b6b623d512c73",
+      "c733740442f3368cbe55fafe0"
+    ],
+    "seconds": {
+      "build": 0.018602915999508696,
+      "query": 0.00013783299982605968
+    }
+  },
+  "stopword": {
+    "query": "dogs andrew",
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "c18c87e5c3df2b81e03dabf48": 12,
+      "c4879bb338dce6b57124fe1e7": 19,
+      "cc5c2e2cd0f284232e160c1db": 21
+    },
+    "top10_ids": [
+      "c1a187e951f0e0254bb4fb0b4",
+      "c83413649c8fad2a1b8e52c8e",
+      "c0cb5497315b5f692644d7a05",
+      "c6638c80290604d1907736234",
+      "cb9ff4548964b6b623d512c73",
+      "c733740442f3368cbe55fafe0",
+      "c26d15cc1e49c4024420ad588",
+      "cde7ef43a3a69da3551b22e08",
+      "c0c938fedefd07da628c20135",
+      "c3453d0c71ec7bb9d355512c5"
+    ],
+    "seconds": {
+      "build": 0.018565875000604137,
+      "query": 6.904200017743278e-05
+    }
+  }
+}

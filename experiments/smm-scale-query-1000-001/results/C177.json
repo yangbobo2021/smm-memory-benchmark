@@ -1,0 +1,91 @@
+{
+  "id": "C177",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c15f1f0bec3d2fcc4fc6182e7",
+    "cd7a2460e9ca2bf5d0b2a2f45"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c15f1f0bec3d2fcc4fc6182e7": 9,
+      "cd7a2460e9ca2bf5d0b2a2f45": 1
+    }
+  },
+  "authored": {
+    "query": "Joanna Nate book books recommendations",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c15f1f0bec3d2fcc4fc6182e7": 19,
+      "cd7a2460e9ca2bf5d0b2a2f45": 1
+    },
+    "top10_ids": [
+      "cd7a2460e9ca2bf5d0b2a2f45",
+      "c5ea4f0b3ae443ab3b179ee77",
+      "cd993c95f02adc9fa056b4c58",
+      "c958260cbfa883012f04435f1",
+      "c35d111897b19242ca312ec88",
+      "c0d207f826accc2103af0c748",
+      "c640fd1be1d60cc9de8c5d4c6",
+      "c4a2aceb41fa876f48dd4892b",
+      "c19e0760480af1c4e5fc7a26b",
+      "c3db30b91cfd5336ac2ca41e7"
+    ],
+    "seconds": {
+      "build": 0.018701958000747254,
+      "query": 0.0001702919998933794
+    }
+  },
+  "stopword": {
+    "query": "book recommendations joanna given nate",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c15f1f0bec3d2fcc4fc6182e7": 17,
+      "cd7a2460e9ca2bf5d0b2a2f45": 1
+    },
+    "top10_ids": [
+      "cd7a2460e9ca2bf5d0b2a2f45",
+      "c958260cbfa883012f04435f1",
+      "c5ea4f0b3ae443ab3b179ee77",
+      "cd993c95f02adc9fa056b4c58",
+      "c35d111897b19242ca312ec88",
+      "c19e0760480af1c4e5fc7a26b",
+      "c4a2aceb41fa876f48dd4892b",
+      "c3db30b91cfd5336ac2ca41e7",
+      "cf439ed341a740dc313e752f9",
+      "ca9f7fefaaf9fbd0ea335569d"
+    ],
+    "seconds": {
+      "build": 0.018351417000303627,
+      "query": 0.00017691599987301743
+    }
+  }
+}

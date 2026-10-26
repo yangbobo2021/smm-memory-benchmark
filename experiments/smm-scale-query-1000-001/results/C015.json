@@ -1,0 +1,87 @@
+{
+  "id": "C015",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "cbb1f5f9f502548db83571781"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cbb1f5f9f502548db83571781": 1
+    }
+  },
+  "authored": {
+    "query": "Evan live lives beach mountains nearby",
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cbb1f5f9f502548db83571781": 7
+    },
+    "top10_ids": [
+      "c07561544ce4905b370f05a64",
+      "cf9d2cb3717128b0afe4b3b73",
+      "cfdb086509e9507eb56336975",
+      "ceb46e757307c69f8dadac445",
+      "cf759389a4295787695124229",
+      "cd387b85982a45e4f67498a15",
+      "cbb1f5f9f502548db83571781",
+      "c69ba3d6f08c60322fc11b618",
+      "cbafb868a8fff7fe7c9d71bd3",
+      "cfa66ef0902b96e0b34cb56f8"
+    ],
+    "seconds": {
+      "build": 0.01846704200033855,
+      "query": 0.00020229099936841521
+    }
+  },
+  "stopword": {
+    "query": "evan live close beach mountains",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cbb1f5f9f502548db83571781": 1
+    },
+    "top10_ids": [
+      "cbb1f5f9f502548db83571781",
+      "cfdb086509e9507eb56336975",
+      "ceb46e757307c69f8dadac445",
+      "cf9d2cb3717128b0afe4b3b73",
+      "c07561544ce4905b370f05a64",
+      "c307fa733602b5c35078e8b1c",
+      "cd387b85982a45e4f67498a15",
+      "cbafb868a8fff7fe7c9d71bd3",
+      "c1a8a7bafb176afe97c2f6f73",
+      "c176d5ff52917b2bf853bccc7"
+    ],
+    "seconds": {
+      "build": 0.01865616599934583,
+      "query": 0.0001769579994288506
+    }
+  }
+}

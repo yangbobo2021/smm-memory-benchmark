@@ -1,0 +1,91 @@
+{
+  "id": "L016",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c4c81e62277f847ae7773eaf3",
+    "cfe237583d5c800082d9816b2"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c4c81e62277f847ae7773eaf3": 23,
+      "cfe237583d5c800082d9816b2": 2
+    }
+  },
+  "authored": {
+    "query": "bike bicycle fixed fix serviced service weekend",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c4c81e62277f847ae7773eaf3": 25,
+      "cfe237583d5c800082d9816b2": 3
+    },
+    "top10_ids": [
+      "ccda5814632a174d4f8a6abf4",
+      "ce3ec41b36ca51e41d513c96b",
+      "cfe237583d5c800082d9816b2",
+      "c5a95f1fbc90dedde60168a1b",
+      "cf283691982e5c14b9adb5a49",
+      "cdfeb5d9b5297a62fd0054af3",
+      "cfc3eed20457138075eeda5d7",
+      "c1c57244c005330bffb259a83",
+      "c08743598caacd8e19e2d0033",
+      "c22f886556611f0ca62ec6147"
+    ],
+    "seconds": {
+      "build": 0.10496333299943217,
+      "query": 0.0003995419992861571
+    }
+  },
+  "stopword": {
+    "query": "bike fixed serviced past weekend",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c4c81e62277f847ae7773eaf3": 16,
+      "cfe237583d5c800082d9816b2": 2
+    },
+    "top10_ids": [
+      "ccda5814632a174d4f8a6abf4",
+      "cfe237583d5c800082d9816b2",
+      "c08743598caacd8e19e2d0033",
+      "c2d7ab406095178340da2191c",
+      "c5a95f1fbc90dedde60168a1b",
+      "c5d89cfa36afe5717d669a49d",
+      "cccd881afd95af45e4a53b827",
+      "c22f1e6dcb68a86bde06e976e",
+      "c6cb58c1e3234c844b84662d3",
+      "cdfeb5d9b5297a62fd0054af3"
+    ],
+    "seconds": {
+      "build": 0.10540695899999264,
+      "query": 0.0003282090001448523
+    }
+  }
+}

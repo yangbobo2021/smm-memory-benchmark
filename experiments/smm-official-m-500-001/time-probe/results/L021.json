@@ -1,0 +1,54 @@
+{
+  "id": "L021",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_70dc7d08_2": 1,
+      "answer_70dc7d08_1": 5
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_70dc7d08_2": 1,
+      "answer_70dc7d08_1": 5
+    },
+    "top10_ids": [
+      "answer_70dc7d08_2",
+      "297dd605",
+      "f46ff026",
+      "ccaf07c8_1",
+      "answer_70dc7d08_1",
+      "66632aa7_2",
+      "58088b78_1",
+      "4c9b5760_1",
+      "211cfbc3_1",
+      "47e1f8dd_3"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.0016007080012059305,
+  "build_seconds": 0.049479374998554704
+}

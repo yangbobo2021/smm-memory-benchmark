@@ -1,0 +1,282 @@
+{
+  "id": "SMM-SCALE-QUERY-1000-001",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "by_cohort": {
+    "P25": {
+      "questions": 25,
+      "raw": {
+        "top5": {
+          "all": 18,
+          "any": 24,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 19,
+          "any": 24,
+          "reference_hits": 37
+        }
+      },
+      "authored": {
+        "top5": {
+          "all": 19,
+          "any": 23,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 20,
+          "any": 24,
+          "reference_hits": 38
+        },
+        "paired_top5": {
+          "gains": [
+            "P07",
+            "P20"
+          ],
+          "losses": [
+            "P24"
+          ]
+        },
+        "query_seconds_median": 0.00040954199994303053
+      },
+      "stopword": {
+        "top5": {
+          "all": 18,
+          "any": 24,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 19,
+          "any": 24,
+          "reference_hits": 37
+        },
+        "paired_top5": {
+          "gains": [],
+          "losses": []
+        },
+        "query_seconds_median": 0.0006991250002101879
+      }
+    },
+    "L32": {
+      "questions": 32,
+      "raw": {
+        "top5": {
+          "all": 15,
+          "any": 22,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 16,
+          "any": 24,
+          "reference_hits": 42
+        }
+      },
+      "authored": {
+        "top5": {
+          "all": 13,
+          "any": 22,
+          "reference_hits": 37
+        },
+        "top10": {
+          "all": 18,
+          "any": 25,
+          "reference_hits": 46
+        },
+        "paired_top5": {
+          "gains": [
+            "L021"
+          ],
+          "losses": [
+            "L001",
+            "L002",
+            "L019"
+          ]
+        },
+        "query_seconds_median": 0.0003676874998745916
+      },
+      "stopword": {
+        "top5": {
+          "all": 15,
+          "any": 22,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 17,
+          "any": 24,
+          "reference_hits": 43
+        },
+        "paired_top5": {
+          "gains": [],
+          "losses": []
+        },
+        "query_seconds_median": 0.0006976459999350482
+      }
+    },
+    "C200": {
+      "questions": 200,
+      "raw": {
+        "top5": {
+          "all": 156,
+          "any": 177,
+          "reference_hits": 190
+        },
+        "top10": {
+          "all": 173,
+          "any": 188,
+          "reference_hits": 219
+        }
+      },
+      "authored": {
+        "top5": {
+          "all": 157,
+          "any": 180,
+          "reference_hits": 197
+        },
+        "top10": {
+          "all": 173,
+          "any": 190,
+          "reference_hits": 220
+        },
+        "paired_top5": {
+          "gains": [
+            "C005",
+            "C035",
+            "C037",
+            "C092",
+            "C119",
+            "C137",
+            "C158",
+            "C168",
+            "C174",
+            "C183"
+          ],
+          "losses": [
+            "C008",
+            "C015",
+            "C059",
+            "C075",
+            "C094",
+            "C120",
+            "C135",
+            "C180",
+            "C186"
+          ]
+        },
+        "query_seconds_median": 0.00021943799993096036
+      },
+      "stopword": {
+        "top5": {
+          "all": 162,
+          "any": 182,
+          "reference_hits": 198
+        },
+        "top10": {
+          "all": 171,
+          "any": 189,
+          "reference_hits": 219
+        },
+        "paired_top5": {
+          "gains": [
+            "C005",
+            "C092",
+            "C137",
+            "C149",
+            "C168",
+            "C172",
+            "C191"
+          ],
+          "losses": [
+            "C186"
+          ]
+        },
+        "query_seconds_median": 0.0004356670001470775
+      }
+    },
+    "all257": {
+      "questions": 257,
+      "raw": {
+        "top5": {
+          "all": 189,
+          "any": 223,
+          "reference_hits": 262
+        },
+        "top10": {
+          "all": 208,
+          "any": 236,
+          "reference_hits": 298
+        }
+      },
+      "authored": {
+        "top5": {
+          "all": 189,
+          "any": 225,
+          "reference_hits": 270
+        },
+        "top10": {
+          "all": 211,
+          "any": 239,
+          "reference_hits": 304
+        },
+        "paired_top5": {
+          "gains": [
+            "P07",
+            "P20",
+            "L021",
+            "C005",
+            "C035",
+            "C037",
+            "C092",
+            "C119",
+            "C137",
+            "C158",
+            "C168",
+            "C174",
+            "C183"
+          ],
+          "losses": [
+            "P24",
+            "L001",
+            "L002",
+            "L019",
+            "C008",
+            "C015",
+            "C059",
+            "C075",
+            "C094",
+            "C120",
+            "C135",
+            "C180",
+            "C186"
+          ]
+        },
+        "query_seconds_median": 0.0002472079995641252
+      },
+      "stopword": {
+        "top5": {
+          "all": 195,
+          "any": 228,
+          "reference_hits": 270
+        },
+        "top10": {
+          "all": 207,
+          "any": 237,
+          "reference_hits": 299
+        },
+        "paired_top5": {
+          "gains": [
+            "C005",
+            "C092",
+            "C137",
+            "C149",
+            "C168",
+            "C172",
+            "C191"
+          ],
+          "losses": [
+            "C186"
+          ]
+        },
+        "query_seconds_median": 0.00047970900050131604
+      }
+    }
+  }
+}

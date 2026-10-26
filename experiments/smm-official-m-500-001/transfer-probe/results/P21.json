@@ -1,0 +1,157 @@
+{
+  "id": "P21",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+  "queries": {
+    "authored": "Emma Rachel Alex graduated graduation",
+    "stopword": "graduated first second third among emma rachel alex"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_cf021b36_1": 4,
+        "answer_cf021b36_2": 1,
+        "answer_cf021b36_3": 5
+      },
+      "top10_ids": [
+        "answer_cf021b36_2",
+        "f10e6d2c_3",
+        "sharegpt_hUAh1Tu_0",
+        "answer_cf021b36_1",
+        "answer_cf021b36_3",
+        "a402a59e_4",
+        "sharegpt_OC3Flsx_29",
+        "fd1bbf43_2",
+        "9d0f4bfa_1",
+        "ad361482_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_cf021b36_1": 2,
+        "answer_cf021b36_2": 1,
+        "answer_cf021b36_3": 3
+      },
+      "top10_ids": [
+        "answer_cf021b36_2",
+        "answer_cf021b36_1",
+        "answer_cf021b36_3",
+        "f10e6d2c_3",
+        "fd1bbf43_2",
+        "sharegpt_OC3Flsx_29",
+        "sharegpt_OC3Flsx_33",
+        "ultrachat_134997",
+        "sharegpt_ixhnAlG_0",
+        "a402a59e_4"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_cf021b36_1": 4,
+        "answer_cf021b36_2": 1,
+        "answer_cf021b36_3": 5
+      },
+      "top10_ids": [
+        "answer_cf021b36_2",
+        "f10e6d2c_3",
+        "sharegpt_hUAh1Tu_0",
+        "answer_cf021b36_1",
+        "answer_cf021b36_3",
+        "a402a59e_4",
+        "sharegpt_OC3Flsx_29",
+        "fd1bbf43_2",
+        "9d0f4bfa_1",
+        "ad361482_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_cf021b36_1": 3,
+        "answer_cf021b36_2": 6,
+        "answer_cf021b36_3": 2
+      },
+      "top10_ids": [
+        "f10e6d2c_3",
+        "answer_cf021b36_3",
+        "answer_cf021b36_1",
+        "sharegpt_OC3Flsx_29",
+        "sharegpt_t4KkJh2_27",
+        "answer_cf021b36_2",
+        "ultrachat_288660",
+        "ultrachat_107028",
+        "sharegpt_f2d3dLt_89",
+        "a402a59e_4"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_cf021b36_1": 4,
+        "answer_cf021b36_2": 2,
+        "answer_cf021b36_3": 3
+      },
+      "top10_ids": [
+        "f10e6d2c_3",
+        "answer_cf021b36_2",
+        "answer_cf021b36_3",
+        "answer_cf021b36_1",
+        "sharegpt_OC3Flsx_29",
+        "sharegpt_hUAh1Tu_0",
+        "a402a59e_4",
+        "sharegpt_t4KkJh2_27",
+        "ad361482_1",
+        "fd1bbf43_2"
+      ]
+    }
+  }
+}

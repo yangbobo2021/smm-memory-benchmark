@@ -1,0 +1,91 @@
+{
+  "id": "C180",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "cd387b85982a45e4f67498a15",
+    "ceb46e757307c69f8dadac445"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "cd387b85982a45e4f67498a15": 3,
+      "ceb46e757307c69f8dadac445": 4
+    }
+  },
+  "authored": {
+    "query": "Sam grocery store recurring problem frustrated",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cd387b85982a45e4f67498a15": 20,
+      "ceb46e757307c69f8dadac445": 3
+    },
+    "top10_ids": [
+      "c8b39ab3ed8428d688548cf45",
+      "cf9d2cb3717128b0afe4b3b73",
+      "ceb46e757307c69f8dadac445",
+      "ccafce1d6937f4959c8cd9d9c1",
+      "c2f12dc07f25a1e218993ed1f",
+      "cc5a5a0ad0d90408bec63f43a7",
+      "c176d5ff52917b2bf853bccc7",
+      "cfdb086509e9507eb56336975",
+      "ccc2c0630b32365090336d7bc9",
+      "cc0826d1b9e9187444b1a002a5"
+    ],
+    "seconds": {
+      "build": 0.018332292000195594,
+      "query": 0.00029187499967520125
+    }
+  },
+  "stopword": {
+    "query": "recurring issue frustrates sam grocery store",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "cd387b85982a45e4f67498a15": 3,
+      "ceb46e757307c69f8dadac445": 4
+    },
+    "top10_ids": [
+      "c8b39ab3ed8428d688548cf45",
+      "cf9d2cb3717128b0afe4b3b73",
+      "cd387b85982a45e4f67498a15",
+      "ceb46e757307c69f8dadac445",
+      "cc2338e6960de8c4e604b10a39",
+      "ccafce1d6937f4959c8cd9d9c1",
+      "cc5a5a0ad0d90408bec63f43a7",
+      "ccc2c0630b32365090336d7bc9",
+      "cf759389a4295787695124229",
+      "c1a8a7bafb176afe97c2f6f73"
+    ],
+    "seconds": {
+      "build": 0.01848100000006525,
+      "query": 0.0001535419996798737
+    }
+  }
+}

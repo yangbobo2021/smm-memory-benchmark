@@ -1,0 +1,91 @@
+{
+  "id": "C183",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c9a36cb26aa1414002481a5a0",
+    "cdcb853bbc4a23a1e717ce345"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c9a36cb26aa1414002481a5a0": 6,
+      "cdcb853bbc4a23a1e717ce345": 64
+    }
+  },
+  "authored": {
+    "query": "John ankle injured injury times",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c9a36cb26aa1414002481a5a0": 3,
+      "cdcb853bbc4a23a1e717ce345": 1
+    },
+    "top10_ids": [
+      "cdcb853bbc4a23a1e717ce345",
+      "cce1a040f5336b479999fff27d",
+      "c9a36cb26aa1414002481a5a0",
+      "c08a011985f84a3d80171942f",
+      "c7f5fa84a9e9f6afef6a69e20",
+      "cd9944926501b1f68d99a3145",
+      "cd425d807a35f285bf4b564a7",
+      "cdb32d4e02e86afde290dcfbb",
+      "ccf33297175f053c52668c6a4",
+      "cd9304f979d55f8bfb6b4386c"
+    ],
+    "seconds": {
+      "build": 0.018666207999558537,
+      "query": 0.00023525000051449751
+    }
+  },
+  "stopword": {
+    "query": "times john injured ankle",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c9a36cb26aa1414002481a5a0": 3,
+      "cdcb853bbc4a23a1e717ce345": 83
+    },
+    "top10_ids": [
+      "cce1a040f5336b479999fff27d",
+      "c08a011985f84a3d80171942f",
+      "c9a36cb26aa1414002481a5a0",
+      "c7f5fa84a9e9f6afef6a69e20",
+      "cd9944926501b1f68d99a3145",
+      "cd425d807a35f285bf4b564a7",
+      "cdb32d4e02e86afde290dcfbb",
+      "ccf33297175f053c52668c6a4",
+      "cd9304f979d55f8bfb6b4386c",
+      "c139f4b845ec357142b7b3b56"
+    ],
+    "seconds": {
+      "build": 0.01881016700008331,
+      "query": 0.00023020799926598556
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "L028",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "Who did I meet with during the lunch last Tuesday?",
+  "queries": {
+    "authored": "lunch Tuesday met person",
+    "stopword": "meet during lunch last tuesday"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_9b09d95b_1": 65
+      },
+      "top10_ids": [
+        "a4979053",
+        "398f23e7",
+        "c37d1365_1",
+        "b369d8e1",
+        "dd25eeb5_1",
+        "4b29957c_1",
+        "2c31d8be_3",
+        "785bd3f5",
+        "137e6e58",
+        "481459ad_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_9b09d95b_1": 88
+      },
+      "top10_ids": [
+        "a4979053",
+        "137e6e58",
+        "e60a93ff_1",
+        "398f23e7",
+        "c37d1365_1",
+        "93cc59e5_1",
+        "286aa281_4",
+        "dd25eeb5_1",
+        "4b29957c_1",
+        "f6fc674e"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_9b09d95b_1": 54
+      },
+      "top10_ids": [
+        "a4979053",
+        "398f23e7",
+        "dd25eeb5_1",
+        "4b29957c_1",
+        "c37d1365_1",
+        "b369d8e1",
+        "137e6e58",
+        "481459ad_1",
+        "93cc59e5_1",
+        "f6fc674e"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_9b09d95b_1": 3
+      },
+      "top10_ids": [
+        "398f23e7",
+        "dd25eeb5_1",
+        "answer_9b09d95b_1",
+        "ultrachat_506760",
+        "70323809_1",
+        "785bd3f5",
+        "629f17b4_2",
+        "2f966994_2",
+        "63034a5d",
+        "ultrachat_386391"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_9b09d95b_1": 22
+      },
+      "top10_ids": [
+        "398f23e7",
+        "dd25eeb5_1",
+        "785bd3f5",
+        "4b29957c_1",
+        "c37d1365_1",
+        "629f17b4_2",
+        "ultrachat_506760",
+        "b369d8e1",
+        "481459ad_1",
+        "f6fc674e"
+      ]
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "L013",
+  "cohort": "L32",
+  "type": "single-session-user",
+  "question": "How long have I been collecting vintage cameras?",
+  "queries": {
+    "authored": "vintage cameras camera collecting collected started",
+    "stopword": "long collecting vintage cameras"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_586de428": 1
+      },
+      "top10_ids": [
+        "answer_586de428",
+        "eb87aced_6",
+        "sharegpt_isuiABY_0",
+        "c9f55a43_2",
+        "c3023a45_5",
+        "44ed8ae3_1",
+        "275804a8_2",
+        "dcc287e5",
+        "bd00a24d_2",
+        "ultrachat_234084"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_586de428": 1
+      },
+      "top10_ids": [
+        "answer_586de428",
+        "eb87aced_6",
+        "c9f55a43_2",
+        "sharegpt_isuiABY_0",
+        "sharegpt_krTElTK_0",
+        "sharegpt_UyBTuTv_0",
+        "ultrachat_486804",
+        "dcc287e5",
+        "9b3a7f2c_1",
+        "275804a8_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_586de428": 1
+      },
+      "top10_ids": [
+        "answer_586de428",
+        "eb87aced_6",
+        "sharegpt_isuiABY_0",
+        "c9f55a43_2",
+        "c3023a45_5",
+        "44ed8ae3_1",
+        "275804a8_2",
+        "dcc287e5",
+        "bd00a24d_2",
+        "ultrachat_234084"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_586de428": 1
+      },
+      "top10_ids": [
+        "answer_586de428",
+        "eb87aced_6",
+        "dcc287e5",
+        "6aefdae6",
+        "c9f55a43_2",
+        "275804a8_2",
+        "bd00a24d_2",
+        "c6c3a982_1",
+        "ultrachat_19320",
+        "ultrachat_466668"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_586de428": 1
+      },
+      "top10_ids": [
+        "answer_586de428",
+        "eb87aced_6",
+        "c9f55a43_2",
+        "dcc287e5",
+        "275804a8_2",
+        "bd00a24d_2",
+        "6aefdae6",
+        "c6c3a982_1",
+        "ultrachat_486804",
+        "ultrachat_218093"
+      ]
+    }
+  }
+}

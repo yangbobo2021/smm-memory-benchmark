@@ -1,0 +1,100 @@
+{
+  "id": "L005",
+  "cohort": "L32",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "What is the order of airlines I flew with from earliest to latest before today?",
+  "reference_sources": [
+    "c51b35b0f266360ceee43c010",
+    "c5e0d8d0dfa22e9f3e9e8de1b",
+    "c64c33e90657ce44625af6e65",
+    "c73ef19651b4c74a17670721b",
+    "c7a4b043db4ab984b85750904"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 4
+    },
+    "reference_positions": {
+      "c51b35b0f266360ceee43c010": 5,
+      "c5e0d8d0dfa22e9f3e9e8de1b": 3,
+      "c64c33e90657ce44625af6e65": 9,
+      "c73ef19651b4c74a17670721b": 11,
+      "c7a4b043db4ab984b85750904": 4
+    },
+    "top10_ids": [
+      "c08667e73c8710cabb2aaad23",
+      "c2124d06a7867077ff2fc1b23",
+      "c5e0d8d0dfa22e9f3e9e8de1b",
+      "c7a4b043db4ab984b85750904",
+      "c51b35b0f266360ceee43c010",
+      "c5a42e155ca87420a8224dde4",
+      "c619582baf0f6882eb4645e73",
+      "c6f64372d8a54c97adc6fad8a",
+      "c64c33e90657ce44625af6e65",
+      "c8b574ae926f8e7a125dd869e"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c51b35b0f266360ceee43c010": 2,
+      "c5e0d8d0dfa22e9f3e9e8de1b": 3,
+      "c64c33e90657ce44625af6e65": 11,
+      "c73ef19651b4c74a17670721b": 12,
+      "c7a4b043db4ab984b85750904": 5
+    },
+    "top10_ids": [
+      "c2124d06a7867077ff2fc1b23",
+      "c51b35b0f266360ceee43c010",
+      "c5e0d8d0dfa22e9f3e9e8de1b",
+      "c08667e73c8710cabb2aaad23",
+      "c7a4b043db4ab984b85750904",
+      "c619582baf0f6882eb4645e73",
+      "ca50b57d70a6014e9cf8b13ce",
+      "cb40640a71b56be161594b650",
+      "c0c120bb5ae7da689c548f2b2",
+      "c4da953665cd778918ab4e151"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 4
+    },
+    "selected_ids": [
+      "c08667e73c8710cabb2aaad23",
+      "c2124d06a7867077ff2fc1b23",
+      "c5e0d8d0dfa22e9f3e9e8de1b",
+      "c7a4b043db4ab984b85750904",
+      "c51b35b0f266360ceee43c010",
+      "c5a42e155ca87420a8224dde4",
+      "c619582baf0f6882eb4645e73",
+      "c6f64372d8a54c97adc6fad8a",
+      "c64c33e90657ce44625af6e65",
+      "c8b574ae926f8e7a125dd869e"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.10769008399984159,
+    "raw_query": 0.00665849999859347,
+    "user_build": 0.012906666999697336,
+    "user_query": 0.0021102079990669154
+  }
+}

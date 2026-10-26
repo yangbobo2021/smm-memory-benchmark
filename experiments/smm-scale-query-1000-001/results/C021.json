@@ -1,0 +1,99 @@
+{
+  "id": "C021",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c215909f3fabfafe9478350bc",
+    "c4a2aceb41fa876f48dd4892b",
+    "c613880f4a1224d293b220cc1",
+    "cdd6e915be62b998a88256c25"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c215909f3fabfafe9478350bc": 14,
+      "c4a2aceb41fa876f48dd4892b": 9,
+      "c613880f4a1224d293b220cc1": 1,
+      "cdd6e915be62b998a88256c25": 29
+    }
+  },
+  "authored": {
+    "query": "Joanna hike hikes hiking went",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c215909f3fabfafe9478350bc": 13,
+      "c4a2aceb41fa876f48dd4892b": 2,
+      "c613880f4a1224d293b220cc1": 1,
+      "cdd6e915be62b998a88256c25": 7
+    },
+    "top10_ids": [
+      "c613880f4a1224d293b220cc1",
+      "c4a2aceb41fa876f48dd4892b",
+      "c6638c80290604d1907736234",
+      "cde7ef43a3a69da3551b22e08",
+      "cca727a82a4f1cdaddd44d63a",
+      "c0d207f826accc2103af0c748",
+      "cdd6e915be62b998a88256c25",
+      "c07561544ce4905b370f05a64",
+      "c80933eca566601dd4f87b01e",
+      "cc5c2e2cd0f284232e160c1db"
+    ],
+    "seconds": {
+      "build": 0.018901583000115352,
+      "query": 0.00026700000034907134
+    }
+  },
+  "stopword": {
+    "query": "hikes joanna",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c215909f3fabfafe9478350bc": 9,
+      "c4a2aceb41fa876f48dd4892b": 3,
+      "c613880f4a1224d293b220cc1": 1,
+      "cdd6e915be62b998a88256c25": 24
+    },
+    "top10_ids": [
+      "c613880f4a1224d293b220cc1",
+      "ca9f7fefaaf9fbd0ea335569d",
+      "c4a2aceb41fa876f48dd4892b",
+      "c35d111897b19242ca312ec88",
+      "c252c867151f0796efa1faff5",
+      "c19e0760480af1c4e5fc7a26b",
+      "cf439ed341a740dc313e752f9",
+      "c3db30b91cfd5336ac2ca41e7",
+      "c215909f3fabfafe9478350bc",
+      "c15f1f0bec3d2fcc4fc6182e7"
+    ],
+    "seconds": {
+      "build": 0.018486416000087047,
+      "query": 7.087499943736475e-05
+    }
+  }
+}

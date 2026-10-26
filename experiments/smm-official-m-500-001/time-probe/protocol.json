@@ -1,0 +1,8 @@
+{
+  "id": "SMM-M-TIME-PROBE-001",
+  "status": "development-only; frozen before first ranking",
+  "base_protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "code_sha256": "26549e22ac13a6d5515abc792ae54fb3df6671ea82c9d2fdf347921ef36f13ef",
+  "method": "same original-question BM25; if relative-date rule yields window, stable-promote in-window received_at sessions among raw BM25 first 100, keeping within/outside BM25 order; no hard exclusion",
+  "limitation": "received_at can differ from event date; official M includes future sessions and 2 future official references; no blind claim"
+}

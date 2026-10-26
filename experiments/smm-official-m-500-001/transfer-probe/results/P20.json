@@ -1,0 +1,147 @@
+{
+  "id": "P20",
+  "cohort": "P25",
+  "type": "single-session-user",
+  "question": "What time do I stop checking work emails and messages?",
+  "queries": {
+    "authored": "work emails messages stop checking evening cutoff",
+    "stopword": "time stop checking work emails messages"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd4d99a": 10
+      },
+      "top10_ids": [
+        "7e8c306b",
+        "7b0b47f4_2",
+        "060406af_1",
+        "072b4f50_1",
+        "dce08529_1",
+        "sharegpt_1VhiETr_37",
+        "ec616e7e_5",
+        "sharegpt_2bdi5Ol_25",
+        "eee918be",
+        "answer_0dd4d99a"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd4d99a": 3
+      },
+      "top10_ids": [
+        "060406af_1",
+        "7e8c306b",
+        "answer_0dd4d99a",
+        "sharegpt_1VhiETr_37",
+        "7b0b47f4_2",
+        "9e65b27a",
+        "4ba22759",
+        "072b4f50_1",
+        "74c2d3a1_1",
+        "dce08529_1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd4d99a": 10
+      },
+      "top10_ids": [
+        "7e8c306b",
+        "7b0b47f4_2",
+        "060406af_1",
+        "072b4f50_1",
+        "dce08529_1",
+        "sharegpt_1VhiETr_37",
+        "ec616e7e_5",
+        "sharegpt_2bdi5Ol_25",
+        "eee918be",
+        "answer_0dd4d99a"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd4d99a": 2
+      },
+      "top10_ids": [
+        "7e8c306b",
+        "answer_0dd4d99a",
+        "060406af_1",
+        "7f13176f_1",
+        "295dc1ab_1",
+        "ultrachat_221066",
+        "sharegpt_q9s7fqn_0",
+        "ec616e7e_5",
+        "ultrachat_269037",
+        "sharegpt_1VhiETr_37"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0dd4d99a": 3
+      },
+      "top10_ids": [
+        "7e8c306b",
+        "060406af_1",
+        "answer_0dd4d99a",
+        "ec616e7e_5",
+        "sharegpt_1VhiETr_37",
+        "ultrachat_221066",
+        "072b4f50_1",
+        "ultrachat_269037",
+        "sharegpt_q9s7fqn_0",
+        "295dc1ab_1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "C182",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c9374b3eec6067d6a0cb1328e",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c9374b3eec6067d6a0cb1328e": 2,
+      "cf9f0fe894c2d94cdb1ce309a": 1
+    }
+  },
+  "authored": {
+    "query": "Melanie pets names named",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c9374b3eec6067d6a0cb1328e": 1,
+      "cf9f0fe894c2d94cdb1ce309a": 2
+    },
+    "top10_ids": [
+      "c9374b3eec6067d6a0cb1328e",
+      "cf9f0fe894c2d94cdb1ce309a",
+      "c3453d0c71ec7bb9d355512c5",
+      "cc9c11a2274633956ae8f471c5",
+      "c4879bb338dce6b57124fe1e7",
+      "ce142a1d8fc9d169bfa9fda59",
+      "c0bd330ab68847aedbdf12baa",
+      "c83a5466251a9a6d24da25bd7",
+      "c7650f704fe331b2566c673ed",
+      "c63a95f04d6605948c5bd6a4a"
+    ],
+    "seconds": {
+      "build": 0.018560665999757475,
+      "query": 0.00010116600060428027
+    }
+  },
+  "stopword": {
+    "query": "melanie s pets names",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c9374b3eec6067d6a0cb1328e": 2,
+      "cf9f0fe894c2d94cdb1ce309a": 1
+    },
+    "top10_ids": [
+      "cf9f0fe894c2d94cdb1ce309a",
+      "c9374b3eec6067d6a0cb1328e",
+      "c3453d0c71ec7bb9d355512c5",
+      "ce142a1d8fc9d169bfa9fda59",
+      "c0bd330ab68847aedbdf12baa",
+      "c83a5466251a9a6d24da25bd7",
+      "c63a95f04d6605948c5bd6a4a",
+      "cc6e8a8ce1aae8adca4173ed6",
+      "c4dc55d280c7f3f545df4d134",
+      "c16c71b5ac3cc8d438f30e02e"
+    ],
+    "seconds": {
+      "build": 0.01851458399960393,
+      "query": 0.0008704169995326083
+    }
+  }
+}

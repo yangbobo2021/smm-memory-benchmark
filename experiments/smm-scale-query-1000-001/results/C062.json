@@ -1,0 +1,87 @@
+{
+  "id": "C062",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c679b9d689624e19c41635a7b"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c679b9d689624e19c41635a7b": 1
+    }
+  },
+  "authored": {
+    "query": "John children veterans important",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c679b9d689624e19c41635a7b": 2
+    },
+    "top10_ids": [
+      "cdb131035d8d890ad1c33325e",
+      "c679b9d689624e19c41635a7b",
+      "c99b93d9c4d32824a63e20daa",
+      "cfa66ef0902b96e0b34cb56f8",
+      "c8321ef49d3ce09cb4d607fa2",
+      "cd69f93673a0c13b7487c7a9e",
+      "cc83cd37904615adec11cebbe7",
+      "cca06333977184b4cb44ccbbe1",
+      "cc0892a94e2d12bfa9d533310d",
+      "cc236147d139a8407da1e0da28"
+    ],
+    "seconds": {
+      "build": 0.018872250000640634,
+      "query": 0.000473125000098662
+    }
+  },
+  "stopword": {
+    "query": "john believe important children regarding veterans",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c679b9d689624e19c41635a7b": 2
+    },
+    "top10_ids": [
+      "cdb131035d8d890ad1c33325e",
+      "c679b9d689624e19c41635a7b",
+      "c99b93d9c4d32824a63e20daa",
+      "cfa66ef0902b96e0b34cb56f8",
+      "cd69f93673a0c13b7487c7a9e",
+      "c3a26324e6c31b252dad3005f",
+      "c8321ef49d3ce09cb4d607fa2",
+      "cfa557968fa500b1c93488638",
+      "ccf33297175f053c52668c6a4",
+      "cf1dedfce6f0bcf5498202bed"
+    ],
+    "seconds": {
+      "build": 0.018676834000871168,
+      "query": 0.000579583999751776
+    }
+  }
+}

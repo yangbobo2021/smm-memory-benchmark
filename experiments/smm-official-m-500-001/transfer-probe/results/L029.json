@@ -1,0 +1,147 @@
+{
+  "id": "L029",
+  "cohort": "L32",
+  "type": "single-session-user",
+  "question": "What is the name of my cat?",
+  "queries": {
+    "authored": "cat name named",
+    "stopword": "name cat"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c6fd8ebd": 1
+      },
+      "top10_ids": [
+        "answer_c6fd8ebd",
+        "sharegpt_eHZgwR0_9",
+        "ultrachat_132644",
+        "sharegpt_zX5iazJ_19",
+        "ed8ba4b0_1",
+        "sharegpt_wduYbsX_1",
+        "a0201607_2",
+        "sharegpt_I0uNTjm_36",
+        "f487a34c_1",
+        "41abc171_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c6fd8ebd": 1
+      },
+      "top10_ids": [
+        "answer_c6fd8ebd",
+        "sharegpt_HOO59Ue_99",
+        "sharegpt_eHZgwR0_9",
+        "ultrachat_132644",
+        "4559b38b",
+        "sharegpt_zX5iazJ_19",
+        "ultrachat_424912",
+        "ed8ba4b0_1",
+        "ultrachat_267176",
+        "sharegpt_wduYbsX_1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c6fd8ebd": 1
+      },
+      "top10_ids": [
+        "answer_c6fd8ebd",
+        "sharegpt_eHZgwR0_9",
+        "ultrachat_132644",
+        "sharegpt_zX5iazJ_19",
+        "ed8ba4b0_1",
+        "sharegpt_wduYbsX_1",
+        "a0201607_2",
+        "sharegpt_I0uNTjm_36",
+        "f487a34c_1",
+        "41abc171_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c6fd8ebd": 1
+      },
+      "top10_ids": [
+        "answer_c6fd8ebd",
+        "sharegpt_eHZgwR0_9",
+        "f487a34c_1",
+        "8a355b36_1",
+        "sharegpt_zX5iazJ_19",
+        "3152bd06_1",
+        "sharegpt_PN4fBEw_0",
+        "sharegpt_TBRPvuE_0",
+        "sharegpt_sKSAz3S_0",
+        "1946bd27"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c6fd8ebd": 1
+      },
+      "top10_ids": [
+        "answer_c6fd8ebd",
+        "sharegpt_eHZgwR0_9",
+        "sharegpt_zX5iazJ_19",
+        "f487a34c_1",
+        "8a355b36_1",
+        "ed8ba4b0_1",
+        "3152bd06_1",
+        "sharegpt_PN4fBEw_0",
+        "sharegpt_TBRPvuE_0",
+        "1946bd27"
+      ]
+    }
+  }
+}

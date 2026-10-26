@@ -1,0 +1,75 @@
+{
+  "id": "L012",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+  "official_question_id": "gpt4_d6585ce8",
+  "official_m_count": 473,
+  "official_m_occurrences": 474,
+  "official_m_ref_count": 5,
+  "official_m_ref_count_before_dedupe": 5,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 5,
+  "s_ref_hashes_in_m": 5,
+  "m_s_body_overlap": 5,
+  "original_s": {
+    "count": 50,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 4
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "answer_f999b05b_1": 349,
+      "answer_f999b05b_4": 6,
+      "answer_f999b05b_2": 11,
+      "answer_f999b05b_5": 4,
+      "answer_f999b05b_3": 1
+    },
+    "top10_ids": [
+      "answer_f999b05b_3",
+      "dcae813a_3",
+      "ultrachat_435915",
+      "answer_f999b05b_5",
+      "cf3ff9da",
+      "answer_f999b05b_4",
+      "c4f4c099_2",
+      "ultrachat_429267",
+      "ultrachat_262611",
+      "e11e9a6d"
+    ],
+    "build_seconds": 0.03811633399891434,
+    "query_seconds": 0.003307082999526756
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "C030",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "cf0bc01bfc8852f961e33e9de"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cf0bc01bfc8852f961e33e9de": 1
+    }
+  },
+  "authored": {
+    "query": "John NYC New York Tim visit",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cf0bc01bfc8852f961e33e9de": 1
+    },
+    "top10_ids": [
+      "cf0bc01bfc8852f961e33e9de",
+      "cbf3a77bf28f9814081a8ef96",
+      "ce08bdcbc8b2fc20c5e30b4ab",
+      "c4e9db782b6a0f05af00a30ba",
+      "c6cb4e8b745d57608d137fa2e",
+      "c14b38719fc61303d0504f2f3",
+      "c139f4b845ec357142b7b3b56",
+      "c16886a59bbcdd8b0c03a0afc",
+      "cdcb853bbc4a23a1e717ce345",
+      "cb4bd95586355fe3bfcd49754"
+    ],
+    "seconds": {
+      "build": 0.01893541599929449,
+      "query": 0.0005080000000816653
+    }
+  },
+  "stopword": {
+    "query": "john say about nyc enticing tim visit",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cf0bc01bfc8852f961e33e9de": 1
+    },
+    "top10_ids": [
+      "cf0bc01bfc8852f961e33e9de",
+      "cbf3a77bf28f9814081a8ef96",
+      "ce08bdcbc8b2fc20c5e30b4ab",
+      "c4e9db782b6a0f05af00a30ba",
+      "c6cb4e8b745d57608d137fa2e",
+      "c14b38719fc61303d0504f2f3",
+      "c139f4b845ec357142b7b3b56",
+      "c66f3b2442f0da8ebd3b8702c",
+      "c16886a59bbcdd8b0c03a0afc",
+      "cdcb853bbc4a23a1e717ce345"
+    ],
+    "seconds": {
+      "build": 0.018580083999950148,
+      "query": 0.0008441250001851586
+    }
+  }
+}

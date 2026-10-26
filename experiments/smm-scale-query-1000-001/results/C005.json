@@ -1,0 +1,87 @@
+{
+  "id": "C005",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "cc7fa43c0315b56990674b9ac"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cc7fa43c0315b56990674b9ac": 6
+    }
+  },
+  "authored": {
+    "query": "Audrey pups dogs weekend October 2023",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cc7fa43c0315b56990674b9ac": 4
+    },
+    "top10_ids": [
+      "c83413649c8fad2a1b8e52c8e",
+      "c26d15cc1e49c4024420ad588",
+      "c74c8caa23db9eaafca147bb8",
+      "cc7fa43c0315b56990674b9ac",
+      "c0c938fedefd07da628c20135",
+      "c733740442f3368cbe55fafe0",
+      "c18c87e5c3df2b81e03dabf48",
+      "cc5c2e2cd0f284232e160c1db",
+      "c01d5f1bad856e63f2d259c53",
+      "cd7322a2d1e44154427e221e8"
+    ],
+    "seconds": {
+      "build": 0.01853525000024092,
+      "query": 0.00015450000046257628
+    }
+  },
+  "stopword": {
+    "query": "audrey pups over weekend before 4th october 2023",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "cc7fa43c0315b56990674b9ac": 5
+    },
+    "top10_ids": [
+      "c83413649c8fad2a1b8e52c8e",
+      "c26d15cc1e49c4024420ad588",
+      "c74c8caa23db9eaafca147bb8",
+      "ce133a49ad3fdc00d791042d9",
+      "cc7fa43c0315b56990674b9ac",
+      "c733740442f3368cbe55fafe0",
+      "cc33657a59394105b5bcb266f",
+      "c0c938fedefd07da628c20135",
+      "c01d5f1bad856e63f2d259c53",
+      "cc5c2e2cd0f284232e160c1db"
+    ],
+    "seconds": {
+      "build": 0.018657374999747844,
+      "query": 0.00039724999987811316
+    }
+  }
+}

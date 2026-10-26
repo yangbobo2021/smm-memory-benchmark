@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/boboyang/work/next-app/work/smm-official-m-check/score_m.py", line 88, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/Users/boboyang/work/next-app/work/smm-official-m-check/score_m.py", line 48, in main
+    assert len(ids)==len(dates)==len(item["haystack_sessions"])==len(set(ids))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,157 @@
+{
+  "id": "L031",
+  "cohort": "L32",
+  "type": "multi-session",
+  "question": "How many different museums or galleries did I visit in the month of February?",
+  "queries": {
+    "authored": "museum museums gallery galleries visited February",
+    "stopword": "different museums galleries visit month february"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_990c8992_3": 3,
+        "answer_990c8992_2": 1,
+        "answer_990c8992_1": 2
+      },
+      "top10_ids": [
+        "answer_990c8992_2",
+        "answer_990c8992_1",
+        "answer_990c8992_3",
+        "5a137e32",
+        "5150a4e9_1",
+        "ff0bb7fd_1",
+        "e22dcbfd",
+        "6dd3172f",
+        "e0956e0a_1",
+        "ultrachat_111552"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_990c8992_3": 3,
+        "answer_990c8992_2": 2,
+        "answer_990c8992_1": 1
+      },
+      "top10_ids": [
+        "answer_990c8992_1",
+        "answer_990c8992_2",
+        "answer_990c8992_3",
+        "5a137e32",
+        "ultrachat_296900",
+        "491ebc5d_2",
+        "41743aae_1",
+        "83e14506_1",
+        "5b45367c_1",
+        "a1e90def_3"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_990c8992_3": 3,
+        "answer_990c8992_2": 1,
+        "answer_990c8992_1": 2
+      },
+      "top10_ids": [
+        "answer_990c8992_2",
+        "answer_990c8992_1",
+        "answer_990c8992_3",
+        "5a137e32",
+        "5150a4e9_1",
+        "e22dcbfd",
+        "6dd3172f",
+        "ultrachat_111552",
+        "fa3e893c",
+        "e0956e0a_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_990c8992_3": 2,
+        "answer_990c8992_2": 22,
+        "answer_990c8992_1": 1
+      },
+      "top10_ids": [
+        "answer_990c8992_1",
+        "answer_990c8992_3",
+        "sharegpt_zcq8Evp_0",
+        "ultrachat_566638",
+        "29e76903_1",
+        "ultrachat_111552",
+        "sharegpt_aqzp5fe_0",
+        "ultrachat_176045",
+        "ultrachat_474367",
+        "e0956e0a_1"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_990c8992_3": 2,
+        "answer_990c8992_2": 5,
+        "answer_990c8992_1": 1
+      },
+      "top10_ids": [
+        "answer_990c8992_1",
+        "answer_990c8992_3",
+        "ultrachat_111552",
+        "e0956e0a_1",
+        "answer_990c8992_2",
+        "29e76903_1",
+        "4de46bd1",
+        "d048ae4b_3",
+        "ff0bb7fd_1",
+        "5150a4e9_1"
+      ]
+    }
+  }
+}

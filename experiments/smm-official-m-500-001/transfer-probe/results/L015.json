@@ -1,0 +1,162 @@
+{
+  "id": "L015",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What charity event did I participate in a month ago?",
+  "queries": {
+    "authored": "charity charitable event participated attended",
+    "stopword": "charity event participate month ago"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_4bfcc251_4": 31,
+        "answer_4bfcc251_3": 9,
+        "answer_4bfcc251_2": 19,
+        "answer_4bfcc251_1": 1
+      },
+      "top10_ids": [
+        "answer_4bfcc251_1",
+        "018eac29",
+        "eb7366f2_2",
+        "2b61f4a3_3",
+        "da0ad5c7_1",
+        "7cdae41f_1",
+        "43668d77_4",
+        "6f8f4c80_2",
+        "answer_4bfcc251_3",
+        "90eae9cd_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "reference_positions": {
+        "answer_4bfcc251_4": 8,
+        "answer_4bfcc251_3": 10,
+        "answer_4bfcc251_2": 7,
+        "answer_4bfcc251_1": 5
+      },
+      "top10_ids": [
+        "eb7366f2_2",
+        "6f8f4c80_2",
+        "1d85d4ba_2",
+        "62b40a05_1",
+        "answer_4bfcc251_1",
+        "3dced3e9_2",
+        "answer_4bfcc251_2",
+        "answer_4bfcc251_4",
+        "99f7aacf_1",
+        "answer_4bfcc251_3"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_4bfcc251_4": 24,
+        "answer_4bfcc251_3": 4,
+        "answer_4bfcc251_2": 16,
+        "answer_4bfcc251_1": 1
+      },
+      "top10_ids": [
+        "answer_4bfcc251_1",
+        "eb7366f2_2",
+        "018eac29",
+        "answer_4bfcc251_3",
+        "90eae9cd_2",
+        "87a02ddc_2",
+        "ultrachat_236018",
+        "sharegpt_1sxNkyQ_67",
+        "62b40a05_1",
+        "2b61f4a3_3"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_4bfcc251_4": 12,
+        "answer_4bfcc251_3": 6,
+        "answer_4bfcc251_2": 11,
+        "answer_4bfcc251_1": 1
+      },
+      "top10_ids": [
+        "answer_4bfcc251_1",
+        "2b61f4a3_3",
+        "7cdae41f_1",
+        "90eae9cd_2",
+        "21d86ebb_1",
+        "answer_4bfcc251_3",
+        "eb7366f2_2",
+        "1765e63c",
+        "ultrachat_243849",
+        "ultrachat_276886"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_4bfcc251_4": 15,
+        "answer_4bfcc251_3": 6,
+        "answer_4bfcc251_2": 12,
+        "answer_4bfcc251_1": 1
+      },
+      "top10_ids": [
+        "answer_4bfcc251_1",
+        "2b61f4a3_3",
+        "7cdae41f_1",
+        "eb7366f2_2",
+        "90eae9cd_2",
+        "answer_4bfcc251_3",
+        "018eac29",
+        "da0ad5c7_1",
+        "21d86ebb_1",
+        "43668d77_4"
+      ]
+    }
+  }
+}

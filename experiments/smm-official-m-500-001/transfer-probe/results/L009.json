@@ -1,0 +1,152 @@
+{
+  "id": "L009",
+  "cohort": "L32",
+  "type": "multi-session",
+  "question": "How many years will I be when my friend Rachel gets married?",
+  "queries": {
+    "authored": "Rachel wedding married marriage age birthday",
+    "stopword": "years friend rachel gets married"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_cbd08e3c_1": 2,
+        "answer_cbd08e3c_2": 211
+      },
+      "top10_ids": [
+        "e7b0637e_1",
+        "answer_cbd08e3c_1",
+        "3a4012a5_3",
+        "sharegpt_efcAzKB_179",
+        "d39b7977_1",
+        "bef12e17",
+        "97e4dd21_2",
+        "96c05f25",
+        "922c819f_2",
+        "f1163e57"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_cbd08e3c_1": 2,
+        "answer_cbd08e3c_2": 52
+      },
+      "top10_ids": [
+        "e7b0637e_1",
+        "answer_cbd08e3c_1",
+        "96c05f25",
+        "a9981dc6_1",
+        "sharegpt_efcAzKB_179",
+        "d39b7977_1",
+        "97e4dd21_2",
+        "4c6a82f0_2",
+        "ultrachat_514620",
+        "bef12e17"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_cbd08e3c_1": 2,
+        "answer_cbd08e3c_2": null
+      },
+      "top10_ids": [
+        "e7b0637e_1",
+        "answer_cbd08e3c_1",
+        "3a4012a5_3",
+        "sharegpt_efcAzKB_179",
+        "d39b7977_1",
+        "bef12e17",
+        "97e4dd21_2",
+        "96c05f25",
+        "922c819f_2",
+        "f1163e57"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_cbd08e3c_1": 1,
+        "answer_cbd08e3c_2": 289
+      },
+      "top10_ids": [
+        "answer_cbd08e3c_1",
+        "3a4012a5_3",
+        "e7b0637e_1",
+        "ultrachat_313364",
+        "ultrachat_129310",
+        "d39b7977_1",
+        "a6426788_2",
+        "a9981dc6_1",
+        "ultrachat_404790",
+        "sharegpt_39zcpvx_0"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_cbd08e3c_1": 1,
+        "answer_cbd08e3c_2": 295
+      },
+      "top10_ids": [
+        "answer_cbd08e3c_1",
+        "e7b0637e_1",
+        "3a4012a5_3",
+        "d39b7977_1",
+        "a9981dc6_1",
+        "ultrachat_313364",
+        "922c819f_2",
+        "a6426788_2",
+        "f1163e57",
+        "0d4f7583_1"
+      ]
+    }
+  }
+}

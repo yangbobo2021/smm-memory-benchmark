@@ -1,0 +1,147 @@
+{
+  "id": "P17",
+  "cohort": "P25",
+  "type": "single-session-user",
+  "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+  "queries": {
+    "authored": "Lake Michigan largemouth bass caught catch fishing",
+    "stopword": "largemouth bass catch fishing trip lake michigan"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_1e6d4567": 1
+      },
+      "top10_ids": [
+        "answer_1e6d4567",
+        "6e510447",
+        "9be88155",
+        "142e3203_1",
+        "701ea427_6",
+        "ultrachat_431407",
+        "ultrachat_271165",
+        "ultrachat_397258",
+        "27ce9f13_1",
+        "8221810f_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_1e6d4567": 1
+      },
+      "top10_ids": [
+        "answer_1e6d4567",
+        "6e510447",
+        "701ea427_6",
+        "9be88155",
+        "ultrachat_397258",
+        "142e3203_1",
+        "ultrachat_431407",
+        "ultrachat_80256",
+        "ultrachat_271165",
+        "ultrachat_318364"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_1e6d4567": 1
+      },
+      "top10_ids": [
+        "answer_1e6d4567",
+        "6e510447",
+        "9be88155",
+        "142e3203_1",
+        "ultrachat_431407",
+        "ultrachat_271165",
+        "ultrachat_397258",
+        "27ce9f13_1",
+        "8221810f_1",
+        "sharegpt_DepSThA_0"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_1e6d4567": 1
+      },
+      "top10_ids": [
+        "answer_1e6d4567",
+        "6e510447",
+        "9be88155",
+        "ultrachat_80256",
+        "701ea427_6",
+        "27ce9f13_1",
+        "sharegpt_DepSThA_0",
+        "36743359_4",
+        "sharegpt_ndynIbS_0",
+        "8221810f_1"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_1e6d4567": 1
+      },
+      "top10_ids": [
+        "answer_1e6d4567",
+        "6e510447",
+        "9be88155",
+        "701ea427_6",
+        "27ce9f13_1",
+        "sharegpt_DepSThA_0",
+        "ultrachat_271165",
+        "8221810f_1",
+        "36743359_4",
+        "ultrachat_397258"
+      ]
+    }
+  }
+}

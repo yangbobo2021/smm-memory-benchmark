@@ -1,0 +1,72 @@
+{
+  "id": "L022",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+  "official_question_id": "6e984302",
+  "official_m_count": 467,
+  "official_m_occurrences": 470,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 43,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_88841f27_1": 24,
+      "answer_88841f27_2": 114
+    },
+    "top10_ids": [
+      "sharegpt_2TXa4rw_0",
+      "ultrachat_93240",
+      "7f021fbd_1",
+      "b9e0c58b_2",
+      "7ae303b7_2",
+      "ultrachat_387027",
+      "990f3ef9_5",
+      "8c93baa7",
+      "2c1e886b_1",
+      "2e53911b_1"
+    ],
+    "build_seconds": 0.04703229099868622,
+    "query_seconds": 0.0014541250002366723
+  }
+}

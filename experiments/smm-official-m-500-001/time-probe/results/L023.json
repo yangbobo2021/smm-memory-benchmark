@@ -1,0 +1,54 @@
+{
+  "id": "L023",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_add9b012_2": 1,
+      "answer_add9b012_1": 2
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_add9b012_2": 1,
+      "answer_add9b012_1": 2
+    },
+    "top10_ids": [
+      "answer_add9b012_2",
+      "answer_add9b012_1",
+      "ce291e98",
+      "ultrachat_205888",
+      "7d5df0e4",
+      "58ae7c4f_3",
+      "9baddc74",
+      "ultrachat_224196",
+      "04c33462_2",
+      "sharegpt_NZ4gHgF_0"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.0011852919997181743,
+  "build_seconds": 0.0494095419999212
+}

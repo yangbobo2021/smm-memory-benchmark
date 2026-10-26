@@ -1,0 +1,91 @@
+{
+  "id": "P07",
+  "cohort": "P25",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c799a2510389a8ff2e69d96f5",
+    "c5e13079f8999c5bfd339aab7"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c799a2510389a8ff2e69d96f5": 16,
+      "c5e13079f8999c5bfd339aab7": 1
+    }
+  },
+  "authored": {
+    "query": "dinner parties party attended attend month",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c799a2510389a8ff2e69d96f5": 5,
+      "c5e13079f8999c5bfd339aab7": 1
+    },
+    "top10_ids": [
+      "c5e13079f8999c5bfd339aab7",
+      "c9fa4e8a35313b7852ca64732",
+      "c5d50c252f77a22897f2c0939",
+      "cec0064bda154701f7f5fed51",
+      "c799a2510389a8ff2e69d96f5",
+      "cd91811d867671dfc80f4a196",
+      "cc82b2dac58f7cdfb3e4ec580",
+      "c98afb0aaaeba4e3008b1a8db",
+      "c988ddeb2d5330f5ddb1759a1",
+      "c37d6742905e5289d693506d2"
+    ],
+    "seconds": {
+      "build": 0.10916654100037704,
+      "query": 0.0004374999998617568
+    }
+  },
+  "stopword": {
+    "query": "dinner parties attended past month",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c799a2510389a8ff2e69d96f5": 16,
+      "c5e13079f8999c5bfd339aab7": 1
+    },
+    "top10_ids": [
+      "c5e13079f8999c5bfd339aab7",
+      "c5d50c252f77a22897f2c0939",
+      "c32a5d82c9a1a1cdc281bebc9",
+      "c9fa4e8a35313b7852ca64732",
+      "cd91811d867671dfc80f4a196",
+      "c19f10d050d45b45b632f7c42",
+      "c37d6742905e5289d693506d2",
+      "caa0882213fdff2bfb5d0b1f1",
+      "c4cd89d53b74128c1021d7cbc",
+      "caba94415924b2b36f6d6077c"
+    ],
+    "seconds": {
+      "build": 0.10869937500046944,
+      "query": 0.00039841699981479906
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "P12",
+  "cohort": "P25",
+  "type": "single-session-assistant",
+  "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+  "queries": {
+    "authored": "Netflix seasons season old shows available",
+    "stopword": "wanted check back previous conversation about netflix mentioned that able access all seasons old shows remember show used example one only last season available"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_m2xJfjo_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_m2xJfjo_0",
+        "5b4d2438_2",
+        "0dcfb511_4",
+        "sharegpt_vTqW6SN_0",
+        "1e8f19be",
+        "ultrachat_148981",
+        "989ad9e6_1",
+        "4f2293fd_7",
+        "822c2064_1",
+        "da828711"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_m2xJfjo_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_m2xJfjo_0",
+        "0dcfb511_4",
+        "5b4d2438_2",
+        "sharegpt_vTqW6SN_0",
+        "ultrachat_148981",
+        "232128ef_2",
+        "3a6606d3",
+        "0e250059_3",
+        "7de51ffe_1",
+        "5dac7cc2_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_m2xJfjo_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_m2xJfjo_0",
+        "5b4d2438_2",
+        "0dcfb511_4",
+        "sharegpt_vTqW6SN_0",
+        "1e8f19be",
+        "ultrachat_148981",
+        "989ad9e6_1",
+        "ca57313f_1",
+        "5dac7cc2_2",
+        "118c28ee"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_m2xJfjo_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_m2xJfjo_0",
+        "5b4d2438_2",
+        "0dcfb511_4",
+        "sharegpt_vTqW6SN_0",
+        "sharegpt_7yOD1C5_0",
+        "5534efcb_1",
+        "822c2064_1",
+        "sharegpt_1fElGeb_87",
+        "9e14a60d_3",
+        "d7281662_2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_sharegpt_m2xJfjo_0": 1
+      },
+      "top10_ids": [
+        "answer_sharegpt_m2xJfjo_0",
+        "5b4d2438_2",
+        "0dcfb511_4",
+        "sharegpt_vTqW6SN_0",
+        "822c2064_1",
+        "4f2293fd_7",
+        "da828711",
+        "5534efcb_1",
+        "sharegpt_Bjn7mKF_360",
+        "sharegpt_1fElGeb_87"
+      ]
+    }
+  }
+}

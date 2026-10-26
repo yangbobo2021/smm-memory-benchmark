@@ -1,0 +1,152 @@
+{
+  "id": "L001",
+  "cohort": "L32",
+  "type": "multi-session",
+  "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+  "queries": {
+    "authored": "Hawaii New York City trip travel days",
+    "stopword": "days spend total traveling hawaii new york city"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_60e8941a_2": 1,
+        "answer_60e8941a_1": 3
+      },
+      "top10_ids": [
+        "answer_60e8941a_2",
+        "5b45367c_2",
+        "answer_60e8941a_1",
+        "ultrachat_43272",
+        "a0aa5035",
+        "52fd829d_1",
+        "f3fcf4fd_3",
+        "5b6acaf5",
+        "0d129c99",
+        "4c039bd7_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_60e8941a_2": 1,
+        "answer_60e8941a_1": 3
+      },
+      "top10_ids": [
+        "answer_60e8941a_2",
+        "9877086e",
+        "answer_60e8941a_1",
+        "ultrachat_43272",
+        "52fd829d_1",
+        "96987310",
+        "4c039bd7_2",
+        "7201b06f",
+        "5b45367c_2",
+        "f3fcf4fd_3"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_60e8941a_2": 1,
+        "answer_60e8941a_1": 3
+      },
+      "top10_ids": [
+        "answer_60e8941a_2",
+        "5b45367c_2",
+        "answer_60e8941a_1",
+        "ultrachat_43272",
+        "a0aa5035",
+        "52fd829d_1",
+        "f3fcf4fd_3",
+        "4c039bd7_2",
+        "sharegpt_5ZmWZjz_0",
+        "d00ba6d1_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_60e8941a_2": 1,
+        "answer_60e8941a_1": 19
+      },
+      "top10_ids": [
+        "answer_60e8941a_2",
+        "sharegpt_7R80sA0_13",
+        "7201b06f",
+        "16c107cf_1",
+        "ultrachat_530460",
+        "ultrachat_484118",
+        "5b45367c_2",
+        "0d129c99",
+        "d00ba6d1_2",
+        "sharegpt_5ZmWZjz_0"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_60e8941a_2": 1,
+        "answer_60e8941a_1": 6
+      },
+      "top10_ids": [
+        "answer_60e8941a_2",
+        "5b45367c_2",
+        "7201b06f",
+        "0d129c99",
+        "ultrachat_484118",
+        "answer_60e8941a_1",
+        "d00ba6d1_2",
+        "sharegpt_5ZmWZjz_0",
+        "ultrachat_530460",
+        "16c107cf_1"
+      ]
+    }
+  }
+}

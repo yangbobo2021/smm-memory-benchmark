@@ -1,0 +1,152 @@
+{
+  "id": "P23",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+  "queries": {
+    "authored": "spider plant repotted repot cuttings neighbor Johnson",
+    "stopword": "days passed between day repotted previous spider plant gave neighbor mrs johnson few cuttings"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_d97db962_1": 3,
+        "answer_d97db962_2": 1
+      },
+      "top10_ids": [
+        "answer_d97db962_2",
+        "105e11c5_1",
+        "answer_d97db962_1",
+        "da3531f3_2",
+        "5b4d2438_2",
+        "92d7a0d2_2",
+        "ultrachat_257963",
+        "sharegpt_Z57GshY_0",
+        "20348a4d",
+        "8f6b938d_4"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_d97db962_1": 3,
+        "answer_d97db962_2": 2
+      },
+      "top10_ids": [
+        "105e11c5_1",
+        "answer_d97db962_2",
+        "answer_d97db962_1",
+        "92d7a0d2_2",
+        "20348a4d",
+        "204adc7e_1",
+        "da3531f3_2",
+        "sharegpt_kgRTk3e_62",
+        "cc8f018e_1",
+        "ultrachat_504213"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_d97db962_1": 3,
+        "answer_d97db962_2": 1
+      },
+      "top10_ids": [
+        "answer_d97db962_2",
+        "105e11c5_1",
+        "answer_d97db962_1",
+        "da3531f3_2",
+        "5b4d2438_2",
+        "92d7a0d2_2",
+        "ultrachat_257963",
+        "sharegpt_Z57GshY_0",
+        "20348a4d",
+        "8f6b938d_4"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_d97db962_1": 3,
+        "answer_d97db962_2": 1
+      },
+      "top10_ids": [
+        "answer_d97db962_2",
+        "105e11c5_1",
+        "answer_d97db962_1",
+        "ultrachat_257963",
+        "sharegpt_Yuw2LhQ_4",
+        "20348a4d",
+        "0edab896_1",
+        "da3531f3_2",
+        "92d7a0d2_2",
+        "84b0403e"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_d97db962_1": 3,
+        "answer_d97db962_2": 1
+      },
+      "top10_ids": [
+        "answer_d97db962_2",
+        "105e11c5_1",
+        "answer_d97db962_1",
+        "ultrachat_257963",
+        "da3531f3_2",
+        "20348a4d",
+        "92d7a0d2_2",
+        "5b4d2438_2",
+        "204adc7e_1",
+        "4f8caea3_1"
+      ]
+    }
+  }
+}

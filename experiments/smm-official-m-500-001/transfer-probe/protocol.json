@@ -1,0 +1,15 @@
+{
+  "id": "SMM-M-TRANSFER-001",
+  "status": "development transfer; fixed variants predate M comparison",
+  "official_m_protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "prior_query_protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "code_sha256": "be7b9b84192db291116f29450bfe5a63ebc71bcb89944d38ee584db68b6dd5f9",
+  "variants": [
+    "raw-whole",
+    "prior-authored-whole",
+    "prior-stopword-whole",
+    "raw-user-only",
+    "RRF60(raw-whole,raw-user-only)"
+  ],
+  "warning": "prior authored queries are hand-written, previously evaluated, not deployable Agent outputs or blind validation"
+}

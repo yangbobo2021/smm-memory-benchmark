@@ -1,0 +1,147 @@
+{
+  "id": "L032",
+  "cohort": "L32",
+  "type": "single-session-user",
+  "question": "How much time do I dedicate to practicing guitar every day?",
+  "queries": {
+    "authored": "guitar practice practicing daily minutes hours",
+    "stopword": "time dedicate practicing guitar every day"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cc5362f": 1
+      },
+      "top10_ids": [
+        "answer_7cc5362f",
+        "ultrachat_274736",
+        "5cbfaf3e_3",
+        "0b098155",
+        "ultrachat_254500",
+        "f4914a05",
+        "ultrachat_552063",
+        "cad59ac2_2",
+        "ultrachat_38691",
+        "adc47df1_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cc5362f": 1
+      },
+      "top10_ids": [
+        "answer_7cc5362f",
+        "b33e89b5_2",
+        "ddf84160_1",
+        "df7f49c2",
+        "5cbfaf3e_3",
+        "0b098155",
+        "f1a97415_3",
+        "d55dc3d6",
+        "b6b23040_2",
+        "ultrachat_478039"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cc5362f": 1
+      },
+      "top10_ids": [
+        "answer_7cc5362f",
+        "5cbfaf3e_3",
+        "ultrachat_274736",
+        "ultrachat_254500",
+        "0b098155",
+        "f4914a05",
+        "ultrachat_552063",
+        "cad59ac2_2",
+        "ultrachat_38691",
+        "adc47df1_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cc5362f": 1
+      },
+      "top10_ids": [
+        "answer_7cc5362f",
+        "cad59ac2_2",
+        "sharegpt_BWMyoNr_0",
+        "56911dc5_6",
+        "ultrachat_38691",
+        "b33e89b5_2",
+        "0b098155",
+        "a984d15a_1",
+        "d8f48b0a",
+        "sharegpt_XWLA0IO_0"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cc5362f": 1
+      },
+      "top10_ids": [
+        "answer_7cc5362f",
+        "cad59ac2_2",
+        "0b098155",
+        "ultrachat_38691",
+        "5cbfaf3e_3",
+        "ultrachat_274736",
+        "sharegpt_BWMyoNr_0",
+        "df7f49c2",
+        "ddf84160_1",
+        "b33e89b5_2"
+      ]
+    }
+  }
+}

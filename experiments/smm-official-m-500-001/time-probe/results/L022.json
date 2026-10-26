@@ -1,0 +1,58 @@
+{
+  "id": "L022",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+  "window": {
+    "start": "2023-03-01",
+    "end": "2023-03-07",
+    "rule": "days-weeks-ago"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_88841f27_1": 24,
+      "answer_88841f27_2": 114
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_88841f27_1": 43,
+      "answer_88841f27_2": 114
+    },
+    "top10_ids": [
+      "sharegpt_2TXa4rw_0",
+      "8c93baa7",
+      "cf812455",
+      "ae051325_1",
+      "5298db7c_1",
+      "02bd2b90_3",
+      "sharegpt_sj5ZvVB_0",
+      "f52bb03c_2",
+      "f4d549f1",
+      "08958375"
+    ]
+  },
+  "time_bonus_count_in_raw100": 26,
+  "query_seconds": 0.00187720900066779,
+  "build_seconds": 0.04981220899935579
+}

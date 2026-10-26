@@ -1,0 +1,167 @@
+{
+  "id": "L005",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What is the order of airlines I flew with from earliest to latest before today?",
+  "queries": {
+    "authored": "airlines airline flew flown flights flight",
+    "stopword": "order airlines flew earliest latest before today"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 5
+      },
+      "reference_positions": {
+        "answer_d8a1af6b_1": 8,
+        "answer_d8a1af6b_2": 6,
+        "answer_d8a1af6b_3": 4,
+        "answer_d8a1af6b_4": 2,
+        "answer_d8a1af6b_5": 9
+      },
+      "top10_ids": [
+        "ultrachat_170863",
+        "answer_d8a1af6b_4",
+        "0ec0648a",
+        "answer_d8a1af6b_3",
+        "sharegpt_QIcIecM_0",
+        "answer_d8a1af6b_2",
+        "ultrachat_300662",
+        "answer_d8a1af6b_1",
+        "answer_d8a1af6b_5",
+        "sharegpt_lz0ys5C_19"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 4
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 5
+      },
+      "reference_positions": {
+        "answer_d8a1af6b_1": 5,
+        "answer_d8a1af6b_2": 1,
+        "answer_d8a1af6b_3": 6,
+        "answer_d8a1af6b_4": 4,
+        "answer_d8a1af6b_5": 2
+      },
+      "top10_ids": [
+        "answer_d8a1af6b_2",
+        "answer_d8a1af6b_5",
+        "0ec0648a",
+        "answer_d8a1af6b_4",
+        "answer_d8a1af6b_1",
+        "answer_d8a1af6b_3",
+        "f3fcf4fd_3",
+        "428c1a29_4",
+        "ultrachat_411295",
+        "827895b2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 5
+      },
+      "reference_positions": {
+        "answer_d8a1af6b_1": 8,
+        "answer_d8a1af6b_2": 6,
+        "answer_d8a1af6b_3": 4,
+        "answer_d8a1af6b_4": 2,
+        "answer_d8a1af6b_5": 9
+      },
+      "top10_ids": [
+        "ultrachat_170863",
+        "answer_d8a1af6b_4",
+        "0ec0648a",
+        "answer_d8a1af6b_3",
+        "sharegpt_QIcIecM_0",
+        "answer_d8a1af6b_2",
+        "ultrachat_300662",
+        "answer_d8a1af6b_1",
+        "answer_d8a1af6b_5",
+        "sharegpt_lz0ys5C_19"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 4
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 5
+      },
+      "reference_positions": {
+        "answer_d8a1af6b_1": 5,
+        "answer_d8a1af6b_2": 3,
+        "answer_d8a1af6b_3": 2,
+        "answer_d8a1af6b_4": 1,
+        "answer_d8a1af6b_5": 6
+      },
+      "top10_ids": [
+        "answer_d8a1af6b_4",
+        "answer_d8a1af6b_3",
+        "answer_d8a1af6b_2",
+        "0ec0648a",
+        "answer_d8a1af6b_1",
+        "answer_d8a1af6b_5",
+        "0eb4cb14",
+        "0eb5508d",
+        "35c5419d_3",
+        "sharegpt_KEpjlPZ_19"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 4
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 5
+      },
+      "reference_positions": {
+        "answer_d8a1af6b_1": 5,
+        "answer_d8a1af6b_2": 4,
+        "answer_d8a1af6b_3": 2,
+        "answer_d8a1af6b_4": 1,
+        "answer_d8a1af6b_5": 6
+      },
+      "top10_ids": [
+        "answer_d8a1af6b_4",
+        "answer_d8a1af6b_3",
+        "0ec0648a",
+        "answer_d8a1af6b_2",
+        "answer_d8a1af6b_1",
+        "answer_d8a1af6b_5",
+        "0eb5508d",
+        "ultrachat_300662",
+        "sharegpt_xtWCl70_0",
+        "15a8ffb7_1"
+      ]
+    }
+  }
+}

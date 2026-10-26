@@ -1,0 +1,97 @@
+{
+  "id": "P08",
+  "cohort": "P25",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+  "reference_sources": [
+    "c9153f368b92a0a1aa0e04b1c",
+    "c77ccd1970a752a97cb1105f3",
+    "c8f9041e297070a3be513d341",
+    "c8b7f5dac3289afd48af13edf"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 4
+    },
+    "reference_positions": {
+      "c9153f368b92a0a1aa0e04b1c": 4,
+      "c77ccd1970a752a97cb1105f3": 1,
+      "c8f9041e297070a3be513d341": 6,
+      "c8b7f5dac3289afd48af13edf": 3
+    },
+    "top10_ids": [
+      "c77ccd1970a752a97cb1105f3",
+      "cbcbd7531f6d9d1ccedf0da68",
+      "c8b7f5dac3289afd48af13edf",
+      "c9153f368b92a0a1aa0e04b1c",
+      "c80e3ffa6e8f19f85e4a87a1f",
+      "c8f9041e297070a3be513d341",
+      "c0db477f6c9092596b54a6227",
+      "cd0a12f8f39926a3095728a92",
+      "c4da761fa29cfa9dbe9ec7b25",
+      "cbde2695f464c0c143d66c6aa"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c9153f368b92a0a1aa0e04b1c": 1,
+      "c77ccd1970a752a97cb1105f3": 11,
+      "c8f9041e297070a3be513d341": 6,
+      "c8b7f5dac3289afd48af13edf": 17
+    },
+    "top10_ids": [
+      "c9153f368b92a0a1aa0e04b1c",
+      "cbcbd7531f6d9d1ccedf0da68",
+      "cb02bbaef931497f342561068",
+      "c80e3ffa6e8f19f85e4a87a1f",
+      "cbde2695f464c0c143d66c6aa",
+      "c8f9041e297070a3be513d341",
+      "cf13d71055ebb9695c644f748",
+      "cea10cc00c1c65c227803a945",
+      "c7a75b66ae4536992f97d07fe",
+      "ce63cdace41d2b0d2d39c7052"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 4
+    },
+    "selected_ids": [
+      "c77ccd1970a752a97cb1105f3",
+      "cbcbd7531f6d9d1ccedf0da68",
+      "c8b7f5dac3289afd48af13edf",
+      "c9153f368b92a0a1aa0e04b1c",
+      "c80e3ffa6e8f19f85e4a87a1f",
+      "cb02bbaef931497f342561068",
+      "cbde2695f464c0c143d66c6aa",
+      "c8f9041e297070a3be513d341",
+      "c0db477f6c9092596b54a6227",
+      "cd0a12f8f39926a3095728a92"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.10600200000044424,
+    "raw_query": 0.004020458000013605,
+    "user_build": 0.013855999999577762,
+    "user_query": 0.0016549169995414559
+  }
+}

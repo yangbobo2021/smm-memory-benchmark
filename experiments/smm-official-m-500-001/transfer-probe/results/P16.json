@@ -1,0 +1,147 @@
+{
+  "id": "P16",
+  "cohort": "P25",
+  "type": "single-session-user",
+  "question": "How many skeins of worsted weight yarn did I find in my stash?",
+  "queries": {
+    "authored": "worsted weight yarn skeins skein stash found",
+    "stopword": "skeins worsted weight yarn find stash"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7bdcbd23": 1
+      },
+      "top10_ids": [
+        "answer_7bdcbd23",
+        "03f76b6b",
+        "57d6e39b_2",
+        "76b5158e",
+        "0afa6f05_1",
+        "sharegpt_p57YcDV_15",
+        "ultrachat_559692",
+        "28b27c7b_1",
+        "ad33c715_2",
+        "ed88aded_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7bdcbd23": 1
+      },
+      "top10_ids": [
+        "answer_7bdcbd23",
+        "sharegpt_iylDztx_14",
+        "ad33c715_2",
+        "ultrachat_326062",
+        "03f76b6b",
+        "sharegpt_8GfZxfB_0",
+        "0afa6f05_1",
+        "sharegpt_emWwGhF_0",
+        "ultrachat_559692",
+        "28b27c7b_1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7bdcbd23": 1
+      },
+      "top10_ids": [
+        "answer_7bdcbd23",
+        "ultrachat_559692",
+        "28b27c7b_1",
+        "ad33c715_2",
+        "ed88aded_1",
+        "sharegpt_iylDztx_14",
+        "8c64ce26_1",
+        "sharegpt_pFjStzR_0",
+        "sharegpt_PfiDxfU_37",
+        "22b6408f_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7bdcbd23": 1
+      },
+      "top10_ids": [
+        "answer_7bdcbd23",
+        "ultrachat_559692",
+        "sharegpt_E7VUcfj_0",
+        "sharegpt_iylDztx_14",
+        "ultrachat_437569",
+        "ultrachat_514408",
+        "ultrachat_298502",
+        "ultrachat_211475",
+        "ultrachat_270984",
+        "ultrachat_115418"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7bdcbd23": 1
+      },
+      "top10_ids": [
+        "answer_7bdcbd23",
+        "ultrachat_559692",
+        "sharegpt_iylDztx_14",
+        "ed88aded_1",
+        "0afa6f05_1",
+        "ultrachat_437569",
+        "ultrachat_270984",
+        "8c64ce26_1",
+        "ultrachat_400283",
+        "ultrachat_273623"
+      ]
+    }
+  }
+}

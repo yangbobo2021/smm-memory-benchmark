@@ -1,0 +1,72 @@
+{
+  "id": "P25",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "What time do I wake up on Tuesdays and Thursdays?",
+  "official_question_id": "gpt4_2c50253f",
+  "official_m_count": 474,
+  "official_m_occurrences": 476,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 47,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_9af4e346_2": 3,
+      "answer_9af4e346_1": 14
+    },
+    "top10_ids": [
+      "9b90460f_1",
+      "aa31c397_3",
+      "answer_9af4e346_2",
+      "b2ecce8d_1",
+      "6de8645d_1",
+      "fce8bb8a_2",
+      "24b91514_2",
+      "b7fa3417_1",
+      "3c00365f_3",
+      "4b60c8fc"
+    ],
+    "build_seconds": 0.04712579199986067,
+    "query_seconds": 0.0016691250002622837
+  }
+}

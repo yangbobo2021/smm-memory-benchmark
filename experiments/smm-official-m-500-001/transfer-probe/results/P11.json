@@ -1,0 +1,147 @@
+{
+  "id": "P11",
+  "cohort": "P25",
+  "type": "single-session-assistant",
+  "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+  "queries": {
+    "authored": "Vatican deli cured meats cheeses",
+    "stopword": "m planning visit vatican again wondering if remind name that famous deli near serves best cured meats cheeses"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_467053": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_467053",
+        "c7f7949e_5",
+        "ultrachat_507552",
+        "96cc00f5_1",
+        "159dfe2f_4",
+        "dc6bb319_1",
+        "ultrachat_480724",
+        "9733011f_1",
+        "sharegpt_wXqtiUe_0",
+        "97d3d674"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_467053": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_467053",
+        "c7f7949e_5",
+        "ultrachat_507552",
+        "sharegpt_Ggd6M1n_18",
+        "96cc00f5_1",
+        "sharegpt_wXqtiUe_0",
+        "159dfe2f_4",
+        "sharegpt_CcQ9JCK_7",
+        "dc6bb319_1",
+        "cc36cd3e"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_467053": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_467053",
+        "c7f7949e_5",
+        "ultrachat_507552",
+        "96cc00f5_1",
+        "159dfe2f_4",
+        "dc6bb319_1",
+        "ultrachat_480724",
+        "9733011f_1",
+        "sharegpt_wXqtiUe_0",
+        "97d3d674"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_467053": 2
+      },
+      "top10_ids": [
+        "9733011f_1",
+        "answer_ultrachat_467053",
+        "beae7a66_2",
+        "77e7ab20_2",
+        "1bc87711_1",
+        "96cc00f5_1",
+        "33bfd3d6",
+        "sharegpt_N6fyR0C_0",
+        "855f5969_2",
+        "159dfe2f_4"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_467053": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_467053",
+        "9733011f_1",
+        "96cc00f5_1",
+        "159dfe2f_4",
+        "33bfd3d6",
+        "dc6bb319_1",
+        "97d3d674",
+        "beae7a66_2",
+        "d9727262_4",
+        "855f5969_2"
+      ]
+    }
+  }
+}

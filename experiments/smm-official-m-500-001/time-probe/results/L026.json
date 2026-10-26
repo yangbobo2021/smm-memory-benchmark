@@ -1,0 +1,52 @@
+{
+  "id": "L026",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_0b4a8adc_1": 1
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_0b4a8adc_1": 1
+    },
+    "top10_ids": [
+      "answer_0b4a8adc_1",
+      "bd8708e2_3",
+      "5365840b_2",
+      "891f13f0",
+      "d8e33f5c_1",
+      "acda6a4e_2",
+      "35bc3132_2",
+      "183d2822_2",
+      "936b0969_1",
+      "eadc9568"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.0031959999996615807,
+  "build_seconds": 0.05133820899936836
+}

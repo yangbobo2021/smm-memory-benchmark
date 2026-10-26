@@ -1,0 +1,94 @@
+{
+  "id": "P21",
+  "cohort": "P25",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+  "reference_sources": [
+    "c5cb50c297191b2e566d454d2",
+    "cd2a6842f7e4b75fe0461d1a1",
+    "c967f69f5e97bb77d7922817a"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c5cb50c297191b2e566d454d2": 3,
+      "cd2a6842f7e4b75fe0461d1a1": 1,
+      "c967f69f5e97bb77d7922817a": 2
+    },
+    "top10_ids": [
+      "cd2a6842f7e4b75fe0461d1a1",
+      "c967f69f5e97bb77d7922817a",
+      "c5cb50c297191b2e566d454d2",
+      "c2fc4dcb3727b82f5e95caacc",
+      "c80f1308a1018b613b82b11d4",
+      "c02e959baebf0e95ad1856303",
+      "cfb58939b84bf560e87d4500a",
+      "cc0c2a2058d3542527ff62e0f",
+      "ce6d87afcd08f718793c3c6c5",
+      "cf64f0d262c44d5b5899b3643"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c5cb50c297191b2e566d454d2": 3,
+      "cd2a6842f7e4b75fe0461d1a1": 7,
+      "c967f69f5e97bb77d7922817a": 4
+    },
+    "top10_ids": [
+      "c6c9df98a899615dd4902b36d",
+      "c88b7ee945645814e84c70061",
+      "c5cb50c297191b2e566d454d2",
+      "c967f69f5e97bb77d7922817a",
+      "c2fc4dcb3727b82f5e95caacc",
+      "cfb58939b84bf560e87d4500a",
+      "cd2a6842f7e4b75fe0461d1a1",
+      "cc0c2a2058d3542527ff62e0f",
+      "c3c313adbd58c807cb43ca0c3",
+      "c24dc1e2125ce07ab7026be63"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "selected_ids": [
+      "cd2a6842f7e4b75fe0461d1a1",
+      "c967f69f5e97bb77d7922817a",
+      "c5cb50c297191b2e566d454d2",
+      "c2fc4dcb3727b82f5e95caacc",
+      "c80f1308a1018b613b82b11d4",
+      "c6c9df98a899615dd4902b36d",
+      "c88b7ee945645814e84c70061",
+      "c02e959baebf0e95ad1856303",
+      "cfb58939b84bf560e87d4500a",
+      "cc0c2a2058d3542527ff62e0f"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.11395579199961503,
+    "raw_query": 0.0020523330003925366,
+    "user_build": 0.013173458000892424,
+    "user_query": 0.000912374998733867
+  }
+}

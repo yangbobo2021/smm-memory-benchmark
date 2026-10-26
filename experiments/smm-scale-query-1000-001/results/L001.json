@@ -1,0 +1,91 @@
+{
+  "id": "L001",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c72018d6b87a05e3e7b25a12c",
+    "ce305bb606468ab6b8e2ead39"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c72018d6b87a05e3e7b25a12c": 1,
+      "ce305bb606468ab6b8e2ead39": 4
+    }
+  },
+  "authored": {
+    "query": "Hawaii New York City trip travel days",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c72018d6b87a05e3e7b25a12c": 2,
+      "ce305bb606468ab6b8e2ead39": 6
+    },
+    "top10_ids": [
+      "c619582baf0f6882eb4645e73",
+      "c72018d6b87a05e3e7b25a12c",
+      "c8f374bbc872d0bf8d35a0fdc",
+      "c4d713c7712e68a7a7bf243d3",
+      "c45f85aeb1e05318b60dbc918",
+      "ce305bb606468ab6b8e2ead39",
+      "ce33cf476ac12e1ac6f879164",
+      "cb611540164483e62e9f5d5c5",
+      "cd8e108058f5f0136e4973cee",
+      "cf0cbba178985ad1c6edbd21a"
+    ],
+    "seconds": {
+      "build": 0.11328125,
+      "query": 0.0008863329994710512
+    }
+  },
+  "stopword": {
+    "query": "days spend total traveling hawaii new york city",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c72018d6b87a05e3e7b25a12c": 1,
+      "ce305bb606468ab6b8e2ead39": 3
+    },
+    "top10_ids": [
+      "c72018d6b87a05e3e7b25a12c",
+      "c619582baf0f6882eb4645e73",
+      "ce305bb606468ab6b8e2ead39",
+      "c8f374bbc872d0bf8d35a0fdc",
+      "ca90fac6d5a0c00acfc5eeb71",
+      "ca352623c00182ca6675e06c3",
+      "cf12aca46a236b7898b267cf0",
+      "cc0a673018328515f1321fa13",
+      "ce33cf476ac12e1ac6f879164",
+      "c61139aa58b6aee89b595e51d"
+    ],
+    "seconds": {
+      "build": 0.1150679169995783,
+      "query": 0.0009094999995795661
+    }
+  }
+}

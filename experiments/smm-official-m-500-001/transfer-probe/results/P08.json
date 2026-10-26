@@ -1,0 +1,162 @@
+{
+  "id": "P08",
+  "cohort": "P25",
+  "type": "multi-session",
+  "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+  "queries": {
+    "authored": "citrus fruit fruits cocktails cocktail recipes used",
+    "stopword": "different types citrus fruits used cocktail recipes"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "reference_positions": {
+        "answer_56d02cab_3": 3,
+        "answer_56d02cab_2": 5,
+        "answer_56d02cab_4": 1,
+        "answer_56d02cab_1": 2
+      },
+      "top10_ids": [
+        "answer_56d02cab_4",
+        "answer_56d02cab_1",
+        "answer_56d02cab_3",
+        "23450b93_3",
+        "answer_56d02cab_2",
+        "b7af95e2_2",
+        "16ebc8f8_3",
+        "98520377_1",
+        "ed906a3d",
+        "605f37d7_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "reference_positions": {
+        "answer_56d02cab_3": 5,
+        "answer_56d02cab_2": 4,
+        "answer_56d02cab_4": 1,
+        "answer_56d02cab_1": 3
+      },
+      "top10_ids": [
+        "answer_56d02cab_4",
+        "23450b93_3",
+        "answer_56d02cab_1",
+        "answer_56d02cab_2",
+        "answer_56d02cab_3",
+        "16ebc8f8_3",
+        "b7af95e2_2",
+        "98520377_1",
+        "a7cd1c0f_2",
+        "ed906a3d"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "reference_positions": {
+        "answer_56d02cab_3": 3,
+        "answer_56d02cab_2": 5,
+        "answer_56d02cab_4": 1,
+        "answer_56d02cab_1": 2
+      },
+      "top10_ids": [
+        "answer_56d02cab_4",
+        "answer_56d02cab_1",
+        "answer_56d02cab_3",
+        "23450b93_3",
+        "answer_56d02cab_2",
+        "b7af95e2_2",
+        "16ebc8f8_3",
+        "98520377_1",
+        "ed906a3d",
+        "605f37d7_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_56d02cab_3": 1,
+        "answer_56d02cab_2": 3,
+        "answer_56d02cab_4": 7,
+        "answer_56d02cab_1": 13
+      },
+      "top10_ids": [
+        "answer_56d02cab_3",
+        "a1b3dd27_3",
+        "answer_56d02cab_2",
+        "23450b93_3",
+        "ultrachat_518548",
+        "b8b6bad5_1",
+        "answer_56d02cab_4",
+        "b7af95e2_2",
+        "ed906a3d",
+        "ultrachat_503519"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 4
+      },
+      "reference_positions": {
+        "answer_56d02cab_3": 1,
+        "answer_56d02cab_2": 3,
+        "answer_56d02cab_4": 2,
+        "answer_56d02cab_1": 6
+      },
+      "top10_ids": [
+        "answer_56d02cab_3",
+        "answer_56d02cab_4",
+        "answer_56d02cab_2",
+        "23450b93_3",
+        "b7af95e2_2",
+        "answer_56d02cab_1",
+        "a1b3dd27_3",
+        "ed906a3d",
+        "ultrachat_518548",
+        "b8b6bad5_1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "P19",
+  "cohort": "P25",
+  "type": "single-session-user",
+  "question": "Where did I buy my new tennis racket from?",
+  "queries": {
+    "authored": "tennis racket bought purchased store shop",
+    "stopword": "buy new tennis racket"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c3567066": 1
+      },
+      "top10_ids": [
+        "answer_c3567066",
+        "ultrachat_270979",
+        "ultrachat_82448",
+        "ultrachat_431039",
+        "ultrachat_128918",
+        "sharegpt_M5zaN8c_0",
+        "ecde4d11",
+        "ultrachat_415516",
+        "sharegpt_7uSzi6w_29",
+        "b124e4a1_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c3567066": 1
+      },
+      "top10_ids": [
+        "answer_c3567066",
+        "6dc62df6_1",
+        "e0a9ce54_1",
+        "f1163e57",
+        "3202be3d_1",
+        "ultrachat_270979",
+        "c1f43b66_2",
+        "07ff284d_1",
+        "f58c36b8_1",
+        "98520377_1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c3567066": 1
+      },
+      "top10_ids": [
+        "answer_c3567066",
+        "ultrachat_270979",
+        "ultrachat_82448",
+        "ultrachat_431039",
+        "ultrachat_128918",
+        "ultrachat_415516",
+        "ecde4d11",
+        "sharegpt_7uSzi6w_29",
+        "b124e4a1_2",
+        "sharegpt_2BSXlAr_0"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c3567066": 1
+      },
+      "top10_ids": [
+        "answer_c3567066",
+        "ecde4d11",
+        "e9499aaf_2",
+        "ultrachat_270979",
+        "d0b0dabe",
+        "d0cdfddb_1",
+        "ultrachat_227489",
+        "c04c626c_1",
+        "sharegpt_2BSXlAr_0",
+        "98e1dcd8_4"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_c3567066": 1
+      },
+      "top10_ids": [
+        "answer_c3567066",
+        "ultrachat_270979",
+        "ecde4d11",
+        "e9499aaf_2",
+        "sharegpt_2BSXlAr_0",
+        "d0cdfddb_1",
+        "sharegpt_7uSzi6w_29",
+        "98e1dcd8_4",
+        "sharegpt_o0jtbUO_8",
+        "b124e4a1_2"
+      ]
+    }
+  }
+}

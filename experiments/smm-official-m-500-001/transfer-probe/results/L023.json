@@ -1,0 +1,152 @@
+{
+  "id": "L023",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+  "queries": {
+    "authored": "cousin wedding Michael engagement party dates",
+    "stopword": "event happened first cousin s wedding michael engagement party"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_add9b012_2": 1,
+        "answer_add9b012_1": 2
+      },
+      "top10_ids": [
+        "answer_add9b012_2",
+        "answer_add9b012_1",
+        "ce291e98",
+        "ultrachat_205888",
+        "7d5df0e4",
+        "58ae7c4f_3",
+        "9baddc74",
+        "ultrachat_224196",
+        "04c33462_2",
+        "sharegpt_NZ4gHgF_0"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_add9b012_2": 1,
+        "answer_add9b012_1": 2
+      },
+      "top10_ids": [
+        "answer_add9b012_2",
+        "answer_add9b012_1",
+        "ce291e98",
+        "04c33462_2",
+        "c63e89b9",
+        "sharegpt_NZ4gHgF_0",
+        "ultrachat_205888",
+        "58ae7c4f_3",
+        "9baddc74",
+        "334ab2f1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_add9b012_2": 1,
+        "answer_add9b012_1": 2
+      },
+      "top10_ids": [
+        "answer_add9b012_2",
+        "answer_add9b012_1",
+        "ce291e98",
+        "ultrachat_205888",
+        "7d5df0e4",
+        "58ae7c4f_3",
+        "9baddc74",
+        "ultrachat_224196",
+        "04c33462_2",
+        "sharegpt_NZ4gHgF_0"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_add9b012_2": 1,
+        "answer_add9b012_1": 2
+      },
+      "top10_ids": [
+        "answer_add9b012_2",
+        "answer_add9b012_1",
+        "58ae7c4f_3",
+        "ce291e98",
+        "ultrachat_224196",
+        "7d5df0e4",
+        "sharegpt_OgX78SR_0",
+        "e29024cb",
+        "04c33462_2",
+        "2a86d0da_2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_add9b012_2": 1,
+        "answer_add9b012_1": 2
+      },
+      "top10_ids": [
+        "answer_add9b012_2",
+        "answer_add9b012_1",
+        "ce291e98",
+        "58ae7c4f_3",
+        "7d5df0e4",
+        "ultrachat_224196",
+        "04c33462_2",
+        "sharegpt_NZ4gHgF_0",
+        "ultrachat_205888",
+        "2a86d0da_2"
+      ]
+    }
+  }
+}

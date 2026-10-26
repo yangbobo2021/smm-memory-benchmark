@@ -1,0 +1,56 @@
+{
+  "id": "L014",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "How many months have passed since I last visited a museum with a friend?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_f4ea84fb_3": 1,
+      "answer_f4ea84fb_2": 64,
+      "answer_f4ea84fb_1": 8
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_f4ea84fb_3": 1,
+      "answer_f4ea84fb_2": 64,
+      "answer_f4ea84fb_1": 8
+    },
+    "top10_ids": [
+      "answer_f4ea84fb_3",
+      "afa0c2e7_2",
+      "5ff494b9",
+      "de6b2df4_2",
+      "0df54428_2",
+      "ultrachat_431091",
+      "2be25890",
+      "answer_f4ea84fb_1",
+      "9bd36386",
+      "5b6acaf5"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.0019317499991302611,
+  "build_seconds": 0.05072891700001492
+}

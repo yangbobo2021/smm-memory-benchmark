@@ -1,0 +1,91 @@
+{
+  "id": "C124",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c0bd330ab68847aedbdf12baa",
+    "c59ffd9422b82dbd55d1facb9"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c0bd330ab68847aedbdf12baa": 6,
+      "c59ffd9422b82dbd55d1facb9": 5
+    }
+  },
+  "authored": {
+    "query": "Caroline Melanie painted painting subject",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c0bd330ab68847aedbdf12baa": 8,
+      "c59ffd9422b82dbd55d1facb9": 4
+    },
+    "top10_ids": [
+      "ce142a1d8fc9d169bfa9fda59",
+      "cc6e8a8ce1aae8adca4173ed6",
+      "c16c71b5ac3cc8d438f30e02e",
+      "c59ffd9422b82dbd55d1facb9",
+      "c9374b3eec6067d6a0cb1328e",
+      "cbf31e4f19b0da0ee35961607",
+      "cb5230b6ede18b2395f49ad99",
+      "c0bd330ab68847aedbdf12baa",
+      "c63a95f04d6605948c5bd6a4a",
+      "c86e1deaeb63c5fadbf3fc8a1"
+    ],
+    "seconds": {
+      "build": 0.018862042000364454,
+      "query": 0.00010724999992817175
+    }
+  },
+  "stopword": {
+    "query": "subject caroline melanie both painted",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c0bd330ab68847aedbdf12baa": 6,
+      "c59ffd9422b82dbd55d1facb9": 5
+    },
+    "top10_ids": [
+      "cc6e8a8ce1aae8adca4173ed6",
+      "ce142a1d8fc9d169bfa9fda59",
+      "c63a95f04d6605948c5bd6a4a",
+      "c16c71b5ac3cc8d438f30e02e",
+      "c59ffd9422b82dbd55d1facb9",
+      "c0bd330ab68847aedbdf12baa",
+      "c4dc55d280c7f3f545df4d134",
+      "c9374b3eec6067d6a0cb1328e",
+      "c86e1deaeb63c5fadbf3fc8a1",
+      "cf4e6d7411e1cdca21b4f96c7"
+    ],
+    "seconds": {
+      "build": 0.018849291999686102,
+      "query": 0.00021437499981402652
+    }
+  }
+}

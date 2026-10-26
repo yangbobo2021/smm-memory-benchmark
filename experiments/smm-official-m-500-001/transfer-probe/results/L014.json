@@ -1,0 +1,157 @@
+{
+  "id": "L014",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "How many months have passed since I last visited a museum with a friend?",
+  "queries": {
+    "authored": "museum visited visit friend months",
+    "stopword": "months passed since last visited museum friend"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_f4ea84fb_3": 1,
+        "answer_f4ea84fb_2": 64,
+        "answer_f4ea84fb_1": 8
+      },
+      "top10_ids": [
+        "answer_f4ea84fb_3",
+        "afa0c2e7_2",
+        "5ff494b9",
+        "de6b2df4_2",
+        "0df54428_2",
+        "ultrachat_431091",
+        "2be25890",
+        "answer_f4ea84fb_1",
+        "9bd36386",
+        "5b6acaf5"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_f4ea84fb_3": 1,
+        "answer_f4ea84fb_2": 22,
+        "answer_f4ea84fb_1": 9
+      },
+      "top10_ids": [
+        "answer_f4ea84fb_3",
+        "5ff494b9",
+        "afa0c2e7_2",
+        "0df54428_2",
+        "de6b2df4_2",
+        "9bd36386",
+        "5b6acaf5",
+        "ultrachat_160361",
+        "answer_f4ea84fb_1",
+        "ultrachat_548654"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_f4ea84fb_3": 1,
+        "answer_f4ea84fb_2": 64,
+        "answer_f4ea84fb_1": 8
+      },
+      "top10_ids": [
+        "answer_f4ea84fb_3",
+        "afa0c2e7_2",
+        "5ff494b9",
+        "de6b2df4_2",
+        "0df54428_2",
+        "ultrachat_431091",
+        "2be25890",
+        "answer_f4ea84fb_1",
+        "9bd36386",
+        "5b6acaf5"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_f4ea84fb_3": 1,
+        "answer_f4ea84fb_2": 27,
+        "answer_f4ea84fb_1": 10
+      },
+      "top10_ids": [
+        "answer_f4ea84fb_3",
+        "5ff494b9",
+        "afa0c2e7_2",
+        "5cbfaf3e_3",
+        "5b6acaf5",
+        "ultrachat_160361",
+        "a90fc282_3",
+        "ea8c38f8",
+        "080a4000_3",
+        "answer_f4ea84fb_1"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_f4ea84fb_3": 1,
+        "answer_f4ea84fb_2": 35,
+        "answer_f4ea84fb_1": 5
+      },
+      "top10_ids": [
+        "answer_f4ea84fb_3",
+        "5ff494b9",
+        "afa0c2e7_2",
+        "5b6acaf5",
+        "answer_f4ea84fb_1",
+        "a90fc282_3",
+        "ultrachat_160361",
+        "9854a0af_3",
+        "080a4000_3",
+        "de6b2df4_2"
+      ]
+    }
+  }
+}

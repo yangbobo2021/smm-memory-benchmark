@@ -1,0 +1,56 @@
+{
+  "id": "P21",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+  "window": null,
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "answer_cf021b36_1": 4,
+      "answer_cf021b36_2": 1,
+      "answer_cf021b36_3": 5
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "answer_cf021b36_1": 4,
+      "answer_cf021b36_2": 1,
+      "answer_cf021b36_3": 5
+    },
+    "top10_ids": [
+      "answer_cf021b36_2",
+      "f10e6d2c_3",
+      "sharegpt_hUAh1Tu_0",
+      "answer_cf021b36_1",
+      "answer_cf021b36_3",
+      "a402a59e_4",
+      "sharegpt_OC3Flsx_29",
+      "fd1bbf43_2",
+      "9d0f4bfa_1",
+      "ad361482_1"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.001151582999227685,
+  "build_seconds": 0.04999337499975809
+}

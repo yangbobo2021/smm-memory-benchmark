@@ -1,0 +1,95 @@
+{
+  "id": "C037",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c8b39ab3ed8428d688548cf45",
+    "cd387b85982a45e4f67498a15",
+    "ce49b7c6f8092a7995fd418ac"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c8b39ab3ed8428d688548cf45": 9,
+      "cd387b85982a45e4f67498a15": 6,
+      "ce49b7c6f8092a7995fd418ac": 2
+    }
+  },
+  "authored": {
+    "query": "Sam Evan health scare scares",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c8b39ab3ed8428d688548cf45": 3,
+      "cd387b85982a45e4f67498a15": 2,
+      "ce49b7c6f8092a7995fd418ac": 1
+    },
+    "top10_ids": [
+      "ce49b7c6f8092a7995fd418ac",
+      "cd387b85982a45e4f67498a15",
+      "c8b39ab3ed8428d688548cf45",
+      "c099c629be363928b0b525ceb",
+      "c193b96709859e85ecedd4908",
+      "c176d5ff52917b2bf853bccc7",
+      "c2785dde695156c4f1768092c",
+      "c7e394a58a9aeb450c6944ab5",
+      "c7f5fa84a9e9f6afef6a69e20",
+      "c1a8a7bafb176afe97c2f6f73"
+    ],
+    "seconds": {
+      "build": 0.01874575000056211,
+      "query": 0.000143082999784383
+    }
+  },
+  "stopword": {
+    "query": "health scares sam evan experience",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c8b39ab3ed8428d688548cf45": 9,
+      "cd387b85982a45e4f67498a15": 6,
+      "ce49b7c6f8092a7995fd418ac": 2
+    },
+    "top10_ids": [
+      "c2785dde695156c4f1768092c",
+      "ce49b7c6f8092a7995fd418ac",
+      "c099c629be363928b0b525ceb",
+      "c193b96709859e85ecedd4908",
+      "c176d5ff52917b2bf853bccc7",
+      "cd387b85982a45e4f67498a15",
+      "cfdb086509e9507eb56336975",
+      "c7e394a58a9aeb450c6944ab5",
+      "c8b39ab3ed8428d688548cf45",
+      "c7f5fa84a9e9f6afef6a69e20"
+    ],
+    "seconds": {
+      "build": 0.018706916999690293,
+      "query": 0.00029066699971735943
+    }
+  }
+}

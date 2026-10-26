@@ -1,0 +1,58 @@
+{
+  "id": "L016",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "Which bike did I fixed or serviced the past weekend?",
+  "window": {
+    "start": "2023-03-18",
+    "end": "2023-03-19",
+    "rule": "past-weekend"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_e28c1f0e_1": 1,
+      "answer_e28c1f0e_2": 18
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "answer_e28c1f0e_1": 43,
+      "answer_e28c1f0e_2": 8
+    },
+    "top10_ids": [
+      "abc2ac45",
+      "1644e9cb",
+      "c07b8034",
+      "33994682_1",
+      "e8de3056_2",
+      "15519944_2",
+      "20b5caab_1",
+      "answer_e28c1f0e_2",
+      "717d1aea_3",
+      "04b96dce"
+    ]
+  },
+  "time_bonus_count_in_raw100": 42,
+  "query_seconds": 0.0014991249990998767,
+  "build_seconds": 0.04972066700065625
+}

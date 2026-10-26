@@ -1,0 +1,152 @@
+{
+  "id": "L020",
+  "cohort": "L32",
+  "type": "multi-session",
+  "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+  "queries": {
+    "authored": "airport hotel train taxi fare cost",
+    "stopword": "save taking train airport hotel instead taxi"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_96c743d0_2": 2,
+        "answer_96c743d0_1": 1
+      },
+      "top10_ids": [
+        "answer_96c743d0_1",
+        "answer_96c743d0_2",
+        "2b6a88cc_2",
+        "89266067_2",
+        "e3a5daae",
+        "851f83ad_2",
+        "5300bfba",
+        "ce919391_1",
+        "b928c6df",
+        "sharegpt_LG10LI6_0"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_96c743d0_2": 1,
+        "answer_96c743d0_1": 2
+      },
+      "top10_ids": [
+        "answer_96c743d0_2",
+        "answer_96c743d0_1",
+        "2b6a88cc_2",
+        "89266067_2",
+        "e3a5daae",
+        "9e05d9a0",
+        "5300bfba",
+        "ce919391_1",
+        "b928c6df",
+        "851f83ad_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_96c743d0_2": 2,
+        "answer_96c743d0_1": 1
+      },
+      "top10_ids": [
+        "answer_96c743d0_1",
+        "answer_96c743d0_2",
+        "2b6a88cc_2",
+        "89266067_2",
+        "e3a5daae",
+        "5300bfba",
+        "851f83ad_2",
+        "ce919391_1",
+        "b928c6df",
+        "sharegpt_LG10LI6_0"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_96c743d0_2": 2,
+        "answer_96c743d0_1": 1
+      },
+      "top10_ids": [
+        "answer_96c743d0_1",
+        "answer_96c743d0_2",
+        "2b6a88cc_2",
+        "687c10c1",
+        "89266067_2",
+        "c9292210_3",
+        "9bdbfc62_1",
+        "ce919391_1",
+        "84f13d49_2",
+        "ce79a004"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_96c743d0_2": 2,
+        "answer_96c743d0_1": 1
+      },
+      "top10_ids": [
+        "answer_96c743d0_1",
+        "answer_96c743d0_2",
+        "2b6a88cc_2",
+        "89266067_2",
+        "ce919391_1",
+        "851f83ad_2",
+        "9bdbfc62_1",
+        "ce79a004",
+        "687c10c1",
+        "84f13d49_2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "L014",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "How many months have passed since I last visited a museum with a friend?",
+  "official_question_id": "0bc8ad92",
+  "official_m_count": 475,
+  "official_m_occurrences": 477,
+  "official_m_ref_count": 3,
+  "official_m_ref_count_before_dedupe": 3,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 3,
+  "s_ref_hashes_in_m": 3,
+  "m_s_body_overlap": 3,
+  "original_s": {
+    "count": 49,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_f4ea84fb_3": 1,
+      "answer_f4ea84fb_2": 64,
+      "answer_f4ea84fb_1": 8
+    },
+    "top10_ids": [
+      "answer_f4ea84fb_3",
+      "afa0c2e7_2",
+      "5ff494b9",
+      "de6b2df4_2",
+      "0df54428_2",
+      "ultrachat_431091",
+      "2be25890",
+      "answer_f4ea84fb_1",
+      "9bd36386",
+      "5b6acaf5"
+    ],
+    "build_seconds": 0.045911291999800596,
+    "query_seconds": 0.0017454999997426057
+  }
+}

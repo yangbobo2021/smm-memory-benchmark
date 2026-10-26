@@ -1,0 +1,152 @@
+{
+  "id": "L019",
+  "cohort": "L32",
+  "type": "knowledge-update",
+  "question": "How often do I see my therapist, Dr. Smith?",
+  "queries": {
+    "authored": "therapist Dr Smith appointments sessions frequency",
+    "stopword": "often see therapist dr smith"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_9282283d_1": 3,
+        "answer_9282283d_2": 2
+      },
+      "top10_ids": [
+        "e2b2d15f_1",
+        "answer_9282283d_2",
+        "answer_9282283d_1",
+        "9afa349d_2",
+        "e9fb10e7_2",
+        "dcbd175f_2",
+        "ultrachat_86599",
+        "d84522f5_2",
+        "ultrachat_71574",
+        "7e08257a_3"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_9282283d_1": 3,
+        "answer_9282283d_2": 1
+      },
+      "top10_ids": [
+        "answer_9282283d_2",
+        "e2b2d15f_1",
+        "answer_9282283d_1",
+        "9afa349d_2",
+        "dcbd175f_2",
+        "e0fd9761",
+        "9cc709cb",
+        "d84522f5_2",
+        "ultrachat_121267",
+        "e9fb10e7_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_9282283d_1": 3,
+        "answer_9282283d_2": 2
+      },
+      "top10_ids": [
+        "e2b2d15f_1",
+        "answer_9282283d_2",
+        "answer_9282283d_1",
+        "9afa349d_2",
+        "e9fb10e7_2",
+        "dcbd175f_2",
+        "ultrachat_86599",
+        "d84522f5_2",
+        "ultrachat_71574",
+        "7e08257a_3"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_9282283d_1": 4,
+        "answer_9282283d_2": 2
+      },
+      "top10_ids": [
+        "e2b2d15f_1",
+        "answer_9282283d_2",
+        "9afa349d_2",
+        "answer_9282283d_1",
+        "dcbd175f_2",
+        "ultrachat_32236",
+        "ultrachat_121267",
+        "ultrachat_138810",
+        "92408441",
+        "ultrachat_20586"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_9282283d_1": 4,
+        "answer_9282283d_2": 2
+      },
+      "top10_ids": [
+        "e2b2d15f_1",
+        "answer_9282283d_2",
+        "9afa349d_2",
+        "answer_9282283d_1",
+        "dcbd175f_2",
+        "ultrachat_20586",
+        "ultrachat_476297",
+        "92408441",
+        "ultrachat_49450",
+        "sharegpt_gw7Ym6y_6"
+      ]
+    }
+  }
+}

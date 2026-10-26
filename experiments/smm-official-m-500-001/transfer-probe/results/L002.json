@@ -1,0 +1,152 @@
+{
+  "id": "L002",
+  "cohort": "L32",
+  "type": "knowledge-update",
+  "question": "How many bikes do I currently own?",
+  "queries": {
+    "authored": "bike bikes bicycle bicycles own bought sold",
+    "stopword": "bikes currently own"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e1403127_1": 1,
+        "answer_e1403127_2": 2
+      },
+      "top10_ids": [
+        "answer_e1403127_1",
+        "answer_e1403127_2",
+        "ultrachat_413689",
+        "e8212ed9",
+        "sharegpt_kkvrBBQ_19",
+        "ultrachat_508911",
+        "4662d8ba_2",
+        "ultrachat_465335",
+        "ee75cdb9_6",
+        "sharegpt_droIKZ9_0"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e1403127_1": 2,
+        "answer_e1403127_2": 1
+      },
+      "top10_ids": [
+        "answer_e1403127_2",
+        "answer_e1403127_1",
+        "a9e242e8",
+        "ultrachat_98955",
+        "5ca120a0_2",
+        "75a48603_2",
+        "730a1d1d_2",
+        "ultrachat_301679",
+        "1b71c896_1",
+        "ab6d46f8_1"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e1403127_1": 1,
+        "answer_e1403127_2": 2
+      },
+      "top10_ids": [
+        "answer_e1403127_1",
+        "answer_e1403127_2",
+        "ultrachat_413689",
+        "e8212ed9",
+        "sharegpt_kkvrBBQ_19",
+        "ultrachat_508911",
+        "4662d8ba_2",
+        "ultrachat_465335",
+        "ee75cdb9_6",
+        "sharegpt_droIKZ9_0"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e1403127_1": 1,
+        "answer_e1403127_2": 2
+      },
+      "top10_ids": [
+        "answer_e1403127_1",
+        "answer_e1403127_2",
+        "ultrachat_91819",
+        "484da715",
+        "ultrachat_465335",
+        "8fb3fe3a_4",
+        "ultrachat_184287",
+        "da293cdc_2",
+        "ultrachat_167674",
+        "ultrachat_37500"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e1403127_1": 1,
+        "answer_e1403127_2": 2
+      },
+      "top10_ids": [
+        "answer_e1403127_1",
+        "answer_e1403127_2",
+        "ultrachat_465335",
+        "484da715",
+        "8fb3fe3a_4",
+        "sharegpt_E0YL5SX_162",
+        "ultrachat_508911",
+        "ultrachat_184287",
+        "ultrachat_167674",
+        "ultrachat_413689"
+      ]
+    }
+  }
+}

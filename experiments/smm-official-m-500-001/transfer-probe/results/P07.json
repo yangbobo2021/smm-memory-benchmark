@@ -1,0 +1,152 @@
+{
+  "id": "P07",
+  "cohort": "P25",
+  "type": "multi-session",
+  "question": "How many dinner parties have I attended in the past month?",
+  "queries": {
+    "authored": "dinner parties party attended attend month",
+    "stopword": "dinner parties attended past month"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_75eca223_1": 1,
+        "answer_75eca223_2": 10
+      },
+      "top10_ids": [
+        "answer_75eca223_1",
+        "06c8aa77",
+        "ultrachat_230002",
+        "527a88df",
+        "3a980e89_1",
+        "sharegpt_9cPcQqG_0",
+        "c870d63c",
+        "3dced3e9_3",
+        "ultrachat_224922",
+        "answer_75eca223_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_75eca223_1": 1,
+        "answer_75eca223_2": 3
+      },
+      "top10_ids": [
+        "answer_75eca223_1",
+        "3a90b2d1_1",
+        "answer_75eca223_2",
+        "aaf71ce2_1",
+        "sharegpt_OLGvWgW_0",
+        "dba89487_1",
+        "8d246f89",
+        "3dced3e9_3",
+        "187b4852_1",
+        "ultrachat_392989"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_75eca223_1": 1,
+        "answer_75eca223_2": 10
+      },
+      "top10_ids": [
+        "answer_75eca223_1",
+        "06c8aa77",
+        "ultrachat_230002",
+        "527a88df",
+        "3a980e89_1",
+        "sharegpt_9cPcQqG_0",
+        "c870d63c",
+        "3dced3e9_3",
+        "ultrachat_224922",
+        "answer_75eca223_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_75eca223_1": 1,
+        "answer_75eca223_2": 6
+      },
+      "top10_ids": [
+        "answer_75eca223_1",
+        "c870d63c",
+        "ultrachat_230002",
+        "3a980e89_1",
+        "527a88df",
+        "answer_75eca223_2",
+        "06c8aa77",
+        "aa930b56_2",
+        "5944414c_1",
+        "dba89487_1"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_75eca223_1": 1,
+        "answer_75eca223_2": 7
+      },
+      "top10_ids": [
+        "answer_75eca223_1",
+        "ultrachat_230002",
+        "06c8aa77",
+        "c870d63c",
+        "3a980e89_1",
+        "527a88df",
+        "answer_75eca223_2",
+        "aaf71ce2_1",
+        "aa930b56_2",
+        "ultrachat_224922"
+      ]
+    }
+  }
+}

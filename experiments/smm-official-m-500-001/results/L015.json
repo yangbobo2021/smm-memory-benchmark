@@ -1,0 +1,74 @@
+{
+  "id": "L015",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "What charity event did I participate in a month ago?",
+  "official_question_id": "b46e15ee",
+  "official_m_count": 470,
+  "official_m_occurrences": 477,
+  "official_m_ref_count": 4,
+  "official_m_ref_count_before_dedupe": 4,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 4,
+  "s_ref_hashes_in_m": 4,
+  "m_s_body_overlap": 6,
+  "original_s": {
+    "count": 42,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 4
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_4bfcc251_4": 31,
+      "answer_4bfcc251_3": 9,
+      "answer_4bfcc251_2": 19,
+      "answer_4bfcc251_1": 1
+    },
+    "top10_ids": [
+      "answer_4bfcc251_1",
+      "018eac29",
+      "eb7366f2_2",
+      "2b61f4a3_3",
+      "da0ad5c7_1",
+      "7cdae41f_1",
+      "43668d77_4",
+      "6f8f4c80_2",
+      "answer_4bfcc251_3",
+      "90eae9cd_2"
+    ],
+    "build_seconds": 0.045728874998530955,
+    "query_seconds": 0.0013494580016413238
+  }
+}

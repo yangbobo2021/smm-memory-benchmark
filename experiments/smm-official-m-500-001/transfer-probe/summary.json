@@ -1,0 +1,338 @@
+{
+  "protocol_sha256": "142c7a0abfebbe94c66b65796b53831265b6abd65f002848755a733c94c902a6",
+  "questions": 57,
+  "cohorts": {
+    "P25": {
+      "questions": 25,
+      "raw-whole": {
+        "top5": {
+          "all": 19,
+          "any": 24,
+          "reference_hits": 37,
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "all": 21,
+          "any": 25,
+          "reference_hits": 39,
+          "gains": [],
+          "losses": []
+        }
+      },
+      "prior-authored-whole": {
+        "top5": {
+          "all": 21,
+          "any": 24,
+          "reference_hits": 38,
+          "gains": [
+            "P07",
+            "P20"
+          ],
+          "losses": []
+        },
+        "top10": {
+          "all": 22,
+          "any": 25,
+          "reference_hits": 40,
+          "gains": [
+            "P06"
+          ],
+          "losses": []
+        }
+      },
+      "prior-stopword-whole": {
+        "top5": {
+          "all": 19,
+          "any": 24,
+          "reference_hits": 37,
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "all": 21,
+          "any": 25,
+          "reference_hits": 39,
+          "gains": [],
+          "losses": []
+        }
+      },
+      "raw-user-only": {
+        "top5": {
+          "all": 19,
+          "any": 24,
+          "reference_hits": 36,
+          "gains": [
+            "P09",
+            "P10",
+            "P20"
+          ],
+          "losses": [
+            "P08",
+            "P18",
+            "P21"
+          ]
+        },
+        "top10": {
+          "all": 23,
+          "any": 25,
+          "reference_hits": 41,
+          "gains": [
+            "P09",
+            "P10",
+            "P25"
+          ],
+          "losses": [
+            "P08"
+          ]
+        }
+      },
+      "RRF60(raw-whole,raw-user-only)": {
+        "top5": {
+          "all": 19,
+          "any": 25,
+          "reference_hits": 37,
+          "gains": [
+            "P20"
+          ],
+          "losses": [
+            "P08"
+          ]
+        },
+        "top10": {
+          "all": 24,
+          "any": 25,
+          "reference_hits": 42,
+          "gains": [
+            "P09",
+            "P10",
+            "P25"
+          ],
+          "losses": []
+        }
+      }
+    },
+    "L32": {
+      "questions": 32,
+      "raw-whole": {
+        "top5": {
+          "all": 17,
+          "any": 24,
+          "reference_hits": 40,
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "all": 18,
+          "any": 25,
+          "reference_hits": 48,
+          "gains": [],
+          "losses": []
+        }
+      },
+      "prior-authored-whole": {
+        "top5": {
+          "all": 17,
+          "any": 26,
+          "reference_hits": 47,
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "all": 19,
+          "any": 27,
+          "reference_hits": 55,
+          "gains": [
+            "L015"
+          ],
+          "losses": []
+        }
+      },
+      "prior-stopword-whole": {
+        "top5": {
+          "all": 17,
+          "any": 25,
+          "reference_hits": 43,
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "all": 18,
+          "any": 25,
+          "reference_hits": 48,
+          "gains": [],
+          "losses": []
+        }
+      },
+      "raw-user-only": {
+        "top5": {
+          "all": 17,
+          "any": 26,
+          "reference_hits": 44,
+          "gains": [
+            "L016",
+            "L028"
+          ],
+          "losses": [
+            "L001",
+            "L031"
+          ]
+        },
+        "top10": {
+          "all": 18,
+          "any": 28,
+          "reference_hits": 50,
+          "gains": [
+            "L016",
+            "L028"
+          ],
+          "losses": [
+            "L001",
+            "L031"
+          ]
+        }
+      },
+      "RRF60(raw-whole,raw-user-only)": {
+        "top5": {
+          "all": 16,
+          "any": 26,
+          "reference_hits": 46,
+          "gains": [],
+          "losses": [
+            "L001"
+          ]
+        },
+        "top10": {
+          "all": 19,
+          "any": 27,
+          "reference_hits": 51,
+          "gains": [
+            "L016"
+          ],
+          "losses": []
+        }
+      }
+    },
+    "all57": {
+      "questions": 57,
+      "raw-whole": {
+        "top5": {
+          "all": 36,
+          "any": 48,
+          "reference_hits": 77,
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "all": 39,
+          "any": 50,
+          "reference_hits": 87,
+          "gains": [],
+          "losses": []
+        }
+      },
+      "prior-authored-whole": {
+        "top5": {
+          "all": 38,
+          "any": 50,
+          "reference_hits": 85,
+          "gains": [
+            "P07",
+            "P20"
+          ],
+          "losses": []
+        },
+        "top10": {
+          "all": 41,
+          "any": 52,
+          "reference_hits": 95,
+          "gains": [
+            "L015",
+            "P06"
+          ],
+          "losses": []
+        }
+      },
+      "prior-stopword-whole": {
+        "top5": {
+          "all": 36,
+          "any": 49,
+          "reference_hits": 80,
+          "gains": [],
+          "losses": []
+        },
+        "top10": {
+          "all": 39,
+          "any": 50,
+          "reference_hits": 87,
+          "gains": [],
+          "losses": []
+        }
+      },
+      "raw-user-only": {
+        "top5": {
+          "all": 36,
+          "any": 50,
+          "reference_hits": 80,
+          "gains": [
+            "L016",
+            "L028",
+            "P09",
+            "P10",
+            "P20"
+          ],
+          "losses": [
+            "L001",
+            "L031",
+            "P08",
+            "P18",
+            "P21"
+          ]
+        },
+        "top10": {
+          "all": 41,
+          "any": 53,
+          "reference_hits": 91,
+          "gains": [
+            "L016",
+            "L028",
+            "P09",
+            "P10",
+            "P25"
+          ],
+          "losses": [
+            "L001",
+            "L031",
+            "P08"
+          ]
+        }
+      },
+      "RRF60(raw-whole,raw-user-only)": {
+        "top5": {
+          "all": 35,
+          "any": 51,
+          "reference_hits": 83,
+          "gains": [
+            "P20"
+          ],
+          "losses": [
+            "L001",
+            "P08"
+          ]
+        },
+        "top10": {
+          "all": 43,
+          "any": 52,
+          "reference_hits": 93,
+          "gains": [
+            "L016",
+            "P09",
+            "P10",
+            "P25"
+          ],
+          "losses": []
+        }
+      }
+    }
+  }
+}

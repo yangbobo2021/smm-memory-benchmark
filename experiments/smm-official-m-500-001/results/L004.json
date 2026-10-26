@@ -1,0 +1,72 @@
+{
+  "id": "L004",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+  "official_question_id": "gpt4_59149c78",
+  "official_m_count": 470,
+  "official_m_occurrences": 475,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 51,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_d00ba6d1_1": 27,
+      "answer_d00ba6d1_2": 17
+    },
+    "top10_ids": [
+      "46133663",
+      "f584ba36_2",
+      "7c97ba66_7",
+      "dc3ee1d1_2",
+      "2aac543b_1",
+      "81354f67_4",
+      "2b648e16",
+      "955a18ae",
+      "ultrachat_291317",
+      "ultrachat_560770"
+    ],
+    "build_seconds": 0.04413662499973725,
+    "query_seconds": 0.0015225000006466871
+  }
+}

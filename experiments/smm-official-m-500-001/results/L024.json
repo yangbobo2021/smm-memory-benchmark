@@ -1,0 +1,72 @@
+{
+  "id": "L024",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+  "official_question_id": "2ebe6c90",
+  "official_m_count": 465,
+  "official_m_occurrences": 466,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 43,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_c9d35c00_1": 2,
+      "answer_c9d35c00_2": 1
+    },
+    "top10_ids": [
+      "answer_c9d35c00_2",
+      "answer_c9d35c00_1",
+      "2951109d_1",
+      "9bd6beaa_1",
+      "41c90f4c_2",
+      "sharegpt_3xB7vJ2_85",
+      "2636f24e",
+      "2f2884ad_3",
+      "48f804a3",
+      "ultrachat_42484"
+    ],
+    "build_seconds": 0.044896208000864135,
+    "query_seconds": 0.002051084000413539
+  }
+}

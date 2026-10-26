@@ -1,0 +1,56 @@
+{
+  "id": "L028",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "Who did I meet with during the lunch last Tuesday?",
+  "window": {
+    "start": "2023-04-11",
+    "end": "2023-04-11",
+    "rule": "last-weekday"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_9b09d95b_1": 65
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_9b09d95b_1": 11
+    },
+    "top10_ids": [
+      "954d4451_1",
+      "93cc59e5_1",
+      "sharegpt_VZe4eYc_17",
+      "280b006c_2",
+      "2f966994_2",
+      "ultrachat_469502",
+      "sharegpt_HrxBbBK_0",
+      "2c81cdf8_1",
+      "5365840b_2",
+      "1eb89931_3"
+    ]
+  },
+  "time_bonus_count_in_raw100": 15,
+  "query_seconds": 0.0014093749996391125,
+  "build_seconds": 0.040548249999119435
+}

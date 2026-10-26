@@ -1,0 +1,72 @@
+{
+  "id": "L018",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+  "official_question_id": "eac54add",
+  "official_m_count": 474,
+  "official_m_occurrences": 476,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 3,
+  "original_s": {
+    "count": 43,
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_0d4d0348_1": 107,
+      "answer_0d4d0348_2": 63
+    },
+    "top10_ids": [
+      "acda6a4e_2",
+      "203bf3fa_3",
+      "60153a02_3",
+      "aee7c870",
+      "17d6f1e7",
+      "ultrachat_465862",
+      "ce79a004",
+      "2c185a2b_3",
+      "ab3c7303_4",
+      "f684ac4c_2"
+    ],
+    "build_seconds": 0.044048917001418886,
+    "query_seconds": 0.0011443340008554514
+  }
+}

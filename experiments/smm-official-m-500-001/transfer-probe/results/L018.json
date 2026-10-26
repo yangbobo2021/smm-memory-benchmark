@@ -1,0 +1,152 @@
+{
+  "id": "L018",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+  "queries": {
+    "authored": "business milestone achieved reached",
+    "stopword": "significant buisiness milestone mentioned four weeks ago"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_0d4d0348_1": 107,
+        "answer_0d4d0348_2": 63
+      },
+      "top10_ids": [
+        "acda6a4e_2",
+        "203bf3fa_3",
+        "60153a02_3",
+        "aee7c870",
+        "17d6f1e7",
+        "ultrachat_465862",
+        "ce79a004",
+        "2c185a2b_3",
+        "ab3c7303_4",
+        "f684ac4c_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_0d4d0348_1": 25,
+        "answer_0d4d0348_2": 5
+      },
+      "top10_ids": [
+        "ultrachat_256706",
+        "ce79a004",
+        "ultrachat_304508",
+        "96e99321_1",
+        "answer_0d4d0348_2",
+        "sharegpt_dKuJfSX_0",
+        "ultrachat_320650",
+        "7cc4ee02",
+        "ultrachat_542178",
+        "b1d9eb66_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_0d4d0348_1": 97,
+        "answer_0d4d0348_2": 63
+      },
+      "top10_ids": [
+        "acda6a4e_2",
+        "203bf3fa_3",
+        "aee7c870",
+        "60153a02_3",
+        "17d6f1e7",
+        "ultrachat_465862",
+        "ce79a004",
+        "2c185a2b_3",
+        "ab3c7303_4",
+        "f684ac4c_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_0d4d0348_1": 279,
+        "answer_0d4d0348_2": 201
+      },
+      "top10_ids": [
+        "acda6a4e_2",
+        "2c185a2b_3",
+        "f18b6c03_2",
+        "aee7c870",
+        "ab3c7303_4",
+        "0dc509ba_1",
+        "17d6f1e7",
+        "c69ee1f9_2",
+        "ce79a004",
+        "sharegpt_s4LQGiP_39"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "reference_positions": {
+        "answer_0d4d0348_1": 160,
+        "answer_0d4d0348_2": 108
+      },
+      "top10_ids": [
+        "acda6a4e_2",
+        "aee7c870",
+        "2c185a2b_3",
+        "17d6f1e7",
+        "f18b6c03_2",
+        "ab3c7303_4",
+        "60153a02_3",
+        "ce79a004",
+        "f684ac4c_2",
+        "0dc509ba_1"
+      ]
+    }
+  }
+}

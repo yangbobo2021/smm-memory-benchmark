@@ -1,0 +1,91 @@
+{
+  "id": "C027",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c209acf4c5721940c78269220",
+    "cf4e6d7411e1cdca21b4f96c7"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c209acf4c5721940c78269220": 18,
+      "cf4e6d7411e1cdca21b4f96c7": 1
+    }
+  },
+  "authored": {
+    "query": "Melanie instrument instruments play playing",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c209acf4c5721940c78269220": 6,
+      "cf4e6d7411e1cdca21b4f96c7": 1
+    },
+    "top10_ids": [
+      "cf4e6d7411e1cdca21b4f96c7",
+      "cb4a96e5cde64d9faa403cccb",
+      "c092ef4f8fbd66e0df16f2b95",
+      "cccc365996d9048b9e8671af23",
+      "c90cad23aa3b6a6876298ba0d",
+      "c209acf4c5721940c78269220",
+      "cc67e72d0d3f16b23cef3c18ca",
+      "ce142a1d8fc9d169bfa9fda59",
+      "c0bd330ab68847aedbdf12baa",
+      "c83a5466251a9a6d24da25bd7"
+    ],
+    "seconds": {
+      "build": 0.018312790999516437,
+      "query": 0.00019416699979046825
+    }
+  },
+  "stopword": {
+    "query": "instruments melanie play",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c209acf4c5721940c78269220": 17,
+      "cf4e6d7411e1cdca21b4f96c7": 1
+    },
+    "top10_ids": [
+      "cf4e6d7411e1cdca21b4f96c7",
+      "c092ef4f8fbd66e0df16f2b95",
+      "cc67e72d0d3f16b23cef3c18ca",
+      "ce142a1d8fc9d169bfa9fda59",
+      "c0bd330ab68847aedbdf12baa",
+      "c83a5466251a9a6d24da25bd7",
+      "c63a95f04d6605948c5bd6a4a",
+      "cc6e8a8ce1aae8adca4173ed6",
+      "c9374b3eec6067d6a0cb1328e",
+      "c4dc55d280c7f3f545df4d134"
+    ],
+    "seconds": {
+      "build": 0.01841829100067116,
+      "query": 0.00013241600026958622
+    }
+  }
+}

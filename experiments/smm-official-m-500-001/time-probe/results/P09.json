@@ -1,0 +1,60 @@
+{
+  "id": "P09",
+  "cohort": "P25",
+  "type": "multi-session",
+  "question": "How many days did I spend participating in faith-related activities in December?",
+  "window": {
+    "start": "2023-12-01",
+    "end": "2023-12-31",
+    "rule": "named-month"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_4cef8a3c_2": 1,
+      "answer_4cef8a3c_1": 11,
+      "answer_4cef8a3c_3": 4
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_4cef8a3c_2": 1,
+      "answer_4cef8a3c_1": 11,
+      "answer_4cef8a3c_3": 4
+    },
+    "top10_ids": [
+      "answer_4cef8a3c_2",
+      "ff5922e7",
+      "sharegpt_igR6Bmm_0",
+      "answer_4cef8a3c_3",
+      "sharegpt_mJ7MnQS_25",
+      "4459f0de_2",
+      "b7271eec",
+      "ad44b3e1_1",
+      "sharegpt_36JyIJj_13",
+      "4a79d078_2"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.0011110420000477461,
+  "build_seconds": 0.04646866600160138
+}

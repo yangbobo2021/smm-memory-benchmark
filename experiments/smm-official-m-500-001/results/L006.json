@@ -1,0 +1,72 @@
+{
+  "id": "L006",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+  "official_question_id": "9a707b82",
+  "official_m_count": 479,
+  "official_m_occurrences": 480,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 53,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_dba89488_2": 195,
+      "answer_dba89488_1": 17
+    },
+    "top10_ids": [
+      "146d4508",
+      "efae71d5_1",
+      "sharegpt_p5ZjxkA_30",
+      "sharegpt_P6UZzFA_0",
+      "1bda7cb0_1",
+      "639cec58",
+      "84f029e2",
+      "f4270af7_2",
+      "05be3ff0_4",
+      "cd92ac85_2"
+    ],
+    "build_seconds": 0.045073999999658554,
+    "query_seconds": 0.002306124999449821
+  }
+}

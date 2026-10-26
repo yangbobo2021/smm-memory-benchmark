@@ -1,0 +1,73 @@
+{
+  "id": "L031",
+  "cohort": "L32",
+  "type": "multi-session",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "How many different museums or galleries did I visit in the month of February?",
+  "official_question_id": "80ec1f4f",
+  "official_m_count": 477,
+  "official_m_occurrences": 478,
+  "official_m_ref_count": 3,
+  "official_m_ref_count_before_dedupe": 3,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 3,
+  "s_ref_hashes_in_m": 3,
+  "m_s_body_overlap": 3,
+  "original_s": {
+    "count": 46,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "answer_990c8992_3": 3,
+      "answer_990c8992_2": 1,
+      "answer_990c8992_1": 2
+    },
+    "top10_ids": [
+      "answer_990c8992_2",
+      "answer_990c8992_1",
+      "answer_990c8992_3",
+      "5a137e32",
+      "5150a4e9_1",
+      "ff0bb7fd_1",
+      "e22dcbfd",
+      "6dd3172f",
+      "e0956e0a_1",
+      "ultrachat_111552"
+    ],
+    "build_seconds": 0.0453121660011675,
+    "query_seconds": 0.002507625000362168
+  }
+}

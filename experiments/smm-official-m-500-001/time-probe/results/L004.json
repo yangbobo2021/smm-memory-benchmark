@@ -1,0 +1,58 @@
+{
+  "id": "L004",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+  "window": {
+    "start": "2023-01-15",
+    "end": "2023-01-21",
+    "rule": "days-weeks-ago"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_d00ba6d1_1": 27,
+      "answer_d00ba6d1_2": 17
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_d00ba6d1_1": 81,
+      "answer_d00ba6d1_2": 14
+    },
+    "top10_ids": [
+      "46133663",
+      "f584ba36_2",
+      "7c97ba66_7",
+      "2aac543b_1",
+      "81354f67_4",
+      "2b648e16",
+      "ultrachat_291317",
+      "73f75ab4",
+      "21b19306_1",
+      "b27ed82b_2"
+    ]
+  },
+  "time_bonus_count_in_raw100": 75,
+  "query_seconds": 0.001877874999991036,
+  "build_seconds": 0.049621417001617374
+}

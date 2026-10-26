@@ -1,0 +1,152 @@
+{
+  "id": "L017",
+  "cohort": "L32",
+  "type": "multi-session",
+  "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+  "queries": {
+    "authored": "laptop backpack bought ordered arrived delivered",
+    "stopword": "days take laptop backpack arrive after bought"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e0956e0a_2": 4,
+        "answer_e0956e0a_1": 1
+      },
+      "top10_ids": [
+        "answer_e0956e0a_1",
+        "33dff20c_5",
+        "5913793f",
+        "answer_e0956e0a_2",
+        "dbc08c20_2",
+        "sharegpt_DJGV0QV_0",
+        "53985dc3",
+        "a7b1b27c",
+        "17844289_2",
+        "ddaa5a15_1"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e0956e0a_2": 2,
+        "answer_e0956e0a_1": 3
+      },
+      "top10_ids": [
+        "33dff20c_5",
+        "answer_e0956e0a_2",
+        "answer_e0956e0a_1",
+        "5913793f",
+        "41f023eb_2",
+        "sharegpt_qqwvriP_13",
+        "17844289_2",
+        "ddaa5a15_1",
+        "dbc08c20_2",
+        "53985dc3"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e0956e0a_2": 4,
+        "answer_e0956e0a_1": 2
+      },
+      "top10_ids": [
+        "33dff20c_5",
+        "answer_e0956e0a_1",
+        "5913793f",
+        "answer_e0956e0a_2",
+        "dbc08c20_2",
+        "53985dc3",
+        "a7b1b27c",
+        "17844289_2",
+        "ddaa5a15_1",
+        "79d53fd0_4"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e0956e0a_2": 4,
+        "answer_e0956e0a_1": 2
+      },
+      "top10_ids": [
+        "33dff20c_5",
+        "answer_e0956e0a_1",
+        "ce153299_1",
+        "answer_e0956e0a_2",
+        "5913793f",
+        "57871388_1",
+        "sharegpt_DJGV0QV_0",
+        "ultrachat_257963",
+        "17844289_2",
+        "sharegpt_sTnw7Ky_0"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_e0956e0a_2": 4,
+        "answer_e0956e0a_1": 2
+      },
+      "top10_ids": [
+        "33dff20c_5",
+        "answer_e0956e0a_1",
+        "5913793f",
+        "answer_e0956e0a_2",
+        "sharegpt_DJGV0QV_0",
+        "17844289_2",
+        "57871388_1",
+        "sharegpt_sTnw7Ky_0",
+        "ddaa5a15_1",
+        "e78617c5_4"
+      ]
+    }
+  }
+}

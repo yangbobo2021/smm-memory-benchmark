@@ -1,0 +1,157 @@
+{
+  "id": "L030",
+  "cohort": "L32",
+  "type": "multi-session",
+  "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+  "queries": {
+    "authored": "high school Bachelor degree education years graduated",
+    "stopword": "years total spend formal education high school completion bachelor s degree"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_35c5419d_2": 144,
+        "answer_35c5419d_3": 3,
+        "answer_35c5419d_1": 8
+      },
+      "top10_ids": [
+        "619e96bc",
+        "0c891c0b_2",
+        "answer_35c5419d_3",
+        "404a98c5",
+        "ultrachat_272771",
+        "sharegpt_j4hlhF5_48",
+        "ef84b994_abs_1",
+        "answer_35c5419d_1",
+        "ultrachat_160620",
+        "sharegpt_7R4dDcT_0"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_35c5419d_2": 75,
+        "answer_35c5419d_3": 2,
+        "answer_35c5419d_1": 4
+      },
+      "top10_ids": [
+        "619e96bc",
+        "answer_35c5419d_3",
+        "404a98c5",
+        "answer_35c5419d_1",
+        "ultrachat_111696",
+        "ultrachat_265480",
+        "ultrachat_416700",
+        "ultrachat_272771",
+        "0c891c0b_2",
+        "2fd445a2_4"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_35c5419d_2": 123,
+        "answer_35c5419d_3": 3,
+        "answer_35c5419d_1": 5
+      },
+      "top10_ids": [
+        "619e96bc",
+        "0c891c0b_2",
+        "answer_35c5419d_3",
+        "404a98c5",
+        "answer_35c5419d_1",
+        "sharegpt_7R4dDcT_0",
+        "ultrachat_111696",
+        "sharegpt_kmhlfRr_15",
+        "ultrachat_265480",
+        "ultrachat_381133"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_35c5419d_2": 26,
+        "answer_35c5419d_3": 1,
+        "answer_35c5419d_1": 5
+      },
+      "top10_ids": [
+        "answer_35c5419d_3",
+        "619e96bc",
+        "ultrachat_39248",
+        "ultrachat_111696",
+        "answer_35c5419d_1",
+        "sharegpt_oy3hj4w_21",
+        "ef84b994_abs_1",
+        "sharegpt_7R4dDcT_0",
+        "ultrachat_380546",
+        "ultrachat_251445"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_35c5419d_2": 47,
+        "answer_35c5419d_3": 2,
+        "answer_35c5419d_1": 3
+      },
+      "top10_ids": [
+        "619e96bc",
+        "answer_35c5419d_3",
+        "answer_35c5419d_1",
+        "ef84b994_abs_1",
+        "ultrachat_111696",
+        "sharegpt_7R4dDcT_0",
+        "db73b7e4_3",
+        "sharegpt_j4hlhF5_48",
+        "56cf2973",
+        "ultrachat_272771"
+      ]
+    }
+  }
+}

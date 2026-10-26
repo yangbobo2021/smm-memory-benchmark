@@ -1,0 +1,91 @@
+{
+  "id": "L020",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c22f886556611f0ca62ec6147",
+    "c64153e8530609acdfd6bc8cb"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c22f886556611f0ca62ec6147": 1,
+      "c64153e8530609acdfd6bc8cb": 2
+    }
+  },
+  "authored": {
+    "query": "airport hotel train taxi fare cost",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c22f886556611f0ca62ec6147": 2,
+      "c64153e8530609acdfd6bc8cb": 1
+    },
+    "top10_ids": [
+      "c64153e8530609acdfd6bc8cb",
+      "c22f886556611f0ca62ec6147",
+      "ce9623f6fc3a634eadcef93f8",
+      "c51b35b0f266360ceee43c010",
+      "c299970df4c8f6bc670a712a2",
+      "cca09bf4542c2a1511645833d",
+      "c122f2b5c7efa871faa36774a",
+      "cbbd6150c8fbb334b341ac451",
+      "ce2c1bc107b37900fdfa83a2c",
+      "c08667e73c8710cabb2aaad23"
+    ],
+    "seconds": {
+      "build": 0.22981241599973146,
+      "query": 0.000361957999302831
+    }
+  },
+  "stopword": {
+    "query": "save taking train airport hotel instead taxi",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c22f886556611f0ca62ec6147": 1,
+      "c64153e8530609acdfd6bc8cb": 2
+    },
+    "top10_ids": [
+      "c22f886556611f0ca62ec6147",
+      "c64153e8530609acdfd6bc8cb",
+      "ce9623f6fc3a634eadcef93f8",
+      "c51b35b0f266360ceee43c010",
+      "c122f2b5c7efa871faa36774a",
+      "ce2c1bc107b37900fdfa83a2c",
+      "cca09bf4542c2a1511645833d",
+      "c2da65519bb34b69e36f1e011",
+      "c9d1170c7ed2432e59551846c",
+      "c08667e73c8710cabb2aaad23"
+    ],
+    "seconds": {
+      "build": 0.13707604199953494,
+      "query": 0.0006349169998429716
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "P04",
+  "cohort": "P25",
+  "type": "knowledge-update",
+  "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+  "queries": {
+    "authored": "Downtown Farmers Market earned earn earnings sales recent",
+    "stopword": "earn downtown farmers market most recent visit"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9f5693c_1": 2,
+        "answer_c9f5693c_2": 1
+      },
+      "top10_ids": [
+        "answer_c9f5693c_2",
+        "answer_c9f5693c_1",
+        "355cd380_1",
+        "f5025173_1",
+        "ultrachat_334217",
+        "ultrachat_266008",
+        "ultrachat_164095",
+        "524abbae_1",
+        "b9213116",
+        "ultrachat_476297"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9f5693c_1": 1,
+        "answer_c9f5693c_2": 2
+      },
+      "top10_ids": [
+        "answer_c9f5693c_1",
+        "answer_c9f5693c_2",
+        "2fa50779_2",
+        "524abbae_1",
+        "355cd380_1",
+        "6ccd9245_2",
+        "92b1f663_1",
+        "sharegpt_CdnyHep_0",
+        "ultrachat_164095",
+        "44e0d6e0"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9f5693c_1": 2,
+        "answer_c9f5693c_2": 1
+      },
+      "top10_ids": [
+        "answer_c9f5693c_2",
+        "answer_c9f5693c_1",
+        "355cd380_1",
+        "ultrachat_334217",
+        "f5025173_1",
+        "ultrachat_266008",
+        "ultrachat_164095",
+        "524abbae_1",
+        "86dc79be_1",
+        "195f2929"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9f5693c_1": 2,
+        "answer_c9f5693c_2": 1
+      },
+      "top10_ids": [
+        "answer_c9f5693c_2",
+        "answer_c9f5693c_1",
+        "ultrachat_299325",
+        "0db66fbe_2",
+        "60fa773f",
+        "ultrachat_333212",
+        "0aff275a_4",
+        "ultrachat_553805",
+        "2fa50779_2",
+        "ultrachat_476297"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9f5693c_1": 2,
+        "answer_c9f5693c_2": 1
+      },
+      "top10_ids": [
+        "answer_c9f5693c_2",
+        "answer_c9f5693c_1",
+        "0db66fbe_2",
+        "ultrachat_299325",
+        "ultrachat_476297",
+        "2fa50779_2",
+        "60fa773f",
+        "355cd380_1",
+        "ultrachat_164095",
+        "sharegpt_A3DTUI4_55"
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "P21",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+  "official_question_id": "gpt4_7ca326fa",
+  "official_m_count": 479,
+  "official_m_occurrences": 481,
+  "official_m_ref_count": 3,
+  "official_m_ref_count_before_dedupe": 3,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 3,
+  "s_ref_hashes_in_m": 3,
+  "m_s_body_overlap": 3,
+  "original_s": {
+    "count": 54,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "answer_cf021b36_1": 4,
+      "answer_cf021b36_2": 1,
+      "answer_cf021b36_3": 5
+    },
+    "top10_ids": [
+      "answer_cf021b36_2",
+      "f10e6d2c_3",
+      "sharegpt_hUAh1Tu_0",
+      "answer_cf021b36_1",
+      "answer_cf021b36_3",
+      "a402a59e_4",
+      "sharegpt_OC3Flsx_29",
+      "fd1bbf43_2",
+      "9d0f4bfa_1",
+      "ad361482_1"
+    ],
+    "build_seconds": 0.04636445799951616,
+    "query_seconds": 0.0009542079988023033
+  }
+}

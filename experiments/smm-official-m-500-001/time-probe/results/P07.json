@@ -1,0 +1,58 @@
+{
+  "id": "P07",
+  "cohort": "P25",
+  "type": "multi-session",
+  "question": "How many dinner parties have I attended in the past month?",
+  "window": {
+    "start": "2023-04-01",
+    "end": "2023-04-30",
+    "rule": "last-month"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_75eca223_1": 1,
+      "answer_75eca223_2": 10
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "answer_75eca223_1": 1,
+      "answer_75eca223_2": 10
+    },
+    "top10_ids": [
+      "answer_75eca223_1",
+      "06c8aa77",
+      "ultrachat_230002",
+      "527a88df",
+      "3a980e89_1",
+      "sharegpt_9cPcQqG_0",
+      "c870d63c",
+      "3dced3e9_3",
+      "ultrachat_224922",
+      "answer_75eca223_2"
+    ]
+  },
+  "time_bonus_count_in_raw100": 0,
+  "query_seconds": 0.001741333000609302,
+  "build_seconds": 0.0483284170004481
+}

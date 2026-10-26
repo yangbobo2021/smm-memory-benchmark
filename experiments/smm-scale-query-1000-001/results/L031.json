@@ -1,0 +1,95 @@
+{
+  "id": "L031",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c0e943530a1e8734f46171431",
+    "cd4676817fc9720fda94e6c0e",
+    "cf3156d8a625d0c3b74d56b9b"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c0e943530a1e8734f46171431": 5,
+      "cd4676817fc9720fda94e6c0e": 7,
+      "cf3156d8a625d0c3b74d56b9b": 1
+    }
+  },
+  "authored": {
+    "query": "museum museums gallery galleries visited February",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c0e943530a1e8734f46171431": 1,
+      "cd4676817fc9720fda94e6c0e": 7,
+      "cf3156d8a625d0c3b74d56b9b": 2
+    },
+    "top10_ids": [
+      "c0e943530a1e8734f46171431",
+      "cf3156d8a625d0c3b74d56b9b",
+      "caae18c23cf986cf07a5b011b",
+      "c658a4d6521f7fbc419dfd5c9",
+      "cc0c2a2058d3542527ff62e0f",
+      "c0281d711520f5f0364f8376a",
+      "cd4676817fc9720fda94e6c0e",
+      "c0ed448918c5dd7346f8cf637",
+      "ce50a4aec7d73088e8e225541",
+      "c5af84ace7597183c10b28e1b"
+    ],
+    "seconds": {
+      "build": 0.11219529200025136,
+      "query": 0.0002472079995641252
+    }
+  },
+  "stopword": {
+    "query": "different museums galleries visit month february",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "reference_positions": {
+      "c0e943530a1e8734f46171431": 4,
+      "cd4676817fc9720fda94e6c0e": 9,
+      "cf3156d8a625d0c3b74d56b9b": 1
+    },
+    "top10_ids": [
+      "cf3156d8a625d0c3b74d56b9b",
+      "c0281d711520f5f0364f8376a",
+      "caae18c23cf986cf07a5b011b",
+      "c0e943530a1e8734f46171431",
+      "cc0c2a2058d3542527ff62e0f",
+      "c658a4d6521f7fbc419dfd5c9",
+      "ce50a4aec7d73088e8e225541",
+      "c0ed448918c5dd7346f8cf637",
+      "cd4676817fc9720fda94e6c0e",
+      "c1b77ac5edc517b63b8c9ed66"
+    ],
+    "seconds": {
+      "build": 0.11310220799987292,
+      "query": 0.0007243339996421128
+    }
+  }
+}

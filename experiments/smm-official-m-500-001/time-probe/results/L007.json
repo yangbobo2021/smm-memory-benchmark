@@ -1,0 +1,58 @@
+{
+  "id": "L007",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What did I do with Rachel on the Wednesday two months ago?",
+  "window": {
+    "start": "2023-02-01",
+    "end": "2023-02-28",
+    "rule": "weekday-months-ago"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_4bebc783_1": 16,
+      "answer_4bebc783_2": 149
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_4bebc783_1": 14,
+      "answer_4bebc783_2": 149
+    },
+    "top10_ids": [
+      "3dc8ba5f_4",
+      "463f506b",
+      "97c06b59",
+      "641da543",
+      "3a1ea336_2",
+      "69d4a637",
+      "sharegpt_0xZLAfJ_0",
+      "9bcdc1ec_1",
+      "33a813dd_1",
+      "252715f8_4"
+    ]
+  },
+  "time_bonus_count_in_raw100": 95,
+  "query_seconds": 0.002037124999333173,
+  "build_seconds": 0.047111624999160995
+}

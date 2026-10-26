@@ -1,0 +1,147 @@
+{
+  "id": "P15",
+  "cohort": "P25",
+  "type": "single-session-assistant",
+  "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+  "queries": {
+    "authored": "Amsterdam hostel Red Light District recommended",
+    "stopword": "m planning trip amsterdam again wondering name that hostel near red light district recommended last time"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_370515": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_370515",
+        "4f3b0353_2",
+        "05a37787",
+        "17cb8d2f_6",
+        "9bd6beaa_1",
+        "sharegpt_CLjyR25_0",
+        "e76323b7_2",
+        "be97915e_1",
+        "96eeaa56",
+        "0e69d205_3"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_370515": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_370515",
+        "4f3b0353_2",
+        "05a37787",
+        "sharegpt_CLjyR25_0",
+        "ultrachat_561983",
+        "96eeaa56",
+        "be97915e_1",
+        "9bd6beaa_1",
+        "a196f807_2",
+        "f5ad4462"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_370515": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_370515",
+        "4f3b0353_2",
+        "05a37787",
+        "9bd6beaa_1",
+        "17cb8d2f_6",
+        "sharegpt_CLjyR25_0",
+        "e76323b7_2",
+        "be97915e_1",
+        "96eeaa56",
+        "a196f807_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_370515": 2
+      },
+      "top10_ids": [
+        "05a37787",
+        "answer_ultrachat_370515",
+        "17cb8d2f_6",
+        "187b4852_3",
+        "4f3b0353_2",
+        "e9499aaf_2",
+        "8221810f_2",
+        "9bd6beaa_1",
+        "be97915e_1",
+        "0ae4c9b0_2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_ultrachat_370515": 1
+      },
+      "top10_ids": [
+        "answer_ultrachat_370515",
+        "05a37787",
+        "4f3b0353_2",
+        "17cb8d2f_6",
+        "9bd6beaa_1",
+        "be97915e_1",
+        "sharegpt_CLjyR25_0",
+        "e9499aaf_2",
+        "0e69d205_3",
+        "e76323b7_2"
+      ]
+    }
+  }
+}

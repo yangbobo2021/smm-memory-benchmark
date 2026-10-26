@@ -1,0 +1,230 @@
+{
+  "id": "SMM-TURN-INDEX-1000-001",
+  "protocol_sha256": "75a14d3c60b8834cd069fdd52fdeb2be40dbf2f59f467b9e612704117e86ccca",
+  "by_cohort": {
+    "P25": {
+      "questions": 25,
+      "full": {
+        "top5": {
+          "all": 18,
+          "any": 24,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 19,
+          "any": 24,
+          "reference_hits": 37
+        }
+      },
+      "best_user_turn": {
+        "top5": {
+          "all": 18,
+          "any": 23,
+          "reference_hits": 33
+        },
+        "top10": {
+          "all": 19,
+          "any": 24,
+          "reference_hits": 36
+        },
+        "paired_top5": {
+          "gains": [
+            "P20"
+          ],
+          "losses": [
+            "P11"
+          ]
+        }
+      },
+      "best_exchange": {
+        "top5": {
+          "all": 18,
+          "any": 25,
+          "reference_hits": 35
+        },
+        "top10": {
+          "all": 20,
+          "any": 25,
+          "reference_hits": 38
+        },
+        "paired_top5": {
+          "gains": [
+            "P20"
+          ],
+          "losses": [
+            "P21"
+          ]
+        }
+      },
+      "rrf_full_user": {
+        "top5": {
+          "all": 19,
+          "any": 25,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 21,
+          "any": 25,
+          "reference_hits": 39
+        },
+        "paired_top5": {
+          "gains": [
+            "P20"
+          ],
+          "losses": []
+        }
+      }
+    },
+    "L32": {
+      "questions": 32,
+      "full": {
+        "top5": {
+          "all": 15,
+          "any": 22,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 16,
+          "any": 24,
+          "reference_hits": 42
+        }
+      },
+      "best_user_turn": {
+        "top5": {
+          "all": 13,
+          "any": 24,
+          "reference_hits": 36
+        },
+        "top10": {
+          "all": 16,
+          "any": 25,
+          "reference_hits": 40
+        },
+        "paired_top5": {
+          "gains": [],
+          "losses": [
+            "L001",
+            "L008"
+          ]
+        }
+      },
+      "best_exchange": {
+        "top5": {
+          "all": 14,
+          "any": 22,
+          "reference_hits": 34
+        },
+        "top10": {
+          "all": 16,
+          "any": 24,
+          "reference_hits": 40
+        },
+        "paired_top5": {
+          "gains": [],
+          "losses": [
+            "L001"
+          ]
+        }
+      },
+      "rrf_full_user": {
+        "top5": {
+          "all": 15,
+          "any": 24,
+          "reference_hits": 39
+        },
+        "top10": {
+          "all": 16,
+          "any": 25,
+          "reference_hits": 44
+        },
+        "paired_top5": {
+          "gains": [
+            "L021"
+          ],
+          "losses": [
+            "L001"
+          ]
+        }
+      }
+    },
+    "all57": {
+      "questions": 57,
+      "full": {
+        "top5": {
+          "all": 33,
+          "any": 46,
+          "reference_hits": 72
+        },
+        "top10": {
+          "all": 35,
+          "any": 48,
+          "reference_hits": 79
+        }
+      },
+      "best_user_turn": {
+        "top5": {
+          "all": 31,
+          "any": 47,
+          "reference_hits": 69
+        },
+        "top10": {
+          "all": 35,
+          "any": 49,
+          "reference_hits": 76
+        },
+        "paired_top5": {
+          "gains": [
+            "P20"
+          ],
+          "losses": [
+            "P11",
+            "L001",
+            "L008"
+          ]
+        }
+      },
+      "best_exchange": {
+        "top5": {
+          "all": 32,
+          "any": 47,
+          "reference_hits": 69
+        },
+        "top10": {
+          "all": 36,
+          "any": 49,
+          "reference_hits": 78
+        },
+        "paired_top5": {
+          "gains": [
+            "P20"
+          ],
+          "losses": [
+            "P21",
+            "L001"
+          ]
+        }
+      },
+      "rrf_full_user": {
+        "top5": {
+          "all": 34,
+          "any": 49,
+          "reference_hits": 75
+        },
+        "top10": {
+          "all": 37,
+          "any": 50,
+          "reference_hits": 83
+        },
+        "paired_top5": {
+          "gains": [
+            "P20",
+            "L021"
+          ],
+          "losses": [
+            "L001"
+          ]
+        }
+      }
+    }
+  }
+}

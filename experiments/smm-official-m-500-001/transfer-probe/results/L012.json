@@ -1,0 +1,167 @@
+{
+  "id": "L012",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+  "queries": {
+    "authored": "concert concerts musical events attended",
+    "stopword": "order concerts musical events attended past two months starting earliest"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_f999b05b_1": 349,
+        "answer_f999b05b_4": 6,
+        "answer_f999b05b_2": 11,
+        "answer_f999b05b_5": 4,
+        "answer_f999b05b_3": 1
+      },
+      "top10_ids": [
+        "answer_f999b05b_3",
+        "dcae813a_3",
+        "ultrachat_435915",
+        "answer_f999b05b_5",
+        "cf3ff9da",
+        "answer_f999b05b_4",
+        "c4f4c099_2",
+        "ultrachat_429267",
+        "ultrachat_262611",
+        "e11e9a6d"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 4
+      },
+      "reference_positions": {
+        "answer_f999b05b_1": 15,
+        "answer_f999b05b_4": 3,
+        "answer_f999b05b_2": 8,
+        "answer_f999b05b_5": 5,
+        "answer_f999b05b_3": 4
+      },
+      "top10_ids": [
+        "ultrachat_435915",
+        "dcae813a_3",
+        "answer_f999b05b_4",
+        "answer_f999b05b_3",
+        "answer_f999b05b_5",
+        "ultrachat_429267",
+        "ultrachat_262611",
+        "answer_f999b05b_2",
+        "b9a824fc_2",
+        "e11e9a6d"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_f999b05b_1": null,
+        "answer_f999b05b_4": 6,
+        "answer_f999b05b_2": 11,
+        "answer_f999b05b_5": 4,
+        "answer_f999b05b_3": 1
+      },
+      "top10_ids": [
+        "answer_f999b05b_3",
+        "dcae813a_3",
+        "ultrachat_435915",
+        "answer_f999b05b_5",
+        "cf3ff9da",
+        "answer_f999b05b_4",
+        "c4f4c099_2",
+        "ultrachat_429267",
+        "ultrachat_262611",
+        "e11e9a6d"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_f999b05b_1": 174,
+        "answer_f999b05b_4": 4,
+        "answer_f999b05b_2": 34,
+        "answer_f999b05b_5": 7,
+        "answer_f999b05b_3": 1
+      },
+      "top10_ids": [
+        "answer_f999b05b_3",
+        "cf3ff9da",
+        "8045fd92",
+        "answer_f999b05b_4",
+        "ultrachat_435915",
+        "sharegpt_66UOQBK_0",
+        "answer_f999b05b_5",
+        "e936197f_1",
+        "e11e9a6d",
+        "01641be9_2"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_f999b05b_1": 267,
+        "answer_f999b05b_4": 4,
+        "answer_f999b05b_2": 14,
+        "answer_f999b05b_5": 5,
+        "answer_f999b05b_3": 1
+      },
+      "top10_ids": [
+        "answer_f999b05b_3",
+        "cf3ff9da",
+        "ultrachat_435915",
+        "answer_f999b05b_4",
+        "answer_f999b05b_5",
+        "e11e9a6d",
+        "sharegpt_tbQzCRk_0",
+        "e936197f_1",
+        "ultrachat_513625",
+        "ultrachat_429267"
+      ]
+    }
+  }
+}

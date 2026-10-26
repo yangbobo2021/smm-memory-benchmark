@@ -1,0 +1,91 @@
+{
+  "id": "C149",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "cb5230b6ede18b2395f49ad99",
+    "cc6e8a8ce1aae8adca4173ed6"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "cb5230b6ede18b2395f49ad99": 1,
+      "cc6e8a8ce1aae8adca4173ed6": 6
+    }
+  },
+  "authored": {
+    "query": "Caroline art makes creates",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "cb5230b6ede18b2395f49ad99": 2,
+      "cc6e8a8ce1aae8adca4173ed6": 6
+    },
+    "top10_ids": [
+      "c59ffd9422b82dbd55d1facb9",
+      "cb5230b6ede18b2395f49ad99",
+      "c86e1deaeb63c5fadbf3fc8a1",
+      "c16c71b5ac3cc8d438f30e02e",
+      "cbf31e4f19b0da0ee35961607",
+      "cc6e8a8ce1aae8adca4173ed6",
+      "c9374b3eec6067d6a0cb1328e",
+      "cf80270c6159ed2490555e2c3",
+      "c0bd330ab68847aedbdf12baa",
+      "c63a95f04d6605948c5bd6a4a"
+    ],
+    "seconds": {
+      "build": 0.01870658400002867,
+      "query": 0.00025320799977635033
+    }
+  },
+  "stopword": {
+    "query": "kind art caroline make",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "cb5230b6ede18b2395f49ad99": 2,
+      "cc6e8a8ce1aae8adca4173ed6": 4
+    },
+    "top10_ids": [
+      "c59ffd9422b82dbd55d1facb9",
+      "cb5230b6ede18b2395f49ad99",
+      "cbf31e4f19b0da0ee35961607",
+      "cc6e8a8ce1aae8adca4173ed6",
+      "c9374b3eec6067d6a0cb1328e",
+      "cf80270c6159ed2490555e2c3",
+      "c16c71b5ac3cc8d438f30e02e",
+      "c86e1deaeb63c5fadbf3fc8a1",
+      "c63a95f04d6605948c5bd6a4a",
+      "c0bd330ab68847aedbdf12baa"
+    ],
+    "seconds": {
+      "build": 0.018810874999871885,
+      "query": 0.0006939160002730205
+    }
+  }
+}

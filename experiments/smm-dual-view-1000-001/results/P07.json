@@ -1,0 +1,91 @@
+{
+  "id": "P07",
+  "cohort": "P25",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "How many dinner parties have I attended in the past month?",
+  "reference_sources": [
+    "c799a2510389a8ff2e69d96f5",
+    "c5e13079f8999c5bfd339aab7"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c799a2510389a8ff2e69d96f5": 16,
+      "c5e13079f8999c5bfd339aab7": 1
+    },
+    "top10_ids": [
+      "c5e13079f8999c5bfd339aab7",
+      "c5d50c252f77a22897f2c0939",
+      "c32a5d82c9a1a1cdc281bebc9",
+      "c9fa4e8a35313b7852ca64732",
+      "cd91811d867671dfc80f4a196",
+      "c19f10d050d45b45b632f7c42",
+      "c37d6742905e5289d693506d2",
+      "caa0882213fdff2bfb5d0b1f1",
+      "c4cd89d53b74128c1021d7cbc",
+      "caba94415924b2b36f6d6077c"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c799a2510389a8ff2e69d96f5": 5,
+      "c5e13079f8999c5bfd339aab7": 1
+    },
+    "top10_ids": [
+      "c5e13079f8999c5bfd339aab7",
+      "cb70fa4f111769997793f6966",
+      "c9fa4e8a35313b7852ca64732",
+      "cd91811d867671dfc80f4a196",
+      "c799a2510389a8ff2e69d96f5",
+      "c5d50c252f77a22897f2c0939",
+      "c32a5d82c9a1a1cdc281bebc9",
+      "cd736fc5e296b38a180ea5e41",
+      "ca4dc44a5d83b76b504172b96",
+      "c96c4321cc3cfb1925fd9437a"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "selected_ids": [
+      "c5e13079f8999c5bfd339aab7",
+      "c5d50c252f77a22897f2c0939",
+      "c32a5d82c9a1a1cdc281bebc9",
+      "c9fa4e8a35313b7852ca64732",
+      "cd91811d867671dfc80f4a196",
+      "cb70fa4f111769997793f6966",
+      "c799a2510389a8ff2e69d96f5",
+      "c19f10d050d45b45b632f7c42",
+      "c37d6742905e5289d693506d2",
+      "caa0882213fdff2bfb5d0b1f1"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.11253274999944551,
+    "raw_query": 0.003413332999116392,
+    "user_build": 0.013754042000073241,
+    "user_query": 0.0014202500005922047
+  }
+}

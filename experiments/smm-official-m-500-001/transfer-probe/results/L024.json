@@ -1,0 +1,152 @@
+{
+  "id": "L024",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+  "queries": {
+    "authored": "Nightingale Kristin Hannah started finished reading",
+    "stopword": "days take finish nightingale kristin hannah"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9d35c00_1": 2,
+        "answer_c9d35c00_2": 1
+      },
+      "top10_ids": [
+        "answer_c9d35c00_2",
+        "answer_c9d35c00_1",
+        "2951109d_1",
+        "9bd6beaa_1",
+        "41c90f4c_2",
+        "sharegpt_3xB7vJ2_85",
+        "2636f24e",
+        "2f2884ad_3",
+        "48f804a3",
+        "ultrachat_42484"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9d35c00_1": 2,
+        "answer_c9d35c00_2": 1
+      },
+      "top10_ids": [
+        "answer_c9d35c00_2",
+        "answer_c9d35c00_1",
+        "2951109d_1",
+        "9bd6beaa_1",
+        "5ee1c179_2",
+        "deabd4c0_1",
+        "7256dafa_2",
+        "4af19ee7",
+        "05260a4b_2",
+        "4123b717"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9d35c00_1": 2,
+        "answer_c9d35c00_2": 1
+      },
+      "top10_ids": [
+        "answer_c9d35c00_2",
+        "answer_c9d35c00_1",
+        "2951109d_1",
+        "9bd6beaa_1",
+        "2636f24e",
+        "ultrachat_42484",
+        "70b3b8b0",
+        "64eea322_1",
+        "0b014866",
+        "50d66391_1"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9d35c00_1": 2,
+        "answer_c9d35c00_2": 1
+      },
+      "top10_ids": [
+        "answer_c9d35c00_2",
+        "answer_c9d35c00_1",
+        "41c90f4c_2",
+        "ultrachat_225276",
+        "ultrachat_325926",
+        "64eea322_1",
+        "ultrachat_170300",
+        "855f5969_1",
+        "fd913121_2",
+        "11de653f_3"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_c9d35c00_1": 2,
+        "answer_c9d35c00_2": 1
+      },
+      "top10_ids": [
+        "answer_c9d35c00_2",
+        "answer_c9d35c00_1",
+        "41c90f4c_2",
+        "64eea322_1",
+        "2951109d_1",
+        "2636f24e",
+        "ultrachat_225276",
+        "sharegpt_8M1nvkj_0",
+        "c8c7dd22_1",
+        "sharegpt_ReV8Ugc_0"
+      ]
+    }
+  }
+}

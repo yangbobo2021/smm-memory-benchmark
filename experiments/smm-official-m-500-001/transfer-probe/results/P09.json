@@ -1,0 +1,157 @@
+{
+  "id": "P09",
+  "cohort": "P25",
+  "type": "multi-session",
+  "question": "How many days did I spend participating in faith-related activities in December?",
+  "queries": {
+    "authored": "faith religious activities participated December",
+    "stopword": "days spend participating faith related activities december"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_4cef8a3c_2": 1,
+        "answer_4cef8a3c_1": 11,
+        "answer_4cef8a3c_3": 4
+      },
+      "top10_ids": [
+        "answer_4cef8a3c_2",
+        "ff5922e7",
+        "sharegpt_igR6Bmm_0",
+        "answer_4cef8a3c_3",
+        "sharegpt_mJ7MnQS_25",
+        "4459f0de_2",
+        "b7271eec",
+        "ad44b3e1_1",
+        "sharegpt_36JyIJj_13",
+        "4a79d078_2"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_4cef8a3c_2": 1,
+        "answer_4cef8a3c_1": 2,
+        "answer_4cef8a3c_3": 17
+      },
+      "top10_ids": [
+        "answer_4cef8a3c_2",
+        "answer_4cef8a3c_1",
+        "fd1618d3_2",
+        "sharegpt_mJ7MnQS_25",
+        "sharegpt_aje9OJK_0",
+        "sharegpt_SlgYDjX_63",
+        "ultrachat_318364",
+        "sharegpt_36JyIJj_13",
+        "ultrachat_160051",
+        "5cc9e1ed_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_4cef8a3c_2": 1,
+        "answer_4cef8a3c_1": 11,
+        "answer_4cef8a3c_3": 2
+      },
+      "top10_ids": [
+        "answer_4cef8a3c_2",
+        "answer_4cef8a3c_3",
+        "ff5922e7",
+        "sharegpt_igR6Bmm_0",
+        "sharegpt_mJ7MnQS_25",
+        "4459f0de_2",
+        "b7271eec",
+        "ad44b3e1_1",
+        "sharegpt_36JyIJj_13",
+        "4a79d078_2"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_4cef8a3c_2": 1,
+        "answer_4cef8a3c_1": 5,
+        "answer_4cef8a3c_3": 2
+      },
+      "top10_ids": [
+        "answer_4cef8a3c_2",
+        "answer_4cef8a3c_3",
+        "sharegpt_mJ7MnQS_25",
+        "b7271eec",
+        "answer_4cef8a3c_1",
+        "fd1618d3_2",
+        "sharegpt_igR6Bmm_0",
+        "528f481d_4",
+        "cd38b6ee",
+        "f10e6d2c_4"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 2
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 3
+      },
+      "reference_positions": {
+        "answer_4cef8a3c_2": 1,
+        "answer_4cef8a3c_1": 6,
+        "answer_4cef8a3c_3": 2
+      },
+      "top10_ids": [
+        "answer_4cef8a3c_2",
+        "answer_4cef8a3c_3",
+        "sharegpt_mJ7MnQS_25",
+        "sharegpt_igR6Bmm_0",
+        "b7271eec",
+        "answer_4cef8a3c_1",
+        "7daa121d_2",
+        "4459f0de_2",
+        "fd1618d3_2",
+        "sharegpt_9CzWu15_0"
+      ]
+    }
+  }
+}

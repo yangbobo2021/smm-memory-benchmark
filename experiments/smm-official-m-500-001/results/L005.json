@@ -1,0 +1,75 @@
+{
+  "id": "L005",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "What is the order of airlines I flew with from earliest to latest before today?",
+  "official_question_id": "gpt4_f420262c",
+  "official_m_count": 475,
+  "official_m_occurrences": 478,
+  "official_m_ref_count": 5,
+  "official_m_ref_count_before_dedupe": 5,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 5,
+  "s_ref_hashes_in_m": 5,
+  "m_s_body_overlap": 6,
+  "original_s": {
+    "count": 47,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 5
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 4
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 5
+    },
+    "reference_positions": {
+      "answer_d8a1af6b_1": 8,
+      "answer_d8a1af6b_2": 6,
+      "answer_d8a1af6b_3": 4,
+      "answer_d8a1af6b_4": 2,
+      "answer_d8a1af6b_5": 9
+    },
+    "top10_ids": [
+      "ultrachat_170863",
+      "answer_d8a1af6b_4",
+      "0ec0648a",
+      "answer_d8a1af6b_3",
+      "sharegpt_QIcIecM_0",
+      "answer_d8a1af6b_2",
+      "ultrachat_300662",
+      "answer_d8a1af6b_1",
+      "answer_d8a1af6b_5",
+      "sharegpt_lz0ys5C_19"
+    ],
+    "build_seconds": 0.043721333000576124,
+    "query_seconds": 0.002794166999592562
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "L019",
+  "cohort": "L32",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c7c69c7da8ff132228f7da07c",
+    "c7e318df4438eec91e95516a7"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c7c69c7da8ff132228f7da07c": 5,
+      "c7e318df4438eec91e95516a7": 3
+    }
+  },
+  "authored": {
+    "query": "therapist Dr Smith appointments sessions frequency",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c7c69c7da8ff132228f7da07c": 6,
+      "c7e318df4438eec91e95516a7": 2
+    },
+    "top10_ids": [
+      "c03cd589266175502a469c5dc",
+      "c7e318df4438eec91e95516a7",
+      "c874b3b1541cbc7ca5240711f",
+      "c3efc706cd0f4e1d087092937",
+      "ca6b97780a37229559dd5b56e",
+      "c7c69c7da8ff132228f7da07c",
+      "cc7047087e54350d4e7f72150",
+      "c1596954e728eeab5eb89c79f",
+      "cb1e1e1d2fec35c3795536f95",
+      "c38329056a2897b405f0bae07"
+    ],
+    "seconds": {
+      "build": 0.11434724999980972,
+      "query": 0.00031120800031203544
+    }
+  },
+  "stopword": {
+    "query": "often see therapist dr smith",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c7c69c7da8ff132228f7da07c": 5,
+      "c7e318df4438eec91e95516a7": 3
+    },
+    "top10_ids": [
+      "c03cd589266175502a469c5dc",
+      "c874b3b1541cbc7ca5240711f",
+      "c7e318df4438eec91e95516a7",
+      "cc7047087e54350d4e7f72150",
+      "c7c69c7da8ff132228f7da07c",
+      "ce61230b65653be97da79b1cc",
+      "ce42777d8730a8d5dd96da7ee",
+      "ca6b97780a37229559dd5b56e",
+      "c949d304d643e301647541f6b",
+      "c1596954e728eeab5eb89c79f"
+    ],
+    "seconds": {
+      "build": 0.11380941700008407,
+      "query": 0.0007393329997285036
+    }
+  }
+}

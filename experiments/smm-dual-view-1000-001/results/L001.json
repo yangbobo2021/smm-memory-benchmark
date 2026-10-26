@@ -1,0 +1,91 @@
+{
+  "id": "L001",
+  "cohort": "L32",
+  "protocol_sha256": "3711a87963b6d0c91e819abdb3caa71897547ba7a9eb105dfd4d56bd79272281",
+  "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+  "reference_sources": [
+    "c72018d6b87a05e3e7b25a12c",
+    "ce305bb606468ab6b8e2ead39"
+  ],
+  "raw": {
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c72018d6b87a05e3e7b25a12c": 1,
+      "ce305bb606468ab6b8e2ead39": 4
+    },
+    "top10_ids": [
+      "c72018d6b87a05e3e7b25a12c",
+      "ca352623c00182ca6675e06c3",
+      "c619582baf0f6882eb4645e73",
+      "ce305bb606468ab6b8e2ead39",
+      "c8f374bbc872d0bf8d35a0fdc",
+      "ca90fac6d5a0c00acfc5eeb71",
+      "c658a4d6521f7fbc419dfd5c9",
+      "c65cc5bd2f81805ec9639528e",
+      "cf12aca46a236b7898b267cf0",
+      "cc0a673018328515f1321fa13"
+    ]
+  },
+  "user": {
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c72018d6b87a05e3e7b25a12c": 1,
+      "ce305bb606468ab6b8e2ead39": 54
+    },
+    "top10_ids": [
+      "c72018d6b87a05e3e7b25a12c",
+      "c4d713c7712e68a7a7bf243d3",
+      "c6c9df98a899615dd4902b36d",
+      "ca90fac6d5a0c00acfc5eeb71",
+      "c45f85aeb1e05318b60dbc918",
+      "c8f374bbc872d0bf8d35a0fdc",
+      "ca352623c00182ca6675e06c3",
+      "c8f80067b39712ca14cf089a0",
+      "cb213249bb45b1ae4e85a8390",
+      "c593a7d5eb11482ef7fde1f99"
+    ]
+  },
+  "dual10": {
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "selected_ids": [
+      "c72018d6b87a05e3e7b25a12c",
+      "ca352623c00182ca6675e06c3",
+      "c619582baf0f6882eb4645e73",
+      "ce305bb606468ab6b8e2ead39",
+      "c8f374bbc872d0bf8d35a0fdc",
+      "c4d713c7712e68a7a7bf243d3",
+      "c6c9df98a899615dd4902b36d",
+      "ca90fac6d5a0c00acfc5eeb71",
+      "c45f85aeb1e05318b60dbc918",
+      "c658a4d6521f7fbc419dfd5c9"
+    ]
+  },
+  "seconds": {
+    "raw_build": 0.11444395800026541,
+    "raw_query": 0.004214625001623062,
+    "user_build": 0.014025000000401633,
+    "user_query": 0.0015639590001228498
+  }
+}

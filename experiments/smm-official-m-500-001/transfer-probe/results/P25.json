@@ -1,0 +1,152 @@
+{
+  "id": "P25",
+  "cohort": "P25",
+  "type": "temporal-reasoning",
+  "question": "What time do I wake up on Tuesdays and Thursdays?",
+  "queries": {
+    "authored": "wake waking up Tuesdays Thursdays Tuesday Thursday schedule",
+    "stopword": "time wake up tuesdays thursdays"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_9af4e346_2": 3,
+        "answer_9af4e346_1": 14
+      },
+      "top10_ids": [
+        "9b90460f_1",
+        "aa31c397_3",
+        "answer_9af4e346_2",
+        "b2ecce8d_1",
+        "6de8645d_1",
+        "fce8bb8a_2",
+        "24b91514_2",
+        "b7fa3417_1",
+        "3c00365f_3",
+        "4b60c8fc"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_9af4e346_2": 7,
+        "answer_9af4e346_1": 16
+      },
+      "top10_ids": [
+        "9b90460f_1",
+        "b2ecce8d_1",
+        "6de8645d_1",
+        "aa31c397_3",
+        "24b91514_2",
+        "212ce1f4_1",
+        "answer_9af4e346_2",
+        "02e9f7e3_3",
+        "48941fec_4",
+        "3c00365f_3"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_9af4e346_2": 3,
+        "answer_9af4e346_1": 14
+      },
+      "top10_ids": [
+        "9b90460f_1",
+        "aa31c397_3",
+        "answer_9af4e346_2",
+        "b2ecce8d_1",
+        "6de8645d_1",
+        "fce8bb8a_2",
+        "24b91514_2",
+        "b7fa3417_1",
+        "3c00365f_3",
+        "4b60c8fc"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_9af4e346_2": 3,
+        "answer_9af4e346_1": 10
+      },
+      "top10_ids": [
+        "9b90460f_1",
+        "b2ecce8d_1",
+        "answer_9af4e346_2",
+        "6de8645d_1",
+        "aa31c397_3",
+        "24b91514_2",
+        "fce8bb8a_2",
+        "9ded9e01_1",
+        "7e3fa056_4",
+        "answer_9af4e346_1"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_9af4e346_2": 3,
+        "answer_9af4e346_1": 10
+      },
+      "top10_ids": [
+        "9b90460f_1",
+        "b2ecce8d_1",
+        "answer_9af4e346_2",
+        "aa31c397_3",
+        "6de8645d_1",
+        "24b91514_2",
+        "fce8bb8a_2",
+        "7e3fa056_4",
+        "9ded9e01_1",
+        "answer_9af4e346_1"
+      ]
+    }
+  }
+}

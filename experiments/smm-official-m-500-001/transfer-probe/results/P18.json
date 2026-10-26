@@ -1,0 +1,147 @@
+{
+  "id": "P18",
+  "cohort": "P25",
+  "type": "single-session-user",
+  "question": "How much did I spend on a designer handbag?",
+  "queries": {
+    "authored": "designer handbag bought purchased spent cost",
+    "stopword": "spend designer handbag"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cb94507": 1
+      },
+      "top10_ids": [
+        "answer_7cb94507",
+        "939f9816_4",
+        "8d424788_1",
+        "5fe4d2ee_1",
+        "sharegpt_2BSXlAr_0",
+        "3e178c35_1",
+        "sharegpt_Nlk1nK5_5",
+        "c51583cd_3",
+        "3e37f67d_2",
+        "sharegpt_kIVQvHQ_0"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cb94507": 1
+      },
+      "top10_ids": [
+        "answer_7cb94507",
+        "5fe4d2ee_1",
+        "939f9816_4",
+        "sharegpt_kIVQvHQ_0",
+        "895d34a3",
+        "sharegpt_2BSXlAr_0",
+        "dc7c53fa_4",
+        "8d424788_1",
+        "3e178c35_1",
+        "7332a779_2"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cb94507": 1
+      },
+      "top10_ids": [
+        "answer_7cb94507",
+        "939f9816_4",
+        "5fe4d2ee_1",
+        "sharegpt_2BSXlAr_0",
+        "3e178c35_1",
+        "8d424788_1",
+        "sharegpt_Nlk1nK5_5",
+        "3e37f67d_2",
+        "sharegpt_kIVQvHQ_0",
+        "sharegpt_bUJoW3N_0"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": false,
+        "reference_count": 0
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cb94507": 6
+      },
+      "top10_ids": [
+        "8d424788_1",
+        "939f9816_4",
+        "ultrachat_324668",
+        "sharegpt_2BSXlAr_0",
+        "ultrachat_352457",
+        "answer_7cb94507",
+        "ultrachat_134256",
+        "sharegpt_m46gSO3_39",
+        "5fe4d2ee_1",
+        "sharegpt_bUJoW3N_0"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_7cb94507": 3
+      },
+      "top10_ids": [
+        "8d424788_1",
+        "939f9816_4",
+        "answer_7cb94507",
+        "sharegpt_2BSXlAr_0",
+        "5fe4d2ee_1",
+        "ultrachat_324668",
+        "sharegpt_m46gSO3_39",
+        "sharegpt_bUJoW3N_0",
+        "ultrachat_352457",
+        "sharegpt_Nlk1nK5_5"
+      ]
+    }
+  }
+}

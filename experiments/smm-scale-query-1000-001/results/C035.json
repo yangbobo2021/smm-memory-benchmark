@@ -1,0 +1,91 @@
+{
+  "id": "C035",
+  "cohort": "C200",
+  "protocol_sha256": "f1c1553a0a178444468dd8e41230eb50734e2db1976e67940790ebea13a2e6c3",
+  "reference_sources": [
+    "c20b2e1081a5503e3f47000c5",
+    "cef8a76a54ca457dba453a63e"
+  ],
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "c20b2e1081a5503e3f47000c5": 19,
+      "cef8a76a54ca457dba453a63e": 13
+    }
+  },
+  "authored": {
+    "query": "Maria vacation vacationed trip travel traveled",
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "reference_positions": {
+      "c20b2e1081a5503e3f47000c5": 3,
+      "cef8a76a54ca457dba453a63e": 5
+    },
+    "top10_ids": [
+      "cd425d807a35f285bf4b564a7",
+      "cfe686805a979f856ed2a31c7",
+      "c20b2e1081a5503e3f47000c5",
+      "cf2195663e5034e501d02b56f",
+      "cef8a76a54ca457dba453a63e",
+      "cdb32d4e02e86afde290dcfbb",
+      "c2b42dec5ad7a3ee185f07c69",
+      "c6fc1ee0febe9cde190ad49cc",
+      "cbfb5c425265fc05c0bb703e1",
+      "ccfdc94da8aefc9fda4c825e76"
+    ],
+    "seconds": {
+      "build": 0.01906612499988114,
+      "query": 0.00020612499974959064
+    }
+  },
+  "stopword": {
+    "query": "states maria vacationed",
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "reference_positions": {
+      "c20b2e1081a5503e3f47000c5": 21,
+      "cef8a76a54ca457dba453a63e": 5
+    },
+    "top10_ids": [
+      "cbfb5c425265fc05c0bb703e1",
+      "ccf33297175f053c52668c6a4",
+      "cd425d807a35f285bf4b564a7",
+      "c368f8a6bec728f46e5cb5313",
+      "cef8a76a54ca457dba453a63e",
+      "c950574499c453ed6c91762b8",
+      "cd69f93673a0c13b7487c7a9e",
+      "cc6dce48af4dee2edadb5b259",
+      "c679b9d689624e19c41635a7b",
+      "c9b46f10a7a33f555c4789bec"
+    ],
+    "seconds": {
+      "build": 0.018902374999925087,
+      "query": 8.216700007324107e-05
+    }
+  }
+}

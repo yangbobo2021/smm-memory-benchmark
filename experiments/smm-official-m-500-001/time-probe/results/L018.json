@@ -1,0 +1,58 @@
+{
+  "id": "L018",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+  "window": {
+    "start": "2023-02-25",
+    "end": "2023-03-03",
+    "rule": "days-weeks-ago"
+  },
+  "raw": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_0d4d0348_1": 107,
+      "answer_0d4d0348_2": 63
+    }
+  },
+  "probe": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_0d4d0348_1": 107,
+      "answer_0d4d0348_2": 26
+    },
+    "top10_ids": [
+      "de8b799a",
+      "ultrachat_112045",
+      "9c6c726a",
+      "06b031e8_3",
+      "d5a8d732_1",
+      "sharegpt_UBo2yLk_6",
+      "4e392bf8_3",
+      "sharegpt_gDYCd8p_0",
+      "4d6927c2_2",
+      "ultrachat_62554"
+    ]
+  },
+  "time_bonus_count_in_raw100": 43,
+  "query_seconds": 0.0013357499992707744,
+  "build_seconds": 0.048797957999340724
+}

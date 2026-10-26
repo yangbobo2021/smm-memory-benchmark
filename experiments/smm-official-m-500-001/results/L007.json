@@ -1,0 +1,72 @@
+{
+  "id": "L007",
+  "cohort": "L32",
+  "type": "temporal-reasoning",
+  "protocol_sha256": "45c59943f8f84a453e61c1cba558d1c9ba5077474875a7aaa5e91b46a8885ed0",
+  "question": "What did I do with Rachel on the Wednesday two months ago?",
+  "official_question_id": "4dfccbf8",
+  "official_m_count": 480,
+  "official_m_occurrences": 480,
+  "official_m_ref_count": 2,
+  "official_m_ref_count_before_dedupe": 2,
+  "ref_text_hashes_equal_to_s": true,
+  "m_ref_hashes_in_s": 2,
+  "s_ref_hashes_in_m": 2,
+  "m_s_body_overlap": 2,
+  "original_s": {
+    "count": 43,
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "mixed1000": {
+    "count": 1000,
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "official_m": {
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top10": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "reference_positions": {
+      "answer_4bebc783_1": 16,
+      "answer_4bebc783_2": 149
+    },
+    "top10_ids": [
+      "3dc8ba5f_4",
+      "463f506b",
+      "97c06b59",
+      "641da543",
+      "3a1ea336_2",
+      "b91a6a1c_1",
+      "69d4a637",
+      "sharegpt_0xZLAfJ_0",
+      "9bcdc1ec_1",
+      "33a813dd_1"
+    ],
+    "build_seconds": 0.04326887499883014,
+    "query_seconds": 0.0016707499999029096
+  }
+}

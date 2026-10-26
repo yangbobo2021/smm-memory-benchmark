@@ -1,0 +1,152 @@
+{
+  "id": "P06",
+  "cohort": "P25",
+  "type": "multi-session",
+  "question": "How many days a week do I attend fitness classes?",
+  "queries": {
+    "authored": "fitness classes class attend attending weekly week schedule",
+    "stopword": "days week attend fitness classes"
+  },
+  "variants": {
+    "raw-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_47152166_1": 1,
+        "answer_47152166_2": 13
+      },
+      "top10_ids": [
+        "answer_47152166_1",
+        "481459ad_1",
+        "sharegpt_ToxFax1_219",
+        "ultrachat_688",
+        "105b833e",
+        "a4a57230",
+        "04e05522_2",
+        "ultrachat_56050",
+        "af159565",
+        "sharegpt_KCGdZJP_0"
+      ]
+    },
+    "prior-authored-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": true,
+        "any": true,
+        "reference_count": 2
+      },
+      "reference_positions": {
+        "answer_47152166_1": 1,
+        "answer_47152166_2": 7
+      },
+      "top10_ids": [
+        "answer_47152166_1",
+        "481459ad_1",
+        "04e05522_2",
+        "ultrachat_56050",
+        "sharegpt_ToxFax1_219",
+        "105b833e",
+        "answer_47152166_2",
+        "ultrachat_59306",
+        "ultrachat_688",
+        "sharegpt_KCGdZJP_0"
+      ]
+    },
+    "prior-stopword-whole": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_47152166_1": 1,
+        "answer_47152166_2": 13
+      },
+      "top10_ids": [
+        "answer_47152166_1",
+        "481459ad_1",
+        "sharegpt_ToxFax1_219",
+        "ultrachat_688",
+        "105b833e",
+        "a4a57230",
+        "04e05522_2",
+        "ultrachat_56050",
+        "af159565",
+        "sharegpt_KCGdZJP_0"
+      ]
+    },
+    "raw-user-only": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_47152166_1": 1,
+        "answer_47152166_2": 55
+      },
+      "top10_ids": [
+        "answer_47152166_1",
+        "481459ad_1",
+        "dc378711_1",
+        "ultrachat_688",
+        "04e05522_2",
+        "35e720e8",
+        "sharegpt_KCGdZJP_0",
+        "ultrachat_334297",
+        "sharegpt_ToxFax1_219",
+        "176594fa_3"
+      ]
+    },
+    "RRF60(raw-whole,raw-user-only)": {
+      "top5": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "top10": {
+        "all": false,
+        "any": true,
+        "reference_count": 1
+      },
+      "reference_positions": {
+        "answer_47152166_1": 1,
+        "answer_47152166_2": 21
+      },
+      "top10_ids": [
+        "answer_47152166_1",
+        "481459ad_1",
+        "ultrachat_688",
+        "sharegpt_ToxFax1_219",
+        "04e05522_2",
+        "sharegpt_KCGdZJP_0",
+        "dc378711_1",
+        "a4a57230",
+        "ultrachat_56050",
+        "af159565"
+      ]
+    }
+  }
+}
