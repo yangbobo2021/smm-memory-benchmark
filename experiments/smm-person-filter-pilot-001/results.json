@@ -1,0 +1,1614 @@
+{
+  "id": "SMM-PERSON-FILTER-PILOT-001",
+  "protocol_sha256": "310732e6f92e03776138072e0fee4491ccb172bb7fd032bd3c35cb34099cf2f3",
+  "base_protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "cases": [
+    {
+      "id": "C183",
+      "question": "How many times has John injured his ankle?",
+      "query_people": [
+        "John"
+      ],
+      "reason": "known wrong-person top results",
+      "source_count": 1000,
+      "speaker_subset_count": 92,
+      "name_mention_subset_count": 95,
+      "speaker_subset_original_history_count": 29,
+      "speaker_subset_retained_official_refs": [
+        "c9a36cb26aa1414002481a5a0",
+        "cdcb853bbc4a23a1e717ce345"
+      ],
+      "mention_subset_retained_official_refs": [
+        "c9a36cb26aa1414002481a5a0",
+        "cdcb853bbc4a23a1e717ce345"
+      ],
+      "official_refs": [
+        "c9a36cb26aa1414002481a5a0",
+        "cdcb853bbc4a23a1e717ce345"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 914,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 6,
+            "cdcb853bbc4a23a1e717ce345": 64
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 2,
+          "top5": [
+            {
+              "source_id": "cce1a040f5336b479999fff27d",
+              "score": 13.78557766895157,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 13.511090296734368,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 11.85372753410311,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.646054070398007,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 11.285667237933431,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 92,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 4,
+            "cdcb853bbc4a23a1e717ce345": 52
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 3,
+          "top5": [
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 11.85372753410311,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.646054070398007,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 11.285667237933431,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 10.737615777499432,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c8e125f35c78d853d6db8c5d7",
+              "score": 10.180860118847068,
+              "is_original_history": false,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 92,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 4,
+            "cdcb853bbc4a23a1e717ce345": 47
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 4,
+          "top5": [
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 5.420631286727509,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 4.533094796835657,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 4.47687030757988,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 4.318697787355657,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c14b38719fc61303d0504f2f3",
+              "score": 3.825482294934589,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 4,
+            "cdcb853bbc4a23a1e717ce345": 53
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 3,
+          "top5": [
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 11.85372753410311,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.646054070398007,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 11.285667237933431,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 10.737615777499432,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c8e125f35c78d853d6db8c5d7",
+              "score": 10.180860118847068,
+              "is_original_history": false,
+              "is_official_reference": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C152",
+      "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+      "query_people": [
+        "Nate"
+      ],
+      "reason": "official-reference miss but sufficient alternative evidence in top5",
+      "source_count": 1000,
+      "speaker_subset_count": 29,
+      "name_mention_subset_count": 29,
+      "speaker_subset_original_history_count": 29,
+      "speaker_subset_retained_official_refs": [
+        "c64d29fbe2c5978bd0f958293"
+      ],
+      "mention_subset_retained_official_refs": [
+        "c64d29fbe2c5978bd0f958293"
+      ],
+      "official_refs": [
+        "c64d29fbe2c5978bd0f958293"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 7
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615584926699576,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.888639049478535,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684807821276248,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 20.326654700966408,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 19.905122531600405,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 7
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615584926699576,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.888639049478535,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684807821276248,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 20.326654700966408,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 19.905122531600405,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 5
+          },
+          "top5_all_official": true,
+          "top5_any_official": true,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 6.757765874986875,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 4.958523990446137,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 4.900647051606,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 4.801448977611065,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 4.763953432231659,
+              "is_original_history": true,
+              "is_official_reference": true
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 7
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615584926699576,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.888639049478535,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684807821276248,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 20.326654700966408,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 19.905122531600405,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C129",
+      "question": "Is Deborah married?",
+      "query_people": [
+        "Deborah"
+      ],
+      "reason": "answer already sufficient despite redundant official references",
+      "source_count": 1000,
+      "speaker_subset_count": 30,
+      "name_mention_subset_count": 30,
+      "speaker_subset_original_history_count": 30,
+      "speaker_subset_retained_official_refs": [
+        "c0bf12013b35209c9683e75b3",
+        "c75de8240dc1ad93ba45a6a5a",
+        "c88f5066bf38856684d4e0174",
+        "cfbf7710899149b386898525a"
+      ],
+      "mention_subset_retained_official_refs": [
+        "c0bf12013b35209c9683e75b3",
+        "c75de8240dc1ad93ba45a6a5a",
+        "c88f5066bf38856684d4e0174",
+        "cfbf7710899149b386898525a"
+      ],
+      "official_refs": [
+        "c0bf12013b35209c9683e75b3",
+        "c75de8240dc1ad93ba45a6a5a",
+        "c88f5066bf38856684d4e0174",
+        "cfbf7710899149b386898525a"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 740,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 2,
+            "c75de8240dc1ad93ba45a6a5a": 27,
+            "c88f5066bf38856684d4e0174": 6,
+            "cfbf7710899149b386898525a": 7
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 4,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 12.744698649274241,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779753103402427,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "cc0b26c5a7ca09e3e0200a799a",
+              "score": 8.160223167746443,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029700100610428,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 7.019430061837124,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 2,
+            "c75de8240dc1ad93ba45a6a5a": 26,
+            "c88f5066bf38856684d4e0174": 5,
+            "cfbf7710899149b386898525a": 6
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 12.744698649274241,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779753103402427,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029700100610428,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 7.019430061837124,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 7.0105449519535,
+              "is_original_history": true,
+              "is_official_reference": true
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 2,
+            "c75de8240dc1ad93ba45a6a5a": 20,
+            "c88f5066bf38856684d4e0174": 8,
+            "cfbf7710899149b386898525a": 5
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 3.294940902530103,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 2.2143505421669665,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "cd7c3763c669b10838fb7cafc",
+              "score": 3.940770028126413e-06,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 3.9381731376179005e-06,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 3.884797811159188e-06,
+              "is_original_history": true,
+              "is_official_reference": true
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 2,
+            "c75de8240dc1ad93ba45a6a5a": 26,
+            "c88f5066bf38856684d4e0174": 5,
+            "cfbf7710899149b386898525a": 6
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 12.744698649274241,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779753103402427,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029700100610428,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 7.019430061837124,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 7.0105449519535,
+              "is_original_history": true,
+              "is_official_reference": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C170",
+      "question": "How many turtles does Nate have?",
+      "query_people": [
+        "Nate"
+      ],
+      "reason": "on-topic but missing quantity",
+      "source_count": 1000,
+      "speaker_subset_count": 29,
+      "name_mention_subset_count": 29,
+      "speaker_subset_original_history_count": 29,
+      "speaker_subset_retained_official_refs": [
+        "c0d207f826accc2103af0c748",
+        "c215909f3fabfafe9478350bc"
+      ],
+      "mention_subset_retained_official_refs": [
+        "c0d207f826accc2103af0c748",
+        "c215909f3fabfafe9478350bc"
+      ],
+      "official_refs": [
+        "c0d207f826accc2103af0c748",
+        "c215909f3fabfafe9478350bc"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 993,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 9,
+            "c215909f3fabfafe9478350bc": 6
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 15.826967231623183,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 14.221853721614385,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 13.649219108932034,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 13.633667978392738,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.407456368734973,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 9,
+            "c215909f3fabfafe9478350bc": 6
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 15.826967231623183,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 14.221853721614385,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 13.649219108932034,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 13.633667978392738,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.407456368734973,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 11,
+            "c215909f3fabfafe9478350bc": 9
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 3.487001349583864,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 2.782723008742203,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 2.69452559832467,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 2.346271183628535,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 1.6423119943120148,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 9,
+            "c215909f3fabfafe9478350bc": 6
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 15.826967231623183,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 14.221853721614385,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 13.649219108932034,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 13.633667978392738,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.407456368734973,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C118",
+      "question": "Which torunament did Nate win in the beginning of November 2022?",
+      "query_people": [
+        "Nate"
+      ],
+      "reason": "same-person wrong tournament and time",
+      "source_count": 1000,
+      "speaker_subset_count": 29,
+      "name_mention_subset_count": 29,
+      "speaker_subset_original_history_count": 29,
+      "speaker_subset_retained_official_refs": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "mention_subset_retained_official_refs": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "official_refs": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 27
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 11.901609815215386,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 11.772818659615957,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 10.096024393658176,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 9.489930371034832,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 9.001985980075686,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 26
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 11.901609815215386,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 11.772818659615957,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 10.096024393658176,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 9.489930371034832,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 9.001985980075686,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 20
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.162878119769805,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 2.9746376477873184,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.8604988334641541,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 1.8206622276566902,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 1.4410811351124286,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 26
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 11.901609815215386,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 11.772818659615957,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 10.096024393658176,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 9.489930371034832,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 9.001985980075686,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C157",
+      "question": "Where has Maria made friends?",
+      "query_people": [
+        "Maria"
+      ],
+      "reason": "partial evidence across sources",
+      "source_count": 1000,
+      "speaker_subset_count": 32,
+      "name_mention_subset_count": 32,
+      "speaker_subset_original_history_count": 32,
+      "speaker_subset_retained_official_refs": [
+        "c20b2e1081a5503e3f47000c5",
+        "c368f8a6bec728f46e5cb5313",
+        "c3a26324e6c31b252dad3005f",
+        "ccf33297175f053c52668c6a4"
+      ],
+      "mention_subset_retained_official_refs": [
+        "c20b2e1081a5503e3f47000c5",
+        "c368f8a6bec728f46e5cb5313",
+        "c3a26324e6c31b252dad3005f",
+        "ccf33297175f053c52668c6a4"
+      ],
+      "official_refs": [
+        "c20b2e1081a5503e3f47000c5",
+        "c368f8a6bec728f46e5cb5313",
+        "c3a26324e6c31b252dad3005f",
+        "ccf33297175f053c52668c6a4"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 707,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 18,
+            "c368f8a6bec728f46e5cb5313": 16,
+            "c3a26324e6c31b252dad3005f": 17,
+            "ccf33297175f053c52668c6a4": 26
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.288252129317213,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 10.233181129872769,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 10.211563341379216,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 9.872255240529437,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 9.723577704672657,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 32,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 18,
+            "c368f8a6bec728f46e5cb5313": 16,
+            "c3a26324e6c31b252dad3005f": 17,
+            "ccf33297175f053c52668c6a4": 26
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.288252129317213,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 10.233181129872769,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 10.211563341379216,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 9.872255240529437,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 9.723577704672657,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 32,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 6,
+            "c368f8a6bec728f46e5cb5313": 19,
+            "c3a26324e6c31b252dad3005f": 25,
+            "ccf33297175f053c52668c6a4": 16
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 1.7332098725703966,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cef25b6be8959d13615d190d1",
+              "score": 1.4725868599617011,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 1.3871531164960034,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 1.3657889366801854,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 1.3530312552206087,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 32,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 18,
+            "c368f8a6bec728f46e5cb5313": 16,
+            "c3a26324e6c31b252dad3005f": 17,
+            "ccf33297175f053c52668c6a4": 26
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.288252129317213,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 10.233181129872769,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 10.211563341379216,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 9.872255240529437,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 9.723577704672657,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C051",
+      "question": "What type of volunteering have John and Maria both done?",
+      "query_people": [
+        "John",
+        "Maria"
+      ],
+      "reason": "two-person claim with one-sided top5 evidence",
+      "source_count": 1000,
+      "speaker_subset_count": 92,
+      "name_mention_subset_count": 95,
+      "speaker_subset_original_history_count": 32,
+      "speaker_subset_retained_official_refs": [
+        "c368f8a6bec728f46e5cb5313",
+        "cef25b6be8959d13615d190d1"
+      ],
+      "mention_subset_retained_official_refs": [
+        "c368f8a6bec728f46e5cb5313",
+        "cef25b6be8959d13615d190d1"
+      ],
+      "official_refs": [
+        "c368f8a6bec728f46e5cb5313",
+        "cef25b6be8959d13615d190d1"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 23,
+            "cef25b6be8959d13615d190d1": 32
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 18.36144201918738,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 16.330283959561598,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 16.284335578012847,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 15.694297652562996,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c6fc1ee0febe9cde190ad49cc",
+              "score": 15.452178622437627,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 92,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 23,
+            "cef25b6be8959d13615d190d1": 32
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 18.36144201918738,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 16.330283959561598,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 16.284335578012847,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 15.694297652562996,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c6fc1ee0febe9cde190ad49cc",
+              "score": 15.452178622437627,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 92,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 41,
+            "cef25b6be8959d13615d190d1": 50
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 3,
+          "top5": [
+            {
+              "source_id": "c5ff6583bd9fa67f2cae1b861",
+              "score": 6.17405523109641,
+              "is_original_history": false,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 5.569284749077747,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 4.251912435370818,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 3.953323168293502,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cffbd588e46ffc1fc844e5330",
+              "score": 3.505642082021827,
+              "is_original_history": false,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 23,
+            "cef25b6be8959d13615d190d1": 32
+          },
+          "top5_all_official": false,
+          "top5_any_official": false,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 18.36144201918738,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 16.330283959561598,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 16.284335578012847,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 15.694297652562996,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c6fc1ee0febe9cde190ad49cc",
+              "score": 15.452178622437627,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C037",
+      "question": "What health scares did Sam and Evan experience?",
+      "query_people": [
+        "Sam",
+        "Evan"
+      ],
+      "reason": "two-person multi-event reference case",
+      "source_count": 1000,
+      "speaker_subset_count": 25,
+      "name_mention_subset_count": 25,
+      "speaker_subset_original_history_count": 25,
+      "speaker_subset_retained_official_refs": [
+        "c8b39ab3ed8428d688548cf45",
+        "cd387b85982a45e4f67498a15",
+        "ce49b7c6f8092a7995fd418ac"
+      ],
+      "mention_subset_retained_official_refs": [
+        "c8b39ab3ed8428d688548cf45",
+        "cd387b85982a45e4f67498a15",
+        "ce49b7c6f8092a7995fd418ac"
+      ],
+      "official_refs": [
+        "c8b39ab3ed8428d688548cf45",
+        "cd387b85982a45e4f67498a15",
+        "ce49b7c6f8092a7995fd418ac"
+      ],
+      "methods": {
+        "raw_all_1000": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 9,
+            "cd387b85982a45e4f67498a15": 6,
+            "ce49b7c6f8092a7995fd418ac": 2
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 19.690062769913446,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 19.17702058431329,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505821483287,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160083373888806,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 18.88882523570619,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_speaker": {
+          "candidate_count": 25,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 9,
+            "cd387b85982a45e4f67498a15": 6,
+            "ce49b7c6f8092a7995fd418ac": 2
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 19.690062769913446,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 19.17702058431329,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505821483287,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160083373888806,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 18.88882523570619,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "reindex_speaker_subset": {
+          "candidate_count": 25,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 14,
+            "cd387b85982a45e4f67498a15": 12,
+            "ce49b7c6f8092a7995fd418ac": 4
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": false,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 1.9989400987069257,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "cfdb086509e9507eb56336975",
+              "score": 1.9896042924526365,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ceb46e757307c69f8dadac445",
+              "score": 1.9381517230596637,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 0.20693276286921616,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 0.18266826631480512,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        },
+        "filter_existing_1000_rank_by_name_mention": {
+          "candidate_count": 25,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 9,
+            "cd387b85982a45e4f67498a15": 6,
+            "ce49b7c6f8092a7995fd418ac": 2
+          },
+          "top5_all_official": false,
+          "top5_any_official": true,
+          "top10_all_official": true,
+          "top5_original_history_count": 5,
+          "top5": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 19.690062769913446,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 19.17702058431329,
+              "is_original_history": true,
+              "is_official_reference": true
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505821483287,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160083373888806,
+              "is_original_history": true,
+              "is_official_reference": false
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 18.88882523570619,
+              "is_original_history": true,
+              "is_official_reference": false
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

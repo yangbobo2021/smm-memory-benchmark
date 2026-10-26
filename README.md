@@ -18,6 +18,8 @@ The selection and candidate-answer calls are independent. The selected output is
 - [Fixed whole-dialogue + USER-only lexical dual view under 1000 conversations](experiments/smm-dual-view-1000-001/README.md)
 - [Original whole-conversation BM25 under 1000 published full dialogues per question: 257-case retrieval stress test](experiments/smm-bm25-scale-1000-002/README.md)
 - [What the 1000-dialogue BM25 Top5 actually contains: source and answer-evidence audit](experiments/smm-top5-semantic-audit-001/REPORT.md)
+- [Eight-case pilot: filtering BM25 by dialogue speakers](experiments/smm-person-filter-pilot-001/REPORT.md)
+- [Eight-case pilot: combine person scope with an existing keyword query](experiments/smm-person-query-combo-pilot-001/REPORT.md)
 - [Why branch-keyword BM25 missed 45/178 clear cases: per-case diagnosis and offline ablations](analyses/smm-branch-keyword-diagnostic-001/README.md)
 - [GPT-6 Luna high discussion-branch keyword indexing: 272 conversations, 200 LoCoMo questions, BM25/vector controls](experiments/smm-branch-keywords-001/README.md)
 - [BM25 as an Agent retrieval tool: completed lexical variants, authored query inputs, Top5/Top10 coverage, and decision-gate evidence review](analyses/bm25-route-review-001/README.md)

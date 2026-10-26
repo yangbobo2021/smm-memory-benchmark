@@ -1,0 +1,10 @@
+{
+  "id": "SMM-PERSON-QUERY-COMBO-PILOT-001",
+  "purpose": "Fixed eight-case extension: separate name gating, stable history scope, and pre-existing keyword query effects",
+  "case_ids": ["C183", "C152", "C129", "C170", "C118", "C157", "C051", "C037"],
+  "person_definitions": "Reuse the exact query-supplied names in smm-person-filter-pilot-001/protocol.json",
+  "query_definitions": "Reuse previously published smm-query-input-001/authored-inputs.tsv without edits; no answer values inserted",
+  "methods": ["raw_all_1000", "authored_all_1000", "raw_speaker_subset", "authored_speaker_subset", "raw_original_history", "authored_original_history"],
+  "identity_scope_warning": "original_history is an oracle for the dataset's question-specific history, useful only as an upper-bound diagnostic for a correctly scoped user/conversation ID; it is not a general retrieval algorithm",
+  "metrics": "Top5/Top10 official source coverage, individual reference positions, Top5 source IDs and original-history membership; manual answer sufficiency is separate"
+}

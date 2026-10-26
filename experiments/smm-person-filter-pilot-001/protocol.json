@@ -1,0 +1,26 @@
+{
+  "id": "SMM-PERSON-FILTER-PILOT-001",
+  "purpose": "Small mechanism test of explicit-person filtering before BM25, not a 257-case performance claim",
+  "source_run": "SMM-BM25-SCALE-1000-002",
+  "cases_fixed_before_ranking": [
+    {"id": "C183", "people": ["John"], "reason": "known wrong-person top results"},
+    {"id": "C152", "people": ["Nate"], "reason": "official-reference miss but sufficient alternative evidence in top5"},
+    {"id": "C129", "people": ["Deborah"], "reason": "answer already sufficient despite redundant official references"},
+    {"id": "C170", "people": ["Nate"], "reason": "on-topic but missing quantity"},
+    {"id": "C118", "people": ["Nate"], "reason": "same-person wrong tournament and time"},
+    {"id": "C157", "people": ["Maria"], "reason": "partial evidence across sources"},
+    {"id": "C051", "people": ["John", "Maria"], "reason": "two-person claim with one-sided top5 evidence"},
+    {"id": "C037", "people": ["Sam", "Evan"], "reason": "two-person multi-event reference case"}
+  ],
+  "methods": [
+    "raw_all_1000",
+    "filter_existing_1000_rank_by_speaker",
+    "reindex_speaker_subset",
+    "filter_existing_1000_rank_by_name_mention"
+  ],
+  "speaker_rule": "Exact casefold match of a query-supplied person's name to a structured dialogue turn speaker; multiple people use OR, not AND",
+  "mention_rule": "Whole-word case-insensitive name occurrence in original source text, diagnostic only",
+  "query_rule": "Unchanged raw question and archived lexical_expression, unicode61 FTS5 BM25; no answer text or reference IDs enter ranking",
+  "outcomes": "reference retention, Top5/Top10 official reference coverage, Top5 original-history provenance, manually checked answer sufficiency examples",
+  "limitations": "Names can collide across unrelated people; third-party mentions need not be speakers; questions with no explicit person (e.g. first-person LongMemEval) are outside this pilot. Selected cases are known diagnostic examples, not blind samples."
+}
