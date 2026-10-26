@@ -1,0 +1,39 @@
+{
+  "case_id": "P22",
+  "model": "gpt-6.1-sol",
+  "task": "select",
+  "request_sha256": "a2fccd5a3c850ea2e1e5eca698e21e12a6ddde42103568932b27bf111d8c6530",
+  "request_file_sha256": "e397201a8794a649872ecb312778915c99cbf9b168ca8919b938cad80576f279",
+  "output": {
+    "selected_sources": [
+      "C05"
+    ]
+  },
+  "metrics": {
+    "seconds": 4.889006,
+    "thread_setup_seconds": 0.079055,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.889006,
+    "turn_seconds": 4.809951,
+    "first_text_seconds": 4.721299,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 32557,
+      "completion_tokens": 18,
+      "total_tokens": 32575,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true
+  }
+}

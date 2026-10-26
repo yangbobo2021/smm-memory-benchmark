@@ -1,0 +1,22 @@
+{
+  "id": "42acb1ec-0266-4d63-bb4d-70aeb546f7c9",
+  "model": "deepseek-flash",
+  "created": 1792981284,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"14 days passed. The repotting was said to happen on March 4, 2023, and the cuttings were given on March 18, 2023.\",\"claims\":[{\"claim\":\"The user repotted the previous spider plant on March 4, 2023, the day the message was received.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"By the way, I repot the previous spider plant today\"}]},{\"claim\":\"The user gave Mrs. Johnson spider plant cuttings on March 18, 2023, the day the message was received.\",\"citations\":[{\"evidence_id\":\"E00002\",\"quote\":\"By the way, I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\"}]},{\"claim\":\"The interval between March 4, 2023 and March 18, 2023 is 14 days.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I repot the previous spider plant today\"},{\"evidence_id\":\"E00002\",\"quote\":\"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\"}]}],\"selected_sources\":[\"C01\",\"C02\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 7412,
+    "completion_tokens": 604,
+    "total_tokens": 8016,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 342
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 7028
+  },
+  "refusal": null
+}

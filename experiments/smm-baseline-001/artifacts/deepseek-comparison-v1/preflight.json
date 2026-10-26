@@ -1,0 +1,114 @@
+{
+  "probes": [
+    {
+      "endpoint": "https://api.deepseek.com",
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return only valid JSON according to the provided schema."
+          },
+          {
+            "role": "user",
+            "content": "Return {\"ok\":true}."
+          }
+        ],
+        "reasoning_effort": "low",
+        "max_tokens": 8192,
+        "n": 1,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "smm_probe",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "ok": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "ok"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "http_status": 400,
+      "seconds": 1.403,
+      "response": {
+        "error": {
+          "message": "This response_format type is unavailable now (request_id: d8278993-e3c9-4536-a75c-5f1fd52b758a)",
+          "type": "invalid_request_error",
+          "param": null,
+          "code": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "endpoint": "https://api.deepseek.com",
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return only valid JSON. Output must conform to this JSON Schema: {\"type\":\"object\",\"properties\":{\"ok\":{\"type\":\"boolean\"}},\"required\":[\"ok\"],\"additionalProperties\":false}"
+          },
+          {
+            "role": "user",
+            "content": "Return {\"ok\":true}."
+          }
+        ],
+        "reasoning_effort": "low",
+        "thinking": {
+          "type": "enabled"
+        },
+        "max_tokens": 8192,
+        "n": 1,
+        "stream": false,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "http_status": 200,
+      "seconds": 1.654,
+      "response": {
+        "id": "35aa51fb-1f91-4e2f-b6da-766e34f49f6e",
+        "object": "chat.completion",
+        "created": 1792980775,
+        "model": "deepseek-flash",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"ok\":true}",
+              "reasoning_characters": 56
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 97,
+          "completion_tokens": 20,
+          "total_tokens": 117,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 14
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 97
+        },
+        "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+      }
+    }
+  ],
+  "note": "Probe failures are compatibility checks, not benchmark errors; key never saved."
+}

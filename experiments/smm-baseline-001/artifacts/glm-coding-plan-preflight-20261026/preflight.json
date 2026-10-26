@@ -1,0 +1,259 @@
+{
+  "experiment_id": "SMM-B001",
+  "date": "2026-10-26",
+  "status": "preflight_blocked_no_benchmark_results",
+  "requested_models": [
+    "glm-5.3-flash",
+    "glm-5.3"
+  ],
+  "benchmark_calls": 0,
+  "successful_generations": 0,
+  "http_probe_requests": 4,
+  "codex_probe_turns": 1,
+  "structured_schema_support": "not established: quota rejection before a successful generation",
+  "results": [
+    {
+      "requested_model": "glm-5.3-flash",
+      "http_status": 400,
+      "seconds": 1.055,
+      "response": {
+        "error": {
+          "code": "1210",
+          "message": "该模型始终思考，不支持关闭思考；请使用 low、high 或 max。"
+        }
+      },
+      "endpoint": "https://open.bigmodel.cn/api/coding/paas/v4/chat/completions",
+      "authentication": "User-provided key held in process memory; never included in saved request",
+      "request": {
+        "model": "glm-5.3-flash",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Return only valid JSON: {\"ok\":true}"
+          }
+        ],
+        "stream": false,
+        "max_tokens": 128,
+        "thinking": {
+          "type": "disabled"
+        },
+        "response_format": {
+          "type": "json_object"
+        }
+      }
+    },
+    {
+      "requested_model": "glm-5.3",
+      "http_status": 400,
+      "seconds": 0.941,
+      "response": {
+        "error": {
+          "code": "1210",
+          "message": "该模型始终思考，不支持关闭思考；请使用 low、high 或 max。"
+        }
+      },
+      "endpoint": "https://open.bigmodel.cn/api/coding/paas/v4/chat/completions",
+      "authentication": "User-provided key held in process memory; never included in saved request",
+      "request": {
+        "model": "glm-5.3",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Return only valid JSON: {\"ok\":true}"
+          }
+        ],
+        "stream": false,
+        "max_tokens": 128,
+        "thinking": {
+          "type": "disabled"
+        },
+        "response_format": {
+          "type": "json_object"
+        }
+      }
+    },
+    {
+      "requested_model": "glm-5.3-flash",
+      "phase": "enabled-low-strict-schema",
+      "http_status": 429,
+      "seconds": 0.964,
+      "response": {
+        "error": {
+          "code": "1113",
+          "message": "余额不足或无可用资源包,请充值。"
+        }
+      },
+      "endpoint": "https://open.bigmodel.cn/api/coding/paas/v4/chat/completions",
+      "authentication": "User-provided key held in process memory; never included in saved request",
+      "request": {
+        "model": "glm-5.3-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return only valid JSON according to the requested schema."
+          },
+          {
+            "role": "user",
+            "content": "Return {\"ok\":true}."
+          }
+        ],
+        "stream": false,
+        "max_tokens": 8192,
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "probe",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "ok": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "ok"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "requested_model": "glm-5.3",
+      "phase": "enabled-low-strict-schema",
+      "http_status": 429,
+      "seconds": 0.955,
+      "response": {
+        "error": {
+          "code": "1113",
+          "message": "余额不足或无可用资源包,请充值。"
+        }
+      },
+      "endpoint": "https://open.bigmodel.cn/api/coding/paas/v4/chat/completions",
+      "authentication": "User-provided key held in process memory; never included in saved request",
+      "request": {
+        "model": "glm-5.3",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return only valid JSON according to the requested schema."
+          },
+          {
+            "role": "user",
+            "content": "Return {\"ok\":true}."
+          }
+        ],
+        "stream": false,
+        "max_tokens": 8192,
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "probe",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "ok": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "ok"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "codex": {
+    "model": "glm-5.3-flash",
+    "endpoint": "https://open.bigmodel.cn/api/v1",
+    "exit_code": 1,
+    "stdout": "{\"type\":\"thread.started\",\"thread_id\":\"01a175d8-a0df-7652-990a-e61bd11131d2\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"error\",\"message\":\"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/boboyang/.codex/config.toml.\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_1\",\"type\":\"error\",\"message\":\"Model metadata for `glm-5.3-flash` not found. Defaulting to fallback metadata; this can degrade performance and cause issues.\"}}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Quota exceeded. Check your plan and billing details.\"}\n{\"type\":\"turn.failed\",\"error\":{\"message\":\"Quota exceeded. Check your plan and billing details.\"}}\n",
+    "stderr": "Reading additional input from stdin...\n",
+    "config_overrides": [
+      "exec",
+      "--ignore-user-config",
+      "--ignore-rules",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--model",
+      "glm-5.3-flash",
+      "--sandbox",
+      "read-only",
+      "-c",
+      "model_provider=\"smm_glm\"",
+      "-c",
+      "model_providers.smm_glm.name=\"SMM GLM test\"",
+      "-c",
+      "model_providers.smm_glm.base_url=\"https://open.bigmodel.cn/api/v1\"",
+      "-c",
+      "model_providers.smm_glm.env_key=\"SMM_GLM_TEST_KEY\"",
+      "-c",
+      "model_providers.smm_glm.wire_api=\"responses\"",
+      "-c",
+      "model_providers.smm_glm.requires_openai_auth=false",
+      "-c",
+      "model_providers.smm_glm.supports_websockets=false",
+      "-c",
+      "model_providers.smm_glm.request_max_retries=0",
+      "-c",
+      "model_providers.smm_glm.stream_max_retries=0",
+      "-c",
+      "model_reasoning_effort=\"low\"",
+      "-c",
+      "project_doc_max_bytes=0",
+      "-c",
+      "web_search=\"disabled\"",
+      "--output-schema",
+      "TEMP_SCHEMA_FILE",
+      "--disable",
+      "shell_tool",
+      "--disable",
+      "apps",
+      "--disable",
+      "plugins",
+      "--disable",
+      "multi_agent",
+      "--disable",
+      "computer_use",
+      "--disable",
+      "browser_use",
+      "--disable",
+      "code_mode_host",
+      "--disable",
+      "goals",
+      "--disable",
+      "skill_search",
+      "--disable",
+      "hooks",
+      "--disable",
+      "view_image",
+      "--disable",
+      "image_generation",
+      "--enable",
+      "skip_host_skill_discovery",
+      "Return only {\"ok\":true}. Do not call any tools."
+    ],
+    "user_config_ignored": true,
+    "user_config_modified": false,
+    "tools_disabled": true,
+    "retries_configured": 0
+  },
+  "inference": "Both correct-parameter HTTP model probes returned 1113; native Codex also reported quota exceeded. Does not establish whether key class, subscription validity, available quota, or another entitlement condition is responsible.",
+  "baseline_modified": false,
+  "secret_persisted": false
+}

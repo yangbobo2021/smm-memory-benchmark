@@ -1,0 +1,89 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "45bcd1fba700beac98ff5b486ec592c0570af899456cf54f9847d1610931d397",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "14 days passed between the two events.",
+    "claims": [
+      {
+        "claim": "The user repotted the spider plant on 2023-03-04, per the conversation received that day where the user said: \"I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.\" (E00001, C01)",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost."
+          }
+        ]
+      },
+      {
+        "claim": "The user gave Mrs. Johnson spider plant cuttings on 2023-03-18, per the conversation received that day where the user said: \"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\". (E00006, C06)",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C06"
+    ],
+    "missing": ": null} \r"
+  },
+  "metrics": {
+    "seconds": 7.924663832876831,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 313,
+      "completion_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "prompt_tokens": 18730,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 19043
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.",
+        "valid": true,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00006",
+        "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+        "valid": true,
+        "source_id": "ca722cb830ce76b391e670726",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-18T08:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

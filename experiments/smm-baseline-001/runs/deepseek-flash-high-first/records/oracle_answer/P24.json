@@ -1,0 +1,118 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "3321d354e07317a9fae0e7a11e34c1e12b850a5da0dbeb1d3fde1d02de52bbb8",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attended the networking event 26 days ago, on 2022-03-09.",
+    "claims": [
+      {
+        "claim": "The user said they had just returned from a networking event that ran from 6 PM to 8 PM “today.”",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      },
+      {
+        "claim": "Because that statement was received on 2022-03-09, the event date was 2022-03-09.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "today"
+          }
+        ]
+      },
+      {
+        "claim": "Counting calendar days from 2022-03-09 to the reference time of 2022-04-04 gives 26 days.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "Exact local timezone for the event is not specified; the count is by calendar date."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "8d0b45951491f26483a445ab4c39c5476000d4d017b2d13bfbb627ec243696fd",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 2307,
+      "completion_tokens": 1967,
+      "total_tokens": 4274,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1748
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 1923
+    },
+    "response_id": "38cd0bdb-0076-4604-9d83-848206daccc0",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 13.155553750228137
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "assistant",
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "assistant",
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P24.json",
+  "raw_response_sha256": "55503e9d69efea7184b9e01ede7c68f8ca4d004c98ada3f7d076784b4f61429e"
+}

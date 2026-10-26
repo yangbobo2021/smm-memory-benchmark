@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "e54d555e8c6e54c552f6f559ade72db4c0bc7dabb285978a1e4077114dd4566e",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "26 days ago.",
+    "claims": [
+      {
+        "claim": "The networking event was 26 days before the reference date.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 9.012693,
+    "thread_setup_seconds": 0.110299,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.012693,
+    "turn_seconds": 8.902393,
+    "first_text_seconds": 7.86294,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 29881,
+      "completion_tokens": 306,
+      "total_tokens": 30187,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 219
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

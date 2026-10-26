@@ -1,0 +1,104 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P25",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "1d5fc888cee602647e22922bceb664725c002bad2d187d61f9c394f09045b480",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "On Tuesdays and Thursdays you wake up 15 minutes earlier than your regular time in order to meditate and practice yoga poses. Your most recent statement says you now wake up at 7:00 AM (an improvement from your usual 8:30 AM), so your Tuesday/Thursday wake-up time is 6:45 AM. (Note: the 6:45 AM figure is derived by combining your two statements; the conversations state the 15-minutes-earlier habit and the 7:00 AM baseline separately.)",
+    "claims": [
+      {
+        "claim": "On Tuesdays and Thursdays the user wakes up 15 minutes earlier than usual to meditate and do yoga.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses, which has helped me feel more centered and calm."
+          }
+        ]
+      },
+      {
+        "claim": "The user's current regular wake-up time is 7:00 AM, recently improved from a usual 8:30 AM, making the Tuesday/Thursday wake-up 15 minutes earlier, i.e., 6:45 AM.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04",
+      "C08"
+    ],
+    "missing": "No evidence explicitly states an absolute clock time for the Tuesday/Thursday wake-up; 6:45 AM is inferred from the stated 7:00 AM baseline and the '15 minutes earlier' user statement."
+  },
+  "metrics": {
+    "seconds": 59.52820779196918,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 3557,
+      "completion_tokens_details": {
+        "reasoning_tokens": 3175
+      },
+      "prompt_tokens": 26136,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 29693
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses, which has helped me feel more centered and calm.",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00008",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00004",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

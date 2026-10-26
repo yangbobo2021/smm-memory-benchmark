@@ -1,0 +1,133 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "5b594459b287bfc7ff43f8ac2156a9449ca43f5865a2397f4addd2a51675d4ee",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Emma graduated first, Rachel second, and Alex third (earliest to latest).",
+    "claims": [
+      {
+        "claim": "Emma’s graduation was the earliest: reported on 2022-05-28 as having happened 'yesterady' and in late May.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "My niece Emma just graduated yesterady"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May"
+          }
+        ]
+      },
+      {
+        "claim": "Rachel’s graduation was next: reported on 2022-06-22 as having occurred 'yesterday.'",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "Alex’s graduation was latest: reported on 2022-07-15 as having occurred 'about two weeks ago.'",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "a35c736658adf0a9dae299c83901a69d6944c57873c7690d0abad362fa05deec",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 9165,
+      "completion_tokens": 1452,
+      "total_tokens": 10617,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1205
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 8781
+    },
+    "response_id": "5e41a704-7d83-4ef1-adfc-b6f37153dd16",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 13.497512874891981
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "My niece Emma just graduated yesterady",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "valid": true,
+        "source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-06-22T11:46:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago",
+        "valid": true,
+        "source_id": "c967f69f5e97bb77d7922817a",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-07-15T10:48:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P21.json",
+  "raw_response_sha256": "15c70776e2b72d13331e09489957bff17d330e8e2949de1119270710d94e8777"
+}

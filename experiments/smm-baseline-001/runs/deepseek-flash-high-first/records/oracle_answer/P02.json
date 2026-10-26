@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P02",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "69a826f9482cf85a2dde7568445746705f10fed91060c4e7346b9144c3d27335",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You currently have 20 dozen eggs stocked up in your refrigerator.",
+    "claims": [
+      {
+        "claim": "The user reported having 20 dozen eggs stocked in the fridge right now.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "we've got 20 dozen stocked up in the fridge right now"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "36957670de6a9b970fed0b5bd91856d963e7d906e9fe8c482e59ea7f72173554",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 8847,
+      "completion_tokens": 421,
+      "total_tokens": 9268,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 335
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 8463
+    },
+    "response_id": "571b9465-be65-4976-90aa-c0ce412ec85a",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.272944499971345
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "we've got 20 dozen stocked up in the fridge right now",
+        "valid": true,
+        "source_id": "ca3586c9f696b9c5035ebf62c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-15T08:18:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P02.json",
+  "raw_response_sha256": "fc4a5532bcbe3cbf5cc85f4064b01d7ee47f19219b5af24ab75cbb25878dfc78"
+}

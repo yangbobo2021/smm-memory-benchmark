@@ -1,0 +1,110 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "5b594459b287bfc7ff43f8ac2156a9449ca43f5865a2397f4addd2a51675d4ee",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Based on graduation timing: Emma graduated first (late May), Rachel second (around June 21), and Alex third (around July 1).",
+    "claims": [
+      {
+        "claim": "Emma graduated in late May",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May"
+          }
+        ]
+      },
+      {
+        "claim": "Rachel graduated around June 21 (ceremony was 'yesterday' relative to the June 22 conversation)",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "Alex graduated around early July ('about two weeks ago' relative to the July 15 conversation)",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "who graduated with a degree in engineering from college about two weeks ago"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ": none significant"
+  },
+  "metrics": {
+    "seconds": 9.042402709135786,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 331,
+      "completion_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "prompt_tokens": 8864,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 9195
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "valid": true,
+        "source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-06-22T11:46:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "who graduated with a degree in engineering from college about two weeks ago",
+        "valid": true,
+        "source_id": "c967f69f5e97bb77d7922817a",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-07-15T10:48:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

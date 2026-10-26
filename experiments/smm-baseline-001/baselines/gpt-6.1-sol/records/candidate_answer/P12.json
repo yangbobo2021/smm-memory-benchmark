@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "e878cf39743336650bfb9b2f2c2f54d4330fe3c5296645aebe42c77fc81672dc",
+  "output": {
+    "status": "answer",
+    "answer": "It was Doc Martin—you said only the last season was still available on Netflix.",
+    "claims": [
+      {
+        "claim": "You used Doc Martin as the example of a show with only its last season available.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.495666,
+    "thread_setup_seconds": 0.121558,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.495666,
+    "turn_seconds": 6.374108,
+    "first_text_seconds": 4.771812,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 34581,
+      "completion_tokens": 112,
+      "total_tokens": 34693,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P12.json",
+  "raw_receipt_sha256": "f1bad36ab5230967184781120a5df8e3c2d320a2e7f3b81d08f93ca175dd34a0",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P12/answer.json"
+}

@@ -1,0 +1,81 @@
+{
+  "case_id": "P25",
+  "model": "gpt-6.1-sol",
+  "request_sha256": "20b02bc120f92d1306979acd4974110b6f9cdec4089bea4ca91cd2e29cedbaa5",
+  "request_file_sha256": "e1fc1f09f5a49c936d0598fc98377d1f005c4b9830999416f8142ded67a8354c",
+  "output": {
+    "status": "answer",
+    "answer": "You wake up at 6:45 AM on Tuesdays and Thursdays—15 minutes earlier than your usual 7:00 AM.",
+    "claims": [
+      {
+        "claim": "Your Tuesday and Thursday wake-up time is 6:45 AM, calculated as 15 minutes before 7:00 AM.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.221413,
+    "thread_setup_seconds": 0.080453,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.221413,
+    "turn_seconds": 6.14096,
+    "first_text_seconds": 4.506856,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 18266,
+      "completion_tokens": 165,
+      "total_tokens": 18431,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+        "original_source_id": "c1093bf2c8cd861890c957c5c",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 161,
+        "end": 275
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "original_source_id": "cfb475330aad6b2360694d630",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 94,
+        "end": 199
+      }
+    ]
+  }
+}

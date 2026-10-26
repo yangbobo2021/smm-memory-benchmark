@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P02",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "e4030ad783d90cb99b197d277b74ad9c42184ce99cd62958b1e005a769807084",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "20 dozen eggs.",
+    "claims": [
+      {
+        "claim": "You currently have 20 dozen eggs stocked in the refrigerator.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "we've got 20 dozen stocked up in the fridge right now."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 10.283925,
+    "thread_setup_seconds": 0.077945,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.283925,
+    "turn_seconds": 10.20598,
+    "first_text_seconds": 8.650767,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 29421,
+      "completion_tokens": 153,
+      "total_tokens": 29574,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 71
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "we've got 20 dozen stocked up in the fridge right now.",
+        "valid": true,
+        "source_id": "ca3586c9f696b9c5035ebf62c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-15T08:18:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

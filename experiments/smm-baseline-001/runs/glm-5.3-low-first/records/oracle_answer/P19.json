@@ -1,0 +1,69 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P19",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "8bd414c125f3d82486704485c0cb99fb31fdad9304d3a477c74b9ec277f753b7",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "You bought your new tennis racket from a sports store downtown.",
+    "claims": [
+      {
+        "claim": "The user got the new tennis racket from a sports store downtown",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "A specific store name or address is not provided."
+  },
+  "metrics": {
+    "seconds": 3.7483620001003146,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 94,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 3460,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 3554
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown.",
+        "valid": true,
+        "source_id": "cdfeb5d9b5297a62fd0054af3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T21:29:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

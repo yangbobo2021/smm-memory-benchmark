@@ -1,0 +1,621 @@
+{
+  "case_id": "P11",
+  "product": "smm",
+  "namespace": "q718bcf9946cb_n100",
+  "query": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+  "clock": "2023-05-30T23:01:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c8ae7755b954de1ea86110538",
+          "score": 34.466112518722916
+        },
+        {
+          "source_id": "c8fa0124798386697b4564f0c",
+          "score": 8.20552437549134
+        },
+        {
+          "source_id": "c7f8682a4f17d006f918edc6f",
+          "score": 7.535053554086153
+        },
+        {
+          "source_id": "ca352623c00182ca6675e06c3",
+          "score": 6.914285224143854
+        },
+        {
+          "source_id": "ce50675dda8013e94038c5a8e",
+          "score": 6.28907760251925
+        },
+        {
+          "source_id": "cc2cc557208f98654eb59198c",
+          "score": 6.2298742017825335
+        },
+        {
+          "source_id": "c9416c08b188cb4587008b24e",
+          "score": 5.146452902387607
+        },
+        {
+          "source_id": "cef984a227a59526cbd32e242",
+          "score": 4.64528617031218
+        },
+        {
+          "source_id": "c0317fa04069943c3fd6892de",
+          "score": 3.92919992296059
+        },
+        {
+          "source_id": "c8d299ed47b54288aa75335f8",
+          "score": 3.9162650542868334
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "c8ae7755b954de1ea86110538",
+          "score": 0.6982450656127352
+        },
+        {
+          "source_id": "c7f8682a4f17d006f918edc6f",
+          "score": 0.40049213158208313
+        },
+        {
+          "source_id": "c513f3b7583a66a641385afec",
+          "score": 0.3153596094240585
+        },
+        {
+          "source_id": "c6d513a83f23bed15bdc9e4d9",
+          "score": 0.30958710581530385
+        },
+        {
+          "source_id": "c8fa0124798386697b4564f0c",
+          "score": 0.2505634404754848
+        },
+        {
+          "source_id": "cea10cc00c1c65c227803a945",
+          "score": 0.22591458535958436
+        },
+        {
+          "source_id": "ca352623c00182ca6675e06c3",
+          "score": 0.22130683031213616
+        },
+        {
+          "source_id": "c3fa9ea659674cbbe0e71d5ea",
+          "score": 0.21902957832780198
+        },
+        {
+          "source_id": "c1f6551b26b715f25b422cd35",
+          "score": 0.20829163880903268
+        },
+        {
+          "source_id": "cc2cc557208f98654eb59198c",
+          "score": 0.2003620008933057
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c8ae7755b954de1ea86110538-c0001",
+        "source_ids": [
+          "c8ae7755b954de1ea86110538"
+        ],
+        "hint": "canda dei Girasoli, which serves authentic Italian dishes in a cozy atmosphere. There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine. Finally, Caffè Vaticano is a historic coffee shop where you can enjoy your coffee and pastry while enjoying the view of St. Peter's Basilica. Don't hesitate to ask the locals for their recommendations as well!",
+        "kind": "bm25-original-match-index",
+        "score": 34.466112518722916,
+        "metadata": {
+          "source_id": "c8ae7755b954de1ea86110538",
+          "score": 34.466112518722916,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c8ae7755b954de1ea86110538-c0001",
+          "start": 1641,
+          "end": 2041,
+          "source_sha256": "e42db1e06cac558d1d2202d58d8e9692f3e4c27d1943917a6b268cceb56ac732"
+        }
+      },
+      {
+        "item_id": "vector:c8ae7755b954de1ea86110538-c0001",
+        "source_ids": [
+          "c8ae7755b954de1ea86110538"
+        ],
+        "hint": "canda dei Girasoli, which serves authentic Italian dishes in a cozy atmosphere. There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine. Finally, Caffè Vaticano is a historic coffee shop where you can enjoy your coffee and pastry while enjoying the view of St. Peter's Basilica. Don't hesitate to ask the locals for their recommendations as well!",
+        "kind": "vector-original-match-index",
+        "score": 0.6982450656127352,
+        "metadata": {
+          "source_id": "c8ae7755b954de1ea86110538",
+          "score": 0.6982450656127352,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "c8ae7755b954de1ea86110538-c0001",
+          "start": 1641,
+          "end": 2041,
+          "source_sha256": "e42db1e06cac558d1d2202d58d8e9692f3e4c27d1943917a6b268cceb56ac732"
+        }
+      },
+      {
+        "item_id": "bm25:c8fa0124798386697b4564f0c-c0019",
+        "source_ids": [
+          "c8fa0124798386697b4564f0c"
+        ],
+        "hint": "otential for a long-term partnership, including opportunities for collaboration, joint events, or co-branded initiatives.\n10. **Site Visit:** If possible, conduct a site visit to get a firsthand understanding of the food bank's operations, meet with staff and volunteers, and see the impact of their work.\n\nBy considering these factors, you'll be able to select a food bank that aligns with your orga",
+        "kind": "bm25-original-match-index",
+        "score": 8.20552437549134,
+        "metadata": {
+          "source_id": "c8fa0124798386697b4564f0c",
+          "score": 8.20552437549134,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "c8fa0124798386697b4564f0c-c0019",
+          "start": 14058,
+          "end": 14458,
+          "source_sha256": "0a96374d6bb7d2a78b9124045b0d1c67bc21fd94257a7aa5ca11ab59bf07887b"
+        }
+      },
+      {
+        "item_id": "vector:c7f8682a4f17d006f918edc6f-c0001",
+        "source_ids": [
+          "c7f8682a4f17d006f918edc6f"
+        ],
+        "hint": "s the first place that comes to mind when thinking of great food. However, there are some hidden gems and popular spots worth trying near Times Square. Here are some restaurant recommendations:\n\n**Classic NYC Eats**\n\n1. **Carmine's** (205 W 52nd St): A family-style Italian restaurant serving up generous portions of pasta, seafood, and meat dishes.\n2. **Ellen's Stardust Diner** (1650 Broadway): A r",
+        "kind": "vector-original-match-index",
+        "score": 0.40049213158208313,
+        "metadata": {
+          "source_id": "c7f8682a4f17d006f918edc6f",
+          "score": 0.40049213158208313,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c7f8682a4f17d006f918edc6f-c0001",
+          "start": 250,
+          "end": 650,
+          "source_sha256": "62e1d6fba1d4c31062b1c0123e06bbb72bba5a3870f5a3994f20592a70d8751b"
+        }
+      },
+      {
+        "item_id": "bm25:c7f8682a4f17d006f918edc6f-c0000",
+        "source_ids": [
+          "c7f8682a4f17d006f918edc6f"
+        ],
+        "hint": "USER:\nI'm looking for some new restaurants to try in NYC. Any recommendations near Times Square?",
+        "kind": "bm25-original-match-index",
+        "score": 7.535053554086153,
+        "metadata": {
+          "source_id": "c7f8682a4f17d006f918edc6f",
+          "score": 7.535053554086153,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "c7f8682a4f17d006f918edc6f-c0000",
+          "start": 0,
+          "end": 96,
+          "source_sha256": "62e1d6fba1d4c31062b1c0123e06bbb72bba5a3870f5a3994f20592a70d8751b"
+        }
+      },
+      {
+        "item_id": "vector:c513f3b7583a66a641385afec-c0000",
+        "source_ids": [
+          "c513f3b7583a66a641385afec"
+        ],
+        "hint": "USER:\nI'm looking for a recipe for a unique pasta dish, something that combines Asian flavors with Italian techniques. Do you have any suggestions?",
+        "kind": "vector-original-match-index",
+        "score": 0.3153596094240585,
+        "metadata": {
+          "source_id": "c513f3b7583a66a641385afec",
+          "score": 0.3153596094240585,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "c513f3b7583a66a641385afec-c0000",
+          "start": 0,
+          "end": 147,
+          "source_sha256": "c0d2de84aa9f4b93327f0bc03d359004895854776248be1fd29c77e28107e37f"
+        }
+      },
+      {
+        "item_id": "bm25:ca352623c00182ca6675e06c3-c0000",
+        "source_ids": [
+          "ca352623c00182ca6675e06c3"
+        ],
+        "hint": "USER:\nI'm planning a new road trip to the Grand Canyon and I was wondering if you could help me estimate the driving time and fuel cost for the trip. By the way, on a related note, I recently went to Yellowstone and the total driving time on the first day to our first stop in Reno, Nevada was 12 hours.",
+        "kind": "bm25-original-match-index",
+        "score": 6.914285224143854,
+        "metadata": {
+          "source_id": "ca352623c00182ca6675e06c3",
+          "score": 6.914285224143854,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "ca352623c00182ca6675e06c3-c0000",
+          "start": 0,
+          "end": 303,
+          "source_sha256": "b4b49a2695ef9faa9745cefcd46d2297a3e3615e2d6ee440502190b34c8e2a7a"
+        }
+      },
+      {
+        "item_id": "vector:c6d513a83f23bed15bdc9e4d9-c0015",
+        "source_ids": [
+          "c6d513a83f23bed15bdc9e4d9"
+        ],
+        "hint": "\n\nUSER:\nI'm thinking of trying out some new recipes for my chickens. Do you have any recommendations for healthy and tasty treats that I can give them?",
+        "kind": "vector-original-match-index",
+        "score": 0.30958710581530385,
+        "metadata": {
+          "source_id": "c6d513a83f23bed15bdc9e4d9",
+          "score": 0.30958710581530385,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c6d513a83f23bed15bdc9e4d9-c0015",
+          "start": 11221,
+          "end": 11372,
+          "source_sha256": "02f55eb73ec3031a423cd4bf281970a22a4477ac23be02bb787ad82d39b885e8"
+        }
+      },
+      {
+        "item_id": "bm25:ce50675dda8013e94038c5a8e-c0000",
+        "source_ids": [
+          "ce50675dda8013e94038c5a8e"
+        ],
+        "hint": "USER:\nI'm planning to attend another music festival soon and I was wondering if you could suggest some ways to keep my belongings safe and organized while I'm there. By the way, I'm planning to bring my trusty brown Fjallraven cross-body bag, which has been great for carrying my phone, wallet, and water bottle.",
+        "kind": "bm25-original-match-index",
+        "score": 6.28907760251925,
+        "metadata": {
+          "source_id": "ce50675dda8013e94038c5a8e",
+          "score": 6.28907760251925,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "ce50675dda8013e94038c5a8e-c0000",
+          "start": 0,
+          "end": 312,
+          "source_sha256": "41dda9f13d791a8bd03b39da1378b13f63dde0b89cac47a1bae06cac1f585eaa"
+        }
+      },
+      {
+        "item_id": "vector:c8fa0124798386697b4564f0c-c0012",
+        "source_ids": [
+          "c8fa0124798386697b4564f0c"
+        ],
+        "hint": "\n\nUSER:\nI'm thinking of organizing a food drive at my workplace to collect donations for the local food bank. Do you have any tips on how to make it a successful event?",
+        "kind": "vector-original-match-index",
+        "score": 0.2505634404754848,
+        "metadata": {
+          "source_id": "c8fa0124798386697b4564f0c",
+          "score": 0.2505634404754848,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c8fa0124798386697b4564f0c-c0012",
+          "start": 8488,
+          "end": 8656,
+          "source_sha256": "0a96374d6bb7d2a78b9124045b0d1c67bc21fd94257a7aa5ca11ab59bf07887b"
+        }
+      },
+      {
+        "item_id": "bm25:cc2cc557208f98654eb59198c-c0000",
+        "source_ids": [
+          "cc2cc557208f98654eb59198c"
+        ],
+        "hint": "USER:\nI was wondering if you could help me find a good moisturizer to go along with my current face wash routine. I've been using the Neutrogena face wash at night before going to bed, and I want to make sure I'm using a moisturizer that complements it well.",
+        "kind": "bm25-original-match-index",
+        "score": 6.2298742017825335,
+        "metadata": {
+          "source_id": "cc2cc557208f98654eb59198c",
+          "score": 6.2298742017825335,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "cc2cc557208f98654eb59198c-c0000",
+          "start": 0,
+          "end": 258,
+          "source_sha256": "b5c118eafc4227081155e6f1eb2fefcecde80396da6a2583189910af892343c6"
+        }
+      },
+      {
+        "item_id": "vector:cea10cc00c1c65c227803a945-c0002",
+        "source_ids": [
+          "cea10cc00c1c65c227803a945"
+        ],
+        "hint": "vory soy-based sauce.\n4. **Kimchi Stew** (): Spicy Kimchi Stew - A hearty, flavorful stew made with kimchi, pork, tofu, and vegetables in a spicy, savory broth.\n5. **Tteokbokki** (): Spicy Rice Cakes - A popular street food dish featuring chewy rice cakes in a sweet and spicy sauce, often served with fish cakes and boiled eggs.\n6. **Kimchi Fried Rice** (): Spicy Kimchi Fried Rice - A simple yet fl",
+        "kind": "vector-original-match-index",
+        "score": 0.22591458535958436,
+        "metadata": {
+          "source_id": "cea10cc00c1c65c227803a945",
+          "score": 0.22591458535958436,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "cea10cc00c1c65c227803a945-c0002",
+          "start": 1010,
+          "end": 1410,
+          "source_sha256": "917ae574315a584b746d41583dd22d6e81920491f2ad6c52ea3ab9e32bcb0223"
+        }
+      },
+      {
+        "item_id": "bm25:c9416c08b188cb4587008b24e-c0010",
+        "source_ids": [
+          "c9416c08b188cb4587008b24e"
+        ],
+        "hint": "rved demeanor, but she is also kind and caring towards those she trusts.\n\nBackground story:\n\nGanyu is a half-human, half-Adeptus who serves as the secretary for the Liyue Qixing. She was raised by her human mother in the mountains surrounding Liyue, but her Adeptus heritage meant that she was always seen as an outsider. Despite this, Ganyu developed a strong connection to the natural world and bec",
+        "kind": "bm25-original-match-index",
+        "score": 5.146452902387607,
+        "metadata": {
+          "source_id": "c9416c08b188cb4587008b24e",
+          "score": 5.146452902387607,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c9416c08b188cb4587008b24e-c0010",
+          "start": 9006,
+          "end": 9406,
+          "source_sha256": "437c755765e402d3b2db35d407969e678d646fa20e6115e841340e9a3740fa04"
+        }
+      },
+      {
+        "item_id": "vector:ca352623c00182ca6675e06c3-c0006",
+        "source_ids": [
+          "ca352623c00182ca6675e06c3"
+        ],
+        "hint": "\n\nUSER:\nI think I'll go with the Scenic Route via Route 66 and I-40. I've always wanted to drive on the famous Route 66. Can you recommend any good stops or attractions along the way?",
+        "kind": "vector-original-match-index",
+        "score": 0.22130683031213616,
+        "metadata": {
+          "source_id": "ca352623c00182ca6675e06c3",
+          "score": 0.22130683031213616,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "ca352623c00182ca6675e06c3-c0006",
+          "start": 3577,
+          "end": 3760,
+          "source_sha256": "b4b49a2695ef9faa9745cefcd46d2297a3e3615e2d6ee440502190b34c8e2a7a"
+        }
+      },
+      {
+        "item_id": "bm25:cef984a227a59526cbd32e242-c0020",
+        "source_ids": [
+          "cef984a227a59526cbd32e242"
+        ],
+        "hint": "on't have personal experiences, emotions, or a physical identity. I exist solely to provide information and assist with tasks to the best of my abilities.\n\nI don't have a name change story or personal experiences to share. My purpose is to provide helpful and accurate responses to your questions, and I don't have personal feelings or emotions to explore.\n\nHowever, I'm happy to continue chatting wi",
+        "kind": "bm25-original-match-index",
+        "score": 4.64528617031218,
+        "metadata": {
+          "source_id": "cef984a227a59526cbd32e242",
+          "score": 4.64528617031218,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "cef984a227a59526cbd32e242-c0020",
+          "start": 13530,
+          "end": 13930,
+          "source_sha256": "cfd394e7e024462116ef6cb5a618bdd449a75e89c3666ef0e4f37cae83977dff"
+        }
+      },
+      {
+        "item_id": "vector:c3fa9ea659674cbbe0e71d5ea-c0000",
+        "source_ids": [
+          "c3fa9ea659674cbbe0e71d5ea"
+        ],
+        "hint": "USER:\nI'm looking for some new savory snack recipes to try out. Do you have any recommendations?",
+        "kind": "vector-original-match-index",
+        "score": 0.21902957832780198,
+        "metadata": {
+          "source_id": "c3fa9ea659674cbbe0e71d5ea",
+          "score": 0.21902957832780198,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c3fa9ea659674cbbe0e71d5ea-c0000",
+          "start": 0,
+          "end": 96,
+          "source_sha256": "e153e7f5847fe22db2d15889a1aea9394d031bd71949e6a4292aea89f2aade30"
+        }
+      },
+      {
+        "item_id": "bm25:c0317fa04069943c3fd6892de-c0003",
+        "source_ids": [
+          "c0317fa04069943c3fd6892de"
+        ],
+        "hint": ", marriages, and relationships, is a significant source of inspiration for her self-portraits.\n6. **Diego Rivera**: Her husband, the famous Mexican muralist Diego Rivera, was a significant influence on her work, and she was often inspired by his artistic style and techniques.\n\nSome of Frida's most famous self-portraits include:\n\n* \"The Two Fridas\" (1939)\n* \"Self-Portrait with Thorn Necklace and Hu",
+        "kind": "bm25-original-match-index",
+        "score": 3.92919992296059,
+        "metadata": {
+          "source_id": "c0317fa04069943c3fd6892de",
+          "score": 3.92919992296059,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c0317fa04069943c3fd6892de-c0003",
+          "start": 2242,
+          "end": 2642,
+          "source_sha256": "6b45ede7e6e6e5145abd22d2dabe4a3794168ea0c1a74597c19b4f47584176eb"
+        }
+      },
+      {
+        "item_id": "vector:c1f6551b26b715f25b422cd35-c0011",
+        "source_ids": [
+          "c1f6551b26b715f25b422cd35"
+        ],
+        "hint": "\n\nUSER:\nI'll definitely look into these organizations and see which ones are available in my area. I'm particularly interested in organizations that provide food and shelter services. Do you know if there are any specific volunteer roles that are usually in demand at these organizations, such as serving meals or sorting donations?",
+        "kind": "vector-original-match-index",
+        "score": 0.20829163880903268,
+        "metadata": {
+          "source_id": "c1f6551b26b715f25b422cd35",
+          "score": 0.20829163880903268,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c1f6551b26b715f25b422cd35-c0011",
+          "start": 8175,
+          "end": 8507,
+          "source_sha256": "f344cc1d873421fa58de94cb06624b30ec0590f67059c7c78690d06dfc281f73"
+        }
+      },
+      {
+        "item_id": "bm25:c8d299ed47b54288aa75335f8-c0006",
+        "source_ids": [
+          "c8d299ed47b54288aa75335f8"
+        ],
+        "hint": "ity. I'm confident that my experience and expertise can make a positive impact on the students' academic and professional journeys.\n\nCould you please let me know if there are any existing mentorship programs or initiatives that I can get involved with? If not, I'd be happy to discuss potential opportunities and collaborations with you.\n\nThank you for considering my interest in mentoring [Universit",
+        "kind": "bm25-original-match-index",
+        "score": 3.9162650542868334,
+        "metadata": {
+          "source_id": "c8d299ed47b54288aa75335f8",
+          "score": 3.9162650542868334,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c8d299ed47b54288aa75335f8-c0006",
+          "start": 4556,
+          "end": 4956,
+          "source_sha256": "d8b26b3e44997ae6e18ce623d0a8699dc49f49ac3cbb0aeefe7944bbf67ace31"
+        }
+      },
+      {
+        "item_id": "vector:cc2cc557208f98654eb59198c-c0014",
+        "source_ids": [
+          "cc2cc557208f98654eb59198c"
+        ],
+        "hint": "\n\nUSER:\nI've been meaning to clean the bathroom mirrors for weeks, but I keep putting it off. Do you have any recommendations for a good glass cleaner that can help me get the job done efficiently?",
+        "kind": "vector-original-match-index",
+        "score": 0.2003620008933057,
+        "metadata": {
+          "source_id": "cc2cc557208f98654eb59198c",
+          "score": 0.2003620008933057,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "cc2cc557208f98654eb59198c-c0014",
+          "start": 7833,
+          "end": 8030,
+          "source_sha256": "b5c118eafc4227081155e6f1eb2fefcecde80396da6a2583189910af892343c6"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c8ae7755b954de1ea86110538",
+    "c8fa0124798386697b4564f0c",
+    "c7f8682a4f17d006f918edc6f",
+    "ca352623c00182ca6675e06c3",
+    "ce50675dda8013e94038c5a8e",
+    "c513f3b7583a66a641385afec",
+    "c6d513a83f23bed15bdc9e4d9"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c8ae7755b954de1ea86110538",
+      "source_date": "2023-05-26T15:26:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nThere are many great food options near the Vatican. One popular option is Pizzarium, which has been rated as one of the best pizza places in Rome. Another option is La Locanda dei Girasoli, which serves authentic Italian dishes in a cozy atmosphere. There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine. Finally, Caffè Vaticano is",
+          "start": 1458,
+          "end": 1858
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nUSER:\nI'll make sure to keep comfortable shoes and my valuables safe. Do you have any specific gelato shops you recommend? I'm a huge fan!\n\nASSISTANT:\nSure, here are some of the most popular gelato shops in Rome:\n\n1. Gelateria del Teatro - known for their creative flavors such as white peach and lavender or dark chocolate and orange. 2. Giolitti - a historic gelato shop that has been in business",
+          "start": 4085,
+          "end": 4485
+        }
+      ]
+    },
+    {
+      "source_id": "c8fa0124798386697b4564f0c",
+      "source_date": "2023-05-25T22:45:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "donations and efforts?\n9. **Partnership Opportunities:** Consider the potential for a long-term partnership, including opportunities for collaboration, joint events, or co-branded initiatives.\n10. **Site Visit:** If possible, conduct a site visit to get a firsthand understanding of the food bank's operations, meet with staff and volunteers, and see the impact of their work.\n\nBy considering these f",
+          "start": 13987,
+          "end": 14387
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm thinking of organizing a food drive at my workplace to collect donations for the local food bank. Do you have any tips on how to make it a successful event?",
+          "start": 8488,
+          "end": 8656
+        }
+      ]
+    },
+    {
+      "source_id": "c7f8682a4f17d006f918edc6f",
+      "source_date": "2023-05-20T16:30:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm looking for some new restaurants to try in NYC. Any recommendations near Times Square?",
+          "start": 0,
+          "end": 96
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nTimes Square! The heart of New York City's entertainment district. While it's known for its bright lights and bustling energy, it's not always the first place that comes to mind when thinking of great food. However, there are some hidden gems and popular spots worth trying near Times Square. Here are some restaurant recommendations:\n\n**Classic NYC Eats**\n\n1. **Carmine's** (205 W 52nd ",
+          "start": 96,
+          "end": 496
+        }
+      ]
+    },
+    {
+      "source_id": "ca352623c00182ca6675e06c3",
+      "source_date": "2023-05-26T22:41:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning a new road trip to the Grand Canyon and I was wondering if you could help me estimate the driving time and fuel cost for the trip. By the way, on a related note, I recently went to Yellowstone and the total driving time on the first day to our first stop in Reno, Nevada was 12 hours.",
+          "start": 0,
+          "end": 303
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think I'll go with the Scenic Route via Route 66 and I-40. I've always wanted to drive on the famous Route 66. Can you recommend any good stops or attractions along the way?",
+          "start": 3577,
+          "end": 3760
+        }
+      ]
+    },
+    {
+      "source_id": "ce50675dda8013e94038c5a8e",
+      "source_date": "2023-05-25T10:44:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning to attend another music festival soon and I was wondering if you could suggest some ways to keep my belongings safe and organized while I'm there. By the way, I'm planning to bring my trusty brown Fjallraven cross-body bag, which has been great for carrying my phone, wallet, and water bottle.",
+          "start": 0,
+          "end": 312
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think I'll try making my own luggage tag, maybe with fabric or washi tape. It'll be a fun DIY project. By the way, do you have any suggestions on how to keep my cross-body bag clean and organized? I've been trying to declutter it and only carry the essentials, but I'm not sure what's the best way to organize the compartments.",
+          "start": 5180,
+          "end": 5517
+        }
+      ]
+    },
+    {
+      "source_id": "c513f3b7583a66a641385afec",
+      "source_date": "2023-05-23T19:11:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "inegar.\n* Substitute peanut butter or cashew butter for tahini for a different nutty flavor.\n* Add some grated daikon or carrot for added freshness and texture.\n* Experiment with different types of chili paste or hot sauce for varying levels of heat.\n\nThis sesame glaze is a versatile condiment that can be used in many Asian-inspired dishes, from noodle bowls to stir-fries and grilled meats. Enjoy!",
+          "start": 6833,
+          "end": 7233
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm looking for a recipe for a unique pasta dish, something that combines Asian flavors with Italian techniques. Do you have any suggestions?",
+          "start": 0,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "source_id": "c6d513a83f23bed15bdc9e4d9",
+      "source_date": "2023-05-20T18:06:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm thinking of expanding my chicken coop again, but I want to make sure I have enough space for all of them. Can you tell me the recommended square footage per chicken? By the way, I've had my flock for a while now and before adding the new ones, I had 10 chickens, so I want to make sure I plan accordingly.",
+          "start": 0,
+          "end": 315
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm thinking of trying out some new recipes for my chickens. Do you have any recommendations for healthy and tasty treats that I can give them?",
+          "start": 11221,
+          "end": 11372
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.0334865408949554,
+    "native_search_seconds": 0.012043958064168692,
+    "common_spans_seconds": 0.006533416919410229
+  }
+}

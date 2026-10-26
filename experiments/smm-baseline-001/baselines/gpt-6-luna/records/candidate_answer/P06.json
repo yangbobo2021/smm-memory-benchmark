@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P06",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "e36b3fe9dcb20ea4ece791c5b1da9deb6921e29101fc642b92a5f9a601c8dd17",
+  "output": {
+    "status": "answer",
+    "answer": "You attend fitness classes 3 days a week: Zumba on Tuesdays and Thursdays, and weightlifting on Saturdays.",
+    "claims": [
+      {
+        "claim": "The user attends fitness classes 3 days a week: Zumba Tuesdays and Thursdays, and weightlifting Saturdays.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.766799,
+    "thread_setup_seconds": 0.085954,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.766799,
+    "turn_seconds": 4.680845,
+    "first_text_seconds": 3.984234,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 31664,
+      "completion_tokens": 123,
+      "total_tokens": 31787,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P06.json",
+  "raw_receipt_sha256": "b40a9ba5ab2b6d3e28c1d30a628dafa2d6d5741a3aae4b6af84a3b6c9d8d9071",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P06/answer.json"
+}

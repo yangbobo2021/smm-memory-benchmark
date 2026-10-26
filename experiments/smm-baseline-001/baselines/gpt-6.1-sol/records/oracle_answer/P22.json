@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "output": {
+    "status": "answer",
+    "answer": "About 3 weeks ago—around April 16, 2023.",
+    "claims": [
+      {
+        "claim": "You had just downloaded Ibotta around April 16, 2023, about 3 weeks before May 6.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.176769,
+    "thread_setup_seconds": 0.07475,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.176769,
+    "turn_seconds": 6.102019,
+    "first_text_seconds": 4.846564,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14139,
+      "completion_tokens": 123,
+      "total_tokens": 14262,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P22.json",
+  "raw_receipt_sha256": "497bf5e361551f70a27bf9e8fee0e63e01fb4f80b6e6a8ac8094c8d5b3602c09",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6.1-sol/P22.json"
+}

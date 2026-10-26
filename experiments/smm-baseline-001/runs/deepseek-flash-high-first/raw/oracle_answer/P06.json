@@ -1,0 +1,22 @@
+{
+  "id": "3d5a263e-dd81-42ec-adcf-015c39261606",
+  "model": "deepseek-flash",
+  "created": 1792982765,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"You attend fitness classes on 4 days a week: Tuesdays and Thursdays for Zumba, Wednesdays for yoga, and Saturdays for weightlifting.\",\"claims\":[{\"claim\":\"You attend fitness classes on four days a week: Tuesday and Thursday (Zumba), Wednesday (yoga), and Saturday (weightlifting).\",\"citations\":[{\"evidence_id\":\"E00002\",\"quote\":\"I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.\"},{\"evidence_id\":\"E00001\",\"quote\":\"recently started a yoga class on Wednesdays\"}]}],\"selected_sources\":[\"C01\",\"C02\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 6733,
+    "completion_tokens": 888,
+    "total_tokens": 7621,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 725
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 6349
+  },
+  "refusal": null
+}

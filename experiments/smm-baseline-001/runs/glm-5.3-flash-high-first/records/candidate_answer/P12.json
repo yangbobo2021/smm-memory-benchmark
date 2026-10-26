@@ -1,0 +1,118 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "e878cf39743336650bfb9b2f2c2f54d4330fe3c5296645aebe42c77fc81672dc",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes — in our earlier Netflix conversation, the show you used as an example was \"Doc Martin\" (written as \"doc martin\"). You said Netflix took it down after a while, leaving only the last season available.",
+    "claims": [
+      {
+        "claim": "The user wanted access to all seasons of old shows on Netflix, noting Netflix takes shows down over time.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows."
+          }
+        ]
+      },
+      {
+        "claim": "The example show the user gave was \"Doc Martin,\" which went down after a while and now only has the last season available.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I will give you an example, "
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "doc martin"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": " show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": "None; the Netflix conversation is fully contained in E00002."
+  },
+  "metrics": {
+    "seconds": 14.44810420810245,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 563,
+      "completion_tokens_details": {
+        "reasoning_tokens": 255
+      },
+      "prompt_tokens": 24086,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 24649
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows.",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I will give you an example, ",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "doc martin",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": " show went down after a while, and now we have access only to the last season.",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

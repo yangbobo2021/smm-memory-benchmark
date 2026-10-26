@@ -1,0 +1,243 @@
+{
+  "gpt-6-luna": {
+    "low": {
+      "oracle_answer": {
+        "semantic_content_correct": 21,
+        "denominator": 23,
+        "semantic_wrong": [
+          "P06",
+          "P08"
+        ],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 21,
+        "exact_quote_valid": 25
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 19,
+        "denominator": 23,
+        "semantic_wrong": [
+          "P06",
+          "P07",
+          "P08",
+          "P09"
+        ],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 17,
+        "exact_quote_valid": 23
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 22,
+        "exact_quote_valid": 23
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25
+      }
+    }
+  },
+  "gpt-6.1-sol": {
+    "low": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25
+      }
+    }
+  },
+  "glm-5.3-flash": {
+    "low": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [
+          "P25"
+        ],
+        "strict_supported_correct": 20,
+        "exact_quote_valid": 22
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 21,
+        "denominator": 23,
+        "semantic_wrong": [
+          "P07",
+          "P21"
+        ],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 19,
+        "exact_quote_valid": 22
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 19,
+        "exact_quote_valid": 21
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 21,
+        "denominator": 23,
+        "semantic_wrong": [
+          "P07"
+        ],
+        "format_errors": [],
+        "generation_errors": [
+          "P20"
+        ],
+        "strict_supported_correct": 18,
+        "exact_quote_valid": 22
+      }
+    }
+  },
+  "glm-5.3": {
+    "low": {
+      "oracle_answer": {
+        "semantic_content_correct": 22,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [
+          "P01",
+          "P03"
+        ],
+        "generation_errors": [
+          "P06"
+        ],
+        "strict_supported_correct": 16,
+        "exact_quote_valid": 21
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [
+          "P15",
+          "P20"
+        ],
+        "generation_errors": [],
+        "strict_supported_correct": 17,
+        "exact_quote_valid": 23
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 19,
+        "exact_quote_valid": 23
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 22,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [
+          "P06"
+        ],
+        "generation_errors": [
+          "P18"
+        ],
+        "strict_supported_correct": 17,
+        "exact_quote_valid": 22
+      }
+    }
+  },
+  "deepseek-flash": {
+    "low": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 22,
+        "exact_quote_valid": 24
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [
+          "P02"
+        ],
+        "generation_errors": [],
+        "strict_supported_correct": 22,
+        "exact_quote_valid": 24
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25
+      },
+      "candidate_answer": {
+        "semantic_content_correct": 23,
+        "denominator": 23,
+        "semantic_wrong": [],
+        "format_errors": [],
+        "generation_errors": [],
+        "strict_supported_correct": 22,
+        "exact_quote_valid": 24
+      }
+    }
+  }
+}

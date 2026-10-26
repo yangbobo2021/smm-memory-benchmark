@@ -1,0 +1,67 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P09",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "8a7a94bb71b20f108c06cd537d60405bd1d617f338e69924220ec0eb965d1c64",
+  "output": {
+    "status": "answer",
+    "answer": "You participated on 3 days: December 10 (church food drive), December 17 (Bible study), and December 24 (Christmas Eve midnight mass).",
+    "claims": [
+      {
+        "claim": "The total is 3 distinct days in December.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need"
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th"
+          },
+          {
+            "evidence_id": "E00005",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02",
+      "C05",
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.809947,
+    "thread_setup_seconds": 0.113532,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.809947,
+    "turn_seconds": 7.696415,
+    "first_text_seconds": 5.622078,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 33741,
+      "completion_tokens": 202,
+      "total_tokens": 33943,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P09.json",
+  "raw_receipt_sha256": "ebc6a7966bb6b1d58fe884ffda1bcb0c9f2af9c0406720cb38c19db1265eb0af",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P09/answer.json"
+}

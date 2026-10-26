@@ -1,0 +1,64 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "b5e5e63d42989b64088a60e7a2fbf0b1f564cac8619d20924c1991902296aea4",
+  "output": {
+    "status": "answer",
+    "answer": "14 days.",
+    "claims": [
+      {
+        "claim": "The day you repotted the previous spider plant was March 4, 2023, and the day you gave Mrs. Johnson cuttings was March 18, 2023—14 days apart.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.057578,
+    "thread_setup_seconds": 0.077313,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.057578,
+    "turn_seconds": 3.980265,
+    "first_text_seconds": 3.280803,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 16908,
+      "completion_tokens": 134,
+      "total_tokens": 17042,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P23.json",
+  "raw_receipt_sha256": "867e567dd93d139c17c9facb2e7b4b46a176d594e07f9d9f988a8b59a43670e3",
+  "imported": true,
+  "historical_exact_reuse": true,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P23.json",
+  "reused_first_result": "provenance/reused-first-results/gpt-6-luna/P23.json",
+  "reused_first_result_sha256": "a1eb3d7bdd1db3a8b1a698c356e93711f1060d863cd14803df061dfecd485ce2"
+}

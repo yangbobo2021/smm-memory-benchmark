@@ -1,0 +1,659 @@
+{
+  "case_id": "P18",
+  "product": "smm",
+  "namespace": "q80b4b381d56a_n100",
+  "query": "How much did I spend on a designer handbag?",
+  "clock": "2023-05-30T23:20:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "cda869cbb99225b9233bf65e7",
+          "score": 13.708064574129178
+        },
+        {
+          "source_id": "c24066065865b552043eeec88",
+          "score": 4.631879851186717
+        },
+        {
+          "source_id": "c7696881b6041a43a30a6c47b",
+          "score": 4.098563486416263
+        },
+        {
+          "source_id": "c3988fb58b837bcf0aa1b6565",
+          "score": 3.6686345527601993
+        },
+        {
+          "source_id": "c0f99c248e96ce6f410878b1f",
+          "score": 3.4315628672059213
+        },
+        {
+          "source_id": "c6e870ecfdf386ba0b2687e1d",
+          "score": 2.655503788576547
+        },
+        {
+          "source_id": "c0da235d28aaecbcab027f56f",
+          "score": 2.3377465800388895
+        },
+        {
+          "source_id": "c2c895b0d8f5b7b3bace68b17",
+          "score": 1.8907800835309476
+        },
+        {
+          "source_id": "cb6d9524793c233f7933d8e5f",
+          "score": 0.7961031295878686
+        },
+        {
+          "source_id": "c885209cf378e1591726c072e",
+          "score": 0.6574520376462708
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "cda869cbb99225b9233bf65e7",
+          "score": 0.5322597335717405
+        },
+        {
+          "source_id": "cfc72ad4e3b300c44a8d294e4",
+          "score": 0.45954888082227835
+        },
+        {
+          "source_id": "cb7f608c56e03c315dd5b4505",
+          "score": 0.3556158225194043
+        },
+        {
+          "source_id": "c41ea5bc7329bff46ecce90e7",
+          "score": 0.266730117465366
+        },
+        {
+          "source_id": "c7cad297be4fd0aaeff9c07ca",
+          "score": 0.2636905738163612
+        },
+        {
+          "source_id": "c786d27abae14ce7d15e6678e",
+          "score": 0.235201247215131
+        },
+        {
+          "source_id": "ccd6753bcc3ce565d8e278013",
+          "score": 0.22920618903646578
+        },
+        {
+          "source_id": "c8fedf92914110294a081d9bd",
+          "score": 0.2126812674488101
+        },
+        {
+          "source_id": "c197f1aaab4c1620af8e9a9e9",
+          "score": 0.19532365634286789
+        },
+        {
+          "source_id": "c0cb19de05c8ee7e79bf18798",
+          "score": 0.18948576156210378
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:cda869cbb99225b9233bf65e7-c0006",
+        "source_ids": [
+          "cda869cbb99225b9233bf65e7"
+        ],
+        "hint": "udgeting, investment tracking, and bill tracking.\n\nAll of these apps are available on both iOS and Android devices.\n\nNow, about that designer handbag... $800 is a significant expense, and it's great that you're aware of it. When tracking your expenses, it's essential to be honest with yourself about your spending habits. Consider categorizing that handbag as a luxury item or a \"want\" rather than a",
+        "kind": "bm25-original-match-index",
+        "score": 13.708064574129178,
+        "metadata": {
+          "source_id": "cda869cbb99225b9233bf65e7",
+          "score": 13.708064574129178,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "cda869cbb99225b9233bf65e7-c0006",
+          "start": 4682,
+          "end": 5082,
+          "source_sha256": "e16c7597e9ddb26a95d20dcec3c5c28fc13c8b08938f88b8b3a9a33faa2ada63"
+        }
+      },
+      {
+        "item_id": "vector:cda869cbb99225b9233bf65e7-c0004",
+        "source_ids": [
+          "cda869cbb99225b9233bf65e7"
+        ],
+        "hint": "\n\nUSER:\nI think I'd like to start tracking my expenses. Can you recommend any good budgeting apps? I've been using my credit card a lot lately, and I'm pretty sure I spent a lot on luxury items last month. I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+        "kind": "vector-original-match-index",
+        "score": 0.5322597335717405,
+        "metadata": {
+          "source_id": "cda869cbb99225b9233bf65e7",
+          "score": 0.5322597335717405,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "cda869cbb99225b9233bf65e7-c0004",
+          "start": 3000,
+          "end": 3282,
+          "source_sha256": "e16c7597e9ddb26a95d20dcec3c5c28fc13c8b08938f88b8b3a9a33faa2ada63"
+        }
+      },
+      {
+        "item_id": "bm25:c24066065865b552043eeec88-c0003",
+        "source_ids": [
+          "c24066065865b552043eeec88"
+        ],
+        "hint": "\n\nUSER:\nCan you lay down a weekly roadmap of starting a community like this, considering I can spend 2-4 hours in a week",
+        "kind": "bm25-original-match-index",
+        "score": 4.631879851186717,
+        "metadata": {
+          "source_id": "c24066065865b552043eeec88",
+          "score": 4.631879851186717,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "c24066065865b552043eeec88-c0003",
+          "start": 2396,
+          "end": 2516,
+          "source_sha256": "3d1c4177718a2638cbcd6212f8a6f039ea1944fd592aebdacb797c5d239f04f5"
+        }
+      },
+      {
+        "item_id": "vector:cfc72ad4e3b300c44a8d294e4-c0019",
+        "source_ids": [
+          "cfc72ad4e3b300c44a8d294e4"
+        ],
+        "hint": "\n\nUSER:\nI think I'll also pack a small makeup bag with the basics, like mascara, eyeliner, and lip balm, so I don't have to worry about buying those things on the road. And, I'll make sure to double-check my packing list for essentials like a hair dryer, so I don't have to waste money on a cheap one at a pharmacy.",
+        "kind": "vector-original-match-index",
+        "score": 0.45954888082227835,
+        "metadata": {
+          "source_id": "cfc72ad4e3b300c44a8d294e4",
+          "score": 0.45954888082227835,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "cfc72ad4e3b300c44a8d294e4-c0019",
+          "start": 11541,
+          "end": 11856,
+          "source_sha256": "89e941c9b8f2e344a9a7447f250ae53ee800a7a16eb49f0d1c3ee99a139f52ba"
+        }
+      },
+      {
+        "item_id": "bm25:c7696881b6041a43a30a6c47b-c0003",
+        "source_ids": [
+          "c7696881b6041a43a30a6c47b"
+        ],
+        "hint": "argeting options, and budgets to see what performs best for your campaign.\n2. **Set a budget**: Determine how much you're willing to spend and stick to it to avoid overspending.\n3. **Track your results**: Use analytics tools to measure the success of your campaigns and make data-driven decisions.\n4. **Be patient**: Social media advertising is a process, and it may take some time to see results. Do",
+        "kind": "bm25-original-match-index",
+        "score": 4.098563486416263,
+        "metadata": {
+          "source_id": "c7696881b6041a43a30a6c47b",
+          "score": 4.098563486416263,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "c7696881b6041a43a30a6c47b-c0003",
+          "start": 2306,
+          "end": 2706,
+          "source_sha256": "3904d5d6255f59384860ba76f6803b487d4a263b5ff76d89146716baabc09be2"
+        }
+      },
+      {
+        "item_id": "vector:cb7f608c56e03c315dd5b4505-c0006",
+        "source_ids": [
+          "cb7f608c56e03c315dd5b4505"
+        ],
+        "hint": "\n\nUSER:\nI think I'll measure my space again and check the product reviews. By the way, I was thinking of organizing my jewelry collection and I realized that I haven't worn my gold band with a small diamond in a while. I think I lost it at the gym about a month ago... do you think I should try to go back and ask if anyone turned it in?",
+        "kind": "vector-original-match-index",
+        "score": 0.3556158225194043,
+        "metadata": {
+          "source_id": "cb7f608c56e03c315dd5b4505",
+          "score": 0.3556158225194043,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "cb7f608c56e03c315dd5b4505-c0006",
+          "start": 3636,
+          "end": 3973,
+          "source_sha256": "35bebc911d1eee4976788efa86300c7f60ce90709d03834ec66fd6e439c8561d"
+        }
+      },
+      {
+        "item_id": "bm25:c3988fb58b837bcf0aa1b6565-c0005",
+        "source_ids": [
+          "c3988fb58b837bcf0aa1b6565"
+        ],
+        "hint": "oncern for me and asked if my landlord has been harassing me due to the fact he is at the property “very, very often without getting much done”. This External validation of my existing concerns was enough for me to finally realize the toll the landlord's behavior has been taking on me. It was also the Catalyst in my writing of this. Being disabled has the propensity of skewing the way you see the ",
+        "kind": "bm25-original-match-index",
+        "score": 3.6686345527601993,
+        "metadata": {
+          "source_id": "c3988fb58b837bcf0aa1b6565",
+          "score": 3.6686345527601993,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c3988fb58b837bcf0aa1b6565-c0005",
+          "start": 5212,
+          "end": 5612,
+          "source_sha256": "3e8512c93548aa6e90eab127c2decd431aae6bca6cbbdbd74aa9e443b99618e4"
+        }
+      },
+      {
+        "item_id": "vector:c41ea5bc7329bff46ecce90e7-c0007",
+        "source_ids": [
+          "c41ea5bc7329bff46ecce90e7"
+        ],
+        "hint": " Fresh, hormone-free chicken thighs and breasts.\n5. **Lamb** (): Imported lamb from Australia and New Zealand.\n6. **Vegetables** (): A selection of fresh vegetables, including mushrooms, asparagus, and bell peppers.\n\n**Prices:**\n\nBicchu's prices are slightly higher than average, but the quality of their meats and the atmosphere justify the cost. Here are some approximate price ranges:\n\n* **Meat**:",
+        "kind": "vector-original-match-index",
+        "score": 0.266730117465366,
+        "metadata": {
+          "source_id": "c41ea5bc7329bff46ecce90e7",
+          "score": 0.266730117465366,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c41ea5bc7329bff46ecce90e7-c0007",
+          "start": 3701,
+          "end": 4101,
+          "source_sha256": "ed2566173dc9a2e60b098087d8bfb5e16fdde5d9b3aacb2eac4dc41f6c459ab5"
+        }
+      },
+      {
+        "item_id": "bm25:c0f99c248e96ce6f410878b1f-c0000",
+        "source_ids": [
+          "c0f99c248e96ce6f410878b1f"
+        ],
+        "hint": "USER:\nHow did the US government utilize propaganda in creating an anti-communist narrative during the Vietnam War?",
+        "kind": "bm25-original-match-index",
+        "score": 3.4315628672059213,
+        "metadata": {
+          "source_id": "c0f99c248e96ce6f410878b1f",
+          "score": 3.4315628672059213,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "c0f99c248e96ce6f410878b1f-c0000",
+          "start": 0,
+          "end": 114,
+          "source_sha256": "0948366ea6eda3f7139617823d0a14c61764005999b15a849f4f04112c7b7416"
+        }
+      },
+      {
+        "item_id": "vector:c7cad297be4fd0aaeff9c07ca-c0001",
+        "source_ids": [
+          "c7cad297be4fd0aaeff9c07ca"
+        ],
+        "hint": "\n\nASSISTANT:\nHey there, fashionistas! Get ready for some serious style envy, because there's a new power couple taking the fashion world by storm: Harry Styles and Emily Ratajkowski, aka EmRata. Yup, you read that right! According to Vogue, these two gorgeous humans are giving us major #couplegoals with their stunning looks and impeccable fashion sense. Let's dive in and find out what's making the",
+        "kind": "vector-original-match-index",
+        "score": 0.2636905738163612,
+        "metadata": {
+          "source_id": "c7cad297be4fd0aaeff9c07ca",
+          "score": 0.2636905738163612,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c7cad297be4fd0aaeff9c07ca-c0001",
+          "start": 175,
+          "end": 575,
+          "source_sha256": "aa4a9d3dec3a8940f41096f4a3619b5c20c3ed5185e19136f6320c19cc8373d0"
+        }
+      },
+      {
+        "item_id": "bm25:c6e870ecfdf386ba0b2687e1d-c0011",
+        "source_ids": [
+          "c6e870ecfdf386ba0b2687e1d"
+        ],
+        "hint": "\n\nUSER:\nI think I got it mixed up, yeah! I did clean Luna's litter box last Sunday, actually. It was a nice relaxing day, and I was able to get that task out of the way before watching the football game.\n\nASSISTANT:\nWe all get mixed up sometimes! It sounds like you had a great Sunday, though! Cleaning the litter box might not be the most glamorous task, but it's definitely a necessary one. And it'",
+        "kind": "bm25-original-match-index",
+        "score": 2.655503788576547,
+        "metadata": {
+          "source_id": "c6e870ecfdf386ba0b2687e1d",
+          "score": 2.655503788576547,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "c6e870ecfdf386ba0b2687e1d-c0011",
+          "start": 7927,
+          "end": 8327,
+          "source_sha256": "3d6283bd96c704a6c4841691a52770933c3f2b0441df73ce51d64ff893640758"
+        }
+      },
+      {
+        "item_id": "vector:c786d27abae14ce7d15e6678e-c0008",
+        "source_ids": [
+          "c786d27abae14ce7d15e6678e"
+        ],
+        "hint": "\n\nUSER:\nDo you have some ideas for party favors that would fit well with the Vintage Garden Party theme?",
+        "kind": "vector-original-match-index",
+        "score": 0.235201247215131,
+        "metadata": {
+          "source_id": "c786d27abae14ce7d15e6678e",
+          "score": 0.235201247215131,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c786d27abae14ce7d15e6678e-c0008",
+          "start": 4900,
+          "end": 5004,
+          "source_sha256": "5b8dc0cd87e704dc425d59a1c7084d05a49d0029ec4f05e87e1b7d08a7ce4721"
+        }
+      },
+      {
+        "item_id": "bm25:c0da235d28aaecbcab027f56f-c0022",
+        "source_ids": [
+          "c0da235d28aaecbcab027f56f"
+        ],
+        "hint": "gain valuable insights from experienced professionals.\n\n**Key takeaways from the conference:**\n\n1. **Entrepreneurial mindset:** What did you learn about the entrepreneurial mindset and how can you apply it to your own endeavors?\n2. **Networking:** Who did you meet at the conference and how can you leverage those connections to further your entrepreneurial pursuits?\n3. **Keynote speakers:** What we",
+        "kind": "bm25-original-match-index",
+        "score": 2.3377465800388895,
+        "metadata": {
+          "source_id": "c0da235d28aaecbcab027f56f",
+          "score": 2.3377465800388895,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c0da235d28aaecbcab027f56f-c0022",
+          "start": 17354,
+          "end": 17754,
+          "source_sha256": "f2e905e34d1f677cf5322af72f9d300a7da891ef8cfba9924c848e4dea498215"
+        }
+      },
+      {
+        "item_id": "vector:ccd6753bcc3ce565d8e278013-c0014",
+        "source_ids": [
+          "ccd6753bcc3ce565d8e278013"
+        ],
+        "hint": "'t try on the shoes before buying, which can lead to fit issues or disappointment.\n2. **Quality Control**: You can't inspect the shoes in person, which may lead to concerns about quality or defects.\n3. **Return Policy**: Returning shoes can be a hassle, and you may need to pay for shipping or restocking fees.\n\n**Buying In-Store:**\n\nPros:\n\n1. **Try Before You Buy**: You can try on different styles,",
+        "kind": "vector-original-match-index",
+        "score": 0.22920618903646578,
+        "metadata": {
+          "source_id": "ccd6753bcc3ce565d8e278013",
+          "score": 0.22920618903646578,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "ccd6753bcc3ce565d8e278013-c0014",
+          "start": 8528,
+          "end": 8928,
+          "source_sha256": "614f8b543ff99fbd2eea9de807526054ce2c479a45bf87a9dc63805d857509c2"
+        }
+      },
+      {
+        "item_id": "bm25:c2c895b0d8f5b7b3bace68b17-c0005",
+        "source_ids": [
+          "c2c895b0d8f5b7b3bace68b17"
+        ],
+        "hint": "\n\nUSER:\nThat's really helpful! I didn't realize how much emphasis abstract art puts on emotion and expression. Can you tell me more about Kandinsky's views on the spiritual and emotional aspects of art?",
+        "kind": "bm25-original-match-index",
+        "score": 1.8907800835309476,
+        "metadata": {
+          "source_id": "c2c895b0d8f5b7b3bace68b17",
+          "score": 1.8907800835309476,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "c2c895b0d8f5b7b3bace68b17-c0005",
+          "start": 3631,
+          "end": 3833,
+          "source_sha256": "af563bf833de9f3b833930e6e3940808d5f314ff2389f3c970053cc9ea2a343a"
+        }
+      },
+      {
+        "item_id": "vector:c8fedf92914110294a081d9bd-c0019",
+        "source_ids": [
+          "c8fedf92914110294a081d9bd"
+        ],
+        "hint": "\n\nUSER:\nI think I'll go for a solid-colored throw blanket in a natural hue like beige or sage green. I like the idea of keeping the design simple and understated to let the oak dresser from Henry at 'The Vintage Vault' be the focal point of the room. Do you think I should add any other decorative elements, like a rug or a piece of artwork, to complete the look?",
+        "kind": "vector-original-match-index",
+        "score": 0.2126812674488101,
+        "metadata": {
+          "source_id": "c8fedf92914110294a081d9bd",
+          "score": 0.2126812674488101,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c8fedf92914110294a081d9bd-c0019",
+          "start": 13358,
+          "end": 13721,
+          "source_sha256": "19c645191e43e65186a9c8eaf1b609e90f5ade785bd6d3fb89c77edc16f95bac"
+        }
+      },
+      {
+        "item_id": "bm25:cb6d9524793c233f7933d8e5f-c0007",
+        "source_ids": [
+          "cb6d9524793c233f7933d8e5f"
+        ],
+        "hint": "\n\nUSER:\nREI is a business that sells outdoor apparel and gear to nature enthusiasts. They are a large retailer with thousands of products, including clothing, gear, bicycles, tents, shoes, climbing equipment, and much more. How could REI use eko to improve how they showcase their products online?",
+        "kind": "bm25-original-match-index",
+        "score": 0.7961031295878686,
+        "metadata": {
+          "source_id": "cb6d9524793c233f7933d8e5f",
+          "score": 0.7961031295878686,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "cb6d9524793c233f7933d8e5f-c0007",
+          "start": 5369,
+          "end": 5666,
+          "source_sha256": "b9c64dffbfdfc56d82730613dfec2b379283d34f516f1d8df08a736517808571"
+        }
+      },
+      {
+        "item_id": "vector:c197f1aaab4c1620af8e9a9e9-c0018",
+        "source_ids": [
+          "c197f1aaab4c1620af8e9a9e9"
+        ],
+        "hint": "ing along and dancing throughout the night.\n* **Merchandise:** Be sure to check out the merchandise booth, which will likely feature a selection of Foster the People's latest merchandise, including T-shirts, hoodies, and other items.\n\n**Tips and Essentials:**\n\n* Arrive early to grab a good spot in the general admission area or to find your seat.\n* Be prepared for a high-energy show, and wear comfo",
+        "kind": "vector-original-match-index",
+        "score": 0.19532365634286789,
+        "metadata": {
+          "source_id": "c197f1aaab4c1620af8e9a9e9",
+          "score": 0.19532365634286789,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c197f1aaab4c1620af8e9a9e9-c0018",
+          "start": 11367,
+          "end": 11767,
+          "source_sha256": "f909069d98fe70ad81ea5bf27c1cf6e25b2e1bf91d714fdde108aa791fe12878"
+        }
+      },
+      {
+        "item_id": "bm25:c885209cf378e1591726c072e-c0020",
+        "source_ids": [
+          "c885209cf378e1591726c072e"
+        ],
+        "hint": "eproductive rights, and social justice.\n4. **Kendrick Lamar:** A rapper and songwriter who has written songs like \"Alright\" and \"How Much a Dollar Cost,\" addressing themes like racism, police brutality, and social justice.\n5. **Brandi Carlile:** A singer-songwriter who has written songs like \"Every Time I Hear That Song\" and \"The Joke,\" addressing themes like social justice, equality, and human ri",
+        "kind": "bm25-original-match-index",
+        "score": 0.6574520376462708,
+        "metadata": {
+          "source_id": "c885209cf378e1591726c072e",
+          "score": 0.6574520376462708,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c885209cf378e1591726c072e-c0020",
+          "start": 14428,
+          "end": 14828,
+          "source_sha256": "0f782774bf5e4671e7e453318de639715de2c856fa5a2a30003b81b1e2fc5408"
+        }
+      },
+      {
+        "item_id": "vector:c0cb19de05c8ee7e79bf18798-c0023",
+        "source_ids": [
+          "c0cb19de05c8ee7e79bf18798"
+        ],
+        "hint": "*Aesthetics**: Consider the appearance of the fencing materials and how they'll blend in with your surroundings.\n5. **Budget**: Determine your budget and choose materials that fit within it.\n\nRemember to consult with a fencing professional or supplier to ensure you're choosing the right materials for your specific needs and local regulations.",
+        "kind": "vector-original-match-index",
+        "score": 0.18948576156210378,
+        "metadata": {
+          "source_id": "c0cb19de05c8ee7e79bf18798",
+          "score": 0.18948576156210378,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "c0cb19de05c8ee7e79bf18798-c0023",
+          "start": 15443,
+          "end": 15787,
+          "source_sha256": "e0790e803007cc934ef3524cdd2ac2d0bdf26604b018251134acf61cf445cab9"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "cda869cbb99225b9233bf65e7",
+    "c24066065865b552043eeec88",
+    "c7696881b6041a43a30a6c47b",
+    "c3988fb58b837bcf0aa1b6565",
+    "c0f99c248e96ce6f410878b1f",
+    "cfc72ad4e3b300c44a8d294e4",
+    "cb7f608c56e03c315dd5b4505",
+    "c41ea5bc7329bff46ecce90e7",
+    "c7cad297be4fd0aaeff9c07ca"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "cda869cbb99225b9233bf65e7",
+      "source_date": "2023-05-23T08:15:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "udgeting, investment tracking, and bill tracking.\n\nAll of these apps are available on both iOS and Android devices.\n\nNow, about that designer handbag... $800 is a significant expense, and it's great that you're aware of it. When tracking your expenses, it's essential to be honest with yourself about your spending habits. Consider categorizing that handbag as a luxury item or a \"want\" rather than a",
+          "start": 4682,
+          "end": 5082
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think I'd like to start tracking my expenses. Can you recommend any good budgeting apps? I've been using my credit card a lot lately, and I'm pretty sure I spent a lot on luxury items last month. I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+          "start": 3000,
+          "end": 3282
+        }
+      ]
+    },
+    {
+      "source_id": "c24066065865b552043eeec88",
+      "source_date": "2023-05-29T13:30:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nCan you lay down a weekly roadmap of starting a community like this, considering I can spend 2-4 hours in a week",
+          "start": 2396,
+          "end": 2516
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nGreat! could you also suggest a roadmap on how to gradually earn money from the community once it achieves the PMF and members are happy in the community",
+          "start": 4925,
+          "end": 5086
+        }
+      ]
+    },
+    {
+      "source_id": "c7696881b6041a43a30a6c47b",
+      "source_date": "2023-05-25T23:09:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "make your ads more interactive and engaging.\n\n**General Tips:**\n\n1. **Split test**: Test different ad creative, targeting options, and budgets to see what performs best for your campaign.\n2. **Set a budget**: Determine how much you're willing to spend and stick to it to avoid overspending.\n3. **Track your results**: Use analytics tools to measure the success of your campaigns and make data-driven ",
+          "start": 2193,
+          "end": 2593
+        },
+        {
+          "role": "assistant",
+          "text": "udience, as this can lead to ad fatigue.\n\n**4. Engagement**: The number of likes, comments, saves, and shares your ad received. Engagement metrics indicate how well your ad resonated with your audience.\n\n**5. Cost Per Thousand Impressions (CPM)**: The cost of reaching 1,000 people with your ad. This metric helps you understand the efficiency of your ad spend.\n\n**6. Ad Recall Lift**: A metric that ",
+          "start": 7428,
+          "end": 7828
+        }
+      ]
+    },
+    {
+      "source_id": "c3988fb58b837bcf0aa1b6565",
+      "source_date": "2023-05-29T15:27:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "oncern for me and asked if my landlord has been harassing me due to the fact he is at the property “very, very often without getting much done”. This External validation of my existing concerns was enough for me to finally realize the toll the landlord's behavior has been taking on me. It was also the Catalyst in my writing of this. Being disabled has the propensity of skewing the way you see the ",
+          "start": 5212,
+          "end": 5612
+        },
+        {
+          "role": "assistant",
+          "text": "USER:\ni have a rental inspection and i need help making a list of items to talk about based on the information i give you next\n\nASSISTANT:\nSure, I'd be happy to help. What information can you provide about the rental property?\n\nUSER:\ni need to infom my land agent of\n\nASSISTANT:\nI'm sorry, it looks like the information you provided was incomplete. Could you please provide more details about the ren",
+          "start": 0,
+          "end": 400
+        }
+      ]
+    },
+    {
+      "source_id": "c0f99c248e96ce6f410878b1f",
+      "source_date": "2023-05-23T07:21:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nIt's infuriating that we can't trust our government to be honest with us. It's like they don't care about democracy and the will of the people. How do we know if we're being manipulated right now?",
+          "start": 9118,
+          "end": 9322
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nIt can be difficult to know if you are being manipulated by propaganda, as propaganda is designed to be deceptive and manipulative. However, there are several things you can do to help protect yourself from propaganda:\n\n1. Seek out diverse sources of information: Look for a variety of perspectives on political issues from reputable sources.\n\n2. Check the facts: Verify information by c",
+          "start": 9322,
+          "end": 9722
+        }
+      ]
+    },
+    {
+      "source_id": "cfc72ad4e3b300c44a8d294e4",
+      "source_date": "2023-05-21T22:18:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think I'll also pack a small makeup bag with the basics, like mascara, eyeliner, and lip balm, so I don't have to worry about buying those things on the road. And, I'll make sure to double-check my packing list for essentials like a hair dryer, so I don't have to waste money on a cheap one at a pharmacy.",
+          "start": 11541,
+          "end": 11856
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm also planning to pack light for this trip, so I was wondering if you could recommend any good packing apps or websites to help me organize my gear?",
+          "start": 2130,
+          "end": 2289
+        }
+      ]
+    },
+    {
+      "source_id": "cb7f608c56e03c315dd5b4505",
+      "source_date": "2023-05-30T22:18:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ts and can be locked for added security.\n\nWhen choosing a jewelry armoire, consider the following factors:\n\n* Space: Think about how much jewelry you need to store and how much space you have available in your home.\n* Security: If security is a top concern, look for an armoire with a lock or consider a safe.\n* Material: Some armoires are made of wood, while others are made of metal or fabric. Choo",
+          "start": 1798,
+          "end": 2198
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think I'll measure my space again and check the product reviews. By the way, I was thinking of organizing my jewelry collection and I realized that I haven't worn my gold band with a small diamond in a while. I think I lost it at the gym about a month ago... do you think I should try to go back and ask if anyone turned it in?",
+          "start": 3636,
+          "end": 3973
+        }
+      ]
+    },
+    {
+      "source_id": "c41ea5bc7329bff46ecce90e7",
+      "source_date": "2023-05-20T20:59:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": " a local or a police officer for help. Many Shibuya residents are happy to assist lost tourists and foreigners.\n\n**10. Take your time and enjoy the ride:**\nShibuya is a vibrant and fascinating area, so don't stress too much about getting lost. Take your time, enjoy the sights and sounds, and soak up the Tokyo atmosphere!\n\nBy following these tips, you'll be navigating Shibuya like a pro in no time!",
+          "start": 11552,
+          "end": 11952
+        },
+        {
+          "role": "assistant",
+          "text": "Chicken** (): Fresh, hormone-free chicken thighs and breasts.\n5. **Lamb** (): Imported lamb from Australia and New Zealand.\n6. **Vegetables** (): A selection of fresh vegetables, including mushrooms, asparagus, and bell peppers.\n\n**Prices:**\n\nBicchu's prices are slightly higher than average, but the quality of their meats and the atmosphere justify the cost. Here are some approximate price ranges:",
+          "start": 3688,
+          "end": 4088
+        }
+      ]
+    },
+    {
+      "source_id": "c7cad297be4fd0aaeff9c07ca",
+      "source_date": "2023-05-26T15:58:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nHey there, fashionistas! Get ready for some serious style envy, because there's a new power couple taking the fashion world by storm: Harry Styles and Emily Ratajkowski, aka EmRata. Yup, you read that right! According to Vogue, these two gorgeous humans are giving us major #couplegoals with their stunning looks and impeccable fashion sense. Let's dive in and find out what's making the",
+          "start": 175,
+          "end": 575
+        },
+        {
+          "role": "user",
+          "text": "USER:\nSummarize this article in under 300 words, adjusting the tone for Millenial readers. https://www.vogue.com/article/harry-styles-emrata-fashions-new-favorite-power-couple",
+          "start": 0,
+          "end": 175
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.00967412511818111,
+    "native_search_seconds": 0.006434125127270818,
+    "common_spans_seconds": 0.0056577499490231276
+  }
+}

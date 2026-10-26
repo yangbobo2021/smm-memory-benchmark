@@ -1,0 +1,22 @@
+{
+  "id": "3edab3b2-6fe6-490e-9ea4-138cc6422c35",
+  "model": "deepseek-flash",
+  "created": 1792981293,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"14 days passed between the repotting and giving Mrs. Johnson the cuttings.\",\"claims\":[{\"claim\":\"The user said they repotted the previous spider plant \\\"today\\\" in the conversation recorded as received on 2023-03-04.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I repot the previous spider plant today\"}]},{\"claim\":\"The user said they gave Mrs. Johnson a few spider plant cuttings \\\"today\\\" in the conversation recorded as received on 2023-03-18.\",\"citations\":[{\"evidence_id\":\"E00006\",\"quote\":\"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\"}]},{\"claim\":\"Counting from 2023-03-04 to 2023-03-18 gives 14 days.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I repot the previous spider plant today\"},{\"evidence_id\":\"E00006\",\"quote\":\"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\"}]}],\"selected_sources\":[\"C01\",\"C06\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 19039,
+    "completion_tokens": 1264,
+    "total_tokens": 20303,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1020
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 18655
+  },
+  "refusal": null
+}

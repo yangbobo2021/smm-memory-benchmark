@@ -1,0 +1,147 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "98064e2acbba12afac003b09f5d59c4c9211335a8aab9a218f861ee35d58c3ca",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attended three dinner parties in the past month: at Alex's place, at Mike's place, and at Sarah's place.",
+    "claims": [
+      {
+        "claim": "The user reported a low-key dinner party at Alex's place 'yesterday' relative to the May 21 conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together."
+          }
+        ]
+      },
+      {
+        "claim": "The user reported the Mike's-place BBQ/dinner party occurred 'two weeks ago' relative to that conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together."
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together"
+          }
+        ]
+      },
+      {
+        "claim": "The user reported an Italian feast at Sarah's place last week and referred to it as a recent dinner-party experience.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "speaking of dinner parties, I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02",
+      "C03"
+    ],
+    "missing": "Exact calendar dates are not stated; the count relies on relative time phrases in the conversations."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "b9fbefcd0cf980efd087049a586544702f3e1125b1254faf55ddde28c7ecd802",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 26483,
+      "completion_tokens": 5697,
+      "total_tokens": 32180,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5290
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 26099
+    },
+    "response_id": "4f7ffda8-ed0c-4f0d-89b8-4997f568815b",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 32.55467070802115
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "speaking of dinner parties, I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast.",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P07.json",
+  "raw_response_sha256": "c8610e10bdadc26cc89616bbbf160cfc0872b9279e447ca4812d367910cd093d"
+}

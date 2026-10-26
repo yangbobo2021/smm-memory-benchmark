@@ -1,0 +1,68 @@
+{
+  "pre_comparison": true,
+  "original_references_preserved": true,
+  "reviewer": "parent researcher; not external blind review",
+  "clear_case_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P23",
+    "P24"
+  ],
+  "ambiguous_case_ids": [
+    "P22",
+    "P25"
+  ],
+  "decisions": [
+    {
+      "case_id": "P02",
+      "finding": "Previous incorrect-answer grading too harsh:20dozen with last-reported/current-world uncertainty is a valid memory answer; accept it. Older30dozen source now restored as official input.",
+      "accepted": "Latest reported20dozen; reasonable freshness qualification allowed."
+    },
+    {
+      "case_id": "P06",
+      "finding": "Both official reference conversations already complete/correct. Three USER mentions of Wednesday yoga plus TueThuSat classes; no cancellation or exclusive replacement statement. Three-day answer genuinely misses Wednesday.",
+      "accepted": "Four distinct days TueWedThuSat."
+    },
+    {
+      "case_id": "P08",
+      "finding": "Two previously supplied sources suffice for3types but omit2official reference sessions. Restore orange-bitters and Daiquiri sessions. Distinguish actual user use from suggestions.",
+      "accepted": "Three types:lime,orange,lemon; actual-use evidence must support claimed use."
+    },
+    {
+      "case_id": "P22",
+      "finding": "Apr16just-downloaded report toMay6question is20calendar days≈3weeks. Download is not an explicit first-use timestamp. Original3weeks depends on implicit interpretation; justified qualification/abstention is not automatically a factual error.",
+      "accepted": "Keep official match separately; do not force binary answer-grade for this ambiguity in23clear-case slice."
+    },
+    {
+      "case_id": "P25",
+      "finding": "Offset report May27at07:56 precedes later18:20report of moving8:30→7:00.6:45follows only if15minute offset also applies to newer7AMbaseline, not explicitly stated. Old8:30is not the latest baseline.",
+      "accepted": "Keep official6:45match separately; ambiguity not binary model failure. Separately flag omission/misstatement of explicit7AMupdate."
+    }
+  ],
+  "scoring": {
+    "official_25": "Unchanged reference answer semantic match across all25; qualification returning reference content accepted, but not conflated with source certainty.",
+    "clear_23": "All23original reference items excluding2explicitly ambiguous cases, retained all25official score alongside. Latest-known answers may state freshness limits.",
+    "strict_23": "Clear23answer correct AND reported quotes/speaker/date/claimed action support the answer; exact substring alone insufficient.",
+    "no_cherry_pick": "23case slice is a retrospective diagnostic defined using earlier Luna evidence, not a new independent test; all25outputs/references remain visible."
+  },
+  "changes_to_input": "Only restore all official reference sessions. No new hint, summary, question rewrite, source highlighting, or answer instruction change."
+}

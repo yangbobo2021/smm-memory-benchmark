@@ -1,0 +1,22 @@
+{
+  "id": "b4681a5c-6979-4f89-a217-0edb0b83b594",
+  "model": "deepseek-flash",
+  "created": 1792982971,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"Doc Martin.\",\"claims\":[{\"claim\":\"The show the user used as an example was Doc Martin.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"doc martin\"}]},{\"claim\":\"The user said that show went down and only the last season remained available.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"show went down after a while, and now we have access only to the last season.\"}]}],\"selected_sources\":[\"C01\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 1887,
+    "completion_tokens": 851,
+    "total_tokens": 2738,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 737
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1503
+  },
+  "refusal": null
+}

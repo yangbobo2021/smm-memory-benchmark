@@ -1,0 +1,182 @@
+{
+  "experiment_id": "SMM-B001",
+  "passed": true,
+  "python": "3.14.2",
+  "copied_outside_original_project": true,
+  "original_project_paths_forbidden": [
+    "/Users/boboyang/work/next-app/experiments/smm-baseline-001",
+    "/Users/boboyang/work/next-app"
+  ],
+  "network_and_subprocess_blocked_inside_each_test": true,
+  "no_site_packages": true,
+  "new_model_calls": 0,
+  "frozen_files": 471,
+  "integrity_checks": 16030,
+  "checks": [
+    {
+      "check": "relocated-verify",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "216fd9dd8580d2ce18aeb284f09b38f3c04521f4bc3c199f7b60527030ef255e"
+    },
+    {
+      "check": "relocated-offline-score-replay",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "590a5b46a1b6f6f6d8f16cf6fa9a38338711f16578fe8096bef5bce8a224ce04"
+    },
+    {
+      "check": "relocated-unit-tests",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "ef482fc0865602988e8a4e4b6ff4bdda3e19a1325ee76b45dcec926ce877550d"
+    },
+    {
+      "check": "export-without-evaluation-labels",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "e93b68bed19f2e4c2be313338a154265ba028bc278f330be317aa32564cea22e"
+    },
+    {
+      "check": "external-import-contract-no-inference",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "check": "first-output-cannot-be-overwritten",
+      "passed": true,
+      "exit_code": 1,
+      "output_sha256": "15f1decbcb87bb9f3bd6c92b183ec52ec4c0f445070f7406b0e72dd28da06fb2"
+    },
+    {
+      "check": "new-run-review-template",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "26674e1dd285e6ed8a342dd7007ea9800c321f97f825596e8efde863627840cc"
+    },
+    {
+      "check": "new-answer-not-auto-graded",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "932a22dbfd93cec82afceaa8e275cba89a150050df0bf34df41cb81db2df6a7c"
+    },
+    {
+      "check": "portable-report",
+      "passed": true,
+      "exit_code": 0,
+      "output_sha256": "b9b650acae70ab71b74a2c86118cd77d1ec542db932b9fc4d0903e15223506b7"
+    },
+    {
+      "check": "frozen-input-tamper-rejected",
+      "passed": true,
+      "exit_code": 1,
+      "output_sha256": "b54080247b8935bb5090258c49c7794b1148effba830efd0823f48b08ca9551c"
+    }
+  ],
+  "replay": {
+    "gpt-6-luna": {
+      "oracle_answer": {
+        "primary_correct": 21,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 22,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 21,
+        "exact_quote_valid": 25,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 4.616144,
+        "recorded": 25
+      },
+      "candidate_select": {
+        "primary_correct": 22,
+        "primary_denominator": 25,
+        "review_complete": true,
+        "registered_evidence_complete": 22,
+        "registered_evidence_atoms_selected": 33,
+        "registered_evidence_atoms_total": 36,
+        "selected_sources": 39,
+        "baseline_sources_selected": 39,
+        "baseline_sources_total": 43,
+        "all_baseline_sources_questions": 21,
+        "unrelated_selected": 0,
+        "pending_source_labels": 0,
+        "note": "Unrelated selected / selected outputs; never call this a whole-corpus FPR.",
+        "median_model_seconds": 4.300171,
+        "recorded": 25
+      },
+      "candidate_answer": {
+        "primary_correct": 19,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 20,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 17,
+        "exact_quote_valid": 23,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 5.207891,
+        "recorded": 25
+      }
+    },
+    "gpt-6.1-sol": {
+      "oracle_answer": {
+        "primary_correct": 23,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 25,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 6.095797,
+        "recorded": 25
+      },
+      "candidate_select": {
+        "primary_correct": 25,
+        "primary_denominator": 25,
+        "review_complete": true,
+        "registered_evidence_complete": 25,
+        "registered_evidence_atoms_selected": 36,
+        "registered_evidence_atoms_total": 36,
+        "selected_sources": 43,
+        "baseline_sources_selected": 43,
+        "baseline_sources_total": 43,
+        "all_baseline_sources_questions": 25,
+        "unrelated_selected": 0,
+        "pending_source_labels": 0,
+        "note": "Unrelated selected / selected outputs; never call this a whole-corpus FPR.",
+        "median_model_seconds": 5.519772,
+        "recorded": 25
+      },
+      "candidate_answer": {
+        "primary_correct": 23,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 25,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 7.089907,
+        "recorded": 25
+      }
+    }
+  },
+  "scope": "Relocated offline replay, import, review, scoring and tamper detection; no live model or provider validation."
+}

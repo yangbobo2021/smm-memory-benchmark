@@ -1,0 +1,132 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P25",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "20b02bc120f92d1306979acd4974110b6f9cdec4089bea4ca91cd2e29cedbaa5",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You wake up at 6:45 AM on Tuesdays and Thursdays—15 minutes earlier than your recent 7:00 AM wake-up time.",
+    "claims": [
+      {
+        "claim": "Your recent wake-up time is 7:00 AM.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          }
+        ]
+      },
+      {
+        "claim": "On Tuesdays and Thursdays, you started waking up 15 minutes earlier to meditate and practice yoga.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+          }
+        ]
+      },
+      {
+        "claim": "Fifteen minutes before 7:00 AM is 6:45 AM, so your Tuesday/Thursday wake-up time is 6:45 AM.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "The 6:45 AM time is derived by combining the two statements; no single excerpt states it directly."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "0f28d38dd528d9f727c014e0b5929021b394f278dafceb721681b389c211a614",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 7770,
+      "completion_tokens": 6536,
+      "total_tokens": 14306,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 6209
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 7386
+    },
+    "response_id": "783c1c5d-fba4-47da-b806-592bc9901bf8",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 37.56147620896809
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P25.json",
+  "raw_response_sha256": "2b0e57d2f80d1722b7d8f11825091ea1dbed7ddb550c65a885abbd137dad1ffb"
+}

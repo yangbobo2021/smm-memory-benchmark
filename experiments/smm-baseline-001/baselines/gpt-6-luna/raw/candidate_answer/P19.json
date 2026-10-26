@@ -1,0 +1,66 @@
+{
+  "case_id": "P19",
+  "model": "gpt-6-luna",
+  "task": "answer",
+  "request_sha256": "6686c0028fa66d2f94a2c44306609ed597df53bcf95747cd01875ffa464874a7",
+  "request_file_sha256": "6f1db89c9c4e0e4ab8eb83a9d792346bee981dda69e33b527a02340a64e37372",
+  "output": {
+    "status": "answer",
+    "answer": "You said you got it from a sports store downtown.",
+    "claims": [
+      {
+        "claim": "The user said their new tennis racket came from a sports store downtown.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I got from a sports store downtown."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.357717,
+    "thread_setup_seconds": 0.087402,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.357717,
+    "turn_seconds": 4.270315,
+    "first_text_seconds": 3.758668,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 29020,
+      "completion_tokens": 83,
+      "total_tokens": 29103,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I got from a sports store downtown.",
+        "original_source_id": "cdfeb5d9b5297a62fd0054af3",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 3289,
+        "end": 3324
+      }
+    ]
+  }
+}

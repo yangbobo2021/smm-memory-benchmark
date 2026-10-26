@@ -1,0 +1,117 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P05",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "3f33e5eedd4029522b37bdd89477cc5ca351b40553d20cd20ba6dc160375ae2f",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Your latest statement says you have spent 10–12 hours on your abstract ocean sculpture. Earlier, you had said you had spent around 5–6 hours on it.",
+    "claims": [
+      {
+        "claim": "Earlier in the conversation, you said you had spent around 5–6 hours on the abstract ocean sculpture.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've spent around 5-6 hours on it so far."
+          }
+        ]
+      },
+      {
+        "claim": "In a later conversation, you updated that to 10–12 hours and said it was still in progress.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've already put in 10-12 hours, and it's still a work in progress."
+          }
+        ]
+      },
+      {
+        "claim": "You repeated the 10–12 hour figure later in that same conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've already spent 10-12 hours on my abstract ocean sculpture"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C05"
+    ],
+    "missing": "No exact single-hour total is stated; the evidence provides ranges."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "320f5c31692b981c38981f583f2b72f80a53e639704f90595360384763646caa",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 19575,
+      "completion_tokens": 808,
+      "total_tokens": 20383,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 570
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 19191
+    },
+    "response_id": "044f0cce-99dc-442e-bb93-79399b04a7d7",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 7.109594542067498
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've spent around 5-6 hours on it so far.",
+        "valid": true,
+        "source_id": "ca1d9de8e9c37808891cece4b",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-11T03:51:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00005",
+        "quote": "I've already put in 10-12 hours, and it's still a work in progress.",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00005",
+        "quote": "I've already spent 10-12 hours on my abstract ocean sculpture",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P05.json",
+  "raw_response_sha256": "bdc696f9cb324e09e89c354cd899a26a22c81b0b7ec26dc4e5aac526047cb902"
+}

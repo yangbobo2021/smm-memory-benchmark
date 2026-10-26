@@ -1,0 +1,80 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+  "output": {
+    "status": "partial",
+    "answer": "At least 3 types: orange, lemon, and lime. The evidence doesn’t establish whether you’ve used any other citrus types in your own cocktail recipes, so the total cannot be determined.",
+    "claims": [
+      {
+        "claim": "The user explicitly described using orange and lemon slices in Sangria.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "The user explicitly described a cocktail made with lime juice.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup"
+          }
+        ]
+      },
+      {
+        "claim": "The evidence establishes at least three distinct citrus types used in the user’s cocktail recipes, but does not establish a complete total.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "slices of orange and lemon"
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "mixed it with lime juice"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C04"
+    ],
+    "missing": "No evidence here establishes whether the user has used additional citrus types in their own cocktail recipes."
+  },
+  "metrics": {
+    "seconds": 5.428001,
+    "thread_setup_seconds": 0.117306,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.428001,
+    "turn_seconds": 5.310695,
+    "first_text_seconds": 4.057215,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 23091,
+      "completion_tokens": 273,
+      "total_tokens": 23364,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P08.json",
+  "raw_receipt_sha256": "3db12256e59229591fe32df89bbe1e300f3866d90e674ddf8ccdd5c0188cfec8",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P08.json"
+}

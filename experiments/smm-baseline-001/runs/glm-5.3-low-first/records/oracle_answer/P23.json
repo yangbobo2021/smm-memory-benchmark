@@ -1,0 +1,70 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "b5e5e63d42989b64088a60e7a2fbf0b1f564cac8619d20924c1991902296aea4",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "14 days. The spider plant was repotted on 2023-03-04 (C01 received that day, user said 'today'), and cuttings were given to Mrs. Johnson on 2023-03-18 (C02 received that day, user said 'today'). 2023-03-18 minus 2023-03-04 = 14 days.",
+    "claims": [
+      {
+        "claim": "User repotted the previous spider plant on 2023-03-04",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "The exact day of the cutting giveaway relies on C02's received_at (2023-03-18), since 'today' in that conversation is undated internally; assuming received date = conversation date, 14 days passed."
+  },
+  "metrics": {
+    "seconds": 9.261425332864746,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 210,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 7202,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 7412
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.",
+        "valid": true,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

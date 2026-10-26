@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P11",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "97127f6d3507fb583287fae7a8cc6d0671122ff3ac87be1ae6f1fdb08d005cdc",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Roscioli—the deli I previously mentioned for cured meats and cheeses.",
+    "claims": [
+      {
+        "claim": "The deli previously mentioned was Roscioli, described as serving cured meats and cheeses.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 14.982242,
+    "thread_setup_seconds": 0.261526,
+    "rate_wait_seconds": 0,
+    "active_seconds": 14.982242,
+    "turn_seconds": 14.720716,
+    "first_text_seconds": 13.272352,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 33095,
+      "completion_tokens": 243,
+      "total_tokens": 33338,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 137
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine.",
+        "valid": true,
+        "source_id": "c8ae7755b954de1ea86110538",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-26T15:26:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

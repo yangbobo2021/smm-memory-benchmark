@@ -1,0 +1,15 @@
+{
+  "at": 1792979396.04724,
+  "trigger": "GLM-5.3 P06 oracle first attempt hit frozen 90-second read timeout",
+  "original_failure_kept": true,
+  "original_stop_kept": true,
+  "continue_only_never_requested_pairs": true,
+  "retry_existing_failed_pair": false,
+  "pending_pairs_before": 59,
+  "model": "glm-5.3",
+  "settings": "Same frozen transport, inputs, low, endpoint, JSON schema and 90s timeout",
+  "change": "Original runner stopped after timeout. Explicit follow-on phase completes untouched independent tasks; records append, first completion remains failed.",
+  "further_failures": "Retain individual timeout and continue; stop on quota, auth or other transport failure. No semantic retries or result overwrites.",
+  "implementation_sha256": "1d1b46900fcd019e9734d39b6b8049943b9a96524b15af5aef4aea23eed92917",
+  "score_policy": "Failed original timeout counts as generation error in frozen primary score; semantic/format/timeout diagnostics reported separately."
+}

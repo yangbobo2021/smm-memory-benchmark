@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "aed050931b9242d9a99eae557b592f91c5e0f0a9f3f283a5ec6918a58b6a01ba",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You used **Doc Martin** as the example—the show where only the last season was still available.",
+    "claims": [
+      {
+        "claim": "The show the user used as an example was Doc Martin, which they said went down after a while and now had only the last season available.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "d30e79987aae9c1d799b4c1da4e8f6289b24c497a2cf6e62e507c742a189b67c",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 1887,
+      "completion_tokens": 554,
+      "total_tokens": 2441,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 430
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 1503
+    },
+    "response_id": "a6b72c5f-135f-4afb-8c8a-7485c70ec7ef",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.0697793329600245
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season.",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P12.json",
+  "raw_response_sha256": "d7d6af523466047ed6b6dd4c492bd370fadb3eeb1d7279c3423c1c82fd8fb497"
+}

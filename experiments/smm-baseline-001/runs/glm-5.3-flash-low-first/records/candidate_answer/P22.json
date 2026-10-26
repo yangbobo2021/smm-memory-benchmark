@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "61e60e9491e4179991663f0caf8ac680c68cbbf43ba9cf0d9e2503247e912f6c",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "About 3 weeks ago. You said you had just downloaded Ibotta in a conversation received on 2023-04-16; from the reference time 2023-05-06, that is roughly 3 weeks (about 20 days).",
+    "claims": [
+      {
+        "claim": "The user had just downloaded the cashback app Ibotta as of the conversation on 2023-04-16.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": "The exact download date is not stated, so the week count is an approximation (~3 weeks, 20 days) based on the conversation date of 2023-04-16 relative to 2023-05-06."
+  },
+  "metrics": {
+    "seconds": 8.59845466609113,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 260,
+      "completion_tokens_details": {
+        "reasoning_tokens": 43
+      },
+      "prompt_tokens": 22114,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 22374
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

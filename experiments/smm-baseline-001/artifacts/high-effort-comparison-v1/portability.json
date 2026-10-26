@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "copied_entire_bundle_with_ten_runs": true,
+  "original_project_paths_forbidden": [
+    "/Users/boboyang/work/next-app"
+  ],
+  "network_and_subprocess_blocked_inside_tests": true,
+  "guard_rejections_verified": true,
+  "no_site_packages": true,
+  "new_model_calls": 0,
+  "checks": [
+    {
+      "check": "relocated-ten-run-verification",
+      "passed": true,
+      "output_sha256": "8f44ea98deb8ab065d605e2e29acf3df9fdd30929834ca4d7960fabbfbc45cad",
+      "integrity_checks": 21388
+    },
+    {
+      "check": "relocated-ten-run-report",
+      "passed": true,
+      "output_sha256": "c4423d055e9a3fc7228bbc222f14a93c94b03483e5934dea47984109157dba37"
+    },
+    {
+      "check": "original-path-network-subprocess-guards",
+      "passed": true,
+      "output_sha256": "0452c0c647cb4bb5159aed4984b5dcd8394ab6acde3dbfe0781c99e8866a74db"
+    }
+  ],
+  "report_sha256": "8c760296c7a6520fdf5c96188928507ef465e4c6bb32f2687b5300cb477484b3",
+  "audit_path_resolution": "Frozen absolute low-manifest audit paths map only to their exact declared relative suffix inside relocated bundle; original protocol unchanged."
+}

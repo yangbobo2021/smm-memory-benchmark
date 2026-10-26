@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-26",
+  "sources": [
+    {
+      "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.3.md",
+      "content_sha256": "e78f91c28e1c8c29e1abfe5b55cf809a6ab47280878cac17fd8d01f8ac99e752"
+    },
+    {
+      "url": "https://docs.bigmodel.cn/cn/coding-plan/faq.md",
+      "content_sha256": "b082e2f47bac2308b0a2e058fdc3a7f488219ac7d0b55ee28bed7a9b160b4fba"
+    },
+    {
+      "url": "https://docs.bigmodel.cn/cn/coding-plan/usage-notes.md",
+      "content_sha256": "82699cb5e609a90d2f55a1b9667c34a7d569835147e05df23c81c54adeffd11a"
+    },
+    {
+      "url": "https://docs.bigmodel.cn/cn/coding-plan/notice/api-key-management.md",
+      "content_sha256": "fbd2e51098fcdde779f7302e4e6c5a9d1ffc673ffcc11a289ce2ad2234ed8500"
+    }
+  ],
+  "findings": [
+    "GLM-5.3 and GLM-5.3-Flash require reasoning; use enabled and low/high/max.",
+    "Coding Plan documents its Chat Completions endpoint at /api/coding/paas/v4, and native Codex Responses endpoint at /api/v1.",
+    "The official FAQ discusses 1113 even with a subscription: key/endpoint and eligible tool conditions need checking.",
+    "Since 2026-10-16, newly created standard API, personal plan and team plan keys have separate billing purposes. This does not identify the class of the supplied key."
+  ]
+}

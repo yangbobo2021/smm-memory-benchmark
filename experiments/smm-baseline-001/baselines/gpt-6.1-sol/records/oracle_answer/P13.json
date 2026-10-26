@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "oracle_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "784b8003618149e48651a3382fb3d7b4a6f8ae67deef27e7d2327cfc2117d87c",
+  "output": {
+    "status": "answer",
+    "answer": "In our previous chat, I said 12 games at Arrowhead Stadium, counting regular-season games only and based on a 2021 cutoff.",
+    "claims": [
+      {
+        "claim": "The previous assistant reported 12 games at Arrowhead Stadium, excluding playoffs and subject to a 2021 cutoff.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "Of the 12 games that were played between the Kansas City Chiefs and the Jacksonville Jaguars at Arrowhead Stadium in Kansas City, Missouri, the Chiefs won 10 games, while the Jaguars won 2 games.\nPlease note that these statistics are based on regular season games only, not including playoffs games. Also, as my knowledge cut-off date is 2021, these statistics may have changed since then."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.557295,
+    "thread_setup_seconds": 0.079037,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.557295,
+    "turn_seconds": 7.478259,
+    "first_text_seconds": 5.204277,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 12869,
+      "completion_tokens": 184,
+      "total_tokens": 13053,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P13.json",
+  "raw_receipt_sha256": "ef1e1427508d879aab5c3f3eeadceef71667e38ecb55bceade73551c2602bc43",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6.1-sol/P13.json"
+}

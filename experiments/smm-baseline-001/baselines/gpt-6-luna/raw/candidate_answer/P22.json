@@ -1,0 +1,85 @@
+{
+  "case_id": "P22",
+  "model": "gpt-6-luna",
+  "task": "answer",
+  "request_sha256": "61e60e9491e4179991663f0caf8ac680c68cbbf43ba9cf0d9e2503247e912f6c",
+  "request_file_sha256": "d032c4b398c93ec61605284f2d53b9d0399143b768372124c50b8e81f0eae84e",
+  "output": {
+    "status": "answer",
+    "answer": "You started using Ibotta a few weeks ago—specifically, you said you had just downloaded it on April 16, 2023. By May 6, that was 20 days, or about 2.9 weeks (roughly 3 weeks) ago.",
+    "claims": [
+      {
+        "claim": "The user said they had just downloaded Ibotta on April 16, 2023.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've just downloaded Ibotta, a cashback app"
+          }
+        ]
+      },
+      {
+        "claim": "From April 16 to May 6 is 20 days, about 2.9 weeks (roughly 3 weeks).",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've just downloaded Ibotta"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.293693,
+    "thread_setup_seconds": 0.156883,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.293693,
+    "turn_seconds": 6.13681,
+    "first_text_seconds": 4.359622,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 31762,
+      "completion_tokens": 188,
+      "total_tokens": 31950,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "I've just downloaded Ibotta, a cashback app",
+        "original_source_id": "c8ff57a2de289275b2c691222",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 131,
+        "end": 174
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00005",
+        "quote": "I've just downloaded Ibotta",
+        "original_source_id": "c8ff57a2de289275b2c691222",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 131,
+        "end": 158
+      }
+    ]
+  }
+}

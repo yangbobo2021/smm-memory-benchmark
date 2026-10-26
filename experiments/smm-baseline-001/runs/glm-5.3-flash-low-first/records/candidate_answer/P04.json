@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "3b57fb3053b2a152331ac12474ba4e884287c9f1711ccb63b983e814a6268832",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit.",
+    "claims": [
+      {
+        "claim": "The user earned $420 at the Downtown Farmers Market on their most recent visit",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": "Note: an earlier conversation (C01, April 2023) listed $350 for a May 6th Downtown Farmers Market visit, but the most recent statement (C06, September 2023) is $420, which supersedes it as of the reference time."
+  },
+  "metrics": {
+    "seconds": 6.7960869579110295,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 180,
+      "completion_tokens_details": {
+        "reasoning_tokens": 24
+      },
+      "prompt_tokens": 15322,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 15502
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

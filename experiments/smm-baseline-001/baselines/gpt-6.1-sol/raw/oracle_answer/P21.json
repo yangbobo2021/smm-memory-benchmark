@@ -1,0 +1,120 @@
+{
+  "case_id": "P21",
+  "model": "gpt-6.1-sol",
+  "request_sha256": "5b594459b287bfc7ff43f8ac2156a9449ca43f5865a2397f4addd2a51675d4ee",
+  "request_file_sha256": "0e3875ebd8a614afa07e9878ae49ac0f24c23f39bdf8016999b1ddb1becc0728",
+  "output": {
+    "status": "answer",
+    "answer": "First: Emma (late May 2022). Second: Rachel (June 21, 2022). Third: Alex (approximately July 1, 2022).",
+    "claims": [
+      {
+        "claim": "Emma graduated first, in late May 2022.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "My niece Emma just graduated yesterady"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May"
+          }
+        ]
+      },
+      {
+        "claim": "Rachel graduated second, on June 21, 2022, the day before the June 22 conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "Alex graduated third, approximately July 1, 2022, about two weeks before the July 15 conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.063259,
+    "thread_setup_seconds": 0.086604,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.063259,
+    "turn_seconds": 6.976655,
+    "first_text_seconds": 4.805543,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 19565,
+      "completion_tokens": 249,
+      "total_tokens": 19814,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "My niece Emma just graduated yesterady",
+        "original_source_id": "c5cb50c297191b2e566d454d2",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 66,
+        "end": 104
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+        "original_source_id": "c5cb50c297191b2e566d454d2",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 2524,
+        "end": 2593
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "original_source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 335,
+        "end": 420
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago",
+        "original_source_id": "c967f69f5e97bb77d7922817a",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 42,
+        "end": 133
+      }
+    ]
+  }
+}

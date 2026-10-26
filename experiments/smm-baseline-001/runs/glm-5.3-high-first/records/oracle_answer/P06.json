@@ -1,0 +1,109 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P06",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "0bae8df22e567c1d800f51827077d0f96fe7db64fd1e8c1ede6d595267089050",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attend fitness classes 4 days a week: Zumba on Tuesdays and Thursdays, yoga on Wednesdays, and weightlifting on Saturdays. (The Saturday weightlifting class is mentioned in both conversations and counts as one day.)",
+    "claims": [
+      {
+        "claim": "Yoga class on Wednesdays",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "recently started a yoga class on Wednesdays, which has been really helpful in stretching out my muscles after a long day"
+          }
+        ]
+      },
+      {
+        "claim": "Zumba classes on Tuesdays and Thursdays, weightlifting class on Saturdays",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am."
+          }
+        ]
+      },
+      {
+        "claim": "Saturday weightlifting class also confirmed in earlier conversation (same day, not an additional day)",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I'm looking for something to keep me pumped up during my weightlifting class on Saturdays."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "无"
+  },
+  "metrics": {
+    "seconds": 13.58241558400914,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 691,
+      "completion_tokens_details": {
+        "reasoning_tokens": 449
+      },
+      "prompt_tokens": 6418,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 7109
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "recently started a yoga class on Wednesdays, which has been really helpful in stretching out my muscles after a long day",
+        "valid": true,
+        "source_id": "cb02306340efae1abb61b04d8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T03:42:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.",
+        "valid": true,
+        "source_id": "c3660f7f82aeb2ef7b63e2daf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T06:52:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "I'm looking for something to keep me pumped up during my weightlifting class on Saturdays.",
+        "valid": true,
+        "source_id": "cb02306340efae1abb61b04d8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T03:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

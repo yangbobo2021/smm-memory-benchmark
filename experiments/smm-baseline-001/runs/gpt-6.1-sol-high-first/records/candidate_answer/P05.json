@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P05",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "3f33e5eedd4029522b37bdd89477cc5ca351b40553d20cd20ba6dc160375ae2f",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You’ve spent about 10–12 hours on your abstract ocean sculpture.",
+    "claims": [
+      {
+        "claim": "You’ve spent about 10–12 hours on your abstract ocean sculpture.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've already spent 10-12 hours on my abstract ocean sculpture"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 13.512941,
+    "thread_setup_seconds": 0.080706,
+    "rate_wait_seconds": 0,
+    "active_seconds": 13.512941,
+    "turn_seconds": 13.432235,
+    "first_text_seconds": 12.435053,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 29964,
+      "completion_tokens": 241,
+      "total_tokens": 30205,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 146
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "I've already spent 10-12 hours on my abstract ocean sculpture",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "case_id": "P18",
+  "model": "gpt-6.1-sol",
+  "request_sha256": "f0a5aa3489e37d15c304efe93bfdda61a4dbffdc924f83eb5aa4a1314fc145bb",
+  "request_file_sha256": "13c7759b0f249110a51088d6c14357ed91b03820deddcb4590ac99db677af8af",
+  "output": {
+    "status": "answer",
+    "answer": "You spent $800 on a designer handbag.",
+    "claims": [
+      {
+        "claim": "You spent $800 on a designer handbag.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.995311,
+    "thread_setup_seconds": 0.078314,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.995311,
+    "turn_seconds": 4.916997,
+    "first_text_seconds": 4.227317,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14870,
+      "completion_tokens": 86,
+      "total_tokens": 14956,
+      "cached_prompt_tokens": 10112,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+        "original_source_id": "cda869cbb99225b9233bf65e7",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 3206,
+        "end": 3282
+      }
+    ]
+  }
+}

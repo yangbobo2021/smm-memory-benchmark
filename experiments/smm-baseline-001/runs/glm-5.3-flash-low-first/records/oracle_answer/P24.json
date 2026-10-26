@@ -1,0 +1,93 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "3321d354e07317a9fae0e7a11e34c1e12b850a5da0dbeb1d3fde1d02de52bbb8",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "About 26 days ago — the user said they 'just got back from a networking event that ran from 6 PM to 8 PM today' in a conversation received on 2022-03-09, which is 26 days before the reference time of 2022-04-04 (the conversation's exact calendar date isn't independently stated, only the receipt timestamp).",
+    "claims": [
+      {
+        "claim": "User attended a networking event on the day of the conversation, ending at 8 PM",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      },
+      {
+        "claim": "That conversation was received on 2022-03-09, so the event was roughly 26 days before 2022-04-04",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "received_at"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "The conversation itself does not state the calendar date of 'today'; the 26-day figure relies on the evidence's received_at timestamp (2022-03-09T12:08:00+00:00), so exact dating cannot be fully confirmed."
+  },
+  "metrics": {
+    "seconds": 9.369520958978683,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 360,
+      "completion_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "prompt_tokens": 2046,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 2406
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at",
+        "valid": false,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

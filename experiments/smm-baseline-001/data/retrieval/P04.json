@@ -1,0 +1,602 @@
+{
+  "case_id": "P04",
+  "product": "smm",
+  "namespace": "qb905e1d8723c_n100",
+  "query": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+  "clock": "2023-10-26T11:44:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c61dc060a2ddb252dd1eef054",
+          "score": 20.59324416123245
+        },
+        {
+          "source_id": "ca194573bab838bc02a805cf8",
+          "score": 17.687275512537607
+        },
+        {
+          "source_id": "c274bf5b7295f0c4398952f53",
+          "score": 5.146061973321627
+        },
+        {
+          "source_id": "c7e1a4247248272b98c877298",
+          "score": 4.949468199141159
+        },
+        {
+          "source_id": "cae83c312dfd127e3204dbe3e",
+          "score": 4.22508695807912
+        },
+        {
+          "source_id": "c0f28741490ce668b8be211e3",
+          "score": 3.4876897520861974
+        },
+        {
+          "source_id": "c93c4cd85f6c7e9495527145d",
+          "score": 3.0521088074923846
+        },
+        {
+          "source_id": "c7ecf6ab911b455224bf48ca4",
+          "score": 3.034555369564135
+        },
+        {
+          "source_id": "cbbd6150c8fbb334b341ac451",
+          "score": 2.8900574260769303
+        },
+        {
+          "source_id": "ca16e315d227aac0c25bcc411",
+          "score": 2.8114988573728588
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "ca194573bab838bc02a805cf8",
+          "score": 0.6300080791079428
+        },
+        {
+          "source_id": "c61dc060a2ddb252dd1eef054",
+          "score": 0.449832171472322
+        },
+        {
+          "source_id": "cfff49ce36752c57593ebb661",
+          "score": 0.32372138270582007
+        },
+        {
+          "source_id": "c7e1a4247248272b98c877298",
+          "score": 0.30789174220434634
+        },
+        {
+          "source_id": "c274bf5b7295f0c4398952f53",
+          "score": 0.3004675542561859
+        },
+        {
+          "source_id": "c0f28741490ce668b8be211e3",
+          "score": 0.2991817061440343
+        },
+        {
+          "source_id": "cbbd6150c8fbb334b341ac451",
+          "score": 0.2943300996846764
+        },
+        {
+          "source_id": "c09359b36292a6737886c2fee",
+          "score": 0.27879364229423387
+        },
+        {
+          "source_id": "c3e92666d5d305663820ae383",
+          "score": 0.2691950448508038
+        },
+        {
+          "source_id": "c90ca7a38c366c460d578972a",
+          "score": 0.266370963508752
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c61dc060a2ddb252dd1eef054-c0007",
+        "source_ids": [
+          "c61dc060a2ddb252dd1eef054"
+        ],
+        "hint": "\n\nUSER:\nI'm thinking of setting up a loyalty program to reward my repeat customers. Do you have any suggestions on how to implement it?\nBy the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "kind": "bm25-original-match-index",
+        "score": 20.59324416123245,
+        "metadata": {
+          "source_id": "c61dc060a2ddb252dd1eef054",
+          "score": 20.59324416123245,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c61dc060a2ddb252dd1eef054-c0007",
+          "start": 5214,
+          "end": 5457,
+          "source_sha256": "5fa4f9f4a83c65cc5da7cc91c7e4ebac1320266355a652d455815fba4b16b472"
+        }
+      },
+      {
+        "item_id": "vector:ca194573bab838bc02a805cf8-c0001",
+        "source_ids": [
+          "ca194573bab838bc02a805cf8"
+        ],
+        "hint": "\n\nUSER:\nHere's the info you requested. I'll just list them out: \n\nMarch 18th, Downtown Farmers Market, $220; March 25th, Arts and Crafts Fair, $85; April 1st, Earth Day Market, $25; May 6th, Downtown Farmers Market, $350; May 13th, Mother's Day Market, $200; May 20th, Foodie Festival, $400.",
+        "kind": "vector-original-match-index",
+        "score": 0.6300080791079428,
+        "metadata": {
+          "source_id": "ca194573bab838bc02a805cf8",
+          "score": 0.6300080791079428,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "ca194573bab838bc02a805cf8-c0001",
+          "start": 1013,
+          "end": 1304,
+          "source_sha256": "150c11727137569a88ae81d28602dfcd9a999d4ce5e2f0d9685715aa0d81702e"
+        }
+      },
+      {
+        "item_id": "bm25:ca194573bab838bc02a805cf8-c0010",
+        "source_ids": [
+          "ca194573bab838bc02a805cf8"
+        ],
+        "hint": "\n\nASSISTANT:\nI think that's a fantastic idea! A \"Downtown Farmers Market\" themed gift basket is a great way to:\n\n1. **Tap into the nostalgia**: People who visit the Downtown Farmers Market often have a strong emotional connection to the event and the community. A themed gift basket can evoke feelings of nostalgia and fond memories.\n2. **Feature your best-sellers**: By including your top-selling so",
+        "kind": "bm25-original-match-index",
+        "score": 17.687275512537607,
+        "metadata": {
+          "source_id": "ca194573bab838bc02a805cf8",
+          "score": 17.687275512537607,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "ca194573bab838bc02a805cf8-c0010",
+          "start": 6571,
+          "end": 6971,
+          "source_sha256": "150c11727137569a88ae81d28602dfcd9a999d4ce5e2f0d9685715aa0d81702e"
+        }
+      },
+      {
+        "item_id": "vector:c61dc060a2ddb252dd1eef054-c0007",
+        "source_ids": [
+          "c61dc060a2ddb252dd1eef054"
+        ],
+        "hint": "\n\nUSER:\nI'm thinking of setting up a loyalty program to reward my repeat customers. Do you have any suggestions on how to implement it?\nBy the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "kind": "vector-original-match-index",
+        "score": 0.449832171472322,
+        "metadata": {
+          "source_id": "c61dc060a2ddb252dd1eef054",
+          "score": 0.449832171472322,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c61dc060a2ddb252dd1eef054-c0007",
+          "start": 5214,
+          "end": 5457,
+          "source_sha256": "5fa4f9f4a83c65cc5da7cc91c7e4ebac1320266355a652d455815fba4b16b472"
+        }
+      },
+      {
+        "item_id": "bm25:c274bf5b7295f0c4398952f53-c0007",
+        "source_ids": [
+          "c274bf5b7295f0c4398952f53"
+        ],
+        "hint": "l FedExField website for their event calendar, which lists upcoming concerts, football games, and other events.\n2. **Ticketmaster**: Visit Ticketmaster's website or mobile app to search for events at FedExField during your planned road trip dates. You can filter by event type, date, and time to find something that interests you.\n3. **Local Event Calendars**: Look up local event calendars for the W",
+        "kind": "bm25-original-match-index",
+        "score": 5.146061973321627,
+        "metadata": {
+          "source_id": "c274bf5b7295f0c4398952f53",
+          "score": 5.146061973321627,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "c274bf5b7295f0c4398952f53-c0007",
+          "start": 4769,
+          "end": 5169,
+          "source_sha256": "025c1aa0d8f164a1508d2965effb458da901fe45ad227d951ef470815ac6e8a0"
+        }
+      },
+      {
+        "item_id": "vector:cfff49ce36752c57593ebb661-c0000",
+        "source_ids": [
+          "cfff49ce36752c57593ebb661"
+        ],
+        "hint": "USER:\nCan you provide examples of specific businesses or industries that have been launched in Lund directly as a result of academic research conducted in the city?",
+        "kind": "vector-original-match-index",
+        "score": 0.32372138270582007,
+        "metadata": {
+          "source_id": "cfff49ce36752c57593ebb661",
+          "score": 0.32372138270582007,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "cfff49ce36752c57593ebb661-c0000",
+          "start": 0,
+          "end": 164,
+          "source_sha256": "fbda449b256a0bc5dcaccf953a3e554cb822167074b3ba8ee605ee4bc685f2c2"
+        }
+      },
+      {
+        "item_id": "bm25:c7e1a4247248272b98c877298-c0014",
+        "source_ids": [
+          "c7e1a4247248272b98c877298"
+        ],
+        "hint": "\n\nASSISTANT:\nCashback apps and websites can be a great way to earn rewards and save money on your online purchases. Here are some popular and user-friendly options:\n\n**Cashback Apps:**\n\n1. **Rakuten (formerly known as Ebates)**: One of the most popular cashback platforms, offering up to 40% cashback at over 2,500 stores.\n2. **Ibotta**: Focuses on grocery items, but also offers cashback on other ca",
+        "kind": "bm25-original-match-index",
+        "score": 4.949468199141159,
+        "metadata": {
+          "source_id": "c7e1a4247248272b98c877298",
+          "score": 4.949468199141159,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c7e1a4247248272b98c877298-c0014",
+          "start": 9974,
+          "end": 10374,
+          "source_sha256": "4a9a6f7da9060ff3700ff91d7cc9304911b3b2b3a229906c55ec7737cbf896e3"
+        }
+      },
+      {
+        "item_id": "vector:c7e1a4247248272b98c877298-c0025",
+        "source_ids": [
+          "c7e1a4247248272b98c877298"
+        ],
+        "hint": "for a state-of-the-art smartwatch\n* Travel: $2,000 (20% of the budget)\n\t+ $1,000 for a luxury weekend getaway\n\t+ $500 for a fine dining experience\n\t+ $500 for a wine tasting tour\n* Food and Beverage: $1,500 (15% of the budget)\n\t+ $500 for gourmet ingredients and cookbooks\n\t+ $500 for wine and spirits\n\t+ $500 for fine dining experiences\n* Home and Decor: $1,500 (15% of the budget)\n\t+ $500 for a sta",
+        "kind": "vector-original-match-index",
+        "score": 0.30789174220434634,
+        "metadata": {
+          "source_id": "c7e1a4247248272b98c877298",
+          "score": 0.30789174220434634,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c7e1a4247248272b98c877298-c0025",
+          "start": 18065,
+          "end": 18465,
+          "source_sha256": "4a9a6f7da9060ff3700ff91d7cc9304911b3b2b3a229906c55ec7737cbf896e3"
+        }
+      },
+      {
+        "item_id": "bm25:cae83c312dfd127e3204dbe3e-c0000",
+        "source_ids": [
+          "cae83c312dfd127e3204dbe3e"
+        ],
+        "hint": "USER:\nWhich Olympic athlete has won the most gold medals in history, and what events did they excel in?\n\nASSISTANT:\nThe Olympic athlete who has won the most gold medals in history is Michael Phelps, an American swimmer. He has won a total of 23 gold medals, three silver, and two bronze medals. Phelps excelled in the freestyle, butterfly, and individual medley events, and has set multiple world rec",
+        "kind": "bm25-original-match-index",
+        "score": 4.22508695807912,
+        "metadata": {
+          "source_id": "cae83c312dfd127e3204dbe3e",
+          "score": 4.22508695807912,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "cae83c312dfd127e3204dbe3e-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "d8121e11b3bf02cb30627df4a1937173a2d1b97a21bcc2409aafba733cb4c062"
+        }
+      },
+      {
+        "item_id": "vector:c274bf5b7295f0c4398952f53-c0001",
+        "source_ids": [
+          "c274bf5b7295f0c4398952f53"
+        ],
+        "hint": "are some popular restaurants near FedExField in Landover, MD:\n\n1. **Ben's Chili Bowl**: A DC institution since 1958, Ben's is a must-visit for chili dogs, half-smokes, and milkshakes. (About 2 miles from FedExField)\n2. **MGM National Harbor**: While not directly next to FedExField, this resort is only about 5 miles away and offers a variety of dining options, including celebrity-chef restaurants l",
+        "kind": "vector-original-match-index",
+        "score": 0.3004675542561859,
+        "metadata": {
+          "source_id": "c274bf5b7295f0c4398952f53",
+          "score": 0.3004675542561859,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c274bf5b7295f0c4398952f53-c0001",
+          "start": 650,
+          "end": 1050,
+          "source_sha256": "025c1aa0d8f164a1508d2965effb458da901fe45ad227d951ef470815ac6e8a0"
+        }
+      },
+      {
+        "item_id": "bm25:c0f28741490ce668b8be211e3-c0012",
+        "source_ids": [
+          "c0f28741490ce668b8be211e3"
+        ],
+        "hint": "\n\nUSER:\nI'm interested in the VIP Experience's Gourmet Buffet at Halloween Horror Nights. How much does it cost and what are the perks?",
+        "kind": "bm25-original-match-index",
+        "score": 3.4876897520861974,
+        "metadata": {
+          "source_id": "c0f28741490ce668b8be211e3",
+          "score": 3.4876897520861974,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "c0f28741490ce668b8be211e3-c0012",
+          "start": 7346,
+          "end": 7481,
+          "source_sha256": "58b034ce5ecfa32eb73ecc0be1a64f3ae867f5664450ac3519fecbfc50fc968a"
+        }
+      },
+      {
+        "item_id": "vector:c0f28741490ce668b8be211e3-c0012",
+        "source_ids": [
+          "c0f28741490ce668b8be211e3"
+        ],
+        "hint": "\n\nUSER:\nI'm interested in the VIP Experience's Gourmet Buffet at Halloween Horror Nights. How much does it cost and what are the perks?",
+        "kind": "vector-original-match-index",
+        "score": 0.2991817061440343,
+        "metadata": {
+          "source_id": "c0f28741490ce668b8be211e3",
+          "score": 0.2991817061440343,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c0f28741490ce668b8be211e3-c0012",
+          "start": 7346,
+          "end": 7481,
+          "source_sha256": "58b034ce5ecfa32eb73ecc0be1a64f3ae867f5664450ac3519fecbfc50fc968a"
+        }
+      },
+      {
+        "item_id": "bm25:c93c4cd85f6c7e9495527145d-c0011",
+        "source_ids": [
+          "c93c4cd85f6c7e9495527145d"
+        ],
+        "hint": "\n\nUSER:\nthanks very much\n\nASSISTANT:\nYou're welcome! If you have any more questions, feel free to ask!\n\nUSER:\ncould you sugest front end design and colors for the above portal",
+        "kind": "bm25-original-match-index",
+        "score": 3.0521088074923846,
+        "metadata": {
+          "source_id": "c93c4cd85f6c7e9495527145d",
+          "score": 3.0521088074923846,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c93c4cd85f6c7e9495527145d-c0011",
+          "start": 6327,
+          "end": 6502,
+          "source_sha256": "7b08f7e9d6635d7a4b897b7c6c6ca73d660021577277abb4a9f8b23f892dfe65"
+        }
+      },
+      {
+        "item_id": "vector:cbbd6150c8fbb334b341ac451-c0007",
+        "source_ids": [
+          "cbbd6150c8fbb334b341ac451"
+        ],
+        "hint": "and provides a discounted fare for frequent riders.\n* **Washington D.C.'s SmarTrip**: Provides a Monthly Pass for $96, which includes unlimited rides on Metrorail and buses.\n\nRemember to always check the transit agency's website or contact their customer service to confirm prices and availability of discounts.\n\nI hope these tips and resources help you find a better deal on your monthly train pass!",
+        "kind": "vector-original-match-index",
+        "score": 0.2943300996846764,
+        "metadata": {
+          "source_id": "cbbd6150c8fbb334b341ac451",
+          "score": 0.2943300996846764,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "cbbd6150c8fbb334b341ac451-c0007",
+          "start": 4545,
+          "end": 4945,
+          "source_sha256": "52b2969892c593ee56ddee72babaeb13a26b99044b5b8fb0f646d3d8951cd999"
+        }
+      },
+      {
+        "item_id": "bm25:c7ecf6ab911b455224bf48ca4-c0011",
+        "source_ids": [
+          "c7ecf6ab911b455224bf48ca4"
+        ],
+        "hint": "ordable option.\n\nKeep in mind that IKEA's inventory and product lines change frequently, so it's essential to check their website or visit a store to see what's currently available.\n\nIf you're set on a reclaimed wood table, you might want to explore other brands or local furniture makers that specialize in reclaimed wood pieces. However, if you're looking for an affordable, eco-friendly option wit",
+        "kind": "bm25-original-match-index",
+        "score": 3.034555369564135,
+        "metadata": {
+          "source_id": "c7ecf6ab911b455224bf48ca4",
+          "score": 3.034555369564135,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "c7ecf6ab911b455224bf48ca4-c0011",
+          "start": 6853,
+          "end": 7253,
+          "source_sha256": "ce7db729b6ddb5e5ba5ef5d5b5e46cf15c091fd1558bc24300c07b13b25e76e2"
+        }
+      },
+      {
+        "item_id": "vector:c09359b36292a6737886c2fee-c0000",
+        "source_ids": [
+          "c09359b36292a6737886c2fee"
+        ],
+        "hint": "nsumer confidence, many businesses that rely on tourism have had to close, reduce hours, or lay off employees. The impact on the labor market may be particularly severe for those who work in restaurants, hotels, and other hospitality-related industries.\n\nUSER:\nYeah, it's been tough for a lot of people. Do you think there's any hope for the tourism industry to bounce back once the pandemic is over?",
+        "kind": "vector-original-match-index",
+        "score": 0.27879364229423387,
+        "metadata": {
+          "source_id": "c09359b36292a6737886c2fee",
+          "score": 0.27879364229423387,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c09359b36292a6737886c2fee-c0000",
+          "start": 523,
+          "end": 923,
+          "source_sha256": "faed73c1eceaa2d579bacaa77296d210f6c8a93711c9162ca3736f24cfca42ea"
+        }
+      },
+      {
+        "item_id": "bm25:cbbd6150c8fbb334b341ac451-c0013",
+        "source_ids": [
+          "cbbd6150c8fbb334b341ac451"
+        ],
+        "hint": "are some general options:\n\n1. **Online purchase**: Many transit agencies offer online purchasing options for monthly passes. You can visit their website, log in to your account (or create one), and follow the steps to buy a monthly pass. You might need to upload a photo or provide identification information.\n2. **Mobile app**: Some transit agencies have mobile apps that allow you to purchase month",
+        "kind": "bm25-original-match-index",
+        "score": 2.8900574260769303,
+        "metadata": {
+          "source_id": "cbbd6150c8fbb334b341ac451",
+          "score": 2.8900574260769303,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "cbbd6150c8fbb334b341ac451-c0013",
+          "start": 8411,
+          "end": 8811,
+          "source_sha256": "52b2969892c593ee56ddee72babaeb13a26b99044b5b8fb0f646d3d8951cd999"
+        }
+      },
+      {
+        "item_id": "vector:c3e92666d5d305663820ae383-c0003",
+        "source_ids": [
+          "c3e92666d5d305663820ae383"
+        ],
+        "hint": "\n\nUSER:\nI live in a suburb of a major city, about 20 miles outside of downtown. I'd say I'm a casual rider, just enjoying the fresh air and exercise on the weekends. I'm willing to travel up to 30 minutes to reach a trail. I prefer paved trails or smooth dirt paths, nothing too rugged.",
+        "kind": "vector-original-match-index",
+        "score": 0.2691950448508038,
+        "metadata": {
+          "source_id": "c3e92666d5d305663820ae383",
+          "score": 0.2691950448508038,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c3e92666d5d305663820ae383-c0003",
+          "start": 1584,
+          "end": 1870,
+          "source_sha256": "1e6a67df51b6148401a60baf8fac167e3004cb7a44dd5218daf6d49a87a3985f"
+        }
+      },
+      {
+        "item_id": "bm25:ca16e315d227aac0c25bcc411-c0019",
+        "source_ids": [
+          "ca16e315d227aac0c25bcc411"
+        ],
+        "hint": "What was it about the sunset that inspired you to capture it? Was there a particular moment or scene that stood out to you?\n\nAnd how did you find the experience of shooting with a camera again after a break? Did you feel like you got back into the swing of things quickly, or was it a bit of a learning curve to get used to a new camera and settings?\n\nI'm all ears (or in this case, all text) and wou",
+        "kind": "bm25-original-match-index",
+        "score": 2.8114988573728588,
+        "metadata": {
+          "source_id": "ca16e315d227aac0c25bcc411",
+          "score": 2.8114988573728588,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "ca16e315d227aac0c25bcc411-c0019",
+          "start": 13188,
+          "end": 13588,
+          "source_sha256": "7273a0e0c7c2f9e4d5f6edf1a49602b346553abbdad8c2ecb6124a884c86cc66"
+        }
+      },
+      {
+        "item_id": "vector:c90ca7a38c366c460d578972a-c0007",
+        "source_ids": [
+          "c90ca7a38c366c460d578972a"
+        ],
+        "hint": "\n\nASSISTANT:\nWhat a great habit to start the day! I've got some coffee shop recommendations near the Springfield train station that offer loyalty programs or discounts:\n\n1. **Dunkin' Donuts**: There's a Dunkin' Donuts location directly across from the Springfield Union Station (95 Liberty St). They have a loyalty program called DD Perks, which offers rewards, discounts, and free drinks.\n2. **The C",
+        "kind": "vector-original-match-index",
+        "score": 0.266370963508752,
+        "metadata": {
+          "source_id": "c90ca7a38c366c460d578972a",
+          "score": 0.266370963508752,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "c90ca7a38c366c460d578972a-c0007",
+          "start": 4024,
+          "end": 4424,
+          "source_sha256": "296e23e7e8430b0843c1fd250468fb12a53d12ff24cb657eebc90e1de2d966d4"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c61dc060a2ddb252dd1eef054",
+    "ca194573bab838bc02a805cf8",
+    "c274bf5b7295f0c4398952f53",
+    "c7e1a4247248272b98c877298",
+    "cae83c312dfd127e3204dbe3e",
+    "cfff49ce36752c57593ebb661"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c61dc060a2ddb252dd1eef054",
+      "source_date": "2023-09-30T15:13:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm thinking of setting up a loyalty program to reward my repeat customers. Do you have any suggestions on how to implement it?\nBy the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+          "start": 5214,
+          "end": 5457
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nCongratulations on your sales at the Downtown Farmers Market! That's great to hear!\n\nNow, about setting up a loyalty program... That's a fantastic idea! Loyalty programs can help increase customer retention, encourage repeat business, and even drive word-of-mouth marketing. Here are some suggestions to get you started:\n\n1. **Define your goals**: Determine what you want to achieve with",
+          "start": 5457,
+          "end": 5857
+        }
+      ]
+    },
+    {
+      "source_id": "ca194573bab838bc02a805cf8",
+      "source_date": "2023-04-11T00:10:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nI think that's a fantastic idea! A \"Downtown Farmers Market\" themed gift basket is a great way to:\n\n1. **Tap into the nostalgia**: People who visit the Downtown Farmers Market often have a strong emotional connection to the event and the community. A themed gift basket can evoke feelings of nostalgia and fond memories.\n2. **Feature your best-sellers**: By including your top-selling so",
+          "start": 6571,
+          "end": 6971
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nHere's the info you requested. I'll just list them out: \n\nMarch 18th, Downtown Farmers Market, $220; March 25th, Arts and Crafts Fair, $85; April 1st, Earth Day Market, $25; May 6th, Downtown Farmers Market, $350; May 13th, Mother's Day Market, $200; May 20th, Foodie Festival, $400.",
+          "start": 1013,
+          "end": 1304
+        }
+      ]
+    },
+    {
+      "source_id": "c274bf5b7295f0c4398952f53",
+      "source_date": "2023-08-16T11:09:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nI'm thrilled to hear about your amazing experience at the Billie Eilish concert! Meeting her at the meet-and-greet session must have been a surreal moment. I'm sure you and Rachel had an unforgettable time singing along to her hits.\n\nNow, let's dive into some fresh seafood options near FedExField:\n\n1. **The Fish Market**: Located in nearby National Harbor, The Fish Market offers a wid",
+          "start": 2490,
+          "end": 2890
+        },
+        {
+          "role": "assistant",
+          "text": "are some popular restaurants near FedExField in Landover, MD:\n\n1. **Ben's Chili Bowl**: A DC institution since 1958, Ben's is a must-visit for chili dogs, half-smokes, and milkshakes. (About 2 miles from FedExField)\n2. **MGM National Harbor**: While not directly next to FedExField, this resort is only about 5 miles away and offers a variety of dining options, including celebrity-chef restaurants l",
+          "start": 650,
+          "end": 1050
+        }
+      ]
+    },
+    {
+      "source_id": "c7e1a4247248272b98c877298",
+      "source_date": "2023-08-23T12:12:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nCashback apps and websites can be a great way to earn rewards and save money on your online purchases. Here are some popular and user-friendly options:\n\n**Cashback Apps:**\n\n1. **Rakuten (formerly known as Ebates)**: One of the most popular cashback platforms, offering up to 40% cashback at over 2,500 stores.\n2. **Ibotta**: Focuses on grocery items, but also offers cashback on other ca",
+          "start": 9974,
+          "end": 10374
+        },
+        {
+          "role": "assistant",
+          "text": "for a state-of-the-art smartwatch\n* Travel: $2,000 (20% of the budget)\n\t+ $1,000 for a luxury weekend getaway\n\t+ $500 for a fine dining experience\n\t+ $500 for a wine tasting tour\n* Food and Beverage: $1,500 (15% of the budget)\n\t+ $500 for gourmet ingredients and cookbooks\n\t+ $500 for wine and spirits\n\t+ $500 for fine dining experiences\n* Home and Decor: $1,500 (15% of the budget)\n\t+ $500 for a sta",
+          "start": 18065,
+          "end": 18465
+        }
+      ]
+    },
+    {
+      "source_id": "cae83c312dfd127e3204dbe3e",
+      "source_date": "2023-09-21T15:42:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nAs an AI language model, I do not have personal experiences or feelings, but I can share that one of Michael Phelps' most iconic races was in the 2008 Beijing Olympics, where he won the 100-meter butterfly by just 0.01 seconds, upsetting his rival Milorad Čavić of Serbia. This race was particularly memorable because Phelps' goggles started to fill with water during the race, which cou",
+          "start": 978,
+          "end": 1378
+        },
+        {
+          "role": "assistant",
+          "text": "USER:\nWhich Olympic athlete has won the most gold medals in history, and what events did they excel in?\n\nASSISTANT:\nThe Olympic athlete who has won the most gold medals in history is Michael Phelps, an American swimmer. He has won a total of 23 gold medals, three silver, and two bronze medals. Phelps excelled in the freestyle, butterfly, and individual medley events, and has set multiple world rec",
+          "start": 0,
+          "end": 400
+        }
+      ]
+    },
+    {
+      "source_id": "cfff49ce36752c57593ebb661",
+      "source_date": "2023-05-29T05:39:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nLike any medical treatment, stem cell therapy can have potential side effects, and the risks and benefits of the therapy will vary depending on the patient's individual circumstances and the specific type of cells used.\n\nThe most common side effects of stem cell therapy are related to the infusion process, such as fever, headache, nausea, chills, and fatigue. These side effects are ge",
+          "start": 10424,
+          "end": 10824
+        },
+        {
+          "role": "user",
+          "text": "USER:\nCan you provide examples of specific businesses or industries that have been launched in Lund directly as a result of academic research conducted in the city?",
+          "start": 0,
+          "end": 164
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.008037874940782785,
+    "native_search_seconds": 0.006968999980017543,
+    "common_spans_seconds": 0.0045714168809354305
+  }
+}

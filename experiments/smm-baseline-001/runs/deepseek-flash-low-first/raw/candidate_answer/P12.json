@@ -1,0 +1,22 @@
+{
+  "id": "29f03059-9657-425c-be23-306f4de3ff52",
+  "model": "deepseek-flash",
+  "created": 1792981140,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"You used **Doc Martin** as the example: you said it went down after a while and only the last season was available.\",\"claims\":[{\"claim\":\"The user cited Doc Martin as the show that went down and left access only to the last season.\",\"citations\":[{\"evidence_id\":\"E00002\",\"quote\":\"I will give you an example, \\\"doc martin\\\" show went down after a while, and now we have access only to the last season.\"}]}],\"selected_sources\":[\"C02\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 24457,
+    "completion_tokens": 654,
+    "total_tokens": 25111,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 534
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 24073
+  },
+  "refusal": null
+}

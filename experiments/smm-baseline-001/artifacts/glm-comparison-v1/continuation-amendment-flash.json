@@ -1,0 +1,13 @@
+{
+  "at": 1792979693.209974,
+  "model": "glm-5.3-flash",
+  "trigger": "P25 oracle first attempt hit 90-second read timeout",
+  "pending_pairs_before": 2,
+  "continue_only_never_requested_pairs": true,
+  "retry_existing_failed_pair": false,
+  "original_failure_kept": true,
+  "original_stop_kept": true,
+  "settings": "Same frozen inputs/transport/low/endpoint/schema/90s timeout",
+  "extends": "continuation-amendment.json independent-task continuation policy",
+  "implementation_sha256": "1d1b46900fcd019e9734d39b6b8049943b9a96524b15af5aef4aea23eed92917"
+}

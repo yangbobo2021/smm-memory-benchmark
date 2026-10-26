@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "514d998be7fd5ef8241468ffe25b8cb3807f76cb153e604cdb9c5ad013f28050",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit.",
+    "claims": [
+      {
+        "claim": "The user stated they earned $420 at the Downtown Farmers Market on their most recent visit.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "9c9361f1076d1880fb31ad0aa09c318dd42aec4cb6b50b12fe901cbb878e4118",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 5392,
+      "completion_tokens": 274,
+      "total_tokens": 5666,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 5008
+    },
+    "response_id": "d1e84955-e871-47e4-9f33-e68c99d1b54c",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.272576875053346
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P04.json",
+  "raw_response_sha256": "e68ec93c4de5d7bb9d2d42b49b96913ff45b53c5bcf1c2a2eb3b52e2e3e6f554"
+}

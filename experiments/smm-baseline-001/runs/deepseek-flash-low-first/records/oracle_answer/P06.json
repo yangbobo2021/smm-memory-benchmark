@@ -1,0 +1,152 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P06",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "0bae8df22e567c1d800f51827077d0f96fe7db64fd1e8c1ede6d595267089050",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attend fitness classes on four days a week: Tuesday, Wednesday, Thursday, and Saturday.",
+    "claims": [
+      {
+        "claim": "You attend Zumba classes on Tuesdays and Thursdays.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm"
+          }
+        ]
+      },
+      {
+        "claim": "You attend a weightlifting class on Saturdays.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "a weightlifting class on Saturdays at 10 am"
+          }
+        ]
+      },
+      {
+        "claim": "You started a yoga class on Wednesdays.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "recently started a yoga class on Wednesdays"
+          }
+        ]
+      },
+      {
+        "claim": "Across these statements, your fitness classes fall on Tuesday, Wednesday, Thursday, and Saturday, totaling four days a week.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am."
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "recently started a yoga class on Wednesdays"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "cedd9238042426d1a4df4b58d1c0d1a7e387b4b86ce86d1c5c944f894e397c6d",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 6733,
+      "completion_tokens": 764,
+      "total_tokens": 7497,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 490
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 6349
+    },
+    "response_id": "079ee2b7-d35b-4f0d-8c45-53200b23b328",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 5.906705417204648
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm",
+        "valid": true,
+        "source_id": "c3660f7f82aeb2ef7b63e2daf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T06:52:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "a weightlifting class on Saturdays at 10 am",
+        "valid": true,
+        "source_id": "c3660f7f82aeb2ef7b63e2daf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T06:52:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "recently started a yoga class on Wednesdays",
+        "valid": true,
+        "source_id": "cb02306340efae1abb61b04d8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T03:42:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00002",
+        "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.",
+        "valid": true,
+        "source_id": "c3660f7f82aeb2ef7b63e2daf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T06:52:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "recently started a yoga class on Wednesdays",
+        "valid": true,
+        "source_id": "cb02306340efae1abb61b04d8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T03:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P06.json",
+  "raw_response_sha256": "d578d743e1e1168d6603dac0d9442eb0220b567dd6e2c2209b75a2af16e99a9f"
+}

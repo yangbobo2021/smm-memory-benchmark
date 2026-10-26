@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "78a23fe92a53f9e3ec27e5d3b4c32eae0af817dc74b2c1f78f0300bf63c794fb",
+  "imported": false,
+  "output": {
+    "status": "abstain",
+    "answer": "无法从提供的证据中确定 Emma、Rachel 和 Alex 三人之间的毕业先后排名。证据分别提到：Emma 高中毕业（\"My niece Emma just graduated yesterady\" – E00003, C03）；Rachel 的硕士学位毕业典礼（\"I just got back from my friend Rachel's master's degree graduation ceremony yesterday\" – E00005, C05）；Alex 约两周前大学毕业（\"my cousin Alex, who graduated with a degree in engineering from college about two weeks ago\" – E00007, C07；E00005 中 Alex 当天毕业）。Emma、Rachel、Alex 的毕业日期可以比较，但没有任何证据表明存在三人之间的名次（第一、第二、第三）。",
+    "claims": [
+      {
+        "claim": "Rachel 的毕业典礼在 Emma 毕业之后（5月28日提到前一天），Alex 毕业约在6月初（7月15日提到两周前）",
+        "citations": []
+      },
+      {
+        "claim": "但没有任何证据涉及三人的名次或排名比较",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C05",
+      "C07"
+    ],
+    "missing": "三人毕业排名的信息完全缺失"
+  },
+  "metrics": {
+    "seconds": 9.927236624993384,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 269,
+      "completion_tokens_details": {
+        "reasoning_tokens": 23
+      },
+      "prompt_tokens": 16198,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 16467
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [],
+    "quote_errors": []
+  }
+}

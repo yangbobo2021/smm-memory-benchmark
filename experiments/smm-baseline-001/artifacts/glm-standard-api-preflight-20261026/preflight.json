@@ -1,0 +1,109 @@
+{
+  "experiment_id": "SMM-B001",
+  "date": "2026-10-26",
+  "user_requested_endpoint_check": true,
+  "status": "blocked_1113",
+  "http_requests": 3,
+  "benchmark_calls": 0,
+  "successful_generations": 0,
+  "probes": [
+    {
+      "model": "glm-5.3-flash",
+      "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      "request": {
+        "model": "glm-5.3-flash",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Return only {\"ok\":true} as valid JSON."
+          }
+        ],
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "max_tokens": 8192,
+        "stream": false,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "http_status": 429,
+      "seconds": 1.068,
+      "response": {
+        "error": {
+          "code": "1113",
+          "message": "余额不足或无可用资源包,请充值。"
+        }
+      }
+    },
+    {
+      "model": "glm-5.3",
+      "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      "request": {
+        "model": "glm-5.3",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Return only {\"ok\":true} as valid JSON."
+          }
+        ],
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "max_tokens": 8192,
+        "stream": false,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "http_status": 429,
+      "seconds": 1.029,
+      "response": {
+        "error": {
+          "code": "1113",
+          "message": "余额不足或无可用资源包,请充值。"
+        }
+      }
+    },
+    {
+      "kind": "exact-user-official-image-example",
+      "model": "glm-5.3-flash",
+      "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      "request": {
+        "model": "glm-5.3-flash",
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "image_url",
+                "image_url": {
+                  "url": "https://cloudcovert-1305175928.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87grounding.PNG"
+                }
+              },
+              {
+                "type": "text",
+                "text": "Where is the second bottle of beer from the right on the table?  Provide coordinates in [[xmin,ymin,xmax,ymax]] format"
+              }
+            ]
+          }
+        ],
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "http_status": 429,
+      "seconds": 1.119,
+      "response": {
+        "error": {
+          "code": "1113",
+          "message": "余额不足或无可用资源包,请充值。"
+        }
+      }
+    }
+  ],
+  "conclusion": "Both models failed on the user-specified standard endpoint; the exact user-provided official multimodal example also failed with HTTP429/code1113. The underlying key/account entitlement cause remains unverified.",
+  "key_saved": false
+}

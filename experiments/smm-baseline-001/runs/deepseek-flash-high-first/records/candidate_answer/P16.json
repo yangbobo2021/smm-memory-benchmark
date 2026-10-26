@@ -1,0 +1,96 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P16",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "343b8a3ac082b18e091e9d74fc2301b465ba4d040407c10a62806fa1a10c5720",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You found 17 skeins of worsted weight yarn in your stash.",
+    "claims": [
+      {
+        "claim": "The user stated they found a stash of 17 skeins recently and wanted to use them up.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "I have a stash of 17 skeins that I found recently, and I'd love to use them up."
+          }
+        ]
+      },
+      {
+        "claim": "The user identified the yarn as worsted weight yarn.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "Can I use some of my worsted weight yarn for the amigurumi toys?"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C08"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "888de7c442b30576e2798a42791f57ae1ddd5f3d6d674944f8a7acf126e829de",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 27100,
+      "completion_tokens": 782,
+      "total_tokens": 27882,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 633
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 26844
+    },
+    "response_id": "aece00c6-3e4b-472b-a2d8-c2ea9e04da3a",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 6.277276583015919
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00008",
+        "quote": "I have a stash of 17 skeins that I found recently, and I'd love to use them up.",
+        "valid": true,
+        "source_id": "c206792b9b44d285b614d229e",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T11:27:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00008",
+        "quote": "Can I use some of my worsted weight yarn for the amigurumi toys?",
+        "valid": true,
+        "source_id": "c206792b9b44d285b614d229e",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T11:27:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P16.json",
+  "raw_response_sha256": "b77afee641c1d3c35eaa0ee7a331b01ef11f97f6f35c178a0f9f770d81e467d9"
+}

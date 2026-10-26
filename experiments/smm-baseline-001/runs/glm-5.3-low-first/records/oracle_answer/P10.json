@@ -1,0 +1,71 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P10",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "bf942810d60af2efbd005a7049bd6a6a3e196e36536718cbf21a504dfd2d9e06",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "Excluding your thesis, you have been working on 2 projects simultaneously: a Data Mining course group project and a Database Systems course group project.",
+    "claims": [
+      {
+        "claim": "User has separate Trello boards for thesis, Data Mining project, and Database Systems project",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ","
+  },
+  "metrics": {
+    "seconds": 5.122330625075847,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 123,
+      "completion_tokens_details": {
+        "reasoning_tokens": 13
+      },
+      "prompt_tokens": 11790,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 11913
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project.",
+        "valid": true,
+        "source_id": "c7205aaf4f85c5e920a9e1c57",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T11:44:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

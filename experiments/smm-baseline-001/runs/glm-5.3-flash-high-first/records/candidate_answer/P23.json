@@ -1,0 +1,93 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "45bcd1fba700beac98ff5b486ec592c0570af899456cf54f9847d1610931d397",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "14 days. The spider plant was repotted on 2023-03-04, and the cuttings were given to Mrs. Johnson on 2023-03-18 (2023-03-18 minus 2023-03-04 = 14 days).",
+    "claims": [
+      {
+        "claim": "The user repotted the previous spider plant on 2023-03-04, the date of the conversation in C01 (received_at 2023-03-04T12:05:00+00:00), where the user says it happened 'today'.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today"
+          }
+        ]
+      },
+      {
+        "claim": "The user gave Mrs. Johnson cuttings from the spider plant on 2023-03-18, the date of the conversation in C06 (received_at 2023-03-18T08:49:00+00:00), where the user says it happened 'today'.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          }
+        ]
+      },
+      {
+        "claim": "The elapsed time between 2023-03-04 and 2023-03-18 is 14 days (arithmetic on the two established dates).",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C06"
+    ],
+    "missing": "Nothing material; both event dates are established by user statements ('today') in dated conversations. Other sources (C02, C03, C04, C05, C07) contained no relevant information."
+  },
+  "metrics": {
+    "seconds": 64.23456987505779,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1158,
+      "completion_tokens_details": {
+        "reasoning_tokens": 751
+      },
+      "prompt_tokens": 18730,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 19888
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I repot the previous spider plant today",
+        "valid": true,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00006",
+        "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+        "valid": true,
+        "source_id": "ca722cb830ce76b391e670726",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-18T08:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

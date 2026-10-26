@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P17",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "ed632a5921416785c6d9d26b074937081a76bcc16ef3231a7ad273b6eac6e4ec",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You caught 12 largemouth bass on your last fishing trip to Lake Michigan.",
+    "claims": [
+      {
+        "claim": "The user said they caught 12 largemouth bass on their last trip to Lake Michigan.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I caught 12 largemouth bass on my last trip there"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "cd1184bcc8aa3567f5c30a14ec8656434e8fff58aeb0a9165ce6826bb52e6b1e",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 4555,
+      "completion_tokens": 258,
+      "total_tokens": 4813,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 4171
+    },
+    "response_id": "19608f77-e7ae-4ed4-8858-f1ec50a0e7a9",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.190353250131011
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I caught 12 largemouth bass on my last trip there",
+        "valid": true,
+        "source_id": "c7597a97e2ced0ac9fccbba67",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T06:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P17.json",
+  "raw_response_sha256": "aa00ff1297a1f1769f25686ce29b03964fc84316f0b8102933973dfe955509cb"
+}

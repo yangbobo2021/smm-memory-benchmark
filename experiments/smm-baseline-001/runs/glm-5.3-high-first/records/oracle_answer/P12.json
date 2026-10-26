@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "aed050931b9242d9a99eae557b592f91c5e0f0a9f3f283a5ec6918a58b6a01ba",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes, in the earlier Netflix conversation you used \"Doc Martin\" as the example. You said Netflix took the show down after a while and that you now only have access to its last season, which is why you want all seasons of old shows to remain available.",
+    "claims": [
+      {
+        "claim": "The user used \"Doc Martin\" as the example of a show where only the last season is available",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I will give you an example,"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.945453374879435,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 202,
+      "completion_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "prompt_tokens": 1622,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 1824
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I will give you an example,",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

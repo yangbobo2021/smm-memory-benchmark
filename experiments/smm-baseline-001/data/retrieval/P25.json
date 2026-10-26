@@ -1,0 +1,640 @@
+{
+  "case_id": "P25",
+  "product": "smm",
+  "namespace": "qee671299f154_n100",
+  "query": "What time do I wake up on Tuesdays and Thursdays?",
+  "clock": "2023-05-27T19:21:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c1093bf2c8cd861890c957c5c",
+          "score": 7.609146079252829
+        },
+        {
+          "source_id": "cfb475330aad6b2360694d630",
+          "score": 5.205317576529993
+        },
+        {
+          "source_id": "cf394b53c95ff3533f8dc7934",
+          "score": 1.429097171130418e-05
+        },
+        {
+          "source_id": "c7e2b583edea2015080efa1f3",
+          "score": 1.3381702801057937e-05
+        },
+        {
+          "source_id": "ca3084b566597e20e4e61fe68",
+          "score": 1.335496861702103e-05
+        },
+        {
+          "source_id": "cd7ee0844673d4b8fe1d78db1",
+          "score": 1.3155283491500369e-05
+        },
+        {
+          "source_id": "c21887eb0acce17e44beb8d53",
+          "score": 1.2332960347461007e-05
+        },
+        {
+          "source_id": "c34823d4c44b7b6f5370bce2c",
+          "score": 1.2322599951633524e-05
+        },
+        {
+          "source_id": "c08743598caacd8e19e2d0033",
+          "score": 1.2264965631514246e-05
+        },
+        {
+          "source_id": "c18cfee8453e50706845a8038",
+          "score": 1.2058129098900184e-05
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "cfb475330aad6b2360694d630",
+          "score": 0.4993003889843218
+        },
+        {
+          "source_id": "c1093bf2c8cd861890c957c5c",
+          "score": 0.47985261097339954
+        },
+        {
+          "source_id": "cd7ee0844673d4b8fe1d78db1",
+          "score": 0.36008003992961257
+        },
+        {
+          "source_id": "c21887eb0acce17e44beb8d53",
+          "score": 0.2709432759777669
+        },
+        {
+          "source_id": "cac5d3134d39e204f7b33f1c4",
+          "score": 0.20189081822902769
+        },
+        {
+          "source_id": "c7e2b583edea2015080efa1f3",
+          "score": 0.1676696598882812
+        },
+        {
+          "source_id": "c08a1512e14360ef7c44b9f05",
+          "score": 0.1557356611179779
+        },
+        {
+          "source_id": "c5d5425d86a212d5a364ed64a",
+          "score": 0.15256874129221573
+        },
+        {
+          "source_id": "c6f05a6c556c1625c259666c0",
+          "score": 0.14900598898889927
+        },
+        {
+          "source_id": "c7230340fbedf1adcab5f7f7d",
+          "score": 0.1298754128847403
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c1093bf2c8cd861890c957c5c-c0000",
+        "source_ids": [
+          "c1093bf2c8cd861890c957c5c"
+        ],
+        "hint": "alized morning routine that works for me. I've recently started going for a 30-minute walk before work, which has been great. On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses, which has helped me feel more centered and calm. Can you suggest some healthy breakfast ideas that I can prep the night before to start my day on a good note?",
+        "kind": "bm25-original-match-index",
+        "score": 7.609146079252829,
+        "metadata": {
+          "source_id": "c1093bf2c8cd861890c957c5c",
+          "score": 7.609146079252829,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c1093bf2c8cd861890c957c5c-c0000",
+          "start": 35,
+          "end": 435,
+          "source_sha256": "9e4fc89947164a296bbdbaf66f891698d68582904925c7718da87e8f8b1c9218"
+        }
+      },
+      {
+        "item_id": "vector:cfb475330aad6b2360694d630-c0000",
+        "source_ids": [
+          "cfb475330aad6b2360694d630"
+        ],
+        "hint": "USER:\nI'm looking to find some healthy breakfast ideas that can be prepared the night before. I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call, and I want to make sure I'm fueling up with a nutritious meal to start my day.",
+        "kind": "vector-original-match-index",
+        "score": 0.4993003889843218,
+        "metadata": {
+          "source_id": "cfb475330aad6b2360694d630",
+          "score": 0.4993003889843218,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "cfb475330aad6b2360694d630-c0000",
+          "start": 0,
+          "end": 279,
+          "source_sha256": "6fca81466000a6898185220dbc0435fcd9eca45f16c95d501ea3366681b5ac9a"
+        }
+      },
+      {
+        "item_id": "bm25:cfb475330aad6b2360694d630-c0000",
+        "source_ids": [
+          "cfb475330aad6b2360694d630"
+        ],
+        "hint": "USER:\nI'm looking to find some healthy breakfast ideas that can be prepared the night before. I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call, and I want to make sure I'm fueling up with a nutritious meal to start my day.",
+        "kind": "bm25-original-match-index",
+        "score": 5.205317576529993,
+        "metadata": {
+          "source_id": "cfb475330aad6b2360694d630",
+          "score": 5.205317576529993,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "cfb475330aad6b2360694d630-c0000",
+          "start": 0,
+          "end": 279,
+          "source_sha256": "6fca81466000a6898185220dbc0435fcd9eca45f16c95d501ea3366681b5ac9a"
+        }
+      },
+      {
+        "item_id": "vector:c1093bf2c8cd861890c957c5c-c0000",
+        "source_ids": [
+          "c1093bf2c8cd861890c957c5c"
+        ],
+        "hint": "alized morning routine that works for me. I've recently started going for a 30-minute walk before work, which has been great. On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses, which has helped me feel more centered and calm. Can you suggest some healthy breakfast ideas that I can prep the night before to start my day on a good note?",
+        "kind": "vector-original-match-index",
+        "score": 0.47985261097339954,
+        "metadata": {
+          "source_id": "c1093bf2c8cd861890c957c5c",
+          "score": 0.47985261097339954,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c1093bf2c8cd861890c957c5c-c0000",
+          "start": 35,
+          "end": 435,
+          "source_sha256": "9e4fc89947164a296bbdbaf66f891698d68582904925c7718da87e8f8b1c9218"
+        }
+      },
+      {
+        "item_id": "bm25:cf394b53c95ff3533f8dc7934-c0002",
+        "source_ids": [
+          "cf394b53c95ff3533f8dc7934"
+        ],
+        "hint": "e expansive. I need to see how it will be and decide. Make sure to follow up on every thread. short question only. One question at a time- mandatory!\n\nASSISTANT:\nThat makes sense. Would you be more likely to purchase clothing items made from recycled materials if they were of a similar quality and price to non-recycled items?\n\nUSER:\nyes. definitel. Make sure to follow up on every thread. short que",
+        "kind": "bm25-original-match-index",
+        "score": 1.429097171130418e-05,
+        "metadata": {
+          "source_id": "cf394b53c95ff3533f8dc7934",
+          "score": 1.429097171130418e-05,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "cf394b53c95ff3533f8dc7934-c0002",
+          "start": 2485,
+          "end": 2885,
+          "source_sha256": "d5408c147fdd568c17a657b9690ab277cb7efa9fc6ac405f25edc3518b05c037"
+        }
+      },
+      {
+        "item_id": "vector:cd7ee0844673d4b8fe1d78db1-c0010",
+        "source_ids": [
+          "cd7ee0844673d4b8fe1d78db1"
+        ],
+        "hint": "mmend apps that offer features like:\n\n1. **Task prioritization**: Helping you focus on the most important tasks during the day.\n2. **Time tracking**: Allowing you to monitor how much time you spend on tasks, so you can optimize your daily routine.\n3. **Customizable workflows**: Enabling you to create a workflow that fits your unique needs and style.\n4. **Reminders and notifications**: Sending you ",
+        "kind": "vector-original-match-index",
+        "score": 0.36008003992961257,
+        "metadata": {
+          "source_id": "cd7ee0844673d4b8fe1d78db1",
+          "score": 0.36008003992961257,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "cd7ee0844673d4b8fe1d78db1-c0010",
+          "start": 6019,
+          "end": 6419,
+          "source_sha256": "e70b04800897983dfd541e497488994b45d401a1f2375d0543df8338d018f206"
+        }
+      },
+      {
+        "item_id": "bm25:c7e2b583edea2015080efa1f3-c0000",
+        "source_ids": [
+          "c7e2b583edea2015080efa1f3"
+        ],
+        "hint": "USER:\nI'm thinking of planning a trip to Europe, and I was wondering if you could give me some general advice on where to go and what to do. By the way, I just attended my high school reunion about a month ago, and it's got me thinking about how fast time flies - I saw people I hadn't seen in over a decade, and it was crazy to catch up on everyone's lives.",
+        "kind": "bm25-original-match-index",
+        "score": 1.3381702801057937e-05,
+        "metadata": {
+          "source_id": "c7e2b583edea2015080efa1f3",
+          "score": 1.3381702801057937e-05,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c7e2b583edea2015080efa1f3-c0000",
+          "start": 0,
+          "end": 358,
+          "source_sha256": "419788bbbee4adf07433ed378c1f0e496ca0a9c349ead037ad84aa7fc1d089e0"
+        }
+      },
+      {
+        "item_id": "vector:c21887eb0acce17e44beb8d53-c0004",
+        "source_ids": [
+          "c21887eb0acce17e44beb8d53"
+        ],
+        "hint": "Choose the pre-set block list you want to use (e.g., \"Social Media\", \"Distracting Websites\", or create a custom list).\n5. **Set the Block Duration**: Choose the duration of the block session (e.g., 2 hours, 4 hours, or custom).\n6. **Schedule the Block**: Set the start and end time for the block session. You can choose a one-time block or recurring blocks (e.g., every weekday from 9 am to 12 pm).\n7",
+        "kind": "vector-original-match-index",
+        "score": 0.2709432759777669,
+        "metadata": {
+          "source_id": "c21887eb0acce17e44beb8d53",
+          "score": 0.2709432759777669,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c21887eb0acce17e44beb8d53-c0004",
+          "start": 2983,
+          "end": 3383,
+          "source_sha256": "c3ea0c8c057b08e14f26c20487ef609d31632994dab5baa4cad928d5d2bbb114"
+        }
+      },
+      {
+        "item_id": "bm25:ca3084b566597e20e4e61fe68-c0001",
+        "source_ids": [
+          "ca3084b566597e20e4e61fe68"
+        ],
+        "hint": "ns, and activities. Just show up and enjoy!\n2. **Safety**: Traveling with a group can be safer, especially for solo females or first-time travelers to South America.\n3. **Social**: Meet like-minded travelers and make new friends.\n4. **Guided experiences**: Local guides provide valuable insights and knowledge about the places you visit.\n5. **Cost-effective**: Group tours can be more budget-friendly",
+        "kind": "bm25-original-match-index",
+        "score": 1.335496861702103e-05,
+        "metadata": {
+          "source_id": "ca3084b566597e20e4e61fe68",
+          "score": 1.335496861702103e-05,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "ca3084b566597e20e4e61fe68-c0001",
+          "start": 527,
+          "end": 927,
+          "source_sha256": "d3484d9962b1479e332e81644498bf137a0c0f8f8cd2dea7b260595aeda5577c"
+        }
+      },
+      {
+        "item_id": "vector:cac5d3134d39e204f7b33f1c4-c0012",
+        "source_ids": [
+          "cac5d3134d39e204f7b33f1c4"
+        ],
+        "hint": "Here's a simple routine:\n\n1. Warm the coconut oil in your hands.\n2. Massage a generous amount into your scalp, focusing on the roots and scalp area.\n3. Work the oil down to the ends of your hair, focusing on the mid-lengths to ends.\n4. Leave it on for 30 minutes to an hour before washing with your Green Earth shampoo.\n\nRemember to shampoo your hair thoroughly after the treatment to remove any exce",
+        "kind": "vector-original-match-index",
+        "score": 0.20189081822902769,
+        "metadata": {
+          "source_id": "cac5d3134d39e204f7b33f1c4",
+          "score": 0.20189081822902769,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "cac5d3134d39e204f7b33f1c4-c0012",
+          "start": 7999,
+          "end": 8399,
+          "source_sha256": "381d62babbb12851a9f92e18a884c8052eeb5944ff96d48181b0daa6e41f1cbb"
+        }
+      },
+      {
+        "item_id": "bm25:cd7ee0844673d4b8fe1d78db1-c0017",
+        "source_ids": [
+          "cd7ee0844673d4b8fe1d78db1"
+        ],
+        "hint": "\n\nUSER:\nI think I'll try integrating my task management apps with my calendar. I've been using Google Calendar for a while now, so I'll start by integrating it with Todoist and Trello. Do you think I should also consider setting up recurring tasks or events for my regular activities, like my yoga sessions and reading time?",
+        "kind": "bm25-original-match-index",
+        "score": 1.3155283491500369e-05,
+        "metadata": {
+          "source_id": "cd7ee0844673d4b8fe1d78db1",
+          "score": 1.3155283491500369e-05,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "cd7ee0844673d4b8fe1d78db1-c0017",
+          "start": 11274,
+          "end": 11598,
+          "source_sha256": "e70b04800897983dfd541e497488994b45d401a1f2375d0543df8338d018f206"
+        }
+      },
+      {
+        "item_id": "vector:c7e2b583edea2015080efa1f3-c0005",
+        "source_ids": [
+          "c7e2b583edea2015080efa1f3"
+        ],
+        "hint": "\n\nUSER:\nI'm interested in visiting Croatia, but I'm not sure what time of year would be best. I've heard it can get pretty crowded during peak season. Do you think I'd be better off visiting in the spring or autumn?",
+        "kind": "vector-original-match-index",
+        "score": 0.1676696598882812,
+        "metadata": {
+          "source_id": "c7e2b583edea2015080efa1f3",
+          "score": 0.1676696598882812,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c7e2b583edea2015080efa1f3-c0005",
+          "start": 3400,
+          "end": 3615,
+          "source_sha256": "419788bbbee4adf07433ed378c1f0e496ca0a9c349ead037ad84aa7fc1d089e0"
+        }
+      },
+      {
+        "item_id": "bm25:c21887eb0acce17e44beb8d53-c0002",
+        "source_ids": [
+          "c21887eb0acce17e44beb8d53"
+        ],
+        "hint": "uided sessions, sleep stories, and relaxing music to help you unwind and stay focused.\n5. **Moment**: An app that tracks your screen time and helps you set goals to reduce your phone usage. It also offers guided meditation sessions and tips to help you stay focused.\n6. **Forest**: A unique app that gamifies productivity and focus. It grows a virtual forest as you stay focused on your tasks, and wi",
+        "kind": "bm25-original-match-index",
+        "score": 1.2332960347461007e-05,
+        "metadata": {
+          "source_id": "c21887eb0acce17e44beb8d53",
+          "score": 1.2332960347461007e-05,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c21887eb0acce17e44beb8d53-c0002",
+          "start": 1347,
+          "end": 1747,
+          "source_sha256": "c3ea0c8c057b08e14f26c20487ef609d31632994dab5baa4cad928d5d2bbb114"
+        }
+      },
+      {
+        "item_id": "vector:c08a1512e14360ef7c44b9f05-c0001",
+        "source_ids": [
+          "c08a1512e14360ef7c44b9f05"
+        ],
+        "hint": "ucial to making sure your performance sounds great. Make sure to arrive early and setup everything beforehand, so you have plenty of time to soundcheck.\n\n4. Dress appropriately: Dress in a way that is comfortable and fits with the style of music you're playing.\n\n5. Visualize success: Visualize yourself performing and doing well. This can help you build confidence and reduce performance anxiety.\n\n6",
+        "kind": "vector-original-match-index",
+        "score": 0.1557356611179779,
+        "metadata": {
+          "source_id": "c08a1512e14360ef7c44b9f05",
+          "score": 0.1557356611179779,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "c08a1512e14360ef7c44b9f05-c0001",
+          "start": 1567,
+          "end": 1967,
+          "source_sha256": "8e2fe6399402bce3f4939eae98ca117f2821dda26f19427e311c037ed13dc22e"
+        }
+      },
+      {
+        "item_id": "bm25:c34823d4c44b7b6f5370bce2c-c0002",
+        "source_ids": [
+          "c34823d4c44b7b6f5370bce2c"
+        ],
+        "hint": "\n\nUSER:\nnext one is \"Near-Life Experience\": When your time comes, you won’t know what hit you\nLike a bolt from the cloudless blue that couldn’t miss you\nLike a match that was born to burn\nThe giant bound to learn that when you play with fire\ntheir flame will play with you\n\nThis is a near life experience\nExperience that love\nFighting to live my life before it’s taken away\nThis is a near life experi",
+        "kind": "bm25-original-match-index",
+        "score": 1.2322599951633524e-05,
+        "metadata": {
+          "source_id": "c34823d4c44b7b6f5370bce2c",
+          "score": 1.2322599951633524e-05,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "c34823d4c44b7b6f5370bce2c-c0002",
+          "start": 1285,
+          "end": 1685,
+          "source_sha256": "5a13afc36242c6a46472c03a83780a7bc756d0011eb51add9aaca4ff42b8ba33"
+        }
+      },
+      {
+        "item_id": "vector:c5d5425d86a212d5a364ed64a-c0002",
+        "source_ids": [
+          "c5d5425d86a212d5a364ed64a"
+        ],
+        "hint": "Day 3: Historical Tokyo\n\n* Start the day with a visit to Asakusa, one of Tokyo's oldest neighborhoods. Check out the Senso-ji Temple and browse the stalls of Nakamise Shopping Street.\n* Next, head to Ueno Park to see some of Tokyo's most famous museums, including the Tokyo National Museum and the National Museum of Western Art. (Entrance fees vary)\n* End the day in the nearby neighborhood of Yanak",
+        "kind": "vector-original-match-index",
+        "score": 0.15256874129221573,
+        "metadata": {
+          "source_id": "c5d5425d86a212d5a364ed64a",
+          "score": 0.15256874129221573,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c5d5425d86a212d5a364ed64a-c0002",
+          "start": 1148,
+          "end": 1548,
+          "source_sha256": "78da3615745d547af38108d2b7a25d9898cae35b40e40c8fbc99e9099fea2fd9"
+        }
+      },
+      {
+        "item_id": "bm25:c08743598caacd8e19e2d0033-c0006",
+        "source_ids": [
+          "c08743598caacd8e19e2d0033"
+        ],
+        "hint": "long as you need, following local traffic laws and safety guidelines. When you're done, return the bike to any available station.\n\n**What you need to know:**\n\n1. **Cost**: Bike-sharing programs usually have a membership or subscription fee, which can be daily, weekly, monthly, or annually. You may also be charged per hour or per ride. Check the program's pricing structure before you sign up.\n2. **",
+        "kind": "bm25-original-match-index",
+        "score": 1.2264965631514246e-05,
+        "metadata": {
+          "source_id": "c08743598caacd8e19e2d0033",
+          "score": 1.2264965631514246e-05,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c08743598caacd8e19e2d0033-c0006",
+          "start": 4684,
+          "end": 5084,
+          "source_sha256": "d8fe198e444b55c6382d0e1d553ba7507ee693460087788291cfce07b1754d6f"
+        }
+      },
+      {
+        "item_id": "vector:c6f05a6c556c1625c259666c0-c0011",
+        "source_ids": [
+          "c6f05a6c556c1625c259666c0"
+        ],
+        "hint": "\n\nASSISTANT:\nSure, here's an updated North Indian vegetarian diet plan that excludes meat and fish but includes dairy:\n\n**Breakfast**\n\n* Quinoa porridge with almond milk, chopped nuts, and fresh berries (1/2 cup quinoa, 1 cup almond milk, 1/4 cup chopped nuts, 1/2 cup berries)\n* Vegetable omelet with spinach, tomato, and onion, made with olive oil (2 eggs, 1 cup spinach, 1/2 cup tomato and onion, ",
+        "kind": "vector-original-match-index",
+        "score": 0.14900598898889927,
+        "metadata": {
+          "source_id": "c6f05a6c556c1625c259666c0",
+          "score": 0.14900598898889927,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c6f05a6c556c1625c259666c0-c0011",
+          "start": 6147,
+          "end": 6547,
+          "source_sha256": "5db4d8177b95e82feadf934707629b03a50c0a9a3d79d8a7f84732556e7cc698"
+        }
+      },
+      {
+        "item_id": "bm25:c18cfee8453e50706845a8038-c0013",
+        "source_ids": [
+          "c18cfee8453e50706845a8038"
+        ],
+        "hint": "\n\nUSER:\nThat's a great idea to overlay the baby's name and birthdate onto a photo of the baby. I think I'll try that out. By the way, do you have any suggestions on what kind of food and drinks I should serve at the baby celebration?",
+        "kind": "bm25-original-match-index",
+        "score": 1.2058129098900184e-05,
+        "metadata": {
+          "source_id": "c18cfee8453e50706845a8038",
+          "score": 1.2058129098900184e-05,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c18cfee8453e50706845a8038-c0013",
+          "start": 8163,
+          "end": 8396,
+          "source_sha256": "2ef992404c2fd952989cb818cad4a8fb3781fb88133a717284bed677e1c134f7"
+        }
+      },
+      {
+        "item_id": "vector:c7230340fbedf1adcab5f7f7d-c0006",
+        "source_ids": [
+          "c7230340fbedf1adcab5f7f7d"
+        ],
+        "hint": " sessions or workshops to learn more about food banking, nutrition, or related topics.\n\n**What to Expect:**\n\n* **Physical demands**: Sorting and packing can be physically demanding, as you'll be standing, lifting, and bending. Be prepared to wear comfortable clothing and shoes.\n* **Time commitment**: Shifts can vary, but typically range from 2-4 hours. You may be able to choose a regular schedule ",
+        "kind": "vector-original-match-index",
+        "score": 0.1298754128847403,
+        "metadata": {
+          "source_id": "c7230340fbedf1adcab5f7f7d",
+          "score": 0.1298754128847403,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "c7230340fbedf1adcab5f7f7d-c0006",
+          "start": 4826,
+          "end": 5226,
+          "source_sha256": "3f5a38a4291488012f2234b4784d5960f0ead9c452f3bb423e64d45194f08f31"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c1093bf2c8cd861890c957c5c",
+    "cfb475330aad6b2360694d630",
+    "cf394b53c95ff3533f8dc7934",
+    "c7e2b583edea2015080efa1f3",
+    "ca3084b566597e20e4e61fe68",
+    "cd7ee0844673d4b8fe1d78db1",
+    "c21887eb0acce17e44beb8d53",
+    "cac5d3134d39e204f7b33f1c4"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c1093bf2c8cd861890c957c5c",
+      "source_date": "2023-05-27T07:56:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm trying to create a personalized morning routine that works for me. I've recently started going for a 30-minute walk before work, which has been great. On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses, which has helped me feel more centered and calm. Can you suggest some healthy breakfast ideas that I can prep the night bef",
+          "start": 0,
+          "end": 400
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nThat's really helpful, thank you! I'll definitely try to incorporate those stretches and exercises into my morning walks. I've also been thinking about my meditation practice on Tuesdays and Thursdays, and I was wondering if you could suggest some guided meditation apps or resources that I could use to help me stay focused and centered.",
+          "start": 8014,
+          "end": 8360
+        }
+      ]
+    },
+    {
+      "source_id": "cfb475330aad6b2360694d630",
+      "source_date": "2023-05-27T18:20:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "night before and store them in the fridge for a quick protein-packed breakfast on-the-go.\n10. **Avocado Toast**: Toast whole grain bread, mash an avocado, and sprinkle with salt and pepper. Store in the fridge overnight and top with eggs or tomatoes in the morning.\n\nThese healthy breakfast ideas will give you a nutritious start to your day and help you make the most of your new 7:00 AM wake-up tim",
+          "start": 1892,
+          "end": 2292
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm looking to find some healthy breakfast ideas that can be prepared the night before. I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call, and I want to make sure I'm fueling up with a nutritious meal to start my day.",
+          "start": 0,
+          "end": 279
+        }
+      ]
+    },
+    {
+      "source_id": "cf394b53c95ff3533f8dc7934",
+      "source_date": "2023-05-27T17:39:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think they might be from synthetic materials, uncomfortable, and more expansive. I need to see how it will be and decide. Make sure to follow up on every thread. short question only. One question at a time- mandatory!\n\nASSISTANT:\nThat makes sense. Would you be more likely to purchase clothing items made from recycled materials if they were of a similar quality and price to non-recycled i",
+          "start": 2407,
+          "end": 2807
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nNo problem. Thank you for your honest answers! Would you be willing to do some research or take some time to learn more about the benefits of clothing recycling and the ways to recycle clothes, and share that information with your friends and family?\n\nUSER:\nNot sure. Make sure to follow up on every thread. short question only. One question at a time- mandatory!\n\nASSISTANT:\nI understan",
+          "start": 3439,
+          "end": 3839
+        }
+      ]
+    },
+    {
+      "source_id": "c7e2b583edea2015080efa1f3",
+      "source_date": "2023-05-27T17:47:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm excited to try all these local dishes and restaurants on my food tour. By the way, I recently attended my high school reunion about a month ago, and it got me thinking about how fast time flies. Seeing people I hadn't seen in over a decade was crazy, and it's amazing to catch up on everyone's lives.",
+          "start": 13961,
+          "end": 14273
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm interested in visiting Croatia, but I'm not sure what time of year would be best. I've heard it can get pretty crowded during peak season. Do you think I'd be better off visiting in the spring or autumn?",
+          "start": 3400,
+          "end": 3615
+        }
+      ]
+    },
+    {
+      "source_id": "ca3084b566597e20e4e61fe68",
+      "source_date": "2023-05-27T02:12:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": ":**\n\nPros:\n\n1. **Convenience**: Everything is organized for you, including transportation, accommodations, and activities. Just show up and enjoy!\n2. **Safety**: Traveling with a group can be safer, especially for solo females or first-time travelers to South America.\n3. **Social**: Meet like-minded travelers and make new friends.\n4. **Guided experiences**: Local guides provide valuable insights a",
+          "start": 424,
+          "end": 824
+        },
+        {
+          "role": "assistant",
+          "text": "ies.\n\n**Stay connected with loved ones:**\n\n1. **Schedule video calls**: Catch up with family or friends back home during mealtime. This can help you feel more connected and less lonely.\n2. **Share your experiences**: Write blog posts, send emails, or share photos with loved ones to keep them updated on your travels.\n\nRemember, mealtime is a great opportunity to relax, recharge, and reflect on your",
+          "start": 13593,
+          "end": 13993
+        }
+      ]
+    },
+    {
+      "source_id": "cd7ee0844673d4b8fe1d78db1",
+      "source_date": "2023-05-27T04:25:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "the \"Due Date\" to the desired frequency. You can also use Trello's \"Recurring Cards\" Power-Up to create recurring tasks.\n\nBy integrating your task management apps with your calendar and setting up recurring tasks or events, you'll be able to:\n\n* Stay organized and on top of your tasks\n* Prioritize your well-being and make time for self-care\n* Increase your productivity and focus\n* Enjoy your eveni",
+          "start": 13338,
+          "end": 13738
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nWatching a favorite TV show or reading a good book before bed can be a great way to unwind. To help you stay organized during the day and enjoy your evening routine, I'd recommend apps that offer features like:\n\n1. **Task prioritization**: Helping you focus on the most important tasks during the day.\n2. **Time tracking**: Allowing you to monitor how much time you spend on tasks, so yo",
+          "start": 5832,
+          "end": 6232
+        }
+      ]
+    },
+    {
+      "source_id": "c21887eb0acce17e44beb8d53",
+      "source_date": "2023-05-27T07:42:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": " impact in your community. Remember, building a successful online presence is about providing value to others and lifting each other up, not just promoting yourself.\n\n**Self-Care and Mindfulness:**\n\nIt's fantastic that you're prioritizing your self-care and mindfulness practice to stay grounded and motivated. This will help you maintain a healthy work-life balance and avoid burnout. Remember to be",
+          "start": 13549,
+          "end": 13949
+        },
+        {
+          "role": "assistant",
+          "text": "Choose the pre-set block list you want to use (e.g., \"Social Media\", \"Distracting Websites\", or create a custom list).\n5. **Set the Block Duration**: Choose the duration of the block session (e.g., 2 hours, 4 hours, or custom).\n6. **Schedule the Block**: Set the start and end time for the block session. You can choose a one-time block or recurring blocks (e.g., every weekday from 9 am to 12 pm).\n7",
+          "start": 2983,
+          "end": 3383
+        }
+      ]
+    },
+    {
+      "source_id": "cac5d3134d39e204f7b33f1c4",
+      "source_date": "2023-05-27T08:20:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "better.\n* Start with a small amount and adjust as needed, as both coconut and argan oil can be rich and weigh your hair down if used excessively.\n* Mix coconut oil and argan oil together for an ultimate hair treatment.\n* Use high-quality, cold-pressed, and organic oils to ensure maximum benefits.\n* Be patient, as it may take some time to see the effects of using these oils.\n\n**Combining with Your ",
+          "start": 5023,
+          "end": 5423
+        },
+        {
+          "role": "assistant",
+          "text": "of your hair. Here's a simple routine:\n\n1. Warm the coconut oil in your hands.\n2. Massage a generous amount into your scalp, focusing on the roots and scalp area.\n3. Work the oil down to the ends of your hair, focusing on the mid-lengths to ends.\n4. Leave it on for 30 minutes to an hour before washing with your Green Earth shampoo.\n\nRemember to shampoo your hair thoroughly after the treatment to r",
+          "start": 7985,
+          "end": 8385
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.028066124999895692,
+    "native_search_seconds": 0.006718375021591783,
+    "common_spans_seconds": 0.00601095799356699
+  }
+}

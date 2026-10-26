@@ -1,0 +1,168 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P09",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "301e10ce17d51cfc804738e568fd08567ef2b5374636cc7d2d24e65f27153633",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You spent 3 days participating in faith-related activities in December.",
+    "claims": [
+      {
+        "claim": "On December 10, you helped at the church's annual holiday food drive.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need"
+          }
+        ]
+      },
+      {
+        "claim": "On December 17, you did a Bible study at your church.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th"
+          }
+        ]
+      },
+      {
+        "claim": "On December 24, you attended midnight mass at St. Mary's Church with your family.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family."
+          }
+        ]
+      },
+      {
+        "claim": "These are three distinct December days, so the total is 3 days.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "8c2c2edee926bca285fea62413f453ea6dd49c6e1007ef253d3d0f450396c12c",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 10672,
+      "completion_tokens": 1955,
+      "total_tokens": 12627,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1586
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 10416
+    },
+    "response_id": "22bccad8-b2f0-4d27-8b67-00cc14bf27ce",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 12.924977333052084
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need",
+        "valid": true,
+        "source_id": "c8531a9f29edb59a4767e8d72",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T02:22:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th",
+        "valid": true,
+        "source_id": "cc3fbf6478327dbbf685bb205",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T19:48:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family.",
+        "valid": true,
+        "source_id": "cb5d52df1411ad8bfce6630ad",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T12:30:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need",
+        "valid": true,
+        "source_id": "c8531a9f29edb59a4767e8d72",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T02:22:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00003",
+        "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th",
+        "valid": true,
+        "source_id": "cc3fbf6478327dbbf685bb205",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T19:48:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00002",
+        "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family.",
+        "valid": true,
+        "source_id": "cb5d52df1411ad8bfce6630ad",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T12:30:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P09.json",
+  "raw_response_sha256": "3a0133426494ed61c5a5513226166f495f627e3515badfcabb2067faadbe7650"
+}

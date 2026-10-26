@@ -1,0 +1,28 @@
+{
+  "status": "additional_diagnostic_no_scores_changed",
+  "first_report_sha256": "395150264a8fc93bab59041ac076e6742522f27f24041a827f8e31095de54627",
+  "invalid_quote_entries": [
+    {
+      "case_id": "P08",
+      "model": "gpt-6-luna",
+      "claim_index": 1,
+      "quote": "I recently made my own orange bitters using orange peels and vodka.",
+      "source_id": "c9153f368b92a0a1aa0e04b1c",
+      "note": "Model changes original and recently made to I recently made. Semantic paraphrase, not an exact contiguous quote; original output preserved. Separate from mistaken grapefruit-as-actual-use."
+    },
+    {
+      "case_id": "P13",
+      "model": "gpt-6-luna",
+      "claim_index": 0,
+      "quote": "These statistics are based on regular season games only, not including playoffs games.",
+      "source_id": "cacc96cddded0941e918b8c86",
+      "note": "Model capitalizes these as These and removes introductory wording. Claim12regular-season games is supported, but this supporting quote is not verbatim. Do not mark answer12wrong solely for this copying defect."
+    }
+  ],
+  "quote_valid_answers": {
+    "luna": "23/25",
+    "sol": "25/25"
+  },
+  "note": "Strict all-claim score17/23forLuna additionally includes P13nonverbatim citation and P21unsupported auntgender. Requested core answers correct19/23; do not conflate these dimensions. Main report already preserves quote flags and ancillary issue.",
+  "interpretation": "No model output repaired or rerun. Mechanical passed means faithful verification of actual errors, not all answers/quotes passed."
+}

@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P18",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "c37d01f070f9c30c00dc85e28bbae67596f4f785df0a405516d92bbb85489c59",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You said you spent $800 on a designer handbag.",
+    "claims": [
+      {
+        "claim": "The user said the designer handbag cost $800.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.432461,
+    "thread_setup_seconds": 0.077658,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.432461,
+    "turn_seconds": 6.354802,
+    "first_text_seconds": 5.152134,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 32785,
+      "completion_tokens": 122,
+      "total_tokens": 32907,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 31
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+        "valid": true,
+        "source_id": "cda869cbb99225b9233bf65e7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-23T08:15:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

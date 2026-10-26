@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P15",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "14e926726baba9d2e920f3e8574307210b5a0e158d0b0e4b2a0f83f5f11d8c2a",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The hostel near the Red Light District was **International Budget Hostel**.",
+    "claims": [
+      {
+        "claim": "In the prior assistant reply, International Budget Hostel was listed as the budget-friendly hostel situated near the famous Red Light District.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "4. International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "77cca78a5a5224dcecb2c4e3823077850589f904c640ef3098b4a1913653e126",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 1431,
+      "completion_tokens": 465,
+      "total_tokens": 1896,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 354
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 1047
+    },
+    "response_id": "a75b86af-d57d-4421-92e9-7a09e81a5dd2",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.206148708006367
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "4. International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms.",
+        "valid": true,
+        "source_id": "c831c3cd021ba61a85c9aa466",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-27T06:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P15.json",
+  "raw_response_sha256": "42d5aff6738040b8b838038c051573d1e9ce9a2df32483dd52303858558efdc8"
+}

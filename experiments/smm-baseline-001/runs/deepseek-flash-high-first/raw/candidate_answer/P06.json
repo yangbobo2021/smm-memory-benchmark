@@ -1,0 +1,22 @@
+{
+  "id": "79cc4e5b-6ede-4450-a998-e2d2cbec8c8e",
+  "model": "deepseek-flash",
+  "created": 1792982779,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"You attend fitness classes on four days a week: Tuesday, Wednesday, Thursday, and Saturday.\",\"claims\":[{\"claim\":\"The user attends Zumba classes on Tuesdays and Thursdays and a weightlifting class on Saturdays.\",\"citations\":[{\"evidence_id\":\"E00006\",\"quote\":\"I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.\"}]},{\"claim\":\"The user recently started a yoga class on Wednesdays.\",\"citations\":[{\"evidence_id\":\"E00005\",\"quote\":\"I've been trying to mix up my routine and recently started a yoga class on Wednesdays\"}]},{\"claim\":\"The distinct fitness-class days are Tuesday, Wednesday, Thursday, and Saturday, totaling four days per week.\",\"citations\":[{\"evidence_id\":\"E00006\",\"quote\":\"I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.\"},{\"evidence_id\":\"E00005\",\"quote\":\"I've been trying to mix up my routine and recently started a yoga class on Wednesdays\"}]}],\"selected_sources\":[\"C05\",\"C06\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 22490,
+    "completion_tokens": 840,
+    "total_tokens": 23330,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 569
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 22106
+  },
+  "refusal": null
+}

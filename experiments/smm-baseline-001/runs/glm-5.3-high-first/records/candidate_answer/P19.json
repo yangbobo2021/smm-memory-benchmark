@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P19",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "6686c0028fa66d2f94a2c44306609ed597df53bcf95747cd01875ffa464874a7",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You bought your new tennis racket from a sports store downtown. The specific store name is not mentioned in the available evidence.",
+    "claims": [
+      {
+        "claim": "The user got their new tennis racket from a sports store downtown",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown. It's been performing really well, and I feel like it's improved my game."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03"
+    ],
+    "missing": "The specific name of the sports store is not stated in the evidence."
+  },
+  "metrics": {
+    "seconds": 10.149908124934882,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 369,
+      "completion_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "prompt_tokens": 19278,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 19647
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown. It's been performing really well, and I feel like it's improved my game.",
+        "valid": true,
+        "source_id": "cdfeb5d9b5297a62fd0054af3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T21:29:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

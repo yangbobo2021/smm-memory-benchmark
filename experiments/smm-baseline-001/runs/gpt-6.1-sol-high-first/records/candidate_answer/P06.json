@@ -1,0 +1,89 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P06",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "e36b3fe9dcb20ea4ece791c5b1da9deb6921e29101fc642b92a5f9a601c8dd17",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attend fitness classes 4 days a week: Zumba on Tuesdays and Thursdays, yoga on Wednesdays, and weightlifting on Saturdays.",
+    "claims": [
+      {
+        "claim": "You attend fitness classes on four distinct days each week: Tuesday, Wednesday, Thursday, and Saturday.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've been trying to mix up my routine and recently started a yoga class on Wednesdays"
+          },
+          {
+            "evidence_id": "E00006",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05",
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 12.88842,
+    "thread_setup_seconds": 0.10641,
+    "rate_wait_seconds": 0,
+    "active_seconds": 12.88842,
+    "turn_seconds": 12.78201,
+    "first_text_seconds": 10.575608,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 32672,
+      "completion_tokens": 339,
+      "total_tokens": 33011,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 182
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "I've been trying to mix up my routine and recently started a yoga class on Wednesdays",
+        "valid": true,
+        "source_id": "cb02306340efae1abb61b04d8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T03:42:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.",
+        "valid": true,
+        "source_id": "c3660f7f82aeb2ef7b63e2daf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T06:52:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

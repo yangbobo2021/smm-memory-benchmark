@@ -1,0 +1,133 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "b5e5e63d42989b64088a60e7a2fbf0b1f564cac8619d20924c1991902296aea4",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "14 days passed between the repotting and giving Mrs. Johnson the cuttings.",
+    "claims": [
+      {
+        "claim": "You repotted the previous spider plant on 2023-03-04 (the day of the C01 conversation).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost."
+          }
+        ]
+      },
+      {
+        "claim": "You gave Mrs. Johnson cuttings from your spider plant on 2023-03-18 (the day of the C02 conversation).",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today, and I'm thinking of getting her a small planter and some potting mix to help her get started with her indoor garden."
+          }
+        ]
+      },
+      {
+        "claim": "From 2023-03-04 to 2023-03-18 is 14 days.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "received_at: 2023-03-04T12:05:00+00:00"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "received_at: 2023-03-18T08:49:00+00:00"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ": Both event dates are grounded in your own statements ('today') within conversations dated 2023-03-04 and 2023-03-18; no other gap information is needed."
+  },
+  "metrics": {
+    "seconds": 15.302439166000113,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 518,
+      "completion_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "prompt_tokens": 7202,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 7720
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.",
+        "valid": true,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today, and I'm thinking of getting her a small planter and some potting mix to help her get started with her indoor garden.",
+        "valid": true,
+        "source_id": "ca722cb830ce76b391e670726",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-18T08:49:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "received_at: 2023-03-04T12:05:00+00:00",
+        "valid": false,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "received_at: 2023-03-18T08:49:00+00:00",
+        "valid": false,
+        "source_id": "ca722cb830ce76b391e670726",
+        "possible_message_roles": [],
+        "source_date": "2023-03-18T08:49:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "received_at: 2023-03-04T12:05:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "received_at: 2023-03-18T08:49:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

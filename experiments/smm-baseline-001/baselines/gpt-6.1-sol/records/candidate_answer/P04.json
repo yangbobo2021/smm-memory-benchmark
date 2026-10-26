@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "3b57fb3053b2a152331ac12474ba4e884287c9f1711ccb63b983e814a6268832",
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 on your most recent visit to the Downtown Farmers Market.",
+    "claims": [
+      {
+        "claim": "You earned $420 at the Downtown Farmers Market on your most recent visit.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.766582,
+    "thread_setup_seconds": 0.110662,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.766582,
+    "turn_seconds": 5.65592,
+    "first_text_seconds": 4.808699,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 25988,
+      "completion_tokens": 95,
+      "total_tokens": 26083,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P04.json",
+  "raw_receipt_sha256": "666eca2a241b9e58c96a7b0caf3906e416eb4440f8cd719148d8978a5f4a5eb0",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P04/answer.json"
+}

@@ -1,0 +1,125 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "78a23fe92a53f9e3ec27e5d3b4c32eae0af817dc74b2c1f78f0300bf63c794fb",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Emma graduated first (2022-05-27, high school), Rachel graduated second (2022-06-21, master's degree), and Alex graduated third (about two weeks before 2022-07-15, i.e., around 2022-07-01, college engineering degree). Alex's exact date is approximate ('about two weeks ago'), but it clearly falls after Rachel's June 21 graduation.",
+    "claims": [
+      {
+        "claim": "Emma graduated on 2022-05-27 (the day before the 2022-05-28 conversation), earliest of the three.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "My niece Emma just graduated yesterady"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May"
+          }
+        ]
+      },
+      {
+        "claim": "Rachel graduated on 2022-06-21 (the day before the 2022-06-22 conversation), after Emma.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "Alex graduated around 2022-07-01 ('about two weeks' before the 2022-07-15 conversation), last of the three.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C05",
+      "C07"
+    ],
+    "missing": "None material to the ranking; only Alex's exact graduation date is approximate per the evidence."
+  },
+  "metrics": {
+    "seconds": 45.66911266697571,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1996,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1600
+      },
+      "prompt_tokens": 16198,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 18194
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "My niece Emma just graduated yesterady",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00005",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "valid": true,
+        "source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-06-22T11:46:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00007",
+        "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago",
+        "valid": true,
+        "source_id": "c967f69f5e97bb77d7922817a",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-07-15T10:48:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

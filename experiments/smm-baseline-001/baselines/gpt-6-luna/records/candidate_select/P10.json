@@ -1,0 +1,45 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P10",
+  "task": "candidate_select",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "eb238df1a1fc8555a34c40c624007cb78d58bd6409b5dd0678a32e2c04dd6ce5",
+  "output": {
+    "selected_sources": [
+      "C03",
+      "C05",
+      "C07"
+    ]
+  },
+  "metrics": {
+    "seconds": 4.401901,
+    "thread_setup_seconds": 0.110981,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.401901,
+    "turn_seconds": 4.29092,
+    "first_text_seconds": 4.114838,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 29662,
+      "completion_tokens": 24,
+      "total_tokens": 29686,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_select/P10.json",
+  "raw_receipt_sha256": "1237663e856afe718e83adef8e5d84c885800ae635e7ea6e97c030ecc373cfb2",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P10/select.json"
+}

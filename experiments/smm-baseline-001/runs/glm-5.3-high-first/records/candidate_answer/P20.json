@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P20",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "83cfa2d1aa900c9461c473500cdbb362066fc4f4cdb8e05e1735f3f56193bc5a",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You stop checking work emails and messages by 7 pm, as part of an evening routine you established to separate your work and personal life.",
+    "claims": [
+      {
+        "claim": "The user stops checking work emails and messages by 7 pm to separate work and personal life",
+        "citations": [
+          {
+            "evidence_id": "E00009",
+            "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C09"
+    ],
+    "missing": "None"
+  },
+  "metrics": {
+    "seconds": 8.021364000160247,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 284,
+      "completion_tokens_details": {
+        "reasoning_tokens": 170
+      },
+      "prompt_tokens": 25608,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 25892
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00009",
+        "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life.",
+        "valid": true,
+        "source_id": "c1c7c4c03a55cac4522db0a20",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-29T04:01:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

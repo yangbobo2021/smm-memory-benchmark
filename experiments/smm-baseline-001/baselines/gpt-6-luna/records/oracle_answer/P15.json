@@ -1,0 +1,59 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P15",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "14e926726baba9d2e920f3e8574307210b5a0e158d0b0e4b2a0f83f5f11d8c2a",
+  "output": {
+    "status": "answer",
+    "answer": "It was the International Budget Hostel.",
+    "claims": [
+      {
+        "claim": "The recommended hostel near the Red Light District was the International Budget Hostel.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.616144,
+    "thread_setup_seconds": 0.110115,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.616144,
+    "turn_seconds": 4.506029,
+    "first_text_seconds": 3.592448,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10967,
+      "completion_tokens": 85,
+      "total_tokens": 11052,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P15.json",
+  "raw_receipt_sha256": "d78ef907a3400d53420ef13e9941b23ac5ebeb10ac3d2381ae5edb04423f3b8a",
+  "imported": true,
+  "historical_exact_reuse": true,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P15.json",
+  "reused_first_result": "provenance/reused-first-results/gpt-6-luna/P15.json",
+  "reused_first_result_sha256": "626553de32370e76c9008071541c1e8dab7d5b0cc52dee2b1fa42cb7b135b4f8"
+}

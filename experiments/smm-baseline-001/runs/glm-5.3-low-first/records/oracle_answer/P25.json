@@ -1,0 +1,90 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P25",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "20b02bc120f92d1306979acd4974110b6f9cdec4089bea4ca91cd2e29cedbaa5",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "You wake up at 7:00 AM normally, and on Tuesdays and Thursdays you wake up 15 minutes earlier, i.e., at 6:45 AM.",
+    "claims": [
+      {
+        "claim": "You recently started waking up at 7:00 AM (your usual was 8:30 AM).",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          }
+        ]
+      },
+      {
+        "claim": "On Tuesdays and Thursdays you wake up 15 minutes earlier than usual.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "The conversations state a 7:00 AM base wake-up and a 15-minute-earlier Tuesday/Thursday wake-up; the exact Tuesday/Thursday time (6:45 AM) is derived from these two statements rather than stated verbatim."
+  },
+  "metrics": {
+    "seconds": 6.923185040941462,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "reasoning_tokens": 30
+      },
+      "prompt_tokens": 7517,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 7785
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

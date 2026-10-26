@@ -1,0 +1,116 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "About 3 weeks ago (roughly 20 days before 2023-05-06). On 2023-04-16 you said you had \"just downloaded\" Ibotta, so your start of use was around that date; the exact day you began using it is not stated.",
+    "claims": [
+      {
+        "claim": "On 2023-04-16 the user said they had just downloaded Ibotta, a cashback app for grocery rebates.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+          }
+        ]
+      },
+      {
+        "claim": "That statement was received 2023-04-16, which is about 20 days (roughly 3 weeks) before the reference time of 2023-05-06.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta"
+          }
+        ]
+      },
+      {
+        "claim": "The exact date the user began actively using the app is not stated, only that the download was recent as of 2023-04-16.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "No explicit statement of the precise date the user started using Ibotta; only a 'just downloaded' remark on 2023-04-16."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "ccea9a1841bb87083fcb283ca0fdcb68fa150d2d8355e5e9e3e6288ffb27769c",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 3708,
+      "completion_tokens": 804,
+      "total_tokens": 4512,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 471
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 3324
+    },
+    "response_id": "7515dc7a-7cd6-4e2e-a6fd-8f6947057f44",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 5.567530083004385
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it.",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P22.json",
+  "raw_response_sha256": "90120ac3677386731c8f209379526a420be1bbd1f0421d381035431ecdb6831c"
+}

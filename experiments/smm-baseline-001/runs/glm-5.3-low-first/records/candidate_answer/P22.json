@@ -1,0 +1,69 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "61e60e9491e4179991663f0caf8ac680c68cbbf43ba9cf0d9e2503247e912f6c",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "About 3 weeks ago (roughly 20 days). The user said on April 16, 2023 that they had just downloaded Ibotta; the reference time is May 6, 2023, which is 20 days (approximately 3 weeks, or 2 complete weeks and 6 days) later.",
+    "claims": [
+      {
+        "claim": "The user had just downloaded Ibotta as of the conversation received 2023-04-16",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": "The exact download date is only established as 'just downloaded' on 2023-04-16; an exact start date is not given, so the week count is approximate."
+  },
+  "metrics": {
+    "seconds": 8.967118791071698,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 295,
+      "completion_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "prompt_tokens": 22114,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 22409
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it.",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "In your previous chat, the assistant said the Chiefs had played the Jaguars at Arrowhead Stadium 12 times, based on regular-season games only and subject to its 2021 knowledge cutoff.",
+    "claims": [
+      {
+        "claim": "The prior chat stated that 12 games between the Chiefs and Jaguars were played at Arrowhead Stadium.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs."
+          }
+        ]
+      },
+      {
+        "claim": "That prior answer specified the statistics were for regular-season games only, not playoffs.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "It is worth mentioning that these statistics are based on regular season games only, not including playoffs games."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": "No evidence provides an updated count after the prior chat's 2021 knowledge cutoff."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "3953a87a4011dca1a86ee00fac9b8f8a4bdfe6a6bc2185bec0b928928ecffc15",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 21154,
+      "completion_tokens": 749,
+      "total_tokens": 21903,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 532
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 20770
+    },
+    "response_id": "94febf37-e8bc-4cb7-85ac-4c47a74aaeff",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 6.65890095802024
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "It is worth mentioning that these statistics are based on regular season games only, not including playoffs games.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P13.json",
+  "raw_response_sha256": "3593bf770f17e56acc1756eb00500ce57a06f53b88e92b261bfbd1b8a0648dc1"
+}

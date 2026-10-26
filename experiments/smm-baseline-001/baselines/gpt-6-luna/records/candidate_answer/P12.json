@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "e878cf39743336650bfb9b2f2c2f54d4330fe3c5296645aebe42c77fc81672dc",
+  "output": {
+    "status": "answer",
+    "answer": "The show was “Doc Martin.” You said it had gone down and that only the last season was available.",
+    "claims": [
+      {
+        "claim": "The example show was “Doc Martin”; you said only its last season was available after it went down.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "\"doc martin\" show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.894563,
+    "thread_setup_seconds": 0.086937,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.894563,
+    "turn_seconds": 4.807626,
+    "first_text_seconds": 4.040926,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 33595,
+      "completion_tokens": 115,
+      "total_tokens": 33710,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P12.json",
+  "raw_receipt_sha256": "77e8b1ee38b08d9f6dfe1021847ed9c452999fac09c15fc1cad8f4878346eb58",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P12/answer.json"
+}

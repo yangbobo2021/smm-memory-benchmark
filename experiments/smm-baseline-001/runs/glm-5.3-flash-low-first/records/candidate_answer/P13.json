@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "According to the previous chat, the Chiefs and Jaguars played 12 times at Arrowhead Stadium in Kansas City (regular season games only, per a 2021 knowledge cut-off).",
+    "claims": [
+      {
+        "claim": "12 of the 23 Chiefs–Jaguars games were played at Arrowhead Stadium.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ":none"
+  },
+  "metrics": {
+    "seconds": 5.95001016696915,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 134,
+      "completion_tokens_details": {
+        "reasoning_tokens": 13
+      },
+      "prompt_tokens": 20619,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 20753
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

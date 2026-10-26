@@ -1,0 +1,138 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "43ec54f8e0a821309081afe509043e4ce50a793be1bd5c1ab6dd399e05ecdd40",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Three types: orange, lemon, and lime.",
+    "claims": [
+      {
+        "claim": "The three citrus types evidenced in your cocktail-related use are orange, lemon, and lime.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "recently made my own orange bitters using orange peels and vodka"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "just like I did for my dinner party two weeks ago"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "slices of orange and lemon"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "using fresh lime juice and simple syrup"
+          },
+          {
+            "evidence_id": "E00005",
+            "quote": "mixed it with lime juice and simple syrup"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03",
+      "C05"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 8.832915,
+    "thread_setup_seconds": 0.080528,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.832915,
+    "turn_seconds": 8.752386,
+    "first_text_seconds": 7.387489,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 26588,
+      "completion_tokens": 505,
+      "total_tokens": 27093,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 327
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "recently made my own orange bitters using orange peels and vodka",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "just like I did for my dinner party two weeks ago",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "slices of orange and lemon",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "assistant",
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "using fresh lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "assistant",
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "mixed it with lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

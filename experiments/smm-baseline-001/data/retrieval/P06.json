@@ -1,0 +1,640 @@
+{
+  "case_id": "P06",
+  "product": "smm",
+  "namespace": "q4fcca3010868_n100",
+  "query": "How many days a week do I attend fitness classes?",
+  "clock": "2023-05-30T23:16:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c3660f7f82aeb2ef7b63e2daf",
+          "score": 12.357379562105006
+        },
+        {
+          "source_id": "cc9db0d34eb1e4ea738c0f073",
+          "score": 6.726681482541023
+        },
+        {
+          "source_id": "cb02306340efae1abb61b04d8",
+          "score": 5.607469278374483
+        },
+        {
+          "source_id": "ce302d647c63113f6905eedba",
+          "score": 5.451398684632231
+        },
+        {
+          "source_id": "c82442d17c5363dd4cf9f152b",
+          "score": 4.650227825366634
+        },
+        {
+          "source_id": "ce6d93cd8760fdbcb75c4484f",
+          "score": 4.43426289922464
+        },
+        {
+          "source_id": "cd39cf493d4cbfad5581217cf",
+          "score": 4.250533339997999
+        },
+        {
+          "source_id": "cba2447a4f3f4a6bf53604b0f",
+          "score": 3.7332847088368064
+        },
+        {
+          "source_id": "c1cf06ee67a655fc7c489179e",
+          "score": 3.5045275544776273
+        },
+        {
+          "source_id": "c646d0a7adff0bf9fd914da87",
+          "score": 3.469527198347181
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "c7f9885cc7a96c4fa6def9b59",
+          "score": 0.4716293227434234
+        },
+        {
+          "source_id": "c3660f7f82aeb2ef7b63e2daf",
+          "score": 0.44936034706705535
+        },
+        {
+          "source_id": "cd39cf493d4cbfad5581217cf",
+          "score": 0.3759807948896316
+        },
+        {
+          "source_id": "cb02306340efae1abb61b04d8",
+          "score": 0.36940316859654687
+        },
+        {
+          "source_id": "c1cf06ee67a655fc7c489179e",
+          "score": 0.3317102959037037
+        },
+        {
+          "source_id": "cba2447a4f3f4a6bf53604b0f",
+          "score": 0.2898016127222727
+        },
+        {
+          "source_id": "ce6d93cd8760fdbcb75c4484f",
+          "score": 0.28346352529859953
+        },
+        {
+          "source_id": "cfb88a121799f1dc894e4616f",
+          "score": 0.2732767942005202
+        },
+        {
+          "source_id": "ce302d647c63113f6905eedba",
+          "score": 0.27089857142576246
+        },
+        {
+          "source_id": "c1c3ab20765a4ee1eab4b4311",
+          "score": 0.22242493794383503
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c3660f7f82aeb2ef7b63e2daf-c0000",
+        "source_ids": [
+          "c3660f7f82aeb2ef7b63e2daf"
+        ],
+        "hint": "USER:\nI'm trying to plan out my week and was wondering if you could help me set reminders for my upcoming fitness classes. I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.\n\nASSISTANT:\nI'd be happy to help you set reminders for your fitness classes. Here are the reminders I've set for you:\n\n**Tuesday**: 6:30 pm - Zumba class\n**Thursday**:",
+        "kind": "bm25-original-match-index",
+        "score": 12.357379562105006,
+        "metadata": {
+          "source_id": "c3660f7f82aeb2ef7b63e2daf",
+          "score": 12.357379562105006,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c3660f7f82aeb2ef7b63e2daf-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "c854ff5ff2fbe30028d68dd07bb00ddf3f75505a6f2ebe4a850a78d8e5277167"
+        }
+      },
+      {
+        "item_id": "vector:c7f9885cc7a96c4fa6def9b59-c0001",
+        "source_ids": [
+          "c7f9885cc7a96c4fa6def9b59"
+        ],
+        "hint": "\n\nASSISTANT:\nI'd be happy to help you create a daily schedule that fits in a morning workout and gets you to the office by 8:30 AM.\n\nFirst, let's break down your current wake-up time and the time you need to be at the office. You wake up at 7:00 AM and need to be at the office by 8:30 AM, which gives you about 1.5 hours to get ready and fit in a workout.\n\nHere's a suggested daily schedule for you:",
+        "kind": "vector-original-match-index",
+        "score": 0.4716293227434234,
+        "metadata": {
+          "source_id": "c7f9885cc7a96c4fa6def9b59",
+          "score": 0.4716293227434234,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "c7f9885cc7a96c4fa6def9b59-c0001",
+          "start": 318,
+          "end": 718,
+          "source_sha256": "efe31f52c9776f7897fe984c51a53d123a7469c1374a61d74b81e10d4243d710"
+        }
+      },
+      {
+        "item_id": "bm25:cc9db0d34eb1e4ea738c0f073-c0002",
+        "source_ids": [
+          "cc9db0d34eb1e4ea738c0f073"
+        ],
+        "hint": "to people who may not have the opportunity to attend in-person classes.\n\nOverall, technology can play a crucial role in making opera and ballet more accessible to wider audiences and help the Royal Opera House reach people who may not have had the opportunity to experience these performances before.",
+        "kind": "bm25-original-match-index",
+        "score": 6.726681482541023,
+        "metadata": {
+          "source_id": "cc9db0d34eb1e4ea738c0f073",
+          "score": 6.726681482541023,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "cc9db0d34eb1e4ea738c0f073-c0002",
+          "start": 1240,
+          "end": 1540,
+          "source_sha256": "6d64171066555a41994ab2aa8f356aaeb2fb012984ed6b1742c75e4241957551"
+        }
+      },
+      {
+        "item_id": "vector:c3660f7f82aeb2ef7b63e2daf-c0000",
+        "source_ids": [
+          "c3660f7f82aeb2ef7b63e2daf"
+        ],
+        "hint": "USER:\nI'm trying to plan out my week and was wondering if you could help me set reminders for my upcoming fitness classes. I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.\n\nASSISTANT:\nI'd be happy to help you set reminders for your fitness classes. Here are the reminders I've set for you:\n\n**Tuesday**: 6:30 pm - Zumba class\n**Thursday**:",
+        "kind": "vector-original-match-index",
+        "score": 0.44936034706705535,
+        "metadata": {
+          "source_id": "c3660f7f82aeb2ef7b63e2daf",
+          "score": 0.44936034706705535,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c3660f7f82aeb2ef7b63e2daf-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "c854ff5ff2fbe30028d68dd07bb00ddf3f75505a6f2ebe4a850a78d8e5277167"
+        }
+      },
+      {
+        "item_id": "bm25:cb02306340efae1abb61b04d8-c0019",
+        "source_ids": [
+          "cb02306340efae1abb61b04d8"
+        ],
+        "hint": "\n\nUSER:\nI'll definitely give hot yoga and power yoga a try. I'm looking forward to seeing how they can help with my flexibility and overall fitness. Thanks for the recommendations! By the way, do you have any tips on how to stay motivated and consistent with my workout routine?",
+        "kind": "bm25-original-match-index",
+        "score": 5.607469278374483,
+        "metadata": {
+          "source_id": "cb02306340efae1abb61b04d8",
+          "score": 5.607469278374483,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "cb02306340efae1abb61b04d8-c0019",
+          "start": 13680,
+          "end": 13958,
+          "source_sha256": "bd30d6711ccc15afd25cc997ac0a26712298958332d5e345b9c6340873762bcb"
+        }
+      },
+      {
+        "item_id": "vector:cd39cf493d4cbfad5581217cf-c0003",
+        "source_ids": [
+          "cd39cf493d4cbfad5581217cf"
+        ],
+        "hint": "match exercises to avoid plateaus and prevent boredom.\n5. Make sure to stay hydrated and fuel your body with a balanced diet to support your fitness goals.\n\nRemember, consistency is key! Aim to exercise at least 3-4 times a week, with at least one day of rest in between. Keep tracking your progress with your Fitbit scale, and don't hesitate to reach out if you need any more guidance or motivation.",
+        "kind": "vector-original-match-index",
+        "score": 0.3759807948896316,
+        "metadata": {
+          "source_id": "cd39cf493d4cbfad5581217cf",
+          "score": 0.3759807948896316,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "cd39cf493d4cbfad5581217cf-c0003",
+          "start": 2442,
+          "end": 2842,
+          "source_sha256": "e40e43f787a72d6c331a132c70e4083c145bf4aafc4743aa06a9ab7b4a0280b1"
+        }
+      },
+      {
+        "item_id": "bm25:ce302d647c63113f6905eedba-c0007",
+        "source_ids": [
+          "ce302d647c63113f6905eedba"
+        ],
+        "hint": "\n\nUSER:\nI didn't think about that, thanks for the tips! I'll definitely check out those resources to find a good kushikatsu place near my apartment in Shibuya. By the way, do you know any good apps or websites that can help me learn Japanese characters, like kanji? I've been taking classes, but I need some extra practice.",
+        "kind": "bm25-original-match-index",
+        "score": 5.451398684632231,
+        "metadata": {
+          "source_id": "ce302d647c63113f6905eedba",
+          "score": 5.451398684632231,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "ce302d647c63113f6905eedba-c0007",
+          "start": 4023,
+          "end": 4346,
+          "source_sha256": "4513e9231f4b993d0079c13bb88da9fa4ca19f7e6ea69a41895206960a6678e2"
+        }
+      },
+      {
+        "item_id": "vector:cb02306340efae1abb61b04d8-c0021",
+        "source_ids": [
+          "cb02306340efae1abb61b04d8"
+        ],
+        "hint": "home or work, or finding workouts that can be done at home.\n\n**9. Get Professional Guidance:** Consider hiring a personal trainer or fitness coach to help you stay motivated and accountable.\n\n**10. Celebrate Small Wins:** Celebrate small victories along the way, like completing a tough workout or reaching a new personal best.\n\n**11. Stay Positive:** Focus on positive self-talk and remind yourself ",
+        "kind": "vector-original-match-index",
+        "score": 0.36940316859654687,
+        "metadata": {
+          "source_id": "cb02306340efae1abb61b04d8",
+          "score": 0.36940316859654687,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "cb02306340efae1abb61b04d8-c0021",
+          "start": 15165,
+          "end": 15565,
+          "source_sha256": "bd30d6711ccc15afd25cc997ac0a26712298958332d5e345b9c6340873762bcb"
+        }
+      },
+      {
+        "item_id": "bm25:c82442d17c5363dd4cf9f152b-c0000",
+        "source_ids": [
+          "c82442d17c5363dd4cf9f152b"
+        ],
+        "hint": "with me?\n\n1. Where does your niece live? (City, state, or region)\n2. What are her interests? (e.g., animals, art, outdoors, games, etc.)\n3. What is her age?\n4. How many days do you plan to spend with her?\n5. Are there any specific dates or times you're planning to visit?\n\nOnce I have this information, I can provide you with some personalized recommendations for kid-friendly activities in her area.",
+        "kind": "bm25-original-match-index",
+        "score": 4.650227825366634,
+        "metadata": {
+          "source_id": "c82442d17c5363dd4cf9f152b",
+          "score": 4.650227825366634,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "c82442d17c5363dd4cf9f152b-c0000",
+          "start": 535,
+          "end": 935,
+          "source_sha256": "e92f44a17102834fd9603666140dbc867134685e11a73a5cf8479dface251213"
+        }
+      },
+      {
+        "item_id": "vector:c1cf06ee67a655fc7c489179e-c0011",
+        "source_ids": [
+          "c1cf06ee67a655fc7c489179e"
+        ],
+        "hint": "\n\nUSER:\nI'm also considering getting off the train one stop earlier and walking to the office more often, since it's been helping me feel more energized throughout the day. Do you think that's a good idea, or should I stick to my usual routine?",
+        "kind": "vector-original-match-index",
+        "score": 0.3317102959037037,
+        "metadata": {
+          "source_id": "c1cf06ee67a655fc7c489179e",
+          "score": 0.3317102959037037,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c1cf06ee67a655fc7c489179e-c0011",
+          "start": 7438,
+          "end": 7682,
+          "source_sha256": "c07b772a843ec9c38414d89c6e1fe49420b445c57387fdb9e78b00775eaaa782"
+        }
+      },
+      {
+        "item_id": "bm25:ce6d93cd8760fdbcb75c4484f-c0003",
+        "source_ids": [
+          "ce6d93cd8760fdbcb75c4484f"
+        ],
+        "hint": "for a marathon (26.2 miles). This will require a significant time commitment, but it's an incredible achievement to strive for.\n9. **Fitness challenge**: Choose a specific fitness challenge, like doing 100 push-ups or squats per day, or completing a certain number of workouts per week. This can be a great way to stay motivated and focused.\n10. **Create your own goal**: Think about what motivates y",
+        "kind": "bm25-original-match-index",
+        "score": 4.43426289922464,
+        "metadata": {
+          "source_id": "ce6d93cd8760fdbcb75c4484f",
+          "score": 4.43426289922464,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "ce6d93cd8760fdbcb75c4484f-c0003",
+          "start": 2193,
+          "end": 2593,
+          "source_sha256": "5ddc94e51180efbe2841fc4e86f17cf27a06601c72f0a4c0520a76ecd94858d7"
+        }
+      },
+      {
+        "item_id": "vector:cba2447a4f3f4a6bf53604b0f-c0007",
+        "source_ids": [
+          "cba2447a4f3f4a6bf53604b0f"
+        ],
+        "hint": "\n\nUSER:\nI'm definitely up for the challenge. Just wondering, how long does it usually take to complete the hike? I'm planning to leave early in the morning to avoid the crowds, and want to make sure I have enough time to enjoy the views without feeling rushed.",
+        "kind": "vector-original-match-index",
+        "score": 0.2898016127222727,
+        "metadata": {
+          "source_id": "cba2447a4f3f4a6bf53604b0f",
+          "score": 0.2898016127222727,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "cba2447a4f3f4a6bf53604b0f-c0007",
+          "start": 4471,
+          "end": 4731,
+          "source_sha256": "108f6504573aec20ecced103f09a35dc99d1c938c5f341bd4a4634466b868eb2"
+        }
+      },
+      {
+        "item_id": "bm25:cd39cf493d4cbfad5581217cf-c0000",
+        "source_ids": [
+          "cd39cf493d4cbfad5581217cf"
+        ],
+        "hint": "USER:\nI'm trying to stay on top of my fitness goals and was wondering if you could give me some workout routine suggestions that I can do at home? By the way, I've been using my Fitbit scale to track my weight loss progress, and I'm down 5 pounds since I started using it.",
+        "kind": "bm25-original-match-index",
+        "score": 4.250533339997999,
+        "metadata": {
+          "source_id": "cd39cf493d4cbfad5581217cf",
+          "score": 4.250533339997999,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "cd39cf493d4cbfad5581217cf-c0000",
+          "start": 0,
+          "end": 272,
+          "source_sha256": "e40e43f787a72d6c331a132c70e4083c145bf4aafc4743aa06a9ab7b4a0280b1"
+        }
+      },
+      {
+        "item_id": "vector:ce6d93cd8760fdbcb75c4484f-c0003",
+        "source_ids": [
+          "ce6d93cd8760fdbcb75c4484f"
+        ],
+        "hint": "for a marathon (26.2 miles). This will require a significant time commitment, but it's an incredible achievement to strive for.\n9. **Fitness challenge**: Choose a specific fitness challenge, like doing 100 push-ups or squats per day, or completing a certain number of workouts per week. This can be a great way to stay motivated and focused.\n10. **Create your own goal**: Think about what motivates y",
+        "kind": "vector-original-match-index",
+        "score": 0.28346352529859953,
+        "metadata": {
+          "source_id": "ce6d93cd8760fdbcb75c4484f",
+          "score": 0.28346352529859953,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "ce6d93cd8760fdbcb75c4484f-c0003",
+          "start": 2193,
+          "end": 2593,
+          "source_sha256": "5ddc94e51180efbe2841fc4e86f17cf27a06601c72f0a4c0520a76ecd94858d7"
+        }
+      },
+      {
+        "item_id": "bm25:cba2447a4f3f4a6bf53604b0f-c0008",
+        "source_ids": [
+          "cba2447a4f3f4a6bf53604b0f"
+        ],
+        "hint": "ISTANT:\n**Hike Duration:**\nThe Steep Ravine Trail is a 3.5-mile out-and-back hike, and the duration can vary depending on your pace, fitness level, and how much time you spend enjoying the views. However, here are some general guidelines to help you plan your day:\n\n* Average hike time: 2-3 hours\n* Fast pace: 1.5-2 hours\n* Leisurely pace: 3-4 hours\n\nKeep in mind that the first 0.5 miles are the ste",
+        "kind": "bm25-original-match-index",
+        "score": 3.7332847088368064,
+        "metadata": {
+          "source_id": "cba2447a4f3f4a6bf53604b0f",
+          "score": 3.7332847088368064,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "cba2447a4f3f4a6bf53604b0f-c0008",
+          "start": 4736,
+          "end": 5136,
+          "source_sha256": "108f6504573aec20ecced103f09a35dc99d1c938c5f341bd4a4634466b868eb2"
+        }
+      },
+      {
+        "item_id": "vector:cfb88a121799f1dc894e4616f-c0002",
+        "source_ids": [
+          "cfb88a121799f1dc894e4616f"
+        ],
+        "hint": "interviews, workplace communication, and career advice.\n5. Gesundheit und Fitness (Health and fitness) - Reading about health and fitness can help you learn new vocabulary related to medical conditions, healthy habits, and exercise. You can find articles about healthy eating, fitness routines, and mental health.",
+        "kind": "vector-original-match-index",
+        "score": 0.2732767942005202,
+        "metadata": {
+          "source_id": "cfb88a121799f1dc894e4616f",
+          "score": 0.2732767942005202,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "cfb88a121799f1dc894e4616f-c0002",
+          "start": 1099,
+          "end": 1412,
+          "source_sha256": "34a9fde0f0d27b8d0081d61638442b7f0da7dfed32e5354373f146945ff6f7d2"
+        }
+      },
+      {
+        "item_id": "bm25:c1cf06ee67a655fc7c489179e-c0004",
+        "source_ids": [
+          "c1cf06ee67a655fc7c489179e"
+        ],
+        "hint": "d the new schedule that's made it more crowded? For example:\n\n* Is the 7:15 AM train usually crowded, or is it a specific day of the week that's busier?\n* How long is your train ride, and would having a reserved seat make a significant difference in your comfort level?\n* Are there any other benefits to reserving a seat, such as guaranteed seating or access to quieter cars?\n* How much does the seat",
+        "kind": "bm25-original-match-index",
+        "score": 3.5045275544776273,
+        "metadata": {
+          "source_id": "c1cf06ee67a655fc7c489179e",
+          "score": 3.5045275544776273,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c1cf06ee67a655fc7c489179e-c0004",
+          "start": 3402,
+          "end": 3802,
+          "source_sha256": "c07b772a843ec9c38414d89c6e1fe49420b445c57387fdb9e78b00775eaaa782"
+        }
+      },
+      {
+        "item_id": "vector:ce302d647c63113f6905eedba-c0014",
+        "source_ids": [
+          "ce302d647c63113f6905eedba"
+        ],
+        "hint": "\n\nUSER:\nI've been trying to study Japanese on the side, but it's hard to fit it into my busy schedule. I've been working a lot lately, teaching English at a language school in Shibuya. It's been a big adjustment, but I'm getting the hang of it.",
+        "kind": "vector-original-match-index",
+        "score": 0.27089857142576246,
+        "metadata": {
+          "source_id": "ce302d647c63113f6905eedba",
+          "score": 0.27089857142576246,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "ce302d647c63113f6905eedba-c0014",
+          "start": 8399,
+          "end": 8643,
+          "source_sha256": "4513e9231f4b993d0079c13bb88da9fa4ca19f7e6ea69a41895206960a6678e2"
+        }
+      },
+      {
+        "item_id": "bm25:c646d0a7adff0bf9fd914da87-c0007",
+        "source_ids": [
+          "c646d0a7adff0bf9fd914da87"
+        ],
+        "hint": "at aim to uplift underrepresented communities. some examples include mentoring programs, community outreach, and event planning.\n\n2. attend community events: attend community events hosted by push or other organizations that work to uplift underrepresented communities. these events often provide networking opportunities for individuals interested in supporting these efforts.\n\n3. join push's online",
+        "kind": "bm25-original-match-index",
+        "score": 3.469527198347181,
+        "metadata": {
+          "source_id": "c646d0a7adff0bf9fd914da87",
+          "score": 3.469527198347181,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c646d0a7adff0bf9fd914da87-c0007",
+          "start": 3878,
+          "end": 4278,
+          "source_sha256": "74da5b5f7bfd53bcfd7b2f6be4d0e229dacdcd6abcab7b0835e0b28dab54857e"
+        }
+      },
+      {
+        "item_id": "vector:c1c3ab20765a4ee1eab4b4311-c0004",
+        "source_ids": [
+          "c1c3ab20765a4ee1eab4b4311"
+        ],
+        "hint": "nup.\n3. **Prep in advance**: Chop veggies, marinate proteins, or assemble salads on the weekend or a day off to save time during the week.\n4. **Use leftovers**: Plan meals that use leftovers to reduce food waste and save time.\n\nRemember, meal prep is all about finding a rhythm that works for you and your schedule. Start with simple recipes and gradually experiment with new ingredients and meal ide",
+        "kind": "vector-original-match-index",
+        "score": 0.22242493794383503,
+        "metadata": {
+          "source_id": "c1c3ab20765a4ee1eab4b4311",
+          "score": 0.22242493794383503,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "c1c3ab20765a4ee1eab4b4311-c0004",
+          "start": 2680,
+          "end": 3080,
+          "source_sha256": "e3154785adcd8e166f30f066362699cbb506a2c4915115072d0266fc5b91684b"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c3660f7f82aeb2ef7b63e2daf",
+    "cc9db0d34eb1e4ea738c0f073",
+    "cb02306340efae1abb61b04d8",
+    "ce302d647c63113f6905eedba",
+    "c82442d17c5363dd4cf9f152b",
+    "c7f9885cc7a96c4fa6def9b59",
+    "cd39cf493d4cbfad5581217cf",
+    "c1cf06ee67a655fc7c489179e"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c3660f7f82aeb2ef7b63e2daf",
+      "source_date": "2023-05-27T06:52:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm trying to plan out my week and was wondering if you could help me set reminders for my upcoming fitness classes. I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.\n\nASSISTANT:\nI'd be happy to help you set reminders for your fitness classes. Here are the reminders I've set for you:\n\n**Tuesday**: 6:30 pm - Zumba class\n**Thursday**:",
+          "start": 0,
+          "end": 400
+        },
+        {
+          "role": "assistant",
+          "text": "els, or footwork, and ask Maria for feedback on your progress.\n4. **Burn a certain number of calories**: Use a heart rate monitor or fitness tracker to track your calorie burn and aim to increase it over time.\n\n**Weightlifting Class (Saturdays):**\n\n1. **Increase weight or reps**: Set a goal to increase the weight you're lifting or the number of reps you're completing by a certain amount each week.",
+          "start": 7317,
+          "end": 7717
+        }
+      ]
+    },
+    {
+      "source_id": "cc9db0d34eb1e4ea738c0f073",
+      "source_date": "2023-05-25T09:27:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nUSER:\nThat's really interesting! Do you know if the Royal Opera House already uses any of these technologies you mentioned?\n\nASSISTANT:\nAs an AI language model, I do not have access to the specific information about the Royal Opera House's use of technology to promote opera and ballet. However, I can tell you that many opera houses and ballet companies around the world are already using these te",
+          "start": 1540,
+          "end": 1940
+        },
+        {
+          "role": "assistant",
+          "text": "to people who may not have the opportunity to attend in-person classes.\n\nOverall, technology can play a crucial role in making opera and ballet more accessible to wider audiences and help the Royal Opera House reach people who may not have had the opportunity to experience these performances before.",
+          "start": 1240,
+          "end": 1540
+        }
+      ]
+    },
+    {
+      "source_id": "cb02306340efae1abb61b04d8",
+      "source_date": "2023-05-26T03:42:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nStaying motivated and consistent is a crucial part of achieving your fitness goals. Here are some tips that might help:\n\n**1. Set Specific Goals:** Define your goals and make them specific, measurable, achievable, relevant, and time-bound (SMART). This will help you stay focused and motivated.\n\n**2. Create a Schedule:** Plan out your workout schedule and stick to it. Treat your workou",
+          "start": 13958,
+          "end": 14358
+        },
+        {
+          "role": "assistant",
+          "text": "home or work, or finding workouts that can be done at home.\n\n**9. Get Professional Guidance:** Consider hiring a personal trainer or fitness coach to help you stay motivated and accountable.\n\n**10. Celebrate Small Wins:** Celebrate small victories along the way, like completing a tough workout or reaching a new personal best.\n\n**11. Stay Positive:** Focus on positive self-talk and remind yourself ",
+          "start": 15165,
+          "end": 15565
+        }
+      ]
+    },
+    {
+      "source_id": "ce302d647c63113f6905eedba",
+      "source_date": "2023-05-20T19:01:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "shikatsu (deep-fried skewers) with a side of rice and miso soup.\n\n**Additional Tips:**\n\n* Osaka is known for its food, so be sure to try some popular local dishes like takoyaki, okonomiyaki, and kushikatsu.\n* Consider purchasing an Osaka Amazing Pass, which grants you access to many attractions and public transportation.\n* Golden Week is a busy time, so plan ahead and book your accommodations and ",
+          "start": 1937,
+          "end": 2337
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI've been trying to study Japanese on the side, but it's hard to fit it into my busy schedule. I've been working a lot lately, teaching English at a language school in Shibuya. It's been a big adjustment, but I'm getting the hang of it.",
+          "start": 8399,
+          "end": 8643
+        }
+      ]
+    },
+    {
+      "source_id": "c82442d17c5363dd4cf9f152b",
+      "source_date": "2023-05-30T18:41:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ach out if you need any more advice or recommendations. Have a fantastic time with your niece, and I hope you both create unforgettable memories together!\n\n(And, by the way, I'm happy to hear about your birthday and high school reunion, but I'm a large language model, I don't have personal experiences or memories, so I don't celebrate birthdays or attend reunions. I'm always here to help, though!)",
+          "start": 10623,
+          "end": 11023
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think I'll book the character dining experience, but I'll make sure to choose a time that works well for my niece's schedule and energy levels. I'll also prepare her for what to expect so she's not surprised or overwhelmed. Thanks for the advice! By the way, I just got back from my high school reunion a few weeks after my birthday, and it's amazing how fast time flies!",
+          "start": 9680,
+          "end": 10061
+        }
+      ]
+    },
+    {
+      "source_id": "c7f9885cc7a96c4fa6def9b59",
+      "source_date": "2023-05-23T16:57:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "timer or a single-serve coffee maker to save time in the morning.\n* Consider meal prepping on the weekends to prepare breakfast items for the week ahead.\n\nThese options are quick, easy, and can be customized to fit your dietary preferences and ingredient availability. Enjoy!",
+          "start": 3923,
+          "end": 4198
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nI'd be happy to help you create a daily schedule that fits in a morning workout and gets you to the office by 8:30 AM.\n\nFirst, let's break down your current wake-up time and the time you need to be at the office. You wake up at 7:00 AM and need to be at the office by 8:30 AM, which gives you about 1.5 hours to get ready and fit in a workout.\n\nHere's a suggested daily schedule for you:",
+          "start": 318,
+          "end": 718
+        }
+      ]
+    },
+    {
+      "source_id": "cd39cf493d4cbfad5581217cf",
+      "source_date": "2023-05-21T10:16:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "match exercises to avoid plateaus and prevent boredom.\n5. Make sure to stay hydrated and fuel your body with a balanced diet to support your fitness goals.\n\nRemember, consistency is key! Aim to exercise at least 3-4 times a week, with at least one day of rest in between. Keep tracking your progress with your Fitbit scale, and don't hesitate to reach out if you need any more guidance or motivation.",
+          "start": 2442,
+          "end": 2842
+        },
+        {
+          "role": "assistant",
+          "text": "with your Samsung smartwatch, you might not be able to access all the features and data tracking capabilities. For example, you might not be able to view your Fitbit data on your Samsung smartwatch or control music playback.\n\nIf you want to track your fitness data and receive notifications on your Samsung smartwatch, you might consider using the Samsung Health app, which is designed to work seamle",
+          "start": 7020,
+          "end": 7420
+        }
+      ]
+    },
+    {
+      "source_id": "c1cf06ee67a655fc7c489179e",
+      "source_date": "2023-05-27T10:54:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "improve fuel efficiency.\n5. **Avoid idling**: If you're stuck in traffic, turn off your engine if you're going to be stopped for more than 30 seconds. Idling can waste a significant amount of fuel.\n6. **Use air conditioning wisely**: While using the air conditioning can be comfortable on hot days, it can decrease fuel efficiency. Try rolling down your windows at low speeds instead.\n7. **Remove ext",
+          "start": 1232,
+          "end": 1632
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm also considering getting off the train one stop earlier and walking to the office more often, since it's been helping me feel more energized throughout the day. Do you think that's a good idea, or should I stick to my usual routine?",
+          "start": 7438,
+          "end": 7682
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.008012416074052453,
+    "native_search_seconds": 0.007351333042606711,
+    "common_spans_seconds": 0.005334709072485566
+  }
+}

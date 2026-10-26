@@ -1,0 +1,163 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Three different types of citrus fruit: lime, orange, and lemon.",
+    "claims": [
+      {
+        "claim": "The user used lime in cocktail recipes, including a classic Daiquiri and a Cucumber Gimlet.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class."
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!"
+          }
+        ]
+      },
+      {
+        "claim": "The user also used orange and lemon in Sangria served at a prior dinner party.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "The distinct citrus types identified are lime, orange, and lemon, for a total of three.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class."
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "missing": "No evidence shows the user using grapefruit or any other citrus type in their own cocktail recipes."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "61b9b4f4898eaba676c11004aa6330db4f64730ca550068d8b39c48d8203166f",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 13737,
+      "completion_tokens": 3376,
+      "total_tokens": 17113,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2983
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 13481
+    },
+    "response_id": "a2b6ed07-ed9e-4031-b2dd-d40a11d0b0f3",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 20.423812417080626
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class.",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class.",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00004",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P08.json",
+  "raw_response_sha256": "d1142ce7a2481791304ccbb8ff94ff46ee055b7120fe61526f0632c93c599463"
+}

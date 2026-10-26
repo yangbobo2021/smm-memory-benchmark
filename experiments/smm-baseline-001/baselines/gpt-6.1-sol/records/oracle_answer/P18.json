@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P18",
+  "task": "oracle_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "f0a5aa3489e37d15c304efe93bfdda61a4dbffdc924f83eb5aa4a1314fc145bb",
+  "output": {
+    "status": "answer",
+    "answer": "You spent $800 on a designer handbag.",
+    "claims": [
+      {
+        "claim": "You spent $800 on a designer handbag.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.995311,
+    "thread_setup_seconds": 0.078314,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.995311,
+    "turn_seconds": 4.916997,
+    "first_text_seconds": 4.227317,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14870,
+      "completion_tokens": 86,
+      "total_tokens": 14956,
+      "cached_prompt_tokens": 10112,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P18.json",
+  "raw_receipt_sha256": "718de497554da9770803fb31dd1f205e83fc898b3fa4aa596c63a42595509af7",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6.1-sol/P18.json"
+}

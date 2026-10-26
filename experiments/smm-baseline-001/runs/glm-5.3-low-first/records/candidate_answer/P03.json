@@ -1,0 +1,104 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "aa14dfe67c3cde15abad3fca1dc75fc89b9390428837a015b99a90ee46d0dee3",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "As of the most recent evidence (July 2023), you have finished reading five issues of National Geographic.",
+    "claims": [
+      {
+        "claim": "As of April 2023, you had finished three issues and were on your fourth",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I've been enjoying The New Yorker for their fiction and National Geographic for their in-depth articles on science and nature - I just finished my third issue, and I'm currently on my fourth."
+          }
+        ]
+      },
+      {
+        "claim": "By July 2023, you had finished five issues",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I've actually been reading a lot about the Amazon rainforest lately, especially in National Geographic - I've finished five issues so far and they've all had great articles on the region."
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "I've been reading about the Amazon rainforest and its indigenous communities in National Geographic, and I just finished my fifth issue."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.346930375089869,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 244,
+      "completion_tokens_details": {
+        "reasoning_tokens": 22
+      },
+      "prompt_tokens": 16962,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 17206
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I've been enjoying The New Yorker for their fiction and National Geographic for their in-depth articles on science and nature - I just finished my third issue, and I'm currently on my fourth.",
+        "valid": true,
+        "source_id": "cd244fcacffe13caffeb31e69",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-20T21:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I've actually been reading a lot about the Amazon rainforest lately, especially in National Geographic - I've finished five issues so far and they've all had great articles on the region.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I've been reading about the Amazon rainforest and its indigenous communities in National Geographic, and I just finished my fifth issue.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

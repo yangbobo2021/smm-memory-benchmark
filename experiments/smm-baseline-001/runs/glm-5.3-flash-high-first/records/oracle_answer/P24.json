@@ -1,0 +1,97 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "3321d354e07317a9fae0e7a11e34c1e12b850a5da0dbeb1d3fde1d02de52bbb8",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "26天前",
+    "claims": [
+      {
+        "claim": "您在对话当天参加了一个社交活动（根据证据接收时间戳，即2022-03-09）",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      },
+      {
+        "claim": "对话时间戳为 2022-03-09T12:08:00+00:00，因此活动日期为 2022-03-09",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "received_at:2022-03-09T12:08:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim": "从 2022-03-09 到参考时间 2022-04-04 为 26 天",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "无；已对照参考时间 2022-04-04T21:03:00+00:00 确认答案为 26 天。注意：对话内部将 'tomorrow' 描述为 'Monday'，这与 2022-03-09（星期三）的时间戳存在轻微不一致，但该活动锚定于所提供的证据时间戳。"
+  },
+  "metrics": {
+    "seconds": 42.97785087488592,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1608,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1341
+      },
+      "prompt_tokens": 2046,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 3654
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at:2022-03-09T12:08:00+00:00",
+        "valid": false,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at:2022-03-09T12:08:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "case_id": "P02",
+  "product": "smm",
+  "namespace": "qe36ddf3ac544_n100",
+  "query": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+  "clock": "2023-03-16T14:24:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c4d5e76892eb66ee21cf151ae",
+          "score": 18.75718907251674
+        },
+        {
+          "source_id": "ca3586c9f696b9c5035ebf62c",
+          "score": 16.16766535498046
+        },
+        {
+          "source_id": "c8f676fffa4ff91f4827da0f4",
+          "score": 5.402519798184617
+        },
+        {
+          "source_id": "c863fefff442aef085ded95d0",
+          "score": 3.822520608473696
+        },
+        {
+          "source_id": "ca66e70ad9bc5caccf93f09d8",
+          "score": 3.5445237729260324
+        },
+        {
+          "source_id": "c4fe22f60e57d42dbe45060d6",
+          "score": 3.3000279326609157
+        },
+        {
+          "source_id": "caba94415924b2b36f6d6077c",
+          "score": 2.722265075936219
+        },
+        {
+          "source_id": "c96034f8a79ebcc1ee4063322",
+          "score": 2.3227522085056536
+        },
+        {
+          "source_id": "c00db49479e170e4e2a570844",
+          "score": 2.29361243205859
+        },
+        {
+          "source_id": "c3769c696849b9d9c55d69a07",
+          "score": 2.2021288578972076
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "ca3586c9f696b9c5035ebf62c",
+          "score": 0.5366643013838862
+        },
+        {
+          "source_id": "c4d5e76892eb66ee21cf151ae",
+          "score": 0.5140761672658347
+        },
+        {
+          "source_id": "c3769c696849b9d9c55d69a07",
+          "score": 0.36899575021902953
+        },
+        {
+          "source_id": "c863fefff442aef085ded95d0",
+          "score": 0.31886654826654226
+        },
+        {
+          "source_id": "c8f676fffa4ff91f4827da0f4",
+          "score": 0.2560384186592962
+        },
+        {
+          "source_id": "c6d3c579ffa4ee81b59c6ab02",
+          "score": 0.24941477131604958
+        },
+        {
+          "source_id": "c573c66de0df8c6852a49f857",
+          "score": 0.2061458638312363
+        },
+        {
+          "source_id": "cbfc1a5bf5196432fc2d054cf",
+          "score": 0.18158666134683182
+        },
+        {
+          "source_id": "c90a4ac3112fefe4f3c1f9131",
+          "score": 0.15901958045774447
+        },
+        {
+          "source_id": "c689559b28c9c85bfffb3a0aa",
+          "score": 0.1556722698248701
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c4d5e76892eb66ee21cf151ae-c0004",
+        "source_ids": [
+          "c4d5e76892eb66ee21cf151ae"
+        ],
+        "hint": "\n\nUSER:\nI was thinking of making some egg salad for a quick lunch. Do you have a simple recipe that I can try? And by the way, I need to start using up some of our eggs, we have a lot stocked up in the fridge - 30 dozen at the moment!",
+        "kind": "bm25-original-match-index",
+        "score": 18.75718907251674,
+        "metadata": {
+          "source_id": "c4d5e76892eb66ee21cf151ae",
+          "score": 18.75718907251674,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c4d5e76892eb66ee21cf151ae-c0004",
+          "start": 2347,
+          "end": 2581,
+          "source_sha256": "9b49dd3dfa47511488c8254a4547084b78713ab181accc854b4b9d3191b72d92"
+        }
+      },
+      {
+        "item_id": "vector:ca3586c9f696b9c5035ebf62c-c0004",
+        "source_ids": [
+          "ca3586c9f696b9c5035ebf62c"
+        ],
+        "hint": "\n\nUSER:\nI think I'll try the spinach and feta variation, sounds delicious. By the way, I was thinking of using some of our fresh eggs from the coop - we've got 20 dozen stocked up in the fridge right now. Do you have any tips on how to store eggs properly to keep them fresh for a longer period?",
+        "kind": "vector-original-match-index",
+        "score": 0.5366643013838862,
+        "metadata": {
+          "source_id": "ca3586c9f696b9c5035ebf62c",
+          "score": 0.5366643013838862,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "ca3586c9f696b9c5035ebf62c-c0004",
+          "start": 1946,
+          "end": 2241,
+          "source_sha256": "63a61cc8b16cdb363f6512e8456f13a4279191f319cabb5174826f4612b29fcb"
+        }
+      },
+      {
+        "item_id": "bm25:ca3586c9f696b9c5035ebf62c-c0004",
+        "source_ids": [
+          "ca3586c9f696b9c5035ebf62c"
+        ],
+        "hint": "\n\nUSER:\nI think I'll try the spinach and feta variation, sounds delicious. By the way, I was thinking of using some of our fresh eggs from the coop - we've got 20 dozen stocked up in the fridge right now. Do you have any tips on how to store eggs properly to keep them fresh for a longer period?",
+        "kind": "bm25-original-match-index",
+        "score": 16.16766535498046,
+        "metadata": {
+          "source_id": "ca3586c9f696b9c5035ebf62c",
+          "score": 16.16766535498046,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "ca3586c9f696b9c5035ebf62c-c0004",
+          "start": 1946,
+          "end": 2241,
+          "source_sha256": "63a61cc8b16cdb363f6512e8456f13a4279191f319cabb5174826f4612b29fcb"
+        }
+      },
+      {
+        "item_id": "vector:c4d5e76892eb66ee21cf151ae-c0004",
+        "source_ids": [
+          "c4d5e76892eb66ee21cf151ae"
+        ],
+        "hint": "\n\nUSER:\nI was thinking of making some egg salad for a quick lunch. Do you have a simple recipe that I can try? And by the way, I need to start using up some of our eggs, we have a lot stocked up in the fridge - 30 dozen at the moment!",
+        "kind": "vector-original-match-index",
+        "score": 0.5140761672658347,
+        "metadata": {
+          "source_id": "c4d5e76892eb66ee21cf151ae",
+          "score": 0.5140761672658347,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c4d5e76892eb66ee21cf151ae-c0004",
+          "start": 2347,
+          "end": 2581,
+          "source_sha256": "9b49dd3dfa47511488c8254a4547084b78713ab181accc854b4b9d3191b72d92"
+        }
+      },
+      {
+        "item_id": "bm25:c8f676fffa4ff91f4827da0f4-c0013",
+        "source_ids": [
+          "c8f676fffa4ff91f4827da0f4"
+        ],
+        "hint": " frequency to weekly, or even every 4-5 days, to help bring nitrate levels back down.\n2. **Increase water change volume**: If you're currently doing 10-15% water changes, try increasing the volume to 20-25% to remove more nitrates.\n\n**Optimize your aquarium's biological cycle:**\n\n1. **Make sure your filter is efficient**: Ensure your filter is properly maintained, and the media is clean and replac",
+        "kind": "bm25-original-match-index",
+        "score": 5.402519798184617,
+        "metadata": {
+          "source_id": "c8f676fffa4ff91f4827da0f4",
+          "score": 5.402519798184617,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "c8f676fffa4ff91f4827da0f4-c0013",
+          "start": 7710,
+          "end": 8110,
+          "source_sha256": "1817904e151ad25f6dd9f1c759d03a5501a1f75e84941b99b19a264977d641cd"
+        }
+      },
+      {
+        "item_id": "vector:c3769c696849b9d9c55d69a07-c0000",
+        "source_ids": [
+          "c3769c696849b9d9c55d69a07"
+        ],
+        "hint": "USER:\nI'm preparing for the upcoming Harvest Market on September 18th and I need help with calculating my inventory. I want to make sure I have enough candles and soaps in stock. By the way, I just debuted my new display materials, including a canopy and tablecloths, at the market last week and it looked really professional.",
+        "kind": "vector-original-match-index",
+        "score": 0.36899575021902953,
+        "metadata": {
+          "source_id": "c3769c696849b9d9c55d69a07",
+          "score": 0.36899575021902953,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "c3769c696849b9d9c55d69a07-c0000",
+          "start": 0,
+          "end": 326,
+          "source_sha256": "bdad9a4a6624dad2034581d6961c94e42077b63b0d6f4b1919b3190cf35cbdf9"
+        }
+      },
+      {
+        "item_id": "bm25:c863fefff442aef085ded95d0-c0007",
+        "source_ids": [
+          "c863fefff442aef085ded95d0"
+        ],
+        "hint": "blespoon or two of lemon juice or zest to the remoulade for a brighter flavor.\n* Remoulade sauce can be made ahead and stored in the refrigerator for up to 1 week. Give it a good stir before serving.\n\nNow that you have the remoulade sauce recipe, you can serve it alongside your crab cakes. Simply pan-fry the crab cakes until golden brown, then serve with a dollop of remoulade sauce on top. Enjoy!\n",
+        "kind": "bm25-original-match-index",
+        "score": 3.822520608473696,
+        "metadata": {
+          "source_id": "c863fefff442aef085ded95d0",
+          "score": 3.822520608473696,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c863fefff442aef085ded95d0-c0007",
+          "start": 4428,
+          "end": 4828,
+          "source_sha256": "1edc526fa9bf44883f71591181584b4592e95051d0a65947d8559e1d32ccfa87"
+        }
+      },
+      {
+        "item_id": "vector:c863fefff442aef085ded95d0-c0012",
+        "source_ids": [
+          "c863fefff442aef085ded95d0"
+        ],
+        "hint": "\n\nUSER:\nWhat's the best way to store leftover crab cakes? Can I freeze them or is it better to refrigerate them?",
+        "kind": "vector-original-match-index",
+        "score": 0.31886654826654226,
+        "metadata": {
+          "source_id": "c863fefff442aef085ded95d0",
+          "score": 0.31886654826654226,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c863fefff442aef085ded95d0-c0012",
+          "start": 7592,
+          "end": 7704,
+          "source_sha256": "1edc526fa9bf44883f71591181584b4592e95051d0a65947d8559e1d32ccfa87"
+        }
+      },
+      {
+        "item_id": "bm25:ca66e70ad9bc5caccf93f09d8-c0000",
+        "source_ids": [
+          "ca66e70ad9bc5caccf93f09d8"
+        ],
+        "hint": "uld be added with low risk parameters, and the second phase would involve gradually increasing the risk parameters over time.\n4. This proposal is intended to increase the diversity of assets that can be used as collateral in the MCD system and reduce the risk of a single asset dominating the system.\n5. The proposal is currently in the \"review\" stage of the Maker Improvement Proposal (MIP) process.",
+        "kind": "bm25-original-match-index",
+        "score": 3.5445237729260324,
+        "metadata": {
+          "source_id": "ca66e70ad9bc5caccf93f09d8",
+          "score": 3.5445237729260324,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "ca66e70ad9bc5caccf93f09d8-c0000",
+          "start": 542,
+          "end": 942,
+          "source_sha256": "315bfb7a25ae586ce700946865f7f11adb139922b6ae3975c766205e564b0c80"
+        }
+      },
+      {
+        "item_id": "vector:c8f676fffa4ff91f4827da0f4-c0018",
+        "source_ids": [
+          "c8f676fffa4ff91f4827da0f4"
+        ],
+        "hint": "**Provide a spawning medium**: Add a spawning medium, like a spawning mop or a plant with fine leaves, for the fish to deposit their eggs.\n4. **Separate the parents**: Once spawning is complete, remove the parents to prevent them from eating the eggs.\n\n**Rearing the Fry:**\n\n1. **Provide a separate tank**: Move the eggs or newly hatched fry to a separate tank with a heater, filter, and plenty of hi",
+        "kind": "vector-original-match-index",
+        "score": 0.2560384186592962,
+        "metadata": {
+          "source_id": "c8f676fffa4ff91f4827da0f4",
+          "score": 0.2560384186592962,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c8f676fffa4ff91f4827da0f4-c0018",
+          "start": 11029,
+          "end": 11429,
+          "source_sha256": "1817904e151ad25f6dd9f1c759d03a5501a1f75e84941b99b19a264977d641cd"
+        }
+      },
+      {
+        "item_id": "bm25:c4fe22f60e57d42dbe45060d6-c0010",
+        "source_ids": [
+          "c4fe22f60e57d42dbe45060d6"
+        ],
+        "hint": "\n\nASSISTANT:\nYes, you're absolutely right! Sports organizations have a unique platform to promote sustainability and social responsibility principles to their fans, which can help to create positive change within their communities and beyond. It's crucial that we all take responsibility for our actions and make efforts to protect our environment and support our communities in any way we can. By wo",
+        "kind": "bm25-original-match-index",
+        "score": 3.3000279326609157,
+        "metadata": {
+          "source_id": "c4fe22f60e57d42dbe45060d6",
+          "score": 3.3000279326609157,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "c4fe22f60e57d42dbe45060d6-c0010",
+          "start": 7816,
+          "end": 8216,
+          "source_sha256": "edf96ff1b206dd5f5793ea95c03883e5d4263755a9d9f91c3ae80bd03d0e1a13"
+        }
+      },
+      {
+        "item_id": "vector:c6d3c579ffa4ee81b59c6ab02-c0010",
+        "source_ids": [
+          "c6d3c579ffa4ee81b59c6ab02"
+        ],
+        "hint": "rry, raspberry, citrus)\n* Orientals (e.g., vanilla, caramel, amber)\n* Citrus (e.g., lemon, grapefruit, orange)\n\nWhile they might not have as extensive a range as a luxury brand, they cover the basics and offer a good starting point for those on a budget.\n\n**Sizes:**\nMarket Pantry perfumes usually come in two sizes:\n\n* 1 oz (30ml) - a small, travel-friendly size that's perfect for testing or everyd",
+        "kind": "vector-original-match-index",
+        "score": 0.24941477131604958,
+        "metadata": {
+          "source_id": "c6d3c579ffa4ee81b59c6ab02",
+          "score": 0.24941477131604958,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c6d3c579ffa4ee81b59c6ab02-c0010",
+          "start": 5797,
+          "end": 6197,
+          "source_sha256": "2f3859847cc691da3a3d8724142160b3e8e01bac38354988247e232dfe22a211"
+        }
+      },
+      {
+        "item_id": "bm25:caba94415924b2b36f6d6077c-c0017",
+        "source_ids": [
+          "caba94415924b2b36f6d6077c"
+        ],
+        "hint": " (includes logo placement and event recognition)\n* **Bronze Sponsor:** $1,000 (includes logo placement)\n\n**Benefits:**\nBy sponsoring our event, your organization will receive:\n\n* Increased brand visibility through event promotion and advertising\n* Exclusive access to participants and community leaders\n* Positive PR and community recognition\n* Opportunities for employee engagement and team-building",
+        "kind": "bm25-original-match-index",
+        "score": 2.722265075936219,
+        "metadata": {
+          "source_id": "caba94415924b2b36f6d6077c",
+          "score": 2.722265075936219,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "caba94415924b2b36f6d6077c-c0017",
+          "start": 12930,
+          "end": 13330,
+          "source_sha256": "fdce60988edf8b57ba7682d29eb85164c02ba1050201c6ea3272c779fe14f240"
+        }
+      },
+      {
+        "item_id": "vector:c573c66de0df8c6852a49f857-c0001",
+        "source_ids": [
+          "c573c66de0df8c6852a49f857"
+        ],
+        "hint": "\n\nASSISTANT:\nKyoto is a food lover's paradise! You've made an excellent decision to stay in Kyoto for 7 nights, as it will give you ample time to explore the city's culinary delights. Here are some must-try food spots in Kyoto:\n\n**Traditional Kyoto Cuisine:**\n\n1. **Gion Nanba** (): A renowned restaurant serving traditional Kyoto-style kaiseki (multi-course) meals. Try their seasonal courses, which",
+        "kind": "vector-original-match-index",
+        "score": 0.2061458638312363,
+        "metadata": {
+          "source_id": "c573c66de0df8c6852a49f857",
+          "score": 0.2061458638312363,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "c573c66de0df8c6852a49f857-c0001",
+          "start": 254,
+          "end": 654,
+          "source_sha256": "ea51af9b5696d80732cdfeb71ea3c4910eaa8a706e7f626a347964d0e2890e22"
+        }
+      },
+      {
+        "item_id": "bm25:c96034f8a79ebcc1ee4063322-c0005",
+        "source_ids": [
+          "c96034f8a79ebcc1ee4063322"
+        ],
+        "hint": "\n\nUSER:\nWhat apps currently do that?",
+        "kind": "bm25-original-match-index",
+        "score": 2.3227522085056536,
+        "metadata": {
+          "source_id": "c96034f8a79ebcc1ee4063322",
+          "score": 2.3227522085056536,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "c96034f8a79ebcc1ee4063322-c0005",
+          "start": 3380,
+          "end": 3416,
+          "source_sha256": "c199f231c62dcccf7014852c3fd84295fe179534602a78ca0a6c1883244f06ed"
+        }
+      },
+      {
+        "item_id": "vector:cbfc1a5bf5196432fc2d054cf-c0007",
+        "source_ids": [
+          "cbfc1a5bf5196432fc2d054cf"
+        ],
+        "hint": "\n\nUSER:\nI think I'll start with the Kochere. Do you know if it's available in a medium roast?",
+        "kind": "vector-original-match-index",
+        "score": 0.18158666134683182,
+        "metadata": {
+          "source_id": "cbfc1a5bf5196432fc2d054cf",
+          "score": 0.18158666134683182,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "cbfc1a5bf5196432fc2d054cf-c0007",
+          "start": 4363,
+          "end": 4456,
+          "source_sha256": "2185504950c774b4f7485152585ff9fb3d36cb38c113cddafa1504d71e31bcae"
+        }
+      },
+      {
+        "item_id": "bm25:c00db49479e170e4e2a570844-c0006",
+        "source_ids": [
+          "c00db49479e170e4e2a570844"
+        ],
+        "hint": "n the available genetic variation and environmental pressures. Essentially, natural selection is not a conscious process and doesn't have a specific goal in mind. It simply favors the traits that promote survival and reproduction in a given environment.\n\nDespite the fact that it's passive, natural selection is an incredibly powerful force in shaping the evolution of species. Over time, natural sel",
+        "kind": "bm25-original-match-index",
+        "score": 2.29361243205859,
+        "metadata": {
+          "source_id": "c00db49479e170e4e2a570844",
+          "score": 2.29361243205859,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c00db49479e170e4e2a570844-c0006",
+          "start": 4383,
+          "end": 4783,
+          "source_sha256": "06f6df5926753d4ff2b63b2d3bd849a8ab96fc2dfec7caea90c4f4584467fcf3"
+        }
+      },
+      {
+        "item_id": "vector:c90a4ac3112fefe4f3c1f9131-c0021",
+        "source_ids": [
+          "c90a4ac3112fefe4f3c1f9131"
+        ],
+        "hint": "ecific cleaning and maintenance instructions, as some parts may require special care.\n\nBy following these tips, you'll be able to keep your Philips Respironics InnoSpire portable nebulizer clean, hygienic, and in good working condition. Remember to always consult with your healthcare provider or a respiratory therapist if you have any questions or concerns about your nebulizer or asthma treatment.",
+        "kind": "vector-original-match-index",
+        "score": 0.15901958045774447,
+        "metadata": {
+          "source_id": "c90a4ac3112fefe4f3c1f9131",
+          "score": 0.15901958045774447,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c90a4ac3112fefe4f3c1f9131-c0021",
+          "start": 15192,
+          "end": 15592,
+          "source_sha256": "1eae925c9e710155cef3a993c30e788d9f07179ea7a8ee0e040d538729b9b0b4"
+        }
+      },
+      {
+        "item_id": "bm25:c3769c696849b9d9c55d69a07-c0001",
+        "source_ids": [
+          "c3769c696849b9d9c55d69a07"
+        ],
+        "hint": "*Average sales per market**: What's your average sales amount per market?\n3. **Inventory levels**: How many candles and soaps do you currently have in stock?\n4. **Lead time**: How long does it take to restock or produce new inventory?\n5. **Desired stock levels**: How many candles and soaps do you want to have on hand for the upcoming market?\n\nLet's work through these factors together. Can you prov",
+        "kind": "bm25-original-match-index",
+        "score": 2.2021288578972076,
+        "metadata": {
+          "source_id": "c3769c696849b9d9c55d69a07",
+          "score": 2.2021288578972076,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c3769c696849b9d9c55d69a07-c0001",
+          "start": 788,
+          "end": 1188,
+          "source_sha256": "bdad9a4a6624dad2034581d6961c94e42077b63b0d6f4b1919b3190cf35cbdf9"
+        }
+      },
+      {
+        "item_id": "vector:c689559b28c9c85bfffb3a0aa-c0007",
+        "source_ids": [
+          "c689559b28c9c85bfffb3a0aa"
+        ],
+        "hint": "\n\nUSER:\nThat sounds like a good plan. I'll give it a try. I've also been thinking about creating a schedule for cleaning out the fridge and oven, which I know need it. Do you have any suggestions on how to incorporate that into my daily routine?",
+        "kind": "vector-original-match-index",
+        "score": 0.1556722698248701,
+        "metadata": {
+          "source_id": "c689559b28c9c85bfffb3a0aa",
+          "score": 0.1556722698248701,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "c689559b28c9c85bfffb3a0aa-c0007",
+          "start": 4436,
+          "end": 4681,
+          "source_sha256": "0ae90308d0afe9f78dfce33677bfc65cb2016e70948cff7f48d5aa50cf4b4acc"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c4d5e76892eb66ee21cf151ae",
+    "ca3586c9f696b9c5035ebf62c",
+    "c8f676fffa4ff91f4827da0f4",
+    "c863fefff442aef085ded95d0",
+    "ca66e70ad9bc5caccf93f09d8",
+    "c3769c696849b9d9c55d69a07"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c4d5e76892eb66ee21cf151ae",
+      "source_date": "2023-01-11T23:15:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI was thinking of making some egg salad for a quick lunch. Do you have a simple recipe that I can try? And by the way, I need to start using up some of our eggs, we have a lot stocked up in the fridge - 30 dozen at the moment!",
+          "start": 2347,
+          "end": 2581
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm also thinking of making some cheese with our goat milk. Do you have any simple cheese recipes for a beginner like me? By the way, I need to start using up some of our milk, we have a lot stocked up in the fridge - ",
+          "start": 10337,
+          "end": 10563
+        }
+      ]
+    },
+    {
+      "source_id": "ca3586c9f696b9c5035ebf62c",
+      "source_date": "2023-03-15T08:18:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI think I'll try the spinach and feta variation, sounds delicious. By the way, I was thinking of using some of our fresh eggs from the coop - we've got 20 dozen stocked up in the fridge right now. Do you have any tips on how to store eggs properly to keep them fresh for a longer period?",
+          "start": 1946,
+          "end": 2241
+        },
+        {
+          "role": "assistant",
+          "text": "ng a thriving coop! Proper storage is crucial to keep your eggs fresh for a longer period. Here are some tips to help you store your eggs:\n\n1. **Cool, dry place:** Store eggs in a cool, dry place, away from direct sunlight and heat sources. The ideal storage temperature is between 40°F (4°C) and 50°F (10°C).\n2. **Refrigerate:** Store eggs in the refrigerator at a consistent temperature below 40°F ",
+          "start": 2363,
+          "end": 2763
+        }
+      ]
+    },
+    {
+      "source_id": "c8f676fffa4ff91f4827da0f4",
+      "source_date": "2023-02-04T13:02:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "**Provide a spawning medium**: Add a spawning medium, like a spawning mop or a plant with fine leaves, for the fish to deposit their eggs.\n4. **Separate the parents**: Once spawning is complete, remove the parents to prevent them from eating the eggs.\n\n**Rearing the Fry:**\n\n1. **Provide a separate tank**: Move the eggs or newly hatched fry to a separate tank with a heater, filter, and plenty of hi",
+          "start": 11029,
+          "end": 11429
+        },
+        {
+          "role": "assistant",
+          "text": " frequency to weekly, or even every 4-5 days, to help bring nitrate levels back down.\n2. **Increase water change volume**: If you're currently doing 10-15% water changes, try increasing the volume to 20-25% to remove more nitrates.\n\n**Optimize your aquarium's biological cycle:**\n\n1. **Make sure your filter is efficient**: Ensure your filter is properly maintained, and the media is clean and replac",
+          "start": 7710,
+          "end": 8110
+        }
+      ]
+    },
+    {
+      "source_id": "c863fefff442aef085ded95d0",
+      "source_date": "2023-01-29T21:52:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "some diced jalapeño or hot sauce.\n* To make a more rustic remoulade, chop the herbs coarsely and leave the capers slightly chunky.\n* You can also add a tablespoon or two of lemon juice or zest to the remoulade for a brighter flavor.\n* Remoulade sauce can be made ahead and stored in the refrigerator for up to 1 week. Give it a good stir before serving.\n\nNow that you have the remoulade sauce recipe,",
+          "start": 4274,
+          "end": 4674
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nWhat's the best way to store leftover crab cakes? Can I freeze them or is it better to refrigerate them?",
+          "start": 7592,
+          "end": 7704
+        }
+      ]
+    },
+    {
+      "source_id": "ca66e70ad9bc5caccf93f09d8",
+      "source_date": "2023-03-06T13:55:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "uld be added with low risk parameters, and the second phase would involve gradually increasing the risk parameters over time.\n4. This proposal is intended to increase the diversity of assets that can be used as collateral in the MCD system and reduce the risk of a single asset dominating the system.\n5. The proposal is currently in the \"review\" stage of the Maker Improvement Proposal (MIP) process.",
+          "start": 542,
+          "end": 942
+        }
+      ]
+    },
+    {
+      "source_id": "c3769c696849b9d9c55d69a07",
+      "source_date": "2023-01-20T14:35:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "or the upcoming Harvest Market on September 18th. To do this, we'll need to consider a few factors:\n\n1. **Previous sales data**: How many candles and soaps did you sell at the last market, and what were the most popular items?\n2. **Average sales per market**: What's your average sales amount per market?\n3. **Inventory levels**: How many candles and soaps do you currently have in stock?\n4. **Lead t",
+          "start": 557,
+          "end": 957
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm preparing for the upcoming Harvest Market on September 18th and I need help with calculating my inventory. I want to make sure I have enough candles and soaps in stock. By the way, I just debuted my new display materials, including a canopy and tablecloths, at the market last week and it looked really professional.",
+          "start": 0,
+          "end": 326
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.008022167021408677,
+    "native_search_seconds": 0.01751308306120336,
+    "common_spans_seconds": 0.005017417017370462
+  }
+}

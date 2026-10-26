@@ -1,0 +1,22 @@
+{
+  "id": "affb5d6e-f3da-4000-8878-426294caf491",
+  "model": "deepseek-flash",
+  "created": 1792983138,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"partial\",\"answer\":\"About 3 weeks ago (roughly 20 days before 2023-05-06). The evidence only shows that the user had “just downloaded” Ibotta on 2023-04-16, not an exact first-use date.\",\"claims\":[{\"claim\":\"On 2023-04-16, the user said they had just downloaded Ibotta, so by 2023-05-06 it had been about 20 days—roughly 3 weeks—earlier.\",\"citations\":[{\"evidence_id\":\"E00005\",\"quote\":\"I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it.\"}]},{\"claim\":\"The evidence does not give an exact date when the user first began using Ibotta; it only says the app had just been downloaded.\",\"citations\":[{\"evidence_id\":\"E00005\",\"quote\":\"I've just downloaded Ibotta\"}]}],\"selected_sources\":[\"C05\"],\"missing\":\"Exact date the user first started using Ibotta; only the 2023-04-16 statement that it had “just” been downloaded is available.\"}",
+  "usage": {
+    "prompt_tokens": 22500,
+    "completion_tokens": 1664,
+    "total_tokens": 24164,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1401
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 22116
+  },
+  "refusal": null
+}

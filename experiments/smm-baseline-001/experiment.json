@@ -1,0 +1,101 @@
+{
+  "id": "SMM-B001",
+  "version": "1.0.0",
+  "name": "完整对话：准确上下文回答、混合候选筛选、混合候选回答",
+  "date": "2026-10-26",
+  "tasks": {
+    "oracle_answer": "准确上下文回答",
+    "candidate_select": "混合候选筛选",
+    "candidate_answer": "混合候选回答"
+  },
+  "case_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25"
+  ],
+  "answer_clear_case_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P23",
+    "P24"
+  ],
+  "ambiguity_case_ids": [
+    "P22",
+    "P25"
+  ],
+  "official_reference_source_occurrences": 43,
+  "registered_evidence_atoms": 36,
+  "models_imported": [
+    "gpt-6-luna",
+    "gpt-6.1-sol"
+  ],
+  "effort_for_imported_baselines": "low",
+  "retrieval": "Fixed original-question source-BM25Top5 and MiniLM384vectorTop5, union dedup, full raw conversations, chronological order. Rankings are frozen controls; do not rerank when testing another model.",
+  "reproducibility": "All three model tasks and existing scores can be replayed using this folder alone. Re-sampling a model is a new recorded run, not guaranteed byte-identical output. Frozen retrieval replay requires no embeddings or index server; from-scratch embedding/index reconstruction is a different experiment.",
+  "main_metrics": {
+    "oracle_answer": "Correct complete answers /23clear cases; retain original-reference content match /25 and ambiguity notes.",
+    "candidate_select": "Questions whose selected sources contain all36registered evidence needs, with no confirmed unrelated picks; /25questions. Unknown nonreference picks require source review.",
+    "candidate_answer": "Correct complete answers /23clear cases, compared to same models oracle baseline; keep source/quote/entailment diagnostics separate."
+  },
+  "expected_primary": {
+    "luna": {
+      "oracle_answer": 21,
+      "candidate_select": 22,
+      "candidate_answer": 19
+    },
+    "sol": {
+      "oracle_answer": 23,
+      "candidate_select": 25,
+      "candidate_answer": 23
+    }
+  },
+  "caveats": [
+    "25previously-known public English positives, not new blind test or broad model ranking.",
+    "23clear-case slice is retrospective; all25references/results retained.",
+    "No natural no-answer queries; unrelated-pick fraction is not global false-positive rate.",
+    "Semantic labels by parent researcher, not independent external human review.",
+    "One first sample per input; model availability and sampling can change.",
+    "Some source overlaps are redundant historical records; missing every reference source is not mandatory-evidence failure."
+  ]
+}

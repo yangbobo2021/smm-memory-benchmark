@@ -1,0 +1,168 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "5b594459b287bfc7ff43f8ac2156a9449ca43f5865a2397f4addd2a51675d4ee",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Emma graduated first, Rachel second, and Alex third.",
+    "claims": [
+      {
+        "claim": "Emma had just graduated as of the 2022-05-28 conversation: the user said her niece Emma had graduated the previous day.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "My niece Emma just graduated yesterady"
+          }
+        ]
+      },
+      {
+        "claim": "Rachel's master's degree graduation ceremony had occurred the previous day as of the 2022-06-22 conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "Alex had graduated about two weeks before the 2022-07-15 conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "Using the observed conversation dates and relative statements, the graduation order is Emma first, Rachel second, Alex third.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "My niece Emma just graduated yesterady"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "d0c14d21165034340f5ce93b6770b068b3bffcb1351a9f918ac8c6d6c440aa02",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 9165,
+      "completion_tokens": 2638,
+      "total_tokens": 11803,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2326
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 8781
+    },
+    "response_id": "d61af456-2089-4d15-9a7f-3fa3f2e60d18",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 17.06318479194306
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "My niece Emma just graduated yesterady",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "valid": true,
+        "source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-06-22T11:46:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago.",
+        "valid": true,
+        "source_id": "c967f69f5e97bb77d7922817a",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-07-15T10:48:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "My niece Emma just graduated yesterady",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00002",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "valid": true,
+        "source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-06-22T11:46:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00003",
+        "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago.",
+        "valid": true,
+        "source_id": "c967f69f5e97bb77d7922817a",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-07-15T10:48:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P21.json",
+  "raw_response_sha256": "5fd694f5188b6570bc62e0d9336c5e7ad8b051996163dc95aa6d501be3f7a160"
+}

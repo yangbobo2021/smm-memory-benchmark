@@ -1,0 +1,640 @@
+{
+  "case_id": "P07",
+  "product": "smm",
+  "namespace": "qf6a933ae4901_n100",
+  "query": "How many dinner parties have I attended in the past month?",
+  "clock": "2023-05-30T14:40:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c5e13079f8999c5bfd339aab7",
+          "score": 8.814184165130243
+        },
+        {
+          "source_id": "c9ad6353d8b6aa8d5c43d4970",
+          "score": 4.682790395304738
+        },
+        {
+          "source_id": "c799a2510389a8ff2e69d96f5",
+          "score": 4.669239420505752
+        },
+        {
+          "source_id": "cb89d784ea4611279edeba7fb",
+          "score": 4.07607583128259
+        },
+        {
+          "source_id": "c787b1bd6404dcedb2fe60e9d",
+          "score": 3.7899518559821863
+        },
+        {
+          "source_id": "c46ec44bb558a10020c8b8f44",
+          "score": 2.91591147589909
+        },
+        {
+          "source_id": "cfe0edfe868d465e49e8d1577",
+          "score": 2.6656306926743665
+        },
+        {
+          "source_id": "cd7cb026375f2abfee90361f0",
+          "score": 2.592676533117401
+        },
+        {
+          "source_id": "cc3461fa65caa347f09bc0857",
+          "score": 2.4088633131492814
+        },
+        {
+          "source_id": "c6be869ca16913ec4ee055e8f",
+          "score": 2.299199352553018
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "c799a2510389a8ff2e69d96f5",
+          "score": 0.5279112761797017
+        },
+        {
+          "source_id": "c42d5d95aed8a139f6e931408",
+          "score": 0.4438629667001145
+        },
+        {
+          "source_id": "c5e13079f8999c5bfd339aab7",
+          "score": 0.43483971845872726
+        },
+        {
+          "source_id": "cc3461fa65caa347f09bc0857",
+          "score": 0.38687025859384644
+        },
+        {
+          "source_id": "cf8ef7e0c91806431c374a40a",
+          "score": 0.38680497699011623
+        },
+        {
+          "source_id": "cc059158150846fe82e1dff65",
+          "score": 0.31437593663646857
+        },
+        {
+          "source_id": "ce9337f954708d0bb349ea7d8",
+          "score": 0.26480412629339223
+        },
+        {
+          "source_id": "cb71f0264fe0eaafc9d3a17f2",
+          "score": 0.26428649375022084
+        },
+        {
+          "source_id": "ce3b89cd9ef5c72c2fc57f005",
+          "score": 0.2611492227275405
+        },
+        {
+          "source_id": "c9ad6353d8b6aa8d5c43d4970",
+          "score": 0.2519764888379613
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c5e13079f8999c5bfd339aab7-c0008",
+        "source_ids": [
+          "c5e13079f8999c5bfd339aab7"
+        ],
+        "hint": "\n\nUSER:\nI love What Do You Meme and Taboo, they're always a hit at parties. I'll definitely consider them for my dinner party. By the way, since we're on the topic of dinner parties, do you have any recommendations for a good wine pairing for my Italian feast? I want to make sure I have a good selection for my guests.",
+        "kind": "bm25-original-match-index",
+        "score": 8.814184165130243,
+        "metadata": {
+          "source_id": "c5e13079f8999c5bfd339aab7",
+          "score": 8.814184165130243,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c5e13079f8999c5bfd339aab7-c0008",
+          "start": 4939,
+          "end": 5258,
+          "source_sha256": "9365b03933d70223a55b4afc7dc63e1eba85b561e0097bc23bd3b518fd8df7a4"
+        }
+      },
+      {
+        "item_id": "vector:c799a2510389a8ff2e69d96f5-c0008",
+        "source_ids": [
+          "c799a2510389a8ff2e69d96f5"
+        ],
+        "hint": "ink I'll have a mix of grilled and non-grilled dishes to cater to different tastes. By the way, I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together. Do you have any tips on ho",
+        "kind": "vector-original-match-index",
+        "score": 0.5279112761797017,
+        "metadata": {
+          "source_id": "c799a2510389a8ff2e69d96f5",
+          "score": 0.5279112761797017,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "c799a2510389a8ff2e69d96f5-c0008",
+          "start": 5039,
+          "end": 5439,
+          "source_sha256": "1d8538f2aa0bebc1d425c9b8e672d3010ee82b69e4ece9f31b47417e079ee86d"
+        }
+      },
+      {
+        "item_id": "bm25:c9ad6353d8b6aa8d5c43d4970-c0007",
+        "source_ids": [
+          "c9ad6353d8b6aa8d5c43d4970"
+        ],
+        "hint": " Knives Out. I've been meaning to see it for a while now, and it sounds like it'll be a fun and engaging movie for my friends and me. Thanks for the suggestion! By the way, I've been meaning to organize my apartment and have a game night or potluck dinner soon, but I need to clean up and declutter first. Do you have any tips on how to declutter and organize my living space quickly and efficiently?",
+        "kind": "bm25-original-match-index",
+        "score": 4.682790395304738,
+        "metadata": {
+          "source_id": "c9ad6353d8b6aa8d5c43d4970",
+          "score": 4.682790395304738,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "c9ad6353d8b6aa8d5c43d4970-c0007",
+          "start": 4573,
+          "end": 4973,
+          "source_sha256": "486efe8999d7c70767f39e6db02a9d2636b244ea6e9af6d4d92c92e367f0bb5c"
+        }
+      },
+      {
+        "item_id": "vector:c42d5d95aed8a139f6e931408-c0004",
+        "source_ids": [
+          "c42d5d95aed8a139f6e931408"
+        ],
+        "hint": "ession with my siblings. Do you think we could also have a potluck where everyone brings a dish to share? That way we can all try each other's favorite foods. By the way, we decided to have this picnic because our last family get-together was so much fun - we had our annual family reunion at my aunt's house last weekend and it was amazing. We're all looking forward to catching up again next month.",
+        "kind": "vector-original-match-index",
+        "score": 0.4438629667001145,
+        "metadata": {
+          "source_id": "c42d5d95aed8a139f6e931408",
+          "score": 0.4438629667001145,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c42d5d95aed8a139f6e931408-c0004",
+          "start": 2390,
+          "end": 2790,
+          "source_sha256": "253ee329487c169424492f00db61900a7436a1905a2c3b8ceefe0f067b12b572"
+        }
+      },
+      {
+        "item_id": "bm25:c799a2510389a8ff2e69d96f5-c0008",
+        "source_ids": [
+          "c799a2510389a8ff2e69d96f5"
+        ],
+        "hint": "ink I'll have a mix of grilled and non-grilled dishes to cater to different tastes. By the way, I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together. Do you have any tips on ho",
+        "kind": "bm25-original-match-index",
+        "score": 4.669239420505752,
+        "metadata": {
+          "source_id": "c799a2510389a8ff2e69d96f5",
+          "score": 4.669239420505752,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "c799a2510389a8ff2e69d96f5-c0008",
+          "start": 5039,
+          "end": 5439,
+          "source_sha256": "1d8538f2aa0bebc1d425c9b8e672d3010ee82b69e4ece9f31b47417e079ee86d"
+        }
+      },
+      {
+        "item_id": "vector:c5e13079f8999c5bfd339aab7-c0004",
+        "source_ids": [
+          "c5e13079f8999c5bfd339aab7"
+        ],
+        "hint": " I think I'll start with the Spaghetti Aglio e Olio and Chicken Parmesan. I've always loved the combination of garlic and olive oil. By the way, speaking of dinner parties, I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast. Do you have any recommendations for board games that would be a good fit for a dinner party?",
+        "kind": "vector-original-match-index",
+        "score": 0.43483971845872726,
+        "metadata": {
+          "source_id": "c5e13079f8999c5bfd339aab7",
+          "score": 0.43483971845872726,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "c5e13079f8999c5bfd339aab7-c0004",
+          "start": 2502,
+          "end": 2902,
+          "source_sha256": "9365b03933d70223a55b4afc7dc63e1eba85b561e0097bc23bd3b518fd8df7a4"
+        }
+      },
+      {
+        "item_id": "bm25:cb89d784ea4611279edeba7fb-c0000",
+        "source_ids": [
+          "cb89d784ea4611279edeba7fb"
+        ],
+        "hint": "USER:\nI'm planning a road trip with my parents to visit my aunt and uncle in another state next month. Can you help me with some tips on how to make the most of our road trip, like what to pack and how to stay entertained during the long drive?",
+        "kind": "bm25-original-match-index",
+        "score": 4.07607583128259,
+        "metadata": {
+          "source_id": "cb89d784ea4611279edeba7fb",
+          "score": 4.07607583128259,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "cb89d784ea4611279edeba7fb-c0000",
+          "start": 0,
+          "end": 244,
+          "source_sha256": "1af381688bf78089364c48a2a7a092c870f5e7885eb0e737ae6be4bd58026995"
+        }
+      },
+      {
+        "item_id": "vector:cc3461fa65caa347f09bc0857-c0000",
+        "source_ids": [
+          "cc3461fa65caa347f09bc0857"
+        ],
+        "hint": "USER:\nI'm trying to plan out my meals for the week. Can you give me some healthy dinner ideas that don't take too long to cook?",
+        "kind": "vector-original-match-index",
+        "score": 0.38687025859384644,
+        "metadata": {
+          "source_id": "cc3461fa65caa347f09bc0857",
+          "score": 0.38687025859384644,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "cc3461fa65caa347f09bc0857-c0000",
+          "start": 0,
+          "end": 127,
+          "source_sha256": "42bbfec6e0d23788ca653a3e1bdd4485f6f873bde9470830911ebdf53f39d308"
+        }
+      },
+      {
+        "item_id": "bm25:c787b1bd6404dcedb2fe60e9d-c0000",
+        "source_ids": [
+          "c787b1bd6404dcedb2fe60e9d"
+        ],
+        "hint": "USER:\nI'm looking for some new vegan recipes to try out. I attended a vegan cooking class at a local culinary school today and learned some great tips and tricks, but I want to keep experimenting with different flavors and ingredients. Do you have any recommendations for vegan dinner recipes that use cashew cream and nutritional yeast?",
+        "kind": "bm25-original-match-index",
+        "score": 3.7899518559821863,
+        "metadata": {
+          "source_id": "c787b1bd6404dcedb2fe60e9d",
+          "score": 3.7899518559821863,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "c787b1bd6404dcedb2fe60e9d-c0000",
+          "start": 0,
+          "end": 337,
+          "source_sha256": "ed6381420ea67eb8f6c87798ad98e27f8f6921fea9faa3672b4104ce1463c29a"
+        }
+      },
+      {
+        "item_id": "vector:cf8ef7e0c91806431c374a40a-c0013",
+        "source_ids": [
+          "cf8ef7e0c91806431c374a40a"
+        ],
+        "hint": "ys curious about new cookbooks, and I might be able to help you with any questions or provide suggestions for recipes to try.\n\nAlso, how do you like the containers you got from Walmart? Are they working out well for you so far?\n\nUSER:\nI didn't mention the name of the cookbook, did I? It's not a specific one, just a general healthy recipes cookbook. And yeah, the containers are working out great! T",
+        "kind": "vector-original-match-index",
+        "score": 0.38680497699011623,
+        "metadata": {
+          "source_id": "cf8ef7e0c91806431c374a40a",
+          "score": 0.38680497699011623,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "cf8ef7e0c91806431c374a40a-c0013",
+          "start": 8458,
+          "end": 8858,
+          "source_sha256": "dc5a3ab58eddc0483f2a6015b47153a6ba59a94576b5268f7b698e34c97205e3"
+        }
+      },
+      {
+        "item_id": "bm25:c46ec44bb558a10020c8b8f44-c0000",
+        "source_ids": [
+          "c46ec44bb558a10020c8b8f44"
+        ],
+        "hint": "USER:\nI'm planning a trip to Japan and I was wondering if you could help me with some cultural differences I should be aware of. By the way, I just attended a pre-departure orientation at my university on February 20th, and it was really helpful.",
+        "kind": "bm25-original-match-index",
+        "score": 2.91591147589909,
+        "metadata": {
+          "source_id": "c46ec44bb558a10020c8b8f44",
+          "score": 2.91591147589909,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "c46ec44bb558a10020c8b8f44-c0000",
+          "start": 0,
+          "end": 246,
+          "source_sha256": "073178b9fd832e6b3c7b17bae6087f838de0ae5cddab1874f4ccea29818adf71"
+        }
+      },
+      {
+        "item_id": "vector:cc059158150846fe82e1dff65-c0025",
+        "source_ids": [
+          "cc059158150846fe82e1dff65"
+        ],
+        "hint": "Okra**: Crispy fried okra adds a nice crunch to the BBQ spread.\n4. **Deviled Eggs**: Deviled eggs are a classic BBQ side dish that's easy to make and always a hit.\n5. **Watermelon Salad**: A refreshing watermelon salad with feta cheese, mint, and balsamic glaze is perfect for hot summer days.\n\n**Sauces and Toppings:**\n\n1. **BBQ Sauce**: A sweet and tangy BBQ sauce is a must-have for any BBQ.\n2. **",
+        "kind": "vector-original-match-index",
+        "score": 0.31437593663646857,
+        "metadata": {
+          "source_id": "cc059158150846fe82e1dff65",
+          "score": 0.31437593663646857,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "cc059158150846fe82e1dff65-c0025",
+          "start": 15448,
+          "end": 15848,
+          "source_sha256": "f32725273b0d5014442d13193dd5e5772af19e74f81f7dafbce7f4666911e430"
+        }
+      },
+      {
+        "item_id": "bm25:cfe0edfe868d465e49e8d1577-c0010",
+        "source_ids": [
+          "cfe0edfe868d465e49e8d1577"
+        ],
+        "hint": "80/month\n\t* Pricing: Device cost: $200 (full price) or $10/month for 24 months (with a 2-year contract)\n3. **AT&T Netgear Nighthawk M1 MR1100**:\n\t* Data plans: Requires an AT&T data plan. Offers a range of plans, including:\n\t\t+ 3GB: $30/month\n\t\t+ 5GB: $40/month\n\t\t+ 10GB: $60/month\n\t\t+ 20GB: $80/month\n\t\t+ Unlimited: $100/month\n\t* Pricing: Device cost: $200 (full price) or $10/month for 24 months (w",
+        "kind": "bm25-original-match-index",
+        "score": 2.6656306926743665,
+        "metadata": {
+          "source_id": "cfe0edfe868d465e49e8d1577",
+          "score": 2.6656306926743665,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "cfe0edfe868d465e49e8d1577-c0010",
+          "start": 5696,
+          "end": 6096,
+          "source_sha256": "cb5e47f0badf7cb7884a911b2c44c359ed57d674a0e3041405c3540d71a94d04"
+        }
+      },
+      {
+        "item_id": "vector:ce9337f954708d0bb349ea7d8-c0000",
+        "source_ids": [
+          "ce9337f954708d0bb349ea7d8"
+        ],
+        "hint": "rts lately, and I'm trying to keep track of all the recent events. Can you remind me of the score of the Super Bowl that was about a month ago? By the way, I had a big party with at least 15 people to watch it, and it was so intense!\n\nASSISTANT:\nI'm happy to help! However, I have to clarify that the Super Bowl is typically held in early February, and it's not possible for it to have taken place ju",
+        "kind": "vector-original-match-index",
+        "score": 0.26480412629339223,
+        "metadata": {
+          "source_id": "ce9337f954708d0bb349ea7d8",
+          "score": 0.26480412629339223,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "ce9337f954708d0bb349ea7d8-c0000",
+          "start": 37,
+          "end": 437,
+          "source_sha256": "b4dfe3c1e4de03d75702b56c53b125c12851f6ca33c6f1f727dd27f18b9259bc"
+        }
+      },
+      {
+        "item_id": "bm25:cd7cb026375f2abfee90361f0-c0007",
+        "source_ids": [
+          "cd7cb026375f2abfee90361f0"
+        ],
+        "hint": "n the survival and well-being of the Bedouin people. They developed a strong bond with their animals and placed great value on them. Many Bedouin tribes believed that animals had a spiritual value and treated them with great respect.\n\n3. Water conservation: Water was scarce in the Arabian Peninsula, and the Bedouin people developed a deep understanding of its importance. They were masters of water",
+        "kind": "bm25-original-match-index",
+        "score": 2.592676533117401,
+        "metadata": {
+          "source_id": "cd7cb026375f2abfee90361f0",
+          "score": 2.592676533117401,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "cd7cb026375f2abfee90361f0-c0007",
+          "start": 4313,
+          "end": 4713,
+          "source_sha256": "48698f04f9c9c9b59c41851783d877699fc443570977ad5ac162bafbedb1b787"
+        }
+      },
+      {
+        "item_id": "vector:cb71f0264fe0eaafc9d3a17f2-c0016",
+        "source_ids": [
+          "cb71f0264fe0eaafc9d3a17f2"
+        ],
+        "hint": "., every Thursday)\n\nYou can also ask about their policies for organizing pickup games or informal play. They might have specific rules or guidelines for informal play, so it's good to check ahead of time.\n\nKeep in mind that court availability and rental rates may vary depending on the facility and time of year. It's possible that they might have more availability during off-peak hours or during th",
+        "kind": "vector-original-match-index",
+        "score": 0.26428649375022084,
+        "metadata": {
+          "source_id": "cb71f0264fe0eaafc9d3a17f2",
+          "score": 0.26428649375022084,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "cb71f0264fe0eaafc9d3a17f2-c0016",
+          "start": 10336,
+          "end": 10736,
+          "source_sha256": "d5581b00a94bf85e927eb5494677e0f2b2b78db6fe2c1c30ba6262fd99b93792"
+        }
+      },
+      {
+        "item_id": "bm25:cc3461fa65caa347f09bc0857-c0003",
+        "source_ids": [
+          "cc3461fa65caa347f09bc0857"
+        ],
+        "hint": "*Sunday**\n\n* **Chicken and Veggie Kabobs**: Skewer chicken breast, veggies (onions, mushrooms, cherry tomatoes), and fruit (pineapple, peaches) for a colorful and healthy dinner. Grill or bake for 12-15 minutes. (20 minutes)\n\nThese dinner ideas are all quick, healthy, and delicious! You can adjust the ingredients and seasonings to suit your taste preferences. Enjoy your meal planning!",
+        "kind": "bm25-original-match-index",
+        "score": 2.4088633131492814,
+        "metadata": {
+          "source_id": "cc3461fa65caa347f09bc0857",
+          "score": 2.4088633131492814,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "cc3461fa65caa347f09bc0857-c0003",
+          "start": 1604,
+          "end": 1991,
+          "source_sha256": "42bbfec6e0d23788ca653a3e1bdd4485f6f873bde9470830911ebdf53f39d308"
+        }
+      },
+      {
+        "item_id": "vector:ce3b89cd9ef5c72c2fc57f005-c0000",
+        "source_ids": [
+          "ce3b89cd9ef5c72c2fc57f005"
+        ],
+        "hint": "USER:\nI'm looking for some new recipes to try out, can you suggest some popular pasta dishes that go well with garlic and parsley?",
+        "kind": "vector-original-match-index",
+        "score": 0.2611492227275405,
+        "metadata": {
+          "source_id": "ce3b89cd9ef5c72c2fc57f005",
+          "score": 0.2611492227275405,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "ce3b89cd9ef5c72c2fc57f005-c0000",
+          "start": 0,
+          "end": 130,
+          "source_sha256": "0b40b1b46f6b11d4f85053e185b29052ea2e0baff363f7f0c0fb5b5df51b59fb"
+        }
+      },
+      {
+        "item_id": "bm25:c6be869ca16913ec4ee055e8f-c0010",
+        "source_ids": [
+          "c6be869ca16913ec4ee055e8f"
+        ],
+        "hint": "\n\nUSER:\nI'll definitely check out those playlists. I've been meaning to explore more OBCRs beyond Hamilton, and this is the perfect starting point. Speaking of Hamilton, I've been listening to the soundtrack non-stop for the past month, and I'm still not tired of it. Have you got any recommendations for other hip-hop or R&B-infused musicals that I might enjoy?",
+        "kind": "bm25-original-match-index",
+        "score": 2.299199352553018,
+        "metadata": {
+          "source_id": "c6be869ca16913ec4ee055e8f",
+          "score": 2.299199352553018,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c6be869ca16913ec4ee055e8f-c0010",
+          "start": 6154,
+          "end": 6516,
+          "source_sha256": "9f94d960a7154218e95b974295283422e5e8d2b2b100f6c2b400b05104ad5c7b"
+        }
+      },
+      {
+        "item_id": "vector:c9ad6353d8b6aa8d5c43d4970-c0000",
+        "source_ids": [
+          "c9ad6353d8b6aa8d5c43d4970"
+        ],
+        "hint": "USER:\nI'm planning a movie night with friends next week and I want to pick a movie that everyone will enjoy. Can you suggest some popular movies from the past year that are good for a group? By the way, I just got back from a birthday party for my colleague and friend, David, last week, and it was amazing - we had a blast playing laser tag and singing karaoke!",
+        "kind": "vector-original-match-index",
+        "score": 0.2519764888379613,
+        "metadata": {
+          "source_id": "c9ad6353d8b6aa8d5c43d4970",
+          "score": 0.2519764888379613,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "c9ad6353d8b6aa8d5c43d4970-c0000",
+          "start": 0,
+          "end": 362,
+          "source_sha256": "486efe8999d7c70767f39e6db02a9d2636b244ea6e9af6d4d92c92e367f0bb5c"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c5e13079f8999c5bfd339aab7",
+    "c9ad6353d8b6aa8d5c43d4970",
+    "c799a2510389a8ff2e69d96f5",
+    "cb89d784ea4611279edeba7fb",
+    "c787b1bd6404dcedb2fe60e9d",
+    "c42d5d95aed8a139f6e931408",
+    "cc3461fa65caa347f09bc0857",
+    "cf8ef7e0c91806431c374a40a"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c5e13079f8999c5bfd339aab7",
+      "source_date": "2023-05-22T10:28:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm looking for some Italian recipe ideas for a dinner party I'm hosting soon. I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes. Do you have any recommendations for a beginner like me?",
+          "start": 0,
+          "end": 249
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nThat's a great list of recipes! I think I'll start with the Spaghetti Aglio e Olio and Chicken Parmesan. I've always loved the combination of garlic and olive oil. By the way, speaking of dinner parties, I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast. Do you have any recommendations for board games that ",
+          "start": 2463,
+          "end": 2863
+        }
+      ]
+    },
+    {
+      "source_id": "c9ad6353d8b6aa8d5c43d4970",
+      "source_date": "2023-05-20T02:28:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "r Asana to help you organize and prioritize your tasks.\n\n**Time Management:**\n\n1. **Create a schedule:** Plan out your day, week, or month, and schedule time blocks for tasks, social events, and self-care.\n2. **Learn to say no:** Don't overcommit yourself by taking on too many tasks or social engagements. Learn to say no when necessary to maintain a healthy work-life balance.\n3. **Use time-blockin",
+          "start": 15009,
+          "end": 15409
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning a movie night with friends next week and I want to pick a movie that everyone will enjoy. Can you suggest some popular movies from the past year that are good for a group? By the way, I just got back from a birthday party for my colleague and friend, David, last week, and it was amazing - we had a blast playing laser tag and singing karaoke!",
+          "start": 0,
+          "end": 362
+        }
+      ]
+    },
+    {
+      "source_id": "c799a2510389a8ff2e69d96f5",
+      "source_date": "2023-05-21T19:16:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nThat's great! I think I'll have a mix of grilled and non-grilled dishes to cater to different tastes. By the way, I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together. ",
+          "start": 5013,
+          "end": 5413
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm looking for some new recipe ideas for a dinner party I'm hosting soon. Do you have any suggestions for a potluck theme, where everyone brings a dish from a different cuisine?",
+          "start": 0,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "source_id": "cb89d784ea4611279edeba7fb",
+      "source_date": "2023-05-27T19:53:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning a road trip with my parents to visit my aunt and uncle in another state next month. Can you help me with some tips on how to make the most of our road trip, like what to pack and how to stay entertained during the long drive?",
+          "start": 0,
+          "end": 244
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nA road trip with your parents sounds like a great adventure! I'd be happy to help you make the most of your trip. Here are some tips on what to pack, how to stay entertained, and more to ensure a fun and memorable journey:\n\n**Packing Essentials:**\n\n1. **Clothing:** Pack comfortable clothing, layers for changing weather, and a few nicer outfits for dinner or special occasions.\n2. **Toi",
+          "start": 244,
+          "end": 644
+        }
+      ]
+    },
+    {
+      "source_id": "c787b1bd6404dcedb2fe60e9d",
+      "source_date": "2023-05-29T00:35:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm looking for some new vegan recipes to try out. I attended a vegan cooking class at a local culinary school today and learned some great tips and tricks, but I want to keep experimenting with different flavors and ingredients. Do you have any recommendations for vegan dinner recipes that use cashew cream and nutritional yeast?",
+          "start": 0,
+          "end": 337
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nWhat a great combo! Cashew cream and nutritional yeast are both amazing ingredients that can add richness, creaminess, and cheesy flavors to vegan dishes. Here are some delicious vegan dinner recipes that feature these ingredients:\n\n**Cashew Cream Recipes:**\n\n1. **Vegan Mac and Cheese**: A classic comfort food! Blend cashew cream with lemon juice, apple cider vinegar, garlic powder, a",
+          "start": 337,
+          "end": 737
+        }
+      ]
+    },
+    {
+      "source_id": "c42d5d95aed8a139f6e931408",
+      "source_date": "2023-05-23T16:07:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning a picnic at the park next month and was wondering if you could suggest some fun outdoor games we could play?",
+          "start": 0,
+          "end": 127
+        },
+        {
+          "role": "user",
+          "text": "ession with my siblings. Do you think we could also have a potluck where everyone brings a dish to share? That way we can all try each other's favorite foods. By the way, we decided to have this picnic because our last family get-together was so much fun - we had our annual family reunion at my aunt's house last weekend and it was amazing. We're all looking forward to catching up again next month.",
+          "start": 2390,
+          "end": 2790
+        }
+      ]
+    },
+    {
+      "source_id": "cc3461fa65caa347f09bc0857",
+      "source_date": "2023-05-22T19:46:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "*Sunday**\n\n* **Chicken and Veggie Kabobs**: Skewer chicken breast, veggies (onions, mushrooms, cherry tomatoes), and fruit (pineapple, peaches) for a colorful and healthy dinner. Grill or bake for 12-15 minutes. (20 minutes)\n\nThese dinner ideas are all quick, healthy, and delicious! You can adjust the ingredients and seasonings to suit your taste preferences. Enjoy your meal planning!",
+          "start": 1604,
+          "end": 1991
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm trying to plan out my meals for the week. Can you give me some healthy dinner ideas that don't take too long to cook?",
+          "start": 0,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "source_id": "cf8ef7e0c91806431c374a40a",
+      "source_date": "2023-05-27T18:54:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "freeze for up to 3 days.\n3. **Muffin Tin Frittatas**: Whisk eggs, milk, and diced veggies like spinach and bell peppers. Pour into muffin tins and bake until set. Refrigerate or freeze for up to 5 days.\n\n**Lunch and Dinner Ideas**\n\n1. **Grilled Chicken and Veggies**: Marinate chicken breast in your favorite seasonings and grill with veggies like broccoli, carrots, and sweet potatoes. Portion into ",
+          "start": 815,
+          "end": 1215
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nUSER:\nI'm glad you mentioned I bought a bunch of containers at Walmart recently. I actually got them along with a new cookbook that focuses on healthy recipes.\n\nASSISTANT:\nThat's awesome! It sounds like you're all set up for meal prep success! Congratulations on the new cookbook, too! Having a new cookbook can be really exciting, and it's great that you're already thinking about putting the reci",
+          "start": 7948,
+          "end": 8348
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.035239707911387086,
+    "native_search_seconds": 0.006892499979585409,
+    "common_spans_seconds": 0.006129084154963493
+  }
+}

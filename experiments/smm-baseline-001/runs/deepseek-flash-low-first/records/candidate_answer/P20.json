@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P20",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "83cfa2d1aa900c9461c473500cdbb362066fc4f4cdb8e05e1735f3f56193bc5a",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You stop checking work emails and messages by 7 pm.",
+    "claims": [
+      {
+        "claim": "The user stated they stop checking work emails and messages by 7 pm.",
+        "citations": [
+          {
+            "evidence_id": "E00009",
+            "quote": "stopping work emails and messages by 7 pm"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C09"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "ff974eec92b2cefc699247d1a02376a4092d5645cd371b513377f6bf79d357ba",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 25870,
+      "completion_tokens": 192,
+      "total_tokens": 26062,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 25486
+    },
+    "response_id": "5b3a34b2-e8ba-490d-84e0-d1c6e4da2f93",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.948593334062025
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00009",
+        "quote": "stopping work emails and messages by 7 pm",
+        "valid": true,
+        "source_id": "c1c7c4c03a55cac4522db0a20",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-29T04:01:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P20.json",
+  "raw_response_sha256": "5b7d5cd4d986f56253d7c5979f0cc83a6fa3b4a9366b75b104de8be1d379acf9"
+}

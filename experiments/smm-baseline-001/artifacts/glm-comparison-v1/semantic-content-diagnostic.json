@@ -1,0 +1,103 @@
+{
+  "gpt-6-luna": {
+    "oracle_answer": {
+      "semantic_content_correct": 21,
+      "clear_questions": 23,
+      "generated_clear_answers": 23,
+      "semantic_wrong_case_ids": [
+        "P06",
+        "P08"
+      ],
+      "format_error_case_ids": [],
+      "generation_error_case_ids": [],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    },
+    "candidate_answer": {
+      "semantic_content_correct": 19,
+      "clear_questions": 23,
+      "generated_clear_answers": 23,
+      "semantic_wrong_case_ids": [
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "format_error_case_ids": [],
+      "generation_error_case_ids": [],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    }
+  },
+  "gpt-6.1-sol": {
+    "oracle_answer": {
+      "semantic_content_correct": 23,
+      "clear_questions": 23,
+      "generated_clear_answers": 23,
+      "semantic_wrong_case_ids": [],
+      "format_error_case_ids": [],
+      "generation_error_case_ids": [],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    },
+    "candidate_answer": {
+      "semantic_content_correct": 23,
+      "clear_questions": 23,
+      "generated_clear_answers": 23,
+      "semantic_wrong_case_ids": [],
+      "format_error_case_ids": [],
+      "generation_error_case_ids": [],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    }
+  },
+  "glm-5.3-flash": {
+    "oracle_answer": {
+      "semantic_content_correct": 23,
+      "clear_questions": 23,
+      "generated_clear_answers": 23,
+      "semantic_wrong_case_ids": [],
+      "format_error_case_ids": [],
+      "generation_error_case_ids": [
+        "P25"
+      ],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    },
+    "candidate_answer": {
+      "semantic_content_correct": 21,
+      "clear_questions": 23,
+      "generated_clear_answers": 23,
+      "semantic_wrong_case_ids": [
+        "P07",
+        "P21"
+      ],
+      "format_error_case_ids": [],
+      "generation_error_case_ids": [],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    }
+  },
+  "glm-5.3": {
+    "oracle_answer": {
+      "semantic_content_correct": 22,
+      "clear_questions": 23,
+      "generated_clear_answers": 22,
+      "semantic_wrong_case_ids": [],
+      "format_error_case_ids": [
+        "P01",
+        "P03"
+      ],
+      "generation_error_case_ids": [
+        "P06"
+      ],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    },
+    "candidate_answer": {
+      "semantic_content_correct": 23,
+      "clear_questions": 23,
+      "generated_clear_answers": 23,
+      "semantic_wrong_case_ids": [],
+      "format_error_case_ids": [
+        "P15",
+        "P20"
+      ],
+      "generation_error_case_ids": [],
+      "note": "Diagnostic only: reads actual semantic review even where frozen primary rejects duplicate source IDs. Does not replace the frozen metric."
+    }
+  }
+}

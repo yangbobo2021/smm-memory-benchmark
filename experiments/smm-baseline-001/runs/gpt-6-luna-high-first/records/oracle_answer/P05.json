@@ -1,0 +1,94 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P05",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "b990f00d81be44055946bf9d2cba3170253adec0aa71a9be6e1ba8bbb8eeb1c5",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Your latest estimate is around 10–12 hours, up from the 5–6 hours you reported earlier.",
+    "claims": [
+      {
+        "claim": "The latest reported time spent on the abstract ocean sculpture is around 10–12 hours.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've already put in 10-12 hours, and it's still a work in progress."
+          }
+        ]
+      },
+      {
+        "claim": "Earlier, you reported spending around 5–6 hours on it.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've spent around 5-6 hours on it so far."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.821806,
+    "thread_setup_seconds": 0.087828,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.821806,
+    "turn_seconds": 6.733977,
+    "first_text_seconds": 5.831398,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 18182,
+      "completion_tokens": 307,
+      "total_tokens": 18489,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 148
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've already put in 10-12 hours, and it's still a work in progress.",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "I've spent around 5-6 hours on it so far.",
+        "valid": true,
+        "source_id": "ca1d9de8e9c37808891cece4b",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-11T03:51:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

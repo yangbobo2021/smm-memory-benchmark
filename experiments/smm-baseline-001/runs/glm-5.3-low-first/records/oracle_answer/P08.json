@@ -1,0 +1,132 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "Based on your own statements, you have used three different types of citrus fruits in your cocktail recipes: orange, lime, and lemon. Orange: your homemade orange bitters made with orange peels; Lime: your classic Daiquiri and Cucumber Gimlet both use fresh lime juice; Lemon: your Sangria made with slices of orange and lemon (the orange slice here reinforces orange).",
+    "claims": [
+      {
+        "claim": "User made their own orange bitters using orange peels and vodka",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been experimenting with bitters lately and recently made my own orange bitters using orange peels and vodka."
+          }
+        ]
+      },
+      {
+        "claim": "User learned to make a classic Daiquiri using fresh lime juice and simple syrup",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class."
+          }
+        ]
+      },
+      {
+        "claim": "User made a Cucumber Gimlet with lime juice and simple syrup",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup"
+          }
+        ]
+      },
+      {
+        "claim": "User served Sangria with slices of orange and lemon",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "missing": "No evidence that the user has actually used grapefruit or other citrus types in their own recipes (grapefruit etc. appear only in assistant suggestions)."
+  },
+  "metrics": {
+    "seconds": 11.193984791869298,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 437,
+      "completion_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "prompt_tokens": 13489,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 13926
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been experimenting with bitters lately and recently made my own orange bitters using orange peels and vodka.",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class.",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00004",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

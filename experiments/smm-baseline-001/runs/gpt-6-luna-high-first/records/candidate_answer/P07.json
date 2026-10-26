@@ -1,0 +1,144 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "98064e2acbba12afac003b09f5d59c4c9211335a8aab9a218f861ee35d58c3ca",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Based on the events mentioned, you attended 3 dinner parties in the past month: a potluck at Alex’s, a BBQ at Mike’s, and an Italian feast at Sarah’s.",
+    "claims": [
+      {
+        "claim": "The user attended a potluck gathering at Alex’s and a BBQ gathering at Mike’s, both described as dinner-party experiences.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together."
+          }
+        ]
+      },
+      {
+        "claim": "The user attended an Italian feast at Sarah’s the previous week.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week"
+          }
+        ]
+      },
+      {
+        "claim": "Those references amount to 3 dinner-party gatherings in the past month.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "the ones we had at Alex's place yesterday"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "at Mike's place, where we had a BBQ"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 11.363584,
+    "thread_setup_seconds": 0.085715,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.363584,
+    "turn_seconds": 11.277868,
+    "first_text_seconds": 9.066518,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 35480,
+      "completion_tokens": 822,
+      "total_tokens": 36302,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 516
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "the ones we had at Alex's place yesterday",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "at Mike's place, where we had a BBQ",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

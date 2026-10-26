@@ -1,0 +1,49 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "candidate_select",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "a2fccd5a3c850ea2e1e5eca698e21e12a6ddde42103568932b27bf111d8c6530",
+  "imported": false,
+  "output": {
+    "selected_sources": [
+      "C05"
+    ]
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "6b5808af234fef47b7ee57c6be90f4e8e6bb14becce0d5ba0d83d1ac90bb0d9f",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 22247,
+      "completion_tokens": 327,
+      "total_tokens": 22574,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 316
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 22119
+    },
+    "response_id": "42701959-661d-4c2f-9d31-9b164801458d",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.195886541157961
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": null,
+    "citations": []
+  },
+  "raw_response": "raw/candidate_select/P22.json",
+  "raw_response_sha256": "944884657ac8bf3b7d3858ec9ec102919164c8c28d7f5cf417fe443012968190"
+}

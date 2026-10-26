@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P18",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "c37d01f070f9c30c00dc85e28bbae67596f4f785df0a405516d92bbb85489c59",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You spent $800 on the designer handbag, which you mentioned buying last month.",
+    "claims": [
+      {
+        "claim": "The user stated they bought a designer handbag for exactly $800 last month.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04"
+    ],
+    "missing": "The exact purchase date, retailer, and brand of the handbag are not stated in the evidence."
+  },
+  "metrics": {
+    "seconds": 25.15598487481475,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 325,
+      "completion_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "prompt_tokens": 23129,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 23454
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+        "valid": true,
+        "source_id": "cda869cbb99225b9233bf65e7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-23T08:15:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

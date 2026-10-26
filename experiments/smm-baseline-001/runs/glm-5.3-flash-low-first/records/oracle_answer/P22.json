@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "约3周前（20天）。您在2023-04-16的对话中说“我刚刚下载了Ibotta”，从2023-05-06的参考时间算起约为20天，即约3周。",
+    "claims": [
+      {
+        "claim": "用户在2023-04-16表示刚下载Ibotta",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "无法确定确切的下载日期（“刚刚”是近似表述），仅能以对话时间2023-04-16估计。"
+  },
+  "metrics": {
+    "seconds": 6.6198951669503,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "reasoning_tokens": 40
+      },
+      "prompt_tokens": 3400,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 3629
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

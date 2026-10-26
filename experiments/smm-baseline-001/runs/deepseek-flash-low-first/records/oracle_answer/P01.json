@@ -1,0 +1,117 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "d011b7215caa9127ef4e5122f8b3ea1f4ed46a62497e6ab291072f05ac5968b5",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes. You later stated that you had finished reading “The Nightingale” by Kristin Hannah, after earlier saying you had put it down temporarily.",
+    "claims": [
+      {
+        "claim": "On 2023-01-21, you said you had temporarily put down “The Nightingale” and had not yet returned to it.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been meaning to get back to \"The Nightingale\" by Kristin Hannah, which I put down temporarily because it was getting too emotional"
+          }
+        ]
+      },
+      {
+        "claim": "On 2023-03-30, you stated that you had recently finished “The Nightingale.”",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah"
+          }
+        ]
+      },
+      {
+        "claim": "You later confirmed again that you had finished reading it recently.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I was thinking about \"The Nightingale\" by Kristin Hannah, which I finished reading recently."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "ce82ef5065226cdd121110ba6d43847a09728e0adbdb9763ca408bdd92d9a7e8",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 6107,
+      "completion_tokens": 526,
+      "total_tokens": 6633,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6107
+    },
+    "response_id": "edce51f3-7302-43f4-8ab2-d3203367468f",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.673268416896462
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been meaning to get back to \"The Nightingale\" by Kristin Hannah, which I put down temporarily because it was getting too emotional",
+        "valid": true,
+        "source_id": "c6cfd58034e25f4def8503729",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-01-21T15:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I was thinking about \"The Nightingale\" by Kristin Hannah, which I finished reading recently.",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P01.json",
+  "raw_response_sha256": "4fe3d85b1242074dff673417360c09f050e9a1d19ad4fa3ebfb776e3a9843f92"
+}

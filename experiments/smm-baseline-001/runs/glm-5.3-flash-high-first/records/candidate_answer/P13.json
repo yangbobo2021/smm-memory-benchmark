@@ -1,0 +1,123 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "According to the previous chat, the Chiefs played the Jaguars 12 times at Arrowhead Stadium in Kansas City (regular season games only, as of the 2021 knowledge cutoff; the Chiefs won 10 of those and the Jaguars won 2).",
+    "claims": [
+      {
+        "claim": "12 of the Chiefs–Jaguars games were played at Arrowhead Stadium in Kansas City.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs."
+          }
+        ]
+      },
+      {
+        "claim": "Of those 12 Arrowhead games, the Chiefs won 10 and the Jaguars won 2.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Of the 12 games that were played between the Kansas City Chiefs and the Jacksonville Jaguars at Arrowhead Stadium in Kansas City, Missouri, the Chiefs won 10 games, while the Jaguars won 2 games."
+          }
+        ]
+      },
+      {
+        "claim": "The figures are regular-season only and may have changed since the 2021 knowledge cutoff.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "It is worth mentioning that these statistics are based on regular season games only, not including playoffs games."
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "as my knowledge cut-off date is 2021, these statistics may have changed since then."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": "None for this question; no other conversation in the evidence discusses Chiefs vs. Jaguars at Arrowhead Stadium, so the count cannot be cross-checked against another chat."
+  },
+  "metrics": {
+    "seconds": 21.532811084063724,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 787,
+      "completion_tokens_details": {
+        "reasoning_tokens": 352
+      },
+      "prompt_tokens": 20619,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 21406
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "Of the 12 games that were played between the Kansas City Chiefs and the Jacksonville Jaguars at Arrowhead Stadium in Kansas City, Missouri, the Chiefs won 10 games, while the Jaguars won 2 games.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00007",
+        "quote": "It is worth mentioning that these statistics are based on regular season games only, not including playoffs games.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00007",
+        "quote": "as my knowledge cut-off date is 2021, these statistics may have changed since then.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

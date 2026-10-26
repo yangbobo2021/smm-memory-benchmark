@@ -1,0 +1,22 @@
+{
+  "id": "5b3a34b2-e8ba-490d-84e0-d1c6e4da2f93",
+  "model": "deepseek-flash",
+  "created": 1792981227,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"You stop checking work emails and messages by 7 pm.\",\"claims\":[{\"claim\":\"The user stated they stop checking work emails and messages by 7 pm.\",\"citations\":[{\"evidence_id\":\"E00009\",\"quote\":\"stopping work emails and messages by 7 pm\"}]}],\"selected_sources\":[\"C09\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 25870,
+    "completion_tokens": 192,
+    "total_tokens": 26062,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 110
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 25486
+  },
+  "refusal": null
+}

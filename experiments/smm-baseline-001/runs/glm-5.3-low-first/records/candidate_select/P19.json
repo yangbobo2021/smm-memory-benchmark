@@ -1,0 +1,42 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P19",
+  "task": "candidate_select",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "3c0cdd07951fd1a7054a4cb271d2ae5da256838bc27ef9ad230fc1b1e01fbb8f",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "selected_sources": [
+      "C03"
+    ]
+  },
+  "metrics": {
+    "seconds": 6.218531416961923,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 9,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 19199,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "total_tokens": 19208
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": null,
+    "citations": []
+  }
+}

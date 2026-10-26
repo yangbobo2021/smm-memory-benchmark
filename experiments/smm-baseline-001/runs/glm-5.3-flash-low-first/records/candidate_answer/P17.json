@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P17",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "51f61766f7192ee600f03b3b6b918d14913a62ea61edb60bab5f865ac12e6ca9",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You reported catching 12 largemouth bass on your last trip to Lake Michigan.",
+    "claims": [
+      {
+        "claim": "The user caught 12 largemouth bass on their last Lake Michigan trip.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I caught 12 largemouth bass on my last trip there"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ": false}null{"
+  },
+  "metrics": {
+    "seconds": 5.497287834063172,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 121,
+      "completion_tokens_details": {
+        "reasoning_tokens": 33
+      },
+      "prompt_tokens": 24289,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 24410
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I caught 12 largemouth bass on my last trip there",
+        "valid": true,
+        "source_id": "c7597a97e2ced0ac9fccbba67",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T06:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

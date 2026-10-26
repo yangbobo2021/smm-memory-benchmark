@@ -1,0 +1,22 @@
+{
+  "id": "128e78d0-d278-41d9-8f6d-528ad267d240",
+  "model": "deepseek-flash",
+  "created": 1792981343,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"partial\",\"answer\":\"The evidence only says that on Tuesdays and Thursdays you started waking up 15 minutes earlier to meditate and practice yoga; it does not state the exact clock time for those days. A separate statement mentions waking at 7:00 AM, but not specifically for Tuesdays and Thursdays.\",\"claims\":[{\"claim\":\"On Tuesdays and Thursdays, the user started waking up 15 minutes earlier to meditate and practice yoga.\",\"citations\":[{\"evidence_id\":\"E00004\",\"quote\":\"On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses\"}]},{\"claim\":\"A separate user statement mentions a 7:00 AM wake-up time and a usual 8:30 AM wake-up, but does not tie either to Tuesdays or Thursdays.\",\"citations\":[{\"evidence_id\":\"E00008\",\"quote\":\"I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call\"}]}],\"selected_sources\":[\"C04\",\"C08\"],\"missing\":\"The exact Tuesday/Thursday wake-up time and the baseline wake time used for the '15 minutes earlier' statement are not provided.\"}",
+  "usage": {
+    "prompt_tokens": 26467,
+    "completion_tokens": 1290,
+    "total_tokens": 27757,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1017
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 26083
+  },
+  "refusal": null
+}

@@ -1,0 +1,83 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "5d6e43f8339edc46eba5002fc1ec45c361110aa67fd6e22d1d68c8b9385d828f",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes — based on your messages in the conversation from 2023-03-30 (C07), you finished reading 'The Nightingale' by Kristin Hannah. You said you 'recently finished \"The Nightingale\" by Kristin Hannah' and later that you 'finished reading recently', and discussed loving the ending and the bond between Vianne and Isabelle.",
+    "claims": [
+      {
+        "claim": "User finished reading 'The Nightingale' by Kristin Hannah recently (before 2023-03-30).",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I also recently finished "
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "by Kristin Hannah, which I finished reading recently"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": "Exact finish date cannot be determined."
+  },
+  "metrics": {
+    "seconds": 9.196403790963814,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 209,
+      "completion_tokens_details": {
+        "reasoning_tokens": 33
+      },
+      "prompt_tokens": 25090,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 25299
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "I also recently finished ",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "by Kristin Hannah, which I finished reading recently",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

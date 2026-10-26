@@ -1,0 +1,131 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "5b594459b287bfc7ff43f8ac2156a9449ca43f5865a2397f4addd2a51675d4ee",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "Emma graduated first (late May 2022), Rachel second (mid-June 2022), and Alex third (around early July 2022).",
+    "claims": [
+      {
+        "claim": "Emma graduated in late May 2022",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "My niece Emma just graduated yesterady"
+          }
+        ]
+      },
+      {
+        "claim": "Emma's graduation ceremony was a sunny Saturday in late May",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May"
+          }
+        ]
+      },
+      {
+        "claim": "Rachel's master's graduation was the day before 2022-06-22 (mid-June)",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "Alex graduated with an engineering degree about two weeks before 2022-07-15 (around early July)",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": "Exact graduation dates are not stated; the ordering is inferred from the conversations' dates and the relative timing mentioned."
+  },
+  "metrics": {
+    "seconds": 10.170108166988939,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 346,
+      "completion_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "prompt_tokens": 8864,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 9210
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "My niece Emma just graduated yesterady",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "valid": true,
+        "source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-06-22T11:46:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00003",
+        "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago",
+        "valid": true,
+        "source_id": "c967f69f5e97bb77d7922817a",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-07-15T10:48:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

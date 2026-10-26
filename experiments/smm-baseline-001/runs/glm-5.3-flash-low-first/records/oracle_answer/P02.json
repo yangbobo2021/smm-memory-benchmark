@@ -1,0 +1,89 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P02",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "69a826f9482cf85a2dde7568445746705f10fed91060c4e7346b9144c3d27335",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Based on the most recent evidence, you have 20 dozen eggs stocked in the refrigerator.",
+    "claims": [
+      {
+        "claim": "As of the 2023-03-15 conversation, the user stated they have 20 dozen eggs stocked up in the fridge",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "we've got 20 dozen stocked up in the fridge right now"
+          }
+        ]
+      },
+      {
+        "claim": "An earlier conversation (2023-01-11) mentioned 30 dozen eggs, but this is superseded by the more recent count",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ": []}"
+  },
+  "metrics": {
+    "seconds": 6.258942375192419,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 181,
+      "completion_tokens_details": {
+        "reasoning_tokens": 16
+      },
+      "prompt_tokens": 8562,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 8743
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "we've got 20 dozen stocked up in the fridge right now",
+        "valid": true,
+        "source_id": "ca3586c9f696b9c5035ebf62c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-15T08:18:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!",
+        "valid": true,
+        "source_id": "c4d5e76892eb66ee21cf151ae",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-01-11T23:15:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

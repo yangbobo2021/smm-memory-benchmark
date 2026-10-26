@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-26T01:44:30.224Z",
+  "key_label": "second user-provided test key; value never saved",
+  "probes": [
+    {
+      "endpoint": "https://open.bigmodel.cn/api/coding/paas/v4",
+      "requested_model": "glm-5.3-flash",
+      "request": {
+        "model": "glm-5.3-flash",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Return only {\"ok\":true} as valid JSON."
+          }
+        ],
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "max_tokens": 8192,
+        "stream": false,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "http_status": 200,
+      "seconds": 2.078,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\"ok\":true}",
+              "role": "assistant",
+              "reasoning_characters": 18
+            }
+          }
+        ],
+        "created": 1792978994,
+        "id": "20261026094313cad66e1c8ebb402d",
+        "model": "glm-5.3-flash",
+        "object": "chat.completion",
+        "request_id": "20261026094313cad66e1c8ebb402d",
+        "usage": {
+          "completion_tokens": 11,
+          "completion_tokens_details": {
+            "reasoning_tokens": 4
+          },
+          "prompt_tokens": 23,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 34
+        }
+      }
+    },
+    {
+      "endpoint": "https://open.bigmodel.cn/api/paas/v4",
+      "requested_model": "glm-5.3-flash",
+      "request": {
+        "model": "glm-5.3-flash",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Return only {\"ok\":true} as valid JSON."
+          }
+        ],
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "max_tokens": 8192,
+        "stream": false,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "http_status": 200,
+      "seconds": 2.193,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\"ok\":true}",
+              "role": "assistant",
+              "reasoning_characters": 17
+            }
+          }
+        ],
+        "created": 1792978997,
+        "id": "20261026094315788f7ff07a5f4acf",
+        "model": "glm-5.3-flash",
+        "object": "chat.completion",
+        "request_id": "20261026094315788f7ff07a5f4acf",
+        "usage": {
+          "completion_tokens": 11,
+          "completion_tokens_details": {
+            "reasoning_tokens": 4
+          },
+          "prompt_tokens": 23,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 34
+        }
+      }
+    },
+    {
+      "kind": "enabled-low-strict-json-schema",
+      "endpoint": "https://open.bigmodel.cn/api/coding/paas/v4",
+      "requested_model": "glm-5.3-flash",
+      "request": {
+        "model": "glm-5.3-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return valid JSON according to the supplied schema."
+          },
+          {
+            "role": "user",
+            "content": "Return {\"ok\":true}."
+          }
+        ],
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "max_tokens": 8192,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "smm_probe",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "ok": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "ok"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "http_status": 200,
+      "seconds": 2.165,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\"ok\":true}",
+              "role": "assistant",
+              "reasoning_characters": 12
+            }
+          }
+        ],
+        "created": 1792979014,
+        "id": "2026102609433374ccb504387c458b",
+        "model": "glm-5.3-flash",
+        "object": "chat.completion",
+        "request_id": "2026102609433374ccb504387c458b",
+        "usage": {
+          "completion_tokens": 10,
+          "completion_tokens_details": {
+            "reasoning_tokens": 3
+          },
+          "prompt_tokens": 28,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 38
+        }
+      }
+    },
+    {
+      "kind": "enabled-low-strict-json-schema",
+      "endpoint": "https://open.bigmodel.cn/api/coding/paas/v4",
+      "requested_model": "glm-5.3",
+      "request": {
+        "model": "glm-5.3",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return valid JSON according to the supplied schema."
+          },
+          {
+            "role": "user",
+            "content": "Return {\"ok\":true}."
+          }
+        ],
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low",
+        "max_tokens": 8192,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "smm_probe",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "ok": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "ok"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "http_status": 200,
+      "seconds": 3.445,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "{\"ok\":true}",
+              "role": "assistant",
+              "reasoning_characters": 41
+            }
+          }
+        ],
+        "created": 1792979018,
+        "id": "202610260943357650b4f2707b4f50",
+        "model": "glm-5.3",
+        "object": "chat.completion",
+        "request_id": "202610260943357650b4f2707b4f50",
+        "usage": {
+          "completion_tokens": 15,
+          "completion_tokens_details": {
+            "reasoning_tokens": 8
+          },
+          "prompt_tokens": 28,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 43
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P17",
+  "task": "oracle_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "ed632a5921416785c6d9d26b074937081a76bcc16ef3231a7ad273b6eac6e4ec",
+  "output": {
+    "status": "answer",
+    "answer": "You caught 12 largemouth bass.",
+    "claims": [
+      {
+        "claim": "You caught 12 largemouth bass on your last trip to Lake Michigan.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've had some experience with fishing in Lake Michigan, and I've found that spinner lures worked better for trout than live bait. Also, I caught 12 largemouth bass on my last trip there"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.682978,
+    "thread_setup_seconds": 0.081399,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.682978,
+    "turn_seconds": 5.601579,
+    "first_text_seconds": 4.612951,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 15049,
+      "completion_tokens": 112,
+      "total_tokens": 15161,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P17.json",
+  "raw_receipt_sha256": "8cd58557981c049aa36ade251844e67bd68e842c1e88eb1e805fb2420f762595",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6.1-sol/P17.json"
+}

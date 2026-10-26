@@ -1,0 +1,69 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P16",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "343b8a3ac082b18e091e9d74fc2301b465ba4d040407c10a62806fa1a10c5720",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "You found 17 skeins of worsted weight yarn in your stash.",
+    "claims": [
+      {
+        "claim": "The user found a stash of 17 skeins of worsted weight yarn.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "What about the yarn I already have? Can I use some of my worsted weight yarn for the amigurumi toys? I have a stash of 17 skeins that I found recently, and I'd love to use them up."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C08"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.027056917082518,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 119,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 26872,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 26991
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00008",
+        "quote": "What about the yarn I already have? Can I use some of my worsted weight yarn for the amigurumi toys? I have a stash of 17 skeins that I found recently, and I'd love to use them up.",
+        "valid": true,
+        "source_id": "c206792b9b44d285b614d229e",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T11:27:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

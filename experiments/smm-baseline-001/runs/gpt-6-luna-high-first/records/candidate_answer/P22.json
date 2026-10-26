@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "61e60e9491e4179991663f0caf8ac680c68cbbf43ba9cf0d9e2503247e912f6c",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "About 3 weeks ago (20 days, or 2 weeks and 6 days), based on your April 16 message that you’d just downloaded Ibotta.",
+    "claims": [
+      {
+        "claim": "You said you had just downloaded Ibotta on April 16, 2023; relative to May 6, that was 20 days, or about 2.9 weeks, earlier.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 9.844676,
+    "thread_setup_seconds": 0.106798,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.844676,
+    "turn_seconds": 9.737878,
+    "first_text_seconds": 9.729552,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 31778,
+      "completion_tokens": 312,
+      "total_tokens": 32090,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 168
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

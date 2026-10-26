@@ -1,0 +1,621 @@
+{
+  "case_id": "P23",
+  "product": "smm",
+  "namespace": "qe06542b93e3c_n100",
+  "query": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+  "clock": "2023-03-26T15:53:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "ca722cb830ce76b391e670726",
+          "score": 29.05738425466055
+        },
+        {
+          "source_id": "c13c5edb0fd463a670b2d0d3f",
+          "score": 15.622021833743178
+        },
+        {
+          "source_id": "cd6bbf598c9fe822b5113ffac",
+          "score": 9.68814741320797
+        },
+        {
+          "source_id": "c7747d6e782352e61db174053",
+          "score": 4.036176760592126
+        },
+        {
+          "source_id": "c6d57b3289c3b3fb17fc7b413",
+          "score": 3.76546937801546
+        },
+        {
+          "source_id": "cc1b8a46d6026bd5d728dd010",
+          "score": 3.0387493887797703
+        },
+        {
+          "source_id": "c80f23d45813ae8917c456ca6",
+          "score": 2.9562221089512657
+        },
+        {
+          "source_id": "cda3c8694290fb7c812fdf204",
+          "score": 2.8124648396684835
+        },
+        {
+          "source_id": "c5cdd67e7b15e3febc2729c78",
+          "score": 2.758415708235751
+        },
+        {
+          "source_id": "cea88fc7968e22156b5897a82",
+          "score": 2.7456165895434865
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "ca722cb830ce76b391e670726",
+          "score": 0.35377134925746867
+        },
+        {
+          "source_id": "c13c5edb0fd463a670b2d0d3f",
+          "score": 0.32462499927585725
+        },
+        {
+          "source_id": "cda3c8694290fb7c812fdf204",
+          "score": 0.2276223783485661
+        },
+        {
+          "source_id": "cfadafd2c8b607bd813e2b52e",
+          "score": 0.17408336203172659
+        },
+        {
+          "source_id": "c6d57b3289c3b3fb17fc7b413",
+          "score": 0.16640681163597187
+        },
+        {
+          "source_id": "c28225e49a784ff15a2a324f5",
+          "score": 0.16066807159404306
+        },
+        {
+          "source_id": "c21f5fd4637003d644f6f2059",
+          "score": 0.14735057182327316
+        },
+        {
+          "source_id": "c6b83f0aa3570292cb6726135",
+          "score": 0.14448633121372545
+        },
+        {
+          "source_id": "c752604ad38ae0601f756d578",
+          "score": 0.14430966350330174
+        },
+        {
+          "source_id": "caff0258f9805c5ca4ea94c7d",
+          "score": 0.144290872311647
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:ca722cb830ce76b391e670726-c0017",
+        "source_ids": [
+          "ca722cb830ce76b391e670726"
+        ],
+        "hint": "\n\nUSER:\nThat's really helpful! I'll make sure to inspect my succulents carefully when they arrive. By the way, I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today, and I'm thinking of getting her a small planter and some potting mix to help her get started with her indoor garden. Do you think that's a good idea?",
+        "kind": "bm25-original-match-index",
+        "score": 29.05738425466055,
+        "metadata": {
+          "source_id": "ca722cb830ce76b391e670726",
+          "score": 29.05738425466055,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "ca722cb830ce76b391e670726-c0017",
+          "start": 10997,
+          "end": 11334,
+          "source_sha256": "ab8793aa78da55273414d1c32b8778b917e3591f60b2a0d33529e535bc6fc201"
+        }
+      },
+      {
+        "item_id": "vector:ca722cb830ce76b391e670726-c0017",
+        "source_ids": [
+          "ca722cb830ce76b391e670726"
+        ],
+        "hint": "\n\nUSER:\nThat's really helpful! I'll make sure to inspect my succulents carefully when they arrive. By the way, I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today, and I'm thinking of getting her a small planter and some potting mix to help her get started with her indoor garden. Do you think that's a good idea?",
+        "kind": "vector-original-match-index",
+        "score": 0.35377134925746867,
+        "metadata": {
+          "source_id": "ca722cb830ce76b391e670726",
+          "score": 0.35377134925746867,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "ca722cb830ce76b391e670726-c0017",
+          "start": 10997,
+          "end": 11334,
+          "source_sha256": "ab8793aa78da55273414d1c32b8778b917e3591f60b2a0d33529e535bc6fc201"
+        }
+      },
+      {
+        "item_id": "bm25:c13c5edb0fd463a670b2d0d3f-c0000",
+        "source_ids": [
+          "c13c5edb0fd463a670b2d0d3f"
+        ],
+        "hint": "USER:\nI'm planning to create a new succulent arrangement on my dining table. Can you give me some tips on how to care for succulents? By the way, I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.",
+        "kind": "bm25-original-match-index",
+        "score": 15.622021833743178,
+        "metadata": {
+          "source_id": "c13c5edb0fd463a670b2d0d3f",
+          "score": 15.622021833743178,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "c13c5edb0fd463a670b2d0d3f-c0000",
+          "start": 0,
+          "end": 260,
+          "source_sha256": "843f385377b65c1d2e7f0a7d1cbef15e404dfa91af494b6f9c111f3b779dd7a9"
+        }
+      },
+      {
+        "item_id": "vector:c13c5edb0fd463a670b2d0d3f-c0000",
+        "source_ids": [
+          "c13c5edb0fd463a670b2d0d3f"
+        ],
+        "hint": "USER:\nI'm planning to create a new succulent arrangement on my dining table. Can you give me some tips on how to care for succulents? By the way, I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.",
+        "kind": "vector-original-match-index",
+        "score": 0.32462499927585725,
+        "metadata": {
+          "source_id": "c13c5edb0fd463a670b2d0d3f",
+          "score": 0.32462499927585725,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c13c5edb0fd463a670b2d0d3f-c0000",
+          "start": 0,
+          "end": 260,
+          "source_sha256": "843f385377b65c1d2e7f0a7d1cbef15e404dfa91af494b6f9c111f3b779dd7a9"
+        }
+      },
+      {
+        "item_id": "bm25:cd6bbf598c9fe822b5113ffac-c0010",
+        "source_ids": [
+          "cd6bbf598c9fe822b5113ffac"
+        ],
+        "hint": "ates but also the community.\n\nAs we continued to perform and grow as a group, I couldn't help but feel grateful for this opportunity. Starting Harmony Hearts was one of the best decisions I've ever made. It brought me and my friends closer together and gave us a chance to follow our dreams. I knew that this was just the beginning, and I couldn't wait to see what the future held for Harmony Hearts.",
+        "kind": "bm25-original-match-index",
+        "score": 9.68814741320797,
+        "metadata": {
+          "source_id": "cd6bbf598c9fe822b5113ffac",
+          "score": 9.68814741320797,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "cd6bbf598c9fe822b5113ffac-c0010",
+          "start": 9201,
+          "end": 9601,
+          "source_sha256": "2bd0e3e3234b4512fec322197076e1ef255fbd9d481d257af4e15a6d2c1f2402"
+        }
+      },
+      {
+        "item_id": "vector:cda3c8694290fb7c812fdf204-c0007",
+        "source_ids": [
+          "cda3c8694290fb7c812fdf204"
+        ],
+        "hint": "a avoiding the litter box or showing signs of discomfort\n\nA good rule of thumb is to clean the litter box when you notice any of these signs or every 7-10 days, whichever comes first.\n\nRemember, a clean litter box is essential for Luna's health and hygiene. You can also consider setting a reminder in Habitica to help you stay on track!\n\nHow often do you think you'll aim to clean Luna's litter box?",
+        "kind": "vector-original-match-index",
+        "score": 0.2276223783485661,
+        "metadata": {
+          "source_id": "cda3c8694290fb7c812fdf204",
+          "score": 0.2276223783485661,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "cda3c8694290fb7c812fdf204-c0007",
+          "start": 5124,
+          "end": 5524,
+          "source_sha256": "16129f8969a6e987cd22e6e409267877e101f64f33910170f0eda9f1ba48c309"
+        }
+      },
+      {
+        "item_id": "bm25:c7747d6e782352e61db174053-c0000",
+        "source_ids": [
+          "c7747d6e782352e61db174053"
+        ],
+        "hint": "painting which gave the Impressionist movement its name.\n\n4. Petit Palais - This museum features a collection of French art spanning from ancient times to the early 20th century, including works by impressionist artists such as Monet, Renoir, and Degas.\n\n5. Fondation Louis Vuitton - This contemporary art museum features works by modern artists as well as impressionist and post-impressionist painti",
+        "kind": "bm25-original-match-index",
+        "score": 4.036176760592126,
+        "metadata": {
+          "source_id": "c7747d6e782352e61db174053",
+          "score": 4.036176760592126,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c7747d6e782352e61db174053-c0000",
+          "start": 568,
+          "end": 968,
+          "source_sha256": "e3027eaf82743d31500b9b930171a62fda7bd8dc0ce4a9a68452f81e14d37aa2"
+        }
+      },
+      {
+        "item_id": "vector:cfadafd2c8b607bd813e2b52e-c0000",
+        "source_ids": [
+          "cfadafd2c8b607bd813e2b52e"
+        ],
+        "hint": "USER:\nI'm struggling to understand the time complexity of a particular algorithm I'm working on. Can you help me break it down and explain it in a way that's easy to understand? By the way, I'm still feeling proud of myself for acing that Algorithms and Data Structures exam last month - I spent over 20 hours studying for it and it paid off!\n\nASSISTANT:\nCongratulations on acing your exam! That's a ",
+        "kind": "vector-original-match-index",
+        "score": 0.17408336203172659,
+        "metadata": {
+          "source_id": "cfadafd2c8b607bd813e2b52e",
+          "score": 0.17408336203172659,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "cfadafd2c8b607bd813e2b52e-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "b19b3f0601b80f5babfbbded82b48551fead3ae520a108e02b80194009aab1d2"
+        }
+      },
+      {
+        "item_id": "bm25:c6d57b3289c3b3fb17fc7b413-c0009",
+        "source_ids": [
+          "c6d57b3289c3b3fb17fc7b413"
+        ],
+        "hint": " do next.\n\nRemember, you can always take breaks or slow down if you need to. The show's well-paced, and each episode builds upon the previous one, so you can easily pick up where you left off.\n\nIf you have any questions or need recommendations for other shows while you're watching \"Breaking Bad,\" feel free to ask! I'll be here, cheering you on as you binge-watch your way through the series.\n\nHappy",
+        "kind": "bm25-original-match-index",
+        "score": 3.76546937801546,
+        "metadata": {
+          "source_id": "c6d57b3289c3b3fb17fc7b413",
+          "score": 3.76546937801546,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "c6d57b3289c3b3fb17fc7b413-c0009",
+          "start": 5637,
+          "end": 6037,
+          "source_sha256": "7859b9fc0c9b50f952e052ac3d904cc795d5eac54740b1c66398ec864663104b"
+        }
+      },
+      {
+        "item_id": "vector:c6d57b3289c3b3fb17fc7b413-c0006",
+        "source_ids": [
+          "c6d57b3289c3b3fb17fc7b413"
+        ],
+        "hint": "\n\nUSER:\nI was thinking of watching \"Breaking Bad\" first, but I'm not sure if I'll have enough time to finish it before the new season of \"The Walking Dead\" starts. Do you know when the next season of \"The Walking Dead\" is expected to premiere?",
+        "kind": "vector-original-match-index",
+        "score": 0.16640681163597187,
+        "metadata": {
+          "source_id": "c6d57b3289c3b3fb17fc7b413",
+          "score": 0.16640681163597187,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c6d57b3289c3b3fb17fc7b413-c0006",
+          "start": 3941,
+          "end": 4184,
+          "source_sha256": "7859b9fc0c9b50f952e052ac3d904cc795d5eac54740b1c66398ec864663104b"
+        }
+      },
+      {
+        "item_id": "bm25:cc1b8a46d6026bd5d728dd010-c0005",
+        "source_ids": [
+          "cc1b8a46d6026bd5d728dd010"
+        ],
+        "hint": " in your daily life.\n\n3. Eat sustainably: Rethinking food choices is essential for a sustainable future. Consider incorporating more plant-based meals in your diet, reducing food waste, and supporting local and organic agriculture.\n\n4. Reduce, reuse, recycle: Reduce waste by buying only what you need and avoiding disposable items. Reuse items as often as possible, and recycle whenever possible.\n\n5",
+        "kind": "bm25-original-match-index",
+        "score": 3.0387493887797703,
+        "metadata": {
+          "source_id": "cc1b8a46d6026bd5d728dd010",
+          "score": 3.0387493887797703,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "cc1b8a46d6026bd5d728dd010-c0005",
+          "start": 5780,
+          "end": 6180,
+          "source_sha256": "3aa22ad90ec4fd190faf1c9e919bbf3b7ae64abbd761b827d1f704e3cf177c43"
+        }
+      },
+      {
+        "item_id": "vector:c28225e49a784ff15a2a324f5-c0020",
+        "source_ids": [
+          "c28225e49a784ff15a2a324f5"
+        ],
+        "hint": "\n\nUSER:\nI've also been experimenting with different painting techniques, and I've learned how to use an airbrush, which has been really helpful.",
+        "kind": "vector-original-match-index",
+        "score": 0.16066807159404306,
+        "metadata": {
+          "source_id": "c28225e49a784ff15a2a324f5",
+          "score": 0.16066807159404306,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c28225e49a784ff15a2a324f5-c0020",
+          "start": 14125,
+          "end": 14269,
+          "source_sha256": "5de6137c7b015f1482cfb338a767bf2e598de40e0289d4f0634a6bfada24c121"
+        }
+      },
+      {
+        "item_id": "bm25:c80f23d45813ae8917c456ca6-c0017",
+        "source_ids": [
+          "c80f23d45813ae8917c456ca6"
+        ],
+        "hint": "\n\nUSER:\nI'm still deciding between the Dyson V11 Absolute Pro and the Miele Complete C3 Limited Edition. I want to make sure I get the best value for my money. Can you tell me if there are any promotions or discounts available for these models? Also, do you know if Target has any discounts on these models, considering I redeemed a $10 off coupon on a previous purchase there on February 1st?",
+        "kind": "bm25-original-match-index",
+        "score": 2.9562221089512657,
+        "metadata": {
+          "source_id": "c80f23d45813ae8917c456ca6",
+          "score": 2.9562221089512657,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c80f23d45813ae8917c456ca6-c0017",
+          "start": 11299,
+          "end": 11692,
+          "source_sha256": "115a0748ab1b4b81b08ea6a923f602d88c0437f42062100b8deae0680bc51b1c"
+        }
+      },
+      {
+        "item_id": "vector:c21f5fd4637003d644f6f2059-c0015",
+        "source_ids": [
+          "c21f5fd4637003d644f6f2059"
+        ],
+        "hint": "icipate the direction and speed of the serve.\n* Repeat for 10-15 minutes, focusing on your anticipation and reaction time.\n\nRemember to take breaks in between drills to stretch, hydrate, and adjust your strategy. Focus on one or two drills per practice session, and rotate through them to improve your overall return of serve. Good luck, and I hope these drills help you improve your returns quickly!",
+        "kind": "vector-original-match-index",
+        "score": 0.14735057182327316,
+        "metadata": {
+          "source_id": "c21f5fd4637003d644f6f2059",
+          "score": 0.14735057182327316,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "c21f5fd4637003d644f6f2059-c0015",
+          "start": 10584,
+          "end": 10984,
+          "source_sha256": "e53fa87cc41959f750bcee8e9e5f479e16fe376cb7ca3cfb3be89b1c01bd82cb"
+        }
+      },
+      {
+        "item_id": "bm25:cda3c8694290fb7c812fdf204-c0000",
+        "source_ids": [
+          "cda3c8694290fb7c812fdf204"
+        ],
+        "hint": "nts, and tasks, and I can help you create a schedule that works for you.\n\nPlease provide me with the following information:\n\n1. What days of the week do you have available for puppy training classes?\n2. What time of day do you prefer to have the classes (morning, afternoon, evening)?\n3. How often do you want to have puppy training classes (weekly, bi-weekly, monthly)?\n4. Do you have any other comm",
+        "kind": "bm25-original-match-index",
+        "score": 2.8124648396684835,
+        "metadata": {
+          "source_id": "cda3c8694290fb7c812fdf204",
+          "score": 2.8124648396684835,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "cda3c8694290fb7c812fdf204-c0000",
+          "start": 463,
+          "end": 863,
+          "source_sha256": "16129f8969a6e987cd22e6e409267877e101f64f33910170f0eda9f1ba48c309"
+        }
+      },
+      {
+        "item_id": "vector:c6b83f0aa3570292cb6726135-c0001",
+        "source_ids": [
+          "c6b83f0aa3570292cb6726135"
+        ],
+        "hint": "ddess Durga, an incarnation of Goddess Parvati, defeated the buffalo-demon Mahishasura, who had obtained a boon that made him invincible to men. Durga, with her bravery and strength, killed the demon and restored peace to the world. The nine days of Navratri represent the nine forms of Durga, each associated with a different aspect of the goddess.\n\n**Nine Forms of Durga**\n\n1. Shailaputri (Day 1): ",
+        "kind": "vector-original-match-index",
+        "score": 0.14448633121372545,
+        "metadata": {
+          "source_id": "c6b83f0aa3570292cb6726135",
+          "score": 0.14448633121372545,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c6b83f0aa3570292cb6726135-c0001",
+          "start": 1010,
+          "end": 1410,
+          "source_sha256": "c1439b4272930b4bac5b921699feef89a75070c2b2d6a3be92d43973cb0f9961"
+        }
+      },
+      {
+        "item_id": "bm25:c5cdd67e7b15e3febc2729c78-c0012",
+        "source_ids": [
+          "c5cdd67e7b15e3febc2729c78"
+        ],
+        "hint": "A crime drama that follows a young mother who commits a public act of violence without apparent motive. The show's atmospheric and intense, with a strong performance from Jessica Biel.\n4. **Killing Eve**: A spy thriller that follows a cat-and-mouse game between an MI6 agent and a psychopathic assassin. It's a stylish and intense show with great performances from Sandra Oh and Jodie Comer.\n5. **You",
+        "kind": "bm25-original-match-index",
+        "score": 2.758415708235751,
+        "metadata": {
+          "source_id": "c5cdd67e7b15e3febc2729c78",
+          "score": 2.758415708235751,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c5cdd67e7b15e3febc2729c78-c0012",
+          "start": 7939,
+          "end": 8339,
+          "source_sha256": "0992775279cdd0083513b1b10781b58e47d6f069313576d0a3870d214506ecda"
+        }
+      },
+      {
+        "item_id": "vector:c752604ad38ae0601f756d578-c0001",
+        "source_ids": [
+          "c752604ad38ae0601f756d578"
+        ],
+        "hint": "an lasts 12-16 weeks. Allocate 4-6 weeks for each phase.\n2. **Prioritize consistency over intensity**: Aim to train consistently 5-6 days a week, with one or two rest days. This will help your body adapt to the demands of triathlon training.\n3. **Allocate time for each discipline**:\n\t* Running: 2-3 times a week, with one longer run (60-90 minutes) and one shorter, faster run (30-45 minutes).\n\t* Sw",
+        "kind": "vector-original-match-index",
+        "score": 0.14430966350330174,
+        "metadata": {
+          "source_id": "c752604ad38ae0601f756d578",
+          "score": 0.14430966350330174,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c752604ad38ae0601f756d578-c0001",
+          "start": 769,
+          "end": 1169,
+          "source_sha256": "7c84134ca6fb8317d50581cc398682c14faec33d2a412a45a456ca9534b82ea2"
+        }
+      },
+      {
+        "item_id": "bm25:cea88fc7968e22156b5897a82-c0013",
+        "source_ids": [
+          "cea88fc7968e22156b5897a82"
+        ],
+        "hint": "\n\nUSER:\nI'll definitely try out some of these herbal teas. I think I'll start with Yerba Mate and see how I like it. By the way, I've been enjoying my morning coffee break so much that I've started to look forward to it every day. During that time, I like to scroll through social media or catch up on news.",
+        "kind": "bm25-original-match-index",
+        "score": 2.7456165895434865,
+        "metadata": {
+          "source_id": "cea88fc7968e22156b5897a82",
+          "score": 2.7456165895434865,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "cea88fc7968e22156b5897a82-c0013",
+          "start": 7836,
+          "end": 8143,
+          "source_sha256": "3d86157312156bbaff2284ac52b9279f15971b1995ad8859d456850289b4d07c"
+        }
+      },
+      {
+        "item_id": "vector:caff0258f9805c5ca4ea94c7d-c0020",
+        "source_ids": [
+          "caff0258f9805c5ca4ea94c7d"
+        ],
+        "hint": "\n\nUSER:\nI'm glad I could help!\n\nASSISTANT:\nI think there might be some confusion! I'm the one who's been helping you with your questions about jewelry cleaning, storage, and travel. But I appreciate your willingness to help others! If you have any more questions or need further assistance, feel free to ask!",
+        "kind": "vector-original-match-index",
+        "score": 0.144290872311647,
+        "metadata": {
+          "source_id": "caff0258f9805c5ca4ea94c7d",
+          "score": 0.144290872311647,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "caff0258f9805c5ca4ea94c7d-c0020",
+          "start": 13511,
+          "end": 13819,
+          "source_sha256": "39830b1b74695e0ddf5ada6129b14e8a02db25d751112bdb853b8d0295cead25"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "ca722cb830ce76b391e670726",
+    "c13c5edb0fd463a670b2d0d3f",
+    "cd6bbf598c9fe822b5113ffac",
+    "c7747d6e782352e61db174053",
+    "c6d57b3289c3b3fb17fc7b413",
+    "cda3c8694290fb7c812fdf204",
+    "cfadafd2c8b607bd813e2b52e"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "ca722cb830ce76b391e670726",
+      "source_date": "2023-03-18T08:49:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nThat's really helpful! I'll make sure to inspect my succulents carefully when they arrive. By the way, I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today, and I'm thinking of getting her a small planter and some potting mix to help her get started with her indoor garden. Do you think that's a good idea?",
+          "start": 10997,
+          "end": 11334
+        },
+        {
+          "role": "assistant",
+          "text": "ng season (spring and summer) with a balanced, water-soluble fertilizer.\n\n**Special Considerations for Online Purchases**\n\n1. **Acclimate the plants**: When your succulents arrive, keep them in a shaded area for a few days to acclimate to their new environment.\n2. **Monitor for pests**: Inspect the plants regularly for signs of pests, such as mealybugs, spider mites, or scale.\n3. **Adjust watering",
+          "start": 1568,
+          "end": 1968
+        }
+      ]
+    },
+    {
+      "source_id": "c13c5edb0fd463a670b2d0d3f",
+      "source_date": "2023-03-04T12:05:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning to create a new succulent arrangement on my dining table. Can you give me some tips on how to care for succulents? By the way, I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.",
+          "start": 0,
+          "end": 260
+        },
+        {
+          "role": "assistant",
+          "text": "t when the soil feels dry to the touch, usually every 7-10 days in the summer and less often in the winter. Water at the base of the plant, avoiding the leaves to prevent rot.\n3. **Soil**: Use a well-draining potting mix specifically designed for cacti and succulents. This will help prevent waterlogged soil and root rot.\n4. **Temperature**: Most succulents prefer daytime temperatures between 65°F ",
+          "start": 837,
+          "end": 1237
+        }
+      ]
+    },
+    {
+      "source_id": "cd6bbf598c9fe822b5113ffac",
+      "source_date": "2023-03-09T20:32:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ASSISTANT:\nMr. Johnson is now named Ms. Johnson and is a woman.\n\nMs. Johnson is a kind-faced, middle-aged woman with a warm and friendly demeanor. She has short, curly hair that is styled in a natural and easygoing way. Her face is round, with a gentle smile and a twinkle in her eye. She has a generous figure, and is always dressed comfortably and casually. She is the school's music teacher, who b",
+          "start": 0,
+          "end": 400
+        },
+        {
+          "role": "assistant",
+          "text": " from the local community and surrounding areas. The festival provides a platform for emerging artists to share their music and connect with their fans. It's a perfect opportunity for Harmony Hearts to showcase their talents and establish themselves as a new force in the local music scene.\n\nUSER:\nwrite the entire chapter 4 of that story as Mia's perspective with conversation between the characters",
+          "start": 5836,
+          "end": 6236
+        }
+      ]
+    },
+    {
+      "source_id": "c7747d6e782352e61db174053",
+      "source_date": "2023-03-07T16:11:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ws of Paris. 3. Enjoy a picnic in Jardin du Luxembourg - This beautiful park is a great place to relax and enjoy a picnic on a sunny day. You can also rent a boat and sail on the pond! 4. Explore the Latin Quarter - This historic district is home to the famous Sorbonne University, as well as many cafes, bookstores, and shops. Don't miss the famous Shakespeare and Company bookstore! 5. Experience t",
+          "start": 3079,
+          "end": 3479
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nThe amount of time you should plan to spend at Musée d'Orsay depends on your level of interest in the artwork and the amount of attention you want to give each piece. If you are a true art lover and want to see the majority of works in the museum, you could easily spend a full day there. However, if you are short on time or just want to see the highlights, you could probably see the m",
+          "start": 1681,
+          "end": 2081
+        }
+      ]
+    },
+    {
+      "source_id": "c6d57b3289c3b3fb17fc7b413",
+      "source_date": "2023-03-18T11:21:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nThese recommendations look great, thanks! I'm particularly interested in \"Breaking Bad\" and \"Narcos\" since I've heard so much about them. Can you tell me how many episodes each of these shows has, and how many seasons are available on Netflix?",
+          "start": 2595,
+          "end": 2846
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI was thinking of watching \"Breaking Bad\" first, but I'm not sure if I'll have enough time to finish it before the new season of \"The Walking Dead\" starts. Do you know when the next season of \"The Walking Dead\" is expected to premiere?",
+          "start": 3941,
+          "end": 4184
+        }
+      ]
+    },
+    {
+      "source_id": "cda3c8694290fb7c812fdf204",
+      "source_date": "2023-03-14T06:44:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nRocky's progress sounds adorable!\n\nRemembering daily tasks can be challenging, but there are many tools to help you stay on track. Here are a few suggestions:\n\n1. **Habit-tracking apps:**\n\t* Habitica: A gamified habit tracker that lets you track habits, daily tasks, and to-do lists. It's fun and motivating!\n\t* HabitBull: A simple, easy-to-use app with a clean interface and customizabl",
+          "start": 2320,
+          "end": 2720
+        },
+        {
+          "role": "assistant",
+          "text": "the litter box:\n\n* Strong odors\n* Visible dirt or debris\n* Luna avoiding the litter box or showing signs of discomfort\n\nA good rule of thumb is to clean the litter box when you notice any of these signs or every 7-10 days, whichever comes first.\n\nRemember, a clean litter box is essential for Luna's health and hygiene. You can also consider setting a reminder in Habitica to help you stay on track!\n",
+          "start": 5062,
+          "end": 5462
+        }
+      ]
+    },
+    {
+      "source_id": "cfadafd2c8b607bd813e2b52e",
+      "source_date": "2023-03-18T05:03:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nHash tables are a great choice for your project, and with a robust hash function, you'll minimize collisions and ensure good performance.\n\nRegarding hash functions for strings, there are many good options. The FNV-1a hash is a popular and well-regarded choice, but here are a few other options you might consider:\n\n1. **djb2**: This is a simple, fast, and widely used hash function for s",
+          "start": 9649,
+          "end": 10049
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm struggling to understand the time complexity of a particular algorithm I'm working on. Can you help me break it down and explain it in a way that's easy to understand? By the way, I'm still feeling proud of myself for acing that Algorithms and Data Structures exam last month - I spent over 20 hours studying for it and it paid off!\n\nASSISTANT:\nCongratulations on acing your exam! That's a ",
+          "start": 0,
+          "end": 400
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.03465412510558963,
+    "native_search_seconds": 0.010496374918147922,
+    "common_spans_seconds": 0.006583582842722535
+  }
+}

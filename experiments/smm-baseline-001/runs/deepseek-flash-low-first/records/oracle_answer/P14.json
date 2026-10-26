@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P14",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "1af2f34f9d510bacab0693debcf6031e78be7882104c7e0b45b53dc6459ee185",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The example was Manolo García, a Spanish-Catalan singer-songwriter who has spoken publicly in support of unity between Catalonia and Spain.",
+    "claims": [
+      {
+        "claim": "Manolo García is the Spanish-Catalan singer-songwriter cited as supporting unity between Catalonia and Spain.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "for example, the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "f542ef2a4ac06d34d64e4c2e9d88114b19cb95126d9f3057730f014a2dd4140c",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 3000,
+      "completion_tokens": 305,
+      "total_tokens": 3305,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 2616
+    },
+    "response_id": "810cd5d8-1536-43dd-89c7-923ec39c0026",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.434975082986057
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "for example, the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain.",
+        "valid": true,
+        "source_id": "ce4bde0adad4fe2ecc4bf403f",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-21T10:54:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P14.json",
+  "raw_response_sha256": "742a811b61287c4f94d9e521a7ed70f511d739c3a7b87fe3cbd5149535d365c6"
+}

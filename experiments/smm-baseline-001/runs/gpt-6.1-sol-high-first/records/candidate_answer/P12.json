@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "e878cf39743336650bfb9b2f2c2f54d4330fe3c5296645aebe42c77fc81672dc",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "It was Doc Martin—you said only the last season was available on Netflix.",
+    "claims": [
+      {
+        "claim": "You used Doc Martin as the example of a show with only its last season available.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 9.088146,
+    "thread_setup_seconds": 0.094184,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.088146,
+    "turn_seconds": 8.993962,
+    "first_text_seconds": 7.983974,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 34603,
+      "completion_tokens": 166,
+      "total_tokens": 34769,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 53
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season.",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

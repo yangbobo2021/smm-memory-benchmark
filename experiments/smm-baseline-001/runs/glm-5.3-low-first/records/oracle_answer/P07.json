@@ -1,0 +1,110 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "a9c77e38c3234e686eb2abdb8c406996eaabecb7467f7bfd8cfabe38174c3b30",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "Based on the evidence, you attended 3 dinner parties in the past month: a potluck at Alex's place (May 20, the day before the May 21 conversation), a BBQ at Mike's place (~May 7, two weeks before May 21), and an Italian feast at Sarah's place (~mid-May, described as 'last week' in the May 22 conversation).",
+    "claims": [
+      {
+        "claim": "Potluck at Alex's place yesterday relative to May 21 conversation",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world"
+          }
+        ]
+      },
+      {
+        "claim": "BBQ at Mike's place two weeks before May 21 conversation",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together"
+          }
+        ]
+      },
+      {
+        "claim": "Italian feast at Sarah's place last week relative to May 22 conversation",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "The exact dates of the Mike's BBQ and Sarah's Italian feast are approximate; if either occurred more than a month before 2023-05-30 the count could differ, but both are described as recent enough ('two weeks ago', 'last week') to fall within the past month."
+  },
+  "metrics": {
+    "seconds": 9.530835916986689,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 409,
+      "completion_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "prompt_tokens": 7233,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 7642
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

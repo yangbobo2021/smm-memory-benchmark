@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "aa14dfe67c3cde15abad3fca1dc75fc89b9390428837a015b99a90ee46d0dee3",
+  "output": {
+    "status": "answer",
+    "answer": "You’ve finished five issues of National Geographic. (That’s the latest count stated in the evidence.)",
+    "claims": [
+      {
+        "claim": "The user said they had finished five National Geographic issues.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I've finished five issues so far"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.254662,
+    "thread_setup_seconds": 0.105944,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.254662,
+    "turn_seconds": 4.148719,
+    "first_text_seconds": 3.610565,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 26580,
+      "completion_tokens": 88,
+      "total_tokens": 26668,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P03.json",
+  "raw_receipt_sha256": "3bb5d3c6544577fba512fd4d035220f61875b94f7780787db53e02e61865ca87",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P03/answer.json"
+}

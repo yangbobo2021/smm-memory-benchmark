@@ -1,0 +1,44 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "candidate_select",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "7bdbf63d46b5497728b258093c9ce8181bbde82d15225bd8c0f5f1d71b6343d4",
+  "output": {
+    "selected_sources": [
+      "C03",
+      "C07"
+    ]
+  },
+  "metrics": {
+    "seconds": 5.376994,
+    "thread_setup_seconds": 0.111293,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.376994,
+    "turn_seconds": 5.265701,
+    "first_text_seconds": 5.058,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 27375,
+      "completion_tokens": 21,
+      "total_tokens": 27396,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_select/P03.json",
+  "raw_receipt_sha256": "489bf6ffede209db6e9afde15c46452153f9bd05ae751816c40fc932d9850cda",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P03/select.json"
+}

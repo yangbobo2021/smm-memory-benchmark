@@ -1,0 +1,22 @@
+{
+  "id": "c459a264-7f70-4e8e-8188-5822ee434dff",
+  "model": "deepseek-flash",
+  "created": 1792981217,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"You said you got your new tennis racket from a sports store downtown.\",\"claims\":[{\"claim\":\"The user bought their new tennis racket from a sports store downtown.\",\"citations\":[{\"evidence_id\":\"E00003\",\"quote\":\"I'm really happy with my new tennis racket, which I got from a sports store downtown.\"}]}],\"selected_sources\":[\"C03\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 19639,
+    "completion_tokens": 229,
+    "total_tokens": 19868,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 136
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 19255
+  },
+  "refusal": null
+}

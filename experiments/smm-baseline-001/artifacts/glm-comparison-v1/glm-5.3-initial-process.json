@@ -1,0 +1,7 @@
+{
+  "model": "glm-5.3",
+  "phase": "initial",
+  "exit_code": 1,
+  "stdout": "{\"case_id\":\"P01\",\"task\":\"oracle_answer\",\"error\":null,\"completed\":1}\n{\"case_id\":\"P01\",\"task\":\"candidate_select\",\"error\":null,\"completed\":2}\n{\"case_id\":\"P01\",\"task\":\"candidate_answer\",\"error\":null,\"completed\":3}\n{\"case_id\":\"P02\",\"task\":\"oracle_answer\",\"error\":null,\"completed\":4}\n{\"case_id\":\"P02\",\"task\":\"candidate_select\",\"error\":null,\"completed\":5}\n{\"case_id\":\"P02\",\"task\":\"candidate_answer\",\"error\":null,\"completed\":6}\n{\"case_id\":\"P03\",\"task\":\"oracle_answer\",\"error\":null,\"completed\":7}\n{\"case_id\":\"P03\",\"task\":\"candidate_select\",\"error\":null,\"completed\":8}\n{\"case_id\":\"P03\",\"task\":\"candidate_answer\",\"error\":null,\"completed\":9}\n{\"case_id\":\"P04\",\"task\":\"oracle_answer\",\"error\":null,\"completed\":10}\n{\"case_id\":\"P04\",\"task\":\"candidate_select\",\"error\":null,\"completed\":11}\n{\"case_id\":\"P04\",\"task\":\"candidate_answer\",\"error\":null,\"completed\":12}\n{\"case_id\":\"P05\",\"task\":\"oracle_answer\",\"error\":null,\"completed\":13}\n{\"case_id\":\"P05\",\"task\":\"candidate_select\",\"error\":null,\"completed\":14}\n{\"case_id\":\"P05\",\"task\":\"candidate_answer\",\"error\":null,\"completed\":15}\n{\"case_id\":\"P06\",\"task\":\"oracle_answer\",\"error\":{\"type\":\"TimeoutError\",\"message\":\"The read operation timed out\"},\"completed\":16}\n",
+  "stderr": "ValueError: First failure retained. Do not reuse this run ID for a retry.\n"
+}

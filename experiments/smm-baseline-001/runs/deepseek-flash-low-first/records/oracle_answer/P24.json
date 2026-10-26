@@ -1,0 +1,125 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "3321d354e07317a9fae0e7a11e34c1e12b850a5da0dbeb1d3fde1d02de52bbb8",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attended the networking event 26 days before the reference time. The user said it happened “today,” and the conversation evidence is timestamped 2022-03-09; counting to 2022-04-04 gives 26 days.",
+    "claims": [
+      {
+        "claim": "The user said they had just returned from a networking event that ran from 6 PM to 8 PM “today.”",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      },
+      {
+        "claim": "The conversation evidence is timestamped 2022-03-09T12:08:00+00:00, so “today” refers to 2022-03-09.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "2022-03-09T12:08:00+00:00"
+          }
+        ]
+      },
+      {
+        "claim": "From 2022-03-09 to the reference time of 2022-04-04 is 26 days.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "2022-03-09T12:08:00+00:00"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "The user did not explicitly state the calendar date of the event; it is inferred from the conversation timestamp."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "5b010dafa2c2cd411bfdc4af6eb12554411024382419d0de2a9200c5a9b11776",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 2307,
+      "completion_tokens": 1365,
+      "total_tokens": 3672,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1074
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 1923
+    },
+    "response_id": "c291f3dd-2c8a-4100-b814-17f7ffcefbcd",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 8.734493999974802
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "2022-03-09T12:08:00+00:00",
+        "valid": false,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "2022-03-09T12:08:00+00:00",
+        "valid": false,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "2022-03-09T12:08:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "2022-03-09T12:08:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  },
+  "raw_response": "raw/oracle_answer/P24.json",
+  "raw_response_sha256": "1d3d0f96eadc55fdcd6c85d2e642b34e93a92fbe5abf3a8ba6d3841bb49c6e64"
+}

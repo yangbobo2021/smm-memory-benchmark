@@ -1,0 +1,175 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P09",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "301e10ce17d51cfc804738e568fd08567ef2b5374636cc7d2d24e65f27153633",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "3 days in December 2023: December 10th, December 17th, and December 24th.",
+    "claims": [
+      {
+        "claim": "User helped at the church's annual holiday food drive on December 10th (faith/church-affiliated activity).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need"
+          }
+        ]
+      },
+      {
+        "claim": "User did/led a Bible study at their church on December 17th (faith-related activity).",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "especially after our Bible study group on December 17th"
+          }
+        ]
+      },
+      {
+        "claim": "User attended midnight mass at St. Mary's Church on December 24th (faith-related activity). Note: the assistant in that conversation disputed the timing, but the user asserted attendance on that date.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family."
+          }
+        ]
+      },
+      {
+        "claim": "Items not counted: attending a Lessons and Carols service, volunteering at a soup kitchen, and leading a Bible study 'next week' were only stated as intentions/future plans, not completed December activities.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I think I'll definitely look into attending a Lessons and Carols service this holiday season."
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I was thinking of volunteering at a local soup kitchen or food bank this year."
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm looking for some guidance on a Bible study I'm leading next week."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": "None substantive. Caveat: if the church food drive (Dec 10) is not considered a 'faith-related' activity, the count would be 2 (Dec 17 and Dec 24); the evidence only shows it was a church-affiliated event."
+  },
+  "metrics": {
+    "seconds": 42.3241057919804,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1880,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1277
+      },
+      "prompt_tokens": 10434,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 12314
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need",
+        "valid": true,
+        "source_id": "c8531a9f29edb59a4767e8d72",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T02:22:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th",
+        "valid": true,
+        "source_id": "cc3fbf6478327dbbf685bb205",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T19:48:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "especially after our Bible study group on December 17th",
+        "valid": true,
+        "source_id": "cc3fbf6478327dbbf685bb205",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T19:48:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family.",
+        "valid": true,
+        "source_id": "cb5d52df1411ad8bfce6630ad",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T12:30:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00002",
+        "quote": "I think I'll definitely look into attending a Lessons and Carols service this holiday season.",
+        "valid": true,
+        "source_id": "cb5d52df1411ad8bfce6630ad",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T12:30:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00002",
+        "quote": "I was thinking of volunteering at a local soup kitchen or food bank this year.",
+        "valid": true,
+        "source_id": "cb5d52df1411ad8bfce6630ad",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T12:30:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00003",
+        "quote": "I'm looking for some guidance on a Bible study I'm leading next week.",
+        "valid": true,
+        "source_id": "cc3fbf6478327dbbf685bb205",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2024-01-10T19:48:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

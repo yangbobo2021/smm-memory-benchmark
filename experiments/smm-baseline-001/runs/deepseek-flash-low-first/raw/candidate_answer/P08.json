@@ -1,0 +1,22 @@
+{
+  "id": "01d6a720-40c0-43bd-a7d6-aaca2e05102e",
+  "model": "deepseek-flash",
+  "created": 1792981055,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"Three different types of citrus fruit: orange, lemon, and lime.\",\"claims\":[{\"claim\":\"The user used orange and lemon slices in Sangria that they served at a prior dinner party.\",\"citations\":[{\"evidence_id\":\"E00003\",\"quote\":\"I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.\"}]},{\"claim\":\"The user made a Cucumber Gimlet using lime juice.\",\"citations\":[{\"evidence_id\":\"E00005\",\"quote\":\"I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!\"}]}],\"selected_sources\":[\"C03\",\"C05\"],\"missing\":\"The evidence may not cover cocktails not discussed, but the completed cocktail mentions show orange, lemon, and lime.\"}",
+  "usage": {
+    "prompt_tokens": 17250,
+    "completion_tokens": 1702,
+    "total_tokens": 18952,
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1505
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 16994
+  },
+  "refusal": null
+}

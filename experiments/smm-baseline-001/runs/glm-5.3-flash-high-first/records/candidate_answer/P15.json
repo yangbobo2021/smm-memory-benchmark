@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P15",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "94e14ace3c2737a5838693efa558299b5b9b9d98a57f1918e2b06bd2b4ada950",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The hostel near the Red Light District that was recommended was the **International Budget Hostel**.",
+    "claims": [
+      {
+        "claim": "In the earlier Amsterdam conversation, the assistant listed International Budget Hostel as the hostel situated near the Red Light District.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": ": The assistant did not single out a personal favorite (it stated it had no personal preferences), but International Budget Hostel is the one it explicitly identified as being near the Red Light District."
+  },
+  "metrics": {
+    "seconds": 16.246925874846056,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 491,
+      "completion_tokens_details": {
+        "reasoning_tokens": 347
+      },
+      "prompt_tokens": 16396,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 16887
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms.",
+        "valid": true,
+        "source_id": "c831c3cd021ba61a85c9aa466",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-27T06:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

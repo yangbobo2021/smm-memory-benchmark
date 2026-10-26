@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P11",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "f536a46983971f77ca4d4599f2133213fe5309ecd16dabf9eede11496622d12e",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Roscioli.",
+    "claims": [
+      {
+        "claim": "The famous deli near the Vatican that serves cured meats and cheeses was identified as Roscioli.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "67741223f95104765c977ae86d4ce9f4704c310cdaa02656cb862f1228dd66f5",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 1847,
+      "completion_tokens": 276,
+      "total_tokens": 2123,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 186
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 1591
+    },
+    "response_id": "60b85abd-4aba-4b14-b8b5-c45abe008e0a",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.0974247090052813
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine.",
+        "valid": true,
+        "source_id": "c8ae7755b954de1ea86110538",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-26T15:26:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P11.json",
+  "raw_response_sha256": "46b2213897194291337431d80d08f63e9dfde122b1bfb3203ca03fad0d05e108"
+}

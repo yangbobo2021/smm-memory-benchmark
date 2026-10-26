@@ -1,0 +1,94 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "d011b7215caa9127ef4e5122f8b3ea1f4ed46a62497e6ab291072f05ac5968b5",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes. You’d set it aside earlier, but by March 30 you said you had finished it.",
+    "claims": [
+      {
+        "claim": "Earlier, the user said they had temporarily put down The Nightingale.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "which I put down temporarily because it was getting too emotional"
+          }
+        ]
+      },
+      {
+        "claim": "By March 30, the user said they had recently finished The Nightingale.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 9.572311,
+    "thread_setup_seconds": 0.189336,
+    "rate_wait_seconds": 0,
+    "active_seconds": 9.572311,
+    "turn_seconds": 9.382975,
+    "first_text_seconds": 8.094695,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 15560,
+      "completion_tokens": 331,
+      "total_tokens": 15891,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 183
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "which I put down temporarily because it was getting too emotional",
+        "valid": true,
+        "source_id": "c6cfd58034e25f4def8503729",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-01-21T15:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

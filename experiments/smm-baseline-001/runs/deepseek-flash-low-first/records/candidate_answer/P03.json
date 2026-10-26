@@ -1,0 +1,117 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "aa14dfe67c3cde15abad3fca1dc75fc89b9390428837a015b99a90ee46d0dee3",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You had finished 5 issues of National Geographic as of the latest relevant statement.",
+    "claims": [
+      {
+        "claim": "On 2023-04-20, the user said they had just finished their third National Geographic issue and were currently on their fourth.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I just finished my third issue, and I'm currently on my fourth."
+          }
+        ]
+      },
+      {
+        "claim": "By 2023-07-15, the user said they had finished five National Geographic issues.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I've finished five issues so far"
+          }
+        ]
+      },
+      {
+        "claim": "The user also stated on 2023-07-15 that they had just finished their fifth issue.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I just finished my fifth issue."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "354a87847f25af2df55ac8709799e4494322ea274ca46ce05054e8ea35a44aed",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 17215,
+      "completion_tokens": 569,
+      "total_tokens": 17784,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 371
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 16959
+    },
+    "response_id": "298da4cc-97f0-4c19-b7e7-29ae20b4a0c1",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 5.218356250086799
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I just finished my third issue, and I'm currently on my fourth.",
+        "valid": true,
+        "source_id": "cd244fcacffe13caffeb31e69",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-20T21:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I've finished five issues so far",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00007",
+        "quote": "I just finished my fifth issue.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P03.json",
+  "raw_response_sha256": "8fadbcceb699b245c0f991447b5ed978a185f215bace7faa0c7dd646d4c9d166"
+}

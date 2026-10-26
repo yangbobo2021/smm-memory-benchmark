@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P14",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "1af2f34f9d510bacab0693debcf6031e78be7882104c7e0b45b53dc6459ee185",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The example given was Manolo García, a Spanish-Catalan singer/songwriter described as having spoken publicly about his support for unity between Catalonia and Spain.",
+    "claims": [
+      {
+        "claim": "The assistant previously cited Manolo García as a Spanish-Catalan singer/songwriter supporting unity between Catalonia and Spain.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.402735874988139,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 122,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 2714,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 2836
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain",
+        "valid": true,
+        "source_id": "ce4bde0adad4fe2ecc4bf403f",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-21T10:54:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

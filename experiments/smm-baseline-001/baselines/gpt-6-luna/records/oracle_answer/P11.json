@@ -1,0 +1,59 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P11",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "f536a46983971f77ca4d4599f2133213fe5309ecd16dabf9eede11496622d12e",
+  "output": {
+    "status": "answer",
+    "answer": "Roscioli.",
+    "claims": [
+      {
+        "claim": "The deli named in the conversation was Roscioli.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.206263,
+    "thread_setup_seconds": 0.076813,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.206263,
+    "turn_seconds": 4.129451,
+    "first_text_seconds": 3.57292,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 11376,
+      "completion_tokens": 88,
+      "total_tokens": 11464,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P11.json",
+  "raw_receipt_sha256": "3c819bff81386c963a3342cfe8daefef359c031c1c3f12aef0ac0b6045750328",
+  "imported": true,
+  "historical_exact_reuse": true,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P11.json",
+  "reused_first_result": "provenance/reused-first-results/gpt-6-luna/P11.json",
+  "reused_first_result_sha256": "bb1ab7c3018d603b35bee4a417d021f5f872d4ffa7510dbd8d6c865e071bc14e"
+}

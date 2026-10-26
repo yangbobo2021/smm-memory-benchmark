@@ -1,0 +1,84 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "43ec54f8e0a821309081afe509043e4ce50a793be1bd5c1ab6dd399e05ecdd40",
+  "output": {
+    "status": "answer",
+    "answer": "At least 4 types: orange, lemon, lime, and grapefruit. The conversation doesn’t establish that this is an exhaustive count of every citrus fruit you’ve used.",
+    "claims": [
+      {
+        "claim": "The evidence supports at least four citrus types—orange, lemon, lime, and grapefruit—used in cocktail-related recipes or drinks.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "2 dashes orange bitters"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "3/4 oz freshly squeezed lemon juice"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "fresh lime juice"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "splash of citrus juice (orange, lemon, or grapefruit)"
+          }
+        ]
+      },
+      {
+        "claim": "The evidence does not establish an exhaustive count of all citrus types the user has used.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I recently made my own orange bitters using orange peels and vodka."
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": "No exhaustive inventory of citrus fruits actually used is provided; some mentions in the conversation are assistant suggestions rather than user-confirmed use."
+  },
+  "metrics": {
+    "seconds": 7.740305,
+    "thread_setup_seconds": 0.094836,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.740305,
+    "turn_seconds": 7.645469,
+    "first_text_seconds": 4.366743,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 26572,
+      "completion_tokens": 292,
+      "total_tokens": 26864,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P08.json",
+  "raw_receipt_sha256": "060ab201866d7c1d0b8168ab5c5a9a08e2070ca2eb3e83b4b1d6d1a7f8c0e00f",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P08/answer.json"
+}

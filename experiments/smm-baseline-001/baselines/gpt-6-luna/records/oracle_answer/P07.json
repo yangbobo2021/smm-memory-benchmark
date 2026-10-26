@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "a9c77e38c3234e686eb2abdb8c406996eaabecb7467f7bfd8cfabe38174c3b30",
+  "output": {
+    "status": "answer",
+    "answer": "You attended 3 dinner parties in the past month: one at Mike’s two weeks ago, one at Alex’s yesterday, and one at Sarah’s last week.",
+    "claims": [
+      {
+        "claim": "The user described attending three dinner parties within the past month: Mike’s BBQ, Alex’s potluck, and Sarah’s Italian feast.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "the one we had at Mike's place two weeks ago"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "the ones we had at Alex's place yesterday"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.042854,
+    "thread_setup_seconds": 0.080397,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.042854,
+    "turn_seconds": 4.962457,
+    "first_text_seconds": 4.062965,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 16970,
+      "completion_tokens": 167,
+      "total_tokens": 17137,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P07.json",
+  "raw_receipt_sha256": "7e4a586f7b49d3c337b57a5496b15f411b8f502bfc01db76950374f0b4af372f",
+  "imported": true,
+  "historical_exact_reuse": true,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P07.json",
+  "reused_first_result": "provenance/reused-first-results/gpt-6-luna/P07.json",
+  "reused_first_result_sha256": "c6694aa70112d7cf01593f4ba3373d4024a953ad8bd54e7b5070ed87b9f76607"
+}

@@ -1,0 +1,180 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "98064e2acbba12afac003b09f5d59c4c9211335a8aab9a218f861ee35d58c3ca",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "In the past month (2023-04-30 to 2023-05-30), you explicitly described attending 2 dinner parties: a low-key potluck dinner party at Alex's place 'yesterday' (~2023-05-20) and a BBQ-style one at Mike's place 'two weeks ago' (~2023-05-07). A possible third event — the Italian feast at Sarah's place 'last week' — is a dinner-style gathering you connected to dinner parties, but you never called it a 'dinner party' explicitly, so the confirmed count is 2, possibly 3.",
+    "claims": [
+      {
+        "claim": "You attended a potluck dinner party at Alex's place yesterday (relative to the 2023-05-21 conversation, i.e., ~2023-05-20), which you counted among your dinner party experiences.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together."
+          }
+        ]
+      },
+      {
+        "claim": "You attended a BBQ-style dinner party at Mike's place two weeks ago (~2023-05-07), also counted among your low-key dinner party experiences.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've also had a great experience with a BBQ theme, like the one we had at Mike's place two weeks ago, where we watched a football game together."
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "A possible third dinner event was the Italian feast at Sarah's place 'last week' (relative to the 2023-05-22 conversation), but it is labeled a 'feast,' not explicitly a 'dinner party,' so it cannot be confirmed as a dinner party.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes."
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast."
+          }
+        ]
+      },
+      {
+        "claim": "David's birthday party last week (~per the 2023-05-20 conversation) is excluded because it was a birthday party, not a dinner party.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just got back from a birthday party for my colleague and friend, David, last week"
+          }
+        ]
+      },
+      {
+        "claim": "Your upcoming dinner party is one you are hosting, not attending, so it is excluded from the count.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I'm looking for some new recipe ideas for a dinner party I'm hosting soon."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": "The evidence never explicitly labels the Sarah's place Italian feast as a 'dinner party,' and exact dates for these events are not given (only relative references like 'yesterday,' 'two weeks ago,' and 'last week'), so a definitive count cannot be fully confirmed."
+  },
+  "metrics": {
+    "seconds": 88.41740170796402,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 3330,
+      "completion_tokens_details": {
+        "reasoning_tokens": 2483
+      },
+      "prompt_tokens": 26147,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 29477
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've also had a great experience with a BBQ theme, like the one we had at Mike's place two weeks ago, where we watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes.",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast.",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "I just got back from a birthday party for my colleague and friend, David, last week",
+        "valid": true,
+        "source_id": "c9ad6353d8b6aa8d5c43d4970",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-20T02:28:00+00:00"
+      },
+      {
+        "claim_index": 4,
+        "evidence_id": "E00002",
+        "quote": "I'm looking for some new recipe ideas for a dinner party I'm hosting soon.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

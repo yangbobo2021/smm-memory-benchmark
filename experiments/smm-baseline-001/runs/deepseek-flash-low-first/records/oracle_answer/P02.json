@@ -1,0 +1,97 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P02",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "69a826f9482cf85a2dde7568445746705f10fed91060c4e7346b9144c3d27335",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "20 dozen eggs, based on the most recent report on 2023-03-15.",
+    "claims": [
+      {
+        "claim": "As of the most recent report on 2023-03-15, the user said they had 20 dozen eggs stocked in the refrigerator.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "we've got 20 dozen stocked up in the fridge right now"
+          }
+        ]
+      },
+      {
+        "claim": "An earlier report on 2023-01-11 mentioned 30 dozen eggs, but that older count is superseded by the later report.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "30 dozen at the moment!"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "No egg-stock update after 2023-03-15 is provided."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "3c0a96ff0c8f175cd074cae7a11d4e88842b9e4f7f084ec707ddd1ca091b40ab",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 8847,
+      "completion_tokens": 782,
+      "total_tokens": 9629,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 605
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 8463
+    },
+    "response_id": "32918d13-fbb4-435f-a0e4-c489a3853f4a",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 6.613025833154097
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "we've got 20 dozen stocked up in the fridge right now",
+        "valid": true,
+        "source_id": "ca3586c9f696b9c5035ebf62c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-15T08:18:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "30 dozen at the moment!",
+        "valid": true,
+        "source_id": "c4d5e76892eb66ee21cf151ae",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-01-11T23:15:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P02.json",
+  "raw_response_sha256": "9a5e6d61a7c8a4f32aa302e82afc75f9dbae34410944b3349b51e2f1553aaf02"
+}

@@ -1,0 +1,84 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "514d998be7fd5ef8241468ffe25b8cb3807f76cb153e604cdb9c5ad013f28050",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit.",
+    "claims": [
+      {
+        "claim": "User earned $420 at the Downtown Farmers Market on their most recent visit, stated 2023-09-30 (after the earlier C01 records of $220 on March 18 and $350 on May 6).",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit."
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "May 6th, Downtown Farmers Market, $350"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "The exact date of the most recent visit is not stated in the evidence."
+  },
+  "metrics": {
+    "seconds": 6.645470916992053,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 184,
+      "completion_tokens_details": {
+        "reasoning_tokens": 9
+      },
+      "prompt_tokens": 5103,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 5287
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "May 6th, Downtown Farmers Market, $350",
+        "valid": true,
+        "source_id": "ca194573bab838bc02a805cf8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-11T00:10:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

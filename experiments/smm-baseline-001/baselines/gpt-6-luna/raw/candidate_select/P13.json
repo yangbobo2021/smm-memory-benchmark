@@ -1,0 +1,39 @@
+{
+  "case_id": "P13",
+  "model": "gpt-6-luna",
+  "task": "select",
+  "request_sha256": "4be41c595f915eb738f490807005faa8e1607f7ce65c9c03a4774b6398c70d6a",
+  "request_file_sha256": "0d00838c444632ab0ab03c8ee7c1d2538b1310925a5ab4f23ceb4b985eafb8f9",
+  "output": {
+    "selected_sources": [
+      "C07"
+    ]
+  },
+  "metrics": {
+    "seconds": 3.860981,
+    "thread_setup_seconds": 0.110065,
+    "rate_wait_seconds": 0,
+    "active_seconds": 3.860981,
+    "turn_seconds": 3.750916,
+    "first_text_seconds": 3.654399,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 30102,
+      "completion_tokens": 18,
+      "total_tokens": 30120,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true
+  }
+}

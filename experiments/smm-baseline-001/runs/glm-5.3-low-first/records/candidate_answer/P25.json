@@ -1,0 +1,90 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P25",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "1d5fc888cee602647e22922bceb664725c002bad2d187d61f9c394f09045b480",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "partial",
+    "answer": "You wake up 15 minutes earlier on Tuesdays and Thursdays than your usual time to meditate and do yoga. Evidence indicates your usual wake-up was 8:30 AM, and you recently started waking at 7:00 AM. If the '15 minutes earlier' is relative to your usual 8:30 AM wake-up, that would be 8:15 AM; if relative to your new 7:00 AM routine, it would be 6:45 AM. The evidence does not state which baseline applies, so the exact Tuesday/Thursday wake-up time cannot be determined.",
+    "claims": [
+      {
+        "claim": "On Tuesdays and Thursdays, the user wakes up 15 minutes earlier to meditate and practice yoga.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses, which has helped me feel more centered and calm."
+          }
+        ]
+      },
+      {
+        "claim": "The user's usual wake-up time was 8:30 AM, recently changed to 7:00 AM.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04",
+      "C08"
+    ],
+    "missing": "The evidence never states the absolute clock time of the Tuesday/Thursday wake-up, only '15 minutes earlier' relative to an unspecified baseline."
+  },
+  "metrics": {
+    "seconds": 14.98063470912166,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 501,
+      "completion_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "prompt_tokens": 26136,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 26637
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses, which has helped me feel more centered and calm.",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00008",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

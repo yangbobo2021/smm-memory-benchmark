@@ -1,0 +1,86 @@
+{
+  "case_id": "P08",
+  "model": "gpt-6.1-sol",
+  "task": "answer",
+  "request_sha256": "43ec54f8e0a821309081afe509043e4ce50a793be1bd5c1ab6dd399e05ecdd40",
+  "request_file_sha256": "52330fb837eea0c7c54b46441139e48bcd75b62a8657486f58672a886dd87399",
+  "output": {
+    "status": "answer",
+    "answer": "Three types: orange, lemon, and lime.",
+    "claims": [
+      {
+        "claim": "You used orange and lemon in Sangria.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "You used lime in your Cucumber Gimlet, bringing the distinct citrus count to three.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C05"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.967824,
+    "thread_setup_seconds": 0.092208,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.967824,
+    "turn_seconds": 7.875616,
+    "first_text_seconds": 6.21713,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 27558,
+      "completion_tokens": 174,
+      "total_tokens": 27732,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "original_source_id": "c8f9041e297070a3be513d341",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 8826,
+        "end": 8964
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00005",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+        "original_source_id": "c8b7f5dac3289afd48af13edf",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 171,
+        "end": 325
+      }
+    ]
+  }
+}

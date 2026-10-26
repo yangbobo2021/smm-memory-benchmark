@@ -1,0 +1,165 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You have used 3 different types of citrus fruit in your cocktail recipes: lime, orange, and lemon.",
+    "claims": [
+      {
+        "claim": "Lime was used in the user's cocktail recipes, including a classic Daiquiri made with fresh lime juice and a Cucumber Gimlet mixed with lime juice.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class."
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup"
+          }
+        ]
+      },
+      {
+        "claim": "Orange and lemon were used in Sangria; the user says they served Sangria in a large pitcher with slices of orange and lemon at a dinner party two weeks earlier.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "Counting the distinct citrus fruits supported by the user's statements gives 3: lime, orange, and lemon.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "using fresh lime juice and simple syrup"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "slices of orange and lemon"
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "mixed it with lime juice and simple syrup"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "missing": "No evidence that the user used any other citrus fruit, such as grapefruit, in their cocktail recipes."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "902f0241e40db12acbf80aeaa0784a7a2ba90a40cd020897dffbfda8c3a309cc",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 13737,
+      "completion_tokens": 2825,
+      "total_tokens": 16562,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2472
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 13481
+    },
+    "response_id": "0b078601-05ac-4e61-8304-5a8c1f58fce8",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 17.999090207973495
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class.",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "using fresh lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "assistant",
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "slices of orange and lemon",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "assistant",
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00004",
+        "quote": "mixed it with lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P08.json",
+  "raw_response_sha256": "7ff8c7cf189ef7ce1f38ce66c762f6eafc35f21b9b65d3b54fcfdf40d7ba2f16"
+}

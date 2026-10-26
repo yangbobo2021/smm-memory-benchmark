@@ -1,0 +1,113 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "d011b7215caa9127ef4e5122f8b3ea1f4ed46a62497e6ab291072f05ac5968b5",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes. As of the reference time (2023-04-12), you had finished reading 'The Nightingale' by Kristin Hannah. In a conversation on 2023-03-30 you stated you had recently finished it. Earlier, on 2021-01-21, you had only temporarily put it down, so the completion happened between those dates.",
+    "claims": [
+      {
+        "claim": "The user finished reading 'The Nightingale' by Kristin Hannah, stated on 2023-03-30, which is before the reference time.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I also recently finished ``The Nightingale'' by Kristin Hannah"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I was thinking about ``The Nightingale'' by Kristin Hannah, which I finished reading recently"
+          }
+        ]
+      },
+      {
+        "claim": "Earlier, on 2021-01-21, the user had not yet finished the book, having only temporarily set it aside.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "which I put down temporarily because it was getting too emotional"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "The exact completion date of the book cannot be determined; only that it occurred between the conversation on 2021-01-21 and the statement on 2023-03-30."
+  },
+  "metrics": {
+    "seconds": 19.501897332957014,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "reasoning_tokens": 328
+      },
+      "prompt_tokens": 5870,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 6560
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I also recently finished ``The Nightingale'' by Kristin Hannah",
+        "valid": false,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I was thinking about ``The Nightingale'' by Kristin Hannah, which I finished reading recently",
+        "valid": false,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "which I put down temporarily because it was getting too emotional",
+        "valid": true,
+        "source_id": "c6cfd58034e25f4def8503729",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-01-21T15:05:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I also recently finished ``The Nightingale'' by Kristin Hannah",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I was thinking about ``The Nightingale'' by Kristin Hannah, which I finished reading recently",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

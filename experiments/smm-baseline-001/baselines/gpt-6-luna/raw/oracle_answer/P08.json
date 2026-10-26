@@ -1,0 +1,119 @@
+{
+  "case_id": "P08",
+  "model": "gpt-6-luna",
+  "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+  "request_file_sha256": "0a4847eff31b8d733bd6b12f284b71b477f74a22830c6622819917ffbacde9b9",
+  "output": {
+    "status": "partial",
+    "answer": "At least 3 types: orange, lemon, and lime. The evidence doesn’t establish whether you’ve used any other citrus types in your own cocktail recipes, so the total cannot be determined.",
+    "claims": [
+      {
+        "claim": "The user explicitly described using orange and lemon slices in Sangria.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "The user explicitly described a cocktail made with lime juice.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup"
+          }
+        ]
+      },
+      {
+        "claim": "The evidence establishes at least three distinct citrus types used in the user’s cocktail recipes, but does not establish a complete total.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "slices of orange and lemon"
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "mixed it with lime juice"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C04"
+    ],
+    "missing": "No evidence here establishes whether the user has used additional citrus types in their own cocktail recipes."
+  },
+  "metrics": {
+    "seconds": 5.428001,
+    "thread_setup_seconds": 0.117306,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.428001,
+    "turn_seconds": 5.310695,
+    "first_text_seconds": 4.057215,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 23091,
+      "completion_tokens": 273,
+      "total_tokens": 23364,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "original_source_id": "c8f9041e297070a3be513d341",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 8826,
+        "end": 8964
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00004",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup",
+        "original_source_id": "c8b7f5dac3289afd48af13edf",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 171,
+        "end": 292
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "slices of orange and lemon",
+        "original_source_id": "c8f9041e297070a3be513d341",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 383,
+        "end": 409
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00004",
+        "quote": "mixed it with lime juice",
+        "original_source_id": "c8b7f5dac3289afd48af13edf",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 251,
+        "end": 275
+      }
+    ]
+  }
+}

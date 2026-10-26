@@ -1,0 +1,89 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "aa14dfe67c3cde15abad3fca1dc75fc89b9390428837a015b99a90ee46d0dee3",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You've finished 5 issues of National Geographic.",
+    "claims": [
+      {
+        "claim": "Your reported total increased from 3 completed issues to 5.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "Can you help me fill in the National Geographic section of the spreadsheet? I remember finishing three issues and I'm currently on my fourth."
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "I've been reading about the Amazon rainforest and its indigenous communities in National Geographic, and I just finished my fifth issue."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 20.306241,
+    "thread_setup_seconds": 0.085971,
+    "rate_wait_seconds": 0,
+    "active_seconds": 20.306241,
+    "turn_seconds": 20.220269,
+    "first_text_seconds": 18.316192,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 27588,
+      "completion_tokens": 428,
+      "total_tokens": 28016,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 291
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "Can you help me fill in the National Geographic section of the spreadsheet? I remember finishing three issues and I'm currently on my fourth.",
+        "valid": true,
+        "source_id": "cd244fcacffe13caffeb31e69",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-20T21:08:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "I've been reading about the Amazon rainforest and its indigenous communities in National Geographic, and I just finished my fifth issue.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

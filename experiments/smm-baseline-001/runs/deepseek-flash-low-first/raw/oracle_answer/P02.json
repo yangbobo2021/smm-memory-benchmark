@@ -1,0 +1,22 @@
+{
+  "id": "32918d13-fbb4-435f-a0e4-c489a3853f4a",
+  "model": "deepseek-flash",
+  "created": 1792980902,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"20 dozen eggs, based on the most recent report on 2023-03-15.\",\"claims\":[{\"claim\":\"As of the most recent report on 2023-03-15, the user said they had 20 dozen eggs stocked in the refrigerator.\",\"citations\":[{\"evidence_id\":\"E00002\",\"quote\":\"we've got 20 dozen stocked up in the fridge right now\"}]},{\"claim\":\"An earlier report on 2023-01-11 mentioned 30 dozen eggs, but that older count is superseded by the later report.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"30 dozen at the moment!\"}]}],\"selected_sources\":[\"C01\",\"C02\"],\"missing\":\"No egg-stock update after 2023-03-15 is provided.\"}",
+  "usage": {
+    "prompt_tokens": 8847,
+    "completion_tokens": 782,
+    "total_tokens": 9629,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 605
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 8463
+  },
+  "refusal": null
+}

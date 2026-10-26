@@ -1,0 +1,66 @@
+{
+  "case_id": "P11",
+  "model": "gpt-6.1-sol",
+  "task": "answer",
+  "request_sha256": "97127f6d3507fb583287fae7a8cc6d0671122ff3ac87be1ae6f1fdb08d005cdc",
+  "request_file_sha256": "cc5db97f3c2c3446bc6dd0a1f909166bd6ef275bb3c12303db2dd76dfe9a46e5",
+  "output": {
+    "status": "answer",
+    "answer": "It was Roscioli—the deli previously recommended for its cured meats, cheeses, and traditional Roman cuisine.",
+    "claims": [
+      {
+        "claim": "Roscioli was the deli previously recommended for cured meats and cheeses.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.187199,
+    "thread_setup_seconds": 0.095386,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.187199,
+    "turn_seconds": 6.091813,
+    "first_text_seconds": 4.703872,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 33073,
+      "completion_tokens": 108,
+      "total_tokens": 33181,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine.",
+        "original_source_id": "c8ae7755b954de1ea86110538",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 1721,
+        "end": 1831
+      }
+    ]
+  }
+}

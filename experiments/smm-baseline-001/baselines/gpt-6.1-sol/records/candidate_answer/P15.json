@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P15",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "94e14ace3c2737a5838693efa558299b5b9b9d98a57f1918e2b06bd2b4ada950",
+  "output": {
+    "status": "answer",
+    "answer": "It was International Budget Hostel, which I recommended as being near the Red Light District.",
+    "claims": [
+      {
+        "claim": "The previously recommended hostel near the Red Light District was International Budget Hostel.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "4. International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.801007,
+    "thread_setup_seconds": 0.113118,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.801007,
+    "turn_seconds": 5.687889,
+    "first_text_seconds": 4.38465,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 26861,
+      "completion_tokens": 108,
+      "total_tokens": 26969,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P15.json",
+  "raw_receipt_sha256": "9c1808834ad654b0c6d6008788d19602210c0fbb00d4878f39135aff84e04dc0",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P15/answer.json"
+}

@@ -1,0 +1,69 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "98064e2acbba12afac003b09f5d59c4c9211335a8aab9a218f861ee35d58c3ca",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Based on your own statements, you attended 3 dinner parties in the past month (as of 2023-05-30): (1) a low-key potluck at Alex's place with cuisines from around the world, held the day before 2023-05-21; (2) a BBQ dinner party at Mike's place with a football game, about two weeks before 2023-05-21; and (3) an Italian feast at Sarah's place, the week before 2023-05-22. The dinner parties you are planning to host soon are future events and not counted; David's birthday party (laser tag/karaoke) and your family reunion are not described as dinner parties.",
+    "claims": [
+      {
+        "claim": "You attended a potluck dinner party at Alex's place 'yesterday' (relative to the 2023-05-21 conversation) and a BBQ dinner party at Mike's place — you explicitly grouped both under 'dinner parties that are more low-key'.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02",
+      "C03"
+    ],
+    "missing": "If the Mike's BBQ mentioned twice in C02 were two separate events, the count could differ, but the descriptions match and appear to be one event."
+  },
+  "metrics": {
+    "seconds": 32.00862474995665,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1952,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1615
+      },
+      "prompt_tokens": 26147,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 28099
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

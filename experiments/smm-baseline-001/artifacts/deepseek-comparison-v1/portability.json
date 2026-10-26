@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "copied_entire_bundle_with_runs": true,
+  "original_project_paths_forbidden": [
+    "/Users/boboyang/work/next-app"
+  ],
+  "network_and_subprocess_blocked_inside_tests": true,
+  "no_site_packages": true,
+  "new_model_calls": 0,
+  "checks": [
+    {
+      "check": "verify-five-model-inputs",
+      "passed": true,
+      "output_sha256": "9d26fd9ca44aeb1369c06913cd40b0583b07c7e0f9d7d74329071069f96fce54"
+    },
+    {
+      "check": "score-deepseek",
+      "passed": true,
+      "output_sha256": "7092421d2920a7cdb79c3ab86c190c0bec23e1966b4bf790393a621241218559"
+    },
+    {
+      "check": "portable-five-model-report",
+      "passed": true,
+      "output_sha256": "c4d5301d71b7b56911215997402e71dc7eb24e112731f4cea39565c1aa82ebee"
+    }
+  ],
+  "report_sha256": "ca7b8c860356518890c3dd901aab8db58761f7422ec92a8eb7e17b955066f02f",
+  "script_parent_added_to_sys_path": "Matches normal Python script invocation; no source changes."
+}

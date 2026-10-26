@@ -1,0 +1,105 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "78a23fe92a53f9e3ec27e5d3b4c32eae0af817dc74b2c1f78f0300bf63c794fb",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Emma graduated first, Rachel second, and Alex third.",
+    "claims": [
+      {
+        "claim": "The graduation order was Emma, then Rachel, then Alex.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May"
+          },
+          {
+            "evidence_id": "E00005",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C05",
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 41.564548,
+    "thread_setup_seconds": 0.369646,
+    "rate_wait_seconds": 0,
+    "active_seconds": 41.564548,
+    "turn_seconds": 41.194902,
+    "first_text_seconds": 39.314214,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 26848,
+      "completion_tokens": 481,
+      "total_tokens": 27329,
+      "cached_prompt_tokens": 26624,
+      "reasoning_tokens": 334
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+        "valid": true,
+        "source_id": "c5cb50c297191b2e566d454d2",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-05-28T11:17:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+        "valid": true,
+        "source_id": "cd2a6842f7e4b75fe0461d1a1",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-06-22T11:46:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago",
+        "valid": true,
+        "source_id": "c967f69f5e97bb77d7922817a",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-07-15T10:48:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

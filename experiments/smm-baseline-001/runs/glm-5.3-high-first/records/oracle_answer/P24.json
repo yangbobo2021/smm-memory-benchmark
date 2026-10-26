@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "3321d354e07317a9fae0e7a11e34c1e12b850a5da0dbeb1d3fde1d02de52bbb8",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attended the networking event 26 days ago. The event took place on 2022-03-09, the day of the conversation (the user said it ran from 6 PM to 8 PM \"today\"), and the reference time is 2022-04-04T21:03:00+00:00, which is 26 days later.",
+    "claims": [
+      {
+        "claim": "The user attended a networking event on the day of the conversation (2022-03-09, per the evidence's received_at timestamp), running from 6 PM to 8 PM.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "None"
+  },
+  "metrics": {
+    "seconds": 22.522231665905565,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1182,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1008
+      },
+      "prompt_tokens": 2046,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 3228
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

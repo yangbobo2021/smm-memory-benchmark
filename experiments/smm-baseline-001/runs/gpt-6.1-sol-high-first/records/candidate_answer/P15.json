@@ -1,0 +1,72 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P15",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "94e14ace3c2737a5838693efa558299b5b9b9d98a57f1918e2b06bd2b4ada950",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "It was International Budget Hostel—the one I described as near the Red Light District.",
+    "claims": [
+      {
+        "claim": "The previously recommended hostel described as near the Red Light District was International Budget Hostel.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "4. International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.591005,
+    "thread_setup_seconds": 0.075231,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.591005,
+    "turn_seconds": 6.515774,
+    "first_text_seconds": 4.712522,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 26883,
+      "completion_tokens": 109,
+      "total_tokens": 26992,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00005",
+        "quote": "4. International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms.",
+        "valid": true,
+        "source_id": "c831c3cd021ba61a85c9aa466",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-27T06:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

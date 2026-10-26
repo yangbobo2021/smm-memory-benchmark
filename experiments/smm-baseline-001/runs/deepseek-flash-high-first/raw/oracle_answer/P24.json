@@ -1,0 +1,22 @@
+{
+  "id": "38cd0bdb-0076-4604-9d83-848206daccc0",
+  "model": "deepseek-flash",
+  "created": 1792983177,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"You attended the networking event 26 days ago, on 2022-03-09.\",\"claims\":[{\"claim\":\"The user said they had just returned from a networking event that ran from 6 PM to 8 PM “today.”\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I just got back from a networking event that ran from 6 PM to 8 PM today\"}]},{\"claim\":\"Because that statement was received on 2022-03-09, the event date was 2022-03-09.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"today\"}]},{\"claim\":\"Counting calendar days from 2022-03-09 to the reference time of 2022-04-04 gives 26 days.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"today\"}]}],\"selected_sources\":[\"C01\"],\"missing\":\"Exact local timezone for the event is not specified; the count is by calendar date.\"}",
+  "usage": {
+    "prompt_tokens": 2307,
+    "completion_tokens": 1967,
+    "total_tokens": 4274,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1748
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1923
+  },
+  "refusal": null
+}

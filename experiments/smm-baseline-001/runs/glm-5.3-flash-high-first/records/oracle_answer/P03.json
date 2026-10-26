@@ -1,0 +1,109 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "20e52c54bb51cb2953f5f4ae83b85f8e167e5d5f6c0a96136115b329b7c8dd16",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Based on your most recent update, you have finished 5 issues of National Geographic.",
+    "claims": [
+      {
+        "claim": "Earlier, on 2023-04-20, the user reported having finished three National Geographic issues and being on the fourth (E00001, role: USER): \"I just finished my third issue, and I'm currently on my fourth.\"",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just finished my third issue, and I'm currently on my fourth."
+          }
+        ]
+      },
+      {
+        "claim": "The most recent statement, on 2023-07-15 (before reference time 2023-08-14), updates the total to five finished issues (E00002, role: USER): \"I've finished five issues so far\".",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've finished five issues so far"
+          }
+        ]
+      },
+      {
+        "claim": "The same conversation (2023-07-15) confirms the fifth issue was completed (E00002, role: USER): \"I just finished my fifth issue.\"",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I just finished my fifth issue."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "No evidence after 2023-07-15 exists, so any reading progress between 2023-07-15 and 2023-08-14 cannot be determined."
+  },
+  "metrics": {
+    "seconds": 22.271568333962932,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 709,
+      "completion_tokens_details": {
+        "reasoning_tokens": 348
+      },
+      "prompt_tokens": 5962,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 6671
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just finished my third issue, and I'm currently on my fourth.",
+        "valid": true,
+        "source_id": "cd244fcacffe13caffeb31e69",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-20T21:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've finished five issues so far",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I just finished my fifth issue.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

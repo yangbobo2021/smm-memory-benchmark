@@ -1,0 +1,88 @@
+{
+  "case_id": "P25",
+  "model": "gpt-6-luna",
+  "request_sha256": "20b02bc120f92d1306979acd4974110b6f9cdec4089bea4ca91cd2e29cedbaa5",
+  "request_file_sha256": "e1fc1f09f5a49c936d0598fc98377d1f005c4b9830999416f8142ded67a8354c",
+  "output": {
+    "status": "answer",
+    "answer": "You didn’t specify an exact wake-up time for Tuesdays and Thursdays. You said you wake up 15 minutes earlier on those days, but the exact time can’t be determined from the evidence.",
+    "claims": [
+      {
+        "claim": "On Tuesdays and Thursdays, the user wakes 15 minutes earlier; the exact wake-up time is not stated.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier"
+          }
+        ]
+      },
+      {
+        "claim": "The user’s usual wake-up time is 8:30 AM, but the evidence does not say whether that usual time applies to Tuesdays and Thursdays.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "my usual 8:30 AM wake-up call"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "The evidence does not identify the baseline time from which the 15-minute-earlier wake-up is calculated."
+  },
+  "metrics": {
+    "seconds": 5.800273,
+    "thread_setup_seconds": 0.076331,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.800273,
+    "turn_seconds": 5.723942,
+    "first_text_seconds": 4.234648,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 17270,
+      "completion_tokens": 207,
+      "total_tokens": 17477,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": true,
+  "reused_from": "work/smm-full-source-oracle-v1/ai/P25.json",
+  "reused_from_sha256": "d045e75fee1566d5cc040482d472a03a2e530bb9f8fd4cd91e13d199bdb296af",
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier",
+        "original_source_id": "c1093bf2c8cd861890c957c5c",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 161,
+        "end": 234
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "my usual 8:30 AM wake-up call",
+        "original_source_id": "cfb475330aad6b2360694d630",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 170,
+        "end": 199
+      }
+    ]
+  }
+}

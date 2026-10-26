@@ -1,0 +1,64 @@
+{
+  "case_id": "P20",
+  "request_sha256": "1a4f9f31b21b346653ba0be8fed8eb0e1adbd880f8e98119af5ef4b600ef740d",
+  "request_file_sha256": "9b83fb91131b039542688a3aebda542b71b574452b5ad47a917ed8ef71571aee",
+  "output": {
+    "status": "answer",
+    "answer": "You stop checking work emails and messages at 7 pm.",
+    "claims": [
+      {
+        "claim": "The user says they stop work emails and messages by 7 pm.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "stopping work emails and messages by 7 pm"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.287785,
+    "thread_setup_seconds": 0.076396,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.287785,
+    "turn_seconds": 4.211389,
+    "first_text_seconds": 3.733565,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13065,
+      "completion_tokens": 86,
+      "total_tokens": 13151,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "stopping work emails and messages by 7 pm",
+        "original_source_id": "c1c7c4c03a55cac4522db0a20",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 5593,
+        "end": 5634
+      }
+    ]
+  }
+}

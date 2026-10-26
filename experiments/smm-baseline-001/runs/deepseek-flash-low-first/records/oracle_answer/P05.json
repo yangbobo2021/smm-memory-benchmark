@@ -1,0 +1,117 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P05",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "b990f00d81be44055946bf9d2cba3170253adec0aa71a9be6e1ba8bbb8eeb1c5",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "Your latest reported estimate is 10–12 hours on the abstract ocean sculpture, as of June 17, 2023. Earlier, on June 11, you had said it was around 5–6 hours. An exact number is not stated.",
+    "claims": [
+      {
+        "claim": "Earlier, the user reported spending around 5–6 hours on the abstract ocean sculpture.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been working on an abstract ocean sculpture at home, and I've spent around 5-6 hours on it so far."
+          }
+        ]
+      },
+      {
+        "claim": "Later, the user reported having put in 10–12 hours and said the sculpture was still a work in progress.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've been spending a lot of time on my abstract ocean sculpture lately - I've already put in 10-12 hours, and it's still a work in progress."
+          }
+        ]
+      },
+      {
+        "claim": "The user reiterated that they had already spent 10–12 hours on the abstract ocean sculpture.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've already spent 10-12 hours on my abstract ocean sculpture"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "An exact hour count is not provided; the evidence only gives ranges of 5–6 hours and later 10–12 hours."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "5fae51f5f8b228bace7d63260dde428a5dd77ecdd34e68e9e8418064505b51da",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 8606,
+      "completion_tokens": 952,
+      "total_tokens": 9558,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 653
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 8222
+    },
+    "response_id": "56de89aa-5b67-4ffa-b262-913fd5309a23",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 6.961312750121579
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been working on an abstract ocean sculpture at home, and I've spent around 5-6 hours on it so far.",
+        "valid": true,
+        "source_id": "ca1d9de8e9c37808891cece4b",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-11T03:51:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've been spending a lot of time on my abstract ocean sculpture lately - I've already put in 10-12 hours, and it's still a work in progress.",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I've already spent 10-12 hours on my abstract ocean sculpture",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P05.json",
+  "raw_response_sha256": "a438a0604117293827fc1222f2cea0fd960731ba9099c776c52ca5224ea612fc"
+}

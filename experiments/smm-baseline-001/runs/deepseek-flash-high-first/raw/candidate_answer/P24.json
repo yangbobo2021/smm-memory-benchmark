@@ -1,0 +1,22 @@
+{
+  "id": "46df7531-eff4-40fe-9bc5-9071c044b21c",
+  "model": "deepseek-flash",
+  "created": 1792983196,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"26 days ago. The networking event was reported as happening “today” in C07, which was received on 2022-03-09; from 2022-03-09 to 2022-04-04 is 26 days.\",\"claims\":[{\"claim\":\"The user attended a networking event that ran from 6 PM to 8 PM on the day C07 was received (2022-03-09).\",\"citations\":[{\"evidence_id\":\"E00007\",\"quote\":\"I just got back from a networking event that ran from 6 PM to 8 PM today\"}]},{\"claim\":\"Relative to the reference time of 2022-04-04, that event date is 26 days earlier.\",\"citations\":[{\"evidence_id\":\"E00007\",\"quote\":\"I just got back from a networking event that ran from 6 PM to 8 PM today\"}]}],\"selected_sources\":[\"C07\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 20713,
+    "completion_tokens": 2524,
+    "total_tokens": 23237,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2317
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 20329
+  },
+  "refusal": null
+}

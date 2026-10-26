@@ -1,0 +1,95 @@
+{
+  "case_id": "P07",
+  "model": "gpt-6.1-sol",
+  "request_sha256": "a9c77e38c3234e686eb2abdb8c406996eaabecb7467f7bfd8cfabe38174c3b30",
+  "request_file_sha256": "5d00ca9e401a4b8374a07442881fcb404c80fdc319b77934197e0203adeddbdd",
+  "output": {
+    "status": "answer",
+    "answer": "You mentioned attending 3 dinner parties in the past month: Mike’s BBQ, Alex’s international potluck, and Sarah’s Italian feast.",
+    "claims": [
+      {
+        "claim": "The count is 3 distinct attended dinner parties in the past month.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together."
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.551507,
+    "thread_setup_seconds": 0.083419,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.551507,
+    "turn_seconds": 6.468089,
+    "first_text_seconds": 4.483324,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 17966,
+      "completion_tokens": 176,
+      "total_tokens": 18142,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together.",
+        "original_source_id": "c799a2510389a8ff2e69d96f5",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 2473,
+        "end": 2566
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world",
+        "original_source_id": "c799a2510389a8ff2e69d96f5",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 5203,
+        "end": 5328
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week",
+        "original_source_id": "c5e13079f8999c5bfd339aab7",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 85,
+        "end": 145
+      }
+    ]
+  }
+}

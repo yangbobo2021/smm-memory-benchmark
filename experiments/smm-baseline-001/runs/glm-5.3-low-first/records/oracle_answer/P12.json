@@ -1,0 +1,74 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "aed050931b9242d9a99eae557b592f91c5e0f0a9f3f283a5ec6918a58b6a01ba",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "answer",
+    "answer": "Yes — the show you used as an example was \"Doc Martin,\" which went down on Netflix after a while, leaving access only to its last season.",
+    "claims": [
+      {
+        "claim": "The user gave \"doc martin\" as the example of a show where only the last season remains available.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I will give you an example, 'doc martin' show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "]} Oops, correction — proper JSON below. {"
+  },
+  "metrics": {
+    "seconds": 6.183161374880001,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 132,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 1622,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 1754
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I will give you an example, 'doc martin' show went down after a while, and now we have access only to the last season.",
+        "valid": false,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I will give you an example, 'doc martin' show went down after a while, and now we have access only to the last season.",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "About 3 weeks ago. The evidence shows that on 2023-04-16 you said you had just downloaded Ibotta; from that date to 2023-05-06 is about 20 days, or approximately 3 weeks. An exact number of weeks cannot be determined because only “just downloaded” is provided.",
+    "claims": [
+      {
+        "claim": "On 2023-04-16, the user stated they had just downloaded Ibotta.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "No exact date for downloading or starting to use Ibotta is given beyond “just downloaded” on 2023-04-16, so the precise number of weeks cannot be determined."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "875240a5faa228c0b347ffb65364b4a3c8c4673f017c615a6eaf628b66af9e16",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 3708,
+      "completion_tokens": 1256,
+      "total_tokens": 4964,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1065
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 3324
+    },
+    "response_id": "5a963458-ceb8-4f7d-a8a1-7fb985f1087c",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 9.829273832961917
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P22.json",
+  "raw_response_sha256": "79595aa0b3c59ced3a3ca83428de7391afced11be42e2b844892bf474d23132e"
+}

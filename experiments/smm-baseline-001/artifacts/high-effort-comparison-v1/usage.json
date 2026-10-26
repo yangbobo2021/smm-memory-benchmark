@@ -1,0 +1,308 @@
+{
+  "gpt-6-luna": {
+    "low": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 384506,
+          "completion_tokens": 3457,
+          "total_tokens": 387963,
+          "cached_prompt_tokens": 46080,
+          "reasoning_tokens": 0
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 757945,
+          "completion_tokens": 492,
+          "total_tokens": 758437,
+          "cached_prompt_tokens": 27264,
+          "reasoning_tokens": 0
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 762772,
+          "completion_tokens": 3343,
+          "total_tokens": 766115,
+          "cached_prompt_tokens": 36864,
+          "reasoning_tokens": 0
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 384908,
+          "completion_tokens": 6465,
+          "total_tokens": 391373,
+          "cached_prompt_tokens": 73728,
+          "reasoning_tokens": 2944
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 758345,
+          "completion_tokens": 3740,
+          "total_tokens": 762085,
+          "cached_prompt_tokens": 0,
+          "reasoning_tokens": 3198
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 763172,
+          "completion_tokens": 6961,
+          "total_tokens": 770133,
+          "cached_prompt_tokens": 27648,
+          "reasoning_tokens": 3458
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    }
+  },
+  "gpt-6.1-sol": {
+    "low": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 409358,
+          "completion_tokens": 3336,
+          "total_tokens": 412694,
+          "cached_prompt_tokens": 10112,
+          "reasoning_tokens": 0
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 782599,
+          "completion_tokens": 623,
+          "total_tokens": 783222,
+          "cached_prompt_tokens": 19968,
+          "reasoning_tokens": 115
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 787426,
+          "completion_tokens": 3587,
+          "total_tokens": 791013,
+          "cached_prompt_tokens": 0,
+          "reasoning_tokens": 36
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 409708,
+          "completion_tokens": 6174,
+          "total_tokens": 415882,
+          "cached_prompt_tokens": 12160,
+          "reasoning_tokens": 2949
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 783145,
+          "completion_tokens": 1228,
+          "total_tokens": 784373,
+          "cached_prompt_tokens": 60672,
+          "reasoning_tokens": 691
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 787972,
+          "completion_tokens": 6775,
+          "total_tokens": 794747,
+          "cached_prompt_tokens": 36864,
+          "reasoning_tokens": 3427
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    }
+  },
+  "glm-5.3-flash": {
+    "low": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 6322,
+          "prompt_tokens": 133159,
+          "total_tokens": 139481
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 1207,
+          "prompt_tokens": 521609,
+          "total_tokens": 522816
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 6038,
+          "prompt_tokens": 523584,
+          "total_tokens": 529622
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 22374,
+          "prompt_tokens": 140676,
+          "total_tokens": 163050
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 9376,
+          "prompt_tokens": 521609,
+          "total_tokens": 530985
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 24555,
+          "prompt_tokens": 497976,
+          "total_tokens": 522531
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    }
+  },
+  "glm-5.3": {
+    "low": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 4851,
+          "prompt_tokens": 134258,
+          "total_tokens": 139109
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 520,
+          "prompt_tokens": 521609,
+          "total_tokens": 522129
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 6298,
+          "prompt_tokens": 523584,
+          "total_tokens": 529882
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 23165,
+          "prompt_tokens": 140676,
+          "total_tokens": 163841
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 8547,
+          "prompt_tokens": 521609,
+          "total_tokens": 530156
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "completion_tokens": 25626,
+          "prompt_tokens": 500455,
+          "total_tokens": 526081
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    }
+  },
+  "deepseek-flash": {
+    "low": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 147346,
+          "completion_tokens": 19506,
+          "total_tokens": 166852,
+          "prompt_cache_hit_tokens": 8832,
+          "prompt_cache_miss_tokens": 138514
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 525466,
+          "completion_tokens": 8972,
+          "total_tokens": 534438,
+          "prompt_cache_hit_tokens": 3072,
+          "prompt_cache_miss_tokens": 522394
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 531843,
+          "completion_tokens": 25548,
+          "total_tokens": 557391,
+          "prompt_cache_hit_tokens": 8960,
+          "prompt_cache_miss_tokens": 522883
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    },
+    "high": {
+      "oracle_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 147346,
+          "completion_tokens": 31059,
+          "total_tokens": 178405,
+          "prompt_cache_hit_tokens": 8832,
+          "prompt_cache_miss_tokens": 138514
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_select": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 525466,
+          "completion_tokens": 11345,
+          "total_tokens": 536811,
+          "prompt_cache_hit_tokens": 3072,
+          "prompt_cache_miss_tokens": 522394
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      },
+      "candidate_answer": {
+        "provider_reported_usage_sums": {
+          "prompt_tokens": 531843,
+          "completion_tokens": 35629,
+          "total_tokens": 567472,
+          "prompt_cache_hit_tokens": 8960,
+          "prompt_cache_miss_tokens": 522883
+        },
+        "scope": "Available receipt usage only; different supplier accounting and caches; no billing total or equal compute claim."
+      }
+    }
+  }
+}

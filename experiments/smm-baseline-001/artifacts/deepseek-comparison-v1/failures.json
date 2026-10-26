@@ -1,0 +1,153 @@
+{
+  "gpt-6-luna": {
+    "oracle_answer": [
+      {
+        "case_id": "P06",
+        "state": "scored",
+        "format_errors": [],
+        "note": "Actual omission:complete earlier source has Wednesday yoga3times. Later TueThuSat list has no exclusive/cancellation statement. Answer3fails4distinct-day count."
+      },
+      {
+        "case_id": "P08",
+        "state": "scored",
+        "format_errors": [],
+        "note": "All3types correctly identified and now genuinely supported by USERpast-use quotes. However answer says at least3and total cannot be determined:reference content covered, requested definite count not completed. Do not label this as inventing wrong ingredients."
+      }
+    ],
+    "candidate_select": [
+      {
+        "case_id": "P06",
+        "state": "scored",
+        "format_errors": [],
+        "note": ""
+      },
+      {
+        "case_id": "P09",
+        "state": "scored",
+        "format_errors": [],
+        "note": ""
+      },
+      {
+        "case_id": "P25",
+        "state": "scored",
+        "format_errors": [],
+        "note": ""
+      }
+    ],
+    "candidate_answer": [
+      {
+        "case_id": "P06",
+        "state": "scored",
+        "format_errors": [],
+        "note": "Still3days and cites only TueThuSat. Entire Wednesday source is present. Same real omission as own oracle baseline."
+      },
+      {
+        "case_id": "P07",
+        "state": "scored",
+        "format_errors": [],
+        "note": "Confirms Sarahonly and declines complete count, despite MikeandAlexattended-events source being present. Genuine reading/use regression from own3dinner oracle answer."
+      },
+      {
+        "case_id": "P08",
+        "state": "scored",
+        "format_errors": [],
+        "note": "Incorrect4types:grapefruit comes from ASSISTANTsuggestion in the Sangria source, not actual user use. Correctsource IDs alone fail to ensure correct facts. USERDaiquiri lime quote is valid alternative evidence forlime; actual past-use lemon is not cited. Own baseline listed3correct types but was already partial, so this is content regression without an extra completed-answer loss."
+      },
+      {
+        "case_id": "P09",
+        "state": "scored",
+        "format_errors": [],
+        "note": "Answers2days and omits Dec24mass, whose complete source is supplied. Reading/use regression from own3day oracle baseline. Independent selector omitted Dec10instead, so the two task results must not be substituted."
+      }
+    ]
+  },
+  "gpt-6.1-sol": {
+    "oracle_answer": [],
+    "candidate_select": [],
+    "candidate_answer": []
+  },
+  "glm-5.3-flash": {
+    "oracle_answer": [],
+    "candidate_select": [],
+    "candidate_answer": [
+      {
+        "case_id": "P07",
+        "state": "scored",
+        "format_errors": [],
+        "note": "只答2，错误排除Mike；已复读原USER后文明确把Mike BBQ也列入dinner parties。候选原文有完整依据；不能当检索漏源。另有错误时间笼统限定和非逐字引句。"
+      },
+      {
+        "case_id": "P21",
+        "state": "scored",
+        "format_errors": [],
+        "note": "误把first/second/third按毕业先后理解为名次，拒答；正确三份源已选，且声称July15两周前是六月初，另有日期错误。不是召回缺源。"
+      }
+    ]
+  },
+  "glm-5.3": {
+    "oracle_answer": [
+      {
+        "case_id": "P01",
+        "state": "format_error",
+        "format_errors": [
+          "duplicate selected source"
+        ],
+        "note": ""
+      },
+      {
+        "case_id": "P03",
+        "state": "format_error",
+        "format_errors": [
+          "duplicate selected source"
+        ],
+        "note": ""
+      },
+      {
+        "case_id": "P06",
+        "state": "generation_error",
+        "format_errors": [],
+        "note": ""
+      }
+    ],
+    "candidate_select": [
+      {
+        "case_id": "P25",
+        "state": "scored",
+        "format_errors": [],
+        "note": ""
+      }
+    ],
+    "candidate_answer": [
+      {
+        "case_id": "P15",
+        "state": "format_error",
+        "format_errors": [
+          "duplicate selected source"
+        ],
+        "note": ""
+      },
+      {
+        "case_id": "P20",
+        "state": "format_error",
+        "format_errors": [
+          "duplicate selected source"
+        ],
+        "note": ""
+      }
+    ]
+  },
+  "deepseek-flash": {
+    "oracle_answer": [],
+    "candidate_select": [],
+    "candidate_answer": [
+      {
+        "case_id": "P02",
+        "state": "format_error",
+        "format_errors": [
+          "$: unknown field type"
+        ],
+        "note": ""
+      }
+    ]
+  }
+}

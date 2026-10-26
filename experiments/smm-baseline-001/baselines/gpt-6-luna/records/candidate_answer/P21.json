@@ -1,0 +1,77 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P21",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "78a23fe92a53f9e3ec27e5d3b4c32eae0af817dc74b2c1f78f0300bf63c794fb",
+  "output": {
+    "status": "answer",
+    "answer": "Emma graduated first, Rachel second, and Alex third.",
+    "claims": [
+      {
+        "claim": "Emma graduated first; her aunt said she had graduated the day before May 28, 2022.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "My niece Emma just graduated yesterady"
+          }
+        ]
+      },
+      {
+        "claim": "Rachel graduated second; the user said Rachel's master's graduation ceremony was the day before June 22, 2022.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+          }
+        ]
+      },
+      {
+        "claim": "Alex graduated third; on July 15, 2022, the user said he graduated about two weeks earlier.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Alex, who graduated with a degree in engineering from college about two weeks ago."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C05",
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.548876,
+    "thread_setup_seconds": 0.112881,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.548876,
+    "turn_seconds": 5.435995,
+    "first_text_seconds": 4.272127,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 25840,
+      "completion_tokens": 211,
+      "total_tokens": 26051,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P21.json",
+  "raw_receipt_sha256": "455059a6110baf6feca6cc9434f8dcf1eb9ed6f2c9008109f454fa2a988ed994",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P21/answer.json"
+}

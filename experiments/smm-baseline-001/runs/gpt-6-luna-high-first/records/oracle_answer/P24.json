@@ -1,0 +1,98 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "3321d354e07317a9fae0e7a11e34c1e12b850a5da0dbeb1d3fde1d02de52bbb8",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attended the networking event 26 days ago (on March 9, 2022).",
+    "claims": [
+      {
+        "claim": "The user said they had just returned from a networking event that day.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      },
+      {
+        "claim": "The conversation was received on March 9, 2022, so relative to April 4, 2022, the event was 26 days ago.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "received_at\":\"2022-03-09T12:08:00+00:00"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.091294,
+    "thread_setup_seconds": 0.078387,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.091294,
+    "turn_seconds": 7.012907,
+    "first_text_seconds": 5.524883,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 11838,
+      "completion_tokens": 293,
+      "total_tokens": 12131,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 118
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at\":\"2022-03-09T12:08:00+00:00",
+        "valid": false,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at\":\"2022-03-09T12:08:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

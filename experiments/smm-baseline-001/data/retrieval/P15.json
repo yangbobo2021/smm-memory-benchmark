@@ -1,0 +1,621 @@
+{
+  "case_id": "P15",
+  "product": "smm",
+  "namespace": "q92fb5f0fcbe5_n100",
+  "query": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+  "clock": "2023-05-30T21:40:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c831c3cd021ba61a85c9aa466",
+          "score": 30.169308942196224
+        },
+        {
+          "source_id": "ce33cf476ac12e1ac6f879164",
+          "score": 18.69586819561693
+        },
+        {
+          "source_id": "cf46e0af4f7e52baa5059f72c",
+          "score": 13.401134908164385
+        },
+        {
+          "source_id": "c2498d012e07ccc8c763a9609",
+          "score": 11.193603622662994
+        },
+        {
+          "source_id": "c01a3157e107e27377536b658",
+          "score": 10.977551815810502
+        },
+        {
+          "source_id": "cb73b45036e21567637d4c01b",
+          "score": 8.827463815056447
+        },
+        {
+          "source_id": "cb058278d4c524c028ffb8ecd",
+          "score": 8.147283585906026
+        },
+        {
+          "source_id": "c134224b41ec8f72e2a8d5152",
+          "score": 7.731684266902409
+        },
+        {
+          "source_id": "c31ef4197835d81742fb19d99",
+          "score": 6.252696823386622
+        },
+        {
+          "source_id": "c2ef6e2f967af2343186fae05",
+          "score": 6.1914047931505065
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "c831c3cd021ba61a85c9aa466",
+          "score": 0.6994160230819929
+        },
+        {
+          "source_id": "ca537e128236e6b660815f2ad",
+          "score": 0.29961119660133395
+        },
+        {
+          "source_id": "ce33cf476ac12e1ac6f879164",
+          "score": 0.29076981837997795
+        },
+        {
+          "source_id": "cf46e0af4f7e52baa5059f72c",
+          "score": 0.2848278500033732
+        },
+        {
+          "source_id": "c31ef4197835d81742fb19d99",
+          "score": 0.2741495090584003
+        },
+        {
+          "source_id": "c881964f7081d127d056b1d2c",
+          "score": 0.2688924821002918
+        },
+        {
+          "source_id": "c3b64bcb31faf136d045a052a",
+          "score": 0.2588608858442009
+        },
+        {
+          "source_id": "c5e4aed304d975fe9bf1a0be8",
+          "score": 0.2302828213168396
+        },
+        {
+          "source_id": "cd43e4d43cf95be67bb9e7024",
+          "score": 0.20604161848701938
+        },
+        {
+          "source_id": "cb73b45036e21567637d4c01b",
+          "score": 0.20394083557661322
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c831c3cd021ba61a85c9aa466-c0000",
+        "source_ids": [
+          "c831c3cd021ba61a85c9aa466"
+        ],
+        "hint": "USER:\nCan you suggest a budget-friendly hostel in Amsterdam?\n\nASSISTANT:\nYes, there are several budget-friendly hostels in Amsterdam. Some options include:\n\n1. Stayokay Amsterdam Vondelpark: Located in the heart of Amsterdam, next to the famous Vondelpark, this hostel offers dormitory-style rooms and private rooms at an affordable price.\n\n2. ClinkNOORD Hostel: Situated in a former laboratory in Am",
+        "kind": "bm25-original-match-index",
+        "score": 30.169308942196224,
+        "metadata": {
+          "source_id": "c831c3cd021ba61a85c9aa466",
+          "score": 30.169308942196224,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c831c3cd021ba61a85c9aa466-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "5f687485327250457cde82df65ff2e6102d04a2ef7653e28999856559435b0fe"
+        }
+      },
+      {
+        "item_id": "vector:c831c3cd021ba61a85c9aa466-c0000",
+        "source_ids": [
+          "c831c3cd021ba61a85c9aa466"
+        ],
+        "hint": "USER:\nCan you suggest a budget-friendly hostel in Amsterdam?\n\nASSISTANT:\nYes, there are several budget-friendly hostels in Amsterdam. Some options include:\n\n1. Stayokay Amsterdam Vondelpark: Located in the heart of Amsterdam, next to the famous Vondelpark, this hostel offers dormitory-style rooms and private rooms at an affordable price.\n\n2. ClinkNOORD Hostel: Situated in a former laboratory in Am",
+        "kind": "vector-original-match-index",
+        "score": 0.6994160230819929,
+        "metadata": {
+          "source_id": "c831c3cd021ba61a85c9aa466",
+          "score": 0.6994160230819929,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "c831c3cd021ba61a85c9aa466-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "5f687485327250457cde82df65ff2e6102d04a2ef7653e28999856559435b0fe"
+        }
+      },
+      {
+        "item_id": "bm25:ce33cf476ac12e1ac6f879164-c0000",
+        "source_ids": [
+          "ce33cf476ac12e1ac6f879164"
+        ],
+        "hint": "USER:\nI'm planning a vacation to Hawaii in October and I was wondering if you could give me some recommendations for must-see places to visit and things to do? By the way, I just had lunch at a new Italian place downtown last week and it was amazing, I'll have to take my friends there when they visit.",
+        "kind": "bm25-original-match-index",
+        "score": 18.69586819561693,
+        "metadata": {
+          "source_id": "ce33cf476ac12e1ac6f879164",
+          "score": 18.69586819561693,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "ce33cf476ac12e1ac6f879164-c0000",
+          "start": 0,
+          "end": 302,
+          "source_sha256": "bf7a42782877a6446cf3cd4b4129350a1a39c30156816303952885eecd46d335"
+        }
+      },
+      {
+        "item_id": "vector:ca537e128236e6b660815f2ad-c0001",
+        "source_ids": [
+          "ca537e128236e6b660815f2ad"
+        ],
+        "hint": "A 323 52.1787 21.0031 4111\nLPP CROPP 1512157 50.0671 19.9463 5651\nZABKA Z8793 K.1 51.0588 16.1772 5499\nSALAD STORY Wroclav 51.0963 17.0337 5812\nSTOKROTKA 1208 51.7179 19.4821 5499\nBilety Urbancard Wrocl 51.104 17.0304 4111\nMARKET PUNKT 50.0752 19.9292 5411\nKAUFLAND 01 53.4415 14.5554 5411\nAUCHAN POLSKA SP. Z 51.4258 21.1544 5411\nInmedio 31105 51.3816 21.1695 5994\nGREEN COFFEE 52.2332 21.013 5814\nC",
+        "kind": "vector-original-match-index",
+        "score": 0.29961119660133395,
+        "metadata": {
+          "source_id": "ca537e128236e6b660815f2ad",
+          "score": 0.29961119660133395,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "ca537e128236e6b660815f2ad-c0001",
+          "start": 434,
+          "end": 834,
+          "source_sha256": "345502549e8023fbf1eeb7b2c6aa46900bbaf234324c9a8976871d025f2ad416"
+        }
+      },
+      {
+        "item_id": "bm25:cf46e0af4f7e52baa5059f72c-c0000",
+        "source_ids": [
+          "cf46e0af4f7e52baa5059f72c"
+        ],
+        "hint": "USER:\nI'm planning a trip to Tokyo in mid-April and I'm looking for some recommendations on must-see attractions and restaurants in the Shinjuku area. By the way, I'm still feeling relaxed after my recent road trip to the beach with my family over the Presidents' Day weekend - we spent three days unwinding by the ocean, and it was just what I needed to recharge.",
+        "kind": "bm25-original-match-index",
+        "score": 13.401134908164385,
+        "metadata": {
+          "source_id": "cf46e0af4f7e52baa5059f72c",
+          "score": 13.401134908164385,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "cf46e0af4f7e52baa5059f72c-c0000",
+          "start": 0,
+          "end": 364,
+          "source_sha256": "906b40a8632ad29f2654d834198d56acd64ce263f97b49f754ed4f35b2b9e8c2"
+        }
+      },
+      {
+        "item_id": "vector:ce33cf476ac12e1ac6f879164-c0007",
+        "source_ids": [
+          "ce33cf476ac12e1ac6f879164"
+        ],
+        "hint": "*Coconut Waikiki Hotel**:\n\t* Price: Around $180-280 per night\n\t* Location: 3 blocks from Waikiki Beach, near Royal Hawaiian Avenue\n\t* Amenities: Outdoor pool, hot tub, fitness center, and a relaxed, tropical vibe\n5. **Queen Kapiolani Hotel**:\n\t* Price: Around $200-300 per night\n\t* Location: 1 block from Waikiki Beach, near Honolulu Zoo\n\t* Amenities: Outdoor pool, hot tub, fitness center, and a roo",
+        "kind": "vector-original-match-index",
+        "score": 0.29076981837997795,
+        "metadata": {
+          "source_id": "ce33cf476ac12e1ac6f879164",
+          "score": 0.29076981837997795,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "ce33cf476ac12e1ac6f879164-c0007",
+          "start": 4347,
+          "end": 4747,
+          "source_sha256": "bf7a42782877a6446cf3cd4b4129350a1a39c30156816303952885eecd46d335"
+        }
+      },
+      {
+        "item_id": "bm25:c2498d012e07ccc8c763a9609-c0000",
+        "source_ids": [
+          "c2498d012e07ccc8c763a9609"
+        ],
+        "hint": "USER:\nI'm planning to make a list for my next grocery run. Can you help me come up with some meal ideas that incorporate dairy products? By the way, I had a coupon for 10% off on all dairy products at Walmart last week, which was really helpful.",
+        "kind": "bm25-original-match-index",
+        "score": 11.193603622662994,
+        "metadata": {
+          "source_id": "c2498d012e07ccc8c763a9609",
+          "score": 11.193603622662994,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c2498d012e07ccc8c763a9609-c0000",
+          "start": 0,
+          "end": 245,
+          "source_sha256": "9ef8f0a219e53ac65612fd69ce7f2a5cba3916cf6e5ea640dce93a4e9faac5dc"
+        }
+      },
+      {
+        "item_id": "vector:cf46e0af4f7e52baa5059f72c-c0016",
+        "source_ids": [
+          "cf46e0af4f7e52baa5059f72c"
+        ],
+        "hint": "\n\nUSER:\nI'm also curious about the Shinjuku area's shopping scene. Are there any popular shopping districts or malls that I shouldn't miss? By the way, speaking of shopping, I still need to edit the GoPro footage from my surfing lessons during my beach trip over Presidents' Day weekend - it was such a thrill!",
+        "kind": "vector-original-match-index",
+        "score": 0.2848278500033732,
+        "metadata": {
+          "source_id": "cf46e0af4f7e52baa5059f72c",
+          "score": 0.2848278500033732,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "cf46e0af4f7e52baa5059f72c-c0016",
+          "start": 9610,
+          "end": 9920,
+          "source_sha256": "906b40a8632ad29f2654d834198d56acd64ce263f97b49f754ed4f35b2b9e8c2"
+        }
+      },
+      {
+        "item_id": "bm25:c01a3157e107e27377536b658-c0000",
+        "source_ids": [
+          "c01a3157e107e27377536b658"
+        ],
+        "hint": "USER:\nI'm trying to plan a trip to the grocery store and was wondering if you could help me make a list of the items I need to buy. Also, by the way, I've been using the Fetch Rewards app to earn points on my grocery purchases, and I've accumulated around 1,500 points so far, which can be redeemed for cash or gift cards - it's been a nice little bonus.\n\nASSISTANT:\nI'd be happy to help you plan you",
+        "kind": "bm25-original-match-index",
+        "score": 10.977551815810502,
+        "metadata": {
+          "source_id": "c01a3157e107e27377536b658",
+          "score": 10.977551815810502,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "c01a3157e107e27377536b658-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "84fa8a4978096f532c9965cf709a2983d955090bd1a003f037949f0d7c02c985"
+        }
+      },
+      {
+        "item_id": "vector:c31ef4197835d81742fb19d99-c0010",
+        "source_ids": [
+          "c31ef4197835d81742fb19d99"
+        ],
+        "hint": "\n\nUSER:\nwhat is the most lightveight desktop for ubuntu",
+        "kind": "vector-original-match-index",
+        "score": 0.2741495090584003,
+        "metadata": {
+          "source_id": "c31ef4197835d81742fb19d99",
+          "score": 0.2741495090584003,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c31ef4197835d81742fb19d99-c0010",
+          "start": 7112,
+          "end": 7167,
+          "source_sha256": "45f56cf07bfabb4ebb54a0fa29bc002c2bdbc83de7f8073d0f108fe93e90faf6"
+        }
+      },
+      {
+        "item_id": "bm25:cb73b45036e21567637d4c01b-c0001",
+        "source_ids": [
+          "cb73b45036e21567637d4c01b"
+        ],
+        "hint": "tiful island in the eastern Mediterranean with a rich history, gorgeous beaches, and unique cultural experiences. If you're a Korean planning a trip to Cyprus, here are some things to keep in mind to make the most of your visit.\n\nVisa Requirements\n-----------------\n\nCitizens of South Korea are required to have a visa to enter Cyprus. There are two types of visas available: a short-term tourist vis",
+        "kind": "bm25-original-match-index",
+        "score": 8.827463815056447,
+        "metadata": {
+          "source_id": "cb73b45036e21567637d4c01b",
+          "score": 8.827463815056447,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "cb73b45036e21567637d4c01b-c0001",
+          "start": 324,
+          "end": 724,
+          "source_sha256": "9bd2178cf690cd90e8e2508e5389164a3e90a103bf9baa7076230a25b0333429"
+        }
+      },
+      {
+        "item_id": "vector:c881964f7081d127d056b1d2c-c0006",
+        "source_ids": [
+          "c881964f7081d127d056b1d2c"
+        ],
+        "hint": " writing hut, where he wrote many of his most famous books, and learn about his life and creative process. The museum also hosts special events and workshops throughout the year, so it's a great place to visit for the whole family.\n\nUSER:\nI've always been fascinated by the Cliveden Set, I had no idea they met in Buckinghamshire! What kind of impact did their conversations have on British politics?",
+        "kind": "vector-original-match-index",
+        "score": 0.2688924821002918,
+        "metadata": {
+          "source_id": "c881964f7081d127d056b1d2c",
+          "score": 0.2688924821002918,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c881964f7081d127d056b1d2c-c0006",
+          "start": 4227,
+          "end": 4627,
+          "source_sha256": "310d3f65fb69fcc6e3ee749c1e899391edf0a73ca4e5923f6892869cd316408d"
+        }
+      },
+      {
+        "item_id": "bm25:cb058278d4c524c028ffb8ecd-c0011",
+        "source_ids": [
+          "cb058278d4c524c028ffb8ecd"
+        ],
+        "hint": "\n\nUSER:\nI'm thinking of trying out their facial serum, but I'm not sure if it's suitable for my skin type. What are the main skin types it's recommended for?",
+        "kind": "bm25-original-match-index",
+        "score": 8.147283585906026,
+        "metadata": {
+          "source_id": "cb058278d4c524c028ffb8ecd",
+          "score": 8.147283585906026,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "cb058278d4c524c028ffb8ecd-c0011",
+          "start": 6417,
+          "end": 6574,
+          "source_sha256": "a6d062433167bdb79fb72fe88fedadc0562e4dc06015110b291cca1eb9527260"
+        }
+      },
+      {
+        "item_id": "vector:c3b64bcb31faf136d045a052a-c0008",
+        "source_ids": [
+          "c3b64bcb31faf136d045a052a"
+        ],
+        "hint": "**: Designate a focal point in your room, like a statement wall or a console table, and add a few carefully chosen decorative pieces that draw the eye to that area.\n10. **Keep it simple with wall art**: Use minimal wall art, such as black and white photography, simple prints, or abstract art. Avoid cluttering the walls with too many pieces.\n\nSome popular Scandinavian design elements you can incorp",
+        "kind": "vector-original-match-index",
+        "score": 0.2588608858442009,
+        "metadata": {
+          "source_id": "c3b64bcb31faf136d045a052a",
+          "score": 0.2588608858442009,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "c3b64bcb31faf136d045a052a-c0008",
+          "start": 5873,
+          "end": 6273,
+          "source_sha256": "03ac9a6f7215069b26d0879e3299f6a908c8fb137e99d8d2ad72a616c2f9be37"
+        }
+      },
+      {
+        "item_id": "bm25:c134224b41ec8f72e2a8d5152-c0000",
+        "source_ids": [
+          "c134224b41ec8f72e2a8d5152"
+        ],
+        "hint": "s profile picture\nSearch\nSearch\nSearch\nLead filters\nAccount filters\nSaved searches\n\nPersonas\nReggie Graves’ profileReggie Graves was last active 13 hours ago\nReggie Graves\nPsychiatric Nurse Practitioner at Springstone, Inc.\n\nAbout\nRelationship\nExperience\nCRM\nProfile actions\n\nMessage\nReggie Graves has been saved\nSales Navigator Lead Page\nBasic lead information for Reggie Graves\n\nReggie Graves was l",
+        "kind": "bm25-original-match-index",
+        "score": 7.731684266902409,
+        "metadata": {
+          "source_id": "c134224b41ec8f72e2a8d5152",
+          "score": 7.731684266902409,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "c134224b41ec8f72e2a8d5152-c0000",
+          "start": 186,
+          "end": 586,
+          "source_sha256": "9f5d14ef5258aa351b392d838848a7b4fcde7622064c0ce28e89c43cccaa7dae"
+        }
+      },
+      {
+        "item_id": "vector:c5e4aed304d975fe9bf1a0be8-c0000",
+        "source_ids": [
+          "c5e4aed304d975fe9bf1a0be8"
+        ],
+        "hint": "USER:\nWhat are some popular cultural events and festivals that occur in Skole and how do they reflect the city's identity?",
+        "kind": "vector-original-match-index",
+        "score": 0.2302828213168396,
+        "metadata": {
+          "source_id": "c5e4aed304d975fe9bf1a0be8",
+          "score": 0.2302828213168396,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c5e4aed304d975fe9bf1a0be8-c0000",
+          "start": 0,
+          "end": 122,
+          "source_sha256": "77814b727dff4a54b36aed18f116d8dbc836af3fd4d4c1d77fdd3a66c21acb95"
+        }
+      },
+      {
+        "item_id": "bm25:c31ef4197835d81742fb19d99-c0006",
+        "source_ids": [
+          "c31ef4197835d81742fb19d99"
+        ],
+        "hint": "top a script that is managed by Supervisor, you can use the `supervisorctl` command.\n\nYou can use the `stop` command followed by the name of the script:\n```\nsudo supervisorctl stop script_name\n```\nThis will stop the script and its associated process.\n\nYou can also use the `status` command to check the status of the script and see if it is running or not,\n```\nsudo supervisorctl status script_name\n`",
+        "kind": "bm25-original-match-index",
+        "score": 6.252696823386622,
+        "metadata": {
+          "source_id": "c31ef4197835d81742fb19d99",
+          "score": 6.252696823386622,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c31ef4197835d81742fb19d99-c0006",
+          "start": 3721,
+          "end": 4121,
+          "source_sha256": "45f56cf07bfabb4ebb54a0fa29bc002c2bdbc83de7f8073d0f108fe93e90faf6"
+        }
+      },
+      {
+        "item_id": "vector:cd43e4d43cf95be67bb9e7024-c0019",
+        "source_ids": [
+          "cd43e4d43cf95be67bb9e7024"
+        ],
+        "hint": ": If you don't hear back, follow up with a polite email or phone call to inquire about their response.\n\nBy asking about photography clubs or groups on campus, you're increasing your chances of finding the lens you're looking for and potentially connecting with like-minded enthusiasts who share your passion for photography. Good luck!",
+        "kind": "vector-original-match-index",
+        "score": 0.20604161848701938,
+        "metadata": {
+          "source_id": "cd43e4d43cf95be67bb9e7024",
+          "score": 0.20604161848701938,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "cd43e4d43cf95be67bb9e7024-c0019",
+          "start": 12062,
+          "end": 12397,
+          "source_sha256": "e485cc79f9ab073727ad700492c55eb9471523315512ba564c91baf7c655bee1"
+        }
+      },
+      {
+        "item_id": "bm25:c2ef6e2f967af2343186fae05-c0000",
+        "source_ids": [
+          "c2ef6e2f967af2343186fae05"
+        ],
+        "hint": "USER:\nI'm having some issues with my sleep lately and I was wondering if you could help me track down some tips to improve it. By the way, I started using a humidifier in my bedroom at night about a month ago, and it's been making a huge difference for my sinus issues.",
+        "kind": "bm25-original-match-index",
+        "score": 6.1914047931505065,
+        "metadata": {
+          "source_id": "c2ef6e2f967af2343186fae05",
+          "score": 6.1914047931505065,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c2ef6e2f967af2343186fae05-c0000",
+          "start": 0,
+          "end": 269,
+          "source_sha256": "daa5bc4defa57746e14e61701500fde6091651cc7c6bc54a427ee146bff7c0c0"
+        }
+      },
+      {
+        "item_id": "vector:cb73b45036e21567637d4c01b-c0002",
+        "source_ids": [
+          "cb73b45036e21567637d4c01b"
+        ],
+        "hint": "n currencies, such as the US dollar or British pound.\n\nAccommodation\n-------------\n\nCyprus offers a wide range of accommodation options, from luxury hotels to budget-friendly apartments. You can find something to suit your taste and budget in most cities, but be aware that prices can be high during peak season, which runs from June to September. Booking in advance is recommended, especially during",
+        "kind": "vector-original-match-index",
+        "score": 0.20394083557661322,
+        "metadata": {
+          "source_id": "cb73b45036e21567637d4c01b",
+          "score": 0.20394083557661322,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "cb73b45036e21567637d4c01b-c0002",
+          "start": 1754,
+          "end": 2154,
+          "source_sha256": "9bd2178cf690cd90e8e2508e5389164a3e90a103bf9baa7076230a25b0333429"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c831c3cd021ba61a85c9aa466",
+    "ce33cf476ac12e1ac6f879164",
+    "cf46e0af4f7e52baa5059f72c",
+    "c2498d012e07ccc8c763a9609",
+    "c01a3157e107e27377536b658",
+    "ca537e128236e6b660815f2ad",
+    "c31ef4197835d81742fb19d99"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c831c3cd021ba61a85c9aa466",
+      "source_date": "2023-05-27T06:49:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ers a unique and budget-friendly accommodation option. The hostel has a bar, a restaurant, and bike rental services.\n\n3. The Bulldog Hostel Amsterdam: This hostel is located in the city center and offers shared dorms and private rooms at a reasonable price. The hostel has a bar and a smoking lounge.\n\n4. International Budget Hostel: This hostel is situated near the famous Red Light District and off",
+          "start": 430,
+          "end": 830
+        },
+        {
+          "role": "assistant",
+          "text": "s like bitterballen, stroopwafels, and herring to get a taste of the local cuisine. 8. Visit the Flower Market: The flower market in Amsterdam is the only floating flower market in the world and offers a colorful and fragrant experience. 9. Visit the Heineken Experience: Learn about the history and brewing process of one of the most famous beers in the world. 10. Visit the Red Light District: The ",
+          "start": 2860,
+          "end": 3260
+        }
+      ]
+    },
+    {
+      "source_id": "ce33cf476ac12e1ac6f879164",
+      "source_date": "2023-05-22T03:23:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning a vacation to Hawaii in October and I was wondering if you could give me some recommendations for must-see places to visit and things to do? By the way, I just had lunch at a new Italian place downtown last week and it was amazing, I'll have to take my friends there when they visit.",
+          "start": 0,
+          "end": 302
+        },
+        {
+          "role": "assistant",
+          "text": "oftop deck with ocean views\n6. **Aqua Waikiki Pearl**:\n\t* Price: Around $180-280 per night\n\t* Location: 2 blocks from Waikiki Beach, near International Market Place\n\t* Amenities: Outdoor pool, hot tub, fitness center, and a modern, boutique-style atmosphere\n\nThese options offer a great balance of price, amenities, and location. Keep in mind that prices may vary depending on the time of year, room ",
+          "start": 4746,
+          "end": 5146
+        }
+      ]
+    },
+    {
+      "source_id": "cf46e0af4f7e52baa5059f72c",
+      "source_date": "2023-05-25T03:55:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "Additional Tips:\n\n* Shinjuku Station is a major hub, so you can easily access other parts of Tokyo from here.\n* Explore the Shinjuku district at night to experience its vibrant atmosphere and stunning neon lights.\n* Try some local snacks, such as yakitori, takoyaki, or grilled corn, at one of the many street food stalls.\n\nEnjoy your trip to Tokyo, and I hope you have a fantastic time exploring Shi",
+          "start": 1994,
+          "end": 2394
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm also curious about the Shinjuku area's shopping scene. Are there any popular shopping districts or malls that I shouldn't miss? By the way, speaking of shopping, I still need to edit the GoPro footage from my surfing lessons during my beach trip over Presidents' Day weekend - it was such a thrill!",
+          "start": 9610,
+          "end": 9920
+        }
+      ]
+    },
+    {
+      "source_id": "c2498d012e07ccc8c763a9609",
+      "source_date": "2023-05-25T09:50:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm planning to make a list for my next grocery run. Can you help me come up with some meal ideas that incorporate dairy products? By the way, I had a coupon for 10% off on all dairy products at Walmart last week, which was really helpful.",
+          "start": 0,
+          "end": 245
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nWalmart has a wide selection of dairy products, so you should be able to find the brands I mentioned or similar alternatives.\n\nRegarding the grilled cheese, while cheddar is a classic choice, you can definitely experiment with other types of cheese to create unique flavor profiles. Here are some popular cheese alternatives you could consider:\n\n1. **Mozzarella**: A mild, creamy cheese ",
+          "start": 4400,
+          "end": 4800
+        }
+      ]
+    },
+    {
+      "source_id": "c01a3157e107e27377536b658",
+      "source_date": "2023-05-27T18:27:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm trying to plan a trip to the grocery store and was wondering if you could help me make a list of the items I need to buy. Also, by the way, I've been using the Fetch Rewards app to earn points on my grocery purchases, and I've accumulated around 1,500 points so far, which can be redeemed for cash or gift cards - it's been a nice little bonus.\n\nASSISTANT:\nI'd be happy to help you plan you",
+          "start": 0,
+          "end": 400
+        },
+        {
+          "role": "user",
+          "text": "I hope you find a great deal on ground beef and enjoy your pasta dinner!\n\nDon't forget to scan your receipts with Fetch Rewards after your shopping trip to earn even more points!\n\nUSER:\nI'm also thinking of picking up some coffee on the way home from the store. Do you know if there are any deals or promotions at Starbucks this week? I've been trying to earn more stars on my Starbucks Rewards card.",
+          "start": 3796,
+          "end": 4196
+        }
+      ]
+    },
+    {
+      "source_id": "ca537e128236e6b660815f2ad",
+      "source_date": "2023-05-20T02:13:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": ".0588 16.1772 5499\nLIDL WILENSKA 52.2579 21.0409 5411\nJMP S.A. BIEDRONKA 403 50.0428 19.9687 5411\nZABKA Z6932 K.1 51.0588 16.1772 5499\nZABKA Z3489 K.1 51.0588 16.1772 5499\nZABKA Z5582 K.1 50.4422 30.6196 5499\nBILETOMAT BILET ZTM 52.2297 21.0218 4111\nH&M 50.0663 19.9465 5651\nul. Pawia 5 50.0682 19.9463 6011\nJMP S.A. BIEDRONKA 528 52.2303 20.9939 5411\nJMP S.A. BIEDRONKA 166 50.8676 20.6204 5411\nSPAR",
+          "start": 1350,
+          "end": 1750
+        },
+        {
+          "role": "user",
+          "text": "A 323 52.1787 21.0031 4111\nLPP CROPP 1512157 50.0671 19.9463 5651\nZABKA Z8793 K.1 51.0588 16.1772 5499\nSALAD STORY Wroclav 51.0963 17.0337 5812\nSTOKROTKA 1208 51.7179 19.4821 5499\nBilety Urbancard Wrocl 51.104 17.0304 4111\nMARKET PUNKT 50.0752 19.9292 5411\nKAUFLAND 01 53.4415 14.5554 5411\nAUCHAN POLSKA SP. Z 51.4258 21.1544 5411\nInmedio 31105 51.3816 21.1695 5994\nGREEN COFFEE 52.2332 21.013 5814\nC",
+          "start": 434,
+          "end": 834
+        }
+      ]
+    },
+    {
+      "source_id": "c31ef4197835d81742fb19d99",
+      "source_date": "2023-05-30T13:35:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "in /etc/init.d/ that control which services are started when the system enters runlevel 2 (multi-user mode without networking), and which are stopped when the system leaves that runlevel.\n\nThe `update-rc.d` command is used to create, remove, or modify these symbolic links to control which services are started at boot time and which are stopped at shutdown.\n\nPlease let me know if you have any other",
+          "start": 2297,
+          "end": 2697
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nwhat is the most lightveight desktop for ubuntu",
+          "start": 7112,
+          "end": 7167
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.03591391583904624,
+    "native_search_seconds": 0.013431458035483956,
+    "common_spans_seconds": 0.006360874976962805
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P10",
+  "task": "oracle_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "bf942810d60af2efbd005a7049bd6a6a3e196e36536718cbf21a504dfd2d9e06",
+  "output": {
+    "status": "answer",
+    "answer": "Two projects: your Data Mining project and your Database Systems project.",
+    "claims": [
+      {
+        "claim": "Excluding your thesis, you were working on two projects: Data Mining and Database Systems.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project."
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I've been learning a lot about data analysis in my Data Mining course, which has a group project that's keeping me pretty busy."
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I've also been working on a group project for my Database Systems course, so I'm juggling multiple projects at the moment."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.221431,
+    "thread_setup_seconds": 0.085831,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.221431,
+    "turn_seconds": 7.1356,
+    "first_text_seconds": 5.386582,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 22528,
+      "completion_tokens": 174,
+      "total_tokens": 22702,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P10.json",
+  "raw_receipt_sha256": "7ce89fb86ba0ca5bb4dcf22ca05ba2c618ae6435cad0d1a3b773daed915feae0",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6.1-sol/P10.json"
+}

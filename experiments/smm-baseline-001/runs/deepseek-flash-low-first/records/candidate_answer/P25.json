@@ -1,0 +1,97 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P25",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "1d5fc888cee602647e22922bceb664725c002bad2d187d61f9c394f09045b480",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "The evidence only says that on Tuesdays and Thursdays you started waking up 15 minutes earlier to meditate and practice yoga; it does not state the exact clock time for those days. A separate statement mentions waking at 7:00 AM, but not specifically for Tuesdays and Thursdays.",
+    "claims": [
+      {
+        "claim": "On Tuesdays and Thursdays, the user started waking up 15 minutes earlier to meditate and practice yoga.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+          }
+        ]
+      },
+      {
+        "claim": "A separate user statement mentions a 7:00 AM wake-up time and a usual 8:30 AM wake-up, but does not tie either to Tuesdays or Thursdays.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04",
+      "C08"
+    ],
+    "missing": "The exact Tuesday/Thursday wake-up time and the baseline wake time used for the '15 minutes earlier' statement are not provided."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "6203faa03b7fd277fce7ae4a70ad1c94e3221fd38ce3a669c0a700a7fab61bc1",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 26467,
+      "completion_tokens": 1290,
+      "total_tokens": 27757,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1017
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 26083
+    },
+    "response_id": "128e78d0-d278-41d9-8f6d-528ad267d240",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 9.686770749976858
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00008",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P25.json",
+  "raw_response_sha256": "cdbf9f3f3a586e77c6709bc0f7c9d4db018924acdad53caa160381eb2e230d3b"
+}

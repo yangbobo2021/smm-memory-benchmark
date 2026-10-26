@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P18",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "f0a5aa3489e37d15c304efe93bfdda61a4dbffdc924f83eb5aa4a1314fc145bb",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You reported spending $800 on a designer handbag.",
+    "claims": [
+      {
+        "claim": "The user reported buying a designer handbag for $800.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "172e0ad8a85f481a92b1c188bd744f8c77762cbd8ac3df2db6a5358fad49b7b1",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 4381,
+      "completion_tokens": 261,
+      "total_tokens": 4642,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 3997
+    },
+    "response_id": "9a00abf6-b52a-47ee-94aa-e99d58c9f68c",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.05759345786646
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+        "valid": true,
+        "source_id": "cda869cbb99225b9233bf65e7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-23T08:15:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P18.json",
+  "raw_response_sha256": "4b0c0058420e76f6b88dc58a45d7cc182d63e924856119d3203f114467588e20"
+}

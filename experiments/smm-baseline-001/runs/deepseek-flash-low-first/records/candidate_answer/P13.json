@@ -1,0 +1,116 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The previous chat says the Chiefs played the Jaguars at Arrowhead Stadium 12 times. That figure was described as regular-season games only, not playoffs, and based on the assistant’s 2021 knowledge cutoff.",
+    "claims": [
+      {
+        "claim": "The Chiefs played the Jaguars at Arrowhead Stadium 12 times.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "12 games were played at Arrowhead Stadium in Kansas City, Missouri"
+          }
+        ]
+      },
+      {
+        "claim": "The count was limited to regular-season games and not playoff games.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "It is worth mentioning that these statistics are based on regular season games only, not including playoffs games."
+          }
+        ]
+      },
+      {
+        "claim": "The assistant’s statistics were based on a 2021 knowledge cutoff and could have changed.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Also, as my knowledge cut-off date is 2021, these statistics may have changed since then."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "6b8ea2159bc161813bb3f1b436ca34f39c87224a3bd0ff6681cadbbc8b7f2edd",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 21154,
+      "completion_tokens": 874,
+      "total_tokens": 22028,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 649
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 20770
+    },
+    "response_id": "088b3e11-0f0b-4d1a-903e-82e8477885c5",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 6.613621958065778
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "12 games were played at Arrowhead Stadium in Kansas City, Missouri",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "It is worth mentioning that these statistics are based on regular season games only, not including playoffs games.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00007",
+        "quote": "Also, as my knowledge cut-off date is 2021, these statistics may have changed since then.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P13.json",
+  "raw_response_sha256": "866b0937b17c4a7b1d61a5400affa7ee14d12fb0b3745653edb3241c29d13ac7"
+}

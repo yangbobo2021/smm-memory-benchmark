@@ -1,0 +1,94 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P25",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "1d5fc888cee602647e22922bceb664725c002bad2d187d61f9c394f09045b480",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "The exact Tuesday/Thursday wake-up time isn’t specified. You said you wake 15 minutes earlier on those days, and later said you’d started waking at 7:00 AM, but the evidence doesn’t say whether 7:00 AM is your Tuesday/Thursday time or the time before waking earlier.",
+    "claims": [
+      {
+        "claim": "On Tuesdays and Thursdays, the user wakes 15 minutes earlier, but no clock time is given.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier"
+          }
+        ]
+      },
+      {
+        "claim": "The user later said they had started waking at 7:00 AM, without specifying whether that applies to Tuesdays and Thursdays.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "I've recently started waking up at 7:00 AM"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04",
+      "C08"
+    ],
+    "missing": "The evidence does not connect the 7:00 AM wake-up time to the Tuesday/Thursday schedule or establish the baseline time from which those days are 15 minutes earlier."
+  },
+  "metrics": {
+    "seconds": 10.819129,
+    "thread_setup_seconds": 0.076621,
+    "rate_wait_seconds": 0,
+    "active_seconds": 10.819129,
+    "turn_seconds": 10.742508,
+    "first_text_seconds": 8.65837,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 35710,
+      "completion_tokens": 662,
+      "total_tokens": 36372,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 421
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00008",
+        "quote": "I've recently started waking up at 7:00 AM",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

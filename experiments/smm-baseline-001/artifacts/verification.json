@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "checks": 16030,
+  "frozen_files": 471,
+  "baseline_summaries": {
+    "gpt-6-luna": {
+      "oracle_answer": {
+        "primary_correct": 21,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 22,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 21,
+        "exact_quote_valid": 25,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 4.616144,
+        "recorded": 25
+      },
+      "candidate_select": {
+        "primary_correct": 22,
+        "primary_denominator": 25,
+        "review_complete": true,
+        "registered_evidence_complete": 22,
+        "registered_evidence_atoms_selected": 33,
+        "registered_evidence_atoms_total": 36,
+        "selected_sources": 39,
+        "baseline_sources_selected": 39,
+        "baseline_sources_total": 43,
+        "all_baseline_sources_questions": 21,
+        "unrelated_selected": 0,
+        "pending_source_labels": 0,
+        "note": "Unrelated selected / selected outputs; never call this a whole-corpus FPR.",
+        "median_model_seconds": 4.300171,
+        "recorded": 25
+      },
+      "candidate_answer": {
+        "primary_correct": 19,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 20,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 17,
+        "exact_quote_valid": 23,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 5.207891,
+        "recorded": 25
+      }
+    },
+    "gpt-6.1-sol": {
+      "oracle_answer": {
+        "primary_correct": 23,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 25,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 6.095797,
+        "recorded": 25
+      },
+      "candidate_select": {
+        "primary_correct": 25,
+        "primary_denominator": 25,
+        "review_complete": true,
+        "registered_evidence_complete": 25,
+        "registered_evidence_atoms_selected": 36,
+        "registered_evidence_atoms_total": 36,
+        "selected_sources": 43,
+        "baseline_sources_selected": 43,
+        "baseline_sources_total": 43,
+        "all_baseline_sources_questions": 25,
+        "unrelated_selected": 0,
+        "pending_source_labels": 0,
+        "note": "Unrelated selected / selected outputs; never call this a whole-corpus FPR.",
+        "median_model_seconds": 5.519772,
+        "recorded": 25
+      },
+      "candidate_answer": {
+        "primary_correct": 23,
+        "primary_denominator": 23,
+        "review_complete": true,
+        "official_reference_match": 25,
+        "official_reference_denominator": 25,
+        "strict_supported_correct": 23,
+        "exact_quote_valid": 25,
+        "ambiguity_case_ids": [
+          "P22",
+          "P25"
+        ],
+        "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+        "median_model_seconds": 7.089907,
+        "recorded": 25
+      }
+    }
+  },
+  "scope": "File/data/receipt/rating bindings and deterministic score replay, not independent semantic truth or repeated-model success."
+}

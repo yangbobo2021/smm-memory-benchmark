@@ -1,0 +1,121 @@
+{
+  "gpt-6-luna": {
+    "oracle_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 4.616144,
+      "p95_returned_seconds": 5.800273,
+      "max_returned_seconds": 5.858503,
+      "generation_errors": []
+    },
+    "candidate_select": {
+      "returned_latency_samples": 25,
+      "median_seconds": 4.300171,
+      "p95_returned_seconds": 5.857028,
+      "max_returned_seconds": 5.984582,
+      "generation_errors": []
+    },
+    "candidate_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 5.207891,
+      "p95_returned_seconds": 7.700683,
+      "max_returned_seconds": 7.740305,
+      "generation_errors": []
+    }
+  },
+  "gpt-6.1-sol": {
+    "oracle_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 6.095797,
+      "p95_returned_seconds": 7.557295,
+      "max_returned_seconds": 7.626265,
+      "generation_errors": []
+    },
+    "candidate_select": {
+      "returned_latency_samples": 25,
+      "median_seconds": 5.519772,
+      "p95_returned_seconds": 7.219942,
+      "max_returned_seconds": 8.56093,
+      "generation_errors": []
+    },
+    "candidate_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 7.089907,
+      "p95_returned_seconds": 9.943715,
+      "max_returned_seconds": 10.545145,
+      "generation_errors": []
+    }
+  },
+  "glm-5.3-flash": {
+    "oracle_answer": {
+      "returned_latency_samples": 24,
+      "median_seconds": 6.819238500436768,
+      "p95_returned_seconds": 13.298629167024046,
+      "max_returned_seconds": 23.83832229208201,
+      "generation_errors": [
+        "P25"
+      ]
+    },
+    "candidate_select": {
+      "returned_latency_samples": 25,
+      "median_seconds": 4.200337209040299,
+      "p95_returned_seconds": 8.365757375024259,
+      "max_returned_seconds": 8.39050008310005,
+      "generation_errors": []
+    },
+    "candidate_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 8.537690666969866,
+      "p95_returned_seconds": 12.743142040912062,
+      "max_returned_seconds": 13.493592916987836,
+      "generation_errors": []
+    }
+  },
+  "glm-5.3": {
+    "oracle_answer": {
+      "returned_latency_samples": 24,
+      "median_seconds": 6.997926166513935,
+      "p95_returned_seconds": 10.170108166988939,
+      "max_returned_seconds": 11.193984791869298,
+      "generation_errors": [
+        "P06"
+      ]
+    },
+    "candidate_select": {
+      "returned_latency_samples": 25,
+      "median_seconds": 4.43179416609928,
+      "p95_returned_seconds": 11.638221583794802,
+      "max_returned_seconds": 17.367454832885414,
+      "generation_errors": []
+    },
+    "candidate_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 7.573845749953762,
+      "p95_returned_seconds": 14.98063470912166,
+      "max_returned_seconds": 38.208023332990706,
+      "generation_errors": []
+    }
+  },
+  "deepseek-flash": {
+    "oracle_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 4.677235750015825,
+      "p95_returned_seconds": 13.497512874891981,
+      "max_returned_seconds": 17.999090207973495,
+      "generation_errors": []
+    },
+    "candidate_select": {
+      "returned_latency_samples": 25,
+      "median_seconds": 3.863210333045572,
+      "p95_returned_seconds": 9.014820625074208,
+      "max_returned_seconds": 9.892508083023131,
+      "generation_errors": []
+    },
+    "candidate_answer": {
+      "returned_latency_samples": 25,
+      "median_seconds": 5.89909812505357,
+      "p95_returned_seconds": 15.058493958087638,
+      "max_returned_seconds": 17.60601820796728,
+      "generation_errors": []
+    }
+  }
+}

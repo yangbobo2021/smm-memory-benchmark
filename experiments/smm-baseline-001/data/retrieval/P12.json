@@ -1,0 +1,640 @@
+{
+  "case_id": "P12",
+  "product": "smm",
+  "namespace": "q6873db7fd09e_n100",
+  "query": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+  "clock": "2023-05-30T22:00:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c50927ca385b93a348ac133cd",
+          "score": 32.80901341526071
+        },
+        {
+          "source_id": "c74ec9413fc2cf3dfeac1150e",
+          "score": 16.612033271171995
+        },
+        {
+          "source_id": "c39a11554f20ceefa6a66129e",
+          "score": 13.03461817979575
+        },
+        {
+          "source_id": "c707a083e3168d4c1097e55f7",
+          "score": 12.972158213539009
+        },
+        {
+          "source_id": "cb0c66804ca95d82b12692651",
+          "score": 11.727504230010977
+        },
+        {
+          "source_id": "c80815ba4973b87a35044c036",
+          "score": 10.677668915507397
+        },
+        {
+          "source_id": "c1ba6fde6910892534d5d02ed",
+          "score": 9.78097893890851
+        },
+        {
+          "source_id": "c0afee05a6f95c660bf3f1c91",
+          "score": 9.540014561088771
+        },
+        {
+          "source_id": "ccbfee30d91929894eede4a08",
+          "score": 9.51490101505655
+        },
+        {
+          "source_id": "c238bc5941d068c0224e7cd63",
+          "score": 9.017021040506243
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "c50927ca385b93a348ac133cd",
+          "score": 0.4699364320525735
+        },
+        {
+          "source_id": "cce36dbe2f07f86d43d24961c",
+          "score": 0.368153026014574
+        },
+        {
+          "source_id": "cda5985f91c87318570c0cd8e",
+          "score": 0.3179005522625192
+        },
+        {
+          "source_id": "c80815ba4973b87a35044c036",
+          "score": 0.3169284092185982
+        },
+        {
+          "source_id": "cb0c66804ca95d82b12692651",
+          "score": 0.22352397713962174
+        },
+        {
+          "source_id": "c74ec9413fc2cf3dfeac1150e",
+          "score": 0.20245740715141083
+        },
+        {
+          "source_id": "ccbfee30d91929894eede4a08",
+          "score": 0.20116457089624018
+        },
+        {
+          "source_id": "cb5d3b578897ee43bbb22e6d6",
+          "score": 0.17128162705892025
+        },
+        {
+          "source_id": "c1ba6fde6910892534d5d02ed",
+          "score": 0.16672844120606217
+        },
+        {
+          "source_id": "ce9419519488a53761834bfce",
+          "score": 0.15591240956328717
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c50927ca385b93a348ac133cd-c0003",
+        "source_ids": [
+          "c50927ca385b93a348ac133cd"
+        ],
+        "hint": "a comment. After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows. I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season. One question at a time is mandatory! Make sure to follow up on every thread\n\nASSISTANT:\nI see. Thank you for sharing your feedback. Another question for you, have you ",
+        "kind": "bm25-original-match-index",
+        "score": 32.80901341526071,
+        "metadata": {
+          "source_id": "c50927ca385b93a348ac133cd",
+          "score": 32.80901341526071,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c50927ca385b93a348ac133cd-c0003",
+          "start": 3213,
+          "end": 3613,
+          "source_sha256": "e5a179589df29db59d1ef93ab893c34b7bfd542d600ca389115930a6d673e853"
+        }
+      },
+      {
+        "item_id": "vector:c50927ca385b93a348ac133cd-c0003",
+        "source_ids": [
+          "c50927ca385b93a348ac133cd"
+        ],
+        "hint": "a comment. After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows. I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season. One question at a time is mandatory! Make sure to follow up on every thread\n\nASSISTANT:\nI see. Thank you for sharing your feedback. Another question for you, have you ",
+        "kind": "vector-original-match-index",
+        "score": 0.4699364320525735,
+        "metadata": {
+          "source_id": "c50927ca385b93a348ac133cd",
+          "score": 0.4699364320525735,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "c50927ca385b93a348ac133cd-c0003",
+          "start": 3213,
+          "end": 3613,
+          "source_sha256": "e5a179589df29db59d1ef93ab893c34b7bfd542d600ca389115930a6d673e853"
+        }
+      },
+      {
+        "item_id": "bm25:c74ec9413fc2cf3dfeac1150e-c0009",
+        "source_ids": [
+          "c74ec9413fc2cf3dfeac1150e"
+        ],
+        "hint": "\n\nUSER:\nI actually got to attend the Tech Expo in Las Vegas last month, and I was impressed by some of the booths that really stood out. One thing I noticed was the importance of having a reliable internet connection, as we had some issues with our Wi-Fi on the first day. Do you have any recommendations for reliable internet solutions for events like these?",
+        "kind": "bm25-original-match-index",
+        "score": 16.612033271171995,
+        "metadata": {
+          "source_id": "c74ec9413fc2cf3dfeac1150e",
+          "score": 16.612033271171995,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "c74ec9413fc2cf3dfeac1150e-c0009",
+          "start": 6499,
+          "end": 6858,
+          "source_sha256": "b21751ab3e6a8d289aa198ca77953349e367f143c982830b04167665ac4e4ca7"
+        }
+      },
+      {
+        "item_id": "vector:cce36dbe2f07f86d43d24961c-c0012",
+        "source_ids": [
+          "cce36dbe2f07f86d43d24961c"
+        ],
+        "hint": "\n\nUSER:\nI'm also thinking of re-reading some of my favorite books from childhood, like \"Harry Potter\" and \"Percy Jackson\". Do you have any tips on how to go about re-reading a series, especially if it's been a while since I last read it?",
+        "kind": "vector-original-match-index",
+        "score": 0.368153026014574,
+        "metadata": {
+          "source_id": "cce36dbe2f07f86d43d24961c",
+          "score": 0.368153026014574,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "cce36dbe2f07f86d43d24961c-c0012",
+          "start": 7697,
+          "end": 7934,
+          "source_sha256": "922e2009636e84eaa7824b2d6268179edaa6de01e3875bf5b024bf7be91e220b"
+        }
+      },
+      {
+        "item_id": "bm25:c39a11554f20ceefa6a66129e-c0000",
+        "source_ids": [
+          "c39a11554f20ceefa6a66129e"
+        ],
+        "hint": "el near your conference venue in Chicago! However, I have to say that I'm a large language model, I don't have the ability to recall previous conversations or maintain personal relationships, so I didn't know you visited your parents last weekend. But I'm glad to hear that you had a great time with them!\n\nNow, let's focus on finding a great hotel for your trip to Chicago. Can you please provide me",
+        "kind": "bm25-original-match-index",
+        "score": 13.03461817979575,
+        "metadata": {
+          "source_id": "c39a11554f20ceefa6a66129e",
+          "score": 13.03461817979575,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "c39a11554f20ceefa6a66129e-c0000",
+          "start": 316,
+          "end": 716,
+          "source_sha256": "67d78d17688de36291e3063982b766653a786cf008f3e21b8c74faeb170b9936"
+        }
+      },
+      {
+        "item_id": "vector:cda5985f91c87318570c0cd8e-c0004",
+        "source_ids": [
+          "cda5985f91c87318570c0cd8e"
+        ],
+        "hint": "\n\nUSER:\nCan you tell me more about \"The Last Romantics\"? I'm intrigued by the idea of a sweeping family drama that spans decades. Also, do you have any recommendations for fantasy or science fiction books that are similar to \"The Fifth Season\" by N.K. Jemisin? I've been enjoying the complex world-building and characters in that series.",
+        "kind": "vector-original-match-index",
+        "score": 0.3179005522625192,
+        "metadata": {
+          "source_id": "cda5985f91c87318570c0cd8e",
+          "score": 0.3179005522625192,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "cda5985f91c87318570c0cd8e-c0004",
+          "start": 2681,
+          "end": 3018,
+          "source_sha256": "69cecadc36462f2977ba3cb23c6017ddb91897c666aac7e4fd1ac0836abacad7"
+        }
+      },
+      {
+        "item_id": "bm25:c707a083e3168d4c1097e55f7-c0007",
+        "source_ids": [
+          "c707a083e3168d4c1097e55f7"
+        ],
+        "hint": "\n\nASSISTANT:\n\"Take On Me\" is an iconic song! A-ha is a great example of a band that perfectly blended synth-pop with catchy hooks and memorable music videos. It's always exciting to rediscover old favorites and experience the nostalgia rush that comes with it.\n\nIt's great that you've been attending live shows and exploring different genres! The jazz show at a local club must have been an intimate ",
+        "kind": "bm25-original-match-index",
+        "score": 12.972158213539009,
+        "metadata": {
+          "source_id": "c707a083e3168d4c1097e55f7",
+          "score": 12.972158213539009,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c707a083e3168d4c1097e55f7-c0007",
+          "start": 4296,
+          "end": 4696,
+          "source_sha256": "1bacefaadd72317bf381e1ec9610cd8b1258bdd75a71ea14068875f4d5f3d1f8"
+        }
+      },
+      {
+        "item_id": "vector:c80815ba4973b87a35044c036-c0011",
+        "source_ids": [
+          "c80815ba4973b87a35044c036"
+        ],
+        "hint": "a subscription model, with one free credit per month (equivalent to one audiobook) and discounts on additional purchases. Audible is available on multiple platforms, including iOS, Android, and Amazon Echo devices.\n2. **Libro.fm**: Libro.fm is an audiobook platform that partners with independent bookstores. It offers a similar subscription model to Audible, with one free credit per month and disco",
+        "kind": "vector-original-match-index",
+        "score": 0.3169284092185982,
+        "metadata": {
+          "source_id": "c80815ba4973b87a35044c036",
+          "score": 0.3169284092185982,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c80815ba4973b87a35044c036-c0011",
+          "start": 6653,
+          "end": 7053,
+          "source_sha256": "acc832d1165f73973f3eba4c821bbe122b0acd72df177285f71f34108450d723"
+        }
+      },
+      {
+        "item_id": "bm25:cb0c66804ca95d82b12692651-c0010",
+        "source_ids": [
+          "cb0c66804ca95d82b12692651"
+        ],
+        "hint": "fuzzy, like a big hug. He soon realized that it was love! Robby loved Lily and was grateful for all the adventures they had shared. He couldn't wait to see her again.\n\nChapter 7: A New Robby\n\nWhen Robby was fixed, he felt different. He was no longer lonely or sad because he knew that Lily loved him. They went on even more adventures, exploring new places and meeting new friends. Robby felt happy a",
+        "kind": "bm25-original-match-index",
+        "score": 11.727504230010977,
+        "metadata": {
+          "source_id": "cb0c66804ca95d82b12692651",
+          "score": 11.727504230010977,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "cb0c66804ca95d82b12692651-c0010",
+          "start": 6859,
+          "end": 7259,
+          "source_sha256": "5f000b11d960f10c44594f940ea3c45927385dfa00bfd072e0b08014f8597d5a"
+        }
+      },
+      {
+        "item_id": "vector:cb0c66804ca95d82b12692651-c0000",
+        "source_ids": [
+          "cb0c66804ca95d82b12692651"
+        ],
+        "hint": "an\n4. \"Green Eggs and Ham\" by Dr. Seuss\n5. \"Goodnight Moon\" by Margaret Wise Brown\n6. \"Curious George\" by H.A. and Margret Rey\n7. \"The Giving Tree\" by Shel Silverstein\n8. \"Oh, the Places You'll Go!\" by Dr. Seuss\n9. \"The Cat in the Hat\" by Dr. Seuss\n10. \"The Tale of Peter Rabbit\" by Beatrix Potter\n\nThese are all classic children's books that have been beloved for\n\nUSER:\nnot i mean to write new book",
+        "kind": "vector-original-match-index",
+        "score": 0.22352397713962174,
+        "metadata": {
+          "source_id": "cb0c66804ca95d82b12692651",
+          "score": 0.22352397713962174,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "cb0c66804ca95d82b12692651-c0000",
+          "start": 203,
+          "end": 603,
+          "source_sha256": "5f000b11d960f10c44594f940ea3c45927385dfa00bfd072e0b08014f8597d5a"
+        }
+      },
+      {
+        "item_id": "bm25:c80815ba4973b87a35044c036-c0013",
+        "source_ids": [
+          "c80815ba4973b87a35044c036"
+        ],
+        "hint": "edit-based system?\n* Library size: How important is it to have access to a vast selection of titles?\n* Availability: Is the platform available on multiple devices, including your smartphone, tablet, or smart speaker?\n* Price: What's your budget for audiobooks per month?\n* Features: Do you want features like bookmarking, speed control, or sleep timers?\n\nI hope this helps you find the perfect audiob",
+        "kind": "bm25-original-match-index",
+        "score": 10.677668915507397,
+        "metadata": {
+          "source_id": "c80815ba4973b87a35044c036",
+          "score": 10.677668915507397,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "c80815ba4973b87a35044c036-c0013",
+          "start": 8693,
+          "end": 9093,
+          "source_sha256": "acc832d1165f73973f3eba4c821bbe122b0acd72df177285f71f34108450d723"
+        }
+      },
+      {
+        "item_id": "vector:c74ec9413fc2cf3dfeac1150e-c0018",
+        "source_ids": [
+          "c74ec9413fc2cf3dfeac1150e"
+        ],
+        "hint": "\n\nASSISTANT:\nResearching manufacturers and reading reviews is crucial to finding reliable trade show equipment suppliers or rental companies. Here are some recommendations to get you started:\n\n**Trade Show Equipment Suppliers:**\n\n1. **Exhibitor Magazine's Find It - Marketplace**: A comprehensive directory of trade show suppliers, including display manufacturers, lighting providers, and more.\n2. **",
+        "kind": "vector-original-match-index",
+        "score": 0.20245740715141083,
+        "metadata": {
+          "source_id": "c74ec9413fc2cf3dfeac1150e",
+          "score": 0.20245740715141083,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c74ec9413fc2cf3dfeac1150e-c0018",
+          "start": 12864,
+          "end": 13264,
+          "source_sha256": "b21751ab3e6a8d289aa198ca77953349e367f143c982830b04167665ac4e4ca7"
+        }
+      },
+      {
+        "item_id": "bm25:c1ba6fde6910892534d5d02ed-c0011",
+        "source_ids": [
+          "c1ba6fde6910892534d5d02ed"
+        ],
+        "hint": "aracteristics of the style to ensure the piece is authentic.\n5. **Provenance**: Ask about the piece's history, including its origin, previous owners, and any notable events it may have been a part of.\n6. **Size and Scale**: Ensure the piece fits comfortably in your room and is proportional to the space.\n7. **Price**: Compare prices with similar pieces online or at other stores to ensure you're get",
+        "kind": "bm25-original-match-index",
+        "score": 9.78097893890851,
+        "metadata": {
+          "source_id": "c1ba6fde6910892534d5d02ed",
+          "score": 9.78097893890851,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c1ba6fde6910892534d5d02ed-c0011",
+          "start": 7967,
+          "end": 8367,
+          "source_sha256": "7b8f7c5f02294ea8a7c29ed2d2f47f53ada888cc5173637cb22baeb67c521c90"
+        }
+      },
+      {
+        "item_id": "vector:ccbfee30d91929894eede4a08-c0002",
+        "source_ids": [
+          "ccbfee30d91929894eede4a08"
+        ],
+        "hint": "\n\nUSER:\nI need help with finding a good sports bar to watch the Premier League games, specifically Manchester City's matches. I've been following them closely this season, and I want to catch their next game with some friends. Can you give me some tips on how to find a good sports bar in my area?",
+        "kind": "vector-original-match-index",
+        "score": 0.20116457089624018,
+        "metadata": {
+          "source_id": "ccbfee30d91929894eede4a08",
+          "score": 0.20116457089624018,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "ccbfee30d91929894eede4a08-c0002",
+          "start": 1206,
+          "end": 1503,
+          "source_sha256": "e2c99ad854605a05aa410de52446089692ce873db662fdbbb242ea7cebaeab70"
+        }
+      },
+      {
+        "item_id": "bm25:c0afee05a6f95c660bf3f1c91-c0003",
+        "source_ids": [
+          "c0afee05a6f95c660bf3f1c91"
+        ],
+        "hint": "ts or shelves\n* Over-the-door storage racks or hooks\n* Clear storage bins or containers\n* Closet dividers or separators\n* Underbed storage containers\n\nRemember, the key to maintaining a organized closet is to create a system that works for you and stick to it!\n\nI hope these tips help you get started on organizing your closet and keeping your winter clothes separate from the rest. Happy organizing!",
+        "kind": "bm25-original-match-index",
+        "score": 9.540014561088771,
+        "metadata": {
+          "source_id": "c0afee05a6f95c660bf3f1c91",
+          "score": 9.540014561088771,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "c0afee05a6f95c660bf3f1c91-c0003",
+          "start": 2737,
+          "end": 3137,
+          "source_sha256": "030bb871ce91977f73f311ec950eb4edf2e3a9ab99184ac9e3f784b49909568b"
+        }
+      },
+      {
+        "item_id": "vector:cb5d3b578897ee43bbb22e6d6-c0005",
+        "source_ids": [
+          "cb5d3b578897ee43bbb22e6d6"
+        ],
+        "hint": "\n\nUSER:\nI'm also considering rainwater harvesting systems and greywater reuse, do you have any recommendations for companies or products that specialize in these systems?",
+        "kind": "vector-original-match-index",
+        "score": 0.17128162705892025,
+        "metadata": {
+          "source_id": "cb5d3b578897ee43bbb22e6d6",
+          "score": 0.17128162705892025,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "cb5d3b578897ee43bbb22e6d6-c0005",
+          "start": 3782,
+          "end": 3952,
+          "source_sha256": "e4eb005599924a279ea7f081ff27dc78bb9c8c29758d7b52db68abdec665bc3e"
+        }
+      },
+      {
+        "item_id": "bm25:ccbfee30d91929894eede4a08-c0007",
+        "source_ids": [
+          "ccbfee30d91929894eede4a08"
+        ],
+        "hint": "be happy to help you find a sports bar that combines both of your passions!\n\nUnfortunately, I'm a large language model, I don't have access to real-time information about specific sports bars in your area. However, I can offer some general tips to help you find a sports bar with a great craft beer selection:\n\n1. **Online Review Sites**: Check out review sites like Yelp, TripAdvisor, or Google Revi",
+        "kind": "bm25-original-match-index",
+        "score": 9.51490101505655,
+        "metadata": {
+          "source_id": "ccbfee30d91929894eede4a08",
+          "score": 9.51490101505655,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "ccbfee30d91929894eede4a08-c0007",
+          "start": 3947,
+          "end": 4347,
+          "source_sha256": "e2c99ad854605a05aa410de52446089692ce873db662fdbbb242ea7cebaeab70"
+        }
+      },
+      {
+        "item_id": "vector:c1ba6fde6910892534d5d02ed-c0009",
+        "source_ids": [
+          "c1ba6fde6910892534d5d02ed"
+        ],
+        "hint": "ft Stores and Charity Shops**: You can find hidden gems at a fraction of the cost. Keep an eye out for unique or high-quality pieces that can be refinished or reupholstered.\n2. **Antique Stores and Vintage Shops**: Specialized stores often carry a curated selection of antique and vintage pieces. Be prepared to pay a premium, but you'll likely find high-quality items.\n3. **Estate Sales and Auctions",
+        "kind": "vector-original-match-index",
+        "score": 0.16672844120606217,
+        "metadata": {
+          "source_id": "c1ba6fde6910892534d5d02ed",
+          "score": 0.16672844120606217,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c1ba6fde6910892534d5d02ed-c0009",
+          "start": 6183,
+          "end": 6583,
+          "source_sha256": "7b8f7c5f02294ea8a7c29ed2d2f47f53ada888cc5173637cb22baeb67c521c90"
+        }
+      },
+      {
+        "item_id": "bm25:c238bc5941d068c0224e7cd63-c0022",
+        "source_ids": [
+          "c238bc5941d068c0224e7cd63"
+        ],
+        "hint": "cely's.\n4. **June Lake Loop:** A scenic detour that takes you through a picturesque valley surrounded by towering peaks. The loop is about 15 miles long and offers stunning views of the surrounding mountains.\n5. **Keough's Hot Springs:** If you have time, consider stopping at Keough's Hot Springs, a natural hot spring that's perfect for a relaxing soak. It's about 10 miles north of Lone Pine.\n\n**T",
+        "kind": "bm25-original-match-index",
+        "score": 9.017021040506243,
+        "metadata": {
+          "source_id": "c238bc5941d068c0224e7cd63",
+          "score": 9.017021040506243,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "c238bc5941d068c0224e7cd63-c0022",
+          "start": 15398,
+          "end": 15798,
+          "source_sha256": "7ca87c0684eb305315f8fbf69500e10116e08a2c3ebddaa759b294576aedb6ce"
+        }
+      },
+      {
+        "item_id": "vector:ce9419519488a53761834bfce-c0000",
+        "source_ids": [
+          "ce9419519488a53761834bfce"
+        ],
+        "hint": "USER:\nWhat were some of the major social and cultural changes that took place during the Roaring Twenties, and how did they shape the world we live in today?",
+        "kind": "vector-original-match-index",
+        "score": 0.15591240956328717,
+        "metadata": {
+          "source_id": "ce9419519488a53761834bfce",
+          "score": 0.15591240956328717,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "ce9419519488a53761834bfce-c0000",
+          "start": 0,
+          "end": 157,
+          "source_sha256": "84f85d3764cbf3e6fe364b8c8273b722e45be81b41631b4112ebca1000873ec7"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c50927ca385b93a348ac133cd",
+    "c74ec9413fc2cf3dfeac1150e",
+    "c39a11554f20ceefa6a66129e",
+    "c707a083e3168d4c1097e55f7",
+    "cb0c66804ca95d82b12692651",
+    "cce36dbe2f07f86d43d24961c",
+    "cda5985f91c87318570c0cd8e",
+    "c80815ba4973b87a35044c036"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c50927ca385b93a348ac133cd",
+      "source_date": "2023-05-26T18:07:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nYes. I have a comment. After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows. I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season. One question at a time is mandatory! Make sure to follow up on every thread\n\nASSISTANT:\nI see. Thank you for sharing your feedback. Another questio",
+          "start": 3193,
+          "end": 3593
+        },
+        {
+          "role": "assistant",
+          "text": "y would appreciate more diversity in Netflix's content offerings, but are generally satisfied.\n* They have no particular thoughts on Netflix's original programming.\n* They are unsure of the pricing of Netflix, but believe it offers good value for money.\n* The interviewee suggests that Netflix should keep all seasons of old shows available for viewing.\n* They have experienced occasional access issu",
+          "start": 4609,
+          "end": 5009
+        }
+      ]
+    },
+    {
+      "source_id": "c74ec9413fc2cf3dfeac1150e",
+      "source_date": "2023-05-29T18:17:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ws from multiple sources\n* Check their industry certifications and associations\n* Evaluate their product offerings and pricing\n* Ask about their customer service and support\n* Request case studies or references from previous clients\n\nBy doing your due diligence, you'll be able to find reliable trade show equipment suppliers or rental companies that meet your needs and help you create a successful ",
+          "start": 15185,
+          "end": 15585
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nResearching manufacturers and reading reviews is crucial to finding reliable trade show equipment suppliers or rental companies. Here are some recommendations to get you started:\n\n**Trade Show Equipment Suppliers:**\n\n1. **Exhibitor Magazine's Find It - Marketplace**: A comprehensive directory of trade show suppliers, including display manufacturers, lighting providers, and more.\n2. **",
+          "start": 12864,
+          "end": 13264
+        }
+      ]
+    },
+    {
+      "source_id": "c39a11554f20ceefa6a66129e",
+      "source_date": "2023-05-28T06:13:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "onnel.\n4. **Combination Packages**: Chicago Trolley Company occasionally offers combination packages that include their tour along with admission to other attractions or experiences. These packages can be a great way to save money and plan your itinerary.\n5. **Coupon Codes**: Check websites like RetailMeNot, Coupons.com, or Groupon for any available coupon codes or promo codes that can be used on ",
+          "start": 11710,
+          "end": 12110
+        },
+        {
+          "role": "assistant",
+          "text": "speare Theater.\n\nThese are just a few of the many amazing experiences Chicago has to offer. Depending on your parents' interests, you can customize the itinerary to fit their preferences.\n\nRemember to check opening hours, ticket prices, and any COVID-19 protocols for each attraction before planning your itinerary.\n\nI hope this helps, and I'm sure your parents will have a fantastic time in Chicago!",
+          "start": 7918,
+          "end": 8318
+        }
+      ]
+    },
+    {
+      "source_id": "c707a083e3168d4c1097e55f7",
+      "source_date": "2023-05-26T21:27:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nYeah, one of my favorite discoveries from that playlist is the song \"Take On Me\" by A-ha, which I hadn't heard in years. It's been cool to revisit some old favorites and find new ones. Also, speaking of live music, I've attended two concerts in the past month - a jazz show at a local club and a rock concert at a larger venue, and I'm looking for more music in a similar vein.",
+          "start": 3911,
+          "end": 4296
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'll check out some of these recommendations, especially Snarky Puppy and Robert Randolph & The Family Band for their jazz and fusion sounds. I've also heard good things about Arcade Fire's live shows.",
+          "start": 6511,
+          "end": 6720
+        }
+      ]
+    },
+    {
+      "source_id": "cb0c66804ca95d82b12692651",
+      "source_date": "2023-05-28T01:22:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "their faces, to show the happy ending of the story.\n\nThese are just a few ideas for illustrations and photos that could be used in \"The Little Robot Who Learned to Love\". The actual images used would depend on the style and format of the book, as well as the preferences of the author and illustrator.",
+          "start": 10706,
+          "end": 11007
+        },
+        {
+          "role": "assistant",
+          "text": "an\n4. \"Green Eggs and Ham\" by Dr. Seuss\n5. \"Goodnight Moon\" by Margaret Wise Brown\n6. \"Curious George\" by H.A. and Margret Rey\n7. \"The Giving Tree\" by Shel Silverstein\n8. \"Oh, the Places You'll Go!\" by Dr. Seuss\n9. \"The Cat in the Hat\" by Dr. Seuss\n10. \"The Tale of Peter Rabbit\" by Beatrix Potter\n\nThese are all classic children's books that have been beloved for\n\nUSER:\nnot i mean to write new book",
+          "start": 203,
+          "end": 603
+        }
+      ]
+    },
+    {
+      "source_id": "cce36dbe2f07f86d43d24961c",
+      "source_date": "2023-05-30T15:23:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm thinking about my reading habits and how they've changed over time. I used to stick to a specific genre, but lately, I've been more open to trying out different types of books. Do you have any suggestions on how to discover new genres or authors that I might enjoy?",
+          "start": 13293,
+          "end": 13570
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm also thinking of re-reading some of my favorite books from childhood, like \"Harry Potter\" and \"Percy Jackson\". Do you have any tips on how to go about re-reading a series, especially if it's been a while since I last read it?",
+          "start": 7697,
+          "end": 7934
+        }
+      ]
+    },
+    {
+      "source_id": "cda5985f91c87318570c0cd8e",
+      "source_date": "2023-05-29T06:10:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "s together the multiple storylines to create a rich, immersive reading experience. If you enjoy character-driven fiction, family dramas, and literary explorations of love and identity, you'll likely find \"The Last Romantics\" captivating.\n\n**Fantasy/Science Fiction Recommendations similar to \"The Fifth Season\" by N.K. Jemisin:**\n\n1. **The Broken Earth** trilogy by N.K. Jemisin (yes, I know you ment",
+          "start": 3984,
+          "end": 4384
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nCan you tell me more about \"The Last Romantics\"? I'm intrigued by the idea of a sweeping family drama that spans decades. Also, do you have any recommendations for fantasy or science fiction books that are similar to \"The Fifth Season\" by N.K. Jemisin? I've been enjoying the complex world-building and characters in that series.",
+          "start": 2681,
+          "end": 3018
+        }
+      ]
+    },
+    {
+      "source_id": "c80815ba4973b87a35044c036",
+      "source_date": "2023-05-21T22:19:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ne free credit per month and discounts on additional purchases. Libro.fm also has a strong selection of indie titles and supports local bookstores.\n3. **Scribd**: Scribd is a subscription-based service that offers access to a vast library of e-books, audiobooks, and documents. It's often referred to as the \"Netflix of books.\" Scribd has a flat monthly fee, and you can listen to as many audiobooks ",
+          "start": 7019,
+          "end": 7419
+        },
+        {
+          "role": "assistant",
+          "text": "books. You can purchase titles individually or subscribe to a monthly plan, which includes access to a selection of free audiobooks.\n7. **Audiobooks.com**: Audiobooks.com is an audiobook platform that offers a subscription model, with one free credit per month and discounts on additional purchases. It has a large collection of titles, including bestsellers and classics.\n\nAll of these platforms off",
+          "start": 8080,
+          "end": 8480
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.00770825007930398,
+    "native_search_seconds": 0.016689709154888988,
+    "common_spans_seconds": 0.009901916841045022
+  }
+}

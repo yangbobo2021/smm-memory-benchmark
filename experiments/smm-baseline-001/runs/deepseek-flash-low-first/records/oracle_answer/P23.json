@@ -1,0 +1,132 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "b5e5e63d42989b64088a60e7a2fbf0b1f564cac8619d20924c1991902296aea4",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "14 days passed. The repotting was said to happen on March 4, 2023, and the cuttings were given on March 18, 2023.",
+    "claims": [
+      {
+        "claim": "The user repotted the previous spider plant on March 4, 2023, the day the message was received.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "By the way, I repot the previous spider plant today"
+          }
+        ]
+      },
+      {
+        "claim": "The user gave Mrs. Johnson spider plant cuttings on March 18, 2023, the day the message was received.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "By the way, I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          }
+        ]
+      },
+      {
+        "claim": "The interval between March 4, 2023 and March 18, 2023 is 14 days.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "c6ac62cabd166c7c819b0b7a08f03bee1fc595c166c007b2278ad20b8cdf03b1",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 7412,
+      "completion_tokens": 604,
+      "total_tokens": 8016,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 342
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 7028
+    },
+    "response_id": "42acb1ec-0266-4d63-bb4d-70aeb546f7c9",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.677235750015825
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "By the way, I repot the previous spider plant today",
+        "valid": true,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "By the way, I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+        "valid": true,
+        "source_id": "ca722cb830ce76b391e670726",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-18T08:49:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00001",
+        "quote": "I repot the previous spider plant today",
+        "valid": true,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+        "valid": true,
+        "source_id": "ca722cb830ce76b391e670726",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-18T08:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P23.json",
+  "raw_response_sha256": "c1ad005e9af93fbae749f2dc8649819e8274f080f711b83b12b5ab24991acc10"
+}

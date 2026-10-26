@@ -1,0 +1,124 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P25",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "1d5fc888cee602647e22922bceb664725c002bad2d187d61f9c394f09045b480",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "On Tuesdays and Thursdays you wake up at 6:45 AM — your regular wake-up is now 7:00 AM, and on those two days you get up 15 minutes earlier.",
+    "claims": [
+      {
+        "claim": "Your regular wake-up time is 7:00 AM (recently improved from a usual 8:30 AM).",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+          }
+        ]
+      },
+      {
+        "claim": "On Tuesdays and Thursdays you wake up 15 minutes earlier than usual, to meditate and practice yoga.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+          }
+        ]
+      },
+      {
+        "claim": "Therefore Tuesday/Thursday wake-up = 7:00 AM minus 15 minutes = 6:45 AM.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "waking up 15 minutes earlier"
+          },
+          {
+            "evidence_id": "E00008",
+            "quote": "waking up at 7:00 AM"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04",
+      "C08"
+    ],
+    "missing": "This assumes the '15 minutes earlier' applies to your current 7:00 AM baseline; if it instead referred to the old 8:30 AM time, it would be 8:15 AM. No evidence states an explicit clock time for Tuesday/Thursday wake-ups."
+  },
+  "metrics": {
+    "seconds": 44.68587958300486,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1943,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1555
+      },
+      "prompt_tokens": 26136,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 28079
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00008",
+        "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00004",
+        "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00004",
+        "quote": "waking up 15 minutes earlier",
+        "valid": true,
+        "source_id": "c1093bf2c8cd861890c957c5c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T07:56:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00008",
+        "quote": "waking up at 7:00 AM",
+        "valid": true,
+        "source_id": "cfb475330aad6b2360694d630",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T18:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "43ec54f8e0a821309081afe509043e4ce50a793be1bd5c1ab6dd399e05ecdd40",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "3 different citrus fruits: orange, lemon, and lime.",
+    "claims": [
+      {
+        "claim": "User used ORANGE: made homemade orange bitters with orange peels (C01) and served Sangria with orange slices two weeks ago (C03).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "recently made my own orange bitters using orange peels and vodka"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago"
+          }
+        ]
+      },
+      {
+        "claim": "User used LEMON: served Sangria with lemon slices at their dinner party two weeks ago (C03).",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago"
+          }
+        ]
+      },
+      {
+        "claim": "User used LIME: made a classic Daiquiri with fresh lime juice (C02) and made a Cucumber Gimlet with lime juice (C05).",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class"
+          },
+          {
+            "evidence_id": "E00005",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!"
+          }
+        ]
+      },
+      {
+        "claim": "Other citrus mentioned (e.g., grapefruit) appears only in assistant suggestions, never in user statements of use, so they are not counted.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "Grapefruit and Cardamom: Blend the tartness of grapefruit with the sweet, spicy flavor of cardamom"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03",
+      "C05"
+    ],
+    "missing": "No evidence shows the user completed the Orange You Glad It's a Whiskey Sour recipe or any grapefruit-based cocktail; those remain plans/interest only and are excluded from the count."
+  },
+  "metrics": {
+    "seconds": 45.469966834178194,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 2304,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1759
+      },
+      "prompt_tokens": 17038,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 19342
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "recently made my own orange bitters using orange peels and vodka",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00005",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "Grapefruit and Cardamom: Blend the tartness of grapefruit with the sweet, spicy flavor of cardamom",
+        "valid": false,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "Grapefruit and Cardamom: Blend the tartness of grapefruit with the sweet, spicy flavor of cardamom",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

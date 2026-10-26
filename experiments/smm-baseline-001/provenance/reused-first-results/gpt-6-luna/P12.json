@@ -1,0 +1,64 @@
+{
+  "case_id": "P12",
+  "request_sha256": "aed050931b9242d9a99eae557b592f91c5e0f0a9f3f283a5ec6918a58b6a01ba",
+  "request_file_sha256": "d26357837f657f65c4c389fdfe49af4cf06a3c24b4d70fecf616a319cb2b92f3",
+  "output": {
+    "status": "answer",
+    "answer": "You used “Doc Martin” as the example.",
+    "claims": [
+      {
+        "claim": "The example was “Doc Martin.”",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.213519,
+    "thread_setup_seconds": 0.078522,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.213519,
+    "turn_seconds": 5.134997,
+    "first_text_seconds": 4.676505,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 11424,
+      "completion_tokens": 97,
+      "total_tokens": 11521,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season.",
+        "original_source_id": "c50927ca385b93a348ac133cd",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 3327,
+        "end": 3445
+      }
+    ]
+  }
+}

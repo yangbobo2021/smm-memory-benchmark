@@ -1,0 +1,161 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "3 different citrus fruits: orange, lime, and lemon.",
+    "claims": [
+      {
+        "claim": "Orange — used in the user's homemade orange bitters made with orange peels (E00001) and in the Sangria served at their dinner party two weeks ago with orange slices (E00003).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "recently made my own orange bitters using orange peels and vodka"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "slices of orange and lemon, just like I did for my dinner party two weeks ago"
+          }
+        ]
+      },
+      {
+        "claim": "Lime — used in the classic Daiquiri the user learned to make in a mixology class (E00002) and in the Cucumber Gimlet the user made, mixed with lime juice (E00004).",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "using fresh lime juice and simple syrup in a mixology class"
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "mixed it with lime juice and simple syrup"
+          }
+        ]
+      },
+      {
+        "claim": "Lemon — used in the Sangria served with orange and lemon slices at the dinner party two weeks ago (E00003).",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "slices of orange and lemon, just like I did for my dinner party two weeks ago"
+          }
+        ]
+      },
+      {
+        "claim": "Other citrus mentioned (grapefruit, yuzu, etc.) appear only in assistant suggestions or future intentions (e.g., 'I'd like to try making a citrus and spice honey syrup'), not confirmed completed uses, so they are not counted.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I'd like to try making a citrus and spice honey syrup using orange and cinnamon"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "missing": "None material; however, the planned upcoming dinner party (E00003) and the 'try making' honey syrup (E00001) are intentions, not completed uses, and were excluded."
+  },
+  "metrics": {
+    "seconds": 37.43837629118934,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1713,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1285
+      },
+      "prompt_tokens": 13489,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 15202
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "recently made my own orange bitters using orange peels and vodka",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "slices of orange and lemon, just like I did for my dinner party two weeks ago",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "using fresh lime juice and simple syrup in a mixology class",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00004",
+        "quote": "mixed it with lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "slices of orange and lemon, just like I did for my dinner party two weeks ago",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "I'd like to try making a citrus and spice honey syrup using orange and cinnamon",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

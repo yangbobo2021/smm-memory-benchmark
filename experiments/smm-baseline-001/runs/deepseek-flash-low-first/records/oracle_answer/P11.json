@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P11",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "f536a46983971f77ca4d4599f2133213fe5309ecd16dabf9eede11496622d12e",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The deli was Roscioli.",
+    "claims": [
+      {
+        "claim": "The assistant identified Roscioli as a famous deli serving the best cured meats and cheeses near the Vatican.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "1d195c669f782efd283c1518860e882fa647dc61bc74643824e6cff15ec23d60",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 1847,
+      "completion_tokens": 234,
+      "total_tokens": 2081,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 1591
+    },
+    "response_id": "8a5fe600-bb7e-4925-ac6c-ecfec7b04e4f",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 2.8973137920256704
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine.",
+        "valid": true,
+        "source_id": "c8ae7755b954de1ea86110538",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-26T15:26:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P11.json",
+  "raw_response_sha256": "8e1f2672c4241145e5e3b6cb4d952c197e27ba5988732e1f9bb1eb621cefc72a"
+}

@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P20",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "1a4f9f31b21b346653ba0be8fed8eb0e1adbd880f8e98119af5ef4b600ef740d",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You stop checking work emails and messages by 7 pm.",
+    "claims": [
+      {
+        "claim": "The user said they stop checking work emails and messages by 7 pm.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "stopping work emails and messages by 7 pm"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "269458e00a785a76e8d7bdc96ade3b8a2af077a6abd266b69e8a108a2d8c8373",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 3563,
+      "completion_tokens": 170,
+      "total_tokens": 3733,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 3179
+    },
+    "response_id": "a55f4192-f5da-40f7-a74a-79290c9ddd84",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 2.8738796249963343
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "stopping work emails and messages by 7 pm",
+        "valid": true,
+        "source_id": "c1c7c4c03a55cac4522db0a20",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-29T04:01:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P20.json",
+  "raw_response_sha256": "0342aab8939ca3790ec13d632695fdb902271fa8961ae2dd499ea6e9ac01e206"
+}

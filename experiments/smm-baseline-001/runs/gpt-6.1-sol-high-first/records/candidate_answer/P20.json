@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P20",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "83cfa2d1aa900c9461c473500cdbb362066fc4f4cdb8e05e1735f3f56193bc5a",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You stop checking work emails and messages by 7 pm.",
+    "claims": [
+      {
+        "claim": "You stop checking work emails and messages by 7 pm.",
+        "citations": [
+          {
+            "evidence_id": "E00009",
+            "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C09"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 29.085254,
+    "thread_setup_seconds": 0.082779,
+    "rate_wait_seconds": 0,
+    "active_seconds": 29.085254,
+    "turn_seconds": 29.002475,
+    "first_text_seconds": 28.179064,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 36156,
+      "completion_tokens": 149,
+      "total_tokens": 36305,
+      "cached_prompt_tokens": 10240,
+      "reasoning_tokens": 46
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00009",
+        "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life.",
+        "valid": true,
+        "source_id": "c1c7c4c03a55cac4522db0a20",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-29T04:01:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

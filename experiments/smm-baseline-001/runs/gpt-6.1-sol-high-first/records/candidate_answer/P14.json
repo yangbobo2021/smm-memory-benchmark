@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P14",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "1b5e59d4901fa62ba8b8ccf1c69d6bba83855e2b91a6e39f79d27ed5d8489884",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The example I gave was **Manolo García**, a Spanish-Catalan singer-songwriter described as publicly supporting unity between Catalonia and Spain.",
+    "claims": [
+      {
+        "claim": "I gave Manolo García as the example of a Spanish-Catalan singer-songwriter supporting unity between Catalonia and Spain.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "for example, the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 11.063416,
+    "thread_setup_seconds": 0.074041,
+    "rate_wait_seconds": 0,
+    "active_seconds": 11.063416,
+    "turn_seconds": 10.989375,
+    "first_text_seconds": 9.036466,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 23682,
+      "completion_tokens": 196,
+      "total_tokens": 23878,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 62
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "for example, the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain.",
+        "valid": true,
+        "source_id": "ce4bde0adad4fe2ecc4bf403f",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-21T10:54:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

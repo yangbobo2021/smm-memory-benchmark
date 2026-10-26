@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P19",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "8bd414c125f3d82486704485c0cb99fb31fdad9304d3a477c74b9ec277f753b7",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You said you got your new tennis racket from a sports store downtown.",
+    "claims": [
+      {
+        "claim": "The user bought the new tennis racket from a sports store downtown.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "d7aa74b646efdd5d59bc425a36673d0aa355190db968133f7603e27468e65aeb",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 3737,
+      "completion_tokens": 170,
+      "total_tokens": 3907,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 3353
+    },
+    "response_id": "f90ac350-df32-46fe-9086-49553dad2a5d",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 2.550096374936402
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown.",
+        "valid": true,
+        "source_id": "cdfeb5d9b5297a62fd0054af3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T21:29:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P19.json",
+  "raw_response_sha256": "ee0bacc21e89ee0a0bedd2b04bed163e044ce533a74cab61a988be900b5de3de"
+}

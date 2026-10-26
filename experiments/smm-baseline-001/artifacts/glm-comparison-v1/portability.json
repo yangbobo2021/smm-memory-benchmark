@@ -1,0 +1,32 @@
+{
+  "experiment_id": "SMM-B001",
+  "phase": "glm-comparison-v1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "four-model-comparison-verification",
+      "passed": true,
+      "output_sha256": "f406251ca77dd894b001937b96bfa8bbcee3b1a7e4a34be5aca2a5c4e68b131a"
+    },
+    {
+      "name": "sealed-flash-score",
+      "passed": true,
+      "output_sha256": "0462f99f0e23527ce67aad2a4df27fe7133ebb088ccba4d0bbb21f32bb8772e0"
+    },
+    {
+      "name": "sealed-glm53-score",
+      "passed": true,
+      "output_sha256": "caae2118c09cfa766f3e79835cde3366152d048da96dacd9c2a27577b9a3f429"
+    },
+    {
+      "name": "four-model-report",
+      "passed": true,
+      "output_sha256": "807b50d3f75f69c035792b13e2ca7729a58d35dc0c9535718c978a8d12f92825"
+    }
+  ],
+  "relocated_outside_project": true,
+  "original_project_read_forbidden": true,
+  "network_and_subprocess_blocked": true,
+  "isolated_python_no_site_packages": true,
+  "model_calls": 0
+}

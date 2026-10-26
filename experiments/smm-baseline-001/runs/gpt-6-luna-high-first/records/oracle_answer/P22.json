@@ -1,0 +1,98 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You said you’d just downloaded Ibotta on April 16. By May 6, that was 20 days ago—2 weeks and 6 days (about 3 weeks).",
+    "claims": [
+      {
+        "claim": "The user said they had just downloaded Ibotta in the April 16 conversation.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta"
+          }
+        ]
+      },
+      {
+        "claim": "From April 16 to May 6 is 20 days, or 2 weeks and 6 days.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "received_at\":\"2023-04-16T02:19:00+00:00"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 8.361106,
+    "thread_setup_seconds": 0.108415,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.361106,
+    "turn_seconds": 8.252691,
+    "first_text_seconds": 7.309515,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13161,
+      "completion_tokens": 317,
+      "total_tokens": 13478,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 143
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at\":\"2023-04-16T02:19:00+00:00",
+        "valid": false,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at\":\"2023-04-16T02:19:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

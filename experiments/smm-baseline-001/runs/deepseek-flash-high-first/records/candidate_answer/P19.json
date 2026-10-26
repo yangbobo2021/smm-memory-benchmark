@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P19",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "6686c0028fa66d2f94a2c44306609ed597df53bcf95747cd01875ffa464874a7",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You said you got your new tennis racket from a sports store downtown. The specific store name was not provided.",
+    "claims": [
+      {
+        "claim": "The user got their new tennis racket from a sports store downtown.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03"
+    ],
+    "missing": "The specific name of the sports store was not provided."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "0f411c32041f3bf6c155826dac3e4179e6ec4a93a8fa72e354f71a3b04896891",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 19639,
+      "completion_tokens": 369,
+      "total_tokens": 20008,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 258
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 19255
+    },
+    "response_id": "c1dce997-63a1-4a41-99f2-e46dc0106bcb",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.022028458071873
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown.",
+        "valid": true,
+        "source_id": "cdfeb5d9b5297a62fd0054af3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T21:29:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P19.json",
+  "raw_response_sha256": "ef1f55133eb14b854954d8cd111d1098e241047f5a854efe4f11a9ed95adfcfe"
+}

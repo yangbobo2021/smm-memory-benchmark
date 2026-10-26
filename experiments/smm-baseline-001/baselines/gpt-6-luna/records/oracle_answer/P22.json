@@ -1,0 +1,59 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "output": {
+    "status": "abstain",
+    "answer": "The evidence says you had just downloaded Ibotta, but it does not establish when you started using it. The number of weeks ago cannot be determined.",
+    "claims": [
+      {
+        "claim": "The user had just downloaded Ibotta, but no start date for using it is established; therefore elapsed weeks cannot be calculated.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "No date or elapsed time for when the user began using Ibotta is provided."
+  },
+  "metrics": {
+    "seconds": 4.534423,
+    "thread_setup_seconds": 0.083159,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.534423,
+    "turn_seconds": 4.451264,
+    "first_text_seconds": 3.484264,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13143,
+      "completion_tokens": 131,
+      "total_tokens": 13274,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P22.json",
+  "raw_receipt_sha256": "e89bc3ef12efb7ee10ac4b1b478ef06d699373854fc73ffa72f41d25bdf315bb",
+  "imported": true,
+  "historical_exact_reuse": true,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P22.json",
+  "reused_first_result": "provenance/reused-first-results/gpt-6-luna/P22.json",
+  "reused_first_result_sha256": "86b0f29ea08c014df38c45ef3dc6b9ab880a206305b54ba68efe05bbe92d9918"
+}

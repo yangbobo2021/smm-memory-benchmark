@@ -1,0 +1,22 @@
+{
+  "id": "a78c6207-0c7b-461c-9d37-a23102dd4eb5",
+  "model": "deepseek-flash",
+  "created": 1792983164,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"14 days passed between the two events: the spider plant was repotted on 2023-03-04, and the cuttings were given to Mrs. Johnson on 2023-03-18.\",\"claims\":[{\"claim\":\"The user said they repotted the previous spider plant that day; E00001 was received on 2023-03-04T12:05:00+00:00.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I repot the previous spider plant today\"},{\"evidence_id\":\"E00001\",\"quote\":\"2023-03-04T12:05:00+00:00\"}]},{\"claim\":\"The user said they gave Mrs. Johnson a few spider plant cuttings that day; E00006 was received on 2023-03-18T08:49:00+00:00.\",\"citations\":[{\"evidence_id\":\"E00006\",\"quote\":\"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\"},{\"evidence_id\":\"E00006\",\"quote\":\"2023-03-18T08:49:00+00:00\"}]},{\"claim\":\"The interval from 2023-03-04 to 2023-03-18 is 14 days.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"2023-03-04T12:05:00+00:00\"},{\"evidence_id\":\"E00006\",\"quote\":\"2023-03-18T08:49:00+00:00\"}]}],\"selected_sources\":[\"C01\",\"C06\"],\"missing\":\"\"}",
+  "usage": {
+    "prompt_tokens": 19039,
+    "completion_tokens": 2011,
+    "total_tokens": 21050,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1662
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 18655
+  },
+  "refusal": null
+}

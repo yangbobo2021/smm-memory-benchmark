@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "3b57fb3053b2a152331ac12474ba4e884287c9f1711ccb63b983e814a6268832",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit.",
+    "claims": [
+      {
+        "claim": "The user stated that they earned $420 at the Downtown Farmers Market on their most recent visit.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "5cdef8efdeb6bfd5e93c0c88e235432b9f1c6b31c529963cf32d84a14c577ebd",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 15649,
+      "completion_tokens": 329,
+      "total_tokens": 15978,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 236
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 15265
+    },
+    "response_id": "6479b30a-ae48-4111-8667-6b6da5004baf",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.8281226251274347
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P04.json",
+  "raw_response_sha256": "6ee55bc4dda3b153a938a030326d8c45de4f80d41a26a4b851889353a55b2d4e"
+}

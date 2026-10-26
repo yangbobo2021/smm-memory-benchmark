@@ -1,0 +1,97 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "43ec54f8e0a821309081afe509043e4ce50a793be1bd5c1ab6dd399e05ecdd40",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Three different types of citrus fruit: orange, lemon, and lime.",
+    "claims": [
+      {
+        "claim": "The user used orange and lemon slices in Sangria that they served at a prior dinner party.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "The user made a Cucumber Gimlet using lime juice.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C05"
+    ],
+    "missing": "The evidence may not cover cocktails not discussed, but the completed cocktail mentions show orange, lemon, and lime."
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "afc46228311ec069a69d016049eea041c0098a858c499dd7831ba692704e0fb9",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 17250,
+      "completion_tokens": 1702,
+      "total_tokens": 18952,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1505
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 16994
+    },
+    "response_id": "01d6a720-40c0-43bd-a7d6-aaca2e05102e",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 12.354341000085697
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00005",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P08.json",
+  "raw_response_sha256": "9772a3dc2030d3dc22ee3c96a7697004ece8fee25ac4c8e7c872d725dde06cd4"
+}

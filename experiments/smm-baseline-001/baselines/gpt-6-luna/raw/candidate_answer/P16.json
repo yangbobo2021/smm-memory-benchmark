@@ -1,0 +1,66 @@
+{
+  "case_id": "P16",
+  "model": "gpt-6-luna",
+  "task": "answer",
+  "request_sha256": "343b8a3ac082b18e091e9d74fc2301b465ba4d040407c10a62806fa1a10c5720",
+  "request_file_sha256": "c98fa9306ee73d65a0957bbd55b8c5ce92d81a11250d56d8d66b1fa57f94c1c6",
+  "output": {
+    "status": "answer",
+    "answer": "You found 17 skeins of worsted weight yarn.",
+    "claims": [
+      {
+        "claim": "The user said they had found a stash of 17 skeins of worsted weight yarn.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "I have a stash of 17 skeins that I found recently"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C08"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.535526,
+    "thread_setup_seconds": 0.12442,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.535526,
+    "turn_seconds": 6.411106,
+    "first_text_seconds": 5.862775,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 36284,
+      "completion_tokens": 94,
+      "total_tokens": 36378,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00008",
+        "quote": "I have a stash of 17 skeins that I found recently",
+        "original_source_id": "c206792b9b44d285b614d229e",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 2167,
+        "end": 2216
+      }
+    ]
+  }
+}

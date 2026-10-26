@@ -1,0 +1,93 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "In our previous chat, I said 12 times at Arrowhead Stadium—regular-season games only, based on a 2021 cutoff.",
+    "claims": [
+      {
+        "claim": "The previous chat stated 12 Chiefs–Jaguars games at Arrowhead Stadium.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium"
+          }
+        ]
+      },
+      {
+        "claim": "That count excluded playoffs and used a 2021 knowledge cutoff.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Please note that these statistics are based on regular season games only, not including playoffs games. Also, as my knowledge cut-off date is 2021, these statistics may have changed since then."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 19.059701,
+    "thread_setup_seconds": 0.088226,
+    "rate_wait_seconds": 0,
+    "active_seconds": 19.059701,
+    "turn_seconds": 18.971475,
+    "first_text_seconds": 16.311811,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 31305,
+      "completion_tokens": 464,
+      "total_tokens": 31769,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 271
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "Please note that these statistics are based on regular season games only, not including playoffs games. Also, as my knowledge cut-off date is 2021, these statistics may have changed since then.",
+        "valid": true,
+        "source_id": "cacc96cddded0941e918b8c86",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-28T04:27:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P16",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "343b8a3ac082b18e091e9d74fc2301b465ba4d040407c10a62806fa1a10c5720",
+  "output": {
+    "status": "answer",
+    "answer": "You found 17 skeins of worsted weight yarn.",
+    "claims": [
+      {
+        "claim": "You found 17 skeins of worsted weight yarn in your stash.",
+        "citations": [
+          {
+            "evidence_id": "E00008",
+            "quote": "Can I use some of my worsted weight yarn for the amigurumi toys? I have a stash of 17 skeins that I found recently, and I'd love to use them up."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C08"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.25707,
+    "thread_setup_seconds": 0.133912,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.25707,
+    "turn_seconds": 7.123158,
+    "first_text_seconds": 5.425976,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 37270,
+      "completion_tokens": 116,
+      "total_tokens": 37386,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P16.json",
+  "raw_receipt_sha256": "294e272647bd9c191b8494e0e6b818d2919983051fb87b1e8716a0f8469b632f",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P16/answer.json"
+}

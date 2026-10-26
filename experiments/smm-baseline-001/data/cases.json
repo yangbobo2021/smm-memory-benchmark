@@ -1,0 +1,1128 @@
+[
+  {
+    "id": "P01",
+    "namespace": "qd78ab95d8975_n100",
+    "original_case_id": "qd78ab95d8975",
+    "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+    "known_at": "2023-04-12T06:37:00+00:00",
+    "timezone": "UTC",
+    "type": "knowledge-update",
+    "kind": "public_positive",
+    "scale": 50,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c86c392fcf4351780ec72ccbe",
+            "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah, which was amazing, by the way.",
+            "start": 156,
+            "end": 248,
+            "role": "user",
+            "received_at": "2023-03-30T01:14:00+00:00",
+            "source_sha256": "5ce0a5170df968cccb198ccd4a67b8482c878b9418a63a103462462dc45bc6c6"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "Yes",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P01.json",
+    "official_question_id": "b01defab",
+    "official_reference_sources": [
+      "c6cfd58034e25f4def8503729",
+      "c86c392fcf4351780ec72ccbe"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P02",
+    "namespace": "qe36ddf3ac544_n100",
+    "original_case_id": "qe36ddf3ac544",
+    "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+    "known_at": "2023-03-16T14:24:00+00:00",
+    "timezone": "UTC",
+    "type": "knowledge-update",
+    "kind": "public_positive",
+    "scale": 45,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "ca3586c9f696b9c5035ebf62c",
+            "quote": "we've got 20 dozen stocked up in the fridge right now.",
+            "start": 2096,
+            "end": 2150,
+            "role": "user",
+            "received_at": "2023-03-15T08:18:00+00:00",
+            "source_sha256": "63a61cc8b16cdb363f6512e8456f13a4279191f319cabb5174826f4612b29fcb"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "20",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P02.json",
+    "official_question_id": "ed4ddc30",
+    "official_reference_sources": [
+      "c4d5e76892eb66ee21cf151ae",
+      "ca3586c9f696b9c5035ebf62c"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P03",
+    "namespace": "qe2f697b3b929_n100",
+    "original_case_id": "qe2f697b3b929",
+    "question": "How many issues of National Geographic have I finished reading?",
+    "known_at": "2023-08-14T23:19:00+00:00",
+    "timezone": "UTC",
+    "type": "knowledge-update",
+    "kind": "public_positive",
+    "scale": 44,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "cab206cf9d24f3f891f2ce248",
+            "quote": "especially in National Geographic - I've finished five issues so far",
+            "start": 3372,
+            "end": 3440,
+            "role": "user",
+            "received_at": "2023-07-15T22:42:00+00:00",
+            "source_sha256": "53069c73a93e6ef073a4262ca7a98a34ce04fbb60c11bb77f1d64fd1c9cee3a0"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "Five",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P03.json",
+    "official_question_id": "8fb83627",
+    "official_reference_sources": [
+      "cd244fcacffe13caffeb31e69",
+      "cab206cf9d24f3f891f2ce248"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P04",
+    "namespace": "qb905e1d8723c_n100",
+    "original_case_id": "qb905e1d8723c",
+    "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+    "known_at": "2023-10-26T11:44:00+00:00",
+    "timezone": "UTC",
+    "type": "knowledge-update",
+    "kind": "public_positive",
+    "scale": 47,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c61dc060a2ddb252dd1eef054",
+            "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+            "start": 5350,
+            "end": 5457,
+            "role": "user",
+            "received_at": "2023-09-30T15:13:00+00:00",
+            "source_sha256": "5fa4f9f4a83c65cc5da7cc91c7e4ebac1320266355a652d455815fba4b16b472"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "$420",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P04.json",
+    "official_question_id": "7e974930",
+    "official_reference_sources": [
+      "ca194573bab838bc02a805cf8",
+      "c61dc060a2ddb252dd1eef054"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P05",
+    "namespace": "q51d35f293f96_n100",
+    "original_case_id": "q51d35f293f96",
+    "question": "How many hours have I spent on my abstract ocean sculpture?",
+    "known_at": "2023-06-18T19:47:00+00:00",
+    "timezone": "UTC",
+    "type": "knowledge-update",
+    "kind": "public_positive",
+    "scale": 51,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c4c82a4ec553edba1edf85885",
+            "quote": "I've already spent 10-12 hours on my abstract ocean sculpture",
+            "start": 15320,
+            "end": 15381,
+            "role": "user",
+            "received_at": "2023-06-17T09:26:00+00:00",
+            "source_sha256": "1b689cd2587ef89a522aac77d1be484ee661327d7661f5b2055c65bae0c67c3b"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "10-12 hours",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P05.json",
+    "official_question_id": "71315a70",
+    "official_reference_sources": [
+      "ca1d9de8e9c37808891cece4b",
+      "c4c82a4ec553edba1edf85885"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P06",
+    "namespace": "q4fcca3010868_n100",
+    "original_case_id": "q4fcca3010868",
+    "question": "How many days a week do I attend fitness classes?",
+    "known_at": "2023-05-30T23:16:00+00:00",
+    "timezone": "UTC",
+    "type": "multi-session",
+    "kind": "public_positive",
+    "scale": 53,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c3660f7f82aeb2ef7b63e2daf",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am.",
+            "start": 123,
+            "end": 232,
+            "role": "user",
+            "received_at": "2023-05-27T06:52:00+00:00",
+            "source_sha256": "c854ff5ff2fbe30028d68dd07bb00ddf3f75505a6f2ebe4a850a78d8e5277167"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "cb02306340efae1abb61b04d8",
+            "quote": "I've been trying to mix up my routine and recently started a yoga class on Wednesdays",
+            "start": 106,
+            "end": 191,
+            "role": "user",
+            "received_at": "2023-05-26T03:42:00+00:00",
+            "source_sha256": "bd30d6711ccc15afd25cc997ac0a26712298958332d5e345b9c6340873762bcb"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "4 days.",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P06.json",
+    "official_question_id": "a08a253f",
+    "official_reference_sources": [
+      "cb02306340efae1abb61b04d8",
+      "c3660f7f82aeb2ef7b63e2daf"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P07",
+    "namespace": "qf6a933ae4901_n100",
+    "original_case_id": "qf6a933ae4901",
+    "question": "How many dinner parties have I attended in the past month?",
+    "known_at": "2023-05-30T14:40:00+00:00",
+    "timezone": "UTC",
+    "type": "multi-session",
+    "kind": "public_positive",
+    "scale": 44,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c5e13079f8999c5bfd339aab7",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week",
+            "start": 85,
+            "end": 145,
+            "role": "user",
+            "received_at": "2023-05-22T10:28:00+00:00",
+            "source_sha256": "9365b03933d70223a55b4afc7dc63e1eba85b561e0097bc23bd3b518fd8df7a4"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "c799a2510389a8ff2e69d96f5",
+            "quote": "the one we had at Mike's place two weeks ago, where we watched a football game together",
+            "start": 2478,
+            "end": 2565,
+            "role": "user",
+            "received_at": "2023-05-21T19:16:00+00:00",
+            "source_sha256": "1d8538f2aa0bebc1d425c9b8e672d3010ee82b69e4ece9f31b47417e079ee86d"
+          }
+        ]
+      },
+      {
+        "id": "a3",
+        "witnesses": [
+          {
+            "source_id": "c799a2510389a8ff2e69d96f5",
+            "quote": "at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world",
+            "start": 5224,
+            "end": 5328,
+            "role": "user",
+            "received_at": "2023-05-21T19:16:00+00:00",
+            "source_sha256": "1d8538f2aa0bebc1d425c9b8e672d3010ee82b69e4ece9f31b47417e079ee86d"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "three",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P07.json",
+    "official_question_id": "60159905",
+    "official_reference_sources": [
+      "c799a2510389a8ff2e69d96f5",
+      "c5e13079f8999c5bfd339aab7"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P08",
+    "namespace": "qfa2760a2e9b3_n100",
+    "original_case_id": "qfa2760a2e9b3",
+    "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+    "known_at": "2023-05-30T23:22:00+00:00",
+    "timezone": "UTC",
+    "type": "multi-session",
+    "kind": "public_positive",
+    "scale": 49,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c8b7f5dac3289afd48af13edf",
+            "quote": "By the way, I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+            "start": 159,
+            "end": 325,
+            "role": "user",
+            "received_at": "2023-05-30T23:20:00+00:00",
+            "source_sha256": "8abd64e843e2bb6101e2d754398b34a1b10db1055f592ecc70d0905955f3fade"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "c8f9041e297070a3be513d341",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+            "start": 8826,
+            "end": 8964,
+            "role": "user",
+            "received_at": "2023-05-27T03:44:00+00:00",
+            "source_sha256": "d9a37394d977c65f53b5e4c4b4c5454cdc01138c67e56ce691f59923ff6b90cd"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": 3,
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P08.json",
+    "official_question_id": "c4a1ceb8",
+    "official_reference_sources": [
+      "c9153f368b92a0a1aa0e04b1c",
+      "c77ccd1970a752a97cb1105f3",
+      "c8f9041e297070a3be513d341",
+      "c8b7f5dac3289afd48af13edf"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P09",
+    "namespace": "q07dadc638a56_n100",
+    "original_case_id": "q07dadc638a56",
+    "question": "How many days did I spend participating in faith-related activities in December?",
+    "known_at": "2024-01-10T23:41:00+00:00",
+    "timezone": "UTC",
+    "type": "multi-session",
+    "kind": "public_positive",
+    "scale": 42,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c8531a9f29edb59a4767e8d72",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need",
+            "start": 124,
+            "end": 262,
+            "role": "user",
+            "received_at": "2024-01-10T02:22:00+00:00",
+            "source_sha256": "3f5a38a4291488012f2234b4784d5960f0ead9c452f3bb423e64d45194f08f31"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "cc3fbf6478327dbbf685bb205",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th",
+            "start": 274,
+            "end": 373,
+            "role": "user",
+            "received_at": "2024-01-10T19:48:00+00:00",
+            "source_sha256": "40ef364ee7a03cfae54daca00b0742196e0790a7a20a3b2b9def40ae5444ff2d"
+          }
+        ]
+      },
+      {
+        "id": "a3",
+        "witnesses": [
+          {
+            "source_id": "cb5d52df1411ad8bfce6630ad",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family.",
+            "start": 166,
+            "end": 292,
+            "role": "user",
+            "received_at": "2024-01-10T12:30:00+00:00",
+            "source_sha256": "4e713e5961329b3ea82ba0c27c9bd091b50afce1778df97d0a78610639eddc5e"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "3 days.",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P09.json",
+    "official_question_id": "5a7937c8",
+    "official_reference_sources": [
+      "c8531a9f29edb59a4767e8d72",
+      "cb5d52df1411ad8bfce6630ad",
+      "cc3fbf6478327dbbf685bb205"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P10",
+    "namespace": "q6d7ad04891f5_n100",
+    "original_case_id": "q6d7ad04891f5",
+    "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+    "known_at": "2023-05-30T23:41:00+00:00",
+    "timezone": "UTC",
+    "type": "multi-session",
+    "kind": "public_positive",
+    "scale": 45,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c7205aaf4f85c5e920a9e1c57",
+            "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project.",
+            "start": 15336,
+            "end": 15430,
+            "role": "user",
+            "received_at": "2023-05-25T11:44:00+00:00",
+            "source_sha256": "3c7282be2ed00ed8b0f22770382798dcdec7f61150ac3ef5bd3e79eb2aadba8a"
+          },
+          {
+            "source_id": "c90f22ac4580aa6d69fac7732",
+            "quote": "my Data Mining course, which has a group project that's keeping me pretty busy.",
+            "start": 270,
+            "end": 349,
+            "role": "user",
+            "received_at": "2023-05-26T15:03:00+00:00",
+            "source_sha256": "7ad28ea4fdd50e3fa2efa3db991eceea4b88e6186d4f80aee197620cb8084971"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "c7205aaf4f85c5e920a9e1c57",
+            "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project.",
+            "start": 15336,
+            "end": 15430,
+            "role": "user",
+            "received_at": "2023-05-25T11:44:00+00:00",
+            "source_sha256": "3c7282be2ed00ed8b0f22770382798dcdec7f61150ac3ef5bd3e79eb2aadba8a"
+          },
+          {
+            "source_id": "cc071c3f64b3fa0ab505a8019",
+            "quote": "I've also been working on a group project for my Database Systems course, so I'm juggling multiple projects at the moment.",
+            "start": 193,
+            "end": 315,
+            "role": "user",
+            "received_at": "2023-05-28T03:58:00+00:00",
+            "source_sha256": "56d20a77ba5e89bfb213d4aac65a017f2370d38833c232af1a2465c10b12e4a3"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": 2,
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P10.json",
+    "official_question_id": "60472f9c",
+    "official_reference_sources": [
+      "c7205aaf4f85c5e920a9e1c57",
+      "c90f22ac4580aa6d69fac7732",
+      "cc071c3f64b3fa0ab505a8019"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P11",
+    "namespace": "q718bcf9946cb_n100",
+    "original_case_id": "q718bcf9946cb",
+    "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+    "known_at": "2023-05-30T23:01:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-assistant",
+    "kind": "public_positive",
+    "scale": 45,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c8ae7755b954de1ea86110538",
+            "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine.",
+            "start": 1721,
+            "end": 1831,
+            "role": "assistant",
+            "received_at": "2023-05-26T15:26:00+00:00",
+            "source_sha256": "e42db1e06cac558d1d2202d58d8e9692f3e4c27d1943917a6b268cceb56ac732"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "Roscioli",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P11.json",
+    "official_question_id": "8464fc84",
+    "official_reference_sources": [
+      "c8ae7755b954de1ea86110538"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P12",
+    "namespace": "q6873db7fd09e_n100",
+    "original_case_id": "q6873db7fd09e",
+    "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+    "known_at": "2023-05-30T22:00:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-assistant",
+    "kind": "public_positive",
+    "scale": 50,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c50927ca385b93a348ac133cd",
+            "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season.",
+            "start": 3327,
+            "end": 3445,
+            "role": "user",
+            "received_at": "2023-05-26T18:07:00+00:00",
+            "source_sha256": "e5a179589df29db59d1ef93ab893c34b7bfd542d600ca389115930a6d673e853"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "Doc Martin",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P12.json",
+    "official_question_id": "f523d9fe",
+    "official_reference_sources": [
+      "c50927ca385b93a348ac133cd"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P13",
+    "namespace": "qeeee92a80cc7_n100",
+    "original_case_id": "qeeee92a80cc7",
+    "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+    "known_at": "2023-05-30T23:21:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-assistant",
+    "kind": "public_positive",
+    "scale": 49,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "cacc96cddded0941e918b8c86",
+            "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs.",
+            "start": 3432,
+            "end": 3636,
+            "role": "assistant",
+            "received_at": "2023-05-28T04:27:00+00:00",
+            "source_sha256": "bb225f2ebc5185c8f537ea687b35b41173ea1111d98ff0984a1566007dcb9100"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "The Chiefs played the Jaguars 12 times at Arrowhead Stadium.",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P13.json",
+    "official_question_id": "4baee567",
+    "official_reference_sources": [
+      "cacc96cddded0941e918b8c86"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P14",
+    "namespace": "qb77ec72e6dd3_n100",
+    "original_case_id": "qb77ec72e6dd3",
+    "question": "I was going through our previous conversation about the impact of the political climate in Catalonia on its literature and music. Can you remind me of the example you gave of a Spanish-Catalan singer-songwriter who supports unity between Catalonia and Spain?",
+    "known_at": "2023-05-30T19:58:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-assistant",
+    "kind": "public_positive",
+    "scale": 48,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "ce4bde0adad4fe2ecc4bf403f",
+            "quote": "for example, the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain.",
+            "start": 3566,
+            "end": 3707,
+            "role": "assistant",
+            "received_at": "2023-05-21T10:54:00+00:00",
+            "source_sha256": "c7df341c1576fc20bcb306f90f6bd4366e3d737f7e891e3e760ad749cab990ce"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "Manolo García",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P14.json",
+    "official_question_id": "70b3e69b",
+    "official_reference_sources": [
+      "ce4bde0adad4fe2ecc4bf403f"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P15",
+    "namespace": "q92fb5f0fcbe5_n100",
+    "original_case_id": "q92fb5f0fcbe5",
+    "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+    "known_at": "2023-05-30T21:40:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-assistant",
+    "kind": "public_positive",
+    "scale": 62,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c831c3cd021ba61a85c9aa466",
+            "quote": "4. International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms.",
+            "start": 732,
+            "end": 885,
+            "role": "assistant",
+            "received_at": "2023-05-27T06:49:00+00:00",
+            "source_sha256": "5f687485327250457cde82df65ff2e6102d04a2ef7653e28999856559435b0fe"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "International Budget Hostel",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P15.json",
+    "official_question_id": "7e00a6cb",
+    "official_reference_sources": [
+      "c831c3cd021ba61a85c9aa466"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P16",
+    "namespace": "qabef0e51b029_n100",
+    "original_case_id": "qabef0e51b029",
+    "question": "How many skeins of worsted weight yarn did I find in my stash?",
+    "known_at": "2023-05-30T18:03:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-user",
+    "kind": "public_positive",
+    "scale": 48,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c206792b9b44d285b614d229e",
+            "quote": "Can I use some of my worsted weight yarn for the amigurumi toys? I have a stash of 17 skeins that I found recently, and I'd love to use them up.",
+            "start": 2102,
+            "end": 2246,
+            "role": "user",
+            "received_at": "2023-05-27T11:27:00+00:00",
+            "source_sha256": "b38fdf1712f356f7ff8f6ade6c88e107b407a13fdfa5cd2aa16741659f3272c8"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "17",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P16.json",
+    "official_question_id": "8e9d538c",
+    "official_reference_sources": [
+      "c206792b9b44d285b614d229e"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P17",
+    "namespace": "qf088000c00f0_n100",
+    "original_case_id": "qf088000c00f0",
+    "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+    "known_at": "2023-05-30T19:25:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-user",
+    "kind": "public_positive",
+    "scale": 50,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c7597a97e2ced0ac9fccbba67",
+            "quote": "By the way, I've had some experience with fishing in Lake Michigan, and I've found that spinner lures worked better for trout than live bait. Also, I caught 12 largemouth bass on my last trip there, so you might want to consider targeting those as well.",
+            "start": 3081,
+            "end": 3334,
+            "role": "user",
+            "received_at": "2023-05-21T06:28:00+00:00",
+            "source_sha256": "7c67ed4d857f696aad94150d1002081c912dddcfe62c4fe1b5acd240df23d696"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "12",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P17.json",
+    "official_question_id": "21436231",
+    "official_reference_sources": [
+      "c7597a97e2ced0ac9fccbba67"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P18",
+    "namespace": "q80b4b381d56a_n100",
+    "original_case_id": "q80b4b381d56a",
+    "question": "How much did I spend on a designer handbag?",
+    "known_at": "2023-05-30T23:20:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-user",
+    "kind": "public_positive",
+    "scale": 45,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "cda869cbb99225b9233bf65e7",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+            "start": 3206,
+            "end": 3282,
+            "role": "user",
+            "received_at": "2023-05-23T08:15:00+00:00",
+            "source_sha256": "e16c7597e9ddb26a95d20dcec3c5c28fc13c8b08938f88b8b3a9a33faa2ada63"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "$800",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P18.json",
+    "official_question_id": "7527f7e2",
+    "official_reference_sources": [
+      "cda869cbb99225b9233bf65e7"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P19",
+    "namespace": "q7f2d32f3ec77_n100",
+    "original_case_id": "q7f2d32f3ec77",
+    "question": "Where did I buy my new tennis racket from?",
+    "known_at": "2023-05-30T23:39:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-user",
+    "kind": "public_positive",
+    "scale": 46,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "cdfeb5d9b5297a62fd0054af3",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown.",
+            "start": 3239,
+            "end": 3324,
+            "role": "user",
+            "received_at": "2023-05-25T21:29:00+00:00",
+            "source_sha256": "74e208071090aaf934f27a4fe0a444b40c03ff1a61a7c7dbd2a6643ac1639c17"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "the sports store downtown",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P19.json",
+    "official_question_id": "f8c5f88b",
+    "official_reference_sources": [
+      "cdfeb5d9b5297a62fd0054af3"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P20",
+    "namespace": "q8a439bf6336c_n100",
+    "original_case_id": "q8a439bf6336c",
+    "question": "What time do I stop checking work emails and messages?",
+    "known_at": "2023-05-30T23:54:00+00:00",
+    "timezone": "UTC",
+    "type": "single-session-user",
+    "kind": "public_positive",
+    "scale": 46,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c1c7c4c03a55cac4522db0a20",
+            "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life.",
+            "start": 5537,
+            "end": 5673,
+            "role": "user",
+            "received_at": "2023-05-29T04:01:00+00:00",
+            "source_sha256": "3f65ba196630e952dac030a2a8c4a11f576a40a8a3cba2cca74fa755792074ca"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "7 pm",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P20.json",
+    "official_question_id": "577d4d32",
+    "official_reference_sources": [
+      "c1c7c4c03a55cac4522db0a20"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P21",
+    "namespace": "q30acfca0c185_n100",
+    "original_case_id": "q30acfca0c185",
+    "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+    "known_at": "2022-08-20T21:47:00+00:00",
+    "timezone": "UTC",
+    "type": "temporal-reasoning",
+    "kind": "public_positive",
+    "scale": 54,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c5cb50c297191b2e566d454d2",
+            "quote": "My niece Emma just graduated yesterady",
+            "start": 66,
+            "end": 104,
+            "role": "user",
+            "received_at": "2022-05-28T11:17:00+00:00",
+            "source_sha256": "36ed90428dc89157b40d6da95477fca492cf00081f8d3c00c62d54ef3713adf8"
+          },
+          {
+            "source_id": "c5cb50c297191b2e566d454d2",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+            "start": 2524,
+            "end": 2593,
+            "role": "user",
+            "received_at": "2022-05-28T11:17:00+00:00",
+            "source_sha256": "36ed90428dc89157b40d6da95477fca492cf00081f8d3c00c62d54ef3713adf8"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "cd2a6842f7e4b75fe0461d1a1",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+            "start": 335,
+            "end": 420,
+            "role": "user",
+            "received_at": "2022-06-22T11:46:00+00:00",
+            "source_sha256": "42309e4cb99bca1ffe570c8f74f9700c66401830a8dd5e5529db40e2052ac45e"
+          }
+        ]
+      },
+      {
+        "id": "a3",
+        "witnesses": [
+          {
+            "source_id": "c967f69f5e97bb77d7922817a",
+            "quote": "my cousin Alex, who graduated with a degree in engineering from college about two weeks ago.",
+            "start": 42,
+            "end": 134,
+            "role": "user",
+            "received_at": "2022-07-15T10:48:00+00:00",
+            "source_sha256": "cfe77132e494b35544cf0aef9e635fe5997bcbdbf22e318972fabf3fb147c8f7"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "Emma graduated first, followed by Rachel and then Alex.",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "interpretation_risk": "Emma exact day internally inconsistent; both statements still precede Rachel and Alex. Evaluate ordering sources, not exact Emma date.",
+    "corpus_file": "data/corpora/P21.json",
+    "official_question_id": "gpt4_7ca326fa",
+    "official_reference_sources": [
+      "c5cb50c297191b2e566d454d2",
+      "cd2a6842f7e4b75fe0461d1a1",
+      "c967f69f5e97bb77d7922817a"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P22",
+    "namespace": "q9da3cb704a40_n100",
+    "original_case_id": "q9da3cb704a40",
+    "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+    "known_at": "2023-05-06T09:18:00+00:00",
+    "timezone": "UTC",
+    "type": "temporal-reasoning",
+    "kind": "public_positive",
+    "scale": 45,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c8ff57a2de289275b2c691222",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+            "start": 131,
+            "end": 222,
+            "role": "user",
+            "received_at": "2023-04-16T02:19:00+00:00",
+            "source_sha256": "29d02aee66028ddfaa2eecd4211aa39db34919b1bf3561368fb2ea2c2a8286a6"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "3 weeks ago",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "interpretation_risk": "User says just downloaded Ibotta, not explicit first-use timestamp; report source retrieval separately from exact start-use inference.",
+    "corpus_file": "data/corpora/P22.json",
+    "official_question_id": "gpt4_e072b769",
+    "official_reference_sources": [
+      "c8ff57a2de289275b2c691222"
+    ],
+    "answer_ambiguity": true
+  },
+  {
+    "id": "P23",
+    "namespace": "qe06542b93e3c_n100",
+    "original_case_id": "qe06542b93e3c",
+    "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+    "known_at": "2023-03-26T15:53:00+00:00",
+    "timezone": "UTC",
+    "type": "temporal-reasoning",
+    "kind": "public_positive",
+    "scale": 47,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c13c5edb0fd463a670b2d0d3f",
+            "quote": "I repot the previous spider plant today",
+            "start": 146,
+            "end": 185,
+            "role": "user",
+            "received_at": "2023-03-04T12:05:00+00:00",
+            "source_sha256": "843f385377b65c1d2e7f0a7d1cbef15e404dfa91af494b6f9c111f3b779dd7a9"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "ca722cb830ce76b391e670726",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+            "start": 11108,
+            "end": 11183,
+            "role": "user",
+            "received_at": "2023-03-18T08:49:00+00:00",
+            "source_sha256": "ab8793aa78da55273414d1c32b8778b917e3591f60b2a0d33529e535bc6fc201"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "14 days. 15 days (including the last day) is also acceptable.",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P23.json",
+    "official_question_id": "gpt4_8e165409",
+    "official_reference_sources": [
+      "c13c5edb0fd463a670b2d0d3f",
+      "ca722cb830ce76b391e670726"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P24",
+    "namespace": "q697fab353d9d_n100",
+    "original_case_id": "q697fab353d9d",
+    "question": "How many days ago did I attend a networking event?",
+    "known_at": "2022-04-04T21:03:00+00:00",
+    "timezone": "UTC",
+    "type": "temporal-reasoning",
+    "kind": "public_positive",
+    "scale": 47,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "c7440c7a3ee7bbb9db6cf5156",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+            "start": 160,
+            "end": 232,
+            "role": "user",
+            "received_at": "2022-03-09T12:08:00+00:00",
+            "source_sha256": "c30ee3d1ee1288697f453e38fb85a633651f269822a2739344bdcfd263739a1c"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "26 days. 27 days (including the last day) is also acceptable.",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P24.json",
+    "official_question_id": "8077ef71",
+    "official_reference_sources": [
+      "c7440c7a3ee7bbb9db6cf5156"
+    ],
+    "answer_ambiguity": false
+  },
+  {
+    "id": "P25",
+    "namespace": "qee671299f154_n100",
+    "original_case_id": "qee671299f154",
+    "question": "What time do I wake up on Tuesdays and Thursdays?",
+    "known_at": "2023-05-27T19:21:00+00:00",
+    "timezone": "UTC",
+    "type": "temporal-reasoning",
+    "kind": "public_positive",
+    "scale": 47,
+    "known_context": null,
+    "requirements": [
+      {
+        "id": "a1",
+        "witnesses": [
+          {
+            "source_id": "cfb475330aad6b2360694d630",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+            "start": 94,
+            "end": 199,
+            "role": "user",
+            "received_at": "2023-05-27T18:20:00+00:00",
+            "source_sha256": "6fca81466000a6898185220dbc0435fcd9eca45f16c95d501ea3366681b5ac9a"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "witnesses": [
+          {
+            "source_id": "c1093bf2c8cd861890c957c5c",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+            "start": 161,
+            "end": 275,
+            "role": "user",
+            "received_at": "2023-05-27T07:56:00+00:00",
+            "source_sha256": "9e4fc89947164a296bbdbaf66f891698d68582904925c7718da87e8f8b1c9218"
+          }
+        ]
+      }
+    ],
+    "unsupported_attributes": [],
+    "reference_answer_for_evaluation_only": "6:45 AM",
+    "scope_note": "Original authored causal history; question not previously natively retrieved in the stopped holdout run. Public data and some sources known from prequery audits/pilots, not guaranteed unseen facts.",
+    "corpus_file": "data/corpora/P25.json",
+    "official_question_id": "gpt4_2c50253f",
+    "official_reference_sources": [
+      "c1093bf2c8cd861890c957c5c",
+      "cfb475330aad6b2360694d630"
+    ],
+    "answer_ambiguity": true
+  }
+]

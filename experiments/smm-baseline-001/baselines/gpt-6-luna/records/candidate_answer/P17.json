@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P17",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "51f61766f7192ee600f03b3b6b918d14913a62ea61edb60bab5f865ac12e6ca9",
+  "output": {
+    "status": "answer",
+    "answer": "You said you caught 12 largemouth bass on your last trip to Lake Michigan.",
+    "claims": [
+      {
+        "claim": "The user reported catching 12 largemouth bass on their last Lake Michigan trip.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I caught 12 largemouth bass on my last trip there"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.295398,
+    "thread_setup_seconds": 0.101024,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.295398,
+    "turn_seconds": 5.194374,
+    "first_text_seconds": 4.444768,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 33773,
+      "completion_tokens": 95,
+      "total_tokens": 33868,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P17.json",
+  "raw_receipt_sha256": "c497df09cf812da5c9cbf52a85d66776400fcc51f5e790f0ad0ae477e6887091",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P17/answer.json"
+}

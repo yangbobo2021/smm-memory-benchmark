@@ -1,0 +1,116 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "5d6e43f8339edc46eba5002fc1ec45c361110aa67fd6e22d1d68c8b9385d828f",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes. The user stated that they had finished reading \"The Nightingale\" by Kristin Hannah and later confirmed it was a powerful, emotional read that they loved.",
+    "claims": [
+      {
+        "claim": "The user said they recently finished reading \"The Nightingale\" by Kristin Hannah.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah, which was amazing, by the way."
+          }
+        ]
+      },
+      {
+        "claim": "The user later confirmed they had finished reading it recently and found it powerful and emotional.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "By the way, I was thinking about \"The Nightingale\" by Kristin Hannah, which I finished reading recently. It was such a powerful and emotional read."
+          }
+        ]
+      },
+      {
+        "claim": "The user expressed that they loved the book and considered the ending a perfect conclusion.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I loved \"The Nightingale\"! Yes, the ending was emotional, but it was also a perfect conclusion to the story."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "56acc3dbd26d2fedbf4fd8e9532ef85ef44170becc75e4187923497812db0886",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 25352,
+      "completion_tokens": 677,
+      "total_tokens": 26029,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 433
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 25096
+    },
+    "response_id": "31229298-c01f-43f2-90bc-0f5cdf48537f",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 5.89909812505357
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah, which was amazing, by the way.",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "By the way, I was thinking about \"The Nightingale\" by Kristin Hannah, which I finished reading recently. It was such a powerful and emotional read.",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00007",
+        "quote": "I loved \"The Nightingale\"! Yes, the ending was emotional, but it was also a perfect conclusion to the story.",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P01.json",
+  "raw_response_sha256": "e40bca1f69ef64ea8a2d032b5ec36c274f6b622e60189997d25c37e84ad9bca3"
+}

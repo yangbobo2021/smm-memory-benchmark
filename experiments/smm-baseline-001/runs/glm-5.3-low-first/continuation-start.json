@@ -1,0 +1,268 @@
+{
+  "original_completion": {
+    "status": "failed",
+    "calls": 16,
+    "intended_calls": 75,
+    "transport_closed": true,
+    "finished_at": 1792979280.547322,
+    "no_retries": true
+  },
+  "original_record_hashes": {
+    "records/candidate_answer/P01.json": "d8ad9b1fa03dd4ebd6bb7484a9ff3af6846e19caba35f3a00a599fd6b985db6a",
+    "records/candidate_answer/P05.json": "ef50ff73876176acce1e2957959f808270feb8a071fe3480db00b7e06428f18b",
+    "records/candidate_answer/P04.json": "3926275607082fd398a2c20d223243d1dffef39e27b3307cfb22cc6a97cb1953",
+    "records/candidate_answer/P03.json": "f4bf7b49129b236a8078cee1c4b8081ff06128b0e6f0f3747d5b295b61572ad9",
+    "records/candidate_answer/P02.json": "0c90ef9e15e5f608aff2f262c214ff557681764dc04e5250ee287349914bf50b",
+    "records/oracle_answer/P01.json": "54b28afb20acc66ec5526c0a120361943d5ffc89d5dbb9ae7320200fb6b93b25",
+    "records/oracle_answer/P06.json": "b123a2469172af1d29137825ff4df14a4cbd72cd37ae8ce3e9d323e53e2ed106",
+    "records/oracle_answer/P05.json": "69afd9e1ebfd127d267a121fe353c8a760b9c8c0903b619bd2a96449bb5f52e5",
+    "records/oracle_answer/P04.json": "2402c04d90f1168581fb704c73ec62ed777da179d964c4d7a85150768af25b53",
+    "records/oracle_answer/P03.json": "89d2013aa22ebe6040733f24ca990e5cb8e7c0e1fa0419d740bb7f98f50fa786",
+    "records/oracle_answer/P02.json": "4ff820085600b2d3976d8e6df8905a105ad840aca0b3e1cc9ad5952b645b6653",
+    "records/candidate_select/P01.json": "d4087feb65280b6ba8a89cad38872c3dcb63d1e854a4e6fdeb3ac230b26d1d4d",
+    "records/candidate_select/P05.json": "1b215deb736c26a2bbc5ade136507b81baa0bc75f55de0eca1568ff2953e5fbf",
+    "records/candidate_select/P04.json": "bd1dfcbdd2c2c4350f1a8acd9272a35091bf4249d399d56842c76a8654ed9686",
+    "records/candidate_select/P03.json": "a2e6951a8a9b12260199165a07204b66cf64b48ab3326e247fcdbb01a707d330",
+    "records/candidate_select/P02.json": "a9591daa4326bfe68f5a347bc31b1c3638d8b5ee5d49c8e6c0532d2212a4c15a"
+  },
+  "pending_pairs": [
+    {
+      "case_id": "P06",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P06",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P07",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P07",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P07",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P08",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P08",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P08",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P09",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P09",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P09",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P10",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P10",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P10",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P11",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P11",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P11",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P12",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P12",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P12",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P13",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P13",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P13",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P14",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P14",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P14",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P15",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P15",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P15",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P16",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P16",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P16",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P17",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P17",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P17",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P18",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P18",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P18",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P19",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P19",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P19",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P20",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P20",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P20",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P21",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P21",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P21",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P22",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P22",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P22",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P23",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P23",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P23",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P24",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P24",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P24",
+      "task": "candidate_answer"
+    },
+    {
+      "case_id": "P25",
+      "task": "oracle_answer"
+    },
+    {
+      "case_id": "P25",
+      "task": "candidate_select"
+    },
+    {
+      "case_id": "P25",
+      "task": "candidate_answer"
+    }
+  ],
+  "no_retries": true,
+  "started_at": 1792979397.981493
+}

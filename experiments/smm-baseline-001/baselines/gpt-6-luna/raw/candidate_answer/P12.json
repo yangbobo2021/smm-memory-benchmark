@@ -1,0 +1,66 @@
+{
+  "case_id": "P12",
+  "model": "gpt-6-luna",
+  "task": "answer",
+  "request_sha256": "e878cf39743336650bfb9b2f2c2f54d4330fe3c5296645aebe42c77fc81672dc",
+  "request_file_sha256": "9893d624e206552162cba299e584b6885e1311833844bf6458d6396f688689d0",
+  "output": {
+    "status": "answer",
+    "answer": "The show was “Doc Martin.” You said it had gone down and that only the last season was available.",
+    "claims": [
+      {
+        "claim": "The example show was “Doc Martin”; you said only its last season was available after it went down.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "\"doc martin\" show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.894563,
+    "thread_setup_seconds": 0.086937,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.894563,
+    "turn_seconds": 4.807626,
+    "first_text_seconds": 4.040926,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 33595,
+      "completion_tokens": 115,
+      "total_tokens": 33710,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "\"doc martin\" show went down after a while, and now we have access only to the last season.",
+        "original_source_id": "c50927ca385b93a348ac133cd",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 3355,
+        "end": 3445
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P17",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "ed632a5921416785c6d9d26b074937081a76bcc16ef3231a7ad273b6eac6e4ec",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You caught 12 largemouth bass on your last fishing trip to Lake Michigan.",
+    "claims": [
+      {
+        "claim": "The user caught 12 largemouth bass on their last trip to Lake Michigan (stated by the user directly).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I caught 12 largemouth bass on my last trip there, so you might want to consider targeting those as well."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "No evidence of any other Lake Michigan trip catch counts beyond the 12 largemouth bass on the user's last trip; the currently planned trip had not yet occurred as of the conversation."
+  },
+  "metrics": {
+    "seconds": 9.56942233396694,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 527,
+      "completion_tokens_details": {
+        "reasoning_tokens": 350
+      },
+      "prompt_tokens": 4251,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 4778
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I caught 12 largemouth bass on my last trip there, so you might want to consider targeting those as well.",
+        "valid": true,
+        "source_id": "c7597a97e2ced0ac9fccbba67",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T06:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

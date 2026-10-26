@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P02",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "e4030ad783d90cb99b197d277b74ad9c42184ce99cd62958b1e005a769807084",
+  "imported": false,
+  "output": {
+    "type": "json_object",
+    "status": "answer",
+    "answer": "20 dozen eggs, based on the most recent statement on 2023-03-15. An earlier statement on 2023-01-11 mentioned 30 dozen, so the amount changed over time.",
+    "claims": [
+      {
+        "claim": "On 2023-03-15, the user reported having 20 dozen eggs stocked in the refrigerator.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "we've got 20 dozen stocked up in the fridge right now"
+          }
+        ]
+      },
+      {
+        "claim": "Earlier, on 2023-01-11, the user had reported having 30 dozen eggs stocked in the fridge.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06",
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "85825726cddf09bdcf8f5354f5e74bb549528a78d90a8875830977f29067a8f1",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 19183,
+      "completion_tokens": 797,
+      "total_tokens": 19980,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 607
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 18927
+    },
+    "response_id": "3238a6c6-ab30-4f5e-beaa-cc52df75cfbd",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 6.073592291213572
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": false,
+    "errors": [
+      "$: unknown field type"
+    ],
+    "quote_valid": null,
+    "citations": []
+  },
+  "raw_response": "raw/candidate_answer/P02.json",
+  "raw_response_sha256": "802f1dc4976a4eab85c71b7bc37af032772c2022a14f82bbd57e1c7231d580b4"
+}

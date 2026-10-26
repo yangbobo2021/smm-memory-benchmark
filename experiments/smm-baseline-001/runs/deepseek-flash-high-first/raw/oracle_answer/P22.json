@@ -1,0 +1,22 @@
+{
+  "id": "7515dc7a-7cd6-4e2e-a6fd-8f6947057f44",
+  "model": "deepseek-flash",
+  "created": 1792983128,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"partial\",\"answer\":\"About 3 weeks ago (roughly 20 days before 2023-05-06). On 2023-04-16 you said you had \\\"just downloaded\\\" Ibotta, so your start of use was around that date; the exact day you began using it is not stated.\",\"claims\":[{\"claim\":\"On 2023-04-16 the user said they had just downloaded Ibotta, a cashback app for grocery rebates.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items\"}]},{\"claim\":\"That statement was received 2023-04-16, which is about 20 days (roughly 3 weeks) before the reference time of 2023-05-06.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I've just downloaded Ibotta\"}]},{\"claim\":\"The exact date the user began actively using the app is not stated, only that the download was recent as of 2023-04-16.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it.\"}]}],\"selected_sources\":[\"C01\"],\"missing\":\"No explicit statement of the precise date the user started using Ibotta; only a 'just downloaded' remark on 2023-04-16.\"}",
+  "usage": {
+    "prompt_tokens": 3708,
+    "completion_tokens": 804,
+    "total_tokens": 4512,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 471
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 3324
+  },
+  "refusal": null
+}

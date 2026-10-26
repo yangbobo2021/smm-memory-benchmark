@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "3b57fb3053b2a152331ac12474ba4e884287c9f1711ccb63b983e814a6268832",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit, per your own statement in a conversation on 2023-09-30.",
+    "claims": [
+      {
+        "claim": "The user stated they earned $420 at the Downtown Farmers Market on their most recent visit.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 50.8034847502131,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 321,
+      "completion_tokens_details": {
+        "reasoning_tokens": 208
+      },
+      "prompt_tokens": 15322,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 15643
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

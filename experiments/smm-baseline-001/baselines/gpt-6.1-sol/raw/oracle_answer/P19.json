@@ -1,0 +1,66 @@
+{
+  "case_id": "P19",
+  "model": "gpt-6.1-sol",
+  "request_sha256": "8bd414c125f3d82486704485c0cb99fb31fdad9304d3a477c74b9ec277f753b7",
+  "request_file_sha256": "90decec42f9ec5660d32c5c79f9fb8cdef208f22e75ba64266f68d5b87d10901",
+  "output": {
+    "status": "answer",
+    "answer": "You bought it from a sports store downtown.",
+    "claims": [
+      {
+        "claim": "You got your new tennis racket from a sports store downtown.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.695014,
+    "thread_setup_seconds": 0.074205,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.695014,
+    "turn_seconds": 5.62081,
+    "first_text_seconds": 4.996946,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14279,
+      "completion_tokens": 89,
+      "total_tokens": 14368,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown.",
+        "original_source_id": "cdfeb5d9b5297a62fd0054af3",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 3239,
+        "end": 3324
+      }
+    ]
+  }
+}

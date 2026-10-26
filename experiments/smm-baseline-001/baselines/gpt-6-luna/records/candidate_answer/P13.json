@@ -1,0 +1,61 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+  "output": {
+    "status": "answer",
+    "answer": "The prior chat said the Chiefs played the Jaguars at Arrowhead Stadium 12 times (regular-season games only).",
+    "claims": [
+      {
+        "claim": "The prior chat stated that 12 Chiefs–Jaguars games were played at Arrowhead Stadium, based on regular-season games only.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "12 games were played at Arrowhead Stadium in Kansas City, Missouri"
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "These statistics are based on regular season games only, not including playoffs games."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.101475,
+    "thread_setup_seconds": 0.086681,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.101475,
+    "turn_seconds": 5.014795,
+    "first_text_seconds": 3.9132,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 30297,
+      "completion_tokens": 139,
+      "total_tokens": 30436,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P13.json",
+  "raw_receipt_sha256": "111a2c76140036731c965cd435508adce7b5bfcd782c5587f7b51321fe213e1a",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P13/answer.json"
+}

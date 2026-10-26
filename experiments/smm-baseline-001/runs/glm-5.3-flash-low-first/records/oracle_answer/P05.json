@@ -1,0 +1,89 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P05",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "b990f00d81be44055946bf9d2cba3170253adec0aa71a9be6e1ba8bbb8eeb1c5",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "根据你最近的记录，截至2023-06-17你在抽象海洋雕塑上花了大约10-12小时（E00002）。更早的2023-06-11你曾说约5-6小时（E00001），之后未再有更新。",
+    "claims": [
+      {
+        "claim": "用户在2023-06-17表示已花10-12小时",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've already put in 10-12 hours, and it's still a work in progress"
+          }
+        ]
+      },
+      {
+        "claim": "更早在2023-06-11为约5-6小时",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've spent around 5-6 hours on it so far"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "参考时间2023-06-18当天无新记录，最终确切小时数无法确定。"
+  },
+  "metrics": {
+    "seconds": 7.311343250097707,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 217,
+      "completion_tokens_details": {
+        "reasoning_tokens": 20
+      },
+      "prompt_tokens": 8389,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 8606
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I've already put in 10-12 hours, and it's still a work in progress",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "I've spent around 5-6 hours on it so far",
+        "valid": true,
+        "source_id": "ca1d9de8e9c37808891cece4b",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-11T03:51:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

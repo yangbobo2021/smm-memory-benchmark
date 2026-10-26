@@ -1,0 +1,93 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "20e52c54bb51cb2953f5f4ae83b85f8e167e5d5f6c0a96136115b329b7c8dd16",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "As of the latest evidence (July 15, 2023), you have finished five issues of National Geographic. Earlier, on April 20, 2023, you had finished three and were on your fourth, but the later statement updates that count.",
+    "claims": [
+      {
+        "claim": "As of April 2023, three issues finished, fourth in progress",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I just finished my third issue, and I'm currently on my fourth."
+          }
+        ]
+      },
+      {
+        "claim": "As of July 2023, five issues finished",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've finished five issues so far and they've all had great articles on the region."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C01",
+      "C02"
+    ],
+    "missing": "Whether any further issues were finished between 2023-07-15 and 2023-08-14 cannot be determined."
+  },
+  "metrics": {
+    "seconds": 7.213524749968201,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 213,
+      "completion_tokens_details": {
+        "reasoning_tokens": 11
+      },
+      "prompt_tokens": 5962,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 6175
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [
+      "duplicate selected source"
+    ],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I just finished my third issue, and I'm currently on my fourth.",
+        "valid": true,
+        "source_id": "cd244fcacffe13caffeb31e69",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-20T21:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've finished five issues so far and they've all had great articles on the region.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

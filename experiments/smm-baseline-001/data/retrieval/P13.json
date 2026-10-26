@@ -1,0 +1,640 @@
+{
+  "case_id": "P13",
+  "product": "smm",
+  "namespace": "qeeee92a80cc7_n100",
+  "query": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+  "clock": "2023-05-30T23:21:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "cacc96cddded0941e918b8c86",
+          "score": 29.796745578097134
+        },
+        {
+          "source_id": "c039a38942fd9c3f8fe96dc6d",
+          "score": 8.60631184192029
+        },
+        {
+          "source_id": "c01b676ad4a9ea4fa19a9c780",
+          "score": 7.550127905646997
+        },
+        {
+          "source_id": "c546977571984296ae22d6c98",
+          "score": 7.138535584480707
+        },
+        {
+          "source_id": "c6b40248060d9a0a8225d58fc",
+          "score": 6.018065430928484
+        },
+        {
+          "source_id": "c23e5b7c2dccba347f70d42cf",
+          "score": 5.501986328387982
+        },
+        {
+          "source_id": "c6fe7727426be29d3414e6c11",
+          "score": 5.350034623432906
+        },
+        {
+          "source_id": "cb5eb2564c43c24b4f6063009",
+          "score": 5.130272013776586
+        },
+        {
+          "source_id": "c0dc187928b3948a19fd3b829",
+          "score": 4.315041649096416
+        },
+        {
+          "source_id": "ca61d3354af9d90f3b094224c",
+          "score": 4.2837771802040745
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "cacc96cddded0941e918b8c86",
+          "score": 0.7207725393827662
+        },
+        {
+          "source_id": "c6b40248060d9a0a8225d58fc",
+          "score": 0.16520029582783013
+        },
+        {
+          "source_id": "ca61d3354af9d90f3b094224c",
+          "score": 0.1474901070731135
+        },
+        {
+          "source_id": "c40de504fcd24652f6d9bf614",
+          "score": 0.14493192631781562
+        },
+        {
+          "source_id": "cdbf968aec3b65848453db108",
+          "score": 0.14305252193345325
+        },
+        {
+          "source_id": "c97cfe0636e00e627e6ce0936",
+          "score": 0.1377538052282436
+        },
+        {
+          "source_id": "cf9a509616bbd94c3ccf669d1",
+          "score": 0.13410654111391657
+        },
+        {
+          "source_id": "c1f0b0d55f751e11b54266930",
+          "score": 0.12105412582613088
+        },
+        {
+          "source_id": "c3cf31eeddc78e4515f39f319",
+          "score": 0.09843248282765621
+        },
+        {
+          "source_id": "cdc5476f96335d5440294a3ed",
+          "score": 0.07830431007537181
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:cacc96cddded0941e918b8c86-c0003",
+        "source_ids": [
+          "cacc96cddded0941e918b8c86"
+        ],
+        "hint": "\n\nASSISTANT:\nOf the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs. The remaining 11 games were played at TIAA Bank Field, Jacksonville, Florida, which is the home stadium of the Jacksonville Jaguars.\nIt is worth mentioning that these statistics are ",
+        "kind": "bm25-original-match-index",
+        "score": 29.796745578097134,
+        "metadata": {
+          "source_id": "cacc96cddded0941e918b8c86",
+          "score": 29.796745578097134,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "cacc96cddded0941e918b8c86-c0003",
+          "start": 3419,
+          "end": 3819,
+          "source_sha256": "bb225f2ebc5185c8f537ea687b35b41173ea1111d98ff0984a1566007dcb9100"
+        }
+      },
+      {
+        "item_id": "vector:cacc96cddded0941e918b8c86-c0003",
+        "source_ids": [
+          "cacc96cddded0941e918b8c86"
+        ],
+        "hint": "\n\nASSISTANT:\nOf the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs. The remaining 11 games were played at TIAA Bank Field, Jacksonville, Florida, which is the home stadium of the Jacksonville Jaguars.\nIt is worth mentioning that these statistics are ",
+        "kind": "vector-original-match-index",
+        "score": 0.7207725393827662,
+        "metadata": {
+          "source_id": "cacc96cddded0941e918b8c86",
+          "score": 0.7207725393827662,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "cacc96cddded0941e918b8c86-c0003",
+          "start": 3419,
+          "end": 3819,
+          "source_sha256": "bb225f2ebc5185c8f537ea687b35b41173ea1111d98ff0984a1566007dcb9100"
+        }
+      },
+      {
+        "item_id": "bm25:c039a38942fd9c3f8fe96dc6d-c0008",
+        "source_ids": [
+          "c039a38942fd9c3f8fe96dc6d"
+        ],
+        "hint": "I hope this email finds you well.\n\nPerson 2: Hi! Yes, I'm doing well, thanks for asking. How can I help you today?\n\nPerson 1: I just wanted to touch base regarding the progress we've made on adapting the Teamwork platform to meet 7Ave's workflows and processes.\n\nPerson 2: Sure thing! I've been working closely with the 7Ave team to gather information on their workflows, processes, and preferences. ",
+        "kind": "bm25-original-match-index",
+        "score": 8.60631184192029,
+        "metadata": {
+          "source_id": "c039a38942fd9c3f8fe96dc6d",
+          "score": 8.60631184192029,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "c039a38942fd9c3f8fe96dc6d-c0008",
+          "start": 8594,
+          "end": 8994,
+          "source_sha256": "808886c6e1bc1cb797d6ee1c2e04021b51e9b7330e57070887daae879d5f7eb7"
+        }
+      },
+      {
+        "item_id": "vector:c6b40248060d9a0a8225d58fc-c0002",
+        "source_ids": [
+          "c6b40248060d9a0a8225d58fc"
+        ],
+        "hint": "ity's requirements.\n\nIt's essential to check with the obedience training school or facility you're interested in enrolling Max in to confirm their specific vaccination requirements. They may have additional requirements or more stringent guidelines.\n\nBefore enrolling Max, be sure to provide the following documents:\n\n* A copy of Max's vaccination records, including the dates of vaccination and expi",
+        "kind": "vector-original-match-index",
+        "score": 0.16520029582783013,
+        "metadata": {
+          "source_id": "c6b40248060d9a0a8225d58fc",
+          "score": 0.16520029582783013,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "c6b40248060d9a0a8225d58fc-c0002",
+          "start": 1315,
+          "end": 1715,
+          "source_sha256": "e3486af7e1ede95c978d4452c81afc321bf357e4a3dc9dda282f9c2cb08a7b64"
+        }
+      },
+      {
+        "item_id": "bm25:c01b676ad4a9ea4fa19a9c780-c0016",
+        "source_ids": [
+          "c01b676ad4a9ea4fa19a9c780"
+        ],
+        "hint": "o repay you.\"\n\nNezha smiles. \"You don't need to repay me. I did what I did because it was the right thing to do.\"\n\nPigsy nods, still looking a bit overwhelmed. \"I understand. Thank you again.\"\n\nMK looks up at Nezha, his eyes shining. \"Thank you for bringing me home,\" he says.\n\nNezha ruffles MK's hair affectionately. \"Of course. Take care of yourself, okay?\"\n\nWith that, Nezha steps back into his ch",
+        "kind": "bm25-original-match-index",
+        "score": 7.550127905646997,
+        "metadata": {
+          "source_id": "c01b676ad4a9ea4fa19a9c780",
+          "score": 7.550127905646997,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "c01b676ad4a9ea4fa19a9c780-c0016",
+          "start": 9269,
+          "end": 9669,
+          "source_sha256": "d3688d0fb325e5ee444254a712542edd1e9cfff4ea786e47d69db1911e34f6fa"
+        }
+      },
+      {
+        "item_id": "vector:ca61d3354af9d90f3b094224c-c0014",
+        "source_ids": [
+          "ca61d3354af9d90f3b094224c"
+        ],
+        "hint": "\n\nUSER:\nI'm super excited for the concert! I'm going to see my favorite artist, and I've been listening to their music nonstop. I've been a fan for years, and I can't wait to see them perform live.\n\nASSISTANT:\nThat's amazing! It's always thrilling to see your favorite artist perform live! The energy of the concert, the excitement of the crowd, and the opportunity to sing along to your favorite son",
+        "kind": "vector-original-match-index",
+        "score": 0.1474901070731135,
+        "metadata": {
+          "source_id": "ca61d3354af9d90f3b094224c",
+          "score": 0.1474901070731135,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "ca61d3354af9d90f3b094224c-c0014",
+          "start": 9712,
+          "end": 10112,
+          "source_sha256": "6dd5e570f4f4bff597c29a7de2783030041ba29668230a8e60c77f0f2bb84dbb"
+        }
+      },
+      {
+        "item_id": "bm25:c546977571984296ae22d6c98-c0006",
+        "source_ids": [
+          "c546977571984296ae22d6c98"
+        ],
+        "hint": "rite slang word ‘hoke’ has an Ulster Scots origin. It’s fair to say that a discussion on Northern Irish slang cannot be done without looking at Ulster Scots and its continued impact.\n“Often there’s not a lot of prestige placed on something like Ulster Scots because there is a perception that it’s bad language, or it doesn’t have a sense of value behind it,” says Dr Ferguson.\n“But on one hand, you ",
+        "kind": "bm25-original-match-index",
+        "score": 7.138535584480707,
+        "metadata": {
+          "source_id": "c546977571984296ae22d6c98",
+          "score": 7.138535584480707,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c546977571984296ae22d6c98-c0006",
+          "start": 6054,
+          "end": 6454,
+          "source_sha256": "a05a02314554961077b2570f5b4664ba1a025751802def6f90c47de1a521bdd2"
+        }
+      },
+      {
+        "item_id": "vector:c40de504fcd24652f6d9bf614-c0008",
+        "source_ids": [
+          "c40de504fcd24652f6d9bf614"
+        ],
+        "hint": "\n\nUSER:\nI will have to look these up and find those URLs. I had hoped that you would also provide links to their websites and landing pages from which you reference",
+        "kind": "vector-original-match-index",
+        "score": 0.14493192631781562,
+        "metadata": {
+          "source_id": "c40de504fcd24652f6d9bf614",
+          "score": 0.14493192631781562,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c40de504fcd24652f6d9bf614-c0008",
+          "start": 5077,
+          "end": 5241,
+          "source_sha256": "0123f8919a097eab735f0cd184dd18b912a141e54826cb0f04271dfd627f5a42"
+        }
+      },
+      {
+        "item_id": "bm25:c6b40248060d9a0a8225d58fc-c0011",
+        "source_ids": [
+          "c6b40248060d9a0a8225d58fc"
+        ],
+        "hint": "ection of pet bowl brushes and other pet supplies.\n\nIf you're short on time or prefer to shop online, you can order a pet bowl brush and have it delivered to your doorstep. Just make sure to check the shipping times and reviews before making a purchase.\n\nRemember, it's always a good idea to call ahead and confirm that the store carries pet bowl brushes before making a special trip. Happy shopping!",
+        "kind": "bm25-original-match-index",
+        "score": 6.018065430928484,
+        "metadata": {
+          "source_id": "c6b40248060d9a0a8225d58fc",
+          "score": 6.018065430928484,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "c6b40248060d9a0a8225d58fc-c0011",
+          "start": 7298,
+          "end": 7698,
+          "source_sha256": "e3486af7e1ede95c978d4452c81afc321bf357e4a3dc9dda282f9c2cb08a7b64"
+        }
+      },
+      {
+        "item_id": "vector:cdbf968aec3b65848453db108-c0018",
+        "source_ids": [
+          "cdbf968aec3b65848453db108"
+        ],
+        "hint": "\n\nUSER:\nI'm excited to start taking photos with my new camera. By the way, I recently received a signed football by Aaron Rodgers and displayed it in a glass case in my man cave. Do you think I could take some great photos of it using my new camera?",
+        "kind": "vector-original-match-index",
+        "score": 0.14305252193345325,
+        "metadata": {
+          "source_id": "cdbf968aec3b65848453db108",
+          "score": 0.14305252193345325,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "cdbf968aec3b65848453db108-c0018",
+          "start": 12284,
+          "end": 12533,
+          "source_sha256": "d11e0556d10221839457d3c52a2b256b3ebdf885a1a854393fefb347619a0047"
+        }
+      },
+      {
+        "item_id": "bm25:c23e5b7c2dccba347f70d42cf-c0008",
+        "source_ids": [
+          "c23e5b7c2dccba347f70d42cf"
+        ],
+        "hint": "ere the fuck I am, how I am supposed to know which office to go to?” - Overwhelmed\n“Can’t they simple point what the most suitable location for me?” - Overwhelmed\n“There was a button saying confirm, and I thought I was done, suddenly there was more asked from me. It felt like a lot for a form.” - Overwhelmed \n“I rather do it online than in person, but while drinking some coffee, because of a long ",
+        "kind": "bm25-original-match-index",
+        "score": 5.501986328387982,
+        "metadata": {
+          "source_id": "c23e5b7c2dccba347f70d42cf",
+          "score": 5.501986328387982,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "c23e5b7c2dccba347f70d42cf-c0008",
+          "start": 8289,
+          "end": 8689,
+          "source_sha256": "70ce5b3a3b89b173124dbdc79f67f8eaaaf927650362b29621ef0c558723f2ba"
+        }
+      },
+      {
+        "item_id": "vector:c97cfe0636e00e627e6ce0936-c0008",
+        "source_ids": [
+          "c97cfe0636e00e627e6ce0936"
+        ],
+        "hint": "Denzel Curry - Florida-based rapper who incorporates elements of punk rock and electronic music into his rap.\n\n5. Earl Sweatshirt - California-based rapper known for his introspective lyrics and experimental production style.\n\nI hope these recommendations help you find some new and exciting music to explore!",
+        "kind": "vector-original-match-index",
+        "score": 0.1377538052282436,
+        "metadata": {
+          "source_id": "c97cfe0636e00e627e6ce0936",
+          "score": 0.1377538052282436,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "c97cfe0636e00e627e6ce0936-c0008",
+          "start": 5091,
+          "end": 5400,
+          "source_sha256": "f193cf13a679705cbde88905a9046755aafe44e3594faf514145bb144a9161d8"
+        }
+      },
+      {
+        "item_id": "bm25:c6fe7727426be29d3414e6c11-c0009",
+        "source_ids": [
+          "c6fe7727426be29d3414e6c11"
+        ],
+        "hint": "lationship, such as the place where you first met, had your first date, or got engaged.\n\n**Experience-Based Ideas:**\n\n1. **Revisit your first date**: Recreate your first date, whether it was a dinner at a specific restaurant, a walk in the park, or a movie night.\n2. **Weekend getaway**: Plan a surprise weekend getaway to a place you both love or have always wanted to visit.\n3. **Sunrise or sunset ",
+        "kind": "bm25-original-match-index",
+        "score": 5.350034623432906,
+        "metadata": {
+          "source_id": "c6fe7727426be29d3414e6c11",
+          "score": 5.350034623432906,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c6fe7727426be29d3414e6c11-c0009",
+          "start": 6028,
+          "end": 6428,
+          "source_sha256": "85fac294143fbb821e7a89a446f963c3eab29971edac3d80160c34053935babe"
+        }
+      },
+      {
+        "item_id": "vector:cf9a509616bbd94c3ccf669d1-c0009",
+        "source_ids": [
+          "cf9a509616bbd94c3ccf669d1"
+        ],
+        "hint": "basement flooding by ensuring the sump pump is working properly,Sump pump malfunction or failure,8,\"1. Unplug the sump pump and remove it from the pit.\n2. Clean the pump and pit of any debris or sediment.\n\n1. Check that the check valve is working properly.\n2. Test the pump by pouring water into the pit and ensuring it pumps out the water properly.\n3. Consider hiring a professional plumber to inspe",
+        "kind": "vector-original-match-index",
+        "score": 0.13410654111391657,
+        "metadata": {
+          "source_id": "cf9a509616bbd94c3ccf669d1",
+          "score": 0.13410654111391657,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "cf9a509616bbd94c3ccf669d1-c0009",
+          "start": 7817,
+          "end": 8217,
+          "source_sha256": "c343e57869a07b2944f261d43bf0328741ca7d2923a085c91e9f73bb3b1c90c7"
+        }
+      },
+      {
+        "item_id": "bm25:cb5eb2564c43c24b4f6063009-c0008",
+        "source_ids": [
+          "cb5eb2564c43c24b4f6063009"
+        ],
+        "hint": "y shipping and make conscious choices when making purchases. It's great to see companies doing their part, but we all have a role to play in reducing our carbon footprint.\n\nASSISTANT:\nI completely agree with you. consumers can play an important role in reducing carbon emissions caused by shipping by making conscious choices when making purchases. for example, consumers can choose products that are",
+        "kind": "bm25-original-match-index",
+        "score": 5.130272013776586,
+        "metadata": {
+          "source_id": "cb5eb2564c43c24b4f6063009",
+          "score": 5.130272013776586,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "cb5eb2564c43c24b4f6063009-c0008",
+          "start": 4813,
+          "end": 5213,
+          "source_sha256": "f04c3cc2e68b6ac3fe937520621ef0a39ef6e3c24ab902083a15a48a786095ba"
+        }
+      },
+      {
+        "item_id": "vector:c1f0b0d55f751e11b54266930-c0016",
+        "source_ids": [
+          "c1f0b0d55f751e11b54266930"
+        ],
+        "hint": "sure to check the shop hours, as they may vary depending on the season and day of the week.\n* Some shops may offer custom orders or commissions, so don't hesitate to ask if you have a specific idea in mind.\n* Keep in mind that some unique items might be one-of-a-kind, so don't wait too long to make a purchase if you see something you love!\n\nEnjoy your dinner at the Beartooth Café and your stroll a",
+        "kind": "vector-original-match-index",
+        "score": 0.12105412582613088,
+        "metadata": {
+          "source_id": "c1f0b0d55f751e11b54266930",
+          "score": 0.12105412582613088,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c1f0b0d55f751e11b54266930-c0016",
+          "start": 11584,
+          "end": 11984,
+          "source_sha256": "96c41f85e2f3cea0d5b9d2df13512b0e1189caa18c684fcaf5a193a6acec80a2"
+        }
+      },
+      {
+        "item_id": "bm25:c0dc187928b3948a19fd3b829-c0003",
+        "source_ids": [
+          "c0dc187928b3948a19fd3b829"
+        ],
+        "hint": "\n\nUSER:\nHow did the government play a role in Chennai's economic transformation, and how can other governments replicate this success?",
+        "kind": "bm25-original-match-index",
+        "score": 4.315041649096416,
+        "metadata": {
+          "source_id": "c0dc187928b3948a19fd3b829",
+          "score": 4.315041649096416,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c0dc187928b3948a19fd3b829-c0003",
+          "start": 2320,
+          "end": 2454,
+          "source_sha256": "628fa898a7edea3e7953369d70e9a274ceeb2ea42b89574d28c50fdb4f2a112b"
+        }
+      },
+      {
+        "item_id": "vector:c3cf31eeddc78e4515f39f319-c0002",
+        "source_ids": [
+          "c3cf31eeddc78e4515f39f319"
+        ],
+        "hint": "the decision to switch to Mondays depends on your individual circumstances and preferences. If you're feeling motivated and think you can make it work, go for it! However, if you're unsure or have concerns, you might want to stick with your current Sunday routine or experiment with a different day that works better for you.\n\nBy the way, congratulations on completing three sets on the leg press mac",
+        "kind": "vector-original-match-index",
+        "score": 0.09843248282765621,
+        "metadata": {
+          "source_id": "c3cf31eeddc78e4515f39f319",
+          "score": 0.09843248282765621,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "c3cf31eeddc78e4515f39f319-c0002",
+          "start": 1358,
+          "end": 1758,
+          "source_sha256": "2afe07a4ab62d765bf52f1c7754aaea98f4c5b7e93c9c38bd294f20e89ceeef9"
+        }
+      },
+      {
+        "item_id": "bm25:ca61d3354af9d90f3b094224c-c0005",
+        "source_ids": [
+          "ca61d3354af9d90f3b094224c"
+        ],
+        "hint": "'re looking for a truly unique, handmade, or customized item. You'll find many sellers offering bespoke products, including monogrammed necklaces and customized phone cases. Use the \"Personalized\" or \"Custom Order\" filters to find relevant listings. Be sure to check the seller's reviews, shipping times, and policies before making a purchase.\n\nIf you want a more unique, handmade, or customized item",
+        "kind": "bm25-original-match-index",
+        "score": 4.2837771802040745,
+        "metadata": {
+          "source_id": "ca61d3354af9d90f3b094224c",
+          "score": 4.2837771802040745,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "ca61d3354af9d90f3b094224c-c0005",
+          "start": 3178,
+          "end": 3578,
+          "source_sha256": "6dd5e570f4f4bff597c29a7de2783030041ba29668230a8e60c77f0f2bb84dbb"
+        }
+      },
+      {
+        "item_id": "vector:cdc5476f96335d5440294a3ed-c0007",
+        "source_ids": [
+          "cdc5476f96335d5440294a3ed"
+        ],
+        "hint": "ou enjoy watching TV, you can integrate exercise into it by doing simple workouts during commercial breaks or using an exercise machine, such as a stationary bike or treadmill, while you watch your favorite show. There are also many fitness apps and online videos available that offer home workout routines that you can follow while watching TV to help make your workout more enjoyable and effective.",
+        "kind": "vector-original-match-index",
+        "score": 0.07830431007537181,
+        "metadata": {
+          "source_id": "cdc5476f96335d5440294a3ed",
+          "score": 0.07830431007537181,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "cdc5476f96335d5440294a3ed-c0007",
+          "start": 7070,
+          "end": 7470,
+          "source_sha256": "23d26dd4c5201b926e561d5326f42459159bcf8d11cabcb8954d63b682d81f06"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "cacc96cddded0941e918b8c86",
+    "c039a38942fd9c3f8fe96dc6d",
+    "c01b676ad4a9ea4fa19a9c780",
+    "c546977571984296ae22d6c98",
+    "c6b40248060d9a0a8225d58fc",
+    "ca61d3354af9d90f3b094224c",
+    "c40de504fcd24652f6d9bf614",
+    "cdbf968aec3b65848453db108"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "cacc96cddded0941e918b8c86",
+      "source_date": "2023-05-28T04:27:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": " that these statistics are based on regular season games only, not including playoffs games.\n\nUSER:\nof those 12 games in kansas, how many did the chiefs win?\n\nASSISTANT:\nOf the 12 games that were played between the Kansas City Chiefs and the Jacksonville Jaguars at Arrowhead Stadium in Kansas City, Missouri, the Chiefs won 10 games, while the Jaguars won 2 games.\nPlease note that these statistics ",
+          "start": 3792,
+          "end": 4192
+        },
+        {
+          "role": "assistant",
+          "text": "information on team standings, playoffs results, Super Bowl Winners, individual and team records, coaches and players statistics and many more. What specific information would you like to know?\n\nUSER:\nhow many times have the chiefs played the jaguars?\n\nASSISTANT:\nThe Kansas City Chiefs and the Jacksonville Jaguars are two teams that are part of the American Football Conference (AFC) in the Nationa",
+          "start": 2544,
+          "end": 2944
+        }
+      ]
+    },
+    {
+      "source_id": "c039a38942fd9c3f8fe96dc6d",
+      "source_date": "2023-05-25T08:18:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nPerson 1: Hi there! I hope this email finds you well.\n\nPerson 2: Hi! Yes, I'm doing well, thanks for asking. How can I help you today?\n\nPerson 1: I just wanted to touch base regarding the progress we've made on adapting the Teamwork platform to meet 7Ave's workflows and processes.\n\nPerson 2: Sure thing! I've been working closely with the 7Ave team to gather information on their workfl",
+          "start": 8561,
+          "end": 8961
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\n\"Marketing Automation Progress Report: Teamwork Platform Adaptation\n\nOverview:\nWe are updating you on the progress we have made in adapting the Teamwork platform to meet your organization's preferred workflows and processes.\n\nKey highlights:\n\n* Progress on design of systems tailored to meet the unique needs of your business: 80%\n* Focus on prototyping system changes for creative teams",
+          "start": 10606,
+          "end": 11006
+        }
+      ]
+    },
+    {
+      "source_id": "c01b676ad4a9ea4fa19a9c780",
+      "source_date": "2023-05-22T17:30:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nNezha turned to MK, a kind smile on his face. \"What is it that you need, mortal? Whatever it is, just name it and it's yours.\"\n\nMK thought for a moment, looking down at his feet. He didn't really have anything he wanted except to go home to Pigsy. \"Can I go home?\" he asked quietly. \"To my friend, Pigsy?\"\n\nNezha's expression softened. \"Of course,\" he replied. \"I will take you to him.\"\n",
+          "start": 6110,
+          "end": 6510
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nWukong attacks the chariot midair. Let's write a scene based on that.",
+          "start": 1439,
+          "end": 1516
+        }
+      ]
+    },
+    {
+      "source_id": "c546977571984296ae22d6c98",
+      "source_date": "2023-05-25T03:46:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "will have a certain word for certain things and that’s a real strength. I think there’s a variety there and there’s a wonderful history to where those words came from. And even at times, I don’t think we’ve even grasped yet the opportunities that that has for who we are and what we can do and where we can go with that.”\nAgain, Ulster Scots is mentioned: a language so many of us use without even kn",
+          "start": 5549,
+          "end": 5949
+        },
+        {
+          "role": "user",
+          "text": "using things that are very unguarded in our speech.”\nThink too of Line of Duty’s Ted Hastings, who may be not living in Northern Ireland but ensures his team appreciate he didn’t come up the Lagan in a bubble.\nIn popular culture, like Gail, Dr Ferguson also references Lisa McGee’s Derry Girls that unashamedly used phrases and terminology from this place.\n“That really said something of the exceptio",
+          "start": 3694,
+          "end": 4094
+        }
+      ]
+    },
+    {
+      "source_id": "c6b40248060d9a0a8225d58fc",
+      "source_date": "2023-05-26T20:08:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "often carry a wide selection of pet bowl brushes and other pet supplies.\n\nIf you're short on time or prefer to shop online, you can order a pet bowl brush and have it delivered to your doorstep. Just make sure to check the shipping times and reviews before making a purchase.\n\nRemember, it's always a good idea to call ahead and confirm that the store carries pet bowl brushes before making a special",
+          "start": 7276,
+          "end": 7676
+        },
+        {
+          "role": "assistant",
+          "text": "PP vaccinations and has a record of the vaccination series.\n3. **Bordetella ( kennel cough)**: This vaccination is often required by training facilities to prevent the spread of kennel cough. It's typically administered every 6-12 months, depending on the facility's requirements.\n\nIt's essential to check with the obedience training school or facility you're interested in enrolling Max in to confir",
+          "start": 1054,
+          "end": 1454
+        }
+      ]
+    },
+    {
+      "source_id": "ca61d3354af9d90f3b094224c",
+      "source_date": "2023-05-26T18:24:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ore customization options\n\t+ Supporting small businesses and independent sellers\n\t+ Can find one-of-a-kind gifts\n* Cons:\n\t+ Shipping times may be longer (dependent on seller)\n\t+ Prices can be higher\n\t+ Quality control can vary between sellers\n\nEtsy is ideal if you're looking for a truly unique, handmade, or customized item. You'll find many sellers offering bespoke products, including monogrammed ",
+          "start": 2914,
+          "end": 3314
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nUSER:\nI'm super excited for the concert! I'm going to see my favorite artist, and I've been listening to their music nonstop. I've been a fan for years, and I can't wait to see them perform live.\n\nASSISTANT:\nThat's amazing! It's always thrilling to see your favorite artist perform live! The energy of the concert, the excitement of the crowd, and the opportunity to sing along to your favorite son",
+          "start": 9712,
+          "end": 10112
+        }
+      ]
+    },
+    {
+      "source_id": "c40de504fcd24652f6d9bf614",
+      "source_date": "2023-05-30T12:25:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "* The University of Michigan's Injury Prevention Center: This center offers resources on injury prevention and management, including information on first aid and triage for sports injuries.\n\nThese resources are all authoritative and trustworthy, and can provide valuable information to your readers. Just be sure to properly cite your sources and link back to the original websites.",
+          "start": 4695,
+          "end": 5077
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI will have to look these up and find those URLs. I had hoped that you would also provide links to their websites and landing pages from which you reference",
+          "start": 5077,
+          "end": 5241
+        }
+      ]
+    },
+    {
+      "source_id": "cdbf968aec3b65848453db108",
+      "source_date": "2023-05-21T12:43:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "Composition:**\n\n1. **Get up close and personal**: Fill the frame with the football and the glass case to create an intimate, detailed shot.\n2. **Play with angles**: Experiment with different angles, such as shooting from above, below, or at an angle, to add visual interest to your photos.\n3. **Use the glass case to your advantage**: Take advantage of the reflective surface of the glass case to cre",
+          "start": 13379,
+          "end": 13779
+        },
+        {
+          "role": "user",
+          "text": "\n\nUSER:\nI'm excited to start taking photos with my new camera. By the way, I recently received a signed football by Aaron Rodgers and displayed it in a glass case in my man cave. Do you think I could take some great photos of it using my new camera?",
+          "start": 12284,
+          "end": 12533
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.03902312507852912,
+    "native_search_seconds": 0.011648750165477395,
+    "common_spans_seconds": 0.007662833901122212
+  }
+}

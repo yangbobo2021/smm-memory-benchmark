@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P20",
+  "task": "oracle_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "1a4f9f31b21b346653ba0be8fed8eb0e1adbd880f8e98119af5ef4b600ef740d",
+  "output": {
+    "status": "answer",
+    "answer": "You stop checking work emails and messages by 7 pm.",
+    "claims": [
+      {
+        "claim": "You stop checking work emails and messages by 7 pm.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.964878,
+    "thread_setup_seconds": 0.077976,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.964878,
+    "turn_seconds": 4.886902,
+    "first_text_seconds": 4.162761,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 14061,
+      "completion_tokens": 101,
+      "total_tokens": 14162,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P20.json",
+  "raw_receipt_sha256": "9c8417745183672d97434e8703cb29ec5eb611e1359ba3d715ec4c1d7e128236",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6.1-sol/P20.json"
+}

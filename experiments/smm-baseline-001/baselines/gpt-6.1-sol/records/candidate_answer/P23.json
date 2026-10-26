@@ -1,0 +1,71 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "45bcd1fba700beac98ff5b486ec592c0570af899456cf54f9847d1610931d397",
+  "output": {
+    "status": "answer",
+    "answer": "14 days passed, from March 4 to March 18, 2023.",
+    "claims": [
+      {
+        "claim": "You repotted the previous spider plant on March 4, 2023.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "By the way, I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost."
+          }
+        ]
+      },
+      {
+        "claim": "You gave Mrs. Johnson spider plant cuttings on March 18, 2023, 14 days after repotting.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "By the way, I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "By the way, I repot the previous spider plant today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.089907,
+    "thread_setup_seconds": 0.081067,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.089907,
+    "turn_seconds": 7.00884,
+    "first_text_seconds": 4.855845,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 29253,
+      "completion_tokens": 205,
+      "total_tokens": 29458,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P23.json",
+  "raw_receipt_sha256": "e853374d62784a5a36136d67369626841e1bef653aa9864ce6271e37a6d6ded1",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P23/answer.json"
+}

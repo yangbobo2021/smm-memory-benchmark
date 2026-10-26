@@ -1,0 +1,73 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P15",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "14e926726baba9d2e920f3e8574307210b5a0e158d0b0e4b2a0f83f5f11d8c2a",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The hostel was **International Budget Hostel**.",
+    "claims": [
+      {
+        "claim": "The assistant recommended International Budget Hostel, describing it as near the Red Light District.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.562524,
+    "thread_setup_seconds": 0.078189,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.562524,
+    "turn_seconds": 4.484335,
+    "first_text_seconds": 3.898107,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "reasoning": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 10985,
+      "completion_tokens": 128,
+      "total_tokens": 11113,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 37
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District",
+        "valid": true,
+        "source_id": "c831c3cd021ba61a85c9aa466",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-27T06:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

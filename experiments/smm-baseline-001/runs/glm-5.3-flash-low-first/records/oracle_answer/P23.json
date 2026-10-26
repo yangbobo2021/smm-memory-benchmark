@@ -1,0 +1,93 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P23",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "b5e5e63d42989b64088a60e7a2fbf0b1f564cac8619d20924c1991902296aea4",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "14 days passed between the repotting (2023-03-04) and giving Mrs. Johnson the cuttings (2023-03-18).",
+    "claims": [
+      {
+        "claim": "The user repotted the spider plant on 2023-03-04 (received_at of C01): \"I repot the previous spider plant today\" — E00001, C01.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today"
+          }
+        ]
+      },
+      {
+        "claim": "The user gave Mrs. Johnson spider plant cuttings on 2023-03-18 (received_at of C02): \"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\" — E00002, C02.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          }
+        ]
+      },
+      {
+        "claim": "Difference between 2023-03-04 and 2023-03-18 is 14 days.",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ": []}"
+  },
+  "metrics": {
+    "seconds": 8.196634999942034,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 284,
+      "completion_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "prompt_tokens": 7202,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 7486
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I repot the previous spider plant today",
+        "valid": true,
+        "source_id": "c13c5edb0fd463a670b2d0d3f",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-04T12:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+        "valid": true,
+        "source_id": "ca722cb830ce76b391e670726",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-18T08:49:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

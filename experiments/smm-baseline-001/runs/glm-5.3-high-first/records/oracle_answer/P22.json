@@ -1,0 +1,88 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You started using (downloaded) Ibotta approximately 3 weeks ago — about 20 days before the reference time. The user stated in the conversation (received 2023-04-16T02:19:00Z) that they had 'just downloaded' Ibotta; from 2023-04-16 to the reference time 2023-05-06 is 20 days (2 weeks and 6 days), i.e., roughly 3 weeks.",
+    "claims": [
+      {
+        "claim": "The user began using Ibotta at the time of the observed conversation, stating they had just downloaded the app.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it."
+          }
+        ]
+      },
+      {
+        "claim": "The conversation containing this statement was received at 2023-04-16T02:19:00+00:00, and the reference time is 2023-05-06T09:18:00+00:00, a span of 20 days (~3 weeks).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "The exact wall-clock time of the user's statement within the conversation is not separately recorded; the calculation anchors it to the evidence received_at timestamp (2023-04-16T02:19:00Z). No explicit 'weeks ago' statement by the user exists, so the count is derived from these timestamps."
+  },
+  "metrics": {
+    "seconds": 32.17361820908263,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1965,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1536
+      },
+      "prompt_tokens": 3400,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 5365
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it.",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items, and I want to make sure I get the most out of it.",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

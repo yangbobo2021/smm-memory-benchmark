@@ -1,0 +1,5003 @@
+{
+  "experiment_id": "SMM-B001",
+  "run_id": "glm-5.3-flash-low-first",
+  "model": "glm-5.3-flash",
+  "backend": "chat",
+  "transport_profile": "chat-completions-system-wrapper-v1",
+  "review_file_sha256": "30a3989589f7e3da95e2819f39688e1f4e97eb0e91fe24d0874097718e0af629",
+  "effort": "low",
+  "full_suite": true,
+  "summary": {
+    "oracle_answer": {
+      "primary_correct": 23,
+      "primary_denominator": 23,
+      "review_complete": true,
+      "official_reference_match": 24,
+      "official_reference_denominator": 25,
+      "strict_supported_correct": 20,
+      "exact_quote_valid": 22,
+      "ambiguity_case_ids": [
+        "P22",
+        "P25"
+      ],
+      "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+      "median_model_seconds": 6.819238500436768,
+      "recorded": 25
+    },
+    "candidate_select": {
+      "primary_correct": 25,
+      "primary_denominator": 25,
+      "review_complete": true,
+      "registered_evidence_complete": 25,
+      "registered_evidence_atoms_selected": 36,
+      "registered_evidence_atoms_total": 36,
+      "selected_sources": 43,
+      "baseline_sources_selected": 43,
+      "baseline_sources_total": 43,
+      "all_baseline_sources_questions": 25,
+      "unrelated_selected": 0,
+      "pending_source_labels": 0,
+      "note": "Unrelated selected / selected outputs; never call this a whole-corpus FPR.",
+      "median_model_seconds": 4.200337209040299,
+      "recorded": 25
+    },
+    "candidate_answer": {
+      "primary_correct": 21,
+      "primary_denominator": 23,
+      "review_complete": true,
+      "official_reference_match": 23,
+      "official_reference_denominator": 25,
+      "strict_supported_correct": 19,
+      "exact_quote_valid": 22,
+      "ambiguity_case_ids": [
+        "P22",
+        "P25"
+      ],
+      "note": "Semantic review is required. A reference number, source ID, or valid quote alone is not correctness.",
+      "median_model_seconds": 8.537690666969866,
+      "recorded": 25
+    }
+  },
+  "rows": [
+    {
+      "task": "oracle_answer",
+      "case_id": "P01",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Yes — you finished reading 'The Nightingale' by Kristin Hannah. In the later conversation (C02, before the reference time), you stated: \"I also recently finished 'The Nightingale' by Kristin Hannah, which was amazing, by the way\" (E00002), and later reiterated: \"I was thinking about 'The Nightingale' by Kristin Hannah, which I finished reading recently\" (E00002). This is a change from the earlier conversation (C01, January 2023), where it was unfinished: \"I've been meaning to get back to 'The Nightingale'... which I put down temporarily because it was getting too emotional\" (E00001).",
+        "claims": [
+          {
+            "claim": "You finished 'The Nightingale' by Kristin Hannah recently",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I also recently finished 'The Nightingale' by Kristin Hannah, which was amazing, by the way"
+              },
+              {
+                "evidence_id": "E00002",
+                "quote": "The Nightingale' by Kristin Hannah, which I finished reading recently"
+              }
+            ]
+          },
+          {
+            "claim": "Earlier (January 2023) it was unfinished/put down",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I've been meaning to get back to 'The Nightingale' by Kristin Hannah, which I put down temporarily because it was getting too emotional"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": "none"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": false,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I also recently finished 'The Nightingale' by Kristin Hannah, which was amazing, by the way",
+            "valid": false,
+            "source_id": "c86c392fcf4351780ec72ccbe",
+            "possible_message_roles": [],
+            "source_date": "2023-03-30T01:14:00+00:00"
+          },
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "The Nightingale' by Kristin Hannah, which I finished reading recently",
+            "valid": false,
+            "source_id": "c86c392fcf4351780ec72ccbe",
+            "possible_message_roles": [],
+            "source_date": "2023-03-30T01:14:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "I've been meaning to get back to 'The Nightingale' by Kristin Hannah, which I put down temporarily because it was getting too emotional",
+            "valid": false,
+            "source_id": "c6cfd58034e25f4def8503729",
+            "possible_message_roles": [],
+            "source_date": "2023-01-21T15:05:00+00:00"
+          }
+        ],
+        "quote_errors": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I also recently finished 'The Nightingale' by Kristin Hannah, which was amazing, by the way",
+            "reason": "not an exact contiguous original quote"
+          },
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "The Nightingale' by Kristin Hannah, which I finished reading recently",
+            "reason": "not an exact contiguous original quote"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "I've been meaning to get back to 'The Nightingale' by Kristin Hannah, which I put down temporarily because it was getting too emotional",
+            "reason": "not an exact contiguous original quote"
+          }
+        ]
+      },
+      "seconds": 8.805299709085375,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P01",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "原文先暂停、后读完；答案与新状态正确。书名引号改写导致逐字引用失败，单列，不改原输出。",
+        "request_sha256": "d011b7215caa9127ef4e5122f8b3ea1f4ed46a62497e6ab291072f05ac5968b5",
+        "response_sha256": "b0902c9e0af6c91477cba2f054502ef4ef94810e90c56cec95df954c84958c17",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P02",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Based on the most recent evidence, you have 20 dozen eggs stocked in the refrigerator.",
+        "claims": [
+          {
+            "claim": "As of the 2023-03-15 conversation, the user stated they have 20 dozen eggs stocked up in the fridge",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "we've got 20 dozen stocked up in the fridge right now"
+              }
+            ]
+          },
+          {
+            "claim": "An earlier conversation (2023-01-11) mentioned 30 dozen eggs, but this is superseded by the more recent count",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": ": []}"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "we've got 20 dozen stocked up in the fridge right now",
+            "valid": true,
+            "source_id": "ca3586c9f696b9c5035ebf62c",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-15T08:18:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!",
+            "valid": true,
+            "source_id": "c4d5e76892eb66ee21cf151ae",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-01-11T23:15:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.258942375192419,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P02",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确采用三月20打，区分一月30打，最新记录回答成立。",
+        "request_sha256": "69a826f9482cf85a2dde7568445746705f10fed91060c4e7346b9144c3d27335",
+        "response_sha256": "e76a50920c0490574c1209501ffe101534408a22d8ec438635ff9e122785329d",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P03",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Based on the most recent statement (July 2023), you have finished 5 issues of National Geographic.",
+        "claims": [
+          {
+            "claim": "As of the July 2023 conversation, the user said they had finished five issues of National Geographic.",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I've finished five issues so far and they've all had great articles on the region."
+              },
+              {
+                "evidence_id": "E00002",
+                "quote": "I just finished my fifth issue."
+              }
+            ]
+          },
+          {
+            "claim": "Earlier (April 2023), the count was three finished with a fourth in progress, so the later update supersedes it.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I just finished my third issue, and I'm currently on my fourth."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": "Any issues finished after July 15, 2023 up to the reference time (2023-08-14) are unknown."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I've finished five issues so far and they've all had great articles on the region.",
+            "valid": true,
+            "source_id": "cab206cf9d24f3f891f2ce248",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-07-15T22:42:00+00:00"
+          },
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I just finished my fifth issue.",
+            "valid": true,
+            "source_id": "cab206cf9d24f3f891f2ce248",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-07-15T22:42:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "I just finished my third issue, and I'm currently on my fourth.",
+            "valid": true,
+            "source_id": "cd244fcacffe13caffeb31e69",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-04-20T21:08:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.835298541933298,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P03",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确采用七月5期，区分早先3期，未将可能后续变化当作漏答。",
+        "request_sha256": "20e52c54bb51cb2953f5f4ae83b85f8e167e5d5f6c0a96136115b329b7c8dd16",
+        "response_sha256": "ff1a9e029f36f78bf112b3d398b2ae272aa076d22dee0ebd84648453c412b238",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P04",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit.",
+        "claims": [
+          {
+            "claim": "User earned $420 at the Downtown Farmers Market on their most recent visit, stated 2023-09-30 (after the earlier C01 records of $220 on March 18 and $350 on May 6).",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit."
+              },
+              {
+                "evidence_id": "E00001",
+                "quote": "May 6th, Downtown Farmers Market, $350"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": "The exact date of the most recent visit is not stated in the evidence."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit.",
+            "valid": true,
+            "source_id": "c61dc060a2ddb252dd1eef054",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-09-30T15:13:00+00:00"
+          },
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "May 6th, Downtown Farmers Market, $350",
+            "valid": true,
+            "source_id": "ca194573bab838bc02a805cf8",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-04-11T00:10:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.645470916992053,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P04",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "最新收入420美元正确，有直接原文支持；不要求旧收入来源全部选中。",
+        "request_sha256": "514d998be7fd5ef8241468ffe25b8cb3807f76cb153e604cdb9c5ad013f28050",
+        "response_sha256": "bb75cd3d5b03c698579447350cfbae1558e7e84a879023be83dc36be5d808c6d",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P05",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "partial",
+        "answer": "根据你最近的记录，截至2023-06-17你在抽象海洋雕塑上花了大约10-12小时（E00002）。更早的2023-06-11你曾说约5-6小时（E00001），之后未再有更新。",
+        "claims": [
+          {
+            "claim": "用户在2023-06-17表示已花10-12小时",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I've already put in 10-12 hours, and it's still a work in progress"
+              }
+            ]
+          },
+          {
+            "claim": "更早在2023-06-11为约5-6小时",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I've spent around 5-6 hours on it so far"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": "参考时间2023-06-18当天无新记录，最终确切小时数无法确定。"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I've already put in 10-12 hours, and it's still a work in progress",
+            "valid": true,
+            "source_id": "c4c82a4ec553edba1edf85885",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-06-17T09:26:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "I've spent around 5-6 hours on it so far",
+            "valid": true,
+            "source_id": "ca1d9de8e9c37808891cece4b",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-06-11T03:51:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.311343250097707,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P05",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "虽然status=partial，但明确给最新10–12小时，并解释当前没有后续更新。按已冻结P05范围口径与P02最新报告口径，核心完整回答成立。",
+        "request_sha256": "b990f00d81be44055946bf9d2cba3170253adec0aa71a9be6e1ba8bbb8eeb1c5",
+        "response_sha256": "99f7fca1ddbbf1544173a60e4c7dd2cff399fe0fda77c762d216c069b572adf0",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P06",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You attend fitness classes on 4 days a week: Zumba on Tuesdays and Thursdays, yoga on Wednesdays, and weightlifting on Saturdays.",
+        "claims": [
+          {
+            "claim": "Zumba classes on Tuesdays and Thursdays",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm"
+              }
+            ]
+          },
+          {
+            "claim": "Yoga class on Wednesdays",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "recently started a yoga class on Wednesdays"
+              }
+            ]
+          },
+          {
+            "claim": "Weightlifting class on Saturdays",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "a weightlifting class on Saturdays at 10 am"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": ":none"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm",
+            "valid": true,
+            "source_id": "c3660f7f82aeb2ef7b63e2daf",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T06:52:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "recently started a yoga class on Wednesdays",
+            "valid": true,
+            "source_id": "cb02306340efae1abb61b04d8",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-26T03:42:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00002",
+            "quote": "a weightlifting class on Saturdays at 10 am",
+            "valid": true,
+            "source_id": "c3660f7f82aeb2ef7b63e2daf",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T06:52:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.0450867500621825,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P06",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "同时计入Tue/Thu的Zumba、Wed瑜伽、Sat举重，4天，互补原句均来自USER。",
+        "request_sha256": "0bae8df22e567c1d800f51827077d0f96fe7db64fd1e8c1ede6d595267089050",
+        "response_sha256": "f3614a912e76c95e803ab2ea76a0b866518e6981d99e896780119b1e4847ba58",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P07",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Based on the evidence, you attended 3 dinner parties in the past month (April 30 – May 30, 2023): a BBQ/football party at Mike's place two weeks before May 21, a potluck at Alex's place on May 20, and an Italian feast at Sarah's place the week before May 22.",
+        "claims": [
+          {
+            "claim": "User attended a BBQ dinner party at Mike's place about two weeks before 2023-05-21, i.e., early May",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together"
+              }
+            ]
+          },
+          {
+            "claim": "User attended a potluck dinner party at Alex's place on 2023-05-20",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world"
+              }
+            ]
+          },
+          {
+            "claim": "User attended an Italian feast dinner party at Sarah's place the week before 2023-05-22",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I attended a lovely Italian feast at Sarah's place last week"
+              }
+            ]
+          },
+          {
+            "claim": "The mention of Mike's and Alex's parties may refer to the same events, but based on the described timings all fall within the past month, giving 3 attended dinner parties",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "By the way, I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": "Exact dates are relative (\"yesterday\", \"last week\", \"two weeks ago\"); if Mike's BBQ in E00001 and E00002 descriptions overlap, the count could be 2, but as described they appear distinct."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together",
+            "valid": true,
+            "source_id": "c799a2510389a8ff2e69d96f5",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T19:16:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world",
+            "valid": true,
+            "source_id": "c799a2510389a8ff2e69d96f5",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T19:16:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00002",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week",
+            "valid": true,
+            "source_id": "c5e13079f8999c5bfd339aab7",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-22T10:28:00+00:00"
+          },
+          {
+            "claim_index": 3,
+            "evidence_id": "E00001",
+            "quote": "By the way, I've also had experience with dinner parties that are more low-key, like the ones we had at Alex's place yesterday",
+            "valid": true,
+            "source_id": "c799a2510389a8ff2e69d96f5",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T19:16:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 11.197227125056088,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P07",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": false,
+        "core_evidence_valid": true,
+        "note": "主答明确3并列出Sarah/Mike/Alex；附加Mike/Alex可能同一事件、两源Mike重叠可为2的猜测没有原文依据。核心3成立，严格全部claim支持不成立。",
+        "request_sha256": "a9c77e38c3234e686eb2abdb8c406996eaabecb7467f7bfd8cfabe38174c3b30",
+        "response_sha256": "353ededa2b98f5d6eaae140a859507068434cdace6e42a3c4eb95f009dc010fe",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P08",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "partial",
+        "answer": "Based on the evidence, you have used 3 different types of citrus fruits in your cocktail recipes: orange, lemon, and lime. (Grapefruit and other citrus appear only in assistant suggestions, not in your own statements.)",
+        "claims": [
+          {
+            "claim": "You used orange in your own cocktail making (homemade orange bitters with orange peels).",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "recently made my own orange bitters using orange peels and vodka"
+              }
+            ]
+          },
+          {
+            "claim": "You used lime in your own cocktails (classic Daiquiri with fresh lime juice, Cucumber Gimlet with lime juice).",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "using fresh lime juice and simple syrup in a mixology class"
+              },
+              {
+                "evidence_id": "E00004",
+                "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup"
+              }
+            ]
+          },
+          {
+            "claim": "You used orange and lemon in your own Sangria, referencing a past dinner party two weeks before 2023-05-27.",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago"
+              }
+            ]
+          },
+          {
+            "claim": "Grapefruit cannot be counted as used, since it appears only in assistant-suggested recipes and flavor ideas, not in your own statements of what you made.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "1/4 cup citrus juice (orange, lemon, or grapefruit)"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02",
+          "C03",
+          "C04"
+        ],
+        "missing": "The evidence only captures citrus you explicitly mentioned making; you may have used other citrus in recipes not discussed in these conversations, which cannot be determined."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "recently made my own orange bitters using orange peels and vodka",
+            "valid": true,
+            "source_id": "c9153f368b92a0a1aa0e04b1c",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T04:58:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00002",
+            "quote": "using fresh lime juice and simple syrup in a mixology class",
+            "valid": true,
+            "source_id": "c77ccd1970a752a97cb1105f3",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-25T13:21:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup",
+            "valid": true,
+            "source_id": "c8b7f5dac3289afd48af13edf",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-30T23:20:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00003",
+            "quote": "serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago",
+            "valid": true,
+            "source_id": "c8f9041e297070a3be513d341",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T03:44:00+00:00"
+          },
+          {
+            "claim_index": 3,
+            "evidence_id": "E00001",
+            "quote": "1/4 cup citrus juice (orange, lemon, or grapefruit)",
+            "valid": true,
+            "source_id": "c9153f368b92a0a1aa0e04b1c",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-21T04:58:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 13.298629167024046,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P08",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "明确给3种orange/lemon/lime；实际使用与助手建议区分正确，不因status=partial直接判错。",
+        "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+        "response_sha256": "09b981c52c66e269b63f95d0fde483b9f50e00df1077a6fddfc4269d169907e5",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P09",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You spent 3 days on faith-related activities in December: Dec 10 (church food drive), Dec 17 (Bible study at church), and Dec 24 (midnight mass at St. Mary's Church).",
+        "claims": [
+          {
+            "claim": "December 10: helped at the church's annual holiday food drive",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I actually helped out at the church's annual holiday food drive on December 10th"
+              }
+            ]
+          },
+          {
+            "claim": "December 17: did a Bible study at your church",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th"
+              }
+            ]
+          },
+          {
+            "claim": "December 24: attended midnight mass at St. Mary's Church with family",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "missing": "[]"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th",
+            "valid": true,
+            "source_id": "c8531a9f29edb59a4767e8d72",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2024-01-10T02:22:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00003",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th",
+            "valid": true,
+            "source_id": "cc3fbf6478327dbbf685bb205",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2024-01-10T19:48:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00002",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th, with my family",
+            "valid": true,
+            "source_id": "cb5d52df1411ad8bfce6630ad",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2024-01-10T12:30:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.803178458940238,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P09",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "Dec10食物募捐、17读经、24弥撒三天齐全。",
+        "request_sha256": "301e10ce17d51cfc804738e568fd08567ef2b5374636cc7d2d24e65f27153633",
+        "response_sha256": "88a6e1056497417742947e641d0dad11aefc0a80a2cd850ae99dcfce0c88f8a4",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P10",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You have been working on 2 projects simultaneously, excluding your thesis: your Data Mining project and your Database Systems project.",
+        "claims": [
+          {
+            "claim": "User has separate boards for thesis, Data Mining project, and Database Systems project",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project."
+              }
+            ]
+          },
+          {
+            "claim": "Data Mining course has a group project",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "my Data Mining course, which has a group project"
+              }
+            ]
+          },
+          {
+            "claim": "User is working on a Database Systems course group project",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "I've also been working on a group project for my Database Systems course"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "missing": "[]"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project.",
+            "valid": true,
+            "source_id": "c7205aaf4f85c5e920a9e1c57",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-25T11:44:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00002",
+            "quote": "my Data Mining course, which has a group project",
+            "valid": true,
+            "source_id": "c90f22ac4580aa6d69fac7732",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-26T15:03:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00003",
+            "quote": "I've also been working on a group project for my Database Systems course",
+            "valid": true,
+            "source_id": "cc071c3f64b3fa0ab505a8019",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-28T03:58:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.535960625158623,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P10",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "明确排除thesis，Data Mining和Database Systems两个项目。",
+        "request_sha256": "bf942810d60af2efbd005a7049bd6a6a3e196e36536718cbf21a504dfd2d9e06",
+        "response_sha256": "c98ed248f143b3abc90f9242c53b9fe694844f2efd81bbdf7ae92c95ab701c03",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P11",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "The famous deli near the Vatican mentioned for the best cured meats and cheeses is Roscioli.",
+        "claims": [
+          {
+            "claim": "Roscioli is the famous deli serving the best cured meats and cheeses near the Vatican.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ": null}"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine",
+            "valid": true,
+            "source_id": "c8ae7755b954de1ea86110538",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-26T15:26:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 4.833327333908528,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P11",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆Roscioli；按历史助手回复评分，不核实现实地理。",
+        "request_sha256": "f536a46983971f77ca4d4599f2133213fe5309ecd16dabf9eede11496622d12e",
+        "response_sha256": "84286598f413188596f225346d6ebf7c04a5e1e650c8936851defac336a886d8",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P12",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "The show you mentioned was \"Doc Martin\" — you said it was taken down after a while and now only the last season is available.",
+        "claims": [
+          {
+            "claim": "The user gave \"doc martin\" as the example of an old show with only the last season available.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I will give you an example, "
+              },
+              {
+                "evidence_id": "E00001",
+                "quote": "doc martin"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ": I will give you an example, "
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I will give you an example, ",
+            "valid": true,
+            "source_id": "c50927ca385b93a348ac133cd",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-26T18:07:00+00:00"
+          },
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "doc martin",
+            "valid": true,
+            "source_id": "c50927ca385b93a348ac133cd",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-26T18:07:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 4.8911706251092255,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P12",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆Doc Martin；字面引用变化另列。",
+        "request_sha256": "aed050931b9242d9a99eae557b592f91c5e0f0a9f3f283a5ec6918a58b6a01ba",
+        "response_sha256": "b9cc4a66baf775d1b54da50d36ab5c40d4ea584245405e8ccd69511e79a09e1a",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P13",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "According to the earlier chat, the Chiefs and Jaguars played 12 games at Arrowhead Stadium (regular season only, as of the assistant's 2021 knowledge cut-off).",
+        "claims": [
+          {
+            "claim": "12 Chiefs–Jaguars games were played at Arrowhead Stadium",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri"
+              }
+            ]
+          },
+          {
+            "claim": "These figures are regular-season only and as of a 2021 knowledge cut-off",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "these statistics are based on regular season games only, not including playoffs games"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ": "
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri",
+            "valid": true,
+            "source_id": "cacc96cddded0941e918b8c86",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-28T04:27:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "these statistics are based on regular season games only, not including playoffs games",
+            "valid": true,
+            "source_id": "cacc96cddded0941e918b8c86",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-28T04:27:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.834773583104834,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P13",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆12场与常规赛口径，历史回复含2021截止限定。",
+        "request_sha256": "784b8003618149e48651a3382fb3d7b4a6f8ae67deef27e7d2327cfc2117d87c",
+        "response_sha256": "bcd98565835bda56440f0199453bbad66f84f8b882721f2e74860f15f056f518",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P14",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "The example given was Manolo García, a Spanish-Catalan singer/songwriter described as having spoken publicly about his support for unity between Catalonia and Spain.",
+        "claims": [
+          {
+            "claim": "The assistant previously cited Manolo García as a Spanish-Catalan singer/songwriter supporting unity between Catalonia and Spain.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ""
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain",
+            "valid": true,
+            "source_id": "ce4bde0adad4fe2ecc4bf403f",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-21T10:54:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 4.402735874988139,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P14",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆Manolo García与支持统一的历史助手例子。",
+        "request_sha256": "1af2f34f9d510bacab0693debcf6031e78be7882104c7e0b45b53dc6459ee185",
+        "response_sha256": "890ce26c54b1970469439b96d4f041f7c8fdfc217dcb093a1c9563f59e778ff3",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P15",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "partial",
+        "answer": "The hostel near the Red Light District was the International Budget Hostel. Note it was listed as an option rather than a personal recommendation, since the assistant stated it had no personal preferences.",
+        "claims": [
+          {
+            "claim": "The hostel near the Red Light District is the International Budget Hostel",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms."
+              }
+            ]
+          },
+          {
+            "claim": "The assistant did not personally recommend it; it declined to state a favorite",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I don't have personal preferences or experiences in staying in hostels."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ": no specific personal recommendation or favorite was ever given"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms.",
+            "valid": true,
+            "source_id": "c831c3cd021ba61a85c9aa466",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-27T06:49:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "I don't have personal preferences or experiences in staying in hostels.",
+            "valid": true,
+            "source_id": "c831c3cd021ba61a85c9aa466",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-27T06:49:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.196811917005107,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P15",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确定位International Budget Hostel，补充无个人最爱不构成拒答，主名已明确。",
+        "request_sha256": "14e926726baba9d2e920f3e8574307210b5a0e158d0b0e4b2a0f83f5f11d8c2a",
+        "response_sha256": "df5d4f8f206a0b7fe1d93ee6bbd1626343be190503ced70181284f59249884be",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P16",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "17 skeins",
+        "claims": [
+          {
+            "claim": "User stated finding 17 skeins of worsted weight yarn in stash",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I have a stash of 17 skeins that I found recently"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ": null}"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I have a stash of 17 skeins that I found recently",
+            "valid": true,
+            "source_id": "c206792b9b44d285b614d229e",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T11:27:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 4.2064877091906965,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P16",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "17团worsted yarn，引用USER直接自报。",
+        "request_sha256": "f9ee854d0b3135550ac63fd71323594a8c96c4e4726fe3abef7068c484c50b17",
+        "response_sha256": "dd6a7c6afd095a250daa5cacf2f05c464b5d6061c70d34f9e3f3af4b5c96508b",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P17",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "According to your own report, you caught 12 largemouth bass on your last trip to Lake Michigan: \"Also, I caught 12 largemouth bass on my last trip there\" (E00001, C01). Note: the evidence only records this past trip; there is no record of a more recent fishing trip's catch, so if you're asking about a new trip, that cannot be determined from the data.",
+        "claims": [
+          {
+            "claim": "User caught 12 largemouth bass on their last Lake Michigan trip.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "Also, I caught 12 largemouth bass on my last trip there"
+              }
+            ]
+          },
+          {
+            "claim": "Assistant acknowledged the 12 largemouth bass catch.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "It's great to hear that you caught 12 largemouth bass on your last trip!"
+              }
+            ]
+          },
+          {
+            "claim": "No record exists of a subsequent trip's catch count.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I'm planning a fishing trip to Lake Michigan with my friends"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ": []}"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "Also, I caught 12 largemouth bass on my last trip there",
+            "valid": true,
+            "source_id": "c7597a97e2ced0ac9fccbba67",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T06:28:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "It's great to hear that you caught 12 largemouth bass on your last trip!",
+            "valid": true,
+            "source_id": "c7597a97e2ced0ac9fccbba67",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-21T06:28:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00001",
+            "quote": "I'm planning a fishing trip to Lake Michigan with my friends",
+            "valid": true,
+            "source_id": "c7597a97e2ced0ac9fccbba67",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T06:28:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.552810083143413,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P17",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "12条largemouth bass，用户过去Lake Michigan之行；区分未来计划。",
+        "request_sha256": "ed632a5921416785c6d9d26b074937081a76bcc16ef3231a7ad273b6eac6e4ec",
+        "response_sha256": "58196dd9184d43ec21199da524fd13a5aad1387c0e0ea15090705dbc07377fd5",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P18",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "According to your own statement, you spent $800 on the designer handbag.",
+        "claims": [
+          {
+            "claim": "User stated the designer handbag cost $800",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ":[]}</think><5e9c7f0d>**Status:** answer | **Sources:** C01 (E00001) | **missing:** none 😊; Sorry—ignore the stray text after the JSON field: none was not intended. Corrected output below: {\"status\":\"answer\",\"answer\":\"You stated you spent $800 on the designer handbag.\",\"claims\":[{\"claim\":\"User reported buying a designer handbag for $800\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I remember buying a designer handbag for a pretty penny - $800, to be exact.\"}]}],\"selected_sources\":[\"C01\"]} 😊 Sorry—the above duplication was an error; please disregard any non-conforming lines. FINAL: {\"status\":\"answer\",\"answer\":\"You stated you spent $800 on the designer handbag.\",\"claims\":[{\"claim\":\"User reported buying a designer handbag for $800\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I remember buying a designer handbag for a pretty penny - $800, to be exact.\"}]}],\"selected_sources\":[\"C01\"]} 🙏 Note: earlier malformed lines should be ignored; this final line is the valid output. ⚠️ Actually, to be safe and avoid confusion, the canonical answer remains: user stated the handbag cost $800 (E00001). Sorry for the noise in this response—no other tasks were performed. FINAL-CLEAN: {\"status\":\"answer\",\"answer\":\"$800\",\"claims\":[{\"claim\":\"User reported buying a designer handbag for $800\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I remember buying a designer handbag for a pretty penny - $800, to be exact.\"}]}],\"selected_sources\":[\"C01\"]} 🙂 (Earlier extra lines were formatting errors; ignore them. No tools, files, or network were used.) FINAL-ANSWER-ONLY: {\"status\": \"answer\", \"answer\": \"$800\", \"claims\": [{\"claim\": \"User reported buying a designer handbag for $800\", \"citations\": [{\"evidence_id\": \"E00001\", \"quote\": \"I remember buying a designer handbag for a pretty penny - $800, to be exact.\"}]}], \"selected_sources\": [\"C01\"]} ✅ (Apologies for duplicated/malformed intermediate lines in this response; the canonical output is the FINAL-ANSWER-ONLY JSON above.) 🙂 FINAL-CANONICAL: {\"status\":\"answer\",\"answer\":\"You spent $800 on the designer handbag.\",\"claims\":[{\"claim\":\"User reported buying a designer handbag for $800\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I remember buying a designer handbag for a pretty penny - $800, to be exact.\"}]}],\"selected_sources\":[\"C01\"]} ✅ END OF RESPONSE (ignore duplicated earlier JSON blocks; they were errors). 🙂 FINAL-FINAL: {\"status\":\"answer\",\"answer\":\"You spent $800 on the designer handbag.\",\"claims\":[{\"claim\":\"User reported buying a designer handbag for $800\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I remember buying a designer handbag for a pretty penny - $800, to be exact.\"}]}],\"selected_sources\":[\"C01\"]} ✅ (No further content follows.) END. 🙂 SORRY AGAIN — output ends here; treat FINAL-FINAL as the answer. END-END. 🙂 ACTUAL FINAL: {\"status\":\"answer\",\"answer\":\"You spent $800 on the designer handbag.\",\"claims\":[{\"claim\":\"User reported buying a designer handbag for $800\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"I remember buying a designer handbag for a pretty penny - $800, to be exact.\"}]}],\"selected_sources\":[\"C01\"]} — done. 🙂 (This is the last line.) DONE-DONE. 🙂</think><5e9c7f0d>```json — apologize for earlier malformed/duplicated lines; the valid output is below, nothing after it. (Ignore anything following this JSON; response ends here. No tools were used.) END. 🙂 ACTUALLY FINAL: {"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+            "valid": true,
+            "source_id": "cda869cbb99225b9233bf65e7",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-23T08:15:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 23.83832229208201,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P18",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "800美元正确且有USER直接原句。missing字段噪声单列，不无痕修正。",
+        "request_sha256": "f0a5aa3489e37d15c304efe93bfdda61a4dbffdc924f83eb5aa4a1314fc145bb",
+        "response_sha256": "1c3c95167f2fabb039b3a38cedc34980a1453137ef097a710196bfb40b97a964",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P19",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You bought your new tennis racket from a sports store downtown.",
+        "claims": [
+          {
+            "claim": "The user said their new tennis racket came from a sports store downtown.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": "[evidence_id]"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown.",
+            "valid": true,
+            "source_id": "cdfeb5d9b5297a62fd0054af3",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-25T21:29:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 4.277297249995172,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P19",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "sports store downtown正确；不要求原文未给出的具体店名。",
+        "request_sha256": "8bd414c125f3d82486704485c0cb99fb31fdad9304d3a477c74b9ec277f753b7",
+        "response_sha256": "6807844d2bc4817af8548674da0b45109520ef2950d59a35b884d4f123dd0f53",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P20",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You stop checking work emails and messages by 7 pm.",
+        "claims": [
+          {
+            "claim": "The user said they stop work emails and messages by 7 pm to separate work and personal life.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "stopping work emails and messages by 7 pm to separate my work and personal life"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": ": []"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "stopping work emails and messages by 7 pm to separate my work and personal life",
+            "valid": true,
+            "source_id": "c1c7c4c03a55cac4522db0a20",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-29T04:01:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 4.059092334005982,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P20",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "7pm正确，USER原句直接支持。",
+        "request_sha256": "1a4f9f31b21b346653ba0be8fed8eb0e1adbd880f8e98119af5ef4b600ef740d",
+        "response_sha256": "178ed617e7c2c183c2aae3c509cc86465055d009efbce946d71ca87e544b791a",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P21",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Based on graduation timing: Emma graduated first (late May), Rachel second (around June 21), and Alex third (around July 1).",
+        "claims": [
+          {
+            "claim": "Emma graduated in late May",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May"
+              }
+            ]
+          },
+          {
+            "claim": "Rachel graduated around June 21 (ceremony was 'yesterday' relative to the June 22 conversation)",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday"
+              }
+            ]
+          },
+          {
+            "claim": "Alex graduated around early July ('about two weeks ago' relative to the July 15 conversation)",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "who graduated with a degree in engineering from college about two weeks ago"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "missing": ": none significant"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I attended Emma's graduation ceremony on a sunny Saturday in late May",
+            "valid": true,
+            "source_id": "c5cb50c297191b2e566d454d2",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2022-05-28T11:17:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00002",
+            "quote": "I just got back from my friend Rachel's master's degree graduation ceremony yesterday",
+            "valid": true,
+            "source_id": "cd2a6842f7e4b75fe0461d1a1",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2022-06-22T11:46:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00003",
+            "quote": "who graduated with a degree in engineering from college about two weeks ago",
+            "valid": true,
+            "source_id": "c967f69f5e97bb77d7922817a",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2022-07-15T10:48:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 9.042402709135786,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P21",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "Emma late May、Rachel June21、Alex约July1，顺序正确，三份时钟/USER陈述齐。",
+        "request_sha256": "5b594459b287bfc7ff43f8ac2156a9449ca43f5865a2397f4addd2a51675d4ee",
+        "response_sha256": "0132431edb656cbd12fd2d1f556f423d2fa2de3328d7a68bd2e0614be9d5bbe7",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P22",
+      "ambiguous": true,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "约3周前（20天）。您在2023-04-16的对话中说“我刚刚下载了Ibotta”，从2023-05-06的参考时间算起约为20天，即约3周。",
+        "claims": [
+          {
+            "claim": "用户在2023-04-16表示刚下载Ibotta",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": "无法确定确切的下载日期（“刚刚”是近似表述），仅能以对话时间2023-04-16估计。"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+            "valid": true,
+            "source_id": "c8ff57a2de289275b2c691222",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-04-16T02:19:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.6198951669503,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P22",
+        "official_reference_match": true,
+        "complete_answer": null,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "按Apr16下载到May6约20天/3周匹配原参考；下载≠首次使用的冻结歧义保持，不计明确题主分。",
+        "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+        "response_sha256": "4e93eca672ff8fcf42c8c30d3f280a225f27f38b88021e4a85dc3544fd2f5a5a",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": null
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P23",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "14 days passed between the repotting (2023-03-04) and giving Mrs. Johnson the cuttings (2023-03-18).",
+        "claims": [
+          {
+            "claim": "The user repotted the spider plant on 2023-03-04 (received_at of C01): \"I repot the previous spider plant today\" — E00001, C01.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I repot the previous spider plant today"
+              }
+            ]
+          },
+          {
+            "claim": "The user gave Mrs. Johnson spider plant cuttings on 2023-03-18 (received_at of C02): \"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\" — E00002, C02.",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+              }
+            ]
+          },
+          {
+            "claim": "Difference between 2023-03-04 and 2023-03-18 is 14 days.",
+            "citations": []
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02"
+        ],
+        "missing": ": []}"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today",
+            "valid": true,
+            "source_id": "c13c5edb0fd463a670b2d0d3f",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-04T12:05:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00002",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+            "valid": true,
+            "source_id": "ca722cb830ce76b391e670726",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-18T08:49:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 8.196634999942034,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P23",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "March4换盆、March18送枝条，14天正确；源时钟与today共同支持。",
+        "request_sha256": "b5e5e63d42989b64088a60e7a2fbf0b1f564cac8619d20924c1991902296aea4",
+        "response_sha256": "29fce3f0b18f96773f171a46bfcb4320e49251924b44d39625bf4644eca264af",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P24",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "partial",
+        "answer": "About 26 days ago — the user said they 'just got back from a networking event that ran from 6 PM to 8 PM today' in a conversation received on 2022-03-09, which is 26 days before the reference time of 2022-04-04 (the conversation's exact calendar date isn't independently stated, only the receipt timestamp).",
+        "claims": [
+          {
+            "claim": "User attended a networking event on the day of the conversation, ending at 8 PM",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+              }
+            ]
+          },
+          {
+            "claim": "That conversation was received on 2022-03-09, so the event was roughly 26 days before 2022-04-04",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "received_at"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": "The conversation itself does not state the calendar date of 'today'; the 26-day figure relies on the evidence's received_at timestamp (2022-03-09T12:08:00+00:00), so exact dating cannot be fully confirmed."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": false,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+            "valid": true,
+            "source_id": "c7440c7a3ee7bbb9db6cf5156",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2022-03-09T12:08:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "received_at",
+            "valid": false,
+            "source_id": "c7440c7a3ee7bbb9db6cf5156",
+            "possible_message_roles": [],
+            "source_date": "2022-03-09T12:08:00+00:00"
+          }
+        ],
+        "quote_errors": [
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "received_at",
+            "reason": "not an exact contiguous original quote"
+          }
+        ]
+      },
+      "seconds": 9.369520958978683,
+      "review": {
+        "task": "oracle_answer",
+        "case_id": "P24",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "March9到April4为26天，核心正确。metadata时间可用，引用字面及引句是否直接表达日期另列，原文不含received_at字段。",
+        "request_sha256": "3321d354e07317a9fae0e7a11e34c1e12b850a5da0dbeb1d3fde1d02de52bbb8",
+        "response_sha256": "5c3daa778613ce733bec8d5041c3ba9ad2f33a65ff33a20d3ba25f8c6d40f348",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "oracle_answer",
+      "case_id": "P25",
+      "ambiguous": true,
+      "recorded": true,
+      "state": "generation_error",
+      "error": {
+        "type": "TimeoutError",
+        "message": "The read operation timed out"
+      },
+      "correct": false
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P01",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C01",
+          "C07"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.9522057080175728,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c6cfd58034e25f4def8503729",
+          "c86c392fcf4351780ec72ccbe"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P02",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C01",
+          "C06"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 7.676468249876052,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c4d5e76892eb66ee21cf151ae",
+          "ca3586c9f696b9c5035ebf62c"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P03",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C03",
+          "C07"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 8.365757375024259,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "cab206cf9d24f3f891f2ce248",
+          "cd244fcacffe13caffeb31e69"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P04",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C01",
+          "C06"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.552068666089326,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c61dc060a2ddb252dd1eef054",
+          "ca194573bab838bc02a805cf8"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P05",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C01",
+          "C05"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.3316295000258833,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c4c82a4ec553edba1edf85885",
+          "ca1d9de8e9c37808891cece4b"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P06",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C05",
+          "C06"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 5.9491272498853505,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c3660f7f82aeb2ef7b63e2daf",
+          "cb02306340efae1abb61b04d8"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 2,
+        "registered_atoms_selected": 2,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 2,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P07",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C02",
+          "C03"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 5.1888437499292195,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c5e13079f8999c5bfd339aab7",
+          "c799a2510389a8ff2e69d96f5"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 3,
+        "registered_atoms_selected": 3,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 3,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P08",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C01",
+          "C02",
+          "C03",
+          "C05"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 8.39050008310005,
+      "selection": {
+        "selected_source_count": 4,
+        "selected_original_sources": [
+          "c77ccd1970a752a97cb1105f3",
+          "c8b7f5dac3289afd48af13edf",
+          "c8f9041e297070a3be513d341",
+          "c9153f368b92a0a1aa0e04b1c"
+        ],
+        "baseline_sources_total": 4,
+        "baseline_sources_selected": 4,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 2,
+        "registered_atoms_selected": 2,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 2,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P09",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C02",
+          "C05",
+          "C07"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.381481915945187,
+      "selection": {
+        "selected_source_count": 3,
+        "selected_original_sources": [
+          "c8531a9f29edb59a4767e8d72",
+          "cb5d52df1411ad8bfce6630ad",
+          "cc3fbf6478327dbbf685bb205"
+        ],
+        "baseline_sources_total": 3,
+        "baseline_sources_selected": 3,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 3,
+        "registered_atoms_selected": 3,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 3,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P10",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C03",
+          "C05",
+          "C07"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.741466334089637,
+      "selection": {
+        "selected_source_count": 3,
+        "selected_original_sources": [
+          "c7205aaf4f85c5e920a9e1c57",
+          "c90f22ac4580aa6d69fac7732",
+          "cc071c3f64b3fa0ab505a8019"
+        ],
+        "baseline_sources_total": 3,
+        "baseline_sources_selected": 3,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 2,
+        "registered_atoms_selected": 2,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 2,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P11",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C06"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.526108457939699,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c8ae7755b954de1ea86110538"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P12",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C02"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.200337209040299,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c50927ca385b93a348ac133cd"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P13",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C07"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.1379221249371767,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "cacc96cddded0941e918b8c86"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P14",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C01"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 2.928431000094861,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "ce4bde0adad4fe2ecc4bf403f"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P15",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C05"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.7090035839937627,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c831c3cd021ba61a85c9aa466"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P16",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C08"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.465261915931478,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c206792b9b44d285b614d229e"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P17",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C02"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.7314833330456167,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c7597a97e2ced0ac9fccbba67"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P18",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C04"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.6352785830385983,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "cda869cbb99225b9233bf65e7"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P19",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C03"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.489689790876582,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "cdfeb5d9b5297a62fd0054af3"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P20",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C09"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.516579667106271,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c1c7c4c03a55cac4522db0a20"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P21",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C03",
+          "C05",
+          "C07"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.613104999996722,
+      "selection": {
+        "selected_source_count": 3,
+        "selected_original_sources": [
+          "c5cb50c297191b2e566d454d2",
+          "c967f69f5e97bb77d7922817a",
+          "cd2a6842f7e4b75fe0461d1a1"
+        ],
+        "baseline_sources_total": 3,
+        "baseline_sources_selected": 3,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 3,
+        "registered_atoms_selected": 3,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 3,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P22",
+      "ambiguous": true,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C05"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.002070166869089,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c8ff57a2de289275b2c691222"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P23",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C01",
+          "C06"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 3.0149831250309944,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c13c5edb0fd463a670b2d0d3f",
+          "ca722cb830ce76b391e670726"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 2,
+        "registered_atoms_selected": 2,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 2,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P24",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C07"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 4.1836646248120815,
+      "selection": {
+        "selected_source_count": 1,
+        "selected_original_sources": [
+          "c7440c7a3ee7bbb9db6cf5156"
+        ],
+        "baseline_sources_total": 1,
+        "baseline_sources_selected": 1,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 1,
+        "registered_atoms_selected": 1,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 1,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_select",
+      "case_id": "P25",
+      "ambiguous": true,
+      "recorded": true,
+      "output": {
+        "selected_sources": [
+          "C04",
+          "C08"
+        ]
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": null,
+        "citations": []
+      },
+      "seconds": 5.865312000038102,
+      "selection": {
+        "selected_source_count": 2,
+        "selected_original_sources": [
+          "c1093bf2c8cd861890c957c5c",
+          "cfb475330aad6b2360694d630"
+        ],
+        "baseline_sources_total": 2,
+        "baseline_sources_selected": 2,
+        "all_baseline_sources_selected": true,
+        "registered_atoms_total": 2,
+        "registered_atoms_selected": 2,
+        "registered_complete": true,
+        "reviewed_atoms_selected": 2,
+        "reviewed_complete": true,
+        "unrelated_count": 0,
+        "unrelated_sources": [],
+        "pending_extra_sources": [],
+        "selection_correct": true,
+        "caveat": "Registered evidence is a source-based proxy, not proof of answering or of actually quoting the evidence."
+      },
+      "correct": true,
+      "state": "scored"
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P01",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Yes — based on your messages in the conversation from 2023-03-30 (C07), you finished reading 'The Nightingale' by Kristin Hannah. You said you 'recently finished \"The Nightingale\" by Kristin Hannah' and later that you 'finished reading recently', and discussed loving the ending and the bond between Vianne and Isabelle.",
+        "claims": [
+          {
+            "claim": "User finished reading 'The Nightingale' by Kristin Hannah recently (before 2023-03-30).",
+            "citations": [
+              {
+                "evidence_id": "E00007",
+                "quote": "I also recently finished "
+              },
+              {
+                "evidence_id": "E00007",
+                "quote": "by Kristin Hannah, which I finished reading recently"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C07"
+        ],
+        "missing": "Exact finish date cannot be determined."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00007",
+            "quote": "I also recently finished ",
+            "valid": true,
+            "source_id": "c86c392fcf4351780ec72ccbe",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-30T01:14:00+00:00"
+          },
+          {
+            "claim_index": 0,
+            "evidence_id": "E00007",
+            "quote": "by Kristin Hannah, which I finished reading recently",
+            "valid": true,
+            "source_id": "c86c392fcf4351780ec72ccbe",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-30T01:14:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 9.196403790963814,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P01",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "明确Yes，来自三月完成记录；所报两个USER引句支持读完。",
+        "request_sha256": "5d6e43f8339edc46eba5002fc1ec45c361110aa67fd6e22d1d68c8b9385d828f",
+        "response_sha256": "0db6fc80de99d487bb3f8602bb8af18b7fa108cacb61451c61237d2698c8f7e5",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P02",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Based on the most recent information (2023-03-15, one day before the reference time), you currently have 20 dozen eggs stocked up in the fridge. This is an update from an earlier count of 30 dozen in January.",
+        "claims": [
+          {
+            "claim": "As of the 2023-03-15 conversation, you have 20 dozen eggs in the fridge: \"we've got 20 dozen stocked up in the fridge right now\" (E00006, C06)",
+            "citations": [
+              {
+                "evidence_id": "E00006",
+                "quote": "we've got 20 dozen stocked up in the fridge right now"
+              }
+            ]
+          },
+          {
+            "claim": "An earlier conversation on 2023-01-11 reported 30 dozen: \"we have a lot stocked up in the fridge - 30 dozen at the moment!\" (E00001, C01)",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C06"
+        ],
+        "missing": ": []}"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00006",
+            "quote": "we've got 20 dozen stocked up in the fridge right now",
+            "valid": true,
+            "source_id": "ca3586c9f696b9c5035ebf62c",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-15T08:18:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!",
+            "valid": true,
+            "source_id": "c4d5e76892eb66ee21cf151ae",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-01-11T23:15:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 8.585088000167161,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P02",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确采用三月20打，区分一月30打，最新记录回答成立。",
+        "request_sha256": "e4030ad783d90cb99b197d277b74ad9c42184ce99cd62958b1e005a769807084",
+        "response_sha256": "b5ed51069bfafb9050fc632004b01a9c2762f7f9ede402b8ea1b3b7b87ee2e7f",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P03",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You have finished five issues of National Geographic (as of the July 15, 2023 conversation).",
+        "claims": [
+          {
+            "claim": "User stated they finished five National Geographic issues by July 2023.",
+            "citations": [
+              {
+                "evidence_id": "E00007",
+                "quote": "I've finished five issues so far and they've all had great articles on the region"
+              }
+            ]
+          },
+          {
+            "claim": "User also confirmed finishing the fifth issue.",
+            "citations": [
+              {
+                "evidence_id": "E00007",
+                "quote": "I just finished my fifth issue"
+              }
+            ]
+          },
+          {
+            "claim": "Earlier (April 2023) the count was three, superseded by the later statement.",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "I just finished my third issue, and I'm currently on my fourth."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C03",
+          "C07"
+        ],
+        "missing": ":00}없"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00007",
+            "quote": "I've finished five issues so far and they've all had great articles on the region",
+            "valid": true,
+            "source_id": "cab206cf9d24f3f891f2ce248",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-07-15T22:42:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00007",
+            "quote": "I just finished my fifth issue",
+            "valid": true,
+            "source_id": "cab206cf9d24f3f891f2ce248",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-07-15T22:42:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00003",
+            "quote": "I just finished my third issue, and I'm currently on my fourth.",
+            "valid": true,
+            "source_id": "cd244fcacffe13caffeb31e69",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-04-20T21:08:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 9.620503208832815,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P03",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确采用七月5期，区分早先3期，未将可能后续变化当作漏答。",
+        "request_sha256": "aa14dfe67c3cde15abad3fca1dc75fc89b9390428837a015b99a90ee46d0dee3",
+        "response_sha256": "00c97b0e2830436b902693d28a412e4db725d945ac02c377d50045d089700845",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P04",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit.",
+        "claims": [
+          {
+            "claim": "The user earned $420 at the Downtown Farmers Market on their most recent visit",
+            "citations": [
+              {
+                "evidence_id": "E00006",
+                "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C06"
+        ],
+        "missing": "Note: an earlier conversation (C01, April 2023) listed $350 for a May 6th Downtown Farmers Market visit, but the most recent statement (C06, September 2023) is $420, which supersedes it as of the reference time."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00006",
+            "quote": "I earned $420 at the Downtown Farmers Market on my most recent visit.",
+            "valid": true,
+            "source_id": "c61dc060a2ddb252dd1eef054",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-09-30T15:13:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.7960869579110295,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P04",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "最新收入420美元正确，有直接原文支持；不要求旧收入来源全部选中。",
+        "request_sha256": "3b57fb3053b2a152331ac12474ba4e884287c9f1711ccb63b983e814a6268832",
+        "response_sha256": "f1b5dd3cb3766d2e259755ec5ddc62abf38fce828d1b882a31c64c6f68f0b8ec",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P05",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "As of your latest message (June 17, 2023), you've spent 10–12 hours on your abstract ocean sculpture.",
+        "claims": [
+          {
+            "claim": "You reported 10–12 hours spent on the abstract ocean sculpture, your most recent and up-to-date figure.",
+            "citations": [
+              {
+                "evidence_id": "E00005",
+                "quote": "I've already put in 10-12 hours, and it's still a work in progress."
+              },
+              {
+                "evidence_id": "E00005",
+                "quote": "I've already spent 10-12 hours on my abstract ocean sculpture"
+              }
+            ]
+          },
+          {
+            "claim": "Earlier (June 11, 2023) you had said it was around 5–6 hours, which has since been updated.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I've spent around 5-6 hours on it so far"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C05"
+        ],
+        "missing": ": none material — the exact total may differ, since 10–12 hours is your own estimate."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00005",
+            "quote": "I've already put in 10-12 hours, and it's still a work in progress.",
+            "valid": true,
+            "source_id": "c4c82a4ec553edba1edf85885",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-06-17T09:26:00+00:00"
+          },
+          {
+            "claim_index": 0,
+            "evidence_id": "E00005",
+            "quote": "I've already spent 10-12 hours on my abstract ocean sculpture",
+            "valid": true,
+            "source_id": "c4c82a4ec553edba1edf85885",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-06-17T09:26:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00001",
+            "quote": "I've spent around 5-6 hours on it so far",
+            "valid": true,
+            "source_id": "ca1d9de8e9c37808891cece4b",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-06-11T03:51:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.93826291593723,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P05",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "明确给最新10–12小时，自报估计范围符合问题，旧5–6小时区分正确。",
+        "request_sha256": "3f33e5eedd4029522b37bdd89477cc5ca351b40553d20cd20ba6dc160375ae2f",
+        "response_sha256": "a3e6d638dda9a724522f601a1ab64a6c69a5df458da2ae1c4a67a164e75fb46a",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P06",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You attend fitness classes on 4 days a week: Zumba on Tuesdays and Thursdays, weightlifting on Saturdays, and yoga on Wednesdays.",
+        "claims": [
+          {
+            "claim": "Zumba classes on Tuesdays and Thursdays",
+            "citations": [
+              {
+                "evidence_id": "E00006",
+                "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm"
+              }
+            ]
+          },
+          {
+            "claim": "Weightlifting class on Saturdays",
+            "citations": [
+              {
+                "evidence_id": "E00006",
+                "quote": "a weightlifting class on Saturdays at 10 am"
+              }
+            ]
+          },
+          {
+            "claim": "Yoga class on Wednesdays",
+            "citations": [
+              {
+                "evidence_id": "E00005",
+                "quote": "recently started a yoga class on Wednesdays"
+              }
+            ]
+          },
+          {
+            "claim": "Total of 4 distinct class days per week (Tue, Wed, Thu, Sat)",
+            "citations": []
+          }
+        ],
+        "selected_sources": [
+          "C05",
+          "C06"
+        ],
+        "missing": ": no evidence of other class days"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00006",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm",
+            "valid": true,
+            "source_id": "c3660f7f82aeb2ef7b63e2daf",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T06:52:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00006",
+            "quote": "a weightlifting class on Saturdays at 10 am",
+            "valid": true,
+            "source_id": "c3660f7f82aeb2ef7b63e2daf",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T06:52:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00005",
+            "quote": "recently started a yoga class on Wednesdays",
+            "valid": true,
+            "source_id": "cb02306340efae1abb61b04d8",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-26T03:42:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 9.194595333188772,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P06",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "同时计入Tue/Thu的Zumba、Wed瑜伽、Sat举重，4天，互补原句均来自USER。",
+        "request_sha256": "e36b3fe9dcb20ea4ece791c5b1da9deb6921e29101fc642b92a5f9a601c8dd17",
+        "response_sha256": "ccfc9e34fa0286203e9568029907a1f45ff4cbd817c5b33b0999282b340cc9cb",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P07",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "partial",
+        "answer": "Based on the evidence, you attended 2 dinner parties in the past month (April 30 – May 30, 2023): (1) an Italian feast/dinner party at Sarah's place last week, and (2) a low-key potluck dinner party at Alex's place yesterday.",
+        "claims": [
+          {
+            "claim": "You attended an Italian dinner party at Sarah's place last week (within the past month).",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "I attended a lovely Italian feast at Sarah's place last week"
+              }
+            ]
+          },
+          {
+            "claim": "You attended a low-key potluck dinner party at Alex's place yesterday (around May 20, within the past month).",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "the dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck"
+              }
+            ]
+          },
+          {
+            "claim": "A BBQ gathering at Mike's place two weeks ago is mentioned but described as a BBQ/football viewing, not a dinner party, so it is not counted.",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "the one we had at Mike's place two weeks ago, where we watched a football game together"
+              }
+            ]
+          },
+          {
+            "claim": "A birthday party for David is mentioned, but it is not described as a dinner party, so it is not counted.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I just got back from a birthday party for my colleague and friend, David"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "missing": "The evidence only uses relative times (e.g., 'last week', 'yesterday'), so exact dates cannot be confirmed; however, each described event falls within roughly one week of the reference time, so they all count as within the past month."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": false,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week",
+            "valid": true,
+            "source_id": "c5e13079f8999c5bfd339aab7",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-22T10:28:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00002",
+            "quote": "the dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck",
+            "valid": false,
+            "source_id": "c799a2510389a8ff2e69d96f5",
+            "possible_message_roles": [],
+            "source_date": "2023-05-21T19:16:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00002",
+            "quote": "the one we had at Mike's place two weeks ago, where we watched a football game together",
+            "valid": true,
+            "source_id": "c799a2510389a8ff2e69d96f5",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T19:16:00+00:00"
+          },
+          {
+            "claim_index": 3,
+            "evidence_id": "E00001",
+            "quote": "I just got back from a birthday party for my colleague and friend, David",
+            "valid": true,
+            "source_id": "c9ad6353d8b6aa8d5c43d4970",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-20T02:28:00+00:00"
+          }
+        ],
+        "quote_errors": [
+          {
+            "claim_index": 1,
+            "evidence_id": "E00002",
+            "quote": "the dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck",
+            "reason": "not an exact contiguous original quote"
+          }
+        ]
+      },
+      "seconds": 13.493592916987836,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P07",
+        "official_reference_match": false,
+        "complete_answer": false,
+        "evidence_semantic_valid": false,
+        "core_evidence_valid": false,
+        "note": "只答2，错误排除Mike；已复读原USER后文明确把Mike BBQ也列入dinner parties。候选原文有完整依据；不能当检索漏源。另有错误时间笼统限定和非逐字引句。",
+        "request_sha256": "98064e2acbba12afac003b09f5d59c4c9211335a8aab9a218f861ee35d58c3ca",
+        "response_sha256": "e810ee3fe68700ba66f63b9edbe01db98ebfa5297dfdfab87d7f8d7fb359c6b8",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": false
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P08",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "3 different citrus types: orange, lemon, and lime.",
+        "claims": [
+          {
+            "claim": "The user made orange bitters with orange peels (citrus #1: orange).",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I've been experimenting with bitters lately and recently made my own orange bitters using orange peels and vodka."
+              }
+            ]
+          },
+          {
+            "claim": "The user served Sangria with orange and lemon slices at a dinner party two weeks ago (citrus #1 orange, #2 lemon).",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+              }
+            ]
+          },
+          {
+            "claim": "The user used fresh lime juice in cocktails, e.g., a classic Daiquiri (citrus #3: lime).",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class."
+              }
+            ]
+          },
+          {
+            "claim": "The user also made a Cucumber Gimlet with lime juice.",
+            "citations": [
+              {
+                "evidence_id": "E00005",
+                "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!"
+              }
+            ]
+          },
+          {
+            "claim": "Lemon and grapefruit in recipes elsewhere were only assistant suggestions, not user-made, so they are not counted.",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "Cucumber Lime Refresher: Muddle sliced cucumber, fresh lime juice, mint leaves, and simple syrup in a shaker."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C02",
+          "C03",
+          "C05"
+        ],
+        "missing": ": any other homemade citrus cocktails not mentioned in the evidence cannot be determined."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": false,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I've been experimenting with bitters lately and recently made my own orange bitters using orange peels and vodka.",
+            "valid": true,
+            "source_id": "c9153f368b92a0a1aa0e04b1c",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T04:58:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+            "valid": true,
+            "source_id": "c8f9041e297070a3be513d341",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T03:44:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class.",
+            "valid": true,
+            "source_id": "c77ccd1970a752a97cb1105f3",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-25T13:21:00+00:00"
+          },
+          {
+            "claim_index": 3,
+            "evidence_id": "E00005",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+            "valid": true,
+            "source_id": "c8b7f5dac3289afd48af13edf",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-30T23:20:00+00:00"
+          },
+          {
+            "claim_index": 4,
+            "evidence_id": "E00002",
+            "quote": "Cucumber Lime Refresher: Muddle sliced cucumber, fresh lime juice, mint leaves, and simple syrup in a shaker.",
+            "valid": false,
+            "source_id": "c77ccd1970a752a97cb1105f3",
+            "possible_message_roles": [],
+            "source_date": "2023-05-25T13:21:00+00:00"
+          }
+        ],
+        "quote_errors": [
+          {
+            "claim_index": 4,
+            "evidence_id": "E00002",
+            "quote": "Cucumber Lime Refresher: Muddle sliced cucumber, fresh lime juice, mint leaves, and simple syrup in a shaker.",
+            "reason": "not an exact contiguous original quote"
+          }
+        ]
+      },
+      "seconds": 12.743142040912062,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P08",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": false,
+        "core_evidence_valid": true,
+        "note": "核心3种与4项实际使用原句齐全、语义正确；附加排除lemon/grapefruit建议的claim引用Cucumber Lime句，既非逐字原句又未证明该附加claim，严格证据不通过。",
+        "request_sha256": "43ec54f8e0a821309081afe509043e4ce50a793be1bd5c1ab6dd399e05ecdd40",
+        "response_sha256": "648dbf3c4e881419842fb3a75025725471f940ce32b389e22829cb3bd4c52c0c",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P09",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "3 days.",
+        "claims": [
+          {
+            "claim": "December 10: church holiday food drive",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need"
+              }
+            ]
+          },
+          {
+            "claim": "December 17: Bible study at church on faith and daily life",
+            "citations": [
+              {
+                "evidence_id": "E00007",
+                "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th"
+              }
+            ]
+          },
+          {
+            "claim": "December 24: midnight mass at St. Mary's Church with family",
+            "citations": [
+              {
+                "evidence_id": "E00005",
+                "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C02",
+          "C05",
+          "C07"
+        ],
+        "missing": "No other December faith-related activities are evidenced."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need",
+            "valid": true,
+            "source_id": "c8531a9f29edb59a4767e8d72",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2024-01-10T02:22:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00007",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th",
+            "valid": true,
+            "source_id": "cc3fbf6478327dbbf685bb205",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2024-01-10T19:48:00+00:00"
+          },
+          {
+            "claim_index": 2,
+            "evidence_id": "E00005",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th",
+            "valid": true,
+            "source_id": "cb5d52df1411ad8bfce6630ad",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2024-01-10T12:30:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 9.59929162519984,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P09",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "Dec10食物募捐、17读经、24弥撒三天齐全。",
+        "request_sha256": "8a7a94bb71b20f108c06cd537d60405bd1d617f338e69924220ec0eb965d1c64",
+        "response_sha256": "7ba9cd8108523801bbecbac22cbacbd7d00951acd31d35cb9277cfe07c668c8a",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P10",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Excluding your thesis, you have been working on 2 projects simultaneously: a Data Mining project and a Database Systems project.",
+        "claims": [
+          {
+            "claim": "The user stated they have separate boards for their thesis, Data Mining project, and Database Systems project, meaning two projects besides the thesis.",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C03"
+        ],
+        "missing": "None."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00003",
+            "quote": "I've created separate boards for my thesis, Data Mining project, and Database Systems project.",
+            "valid": true,
+            "source_id": "c7205aaf4f85c5e920a9e1c57",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-25T11:44:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.505764832952991,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P10",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "明确排除thesis，Data Mining和Database Systems两个项目。",
+        "request_sha256": "b1b8fda717bf732e2058b08d9a4ca288cac66fbb99ea6e4404b5d43be6cbd083",
+        "response_sha256": "84ad54649a39cc1679f47fd502d42635c030e18fa6727600fbdb1aa7d1f28ccf",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P11",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "The famous deli near the Vatican known for its cured meats and cheeses is Roscioli.",
+        "claims": [
+          {
+            "claim": "Roscioli is a famous deli near the Vatican serving the best cured meats, cheeses, and traditional Roman cuisine",
+            "citations": [
+              {
+                "evidence_id": "E00006",
+                "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C06"
+        ],
+        "missing": ": []"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00006",
+            "quote": "There's also Roscioli, a famous deli that serves the best cured meats, cheeses, and traditional Roman cuisine.",
+            "valid": true,
+            "source_id": "c8ae7755b954de1ea86110538",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-26T15:26:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 6.483226292068139,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P11",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆Roscioli；按历史助手回复评分，不核实现实地理。",
+        "request_sha256": "97127f6d3507fb583287fae7a8cc6d0671122ff3ac87be1ae6f1fdb08d005cdc",
+        "response_sha256": "726888e786775003694615362f88be578e3f07c70aa956d1011f1072387038ad",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P12",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "Yes — the show you mentioned was \"Doc Martin.\" In our previous Netflix conversation you said that after a while Netflix took it down and now only the last season is available.",
+        "claims": [
+          {
+            "claim": "The user gave \"doc martin\" as the example of an old show where Netflix now only offers the last season",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I want to be able to have access to all seasons for old shows. I will give you an example, doc martin show went down after a while, and now we have access only to the last season."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C02"
+        ],
+        "missing": ": "
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": false,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I want to be able to have access to all seasons for old shows. I will give you an example, doc martin show went down after a while, and now we have access only to the last season.",
+            "valid": false,
+            "source_id": "c50927ca385b93a348ac133cd",
+            "possible_message_roles": [],
+            "source_date": "2023-05-26T18:07:00+00:00"
+          }
+        ],
+        "quote_errors": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I want to be able to have access to all seasons for old shows. I will give you an example, doc martin show went down after a while, and now we have access only to the last season.",
+            "reason": "not an exact contiguous original quote"
+          }
+        ]
+      },
+      "seconds": 8.537690666969866,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P12",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆Doc Martin；字面引用变化另列。",
+        "request_sha256": "e878cf39743336650bfb9b2f2c2f54d4330fe3c5296645aebe42c77fc81672dc",
+        "response_sha256": "7b850956804f9ef4bd1d40b9283b8ce71e86411bb83fc24cf9568033d78b2ed5",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P13",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "According to the previous chat, the Chiefs and Jaguars played 12 times at Arrowhead Stadium in Kansas City (regular season games only, per a 2021 knowledge cut-off).",
+        "claims": [
+          {
+            "claim": "12 of the 23 Chiefs–Jaguars games were played at Arrowhead Stadium.",
+            "citations": [
+              {
+                "evidence_id": "E00007",
+                "quote": "12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C07"
+        ],
+        "missing": ":none"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00007",
+            "quote": "12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs",
+            "valid": true,
+            "source_id": "cacc96cddded0941e918b8c86",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-28T04:27:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 5.95001016696915,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P13",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆12场与常规赛口径，历史回复含2021截止限定。",
+        "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+        "response_sha256": "368fadf40bdc9e45a23e6fdead00da5828037ead4423b68751a4a6c36e30df6f",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P14",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "The example given was Manolo García, described as a Spanish-Catalan singer-songwriter who has publicly expressed support for unity between Catalonia and Spain.",
+        "claims": [
+          {
+            "claim": "In the earlier conversation, the assistant cited Manolo García as a Spanish-Catalan singer-songwriter supporting unity between Catalonia and Spain.",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01"
+        ],
+        "missing": "none"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain",
+            "valid": true,
+            "source_id": "ce4bde0adad4fe2ecc4bf403f",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-21T10:54:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.800997833022848,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P14",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确回忆Manolo García与支持统一的历史助手例子。",
+        "request_sha256": "1b5e59d4901fa62ba8b8ccf1c69d6bba83855e2b91a6e39f79d27ed5d8489884",
+        "response_sha256": "1a19f0a5b887e9b6299fa47879a92eb94102d53098d0b6450e9afb12be85a4e5",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P15",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "The hostel near the Red Light District mentioned in our earlier conversation was the International Budget Hostel. Note that I didn't personally recommend a favorite — I listed several budget hostels, and the one situated near the Red Light District was: 'International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms. The hostel has a fully equipped kitchen and a lounge area.' (E00005)",
+        "claims": [
+          {
+            "claim": "The hostel near the Red Light District was the International Budget Hostel.",
+            "citations": [
+              {
+                "evidence_id": "E00005",
+                "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms. The hostel has a fully equipped kitchen and a lounge area."
+              }
+            ]
+          },
+          {
+            "claim": "No single hostel was personally recommended as a favorite; the assistant said it does not have personal preferences.",
+            "citations": [
+              {
+                "evidence_id": "E00005",
+                "quote": "I don't have personal preferences or experiences in staying in hostels."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C05"
+        ],
+        "missing": "If you wanted a single recommendation, I can't determine which one the user preferred."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00005",
+            "quote": "International Budget Hostel: This hostel is situated near the famous Red Light District and offers affordable dormitory-style rooms and private rooms. The hostel has a fully equipped kitchen and a lounge area.",
+            "valid": true,
+            "source_id": "c831c3cd021ba61a85c9aa466",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-27T06:49:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00005",
+            "quote": "I don't have personal preferences or experiences in staying in hostels.",
+            "valid": true,
+            "source_id": "c831c3cd021ba61a85c9aa466",
+            "possible_message_roles": [
+              "assistant"
+            ],
+            "source_date": "2023-05-27T06:49:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 9.144837457919493,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P15",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "正确定位International Budget Hostel，补充无个人最爱不构成拒答，主名已明确。",
+        "request_sha256": "94e14ace3c2737a5838693efa558299b5b9b9d98a57f1918e2b06bd2b4ada950",
+        "response_sha256": "de7f29c14a8ce88b30438d5ad06a89b339009aa41a0067aef80747e819c0be0e",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P16",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "17 skeins",
+        "claims": [
+          {
+            "claim": "The user found a stash of 17 skeins of worsted weight yarn.",
+            "citations": [
+              {
+                "evidence_id": "E00008",
+                "quote": "I have a stash of 17 skeins that I found recently"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C08"
+        ],
+        "missing": ": []"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00008",
+            "quote": "I have a stash of 17 skeins that I found recently",
+            "valid": true,
+            "source_id": "c206792b9b44d285b614d229e",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T11:27:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 5.254597041988745,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P16",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "17团worsted yarn，引用USER直接自报。",
+        "request_sha256": "343b8a3ac082b18e091e9d74fc2301b465ba4d040407c10a62806fa1a10c5720",
+        "response_sha256": "5adca8b43db4242cc9aab649db0382befbb61b347905ffea04d07b4518a21a75",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P17",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You reported catching 12 largemouth bass on your last trip to Lake Michigan.",
+        "claims": [
+          {
+            "claim": "The user caught 12 largemouth bass on their last Lake Michigan trip.",
+            "citations": [
+              {
+                "evidence_id": "E00002",
+                "quote": "I caught 12 largemouth bass on my last trip there"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C02"
+        ],
+        "missing": ": false}null{"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00002",
+            "quote": "I caught 12 largemouth bass on my last trip there",
+            "valid": true,
+            "source_id": "c7597a97e2ced0ac9fccbba67",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-21T06:28:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 5.497287834063172,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P17",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "12条largemouth bass，用户过去Lake Michigan之行；区分未来计划。",
+        "request_sha256": "51f61766f7192ee600f03b3b6b918d14913a62ea61edb60bab5f865ac12e6ca9",
+        "response_sha256": "3b094540877f1b37f079559879d144289f00179847e2f68736ad991141735381",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P18",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You spent $800 on the designer handbag.",
+        "claims": [
+          {
+            "claim": "User stated the designer handbag cost $800",
+            "citations": [
+              {
+                "evidence_id": "E00004",
+                "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C04"
+        ],
+        "missing": ": []} nil nil }</think><5e9c7f0d>```json</think><5e9c7f0d>{"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00004",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+            "valid": true,
+            "source_id": "cda869cbb99225b9233bf65e7",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-23T08:15:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.6776204579509795,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P18",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "800美元正确且有USER直接原句。missing字段噪声单列，不无痕修正。",
+        "request_sha256": "c37d01f070f9c30c00dc85e28bbae67596f4f785df0a405516d92bbb85489c59",
+        "response_sha256": "6aaee487eb8ca52606637af63a39214c30ffac1d8d58e00a35103fca0cd755f2",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P19",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You bought your new tennis racket from a sports store downtown.",
+        "claims": [
+          {
+            "claim": "The user stated their new tennis racket came from a sports store downtown.",
+            "citations": [
+              {
+                "evidence_id": "E00003",
+                "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C03"
+        ],
+        "missing": "The exact store name cannot be determined from the provided evidence."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00003",
+            "quote": "I'm really happy with my new tennis racket, which I got from a sports store downtown",
+            "valid": true,
+            "source_id": "cdfeb5d9b5297a62fd0054af3",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-25T21:29:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 5.841815042076632,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P19",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "sports store downtown正确；不要求原文未给出的具体店名。",
+        "request_sha256": "6686c0028fa66d2f94a2c44306609ed597df53bcf95747cd01875ffa464874a7",
+        "response_sha256": "fc361ffc443d5ee66acae23a6788428b20702b5b4e73c4ec4c0c95980b07ea97",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P20",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "You stop checking work emails and messages by 7 pm.",
+        "claims": [
+          {
+            "claim": "The user stated they stop work emails and messages by 7 pm to separate work and personal life.",
+            "citations": [
+              {
+                "evidence_id": "E00009",
+                "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C09"
+        ],
+        "missing": ":none"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00009",
+            "quote": "I've been trying to establish a better evening routine, stopping work emails and messages by 7 pm to separate my work and personal life.",
+            "valid": true,
+            "source_id": "c1c7c4c03a55cac4522db0a20",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-29T04:01:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 5.860480666859075,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P20",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "7pm正确，USER原句直接支持。",
+        "request_sha256": "83cfa2d1aa900c9461c473500cdbb362066fc4f4cdb8e05e1735f3f56193bc5a",
+        "response_sha256": "6a7c107f163a4fbbf97d4b3ef3f17a2c9dbef3373876ef2dce6aaa594dc797ec",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P21",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "abstain",
+        "answer": "无法从提供的证据中确定 Emma、Rachel 和 Alex 三人之间的毕业先后排名。证据分别提到：Emma 高中毕业（\"My niece Emma just graduated yesterady\" – E00003, C03）；Rachel 的硕士学位毕业典礼（\"I just got back from my friend Rachel's master's degree graduation ceremony yesterday\" – E00005, C05）；Alex 约两周前大学毕业（\"my cousin Alex, who graduated with a degree in engineering from college about two weeks ago\" – E00007, C07；E00005 中 Alex 当天毕业）。Emma、Rachel、Alex 的毕业日期可以比较，但没有任何证据表明存在三人之间的名次（第一、第二、第三）。",
+        "claims": [
+          {
+            "claim": "Rachel 的毕业典礼在 Emma 毕业之后（5月28日提到前一天），Alex 毕业约在6月初（7月15日提到两周前）",
+            "citations": []
+          },
+          {
+            "claim": "但没有任何证据涉及三人的名次或排名比较",
+            "citations": []
+          }
+        ],
+        "selected_sources": [
+          "C03",
+          "C05",
+          "C07"
+        ],
+        "missing": "三人毕业排名的信息完全缺失"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [],
+        "quote_errors": []
+      },
+      "seconds": 9.927236624993384,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P21",
+        "official_reference_match": false,
+        "complete_answer": false,
+        "evidence_semantic_valid": false,
+        "core_evidence_valid": false,
+        "note": "误把first/second/third按毕业先后理解为名次，拒答；正确三份源已选，且声称July15两周前是六月初，另有日期错误。不是召回缺源。",
+        "request_sha256": "78a23fe92a53f9e3ec27e5d3b4c32eae0af817dc74b2c1f78f0300bf63c794fb",
+        "response_sha256": "371c4cbf07f0ffbd2bcff152f6ee7081201e5d9ef473586d3687b3949908cf6e",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": false
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P22",
+      "ambiguous": true,
+      "recorded": true,
+      "output": {
+        "status": "partial",
+        "answer": "About 3 weeks ago. You said you had just downloaded Ibotta in a conversation received on 2023-04-16; from the reference time 2023-05-06, that is roughly 3 weeks (about 20 days).",
+        "claims": [
+          {
+            "claim": "The user had just downloaded the cashback app Ibotta as of the conversation on 2023-04-16.",
+            "citations": [
+              {
+                "evidence_id": "E00005",
+                "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C05"
+        ],
+        "missing": "The exact download date is not stated, so the week count is an approximation (~3 weeks, 20 days) based on the conversation date of 2023-04-16 relative to 2023-05-06."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00005",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+            "valid": true,
+            "source_id": "c8ff57a2de289275b2c691222",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-04-16T02:19:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 8.59845466609113,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P22",
+        "official_reference_match": true,
+        "complete_answer": null,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "按Apr16下载到May6约20天/3周匹配原参考；下载≠首次使用的冻结歧义保持，不计明确题主分。",
+        "request_sha256": "61e60e9491e4179991663f0caf8ac680c68cbbf43ba9cf0d9e2503247e912f6c",
+        "response_sha256": "e7e863a4af4d5fb26f070bd9c2dc20c048bb17199731834b4e65b28310bf50e0",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": null
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P23",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "14 days passed between the two events.",
+        "claims": [
+          {
+            "claim": "The user repotted the spider plant on 2023-03-04, per the conversation received that day where the user said: \"I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.\" (E00001, C01)",
+            "citations": [
+              {
+                "evidence_id": "E00001",
+                "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost."
+              }
+            ]
+          },
+          {
+            "claim": "The user gave Mrs. Johnson spider plant cuttings on 2023-03-18, per the conversation received that day where the user said: \"I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today\". (E00006, C06)",
+            "citations": [
+              {
+                "evidence_id": "E00006",
+                "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C01",
+          "C06"
+        ],
+        "missing": ": null} \r"
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today, and it's now enjoying its new pot with a mix of potting soil and compost.",
+            "valid": true,
+            "source_id": "c13c5edb0fd463a670b2d0d3f",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-04T12:05:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00006",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+            "valid": true,
+            "source_id": "ca722cb830ce76b391e670726",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-03-18T08:49:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 7.924663832876831,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P23",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "March4换盆、March18送枝条，14天正确；源时钟与today共同支持。",
+        "request_sha256": "45bcd1fba700beac98ff5b486ec592c0570af899456cf54f9847d1610931d397",
+        "response_sha256": "6fb7e66b9149f87351ddb2169c07161fb8fddf92b61adf6623f9e181bb25ce4e",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P24",
+      "ambiguous": false,
+      "recorded": true,
+      "output": {
+        "status": "answer",
+        "answer": "26 days ago (March 9, 2022).",
+        "claims": [
+          {
+            "claim": "You attended a networking event that ended at 8 PM on the day of the conversation, March 9, 2022.",
+            "citations": [
+              {
+                "evidence_id": "E00007",
+                "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+              }
+            ]
+          },
+          {
+            "claim": "The conversation occurred on 2022-03-09; the reference time is 2022-04-04, which is 26 days later.",
+            "citations": [
+              {
+                "evidence_id": "E00007",
+                "quote": "I'm looking to plan out my schedule for the upcoming week."
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C07"
+        ],
+        "missing": "The exact calendar date of the event is inferred from E00007's received_at (2022-03-09) since the message says 'today' without an explicit date."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00007",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+            "valid": true,
+            "source_id": "c7440c7a3ee7bbb9db6cf5156",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2022-03-09T12:08:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00007",
+            "quote": "I'm looking to plan out my schedule for the upcoming week.",
+            "valid": true,
+            "source_id": "c7440c7a3ee7bbb9db6cf5156",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2022-03-09T12:08:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 8.828802667092532,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P24",
+        "official_reference_match": true,
+        "complete_answer": true,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "March9到April4为26天，核心正确。metadata时间可用，引用字面及引句是否直接表达日期另列，原文不含received_at字段。",
+        "request_sha256": "e54d555e8c6e54c552f6f559ade72db4c0bc7dabb285978a1e4077114dd4566e",
+        "response_sha256": "da123c80f56b69337c69e7ec4e30cb138d8da392e174d38919e17fc0bd7b9bc4",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": true
+    },
+    {
+      "task": "candidate_answer",
+      "case_id": "P25",
+      "ambiguous": true,
+      "recorded": true,
+      "output": {
+        "status": "partial",
+        "answer": "On Tuesdays and Thursdays you wake up 15 minutes earlier than usual, to meditate and practice yoga. Your usual wake-up time is 7:00 AM, which would suggest about 6:45 AM on those days, though the evidence does not explicitly state the exact Tuesday/Thursday wake-up time.",
+        "claims": [
+          {
+            "claim": "On Tuesdays and Thursdays the user wakes up 15 minutes earlier than usual to meditate and do yoga",
+            "citations": [
+              {
+                "evidence_id": "E00004",
+                "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses"
+              }
+            ]
+          },
+          {
+            "claim": "The user's recent wake-up time is 7:00 AM (up from 8:30 AM)",
+            "citations": [
+              {
+                "evidence_id": "E00008",
+                "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call"
+              }
+            ]
+          }
+        ],
+        "selected_sources": [
+          "C04",
+          "C08"
+        ],
+        "missing": "The exact clock time the user wakes up on Tuesdays and Thursdays is not explicitly stated anywhere in the evidence; 6:45 AM is only an inference combining two conversations."
+      },
+      "mechanical": {
+        "schema_valid": true,
+        "errors": [],
+        "quote_valid": true,
+        "citations": [
+          {
+            "claim_index": 0,
+            "evidence_id": "E00004",
+            "quote": "On Tuesdays and Thursdays, I've also started waking up 15 minutes earlier to meditate and practice some yoga poses",
+            "valid": true,
+            "source_id": "c1093bf2c8cd861890c957c5c",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T07:56:00+00:00"
+          },
+          {
+            "claim_index": 1,
+            "evidence_id": "E00008",
+            "quote": "I've recently started waking up at 7:00 AM, which is a big improvement from my usual 8:30 AM wake-up call",
+            "valid": true,
+            "source_id": "cfb475330aad6b2360694d630",
+            "possible_message_roles": [
+              "user"
+            ],
+            "source_date": "2023-05-27T18:20:00+00:00"
+          }
+        ],
+        "quote_errors": []
+      },
+      "seconds": 11.651614791946486,
+      "review": {
+        "task": "candidate_answer",
+        "case_id": "P25",
+        "official_reference_match": true,
+        "complete_answer": null,
+        "evidence_semantic_valid": true,
+        "core_evidence_valid": true,
+        "note": "给出条件推导6:45并明确两源拼接/没有明示具体时刻，匹配原参考；跨时适用关系歧义保持单列。",
+        "request_sha256": "1d5fc888cee602647e22922bceb664725c002bad2d187d61f9c394f09045b480",
+        "response_sha256": "b1b348fef51edb29333e52c5a80660aed7c17e24b118f58349fac7de56b2e660",
+        "reviewer": "parent research assistant; original evidence and frozen semantic policy, no additional model judge"
+      },
+      "state": "scored",
+      "correct": null
+    }
+  ],
+  "semantic_review": "Imported baseline ratings are parent-researcher reviews, not external blind labels; new runs must be reviewed independently of desired ranking."
+}

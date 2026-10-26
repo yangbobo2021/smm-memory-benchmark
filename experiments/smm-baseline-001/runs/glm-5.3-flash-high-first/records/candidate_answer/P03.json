@@ -1,0 +1,123 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P03",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "aa14dfe67c3cde15abad3fca1dc75fc89b9390428837a015b99a90ee46d0dee3",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "Based on the most recent user statement, you had finished 5 issues of National Geographic as of 2023-07-15. Whether any additional issues were finished between that date and the reference time (2023-08-14) cannot be determined from the available evidence.",
+    "claims": [
+      {
+        "claim": "As of April 2023, the user had finished 3 issues of National Geographic and was reading the fourth.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I've been enjoying The New Yorker for their fiction and National Geographic for their in-depth articles on science and nature - I just finished my third issue, and I'm currently on my fourth."
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I remember finishing three issues and I'm currently on my fourth."
+          }
+        ]
+      },
+      {
+        "claim": "By July 2023 (latest update), the user had finished 5 issues.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I've actually been reading a lot about the Amazon rainforest lately, especially in National Geographic - I've finished five issues so far and they've all had great articles on the region."
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "I just finished my fifth issue."
+          }
+        ]
+      },
+      {
+        "claim": "No evidence covers the period between 2023-07-15 and the reference time 2023-08-14, so the count at the reference time cannot be confirmed.",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C03",
+      "C07"
+    ],
+    "missing": "Any reading progress after 2023-07-15T22:42:00+00:00; therefore 'partial' rather than a definitive count at the reference time."
+  },
+  "metrics": {
+    "seconds": 28.233204499818385,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1270,
+      "completion_tokens_details": {
+        "reasoning_tokens": 835
+      },
+      "prompt_tokens": 16962,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 18232
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I've been enjoying The New Yorker for their fiction and National Geographic for their in-depth articles on science and nature - I just finished my third issue, and I'm currently on my fourth.",
+        "valid": true,
+        "source_id": "cd244fcacffe13caffeb31e69",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-20T21:08:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I remember finishing three issues and I'm currently on my fourth.",
+        "valid": true,
+        "source_id": "cd244fcacffe13caffeb31e69",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-20T21:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I've actually been reading a lot about the Amazon rainforest lately, especially in National Geographic - I've finished five issues so far and they've all had great articles on the region.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I just finished my fifth issue.",
+        "valid": true,
+        "source_id": "cab206cf9d24f3f891f2ce248",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-07-15T22:42:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

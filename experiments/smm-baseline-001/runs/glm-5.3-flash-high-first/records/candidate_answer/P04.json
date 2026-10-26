@@ -1,0 +1,89 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "3b57fb3053b2a152331ac12474ba4e884287c9f1711ccb63b983e814a6268832",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit (stated on 2023-09-30, the latest evidence before the reference time).",
+    "claims": [
+      {
+        "claim": "The user earned $420 at the Downtown Farmers Market on their most recent visit.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      },
+      {
+        "claim": "This is more recent than earlier recorded Downtown Farmers Market earnings (March 18th: $220; May 6th: $350), so $420 is the most recent figure.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "March 18th, Downtown Farmers Market, $220; March 25th, Arts and Crafts Fair, $85; April 1st, Earth Day Market, $25; May 6th, Downtown Farmers Market, $350; May 13th, Mother's Day Market, $200; May 20th, Foodie Festival, $400."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C06"
+    ],
+    "missing": "No evidence covers any Downtown Farmers Market visit after 2023-09-30, so the $420 figure reflects the most recent visit known as of the reference time (2023-10-26); any later visits are not recorded in the evidence."
+  },
+  "metrics": {
+    "seconds": 23.55217625014484,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 714,
+      "completion_tokens_details": {
+        "reasoning_tokens": 361
+      },
+      "prompt_tokens": 15322,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 16036
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "March 18th, Downtown Farmers Market, $220; March 25th, Arts and Crafts Fair, $85; April 1st, Earth Day Market, $25; May 6th, Downtown Farmers Market, $350; May 13th, Mother's Day Market, $200; May 20th, Foodie Festival, $400.",
+        "valid": true,
+        "source_id": "ca194573bab838bc02a805cf8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-11T00:10:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

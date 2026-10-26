@@ -1,0 +1,89 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P02",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "e4030ad783d90cb99b197d277b74ad9c42184ce99cd62958b1e005a769807084",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You currently have 20 dozen eggs stocked up in the refrigerator, based on your most recent statement on March 15, 2023 (\"we've got 20 dozen stocked up in the fridge right now\"). This is the latest available figure; an earlier conversation on January 11, 2023 mentioned 30 dozen, but the count has since been updated to 20 dozen.",
+    "claims": [
+      {
+        "claim": "As of March 15, 2023 (the most recent statement before the reference time), the user has 20 dozen eggs stocked in the fridge",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "we've got 20 dozen stocked up in the fridge right now"
+          }
+        ]
+      },
+      {
+        "claim": "In an earlier conversation on January 11, 2023, the user reported having 30 dozen eggs stocked in the fridge, but this is superseded by the later statement",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C06"
+    ],
+    "missing": "No evidence confirms whether any eggs were used after the March 15, 2023 statement (e.g., for the planned quiche), so the exact count on March 16 cannot be verified beyond the stated 20 dozen."
+  },
+  "metrics": {
+    "seconds": 29.868791166925803,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 845,
+      "completion_tokens_details": {
+        "reasoning_tokens": 563
+      },
+      "prompt_tokens": 18872,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 19717
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00006",
+        "quote": "we've got 20 dozen stocked up in the fridge right now",
+        "valid": true,
+        "source_id": "ca3586c9f696b9c5035ebf62c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-15T08:18:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "we have a lot stocked up in the fridge - 30 dozen at the moment!",
+        "valid": true,
+        "source_id": "c4d5e76892eb66ee21cf151ae",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-01-11T23:15:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

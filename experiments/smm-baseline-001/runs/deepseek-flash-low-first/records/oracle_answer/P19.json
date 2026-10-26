@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P19",
+  "task": "oracle_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "8bd414c125f3d82486704485c0cb99fb31fdad9304d3a477c74b9ec277f753b7",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You said you got your new tennis racket from a sports store downtown.",
+    "claims": [
+      {
+        "claim": "The user got the new tennis racket from a sports store downtown.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "my new tennis racket, which I got from a sports store downtown"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "81732b340c0a42b1f75f2df6c4827ea59ed0c629da14b1a2dbf024c1ac975d9b",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 3737,
+      "completion_tokens": 159,
+      "total_tokens": 3896,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 3353
+    },
+    "response_id": "c869519c-4a0d-48e0-8d7c-14129b75ff54",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 2.408837125170976
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "my new tennis racket, which I got from a sports store downtown",
+        "valid": true,
+        "source_id": "cdfeb5d9b5297a62fd0054af3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T21:29:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/oracle_answer/P19.json",
+  "raw_response_sha256": "1536b0f6f8c564a1565c5be60e6ed643628393f831ae56a1aad81d0f8fba6ab5"
+}

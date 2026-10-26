@@ -1,0 +1,68 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "514d998be7fd5ef8241468ffe25b8cb3807f76cb153e604cdb9c5ad013f28050",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit, according to your own statement in the conversation from September 30, 2023 (the most recent evidence available). No later visit is recorded in the supplied evidence.",
+    "claims": [
+      {
+        "claim": "The user stated they earned $420 at the Downtown Farmers Market on their most recent visit",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": "No evidence after 2023-09-30 is available, so it cannot be confirmed whether an even more recent visit occurred before the reference time of 2023-10-26; the $420 figure reflects the latest known statement."
+  },
+  "metrics": {
+    "seconds": 16.098915833048522,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "reasoning_tokens": 541
+      },
+      "prompt_tokens": 5103,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 5820
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

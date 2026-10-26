@@ -1,0 +1,59 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P19",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "8bd414c125f3d82486704485c0cb99fb31fdad9304d3a477c74b9ec277f753b7",
+  "output": {
+    "status": "answer",
+    "answer": "You said you got it from a sports store downtown; the specific store isn’t identified.",
+    "claims": [
+      {
+        "claim": "The racket was from a sports store downtown, but the store’s name is not given.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I got from a sports store downtown."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 3.978697,
+    "thread_setup_seconds": 0.083349,
+    "rate_wait_seconds": 0,
+    "active_seconds": 3.978697,
+    "turn_seconds": 3.895348,
+    "first_text_seconds": 3.335273,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13283,
+      "completion_tokens": 94,
+      "total_tokens": 13377,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P19.json",
+  "raw_receipt_sha256": "1af18d7f357b47dee982a13835e7165c0462e827a78f2ad6d7ad26910c1b0acd",
+  "imported": true,
+  "historical_exact_reuse": true,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P19.json",
+  "reused_first_result": "provenance/reused-first-results/gpt-6-luna/P19.json",
+  "reused_first_result_sha256": "a1dab6927d50e6940dbb1ae672a61a17a9a17fcfe66ba13e2bc9e6ce95a51361"
+}

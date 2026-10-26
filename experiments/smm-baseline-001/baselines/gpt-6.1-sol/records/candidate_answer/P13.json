@@ -1,0 +1,61 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P13",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "48f30232535ba9702beb79dd7ad4fc735a60b23bb2460de67b70ffd5ad7bb3df",
+  "output": {
+    "status": "answer",
+    "answer": "In our previous chat, I said 12 games were played at Arrowhead Stadium, counting regular-season games only, not playoffs.",
+    "claims": [
+      {
+        "claim": "The previous chat stated that the Chiefs played the Jaguars at Arrowhead Stadium 12 times, excluding playoffs.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "Of the 23 games played between the Kansas City Chiefs and the Jacksonville Jaguars, 12 games were played at Arrowhead Stadium in Kansas City, Missouri, which is the home stadium of the Kansas City Chiefs."
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "It is worth mentioning that these statistics are based on regular season games only, not including playoffs games."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 8.765529,
+    "thread_setup_seconds": 0.131705,
+    "rate_wait_seconds": 0,
+    "active_seconds": 8.765529,
+    "turn_seconds": 8.633824,
+    "first_text_seconds": 6.648691,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 31283,
+      "completion_tokens": 170,
+      "total_tokens": 31453,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P13.json",
+  "raw_receipt_sha256": "392d8893db7906048713242e67209d4a0bbaafdd8cb28271986acc0a0175f105",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P13/answer.json"
+}

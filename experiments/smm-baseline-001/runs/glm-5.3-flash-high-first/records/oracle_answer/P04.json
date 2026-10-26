@@ -1,0 +1,104 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P04",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "514d998be7fd5ef8241468ffe25b8cb3807f76cb153e604cdb9c5ad013f28050",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You earned $420 at the Downtown Farmers Market on your most recent visit. This is the latest recorded Downtown Farmers Market figure — earlier visits recorded were $220 on March 18th and $350 on May 6th.",
+    "claims": [
+      {
+        "claim": "The most recent recorded visit to the Downtown Farmers Market earned $420, as stated by the user in the conversation received 2023-09-30.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit."
+          }
+        ]
+      },
+      {
+        "claim": "Prior recorded Downtown Farmers Market visits were $220 on March 18th and $350 on May 6th, confirming $420 corresponds to the most recent visit rather than the earlier ones.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "March 18th, Downtown Farmers Market, $220"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "May 6th, Downtown Farmers Market, $350"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "No earnings records for any Downtown Farmers Market visits after the September 30, 2023 conversation are available, so no newer figure than $420 can be confirmed."
+  },
+  "metrics": {
+    "seconds": 23.472755291033536,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 820,
+      "completion_tokens_details": {
+        "reasoning_tokens": 488
+      },
+      "prompt_tokens": 5103,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 5923
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "By the way, speaking of recent sales, I earned $420 at the Downtown Farmers Market on my most recent visit.",
+        "valid": true,
+        "source_id": "c61dc060a2ddb252dd1eef054",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-09-30T15:13:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "March 18th, Downtown Farmers Market, $220",
+        "valid": true,
+        "source_id": "ca194573bab838bc02a805cf8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-11T00:10:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "May 6th, Downtown Farmers Market, $350",
+        "valid": true,
+        "source_id": "ca194573bab838bc02a805cf8",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-11T00:10:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

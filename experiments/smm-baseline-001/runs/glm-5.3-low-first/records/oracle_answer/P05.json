@@ -1,0 +1,124 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P05",
+  "task": "oracle_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "b990f00d81be44055946bf9d2cba3170253adec0aa71a9be6e1ba8bbb8eeb1c5",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "According to your most recent statement (June 17, 2023), you have spent 10–12 hours on your abstract ocean sculpture, and it is still a work in progress. An earlier statement (June 11, 2023) mentioned around 5–6 hours, but the later figure supersedes it.",
+    "claims": [
+      {
+        "claim": "By June 11, 2023, the user had spent around 5–6 hours on the abstract ocean sculpture",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been working on an abstract ocean ocean sculpture at home, and I've spent around 5-6 hours on it so far."
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been working on an abstract ocean sculpture at home, and I've spent around 5-6 hours on it so far."
+          }
+        ]
+      },
+      {
+        "claim": "By June 17, 2023, the user had spent 10–12 hours on the abstract ocean sculpture, still in progress",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've been spending a lot of time on my abstract ocean sculpture lately - I've already put in 10-12 hours, and it's still a work in progress."
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I've already spent 10-12 hours on my abstract ocean sculpture, and I'm excited to explore new techniques and materials for my next piece."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": "No evidence covers time spent after June 17, 2023, up to the reference time of June 18, 2023, so any additional hours in that period cannot be determined."
+  },
+  "metrics": {
+    "seconds": 8.244495874969289,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 359,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 8389,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 8748
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been working on an abstract ocean ocean sculpture at home, and I've spent around 5-6 hours on it so far.",
+        "valid": false,
+        "source_id": "ca1d9de8e9c37808891cece4b",
+        "possible_message_roles": [],
+        "source_date": "2023-06-11T03:51:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been working on an abstract ocean sculpture at home, and I've spent around 5-6 hours on it so far.",
+        "valid": true,
+        "source_id": "ca1d9de8e9c37808891cece4b",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-11T03:51:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've been spending a lot of time on my abstract ocean sculpture lately - I've already put in 10-12 hours, and it's still a work in progress.",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I've already spent 10-12 hours on my abstract ocean sculpture, and I'm excited to explore new techniques and materials for my next piece.",
+        "valid": true,
+        "source_id": "c4c82a4ec553edba1edf85885",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-06-17T09:26:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been working on an abstract ocean ocean sculpture at home, and I've spent around 5-6 hours on it so far.",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P18",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "c37d01f070f9c30c00dc85e28bbae67596f4f785df0a405516d92bbb85489c59",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You spent $800 on a designer handbag.",
+    "claims": [
+      {
+        "claim": "The user stated they bought a designer handbag for exactly $800.",
+        "citations": [
+          {
+            "evidence_id": "E00004",
+            "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C04"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "b369a96150fd369eb8dbadf72572569a636864366e134d7a6db546f6a475999a",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 23617,
+      "completion_tokens": 262,
+      "total_tokens": 23879,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 23233
+    },
+    "response_id": "ff92c25c-d3ec-4eb3-82b5-aa265e39423b",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 3.5394530000630766
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00004",
+        "quote": "I remember buying a designer handbag for a pretty penny - $800, to be exact.",
+        "valid": true,
+        "source_id": "cda869cbb99225b9233bf65e7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-23T08:15:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P18.json",
+  "raw_response_sha256": "2863ded89a74f6e641a05ae16d933e1e481ee69969d8fe13f45e5baf36726bf7"
+}

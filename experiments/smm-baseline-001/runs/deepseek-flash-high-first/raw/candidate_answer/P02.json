@@ -1,0 +1,22 @@
+{
+  "id": "9622b626-5fa4-49ed-b196-f2ced7933603",
+  "model": "deepseek-flash",
+  "created": 1792982696,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"20 dozen eggs, based on the latest observed user statement on 2023-03-15.\",\"claims\":[{\"claim\":\"The latest observed statement says there were 20 dozen eggs stocked in the refrigerator.\",\"citations\":[{\"evidence_id\":\"E00006\",\"quote\":\"we've got 20 dozen stocked up in the fridge right now\"}]},{\"claim\":\"An earlier statement on 2023-01-11 had reported 30 dozen eggs at that time.\",\"citations\":[{\"evidence_id\":\"E00001\",\"quote\":\"we have a lot stocked up in the fridge - 30 dozen at the moment!\"}]}],\"selected_sources\":[\"C01\",\"C06\"],\"missing\":\"No later observed statement before the reference time changes the 2023-03-15 count.\"}",
+  "usage": {
+    "prompt_tokens": 19183,
+    "completion_tokens": 913,
+    "total_tokens": 20096,
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 742
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 18927
+  },
+  "refusal": null
+}

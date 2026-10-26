@@ -1,0 +1,92 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "e54d555e8c6e54c552f6f559ade72db4c0bc7dabb285978a1e4077114dd4566e",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You attended the networking event 26 days ago. You stated in a conversation on 2022-03-09 that you had 'just got back from a networking event that ran from 6 PM to 8 PM today', so the event took place on 2022-03-09. Counting from there to the reference date 2022-04-04 gives 26 days.",
+    "claims": [
+      {
+        "claim": "The user attended a networking event on 2022-03-09, saying it ran from 6 PM to 8 PM that day.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today"
+          }
+        ]
+      },
+      {
+        "claim": "The conversation containing the networking event statement was received on 2022-03-09T12:08:00+00:00, establishing the event date as 2022-03-09.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I'm looking to plan out my schedule for the upcoming week."
+          }
+        ]
+      },
+      {
+        "claim": "From 2022-03-09 to the reference time 2022-04-04T21:03:00+00:00 is 26 days.",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": "No exact date string for the event exists in the evidence; the date is inferred from E00007's received_at timestamp (2022-03-09) combined with the user's word 'today'."
+  },
+  "metrics": {
+    "seconds": 25.82685958291404,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "reasoning_tokens": 415
+      },
+      "prompt_tokens": 20336,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 21138
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "I just got back from a networking event that ran from 6 PM to 8 PM today",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I'm looking to plan out my schedule for the upcoming week.",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

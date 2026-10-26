@@ -1,0 +1,93 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P22",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "fc60437c99f29639e0e59acf1a46a138b27ce4e294de201adda5f04e09d6bfc0",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Approximately 3 weeks ago (exactly 20 days — 2 weeks and 6 days). You stated you had 'just downloaded' Ibotta in the conversation received on 2023-04-16T02:19:00+00:00; measured from the reference time of 2023-05-06T09:18:00+00:00, that is 20 days, or roughly 3 weeks.",
+    "claims": [
+      {
+        "claim": "You started using Ibotta around the time of the conversation on 2023-04-16, when you said you had just downloaded it.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items"
+          }
+        ]
+      },
+      {
+        "claim": "The conversation where you mentioned just downloading Ibotta was received at 2023-04-16T02:19:00+00:00, which is 20 days (2 weeks and 6 days, ~2.9 weeks) before the reference time of 2023-05-06T09:18:00+00:00.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "received_at: 2023-04-16T02:19:00+00:00"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": "The exact download date/time is not stated in the evidence; 'just downloaded' is only anchored to the conversation date of 2023-04-16, so the ~3-week figure is an approximation based on that anchor."
+  },
+  "metrics": {
+    "seconds": 27.06491587497294,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 1222,
+      "completion_tokens_details": {
+        "reasoning_tokens": 829
+      },
+      "prompt_tokens": 3400,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 4622
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've just downloaded Ibotta, a cashback app that gives you rebates on certain grocery items",
+        "valid": true,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at: 2023-04-16T02:19:00+00:00",
+        "valid": false,
+        "source_id": "c8ff57a2de289275b2c691222",
+        "possible_message_roles": [],
+        "source_date": "2023-04-16T02:19:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "received_at: 2023-04-16T02:19:00+00:00",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

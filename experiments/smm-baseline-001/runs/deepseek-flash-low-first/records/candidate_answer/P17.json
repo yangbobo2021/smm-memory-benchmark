@@ -1,0 +1,76 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P17",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "51f61766f7192ee600f03b3b6b918d14913a62ea61edb60bab5f865ac12e6ca9",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "You caught 12 largemouth bass on that Lake Michigan fishing trip.",
+    "claims": [
+      {
+        "claim": "The user stated they caught 12 largemouth bass on their last trip to Lake Michigan.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I caught 12 largemouth bass on my last trip there"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "38ba4bc6c77e8c6e506178923a0e2cd27e987c8085881efd1ccb1e9a6f95ba96",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 24721,
+      "completion_tokens": 312,
+      "total_tokens": 25033,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 220
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 24337
+    },
+    "response_id": "970a49e4-45a1-4e19-a24f-91b0db06d9e3",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.298310374841094
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I caught 12 largemouth bass on my last trip there",
+        "valid": true,
+        "source_id": "c7597a97e2ced0ac9fccbba67",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T06:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P17.json",
+  "raw_response_sha256": "2b0d765eca0c75c6f50f7506362d8ba50f476cd3dadeceda9375b4c148e2a184"
+}

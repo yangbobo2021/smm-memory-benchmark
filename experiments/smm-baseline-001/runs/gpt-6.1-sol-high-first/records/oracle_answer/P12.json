@@ -1,0 +1,72 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "oracle_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "backend": "codex",
+  "request_sha256": "aed050931b9242d9a99eae557b592f91c5e0f0a9f3f283a5ec6918a58b6a01ba",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The show was **Doc Martin**. You said only the last season was still available.",
+    "claims": [
+      {
+        "claim": "You used Doc Martin as the example of a show with only the last season available.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.14729,
+    "thread_setup_seconds": 0.100479,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.14729,
+    "turn_seconds": 7.046811,
+    "first_text_seconds": 5.743064,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 12434,
+      "completion_tokens": 114,
+      "total_tokens": 12548,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I will give you an example, \"doc martin\" show went down after a while, and now we have access only to the last season.",
+        "valid": true,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

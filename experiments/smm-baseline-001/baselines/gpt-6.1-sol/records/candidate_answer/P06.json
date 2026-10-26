@@ -1,0 +1,62 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P06",
+  "task": "candidate_answer",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "e36b3fe9dcb20ea4ece791c5b1da9deb6921e29101fc642b92a5f9a601c8dd17",
+  "output": {
+    "status": "answer",
+    "answer": "You attend fitness classes 4 days a week: Zumba on Tuesdays and Thursdays, yoga on Wednesdays, and weightlifting on Saturdays.",
+    "claims": [
+      {
+        "claim": "You attend fitness classes four days a week: Tuesday, Wednesday, Thursday, and Saturday.",
+        "citations": [
+          {
+            "evidence_id": "E00006",
+            "quote": "I attend Zumba classes on Tuesdays and Thursdays at 6:30 pm, and a weightlifting class on Saturdays at 10 am."
+          },
+          {
+            "evidence_id": "E00005",
+            "quote": "I've been trying to mix up my routine and recently started a yoga class on Wednesdays"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C05",
+      "C06"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 7.220948,
+    "thread_setup_seconds": 0.076026,
+    "rate_wait_seconds": 0,
+    "active_seconds": 7.220948,
+    "turn_seconds": 7.144922,
+    "first_text_seconds": 4.874229,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 32652,
+      "completion_tokens": 153,
+      "total_tokens": 32805,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P06.json",
+  "raw_receipt_sha256": "434ed0f0f86ba5a4de6a0904bbe4f2c2f7d716d246fa1c2f523f0078d997aceb",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6.1-sol/P06/answer.json"
+}

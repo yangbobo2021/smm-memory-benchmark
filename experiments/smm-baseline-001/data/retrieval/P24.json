@@ -1,0 +1,659 @@
+{
+  "case_id": "P24",
+  "product": "smm",
+  "namespace": "q697fab353d9d_n100",
+  "query": "How many days ago did I attend a networking event?",
+  "clock": "2022-04-04T21:03:00+00:00",
+  "native": {
+    "native": {
+      "bm25": [
+        {
+          "source_id": "c7440c7a3ee7bbb9db6cf5156",
+          "score": 11.00395133144946
+        },
+        {
+          "source_id": "c33207349585e4a0a1290cf7b",
+          "score": 7.673295154773246
+        },
+        {
+          "source_id": "ca6ffab02c0a7353edc0a9ae0",
+          "score": 6.5273962180141805
+        },
+        {
+          "source_id": "c707580c59d7a2904eea24bfa",
+          "score": 3.8994629774219534
+        },
+        {
+          "source_id": "c8f9ea95d5e81ca55d560b767",
+          "score": 3.810168092320001
+        },
+        {
+          "source_id": "cd912cc22d82a98eee2745b12",
+          "score": 3.7771423486256293
+        },
+        {
+          "source_id": "c3e5d2a1044825556154589fd",
+          "score": 2.909194227549851
+        },
+        {
+          "source_id": "c987251d3cae7981de1c18473",
+          "score": 2.577981892585163
+        },
+        {
+          "source_id": "c397064c41a046192f1249055",
+          "score": 2.472975039782711
+        },
+        {
+          "source_id": "cff2b43ed2df3b4680bb9a002",
+          "score": 2.230847515006569
+        }
+      ],
+      "vector": [
+        {
+          "source_id": "ca6ffab02c0a7353edc0a9ae0",
+          "score": 0.44525798916828085
+        },
+        {
+          "source_id": "cc983548df17d4a73ab6ea74f",
+          "score": 0.40581794474530325
+        },
+        {
+          "source_id": "c397064c41a046192f1249055",
+          "score": 0.31631940299896016
+        },
+        {
+          "source_id": "c285a00e3c798da8748fc969a",
+          "score": 0.31169711257109306
+        },
+        {
+          "source_id": "c3e5d2a1044825556154589fd",
+          "score": 0.3014700522227683
+        },
+        {
+          "source_id": "cd912cc22d82a98eee2745b12",
+          "score": 0.25800851345630854
+        },
+        {
+          "source_id": "c38329056a2897b405f0bae07",
+          "score": 0.25102939557016324
+        },
+        {
+          "source_id": "c7440c7a3ee7bbb9db6cf5156",
+          "score": 0.2347543628716907
+        },
+        {
+          "source_id": "ce9b75180dbba410d1707dd69",
+          "score": 0.21149193998833127
+        },
+        {
+          "source_id": "c8f9ea95d5e81ca55d560b767",
+          "score": 0.2081291135582642
+        }
+      ],
+      "ordering": "lexical-first round-robin; no score fusion"
+    },
+    "items": [
+      {
+        "item_id": "bm25:c7440c7a3ee7bbb9db6cf5156-c0000",
+        "source_ids": [
+          "c7440c7a3ee7bbb9db6cf5156"
+        ],
+        "hint": "upcoming week. I have a few commitments already, but I want to make sure I don't overbook myself. By the way, I just got back from a networking event that ran from 6 PM to 8 PM today, and I'm feeling a bit drained. Can you help me organize my tasks and appointments for the next few days?\n\nASSISTANT:\nI'd be happy to help you plan out your schedule for the week.\n\nFirst, let's take into account your ",
+        "kind": "bm25-original-match-index",
+        "score": 11.00395133144946,
+        "metadata": {
+          "source_id": "c7440c7a3ee7bbb9db6cf5156",
+          "score": 11.00395133144946,
+          "route": "bm25",
+          "route_rank": 1,
+          "chunk_id": "c7440c7a3ee7bbb9db6cf5156-c0000",
+          "start": 50,
+          "end": 450,
+          "source_sha256": "c30ee3d1ee1288697f453e38fb85a633651f269822a2739344bdcfd263739a1c"
+        }
+      },
+      {
+        "item_id": "vector:ca6ffab02c0a7353edc0a9ae0-c0011",
+        "source_ids": [
+          "ca6ffab02c0a7353edc0a9ae0"
+        ],
+        "hint": "ed. I'm a text-based AI assistant, and our conversation just started, so I wasn't aware of your participation in a \"Walk for Cancer\" event on May 15th.\n\nTo find more information about the organization that hosted the event, you can try the following:\n\n1. **Check your event registration or participation materials**: Look for any materials you received during or after the event, such as a registrati",
+        "kind": "vector-original-match-index",
+        "score": 0.44525798916828085,
+        "metadata": {
+          "source_id": "ca6ffab02c0a7353edc0a9ae0",
+          "score": 0.44525798916828085,
+          "route": "vector",
+          "route_rank": 1,
+          "chunk_id": "ca6ffab02c0a7353edc0a9ae0-c0011",
+          "start": 7614,
+          "end": 8014,
+          "source_sha256": "63d86d110554dfa5a23e5a5649698aa1bd73668b18e9d2735f900998e8d5eb6e"
+        }
+      },
+      {
+        "item_id": "bm25:c33207349585e4a0a1290cf7b-c0002",
+        "source_ids": [
+          "c33207349585e4a0a1290cf7b"
+        ],
+        "hint": "w Testament of the Bible?\n\nUSER:\nIt is not a question of yes or no\n\nASSISTANT:\nI see, then is the character Jesus Christ?\n\nUSER:\nHow did you get to that? No. you were wrong I said that I could not answer the previous question because it was not a yes or no question. keep trying\n\nASSISTANT:\nI apologize for misunderstanding. I will continue to ask questions to try and guess the character. Is the cha",
+        "kind": "bm25-original-match-index",
+        "score": 7.673295154773246,
+        "metadata": {
+          "source_id": "c33207349585e4a0a1290cf7b",
+          "score": 7.673295154773246,
+          "route": "bm25",
+          "route_rank": 2,
+          "chunk_id": "c33207349585e4a0a1290cf7b-c0002",
+          "start": 2279,
+          "end": 2679,
+          "source_sha256": "c5c98788b02492c46a5f5970697bc3bf7d0403ab6ca8e882d0975e62e4d85d47"
+        }
+      },
+      {
+        "item_id": "vector:cc983548df17d4a73ab6ea74f-c0000",
+        "source_ids": [
+          "cc983548df17d4a73ab6ea74f"
+        ],
+        "hint": "'m glad to hear that you're interested in discussing Earth Day 2023! I'm generally available on weekdays between 9:00 AM and 5:00 PM EST. To make it easier for you, please feel free to select a date and time that works best for you using the link below, and a meeting will be scheduled on our calendars:\n\n<https://bit.ly/Meet-With-ForTreesClub>\n\nLooking forward to our conversation!\n\nBest regards,\nJo",
+        "kind": "vector-original-match-index",
+        "score": 0.40581794474530325,
+        "metadata": {
+          "source_id": "cc983548df17d4a73ab6ea74f",
+          "score": 0.40581794474530325,
+          "route": "vector",
+          "route_rank": 2,
+          "chunk_id": "cc983548df17d4a73ab6ea74f-c0000",
+          "start": 37,
+          "end": 437,
+          "source_sha256": "92af4006a9ca26993afc104b9f3d9fefd552d69cb0e5fcda5f7d4af1cc0eceb9"
+        }
+      },
+      {
+        "item_id": "bm25:ca6ffab02c0a7353edc0a9ae0-c0010",
+        "source_ids": [
+          "ca6ffab02c0a7353edc0a9ae0"
+        ],
+        "hint": "\n\nUSER:\nI'll definitely check out those websites and do my research before donating or participating in any charity events. I'm also interested in learning more about the charities I've already participated in, like the \"Walk for Cancer\" event I did on May 15th. Do you know how I can find out more about the organization that hosted that event?",
+        "kind": "bm25-original-match-index",
+        "score": 6.5273962180141805,
+        "metadata": {
+          "source_id": "ca6ffab02c0a7353edc0a9ae0",
+          "score": 6.5273962180141805,
+          "route": "bm25",
+          "route_rank": 3,
+          "chunk_id": "ca6ffab02c0a7353edc0a9ae0-c0010",
+          "start": 7015,
+          "end": 7360,
+          "source_sha256": "63d86d110554dfa5a23e5a5649698aa1bd73668b18e9d2735f900998e8d5eb6e"
+        }
+      },
+      {
+        "item_id": "vector:c397064c41a046192f1249055-c0011",
+        "source_ids": [
+          "c397064c41a046192f1249055"
+        ],
+        "hint": " theme:** Read the challenge description to understand the theme, rules, and any specific requirements.\n3. **Post your photo:** Take a new photo that fits the theme or select one from your archives. Edit and caption your photo as you normally would.\n4. **Use the hashtag:** Include the designated hashtag in your caption so that your photo appears in the challenge feed.\n5. **Engage with others:** Br",
+        "kind": "vector-original-match-index",
+        "score": 0.31631940299896016,
+        "metadata": {
+          "source_id": "c397064c41a046192f1249055",
+          "score": 0.31631940299896016,
+          "route": "vector",
+          "route_rank": 3,
+          "chunk_id": "c397064c41a046192f1249055-c0011",
+          "start": 7085,
+          "end": 7485,
+          "source_sha256": "3e9ec86624c4ee198c663c6b0bd7970bf5d3ee0d721693f30c45b56ba480894c"
+        }
+      },
+      {
+        "item_id": "bm25:c707580c59d7a2904eea24bfa-c0000",
+        "source_ids": [
+          "c707580c59d7a2904eea24bfa"
+        ],
+        "hint": "USER:\nHow did the Third Anglo-Afghan War in 1919 influence the relationship between Great Britain and Afghanistan?\n\nASSISTANT:\nThe Third Anglo-Afghan War in 1919 marked the end of British control over Afghanistan. The war was fought between the British Indian Empire and Afghanistan, and resulted in Afghanistan regaining its independence from British control.\n\nThe war had a significant impact on th",
+        "kind": "bm25-original-match-index",
+        "score": 3.8994629774219534,
+        "metadata": {
+          "source_id": "c707580c59d7a2904eea24bfa",
+          "score": 3.8994629774219534,
+          "route": "bm25",
+          "route_rank": 4,
+          "chunk_id": "c707580c59d7a2904eea24bfa-c0000",
+          "start": 0,
+          "end": 400,
+          "source_sha256": "f636490b8cdda606917ef8a9d9be1a899d9930f2217b5c694642a493eb548a88"
+        }
+      },
+      {
+        "item_id": "vector:c285a00e3c798da8748fc969a-c0000",
+        "source_ids": [
+          "c285a00e3c798da8748fc969a"
+        ],
+        "hint": "USER:\nI'm trying to plan my week and was wondering if you can remind me what time the recreation center opens on Mondays? By the way, I have a Zumba class at 6:30 pm that day, so I want to make sure I have enough time to get there beforehand.",
+        "kind": "vector-original-match-index",
+        "score": 0.31169711257109306,
+        "metadata": {
+          "source_id": "c285a00e3c798da8748fc969a",
+          "score": 0.31169711257109306,
+          "route": "vector",
+          "route_rank": 4,
+          "chunk_id": "c285a00e3c798da8748fc969a-c0000",
+          "start": 0,
+          "end": 242,
+          "source_sha256": "7bd22b6bd290962dd587946ce415f8869174c3a70cbb7957589f07fcc95dfac9"
+        }
+      },
+      {
+        "item_id": "bm25:c8f9ea95d5e81ca55d560b767-c0002",
+        "source_ids": [
+          "c8f9ea95d5e81ca55d560b767"
+        ],
+        "hint": "days.\n5. **Professional development experience**: Treat her to a networking event, conference, or workshop related to marketing. This can help her build connections and learn from industry experts.\n6. **Tech gadgets**: A wireless charging pad, a portable power bank, or a high-tech phone case can be a practical and useful gift for her daily commute or work routine.\n7. **Customized coffee mug or wat",
+        "kind": "bm25-original-match-index",
+        "score": 3.810168092320001,
+        "metadata": {
+          "source_id": "c8f9ea95d5e81ca55d560b767",
+          "score": 3.810168092320001,
+          "route": "bm25",
+          "route_rank": 5,
+          "chunk_id": "c8f9ea95d5e81ca55d560b767-c0002",
+          "start": 1176,
+          "end": 1576,
+          "source_sha256": "619b4ee2dda70cd3ac9b485d12879a55f02625891597bcda0002154bd2b0d6bf"
+        }
+      },
+      {
+        "item_id": "vector:c3e5d2a1044825556154589fd-c0015",
+        "source_ids": [
+          "c3e5d2a1044825556154589fd"
+        ],
+        "hint": "s, baby showers, holidays)\n* Set reminders for multiple days in advance to give yourself plenty of time to prepare\n* Consider setting recurring events for annual birthdays and other regular celebrations\n* Share your calendar with family members or friends to keep them informed about upcoming events\n\nBy using Google Calendar to stay organized, you'll be able to focus on what really matters – celebr",
+        "kind": "vector-original-match-index",
+        "score": 0.3014700522227683,
+        "metadata": {
+          "source_id": "c3e5d2a1044825556154589fd",
+          "score": 0.3014700522227683,
+          "route": "vector",
+          "route_rank": 5,
+          "chunk_id": "c3e5d2a1044825556154589fd-c0015",
+          "start": 9515,
+          "end": 9915,
+          "source_sha256": "ed2e7cded6c3a8fb9f0f4b4cf839bf07194f496a117aa030c511f5a9a13b5daf"
+        }
+      },
+      {
+        "item_id": "bm25:cd912cc22d82a98eee2745b12-c0006",
+        "source_ids": [
+          "cd912cc22d82a98eee2745b12"
+        ],
+        "hint": "each track's specific rules, including flags, passing zones, and pit lane procedures.\n4. **Event requirements:** Check with the event organizer for specific requirements, such as a minimum number of track days or experience levels.\n\nIt's always a good idea to review the track's website, event details, and communicate with the organizers to ensure you're prepared and compliant with all safety requi",
+        "kind": "bm25-original-match-index",
+        "score": 3.7771423486256293,
+        "metadata": {
+          "source_id": "cd912cc22d82a98eee2745b12",
+          "score": 3.7771423486256293,
+          "route": "bm25",
+          "route_rank": 6,
+          "chunk_id": "cd912cc22d82a98eee2745b12-c0006",
+          "start": 4271,
+          "end": 4671,
+          "source_sha256": "ae1ccc3175e6ed06f263707d4f6063f3a8520f654040ac6d106b8b8505586b6d"
+        }
+      },
+      {
+        "item_id": "vector:cd912cc22d82a98eee2745b12-c0002",
+        "source_ids": [
+          "cd912cc22d82a98eee2745b12"
+        ],
+        "hint": "s a unique, airfield-based AutoX experience with a mix of fast straights and technical turns.\n\nThese tracks are all well-regarded and have hosted numerous AutoX events. Be sure to check the schedule for each track to ensure they're hosting an event during your visit in August.\n\nDo you have a specific region in California you'll be visiting, or would you be willing to travel to any of these tracks?",
+        "kind": "vector-original-match-index",
+        "score": 0.25800851345630854,
+        "metadata": {
+          "source_id": "cd912cc22d82a98eee2745b12",
+          "score": 0.25800851345630854,
+          "route": "vector",
+          "route_rank": 6,
+          "chunk_id": "cd912cc22d82a98eee2745b12-c0002",
+          "start": 1812,
+          "end": 2212,
+          "source_sha256": "ae1ccc3175e6ed06f263707d4f6063f3a8520f654040ac6d106b8b8505586b6d"
+        }
+      },
+      {
+        "item_id": "bm25:c3e5d2a1044825556154589fd-c0012",
+        "source_ids": [
+          "c3e5d2a1044825556154589fd"
+        ],
+        "hint": " the following:\n\n* Set reminders 2-3 weeks in advance to give yourself time to plan and budget for gifts.\n* Include details like the event type, person's name, and gift ideas in the reminder note.\n* Set multiple reminders for the same event, spaced out over time, to ensure you don't forget.\n* Consider setting a recurring reminder for annual events, like birthdays, to make it easier to plan ahead.\n",
+        "kind": "bm25-original-match-index",
+        "score": 2.909194227549851,
+        "metadata": {
+          "source_id": "c3e5d2a1044825556154589fd",
+          "score": 2.909194227549851,
+          "route": "bm25",
+          "route_rank": 7,
+          "chunk_id": "c3e5d2a1044825556154589fd-c0012",
+          "start": 7778,
+          "end": 8178,
+          "source_sha256": "ed2e7cded6c3a8fb9f0f4b4cf839bf07194f496a117aa030c511f5a9a13b5daf"
+        }
+      },
+      {
+        "item_id": "vector:c38329056a2897b405f0bae07-c0013",
+        "source_ids": [
+          "c38329056a2897b405f0bae07"
+        ],
+        "hint": "\n\nUSER:\nYeah, that sounds good. I think it'll be helpful to go back to that beach and reflect on the good times we had together. It's been three months since she passed away on February 10th, and it still feels surreal. I'm hoping this trip will help me process everything and move forward. Do you think I should plan anything specific for the trip, like a ceremony or something?",
+        "kind": "vector-original-match-index",
+        "score": 0.25102939557016324,
+        "metadata": {
+          "source_id": "c38329056a2897b405f0bae07",
+          "score": 0.25102939557016324,
+          "route": "vector",
+          "route_rank": 7,
+          "chunk_id": "c38329056a2897b405f0bae07-c0013",
+          "start": 8602,
+          "end": 8981,
+          "source_sha256": "1aa523f248df7ba3bf543c25a8e79659abef5f9503f4cc2247feb9898f544fad"
+        }
+      },
+      {
+        "item_id": "bm25:c987251d3cae7981de1c18473-c0000",
+        "source_ids": [
+          "c987251d3cae7981de1c18473"
+        ],
+        "hint": "h-level overview of how this system might work, and some of the key components you would need to develop to make it happen.\n\n1. Game Event Triggering\nThe first step is to set up event listeners that detect when a game has started and ended, and who the winner is. These events could be triggered by OCR that detects game state changes, or could be triggered manually by players through a UI. Once the",
+        "kind": "bm25-original-match-index",
+        "score": 2.577981892585163,
+        "metadata": {
+          "source_id": "c987251d3cae7981de1c18473",
+          "score": 2.577981892585163,
+          "route": "bm25",
+          "route_rank": 8,
+          "chunk_id": "c987251d3cae7981de1c18473-c0000",
+          "start": 149,
+          "end": 549,
+          "source_sha256": "bcef55f07b6a1f69b037fd314bd812197e81bae2d66e410edfa63edb3e287f94"
+        }
+      },
+      {
+        "item_id": "vector:c7440c7a3ee7bbb9db6cf5156-c0000",
+        "source_ids": [
+          "c7440c7a3ee7bbb9db6cf5156"
+        ],
+        "hint": "upcoming week. I have a few commitments already, but I want to make sure I don't overbook myself. By the way, I just got back from a networking event that ran from 6 PM to 8 PM today, and I'm feeling a bit drained. Can you help me organize my tasks and appointments for the next few days?\n\nASSISTANT:\nI'd be happy to help you plan out your schedule for the week.\n\nFirst, let's take into account your ",
+        "kind": "vector-original-match-index",
+        "score": 0.2347543628716907,
+        "metadata": {
+          "source_id": "c7440c7a3ee7bbb9db6cf5156",
+          "score": 0.2347543628716907,
+          "route": "vector",
+          "route_rank": 8,
+          "chunk_id": "c7440c7a3ee7bbb9db6cf5156-c0000",
+          "start": 50,
+          "end": 450,
+          "source_sha256": "c30ee3d1ee1288697f453e38fb85a633651f269822a2739344bdcfd263739a1c"
+        }
+      },
+      {
+        "item_id": "bm25:c397064c41a046192f1249055-c0023",
+        "source_ids": [
+          "c397064c41a046192f1249055"
+        ],
+        "hint": "n to visit many of the famous temples and shrines, such as the Tokyo Tower, Meiji Shrine, and Kiyomizu-dera Temple. I'd also love to attend a traditional tea ceremony, learn about the art of calligraphy, and explore the fascinating world of sumo wrestling.\n\nThank you for offering your advice and recommendations! I'm sure I'll have a more enriching and memorable trip to Japan with your guidance.\n\nW",
+        "kind": "bm25-original-match-index",
+        "score": 2.472975039782711,
+        "metadata": {
+          "source_id": "c397064c41a046192f1249055",
+          "score": 2.472975039782711,
+          "route": "bm25",
+          "route_rank": 9,
+          "chunk_id": "c397064c41a046192f1249055-c0023",
+          "start": 16686,
+          "end": 17086,
+          "source_sha256": "3e9ec86624c4ee198c663c6b0bd7970bf5d3ee0d721693f30c45b56ba480894c"
+        }
+      },
+      {
+        "item_id": "vector:ce9b75180dbba410d1707dd69-c0000",
+        "source_ids": [
+          "ce9b75180dbba410d1707dd69"
+        ],
+        "hint": "USER:\nI'm due for an oil change soon, can you remind me how often I should do it?",
+        "kind": "vector-original-match-index",
+        "score": 0.21149193998833127,
+        "metadata": {
+          "source_id": "ce9b75180dbba410d1707dd69",
+          "score": 0.21149193998833127,
+          "route": "vector",
+          "route_rank": 9,
+          "chunk_id": "ce9b75180dbba410d1707dd69-c0000",
+          "start": 0,
+          "end": 81,
+          "source_sha256": "52cc685a83ad020736376f2b07ce1ee83d1dff68dc441b7806211a6bc10937dd"
+        }
+      },
+      {
+        "item_id": "bm25:cff2b43ed2df3b4680bb9a002-c0020",
+        "source_ids": [
+          "cff2b43ed2df3b4680bb9a002"
+        ],
+        "hint": "*KVR Audio:** A community for music producers, featuring forums, reviews, and resources on music software and gear.\n\n**Songwriting Communities:**\n\n1. **Songwriting.net:** A community for songwriters, featuring forums, articles, and resources on songwriting.\n2. **Songwriter's Guild of America:** A community for songwriters, featuring forums, resources, and networking opportunities.\n3. **Reddit:**\n\t",
+        "kind": "bm25-original-match-index",
+        "score": 2.230847515006569,
+        "metadata": {
+          "source_id": "cff2b43ed2df3b4680bb9a002",
+          "score": 2.230847515006569,
+          "route": "bm25",
+          "route_rank": 10,
+          "chunk_id": "cff2b43ed2df3b4680bb9a002-c0020",
+          "start": 13916,
+          "end": 14316,
+          "source_sha256": "3914ef52387937b7443064e099db56ec4fcca616378f64aea41d2a2cc52a6251"
+        }
+      },
+      {
+        "item_id": "vector:c8f9ea95d5e81ca55d560b767-c0010",
+        "source_ids": [
+          "c8f9ea95d5e81ca55d560b767"
+        ],
+        "hint": "an onsen to relax and unwind, like Otemba Hot Spring in Tokyo or Kusatsu Onsen in the Japanese Alps.\n2. **Tea ceremony:** Experience a traditional Japanese tea ceremony in Kyoto or Tokyo.\n3. **Foodie adventures:** Try popular Japanese dishes like sushi, ramen, udon, or okonomiyaki, and visit local markets like Tsukiji Outer Market or Osaka's Kuromon Ichiba Market.\n4. **Sumo tournament:** If your b",
+        "kind": "vector-original-match-index",
+        "score": 0.2081291135582642,
+        "metadata": {
+          "source_id": "c8f9ea95d5e81ca55d560b767",
+          "score": 0.2081291135582642,
+          "route": "vector",
+          "route_rank": 10,
+          "chunk_id": "c8f9ea95d5e81ca55d560b767-c0010",
+          "start": 6098,
+          "end": 6498,
+          "source_sha256": "619b4ee2dda70cd3ac9b485d12879a55f02625891597bcda0002154bd2b0d6bf"
+        }
+      }
+    ]
+  },
+  "candidate_source_ids": [
+    "c7440c7a3ee7bbb9db6cf5156",
+    "c33207349585e4a0a1290cf7b",
+    "ca6ffab02c0a7353edc0a9ae0",
+    "c707580c59d7a2904eea24bfa",
+    "c8f9ea95d5e81ca55d560b767",
+    "cc983548df17d4a73ab6ea74f",
+    "c397064c41a046192f1249055",
+    "c285a00e3c798da8748fc969a",
+    "c3e5d2a1044825556154589fd"
+  ],
+  "raw_cards": [
+    {
+      "source_id": "c7440c7a3ee7bbb9db6cf5156",
+      "source_date": "2022-03-09T12:08:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "USER:\nI'm looking to plan out my schedule for the upcoming week. I have a few commitments already, but I want to make sure I don't overbook myself. By the way, I just got back from a networking event that ran from 6 PM to 8 PM today, and I'm feeling a bit drained. Can you help me organize my tasks and appointments for the next few days?\n\nASSISTANT:\nI'd be happy to help you plan out your schedule f",
+          "start": 0,
+          "end": 400
+        },
+        {
+          "role": "assistant",
+          "text": "etting ready\n* Afternoon: Fit in a energizing activity, such as a workout or a walk/jog\n* Late Afternoon: Meal-prep for the next few days to save time and energy\n* Evening: Relax and unwind with a book, movie, or a calming activity\n\n**Tuesday**\n\n* Morning: Focus on your project work (try to get a good chunk done before your meeting)\n* 2 PM: Attend your meeting\n* Afternoon: Continue working on your",
+          "start": 1677,
+          "end": 2077
+        }
+      ]
+    },
+    {
+      "source_id": "c33207349585e4a0a1290cf7b",
+      "source_date": "2022-03-09T09:03:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "sing the character with the information provided. May I have more clues?\n\nUSER:\nThe figure is really ancient, several thousand years ago\n\nASSISTANT:\nIs the character from ancient Greece or ancient Rome?\n\nUSER:\nNo\n\nASSISTANT:\nIs the character from ancient Egypt?\n\nUSER:\nHaha, that's a funny question because of the answer. so i will say 'almost'\n\nASSISTANT:\nIs the character from Mesopotamia?\n\nUSER:\nN",
+          "start": 1354,
+          "end": 1754
+        },
+        {
+          "role": "user",
+          "text": "USER:\nDo you know the game called 'characters'? I'll explain the rules, then we'll play. I choose a famous character (can be alive or dead, real or from a movie, etc.). Your goal is to find out what character I have chosen. You do this by asking questions. You'll ask me questions like \"Is he alive today?\" \"Is he male?\" etc. And I'll answer 'yes' or 'no'. Then, after you've asked enough questions, ",
+          "start": 0,
+          "end": 400
+        }
+      ]
+    },
+    {
+      "source_id": "ca6ffab02c0a7353edc0a9ae0",
+      "source_date": "2022-02-19T18:37:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": ", where many yoga studios have business pages. You can search for yoga studios in your area and check their pages for schedules, prices, and class descriptions.\n4. Ask Around: Ask friends, family, or coworkers if they know of any good yoga studios in your area. Personal recommendations can be a great way to find a studio that suits your needs.\n5. Check with Local Gyms: Many gyms offer yoga classes",
+          "start": 1159,
+          "end": 1559
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nI'm glad you're taking the time to research the charities you've participated in! However, I need to clarify that I'm a large language model, I don't have access to specific information about your personal experiences or events you've attended. I'm a text-based AI assistant, and our conversation just started, so I wasn't aware of your participation in a \"Walk for Cancer\" event on May ",
+          "start": 7360,
+          "end": 7760
+        }
+      ]
+    },
+    {
+      "source_id": "c707580c59d7a2904eea24bfa",
+      "source_date": "2022-02-17T17:50:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "ding the introduction of a new constitution, the establishment of a modern legal system and educational system, and the abolition of many traditional practices that were seen as backward.\n\nOverall, the Third Anglo-Afghan War had a significant impact on the geopolitical landscape of the region, contributing to the emergence of Afghanistan as an independent state and the beginning of a period of mod",
+          "start": 2930,
+          "end": 3330
+        },
+        {
+          "role": "assistant",
+          "text": "\n\nUSER:\nIt's fascinating how events in history can shape the world we live in today. Do you think the Third Anglo-Afghan War had any long-term effects on the British Empire?\n\nASSISTANT:\nThe Third Anglo-Afghan War had several long-term effects on the British Empire. The war marked the end of British control over Afghanistan and signaled the decline of the British Empire's influence in the region.\n\n",
+          "start": 3356,
+          "end": 3756
+        }
+      ]
+    },
+    {
+      "source_id": "c8f9ea95d5e81ca55d560b767",
+      "source_date": "2022-03-09T08:29:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "days.\n5. **Professional development experience**: Treat her to a networking event, conference, or workshop related to marketing. This can help her build connections and learn from industry experts.\n6. **Tech gadgets**: A wireless charging pad, a portable power bank, or a high-tech phone case can be a practical and useful gift for her daily commute or work routine.\n7. **Customized coffee mug or wat",
+          "start": 1176,
+          "end": 1576
+        },
+        {
+          "role": "assistant",
+          "text": "to the Fuji Five Lakes region (e.g., Lake Kawaguchi or Lake Yamanaka) for stunning views of the iconic mountain.\n\n**Must-try activities:**\n\n1. **Onsen (hot springs):** Visit an onsen to relax and unwind, like Otemba Hot Spring in Tokyo or Kusatsu Onsen in the Japanese Alps.\n2. **Tea ceremony:** Experience a traditional Japanese tea ceremony in Kyoto or Tokyo.\n3. **Foodie adventures:** Try popular ",
+          "start": 5924,
+          "end": 6324
+        }
+      ]
+    },
+    {
+      "source_id": "cc983548df17d4a73ab6ea74f",
+      "source_date": "2022-03-09T09:24:00+00:00",
+      "excerpts": [
+        {
+          "role": "user",
+          "text": "embers\nTHURSDAY\nView Jo’s profileJo Peninsulas\nJo Peninsulas 5:07 AM\nBob, EarthDay 2023 is scheduled to be the biggest environmental event in history. With Fortune 50s, hundreds of SMBs, and industry leading tree planting groups already joining forces, we’re making history and we’d like you to be a part of it. \n\nWhat’s the best way to get some time on the calendar to discuss Earth Day 2023?\n\nBest ",
+          "start": 1762,
+          "end": 2162
+        },
+        {
+          "role": "assistant",
+          "text": "ASSISTANT:\nJo 9:20 AM\nHi Jackline,\n\nI'm glad to hear that you're interested in discussing Earth Day 2023! I'm generally available on weekdays between 9:00 AM and 5:00 PM EST. To make it easier for you, please feel free to select a date and time that works best for you using the link below, and a meeting will be scheduled on our calendars:\n\n<https://bit.ly/Meet-With-ForTreesClub>\n\nLooking forward t",
+          "start": 0,
+          "end": 400
+        }
+      ]
+    },
+    {
+      "source_id": "c397064c41a046192f1249055",
+      "source_date": "2022-03-09T12:34:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "snacks available from machines.\n\n**Cultural experiences:** I'm deeply interested in Japanese culture and history, so I plan to visit many of the famous temples and shrines, such as the Tokyo Tower, Meiji Shrine, and Kiyomizu-dera Temple. I'd also love to attend a traditional tea ceremony, learn about the art of calligraphy, and explore the fascinating world of sumo wrestling.\n\nThank you for offeri",
+          "start": 16564,
+          "end": 16964
+        },
+        {
+          "role": "assistant",
+          "text": "ieFriday.\n2. **Check the theme:** Read the challenge description to understand the theme, rules, and any specific requirements.\n3. **Post your photo:** Take a new photo that fits the theme or select one from your archives. Edit and caption your photo as you normally would.\n4. **Use the hashtag:** Include the designated hashtag in your caption so that your photo appears in the challenge feed.\n5. **",
+          "start": 7061,
+          "end": 7461
+        }
+      ]
+    },
+    {
+      "source_id": "c285a00e3c798da8748fc969a",
+      "source_date": "2022-03-09T19:58:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": "\n\nASSISTANT:\nI'd be happy to help! However, I'm a large language model, I don't have the capability to set reminders or have direct access to your personal devices or calendars. But I can suggest a few options to help you set a reminder:\n\n1. Digital Calendar: Open your digital calendar (e.g., Google Calendar, Apple Calendar, Outlook) and create a new event for Monday at 6:30 pm. Set a reminder for",
+          "start": 1368,
+          "end": 1768
+        },
+        {
+          "role": "user",
+          "text": "USER:\nI'm trying to plan my week and was wondering if you can remind me what time the recreation center opens on Mondays? By the way, I have a Zumba class at 6:30 pm that day, so I want to make sure I have enough time to get there beforehand.",
+          "start": 0,
+          "end": 242
+        }
+      ]
+    },
+    {
+      "source_id": "c3e5d2a1044825556154589fd",
+      "source_date": "2022-02-16T06:19:00+00:00",
+      "excerpts": [
+        {
+          "role": "assistant",
+          "text": " the following:\n\n* Set reminders 2-3 weeks in advance to give yourself time to plan and budget for gifts.\n* Include details like the event type, person's name, and gift ideas in the reminder note.\n* Set multiple reminders for the same event, spaced out over time, to ensure you don't forget.\n* Consider setting a recurring reminder for annual events, like birthdays, to make it easier to plan ahead.\n",
+          "start": 7778,
+          "end": 8178
+        },
+        {
+          "role": "assistant",
+          "text": "s, baby showers, holidays)\n* Set reminders for multiple days in advance to give yourself plenty of time to prepare\n* Consider setting recurring events for annual birthdays and other regular celebrations\n* Share your calendar with family members or friends to keep them informed about upcoming events\n\nBy using Google Calendar to stay organized, you'll be able to focus on what really matters – celebr",
+          "start": 9515,
+          "end": 9915
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "metrics": {
+    "native_setup_seconds": 0.00814462499693036,
+    "native_search_seconds": 0.006162165896967053,
+    "common_spans_seconds": 0.005968458019196987
+  }
+}

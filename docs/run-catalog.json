@@ -1,0 +1,65 @@
+{
+  "experiment": "SMM-B001",
+  "runs": [
+    {
+      "run_id": "gpt-6-luna",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "path": "experiments/smm-baseline-001/baselines/gpt-6-luna"
+    },
+    {
+      "run_id": "gpt-6-luna-high-first",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "path": "experiments/smm-baseline-001/runs/gpt-6-luna-high-first"
+    },
+    {
+      "run_id": "gpt-6.1-sol",
+      "model": "gpt-6.1-sol",
+      "effort": "low",
+      "path": "experiments/smm-baseline-001/baselines/gpt-6.1-sol"
+    },
+    {
+      "run_id": "gpt-6.1-sol-high-first",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "path": "experiments/smm-baseline-001/runs/gpt-6.1-sol-high-first"
+    },
+    {
+      "run_id": "glm-5.3-flash-low-first",
+      "model": "glm-5.3-flash",
+      "effort": "low",
+      "path": "experiments/smm-baseline-001/runs/glm-5.3-flash-low-first"
+    },
+    {
+      "run_id": "glm-5.3-flash-high-first",
+      "model": "glm-5.3-flash",
+      "effort": "high",
+      "path": "experiments/smm-baseline-001/runs/glm-5.3-flash-high-first"
+    },
+    {
+      "run_id": "glm-5.3-low-first",
+      "model": "glm-5.3",
+      "effort": "low",
+      "path": "experiments/smm-baseline-001/runs/glm-5.3-low-first"
+    },
+    {
+      "run_id": "glm-5.3-high-first",
+      "model": "glm-5.3",
+      "effort": "high",
+      "path": "experiments/smm-baseline-001/runs/glm-5.3-high-first"
+    },
+    {
+      "run_id": "deepseek-flash-low-first",
+      "model": "deepseek-flash",
+      "effort": "low",
+      "path": "experiments/smm-baseline-001/runs/deepseek-flash-low-first"
+    },
+    {
+      "run_id": "deepseek-flash-high-first",
+      "model": "deepseek-flash",
+      "effort": "high",
+      "path": "experiments/smm-baseline-001/runs/deepseek-flash-high-first"
+    }
+  ]
+}

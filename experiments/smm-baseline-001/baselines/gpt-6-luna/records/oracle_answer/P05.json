@@ -1,0 +1,71 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P05",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "b990f00d81be44055946bf9d2cba3170253adec0aa71a9be6e1ba8bbb8eeb1c5",
+  "output": {
+    "status": "answer",
+    "answer": "By June 17, you’d reported spending about 10–12 hours on your abstract ocean sculpture. The earlier estimate was 5–6 hours on June 11, so the latest reported total is 10–12 hours.",
+    "claims": [
+      {
+        "claim": "On June 11, the user reported spending around 5–6 hours on the sculpture.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been working on an abstract ocean sculpture at home, and I've spent around 5-6 hours on it so far."
+          }
+        ]
+      },
+      {
+        "claim": "On June 17, the user reported having already put in 10–12 hours on the sculpture.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I've already put in 10-12 hours, and it's still a work in progress."
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I've already spent 10-12 hours on my abstract ocean sculpture"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.532451,
+    "thread_setup_seconds": 0.077428,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.532451,
+    "turn_seconds": 5.455024,
+    "first_text_seconds": 3.872137,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 18172,
+      "completion_tokens": 225,
+      "total_tokens": 18397,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P05.json",
+  "raw_receipt_sha256": "5c77520937c27e801cd05cf0bde636643c1568bb9a13999a8fc870353c062cfc",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P05.json"
+}

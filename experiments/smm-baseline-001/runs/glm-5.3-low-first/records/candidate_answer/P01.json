@@ -1,0 +1,155 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "5d6e43f8339edc46eba5002fc1ec45c361110aa67fd6e22d1d68c8b9385d828f",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes. In January 2023 you had put \"The Nightingale\" aside because it was too emotional, but by late March 2023 you stated you had finished it and found it amazing.",
+    "claims": [
+      {
+        "claim": "In January 2023, the user had put \"The Nightingale\" aside temporarily because it was too emotional",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been meaning to get back to 'The Nightingale' by Kristin Hannah, which I put down temporarily because it was getting too emotional"
+          },
+          {
+            "evidence_id": "E00001",
+            "quote": "Maybe they can suggest some books that will help me get back into 'The Nightingale' too."
+          }
+        ]
+      },
+      {
+        "claim": "By 30 March 2023, the user stated they recently finished reading \"The Nightingale\" and found it amazing",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I also recently finished 'The Nightingale' by Kristin Hannah, which was amazing, by the way."
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "I was thinking about 'The Nightingale' by Kristin Hannah, which I finished reading recently. It was such a powerful and emotional read."
+          },
+          {
+            "evidence_id": "E00007",
+            "quote": "I loved 'The Nightingale'! Yes, the ending was emotional, but it was also a perfect conclusion to the story."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C07"
+    ],
+    "missing": "No gaps; the record documents both the pause and the later completion."
+  },
+  "metrics": {
+    "seconds": 8.862131542060524,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 388,
+      "completion_tokens_details": {
+        "reasoning_tokens": 26
+      },
+      "prompt_tokens": 25090,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 25478
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been meaning to get back to 'The Nightingale' by Kristin Hannah, which I put down temporarily because it was getting too emotional",
+        "valid": false,
+        "source_id": "c6cfd58034e25f4def8503729",
+        "possible_message_roles": [],
+        "source_date": "2023-01-21T15:05:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "Maybe they can suggest some books that will help me get back into 'The Nightingale' too.",
+        "valid": false,
+        "source_id": "c6cfd58034e25f4def8503729",
+        "possible_message_roles": [],
+        "source_date": "2023-01-21T15:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I also recently finished 'The Nightingale' by Kristin Hannah, which was amazing, by the way.",
+        "valid": false,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I was thinking about 'The Nightingale' by Kristin Hannah, which I finished reading recently. It was such a powerful and emotional read.",
+        "valid": false,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I loved 'The Nightingale'! Yes, the ending was emotional, but it was also a perfect conclusion to the story.",
+        "valid": false,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been meaning to get back to 'The Nightingale' by Kristin Hannah, which I put down temporarily because it was getting too emotional",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "Maybe they can suggest some books that will help me get back into 'The Nightingale' too.",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I also recently finished 'The Nightingale' by Kristin Hannah, which was amazing, by the way.",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I was thinking about 'The Nightingale' by Kristin Hannah, which I finished reading recently. It was such a powerful and emotional read.",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I loved 'The Nightingale'! Yes, the ending was emotional, but it was also a perfect conclusion to the story.",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "case_id": "P02",
+  "model": "gpt-6-luna",
+  "request_sha256": "69a826f9482cf85a2dde7568445746705f10fed91060c4e7346b9144c3d27335",
+  "request_file_sha256": "310ae9b204b4a87860fced43315a136d7905bcf707a1d91fe029269a44bd2000",
+  "output": {
+    "status": "partial",
+    "answer": "The latest stated amount is 20 dozen, in the March 15 conversation. The evidence does not establish whether that amount was still current at the March 16 reference time.",
+    "claims": [
+      {
+        "claim": "On March 15, the user said they had 20 dozen eggs stocked in the refrigerator.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "we've got 20 dozen stocked up in the fridge right now"
+          }
+        ]
+      },
+      {
+        "claim": "The evidence does not establish whether the amount remained unchanged by the March 16 reference time.",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": "No later user statement confirms the stock amount as of the reference time."
+  },
+  "metrics": {
+    "seconds": 4.644975,
+    "thread_setup_seconds": 0.076607,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.644975,
+    "turn_seconds": 4.568368,
+    "first_text_seconds": 3.473143,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 18235,
+      "completion_tokens": 155,
+      "total_tokens": 18390,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "we've got 20 dozen stocked up in the fridge right now",
+        "original_source_id": "ca3586c9f696b9c5035ebf62c",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 2096,
+        "end": 2149
+      }
+    ]
+  }
+}

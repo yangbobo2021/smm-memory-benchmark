@@ -1,0 +1,167 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "98064e2acbba12afac003b09f5d59c4c9211335a8aab9a218f861ee35d58c3ca",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Based on the supplied evidence, you attended 3 dinner parties in the past month: Alex's potluck yesterday, Mike's BBQ about two weeks ago, and Sarah's Italian feast last week.",
+    "claims": [
+      {
+        "claim": "The user attended two low-key dinner parties: a potluck at Alex's place yesterday and a BBQ at Mike's place.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together."
+          }
+        ]
+      },
+      {
+        "claim": "Mike's BBQ was about two weeks before the conversation, placing it within the past month.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together."
+          }
+        ]
+      },
+      {
+        "claim": "The user attended a dinner-party-type Italian feast at Sarah's place last week.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes."
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "speaking of dinner parties, I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast."
+          }
+        ]
+      },
+      {
+        "claim": "The total number of dinner parties attended in the past month, based on the evidence, is three.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together."
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "9bb5b490a3711b7c89c56ace7baa4a4b6f0a039f291407bd4f05f97227c1bec6",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 26483,
+      "completion_tokens": 2981,
+      "total_tokens": 29464,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2526
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 26099
+    },
+    "response_id": "5241c4ca-ed85-46d1-8d75-26c1ced8cef8",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 17.60601820796728
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "like the one we had at Mike's place two weeks ago, where we watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes.",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "speaking of dinner parties, I've had a lovely experience at Sarah's place recently, where we played board games until late into the night after the Italian feast.",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00002",
+        "quote": "dinner parties that are more low-key, like the ones we had at Alex's place yesterday, where we had a potluck and tried out different cuisines from around the world, and also at Mike's place, where we had a BBQ and watched a football game together.",
+        "valid": true,
+        "source_id": "c799a2510389a8ff2e69d96f5",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T19:16:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00003",
+        "quote": "I attended a lovely Italian feast at Sarah's place last week, and it inspired me to try out some new dishes.",
+        "valid": true,
+        "source_id": "c5e13079f8999c5bfd339aab7",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-22T10:28:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P07.json",
+  "raw_response_sha256": "974e5eba3388d4b39bd6cdd38d21ca49c37ab06020d71f96653a72f20d971ee8"
+}

@@ -1,0 +1,69 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P24",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "e54d555e8c6e54c552f6f559ade72db4c0bc7dabb285978a1e4077114dd4566e",
+  "imported": false,
+  "continuation": true,
+  "output": {
+    "status": "partial",
+    "answer": "Based on the evidence, the user attended a networking event on 2022-03-09 (the day of the conversation in C07, which was received 2022-03-09T12:08:00+00:00). From the reference time of 2022-04-04T21:03:00+00:00, that was 26 days ago. However, the evidence only anchors the event to the day of that conversation; the exact date cannot be independently verified beyond the evidence timestamp.",
+    "claims": [
+      {
+        "claim": "The user attended a networking event that same day (the day of the C07 conversation)",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "By the way, I just got back from a networking event that ran from 6 PM to 8 PM today, and I'm feeling a bit drained."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": "The exact calendar date of the networking event is inferred from the evidence receipt timestamp (2022-03-09); no explicit date is stated by the user."
+  },
+  "metrics": {
+    "seconds": 7.417060083011165,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 20336,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 20563
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00007",
+        "quote": "By the way, I just got back from a networking event that ran from 6 PM to 8 PM today, and I'm feeling a bit drained.",
+        "valid": true,
+        "source_id": "c7440c7a3ee7bbb9db6cf5156",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2022-03-09T12:08:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

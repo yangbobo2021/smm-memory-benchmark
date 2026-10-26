@@ -1,0 +1,86 @@
+{
+  "case_id": "P23",
+  "model": "gpt-6.1-sol",
+  "request_sha256": "b5e5e63d42989b64088a60e7a2fbf0b1f564cac8619d20924c1991902296aea4",
+  "request_file_sha256": "9fed838669514782cdef1797138d66593288a16dcea97612ad5a3dd1dce5f146",
+  "output": {
+    "status": "answer",
+    "answer": "14 days passed, from March 4 to March 18, 2023.",
+    "claims": [
+      {
+        "claim": "You repotted the previous spider plant on March 4, 2023.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I repot the previous spider plant today"
+          }
+        ]
+      },
+      {
+        "claim": "You gave Mrs. Johnson spider plant cuttings on March 18, 2023, 14 days later.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.095797,
+    "thread_setup_seconds": 0.079091,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.095797,
+    "turn_seconds": 6.016706,
+    "first_text_seconds": 4.400288,
+    "selected_model": "gpt-6.1-sol",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 17904,
+      "completion_tokens": 154,
+      "total_tokens": 18058,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I repot the previous spider plant today",
+        "original_source_id": "c13c5edb0fd463a670b2d0d3f",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 146,
+        "end": 185
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant today",
+        "original_source_id": "ca722cb830ce76b391e670726",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 11108,
+        "end": 11183
+      }
+    ]
+  }
+}

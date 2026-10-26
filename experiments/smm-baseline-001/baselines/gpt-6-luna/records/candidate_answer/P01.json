@@ -1,0 +1,57 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "5d6e43f8339edc46eba5002fc1ec45c361110aa67fd6e22d1d68c8b9385d828f",
+  "output": {
+    "status": "answer",
+    "answer": "Yes. On March 30, you said you had recently finished reading *The Nightingale* by Kristin Hannah.",
+    "claims": [
+      {
+        "claim": "The user said they had recently finished reading *The Nightingale* by Kristin Hannah.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah, which was amazing, by the way."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 6.085755,
+    "thread_setup_seconds": 0.132012,
+    "rate_wait_seconds": 0,
+    "active_seconds": 6.085755,
+    "turn_seconds": 5.953742,
+    "first_text_seconds": 5.20657,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 34559,
+      "completion_tokens": 111,
+      "total_tokens": 34670,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P01.json",
+  "raw_receipt_sha256": "aed6cbe52e22a2db3a88377b29dc2ace3e3ab1643295ffc81a5dd681a8709a05",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P01/answer.json"
+}

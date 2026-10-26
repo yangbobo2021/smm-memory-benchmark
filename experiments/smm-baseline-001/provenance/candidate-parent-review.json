@@ -1,0 +1,679 @@
+{
+  "reviewer": "parent researcher; no external blind human review/LLM judge",
+  "answers": [
+    {
+      "case_id": "P01",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P01",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P02",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Latest stock20dozen correctly taken from March15rather than older30dozen. Same last-reported-state rule as baseline; no claim of live inventory verification."
+    },
+    {
+      "case_id": "P02",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Latest stock20dozen correctly taken from March15rather than older30dozen. Same last-reported-state rule as baseline; no claim of live inventory verification."
+    },
+    {
+      "case_id": "P03",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P03",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P04",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P04",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P05",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct latest10–12hour range; saying no exact total does not invalidate the reference range."
+    },
+    {
+      "case_id": "P05",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct latest10–12hour range; saying no exact total does not invalidate the reference range."
+    },
+    {
+      "case_id": "P06",
+      "model": "gpt-6-luna",
+      "official_reference_match": false,
+      "clear_complete_answer": false,
+      "core_evidence_valid": false,
+      "reported_support_valid": false,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Still3days and cites only TueThuSat. Entire Wednesday source is present. Same real omission as own oracle baseline."
+    },
+    {
+      "case_id": "P06",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Four distinct days, using actual USERWednesday yoga plus TueThuSat; same correct answer as own oracle baseline."
+    },
+    {
+      "case_id": "P07",
+      "model": "gpt-6-luna",
+      "official_reference_match": false,
+      "clear_complete_answer": false,
+      "core_evidence_valid": false,
+      "reported_support_valid": false,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Confirms Sarahonly and declines complete count, despite MikeandAlexattended-events source being present. Genuine reading/use regression from own3dinner oracle answer."
+    },
+    {
+      "case_id": "P07",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Three distinct attended dinners, not future plans; quotes Mike,AlexandSarahoriginal reports."
+    },
+    {
+      "case_id": "P08",
+      "model": "gpt-6-luna",
+      "official_reference_match": false,
+      "clear_complete_answer": false,
+      "core_evidence_valid": false,
+      "reported_support_valid": false,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Incorrect4types:grapefruit comes from ASSISTANTsuggestion in the Sangria source, not actual user use. Correctsource IDs alone fail to ensure correct facts. USERDaiquiri lime quote is valid alternative evidence forlime; actual past-use lemon is not cited. Own baseline listed3correct types but was already partial, so this is content regression without an extra completed-answer loss."
+    },
+    {
+      "case_id": "P08",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct3types from USERactual Sangria orange/lemon and CucumberGimlet lime; no grapefruit suggestion treated as actual use."
+    },
+    {
+      "case_id": "P09",
+      "model": "gpt-6-luna",
+      "official_reference_match": false,
+      "clear_complete_answer": false,
+      "core_evidence_valid": false,
+      "reported_support_valid": false,
+      "supported_atom_ids": [
+        "a1",
+        "a3"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Answers2days and omits Dec24mass, whose complete source is supplied. Reading/use regression from own3day oracle baseline. Independent selector omitted Dec10instead, so the two task results must not be substituted."
+    },
+    {
+      "case_id": "P09",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Three actual December days10/17/24, each backed by original USERreports."
+    },
+    {
+      "case_id": "P10",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct2nonthesis projects. One original Trelloboards quote supports both DataMining and DatabaseSystems; selecting all3redundant reference conversations is unnecessary for answering."
+    },
+    {
+      "case_id": "P10",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct2nonthesis projects. One original Trelloboards quote supports both DataMining and DatabaseSystems; selecting all3redundant reference conversations is unnecessary for answering."
+    },
+    {
+      "case_id": "P11",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P11",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P12",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P12",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P13",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Recalls historical assistant12regular-season games. Evaluate historical recall, not external sports truth."
+    },
+    {
+      "case_id": "P13",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Recalls historical assistant12regular-season games. Evaluate historical recall, not external sports truth."
+    },
+    {
+      "case_id": "P14",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P14",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P15",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P15",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P16",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P16",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P17",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P17",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P18",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P18",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P19",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P19",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P20",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P20",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P21",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": false,
+      "supported_atom_ids": [
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "ancillary_unsupported": [
+        "Claims the user is Emma's aunt; niece establishes relation, not user gender. Original messages do not establish aunt versus uncle."
+      ],
+      "note": "Graduation order and dates are correct and cited. However ancillaryclaim calls user her aunt without support; core answer passes, full claim-faithfulness does not. Do not present the requested ordering as wrong."
+    },
+    {
+      "case_id": "P21",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "ancillary_unsupported": [],
+      "note": "CorrectEmma,Rachel,Alexorder with lateMay/June21/aroundJuly1dates; approximate timing retained."
+    },
+    {
+      "case_id": "P22",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": null,
+      "core_evidence_valid": null,
+      "reported_support_valid": null,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Matches originalabout3weeks using Apr16download→May6question20days; improvement in reference match forLuna, but same download-versus-first-use ambiguity retained. Outside23clear-answer denominator."
+    },
+    {
+      "case_id": "P22",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": null,
+      "core_evidence_valid": null,
+      "reported_support_valid": null,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Matches originalabout3weeks using Apr16download→May6question20days; improvement in reference match forLuna, but same download-versus-first-use ambiguity retained. Outside23clear-answer denominator."
+    },
+    {
+      "case_id": "P23",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P23",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P24",
+      "model": "gpt-6-luna",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P24",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": true,
+      "core_evidence_valid": true,
+      "reported_support_valid": true,
+      "supported_atom_ids": [
+        "a1"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Correct complete answer; actual quoted original statements and source dates support the requested facts. No use of unrelated candidate content identified."
+    },
+    {
+      "case_id": "P25",
+      "model": "gpt-6-luna",
+      "official_reference_match": false,
+      "clear_complete_answer": null,
+      "core_evidence_valid": false,
+      "reported_support_valid": false,
+      "supported_atom_ids": [
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Does not give original6:45reference. Baseline applicability remains ambiguous, so no forced binary clear-case score. Still misstates old8:30asusualinstead of explicit newer7AMupdate; only15minute fact properly used."
+    },
+    {
+      "case_id": "P25",
+      "model": "gpt-6.1-sol",
+      "official_reference_match": true,
+      "clear_complete_answer": null,
+      "core_evidence_valid": null,
+      "reported_support_valid": null,
+      "supported_atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "ancillary_unsupported": [],
+      "note": "Same6:45reference match as oracle, using actual7AMand15minute offset quotes. Whether offset still applies to newerbaseline is still implicit; do not claim unambiguous proof."
+    }
+  ],
+  "nonbaseline_selected_sources": [],
+  "source_review": "Every selected source in both tasks is an official baseline source; no nonbaseline picks to judge as false positives. This does not make every cited fact valid.",
+  "scoring_held": "Same23clear-case complete-answer and supporting-evidence distinction as frozen baselines; all25original reference-content matches retained. P22/P25ambiguities unchanged.",
+  "supported_atom_semantics": "Actual claim/quote use reviewed, not imputed from selected whole-source IDs. P08USERDaiquiriusinglime is valid alternative evidence forlime, consistent with official reference session4; selection already includes original lime witness source, so this does not alter selection scores.",
+  "ancillary_policy": "P21Lunacorrectorder remains a correct core answer; unsupported auntgender claim separately fails strict all-claim faithfulness. Both core and stricter counts are exposed.",
+  "no_original_outputs_or_references_changed": true
+}

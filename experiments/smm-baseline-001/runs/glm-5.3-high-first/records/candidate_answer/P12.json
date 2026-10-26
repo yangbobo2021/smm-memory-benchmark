@@ -1,0 +1,92 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P12",
+  "task": "candidate_answer",
+  "model": "glm-5.3",
+  "effort": "high",
+  "backend": "chat",
+  "request_sha256": "e878cf39743336650bfb9b2f2c2f54d4330fe3c5296645aebe42c77fc81672dc",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "是的，我记得。在那次关于 Netflix 的访谈对话中，你举的例子是《Doc Martin》——你说该剧过了一段时间后下架了，现在只能看到最后一季。",
+    "claims": [
+      {
+        "claim": "用户在之前关于 Netflix 的对话中表示希望旧剧集的所有季都能访问，并以《Doc Martin》为例，称该剧下架后只剩最后一季可看。",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "Yes. I have a comment. After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows. I will give you an example, |"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "doc martin|"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C02"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 10.01126699987799,
+    "selected_model": "glm-5.3",
+    "response_model": "glm-5.3",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 319,
+      "completion_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "prompt_tokens": 24086,
+      "prompt_tokens_details": {
+        "cached_tokens": 320
+      },
+      "total_tokens": 24405
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "Yes. I have a comment. After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows. I will give you an example, |",
+        "valid": false,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "doc martin|",
+        "valid": false,
+        "source_id": "c50927ca385b93a348ac133cd",
+        "possible_message_roles": [],
+        "source_date": "2023-05-26T18:07:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "Yes. I have a comment. After a while Netflix takes down shows. I want to be able to have access to all seasons for old shows. I will give you an example, |",
+        "reason": "not an exact contiguous original quote"
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "doc martin|",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

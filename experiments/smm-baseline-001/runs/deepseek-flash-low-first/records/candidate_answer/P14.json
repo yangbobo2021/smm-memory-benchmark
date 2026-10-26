@@ -1,0 +1,96 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P14",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "1b5e59d4901fa62ba8b8ccf1c69d6bba83855e2b91a6e39f79d27ed5d8489884",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "The example was Spanish-Catalan singer-songwriter Manolo García. The assistant said he has publicly supported unity between Catalonia and Spain and believes Catalonia is an integral part of Spain.",
+    "claims": [
+      {
+        "claim": "The assistant identified Manolo García as a Spanish-Catalan singer-songwriter who supports unity between Catalonia and Spain.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain."
+          }
+        ]
+      },
+      {
+        "claim": "The assistant said García believes Catalonia is an integral part of Spain and that the two should work together to resolve differences.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "he has expressed his belief that catalonia is an integral part of spain and that the two should work together to resolve their differences."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "f791a33a01b66bda07f4d52275958a1a515fa5d25f5a4d60deae70f0e3d911f4",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 13405,
+      "completion_tokens": 409,
+      "total_tokens": 13814,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 205
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 13021
+    },
+    "response_id": "95b07917-ebb7-4d67-8937-7d970e469bce",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 4.7034341669641435
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "the spanish-catalan singer/songwriter manolo garcía has spoken publicly about his support for unity between catalonia and spain.",
+        "valid": true,
+        "source_id": "ce4bde0adad4fe2ecc4bf403f",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-21T10:54:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00001",
+        "quote": "he has expressed his belief that catalonia is an integral part of spain and that the two should work together to resolve their differences.",
+        "valid": true,
+        "source_id": "ce4bde0adad4fe2ecc4bf403f",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-21T10:54:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P14.json",
+  "raw_response_sha256": "7e6547d1be5b21955f1db9d5bc08c78a74c9dbaf6b716b8749800d4bb8b28b64"
+}

@@ -1,0 +1,117 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P01",
+  "task": "candidate_answer",
+  "model": "deepseek-flash",
+  "effort": "high",
+  "backend": "deepseek-json-object-adapter",
+  "request_sha256": "5d6e43f8339edc46eba5002fc1ec45c361110aa67fd6e22d1d68c8b9385d828f",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "Yes. By March 30, 2023, you stated that you had recently finished reading “The Nightingale” by Kristin Hannah.",
+    "claims": [
+      {
+        "claim": "In January 2023, you said you had temporarily put down “The Nightingale” because it was too emotional and were asking whether you could finish it later.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been meaning to get back to \"The Nightingale\" by Kristin Hannah, which I put down temporarily because it was getting too emotional"
+          }
+        ]
+      },
+      {
+        "claim": "By March 30, 2023, you explicitly said you had recently finished “The Nightingale” and called it amazing.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah, which was amazing, by the way."
+          }
+        ]
+      },
+      {
+        "claim": "Later in the same conversation, you reaffirmed that you had finished reading “The Nightingale” recently.",
+        "citations": [
+          {
+            "evidence_id": "E00007",
+            "quote": "By the way, I was thinking about \"The Nightingale\" by Kristin Hannah, which I finished reading recently."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C07"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "requested_model": "deepseek-flash",
+    "transport_profile": "chat-json-object-schema-in-system-v1",
+    "wire_body_sha256": "31df6891e215d410b10c1abe9b9a13d8bcc99d21c91cfe137c66333cb1d6031c",
+    "tool_calls": 0,
+    "selected_model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 25352,
+      "completion_tokens": 1288,
+      "total_tokens": 26640,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1020
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 25096
+    },
+    "response_id": "db873f8b-880b-4e48-930d-a52bb651c565",
+    "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+    "model_identity": "provider echo only; not independent attestation",
+    "seconds": 9.408881083130836
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been meaning to get back to \"The Nightingale\" by Kristin Hannah, which I put down temporarily because it was getting too emotional",
+        "valid": true,
+        "source_id": "c6cfd58034e25f4def8503729",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-01-21T15:05:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00007",
+        "quote": "I also recently finished \"The Nightingale\" by Kristin Hannah, which was amazing, by the way.",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00007",
+        "quote": "By the way, I was thinking about \"The Nightingale\" by Kristin Hannah, which I finished reading recently.",
+        "valid": true,
+        "source_id": "c86c392fcf4351780ec72ccbe",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-03-30T01:14:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  },
+  "raw_response": "raw/candidate_answer/P01.json",
+  "raw_response_sha256": "ffe02e5888b989a834412d4cad463dc5add0abfb4300e9e59acb512bfe214618"
+}

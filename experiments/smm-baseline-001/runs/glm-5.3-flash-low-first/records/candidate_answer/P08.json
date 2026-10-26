@@ -1,0 +1,156 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "candidate_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "43ec54f8e0a821309081afe509043e4ce50a793be1bd5c1ab6dd399e05ecdd40",
+  "imported": false,
+  "output": {
+    "status": "answer",
+    "answer": "3 different citrus types: orange, lemon, and lime.",
+    "claims": [
+      {
+        "claim": "The user made orange bitters with orange peels (citrus #1: orange).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I've been experimenting with bitters lately and recently made my own orange bitters using orange peels and vodka."
+          }
+        ]
+      },
+      {
+        "claim": "The user served Sangria with orange and lemon slices at a dinner party two weeks ago (citrus #1 orange, #2 lemon).",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago."
+          }
+        ]
+      },
+      {
+        "claim": "The user used fresh lime juice in cocktails, e.g., a classic Daiquiri (citrus #3: lime).",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class."
+          }
+        ]
+      },
+      {
+        "claim": "The user also made a Cucumber Gimlet with lime juice.",
+        "citations": [
+          {
+            "evidence_id": "E00005",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!"
+          }
+        ]
+      },
+      {
+        "claim": "Lemon and grapefruit in recipes elsewhere were only assistant suggestions, not user-made, so they are not counted.",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "Cucumber Lime Refresher: Muddle sliced cucumber, fresh lime juice, mint leaves, and simple syrup in a shaker."
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03",
+      "C05"
+    ],
+    "missing": ": any other homemade citrus cocktails not mentioned in the evidence cannot be determined."
+  },
+  "metrics": {
+    "seconds": 12.743142040912062,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "prompt_tokens": 17038,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 17582
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": false,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I've been experimenting with bitters lately and recently made my own orange bitters using orange peels and vodka.",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00003",
+        "quote": "I'm thinking of serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00002",
+        "quote": "I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class.",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00005",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup - it was a hit at my last party!",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      },
+      {
+        "claim_index": 4,
+        "evidence_id": "E00002",
+        "quote": "Cucumber Lime Refresher: Muddle sliced cucumber, fresh lime juice, mint leaves, and simple syrup in a shaker.",
+        "valid": false,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      }
+    ],
+    "quote_errors": [
+      {
+        "claim_index": 4,
+        "evidence_id": "E00002",
+        "quote": "Cucumber Lime Refresher: Muddle sliced cucumber, fresh lime juice, mint leaves, and simple syrup in a shaker.",
+        "reason": "not an exact contiguous original quote"
+      }
+    ]
+  }
+}

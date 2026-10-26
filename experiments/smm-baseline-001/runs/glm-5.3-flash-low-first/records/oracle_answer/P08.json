@@ -1,0 +1,146 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P08",
+  "task": "oracle_answer",
+  "model": "glm-5.3-flash",
+  "effort": "low",
+  "backend": "chat",
+  "request_sha256": "4605362e379e086d317c074875756de74b68798f96b0eaa40c9717cbc9be5656",
+  "imported": false,
+  "output": {
+    "status": "partial",
+    "answer": "Based on the evidence, you have used 3 different types of citrus fruits in your cocktail recipes: orange, lemon, and lime. (Grapefruit and other citrus appear only in assistant suggestions, not in your own statements.)",
+    "claims": [
+      {
+        "claim": "You used orange in your own cocktail making (homemade orange bitters with orange peels).",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "recently made my own orange bitters using orange peels and vodka"
+          }
+        ]
+      },
+      {
+        "claim": "You used lime in your own cocktails (classic Daiquiri with fresh lime juice, Cucumber Gimlet with lime juice).",
+        "citations": [
+          {
+            "evidence_id": "E00002",
+            "quote": "using fresh lime juice and simple syrup in a mixology class"
+          },
+          {
+            "evidence_id": "E00004",
+            "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup"
+          }
+        ]
+      },
+      {
+        "claim": "You used orange and lemon in your own Sangria, referencing a past dinner party two weeks before 2023-05-27.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago"
+          }
+        ]
+      },
+      {
+        "claim": "Grapefruit cannot be counted as used, since it appears only in assistant-suggested recipes and flavor ideas, not in your own statements of what you made.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "1/4 cup citrus juice (orange, lemon, or grapefruit)"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "missing": "The evidence only captures citrus you explicitly mentioned making; you may have used other citrus in recipes not discussed in these conversations, which cannot be determined."
+  },
+  "metrics": {
+    "seconds": 13.298629167024046,
+    "selected_model": "glm-5.3-flash",
+    "response_model": "glm-5.3-flash",
+    "model_identity": "provider echo only; not an attestation",
+    "transport_profile": "chat-completions-system-wrapper-v1",
+    "tool_calls": 0,
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "prompt_tokens": 13489,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "total_tokens": 14054
+    }
+  },
+  "error": null,
+  "mechanical": {
+    "schema_valid": true,
+    "errors": [],
+    "quote_valid": true,
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "recently made my own orange bitters using orange peels and vodka",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00002",
+        "quote": "using fresh lime juice and simple syrup in a mixology class",
+        "valid": true,
+        "source_id": "c77ccd1970a752a97cb1105f3",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-25T13:21:00+00:00"
+      },
+      {
+        "claim_index": 1,
+        "evidence_id": "E00004",
+        "quote": "I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup",
+        "valid": true,
+        "source_id": "c8b7f5dac3289afd48af13edf",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-30T23:20:00+00:00"
+      },
+      {
+        "claim_index": 2,
+        "evidence_id": "E00003",
+        "quote": "serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago",
+        "valid": true,
+        "source_id": "c8f9041e297070a3be513d341",
+        "possible_message_roles": [
+          "user"
+        ],
+        "source_date": "2023-05-27T03:44:00+00:00"
+      },
+      {
+        "claim_index": 3,
+        "evidence_id": "E00001",
+        "quote": "1/4 cup citrus juice (orange, lemon, or grapefruit)",
+        "valid": true,
+        "source_id": "c9153f368b92a0a1aa0e04b1c",
+        "possible_message_roles": [
+          "assistant"
+        ],
+        "source_date": "2023-05-21T04:58:00+00:00"
+      }
+    ],
+    "quote_errors": []
+  }
+}

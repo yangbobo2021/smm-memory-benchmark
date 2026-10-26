@@ -1,0 +1,96 @@
+{
+  "gpt-6-luna": {
+    "oracle_answer": {
+      "non_verbatim_quote_case_ids": [],
+      "duplicate_source_id_case_ids": [],
+      "missing_field_marker_cases": [],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    },
+    "candidate_answer": {
+      "non_verbatim_quote_case_ids": [
+        "P08",
+        "P13"
+      ],
+      "duplicate_source_id_case_ids": [],
+      "missing_field_marker_cases": [],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    }
+  },
+  "gpt-6.1-sol": {
+    "oracle_answer": {
+      "non_verbatim_quote_case_ids": [],
+      "duplicate_source_id_case_ids": [],
+      "missing_field_marker_cases": [],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    },
+    "candidate_answer": {
+      "non_verbatim_quote_case_ids": [],
+      "duplicate_source_id_case_ids": [],
+      "missing_field_marker_cases": [],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    }
+  },
+  "glm-5.3-flash": {
+    "oracle_answer": {
+      "non_verbatim_quote_case_ids": [
+        "P01",
+        "P24"
+      ],
+      "duplicate_source_id_case_ids": [],
+      "missing_field_marker_cases": [
+        {
+          "case_id": "P18",
+          "missing_characters": 3374
+        }
+      ],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    },
+    "candidate_answer": {
+      "non_verbatim_quote_case_ids": [
+        "P07",
+        "P08",
+        "P12"
+      ],
+      "duplicate_source_id_case_ids": [],
+      "missing_field_marker_cases": [
+        {
+          "case_id": "P18",
+          "missing_characters": 59
+        }
+      ],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    }
+  },
+  "glm-5.3": {
+    "oracle_answer": {
+      "non_verbatim_quote_case_ids": [
+        "P01",
+        "P05",
+        "P12"
+      ],
+      "duplicate_source_id_case_ids": [
+        "P01",
+        "P03"
+      ],
+      "missing_field_marker_cases": [
+        {
+          "case_id": "P12",
+          "missing_characters": 42
+        }
+      ],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    },
+    "candidate_answer": {
+      "non_verbatim_quote_case_ids": [
+        "P01",
+        "P12"
+      ],
+      "duplicate_source_id_case_ids": [
+        "P15",
+        "P20"
+      ],
+      "missing_field_marker_cases": [],
+      "missing_marker_definition": "Literal </think>, Oops, correction, or FINAL-CANONICAL in missing. Descriptive diagnostic, not a new scoring rule."
+    }
+  }
+}

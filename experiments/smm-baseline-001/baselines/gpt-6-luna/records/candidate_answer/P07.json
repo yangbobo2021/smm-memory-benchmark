@@ -1,0 +1,61 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P07",
+  "task": "candidate_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "98064e2acbba12afac003b09f5d59c4c9211335a8aab9a218f861ee35d58c3ca",
+  "output": {
+    "status": "answer",
+    "answer": "I can confirm one dinner party attendance in the past month: the Italian feast at Sarah’s place last week. I can’t determine the total number of dinner parties you attended from the available evidence.",
+    "claims": [
+      {
+        "claim": "The user reported attending an Italian feast at Sarah’s place last week.",
+        "citations": [
+          {
+            "evidence_id": "E00003",
+            "quote": "I attended a lovely Italian feast at Sarah's place last week"
+          }
+        ]
+      },
+      {
+        "claim": "The evidence does not establish how many dinner parties the user attended in total during the past month.",
+        "citations": []
+      }
+    ],
+    "selected_sources": [
+      "C03"
+    ],
+    "missing": "Other gatherings are mentioned, but the evidence does not establish that they were dinner parties the user attended; some are plans or assistant suggestions."
+  },
+  "metrics": {
+    "seconds": 5.285008,
+    "thread_setup_seconds": 0.104596,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.285008,
+    "turn_seconds": 5.180412,
+    "first_text_seconds": 4.253529,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 35464,
+      "completion_tokens": 167,
+      "total_tokens": 35631,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/candidate_answer/P07.json",
+  "raw_receipt_sha256": "d4673f31a2440c3375659ef1fb4645b9caeac7a14158416620b5baf036bdafd5",
+  "imported": true,
+  "historical_exact_reuse": false,
+  "provenance_path": "work/smm-top5-full-source-v1/ai/gpt-6-luna/P07/answer.json"
+}

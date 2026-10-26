@@ -1,0 +1,98 @@
+{
+  "case_id": "P09",
+  "model": "gpt-6-luna",
+  "request_sha256": "301e10ce17d51cfc804738e568fd08567ef2b5374636cc7d2d24e65f27153633",
+  "request_file_sha256": "323a68a917dd6adf08ad80b46715cc4d638351e34923a3de57a78fb0144848c0",
+  "output": {
+    "status": "answer",
+    "answer": "Three days: December 10, 17, and 24.",
+    "claims": [
+      {
+        "claim": "The user participated in faith-related activities on three distinct December dates: the church food drive on December 10, midnight mass on December 24, and a Bible study on December 17.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "I actually helped out at the church's annual holiday food drive on December 10th"
+          },
+          {
+            "evidence_id": "E00002",
+            "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th"
+          },
+          {
+            "evidence_id": "E00003",
+            "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 5.696244,
+    "thread_setup_seconds": 0.082519,
+    "rate_wait_seconds": 0,
+    "active_seconds": 5.696244,
+    "turn_seconds": 5.613725,
+    "first_text_seconds": 4.394803,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 20237,
+      "completion_tokens": 196,
+      "total_tokens": 20433,
+      "cached_prompt_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "reused": true,
+  "reused_from": "work/smm-full-source-oracle-v1/ai/P09.json",
+  "reused_from_sha256": "418acf416dc497dd070c664f49adf9a9e8a9929d4506f178360add210c1094be",
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "citations": [
+      {
+        "claim_index": 0,
+        "evidence_id": "E00001",
+        "quote": "I actually helped out at the church's annual holiday food drive on December 10th",
+        "original_source_id": "c8531a9f29edb59a4767e8d72",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 124,
+        "end": 204
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00002",
+        "quote": "I just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church, which was on December 24th",
+        "original_source_id": "cb5d52df1411ad8bfce6630ad",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 166,
+        "end": 275
+      },
+      {
+        "claim_index": 0,
+        "evidence_id": "E00003",
+        "quote": "I actually just did a Bible study on this same topic at my church a few weeks ago, on December 17th",
+        "original_source_id": "cc3fbf6478327dbbf685bb205",
+        "role": "complete_conversation_with_original_role_headers",
+        "message_index": null,
+        "start": 274,
+        "end": 373
+      }
+    ]
+  }
+}

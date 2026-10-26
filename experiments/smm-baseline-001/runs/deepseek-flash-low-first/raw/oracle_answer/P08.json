@@ -1,0 +1,22 @@
+{
+  "id": "0b078601-05ac-4e61-8304-5a8c1f58fce8",
+  "model": "deepseek-flash",
+  "created": 1792981027,
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "finish_reason": "stop",
+  "final_content": "{\"status\":\"answer\",\"answer\":\"You have used 3 different types of citrus fruit in your cocktail recipes: lime, orange, and lemon.\",\"claims\":[{\"claim\":\"Lime was used in the user's cocktail recipes, including a classic Daiquiri made with fresh lime juice and a Cucumber Gimlet mixed with lime juice.\",\"citations\":[{\"evidence_id\":\"E00002\",\"quote\":\"I recently learned how to make a classic Daiquiri the right way, using fresh lime juice and simple syrup in a mixology class.\"},{\"evidence_id\":\"E00004\",\"quote\":\"I recently made a Cucumber Gimlet by infusing the gin with sliced cucumbers and mixed it with lime juice and simple syrup\"}]},{\"claim\":\"Orange and lemon were used in Sangria; the user says they served Sangria in a large pitcher with slices of orange and lemon at a dinner party two weeks earlier.\",\"citations\":[{\"evidence_id\":\"E00003\",\"quote\":\"serving the Sangria in a large pitcher with slices of orange and lemon, just like I did for my dinner party two weeks ago.\"}]},{\"claim\":\"Counting the distinct citrus fruits supported by the user's statements gives 3: lime, orange, and lemon.\",\"citations\":[{\"evidence_id\":\"E00002\",\"quote\":\"using fresh lime juice and simple syrup\"},{\"evidence_id\":\"E00003\",\"quote\":\"slices of orange and lemon\"},{\"evidence_id\":\"E00004\",\"quote\":\"mixed it with lime juice and simple syrup\"}]}],\"selected_sources\":[\"C02\",\"C03\",\"C04\"],\"missing\":\"No evidence that the user used any other citrus fruit, such as grapefruit, in their cocktail recipes.\"}",
+  "usage": {
+    "prompt_tokens": 13737,
+    "completion_tokens": 2825,
+    "total_tokens": 16562,
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2472
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 13481
+  },
+  "refusal": null
+}

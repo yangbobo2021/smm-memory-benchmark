@@ -1,0 +1,59 @@
+{
+  "experiment_id": "SMM-B001",
+  "case_id": "P20",
+  "task": "oracle_answer",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "backend": "codex-subscription",
+  "request_sha256": "1a4f9f31b21b346653ba0be8fed8eb0e1adbd880f8e98119af5ef4b600ef740d",
+  "output": {
+    "status": "answer",
+    "answer": "You stop checking work emails and messages at 7 pm.",
+    "claims": [
+      {
+        "claim": "The user says they stop work emails and messages by 7 pm.",
+        "citations": [
+          {
+            "evidence_id": "E00001",
+            "quote": "stopping work emails and messages by 7 pm"
+          }
+        ]
+      }
+    ],
+    "selected_sources": [
+      "C01"
+    ],
+    "missing": ""
+  },
+  "metrics": {
+    "seconds": 4.287785,
+    "thread_setup_seconds": 0.076396,
+    "rate_wait_seconds": 0,
+    "active_seconds": 4.287785,
+    "turn_seconds": 4.211389,
+    "first_text_seconds": 3.733565,
+    "selected_model": "gpt-6-luna",
+    "selected_provider": "openai",
+    "ephemeral": true,
+    "tool_calls": 0,
+    "item_counts": {
+      "userMessage": 1,
+      "agentMessage": 1
+    },
+    "usage": {
+      "prompt_tokens": 13065,
+      "completion_tokens": 86,
+      "total_tokens": 13151,
+      "cached_prompt_tokens": 9216,
+      "reasoning_tokens": 0
+    }
+  },
+  "error": null,
+  "raw_receipt": "raw/oracle_answer/P20.json",
+  "raw_receipt_sha256": "1c452e6e234874952abf8a43b78db54c03b6612922374cfab79e10c5c19743ed",
+  "imported": true,
+  "historical_exact_reuse": true,
+  "provenance_path": "work/smm-audited-oracle-comparison-v1/ai/gpt-6-luna/P20.json",
+  "reused_first_result": "provenance/reused-first-results/gpt-6-luna/P20.json",
+  "reused_first_result_sha256": "d14d77920ded9d9af6c882524be53902ac763cc9c78c888973b51748d8f48caf"
+}
