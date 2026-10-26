@@ -1,16 +1,26 @@
 {
   "experiment": "SMM-BM25-SCALE-1000-002",
-  "file_count": 267,
+  "file_count": 270,
   "files": [
     {
       "path": "README.md",
-      "sha256": "c8f25ffa73cfe9f815652faf8ae00fe330879952d3e2743f0f88db9a9385cdfd",
-      "bytes": 5427
+      "sha256": "13987201d9ec8a4568b4505e1627eb45610a1ecc3bcaecd17000d8342d1f9040",
+      "bytes": 5686
+    },
+    {
+      "path": "ROLE_DIAGNOSTIC.md",
+      "sha256": "9e1e17e3c4c3cfd83935f6387766c76f6a238a657aba2025457cb596674ed858",
+      "bytes": 3289
     },
     {
       "path": "data/conversationchronicles-selected728.jsonl",
       "sha256": "5d59be8c302324a2ea988ad8b1b229f335c68b4efb5036de14467e88904352ed",
       "bytes": 3361215
+    },
+    {
+      "path": "diagnose_roles.py",
+      "sha256": "82aa36270b3cb5a1407d3056fb2b29dbaee2b78cfb74749711b9d757393b6e4c",
+      "bytes": 3877
     },
     {
       "path": "prepare.py",
@@ -1306,6 +1316,11 @@
       "path": "results/P25.json",
       "sha256": "4a3a499665d960c4646b9ac23da92915046481f6779a13810d41eba2c89ee283",
       "bytes": 1549
+    },
+    {
+      "path": "role-diagnostic.json",
+      "sha256": "5f7d8d68631f99ca7e156aaf700c89ee537e5f2f65795ed6f2d20cd5be51d265",
+      "bytes": 127365
     },
     {
       "path": "run.log",

@@ -1,0 +1,4663 @@
+{
+  "summary": {
+    "source_count": 2675,
+    "assistant_character_share_median": 0.8929695697796433,
+    "cohorts": {
+      "P25": {
+        "full": {
+          "top5_all": 18,
+          "top10_all": 19
+        },
+        "user": {
+          "top5_all": 18,
+          "top10_all": 22
+        },
+        "assistant": {
+          "top5_all": 18,
+          "top10_all": 18
+        },
+        "full_top5_misses_restored_by_user": 2,
+        "full_top10_misses_restored_by_user": 4
+      },
+      "L32": {
+        "full": {
+          "top5_all": 15,
+          "top10_all": 16
+        },
+        "user": {
+          "top5_all": 14,
+          "top10_all": 16
+        },
+        "assistant": {
+          "top5_all": 11,
+          "top10_all": 15
+        },
+        "full_top5_misses_restored_by_user": 1,
+        "full_top10_misses_restored_by_user": 2
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "P01",
+      "cohort": "P25",
+      "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+      "reference_sources": [
+        "c6cfd58034e25f4def8503729",
+        "c86c392fcf4351780ec72ccbe"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c6cfd58034e25f4def8503729": 2,
+          "c86c392fcf4351780ec72ccbe": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c6cfd58034e25f4def8503729": 2,
+          "c86c392fcf4351780ec72ccbe": 3
+        },
+        "top10_ids": [
+          "c7248ad0a69c92e023fba7cf6",
+          "c6cfd58034e25f4def8503729",
+          "c86c392fcf4351780ec72ccbe",
+          "c8bf8c833ac88f981c3754f3f",
+          "c680da2a4cb2b34e8e150ae44",
+          "cddc7b055ae7ae0553b3d07d6",
+          "c0220db68f13f5d3bbff00909",
+          "c78f09e3fdcebcfe35da018dc",
+          "c55bddb0cc076c35bfef582a6",
+          "cbfda4883c6319721eabdedcf"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c6cfd58034e25f4def8503729": 2,
+          "c86c392fcf4351780ec72ccbe": 1
+        },
+        "top10_ids": [
+          "c86c392fcf4351780ec72ccbe",
+          "c6cfd58034e25f4def8503729",
+          "c5d548de884009b83b5074f37",
+          "cddc7b055ae7ae0553b3d07d6",
+          "c7248ad0a69c92e023fba7cf6",
+          "c680da2a4cb2b34e8e150ae44",
+          "cbfda4883c6319721eabdedcf",
+          "c8bf8c833ac88f981c3754f3f",
+          "c27dcdd863c260fd44805fb65",
+          "c6a02239b9099e09e59fe1c0c"
+        ]
+      }
+    },
+    {
+      "id": "P02",
+      "cohort": "P25",
+      "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+      "reference_sources": [
+        "c4d5e76892eb66ee21cf151ae",
+        "ca3586c9f696b9c5035ebf62c"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c4d5e76892eb66ee21cf151ae": 1,
+          "ca3586c9f696b9c5035ebf62c": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c4d5e76892eb66ee21cf151ae": 1,
+          "ca3586c9f696b9c5035ebf62c": 2
+        },
+        "top10_ids": [
+          "c4d5e76892eb66ee21cf151ae",
+          "ca3586c9f696b9c5035ebf62c",
+          "cd71c99151e9e6e9dbd0eea19",
+          "c132b24a950126dee4fe5aac7",
+          "c99ece34110666033889061ba",
+          "c8e3637f2113bf36e6067932f",
+          "c9e3e3e7be95db64aea5019c2",
+          "ccc4de396f0e9fc1f6d6bc107",
+          "c5157292d138fbedaadbc397c",
+          "cf12941a6b6047f040c06282b"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c4d5e76892eb66ee21cf151ae": 1,
+          "ca3586c9f696b9c5035ebf62c": 2
+        },
+        "top10_ids": [
+          "c4d5e76892eb66ee21cf151ae",
+          "ca3586c9f696b9c5035ebf62c",
+          "cc4006300f03372462eec3b14",
+          "cb17fee32b51aa39e36981e7c",
+          "c356f0c2dbd40c74c42301ed9",
+          "cf813901367cd4a3d4dd10116",
+          "cf9dd31701b7948c8d962f804",
+          "ced9ac44de42245fe265cb2bc",
+          "cf39f9271ef3621d6738f9c43",
+          "c132b24a950126dee4fe5aac7"
+        ]
+      }
+    },
+    {
+      "id": "P03",
+      "cohort": "P25",
+      "question": "How many issues of National Geographic have I finished reading?",
+      "reference_sources": [
+        "cd244fcacffe13caffeb31e69",
+        "cab206cf9d24f3f891f2ce248"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cd244fcacffe13caffeb31e69": 1,
+          "cab206cf9d24f3f891f2ce248": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cd244fcacffe13caffeb31e69": 1,
+          "cab206cf9d24f3f891f2ce248": 2
+        },
+        "top10_ids": [
+          "cd244fcacffe13caffeb31e69",
+          "cab206cf9d24f3f891f2ce248",
+          "c371cf0a74089019b6997f7db",
+          "c63eda5a1661e425930522db7",
+          "c27dcdd863c260fd44805fb65",
+          "cc4ecd9ef31c5b3de0df1f281",
+          "c0220db68f13f5d3bbff00909",
+          "c8bf8c833ac88f981c3754f3f",
+          "c7248ad0a69c92e023fba7cf6",
+          "cda5985f91c87318570c0cd8e"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cd244fcacffe13caffeb31e69": 1,
+          "cab206cf9d24f3f891f2ce248": 3
+        },
+        "top10_ids": [
+          "cd244fcacffe13caffeb31e69",
+          "c63eda5a1661e425930522db7",
+          "cab206cf9d24f3f891f2ce248",
+          "caa0d0b80bee62ce94cd69791",
+          "c371cf0a74089019b6997f7db",
+          "c7b2c3561481c8e76e2ba41f2",
+          "c8ea9c779757f5f8e4e73431c",
+          "c7ca33ce038ed47ac135bf4c7",
+          "c17d2c9ddb992c9dc111a33ad",
+          "c27dcdd863c260fd44805fb65"
+        ]
+      }
+    },
+    {
+      "id": "P04",
+      "cohort": "P25",
+      "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+      "reference_sources": [
+        "ca194573bab838bc02a805cf8",
+        "c61dc060a2ddb252dd1eef054"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "ca194573bab838bc02a805cf8": 2,
+          "c61dc060a2ddb252dd1eef054": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "ca194573bab838bc02a805cf8": 2,
+          "c61dc060a2ddb252dd1eef054": 1
+        },
+        "top10_ids": [
+          "c61dc060a2ddb252dd1eef054",
+          "ca194573bab838bc02a805cf8",
+          "c728eefb259903324a1447287",
+          "c2a8c5f10464bb7e2386ae719",
+          "c2e13f034689d6c54f58919c9",
+          "c56b136d347471563a58d6502",
+          "ce3dc021286424e469e8ad2ad",
+          "c5f71cdfb9e76caff0323e171",
+          "c4da953665cd778918ab4e151",
+          "cf49c3922ed69fbb9401101f9"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "ca194573bab838bc02a805cf8": 1,
+          "c61dc060a2ddb252dd1eef054": 2
+        },
+        "top10_ids": [
+          "ca194573bab838bc02a805cf8",
+          "c61dc060a2ddb252dd1eef054",
+          "c56b136d347471563a58d6502",
+          "c728eefb259903324a1447287",
+          "c91c7d4ba6d673ee095fda5e8",
+          "c5a2c22d568cbb3ffe06448f8",
+          "c08667e73c8710cabb2aaad23",
+          "c424ff7d6621d2b963e653b19",
+          "c7f8682a4f17d006f918edc6f",
+          "ce244b759de3221a2e55c98f3"
+        ]
+      }
+    },
+    {
+      "id": "P05",
+      "cohort": "P25",
+      "question": "How many hours have I spent on my abstract ocean sculpture?",
+      "reference_sources": [
+        "ca1d9de8e9c37808891cece4b",
+        "c4c82a4ec553edba1edf85885"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "ca1d9de8e9c37808891cece4b": 2,
+          "c4c82a4ec553edba1edf85885": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "ca1d9de8e9c37808891cece4b": 2,
+          "c4c82a4ec553edba1edf85885": 1
+        },
+        "top10_ids": [
+          "c4c82a4ec553edba1edf85885",
+          "ca1d9de8e9c37808891cece4b",
+          "ce50a4aec7d73088e8e225541",
+          "ce6de0f6f0915a9bf6cfb7a9a",
+          "c646e0e6a4fb57e19b6a910dc",
+          "c92ced90a1e342aca46aa76f9",
+          "c95972af1722e1e5ba82e0599",
+          "ca3b676ca3de1f86df2f32809",
+          "c890b77b01a85c2119b4db9f2",
+          "ccce03fdf2304eb349a534e15"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "ca1d9de8e9c37808891cece4b": 3,
+          "c4c82a4ec553edba1edf85885": 1
+        },
+        "top10_ids": [
+          "c4c82a4ec553edba1edf85885",
+          "c646e0e6a4fb57e19b6a910dc",
+          "ca1d9de8e9c37808891cece4b",
+          "ce6de0f6f0915a9bf6cfb7a9a",
+          "ce50a4aec7d73088e8e225541",
+          "c39a7c916bff2cc62cafdc2e0",
+          "cbaaa1cca67ec334f7fcd0310",
+          "ca3b676ca3de1f86df2f32809",
+          "c37c3c931dd094767ca7f8b56",
+          "ce56f3d6ec1b80f54cf8fd6a9"
+        ]
+      }
+    },
+    {
+      "id": "P06",
+      "cohort": "P25",
+      "question": "How many days a week do I attend fitness classes?",
+      "reference_sources": [
+        "cb02306340efae1abb61b04d8",
+        "c3660f7f82aeb2ef7b63e2daf"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cb02306340efae1abb61b04d8": 26,
+          "c3660f7f82aeb2ef7b63e2daf": 3
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cb02306340efae1abb61b04d8": 85,
+          "c3660f7f82aeb2ef7b63e2daf": 1
+        },
+        "top10_ids": [
+          "c3660f7f82aeb2ef7b63e2daf",
+          "cf029674278a732829abcdd70",
+          "c48e871950a9810b9d40b5228",
+          "c10942eac5fd61234c4ae6032",
+          "c26084b7db4c02b541186e4ef",
+          "cda3c8694290fb7c812fdf204",
+          "c680da2a4cb2b34e8e150ae44",
+          "cd4676817fc9720fda94e6c0e",
+          "cf776b5f4846ef8cd0a7af46d",
+          "c6c70d5dfa295d9a83aebd742"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cb02306340efae1abb61b04d8": 29,
+          "c3660f7f82aeb2ef7b63e2daf": 8
+        },
+        "top10_ids": [
+          "cda3c8694290fb7c812fdf204",
+          "c8bcc8bc96acd9370b1139092",
+          "c48e871950a9810b9d40b5228",
+          "cf029674278a732829abcdd70",
+          "c383a38d464776a2217d5b207",
+          "c216713a6900625789103edc7",
+          "c10942eac5fd61234c4ae6032",
+          "c3660f7f82aeb2ef7b63e2daf",
+          "c26084b7db4c02b541186e4ef",
+          "c745d8270059d1a4d002cd60e"
+        ]
+      }
+    },
+    {
+      "id": "P07",
+      "cohort": "P25",
+      "question": "How many dinner parties have I attended in the past month?",
+      "reference_sources": [
+        "c799a2510389a8ff2e69d96f5",
+        "c5e13079f8999c5bfd339aab7"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c799a2510389a8ff2e69d96f5": 16,
+          "c5e13079f8999c5bfd339aab7": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c799a2510389a8ff2e69d96f5": 5,
+          "c5e13079f8999c5bfd339aab7": 1
+        },
+        "top10_ids": [
+          "c5e13079f8999c5bfd339aab7",
+          "cb70fa4f111769997793f6966",
+          "c9fa4e8a35313b7852ca64732",
+          "cd91811d867671dfc80f4a196",
+          "c799a2510389a8ff2e69d96f5",
+          "c5d50c252f77a22897f2c0939",
+          "c32a5d82c9a1a1cdc281bebc9",
+          "cd736fc5e296b38a180ea5e41",
+          "ca4dc44a5d83b76b504172b96",
+          "c96c4321cc3cfb1925fd9437a"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c799a2510389a8ff2e69d96f5": 92,
+          "c5e13079f8999c5bfd339aab7": 6
+        },
+        "top10_ids": [
+          "c5d50c252f77a22897f2c0939",
+          "c19f10d050d45b45b632f7c42",
+          "c32a5d82c9a1a1cdc281bebc9",
+          "c4cd89d53b74128c1021d7cbc",
+          "c4447ec7630379760eadb7199",
+          "c5e13079f8999c5bfd339aab7",
+          "ce60dbdf103624cd518ed0f9d",
+          "c34c038d853f4dffba4cba186",
+          "cb157bc229e32d0bb70068f01",
+          "c8ef9e78f014d778a15db7bae"
+        ]
+      }
+    },
+    {
+      "id": "P08",
+      "cohort": "P25",
+      "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+      "reference_sources": [
+        "c9153f368b92a0a1aa0e04b1c",
+        "c77ccd1970a752a97cb1105f3",
+        "c8f9041e297070a3be513d341",
+        "c8b7f5dac3289afd48af13edf"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 3
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 4
+        },
+        "reference_positions": {
+          "c9153f368b92a0a1aa0e04b1c": 4,
+          "c77ccd1970a752a97cb1105f3": 1,
+          "c8f9041e297070a3be513d341": 6,
+          "c8b7f5dac3289afd48af13edf": 3
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c9153f368b92a0a1aa0e04b1c": 1,
+          "c77ccd1970a752a97cb1105f3": 11,
+          "c8f9041e297070a3be513d341": 6,
+          "c8b7f5dac3289afd48af13edf": 17
+        },
+        "top10_ids": [
+          "c9153f368b92a0a1aa0e04b1c",
+          "cbcbd7531f6d9d1ccedf0da68",
+          "cb02bbaef931497f342561068",
+          "c80e3ffa6e8f19f85e4a87a1f",
+          "cbde2695f464c0c143d66c6aa",
+          "c8f9041e297070a3be513d341",
+          "cf13d71055ebb9695c644f748",
+          "cea10cc00c1c65c227803a945",
+          "c7a75b66ae4536992f97d07fe",
+          "ce63cdace41d2b0d2d39c7052"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 4
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 4
+        },
+        "reference_positions": {
+          "c9153f368b92a0a1aa0e04b1c": 4,
+          "c77ccd1970a752a97cb1105f3": 3,
+          "c8f9041e297070a3be513d341": 5,
+          "c8b7f5dac3289afd48af13edf": 2
+        },
+        "top10_ids": [
+          "cbcbd7531f6d9d1ccedf0da68",
+          "c8b7f5dac3289afd48af13edf",
+          "c77ccd1970a752a97cb1105f3",
+          "c9153f368b92a0a1aa0e04b1c",
+          "c8f9041e297070a3be513d341",
+          "c80e3ffa6e8f19f85e4a87a1f",
+          "cd0a12f8f39926a3095728a92",
+          "c0db477f6c9092596b54a6227",
+          "c4da761fa29cfa9dbe9ec7b25",
+          "cf39f9271ef3621d6738f9c43"
+        ]
+      }
+    },
+    {
+      "id": "P09",
+      "cohort": "P25",
+      "question": "How many days did I spend participating in faith-related activities in December?",
+      "reference_sources": [
+        "c8531a9f29edb59a4767e8d72",
+        "cb5d52df1411ad8bfce6630ad",
+        "cc3fbf6478327dbbf685bb205"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c8531a9f29edb59a4767e8d72": 3,
+          "cb5d52df1411ad8bfce6630ad": 21,
+          "cc3fbf6478327dbbf685bb205": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c8531a9f29edb59a4767e8d72": 4,
+          "cb5d52df1411ad8bfce6630ad": 10,
+          "cc3fbf6478327dbbf685bb205": 1
+        },
+        "top10_ids": [
+          "cc3fbf6478327dbbf685bb205",
+          "c45f85aeb1e05318b60dbc918",
+          "c9f1736f1f025be858d9c5a85",
+          "c8531a9f29edb59a4767e8d72",
+          "cc670e84527aba960695acd54",
+          "c51402484f0ed8e94e2778526",
+          "cf029674278a732829abcdd70",
+          "caa0d0b80bee62ce94cd69791",
+          "c591c39511abb0795bff4fdb4",
+          "cb5d52df1411ad8bfce6630ad"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8531a9f29edb59a4767e8d72": 27,
+          "cb5d52df1411ad8bfce6630ad": 19,
+          "cc3fbf6478327dbbf685bb205": 1
+        },
+        "top10_ids": [
+          "cc3fbf6478327dbbf685bb205",
+          "ce9337f954708d0bb349ea7d8",
+          "c4bc70fbe374adec88afd34d7",
+          "c3596f2814e2b898fc0d5690e",
+          "c45f85aeb1e05318b60dbc918",
+          "cc670e84527aba960695acd54",
+          "cd7847f76aaedfce3200dce7f",
+          "c6c70d5dfa295d9a83aebd742",
+          "cbcd053731bc8056f8a8af43c",
+          "c658a4d6521f7fbc419dfd5c9"
+        ]
+      }
+    },
+    {
+      "id": "P10",
+      "cohort": "P25",
+      "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+      "reference_sources": [
+        "c7205aaf4f85c5e920a9e1c57",
+        "c90f22ac4580aa6d69fac7732",
+        "cc071c3f64b3fa0ab505a8019"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c7205aaf4f85c5e920a9e1c57": 1,
+          "c90f22ac4580aa6d69fac7732": 3,
+          "cc071c3f64b3fa0ab505a8019": 55
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c7205aaf4f85c5e920a9e1c57": 2,
+          "c90f22ac4580aa6d69fac7732": 4,
+          "cc071c3f64b3fa0ab505a8019": 8
+        },
+        "top10_ids": [
+          "c6a02239b9099e09e59fe1c0c",
+          "c7205aaf4f85c5e920a9e1c57",
+          "c8e3637f2113bf36e6067932f",
+          "c90f22ac4580aa6d69fac7732",
+          "cc7047087e54350d4e7f72150",
+          "c3329b40f41fafb26767e621b",
+          "ca8bf5dc6eac02db046f5c940",
+          "cc071c3f64b3fa0ab505a8019",
+          "c86336199d21ad045176ffcc5",
+          "c45af9aa8fd1613ed3a788987"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c7205aaf4f85c5e920a9e1c57": 1,
+          "c90f22ac4580aa6d69fac7732": 3,
+          "cc071c3f64b3fa0ab505a8019": 78
+        },
+        "top10_ids": [
+          "c7205aaf4f85c5e920a9e1c57",
+          "cc7047087e54350d4e7f72150",
+          "c90f22ac4580aa6d69fac7732",
+          "c995d9eb1ff96e918cde5fe51",
+          "c8e3637f2113bf36e6067932f",
+          "ca8bf5dc6eac02db046f5c940",
+          "c6a02239b9099e09e59fe1c0c",
+          "c84ea3dd194199e14ad65d304",
+          "cd2a97c4df5395f6291388464",
+          "cb3a83e059af5e192b565d01f"
+        ]
+      }
+    },
+    {
+      "id": "P11",
+      "cohort": "P25",
+      "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+      "reference_sources": [
+        "c8ae7755b954de1ea86110538"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8ae7755b954de1ea86110538": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8ae7755b954de1ea86110538": 3
+        },
+        "top10_ids": [
+          "c08667e73c8710cabb2aaad23",
+          "ce9623f6fc3a634eadcef93f8",
+          "c8ae7755b954de1ea86110538",
+          "c56b136d347471563a58d6502",
+          "cb70fa4f111769997793f6966",
+          "c286ec85a9ccaef4c4a390779",
+          "c2fc4dcb3727b82f5e95caacc",
+          "cf371057c48cdcb6440346b1c",
+          "c9a5aa7a102622745e872e32c",
+          "cec48b8f4254437d0c01aba32"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8ae7755b954de1ea86110538": 1
+        },
+        "top10_ids": [
+          "c8ae7755b954de1ea86110538",
+          "c9c91a9d2dc9e32fd05beb03e",
+          "ca72cff9b49afda45e0cfbe8b",
+          "cc0c2a2058d3542527ff62e0f",
+          "c9b97da7c979197a625a01536",
+          "c0df14497b6b1fdaa7501f822",
+          "cf371057c48cdcb6440346b1c",
+          "c097d34916d74c7cb88737450",
+          "c42092527b95e4c9294d2647d",
+          "c41ea5bc7329bff46ecce90e7"
+        ]
+      }
+    },
+    {
+      "id": "P12",
+      "cohort": "P25",
+      "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+      "reference_sources": [
+        "c50927ca385b93a348ac133cd"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c50927ca385b93a348ac133cd": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c50927ca385b93a348ac133cd": 1
+        },
+        "top10_ids": [
+          "c50927ca385b93a348ac133cd",
+          "c9ca3a2059648210e2bb61840",
+          "c849b3d266d0c032ed536db9e",
+          "c6d57b3289c3b3fb17fc7b413",
+          "c6c70d5dfa295d9a83aebd742",
+          "ca768a0d9873252d089d6b9b8",
+          "cd546567dd962f2cd81005bc3",
+          "c732bf17c84fe6cb5d27627d7",
+          "c6ecdafa77d476f59fc5b4951",
+          "c7ca33ce038ed47ac135bf4c7"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c50927ca385b93a348ac133cd": 2
+        },
+        "top10_ids": [
+          "c6d57b3289c3b3fb17fc7b413",
+          "c50927ca385b93a348ac133cd",
+          "c7ca33ce038ed47ac135bf4c7",
+          "c34c038d853f4dffba4cba186",
+          "c9b55261b15ca8fd734096d20",
+          "c1e95c58a3caa33625669f4b0",
+          "cd13de7d68ae3b288085b59cd",
+          "c37c3c931dd094767ca7f8b56",
+          "ca768a0d9873252d089d6b9b8",
+          "c849b3d266d0c032ed536db9e"
+        ]
+      }
+    },
+    {
+      "id": "P13",
+      "cohort": "P25",
+      "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+      "reference_sources": [
+        "cacc96cddded0941e918b8c86"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cacc96cddded0941e918b8c86": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cacc96cddded0941e918b8c86": 1
+        },
+        "top10_ids": [
+          "cacc96cddded0941e918b8c86",
+          "c2bd34f70b609538b433522a5",
+          "cca5a415b09a28c3ddb71a07c",
+          "c5a3372e7522a12cce13abc3e",
+          "c3823d0727ed9574c03656930",
+          "cfcaaa314cbdd195f7e6c7281",
+          "cb4037e4398b839c2fde4ebac",
+          "cc572679fc8c8fda65da52118",
+          "c91c7d4ba6d673ee095fda5e8",
+          "ca352623c00182ca6675e06c3"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cacc96cddded0941e918b8c86": 1
+        },
+        "top10_ids": [
+          "cacc96cddded0941e918b8c86",
+          "ce9337f954708d0bb349ea7d8",
+          "c7df689de37933aabc2060dc4",
+          "ce4e3d8a0e532b83a9dc12630",
+          "c9b97da7c979197a625a01536",
+          "c4c2915cc5a9037d7d05e457c",
+          "c4fe22f60e57d42dbe45060d6",
+          "cedace16701c10fbef33a8222",
+          "c01b676ad4a9ea4fa19a9c780",
+          "cbc719e444dfedf6d10480a4c"
+        ]
+      }
+    },
+    {
+      "id": "P14",
+      "cohort": "P25",
+      "question": "I was going through our previous conversation about the impact of the political climate in Catalonia on its literature and music. Can you remind me of the example you gave of a Spanish-Catalan singer-songwriter who supports unity between Catalonia and Spain?",
+      "reference_sources": [
+        "ce4bde0adad4fe2ecc4bf403f"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "ce4bde0adad4fe2ecc4bf403f": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "ce4bde0adad4fe2ecc4bf403f": 1
+        },
+        "top10_ids": [
+          "ce4bde0adad4fe2ecc4bf403f",
+          "c546977571984296ae22d6c98",
+          "c977e35ed30aff62775c6c3b8",
+          "ca124abae0d9fdeb08ba0e200",
+          "c20260233812cac289247fe07",
+          "ccc25365e2b2cd1a1ad58c2dd",
+          "c37f889f2dde4f2966bc38b58",
+          "cca92f1d8b8489412a3dae2db",
+          "cc19c8554614a0c53bb30c777",
+          "c85cc7abaa84d0438640ae136"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "ce4bde0adad4fe2ecc4bf403f": 1
+        },
+        "top10_ids": [
+          "ce4bde0adad4fe2ecc4bf403f",
+          "cf09a8cae0149276bac2cefb8",
+          "cf2d513063680677b4b5217a2",
+          "c885209cf378e1591726c072e",
+          "c966f465e54d4f37352c60683",
+          "c09f06685f50471d995537819",
+          "c977e35ed30aff62775c6c3b8",
+          "c120658a20c009e83202d9025",
+          "c6ed5ce943b1f601010358313",
+          "ca487ca73dcda2b4570eaf032"
+        ]
+      }
+    },
+    {
+      "id": "P15",
+      "cohort": "P25",
+      "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+      "reference_sources": [
+        "c831c3cd021ba61a85c9aa466"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c831c3cd021ba61a85c9aa466": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c831c3cd021ba61a85c9aa466": 1
+        },
+        "top10_ids": [
+          "c831c3cd021ba61a85c9aa466",
+          "c72018d6b87a05e3e7b25a12c",
+          "cfc72ad4e3b300c44a8d294e4",
+          "c404afe0f9b8e16c79afb95ba",
+          "c9ee39fa056b98775b6f4c8ca",
+          "c667ec3c602194e55e8a29e72",
+          "c4d9ab816e588e894615037d6",
+          "c944b782d74add1c3df131330",
+          "c56b136d347471563a58d6502",
+          "c17c9578a8a9a266e5f2267d5"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c831c3cd021ba61a85c9aa466": 1
+        },
+        "top10_ids": [
+          "c831c3cd021ba61a85c9aa466",
+          "c72018d6b87a05e3e7b25a12c",
+          "c9ee39fa056b98775b6f4c8ca",
+          "cb4037e4398b839c2fde4ebac",
+          "c44137dc44421a29c53a29ea7",
+          "c8f9ea95d5e81ca55d560b767",
+          "c6f64372d8a54c97adc6fad8a",
+          "ce93294534224ee8377423980",
+          "ce33cf476ac12e1ac6f879164",
+          "c9560578da110a30ea3ce2e9e"
+        ]
+      }
+    },
+    {
+      "id": "P16",
+      "cohort": "P25",
+      "question": "How many skeins of worsted weight yarn did I find in my stash?",
+      "reference_sources": [
+        "c206792b9b44d285b614d229e"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c206792b9b44d285b614d229e": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c206792b9b44d285b614d229e": 1
+        },
+        "top10_ids": [
+          "c206792b9b44d285b614d229e",
+          "c5ddbf1276d8b19ef0faaf16a",
+          "cd45cf7fee7c01e4b4f6381f1",
+          "c3b07912f5174aa481f965abf",
+          "ca3b676ca3de1f86df2f32809",
+          "ca6ffab02c0a7353edc0a9ae0",
+          "c4e4b853043f84dc4f1e5baca",
+          "caa0d0b80bee62ce94cd69791",
+          "ccea008d77c45ebacb98d424a",
+          "cc7ea7341fb9815dd87d0f810"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c206792b9b44d285b614d229e": 1
+        },
+        "top10_ids": [
+          "c206792b9b44d285b614d229e",
+          "c5ddbf1276d8b19ef0faaf16a",
+          "c633121d2008a0e420f29ca29",
+          "ca3b676ca3de1f86df2f32809",
+          "cc13af7d35ec303fb7f1ce525",
+          "caa0d0b80bee62ce94cd69791",
+          "c35d2d22e1fd2a0a16074d001",
+          "c5c0a5a9890bd9084a969898b",
+          "c6d072bf4e4f9d7cbe01d0e43",
+          "cd6bbf598c9fe822b5113ffac"
+        ]
+      }
+    },
+    {
+      "id": "P17",
+      "cohort": "P25",
+      "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+      "reference_sources": [
+        "c7597a97e2ced0ac9fccbba67"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7597a97e2ced0ac9fccbba67": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7597a97e2ced0ac9fccbba67": 1
+        },
+        "top10_ids": [
+          "c7597a97e2ced0ac9fccbba67",
+          "c8c606df2d704e8cb3ef6792c",
+          "c7b2c3561481c8e76e2ba41f2",
+          "c8a424632f3abfb2cee4b58a6",
+          "c5585a12de0b25de909d7935f",
+          "c60b3a92e9ba50de15d46dbd7",
+          "ca7d58fe6b8f408bbf321f737",
+          "c66da60a904d57f5e9ed79aec",
+          "c4da953665cd778918ab4e151",
+          "c944feac7b728fcf4f7781924"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7597a97e2ced0ac9fccbba67": 1
+        },
+        "top10_ids": [
+          "c7597a97e2ced0ac9fccbba67",
+          "c8c606df2d704e8cb3ef6792c",
+          "c7b2c3561481c8e76e2ba41f2",
+          "c1f0b0d55f751e11b54266930",
+          "c5585a12de0b25de909d7935f",
+          "c8a424632f3abfb2cee4b58a6",
+          "c91d47f2b0bfc37560978c660",
+          "c4da953665cd778918ab4e151",
+          "cb4037e4398b839c2fde4ebac",
+          "c60b3a92e9ba50de15d46dbd7"
+        ]
+      }
+    },
+    {
+      "id": "P18",
+      "cohort": "P25",
+      "question": "How much did I spend on a designer handbag?",
+      "reference_sources": [
+        "cda869cbb99225b9233bf65e7"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cda869cbb99225b9233bf65e7": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cda869cbb99225b9233bf65e7": 10
+        },
+        "top10_ids": [
+          "c7a5d4c305e7e3eb9203bd5cc",
+          "c5d46e67d2c182a64fe152f21",
+          "cb1d7b1e7737eb34f82202ace",
+          "cd691b8d2d4a7ecdc73949ae1",
+          "c5fe53e51624479bfcfb3e78a",
+          "c57a37eae261cfb88c573d0b1",
+          "ceb7e31480dc4633f8b0cbe3b",
+          "c9b94b0d7d9e1fd5da831c5d6",
+          "c50bbd8cddbc3588fad0c88f4",
+          "cda869cbb99225b9233bf65e7"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cda869cbb99225b9233bf65e7": 3
+        },
+        "top10_ids": [
+          "c5d46e67d2c182a64fe152f21",
+          "ceb7e31480dc4633f8b0cbe3b",
+          "cda869cbb99225b9233bf65e7",
+          "cb1d7b1e7737eb34f82202ace",
+          "cd691b8d2d4a7ecdc73949ae1",
+          "c4a8874e18b09a0fab4eb44a4",
+          "c7a5d4c305e7e3eb9203bd5cc",
+          "c944a9cab128c4414374654cc",
+          "c51b07f1c61cba3a1029a73e7",
+          "c026d2bf61b0007e83322bcdc"
+        ]
+      }
+    },
+    {
+      "id": "P19",
+      "cohort": "P25",
+      "question": "Where did I buy my new tennis racket from?",
+      "reference_sources": [
+        "cdfeb5d9b5297a62fd0054af3"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cdfeb5d9b5297a62fd0054af3": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cdfeb5d9b5297a62fd0054af3": 1
+        },
+        "top10_ids": [
+          "cdfeb5d9b5297a62fd0054af3",
+          "c231d0d6fc7a96f33fb71382b",
+          "c24adae013dbba18b26691dce",
+          "c37c81488376797b50e7f57d6",
+          "c72c5c24acfb8fb8f153b6e97",
+          "cc7ea7341fb9815dd87d0f810",
+          "c15cf4c695e46f4c9bc16e548",
+          "c8c256154423c18370f5f828c",
+          "cd1c999e08e5af7bc67de9f8e",
+          "ceb7e31480dc4633f8b0cbe3b"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cdfeb5d9b5297a62fd0054af3": 1
+        },
+        "top10_ids": [
+          "cdfeb5d9b5297a62fd0054af3",
+          "c231d0d6fc7a96f33fb71382b",
+          "c24adae013dbba18b26691dce",
+          "c37c81488376797b50e7f57d6",
+          "c744f89deb7c5733fbe1d3621",
+          "c16c18c9067caf8f2725bea63",
+          "ca2280d12445a6034f46a36cf",
+          "c9b69ca1f2b9483e0a502f354",
+          "ceb7e31480dc4633f8b0cbe3b",
+          "c94467f090e370ab7f2e09188"
+        ]
+      }
+    },
+    {
+      "id": "P20",
+      "cohort": "P25",
+      "question": "What time do I stop checking work emails and messages?",
+      "reference_sources": [
+        "c1c7c4c03a55cac4522db0a20"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c1c7c4c03a55cac4522db0a20": 23
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c1c7c4c03a55cac4522db0a20": 2
+        },
+        "top10_ids": [
+          "c10df9c7e44936951a3f32766",
+          "c1c7c4c03a55cac4522db0a20",
+          "ce557920b9a6f92c1abb06e74",
+          "cbeacba545f767feb0b273a1b",
+          "cfba59bc4274335df1f7f50b9",
+          "c8fa624b44e6c3c6b9e6584d1",
+          "c10266871f109377ffd734836",
+          "c88b07852b06f02b8fd2da477",
+          "cf55b11db8515cfceef8704a8",
+          "ce4bde0adad4fe2ecc4bf403f"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c1c7c4c03a55cac4522db0a20": 380
+        },
+        "top10_ids": [
+          "c10df9c7e44936951a3f32766",
+          "ce4de37fce7144b31d1da8754",
+          "cd89e598310cc021eea44b637",
+          "c58e75dd0b61882be5178c1a4",
+          "c9b7cb3cc0ee95d0abe8bc2d6",
+          "c2eafb3c3591707427ea06cae",
+          "c5d0eca1b798527a2004adef0",
+          "c1136c6a9d519e846c9fc5b19",
+          "c3f7ec6639c153f54e611a7c6",
+          "c37d6742905e5289d693506d2"
+        ]
+      }
+    },
+    {
+      "id": "P21",
+      "cohort": "P25",
+      "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+      "reference_sources": [
+        "c5cb50c297191b2e566d454d2",
+        "cd2a6842f7e4b75fe0461d1a1",
+        "c967f69f5e97bb77d7922817a"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 3
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c5cb50c297191b2e566d454d2": 3,
+          "cd2a6842f7e4b75fe0461d1a1": 1,
+          "c967f69f5e97bb77d7922817a": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c5cb50c297191b2e566d454d2": 3,
+          "cd2a6842f7e4b75fe0461d1a1": 7,
+          "c967f69f5e97bb77d7922817a": 4
+        },
+        "top10_ids": [
+          "c6c9df98a899615dd4902b36d",
+          "c88b7ee945645814e84c70061",
+          "c5cb50c297191b2e566d454d2",
+          "c967f69f5e97bb77d7922817a",
+          "c2fc4dcb3727b82f5e95caacc",
+          "cfb58939b84bf560e87d4500a",
+          "cd2a6842f7e4b75fe0461d1a1",
+          "cc0c2a2058d3542527ff62e0f",
+          "c24dc1e2125ce07ab7026be63",
+          "c3c313adbd58c807cb43ca0c3"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c5cb50c297191b2e566d454d2": 13,
+          "cd2a6842f7e4b75fe0461d1a1": 1,
+          "c967f69f5e97bb77d7922817a": 15
+        },
+        "top10_ids": [
+          "cd2a6842f7e4b75fe0461d1a1",
+          "c80f1308a1018b613b82b11d4",
+          "c02e959baebf0e95ad1856303",
+          "ce6d87afcd08f718793c3c6c5",
+          "cc0c2a2058d3542527ff62e0f",
+          "c855375d4439a253a04e89875",
+          "cf64f0d262c44d5b5899b3643",
+          "c593a7d5eb11482ef7fde1f99",
+          "c1ff3e692a4b604a76bab9e6a",
+          "c45da4032ad68050fbcff4fd1"
+        ]
+      }
+    },
+    {
+      "id": "P22",
+      "cohort": "P25",
+      "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+      "reference_sources": [
+        "c8ff57a2de289275b2c691222"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8ff57a2de289275b2c691222": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8ff57a2de289275b2c691222": 1
+        },
+        "top10_ids": [
+          "c8ff57a2de289275b2c691222",
+          "c5d5946a4d376d066d15abf0d",
+          "c944a9cab128c4414374654cc",
+          "c0e6f6c2b3bfe4c8f48b5e8bf",
+          "c90f3aaa5b305efbcb6ec0fea",
+          "ccec3fed4d2f9c34733d61a63",
+          "c2aad05aa7c5a68f9f61a8480",
+          "c82ee8cd1d50ef25f20a1a5ae",
+          "c5fe4eaf9c3adc5f26a4759dd",
+          "cb085d2aab287750bf4ff6afe"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8ff57a2de289275b2c691222": 1
+        },
+        "top10_ids": [
+          "c8ff57a2de289275b2c691222",
+          "c5d5946a4d376d066d15abf0d",
+          "c1e98619b07704d2c2c8c2ad2",
+          "cece8a09b7517df48546e1d63",
+          "c1bc46bac383bca262b2ed186",
+          "c381a36acfc4c7552bf6e6896",
+          "c3efc706cd0f4e1d087092937",
+          "c01a3157e107e27377536b658",
+          "c13a89e277180c07a390eebba",
+          "c2fc4dcb3727b82f5e95caacc"
+        ]
+      }
+    },
+    {
+      "id": "P23",
+      "cohort": "P25",
+      "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+      "reference_sources": [
+        "c13c5edb0fd463a670b2d0d3f",
+        "ca722cb830ce76b391e670726"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c13c5edb0fd463a670b2d0d3f": 5,
+          "ca722cb830ce76b391e670726": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c13c5edb0fd463a670b2d0d3f": 4,
+          "ca722cb830ce76b391e670726": 1
+        },
+        "top10_ids": [
+          "ca722cb830ce76b391e670726",
+          "cb8c4e1a83a15c1acf26d7d1f",
+          "c3e5d2a1044825556154589fd",
+          "c13c5edb0fd463a670b2d0d3f",
+          "c2e13f034689d6c54f58919c9",
+          "cfb27c832b807f0e4f1ff8c95",
+          "cfc1e068619aca27864b6ac07",
+          "cc31616e453bc481f9071fa17",
+          "c680da2a4cb2b34e8e150ae44",
+          "cc82b2dac58f7cdfb3e4ec580"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c13c5edb0fd463a670b2d0d3f": 5,
+          "ca722cb830ce76b391e670726": 2
+        },
+        "top10_ids": [
+          "cfb27c832b807f0e4f1ff8c95",
+          "ca722cb830ce76b391e670726",
+          "cfc1e068619aca27864b6ac07",
+          "cb8c4e1a83a15c1acf26d7d1f",
+          "c13c5edb0fd463a670b2d0d3f",
+          "c558928a17204952c4221896d",
+          "c3e5d2a1044825556154589fd",
+          "c5fe53e51624479bfcfb3e78a",
+          "cd6bbf598c9fe822b5113ffac",
+          "c09db3c226d495aa1cc1d4615"
+        ]
+      }
+    },
+    {
+      "id": "P24",
+      "cohort": "P25",
+      "question": "How many days ago did I attend a networking event?",
+      "reference_sources": [
+        "c7440c7a3ee7bbb9db6cf5156"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7440c7a3ee7bbb9db6cf5156": 3
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7440c7a3ee7bbb9db6cf5156": 1
+        },
+        "top10_ids": [
+          "c7440c7a3ee7bbb9db6cf5156",
+          "c4d08d3f3a04cab979a23d741",
+          "ca6ffab02c0a7353edc0a9ae0",
+          "c3454ce962ed35c820be5827a",
+          "cb4037e4398b839c2fde4ebac",
+          "c2e13f034689d6c54f58919c9",
+          "c5432bb938cd6a5b4a280d97c",
+          "cc6d0f9ecefc07d7c0e274dfe",
+          "cf029674278a732829abcdd70",
+          "c79c08eaf6d0ad388cee40a9e"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7440c7a3ee7bbb9db6cf5156": 4
+        },
+        "top10_ids": [
+          "c1e95c58a3caa33625669f4b0",
+          "c4421f1eff7f73084792af141",
+          "c65c698b9595a66d9f4345efa",
+          "c7440c7a3ee7bbb9db6cf5156",
+          "cdaecd99dbebdb6a64c648d91",
+          "c646d0a7adff0bf9fd914da87",
+          "caba94415924b2b36f6d6077c",
+          "c4de51f4619946c037a681c88",
+          "c722ff0ea03e336a5a468c781",
+          "c51b07f1c61cba3a1029a73e7"
+        ]
+      }
+    },
+    {
+      "id": "P25",
+      "cohort": "P25",
+      "question": "What time do I wake up on Tuesdays and Thursdays?",
+      "reference_sources": [
+        "c1093bf2c8cd861890c957c5c",
+        "cfb475330aad6b2360694d630"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c1093bf2c8cd861890c957c5c": 3,
+          "cfb475330aad6b2360694d630": 17
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c1093bf2c8cd861890c957c5c": 2,
+          "cfb475330aad6b2360694d630": 17
+        },
+        "top10_ids": [
+          "c84d39d59ff97378681e84cb0",
+          "c1093bf2c8cd861890c957c5c",
+          "c8859e9ecc1df53dd1de999a0",
+          "cb085d2aab287750bf4ff6afe",
+          "c55bddb0cc076c35bfef582a6",
+          "c95bc11382eb90959002d1849",
+          "c33d171a50faba4d23cf9ed9f",
+          "c1a73bef6e02c1339adff8f8f",
+          "c414c564929b0d01f4a7351df",
+          "c09ba5310fc852c676aaa48f0"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c1093bf2c8cd861890c957c5c": 82,
+          "cfb475330aad6b2360694d630": 15
+        },
+        "top10_ids": [
+          "c745d8270059d1a4d002cd60e",
+          "c84d39d59ff97378681e84cb0",
+          "c8859e9ecc1df53dd1de999a0",
+          "c33d171a50faba4d23cf9ed9f",
+          "cb71f0264fe0eaafc9d3a17f2",
+          "c1a73bef6e02c1339adff8f8f",
+          "c55bddb0cc076c35bfef582a6",
+          "c09ba5310fc852c676aaa48f0",
+          "c39ea1e09cdc833e643df3d24",
+          "c52a510f5350b02fb0a9795d4"
+        ]
+      }
+    },
+    {
+      "id": "L001",
+      "cohort": "L32",
+      "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+      "reference_sources": [
+        "c72018d6b87a05e3e7b25a12c",
+        "ce305bb606468ab6b8e2ead39"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c72018d6b87a05e3e7b25a12c": 1,
+          "ce305bb606468ab6b8e2ead39": 4
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c72018d6b87a05e3e7b25a12c": 1,
+          "ce305bb606468ab6b8e2ead39": 55
+        },
+        "top10_ids": [
+          "c72018d6b87a05e3e7b25a12c",
+          "c4d713c7712e68a7a7bf243d3",
+          "c6c9df98a899615dd4902b36d",
+          "ca90fac6d5a0c00acfc5eeb71",
+          "c45f85aeb1e05318b60dbc918",
+          "c8f374bbc872d0bf8d35a0fdc",
+          "ca352623c00182ca6675e06c3",
+          "c8f80067b39712ca14cf089a0",
+          "cb213249bb45b1ae4e85a8390",
+          "c593a7d5eb11482ef7fde1f99"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c72018d6b87a05e3e7b25a12c": 1,
+          "ce305bb606468ab6b8e2ead39": 6
+        },
+        "top10_ids": [
+          "c72018d6b87a05e3e7b25a12c",
+          "c8f374bbc872d0bf8d35a0fdc",
+          "ca90fac6d5a0c00acfc5eeb71",
+          "c619582baf0f6882eb4645e73",
+          "c658a4d6521f7fbc419dfd5c9",
+          "ce305bb606468ab6b8e2ead39",
+          "c65cc5bd2f81805ec9639528e",
+          "ceb7e31480dc4633f8b0cbe3b",
+          "ca352623c00182ca6675e06c3",
+          "cc0a673018328515f1321fa13"
+        ]
+      }
+    },
+    {
+      "id": "L002",
+      "cohort": "L32",
+      "question": "How many bikes do I currently own?",
+      "reference_sources": [
+        "cbee31569118ec9a9b03c9629",
+        "cd055d76ebc66b8c31b859b70"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cbee31569118ec9a9b03c9629": 1,
+          "cd055d76ebc66b8c31b859b70": 4
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cbee31569118ec9a9b03c9629": 1,
+          "cd055d76ebc66b8c31b859b70": 2
+        },
+        "top10_ids": [
+          "cbee31569118ec9a9b03c9629",
+          "cd055d76ebc66b8c31b859b70",
+          "c2f60fa2885f8eba84fd07aeb",
+          "c799ff45f43b23ef8b3ec6694",
+          "c8e3637f2113bf36e6067932f",
+          "c0071f6c5a21846c5287e5695",
+          "ca9d14edc2aab5da7d76dba29",
+          "c7a30e16c9fc78b8519da929c",
+          "caa0d0b80bee62ce94cd69791",
+          "ce10c3891553c934461b72389"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cbee31569118ec9a9b03c9629": 4,
+          "cd055d76ebc66b8c31b859b70": 3
+        },
+        "top10_ids": [
+          "ce6d93cd8760fdbcb75c4484f",
+          "c2f60fa2885f8eba84fd07aeb",
+          "cd055d76ebc66b8c31b859b70",
+          "cbee31569118ec9a9b03c9629",
+          "c944feac7b728fcf4f7781924",
+          "c12195c45aaaa3c5ce671805a",
+          "cb954827b6bd1d9ccfd6563a0",
+          "ce3ec41b36ca51e41d513c96b",
+          "c47a78e48eda7a5ef86a6dfe4",
+          "c0071f6c5a21846c5287e5695"
+        ]
+      }
+    },
+    {
+      "id": "L003",
+      "cohort": "L32",
+      "question": "Where do I initially keep my old sneakers?",
+      "reference_sources": [
+        "cb3336b8ad97037016934d741",
+        "cf73cfe30a429b17a0f8b3ee0"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cb3336b8ad97037016934d741": 3,
+          "cf73cfe30a429b17a0f8b3ee0": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cb3336b8ad97037016934d741": 3,
+          "cf73cfe30a429b17a0f8b3ee0": 2
+        },
+        "top10_ids": [
+          "c78ebcfae5f3ecfd73b4d5da5",
+          "cf73cfe30a429b17a0f8b3ee0",
+          "cb3336b8ad97037016934d741",
+          "cb6f53405eb2f06d2da86618b",
+          "ce44468b6ad6b402e7516e0db",
+          "c97c5be0bc4598f426c340330",
+          "cec0064bda154701f7f5fed51",
+          "ce2d2c97fc14440244559ae47",
+          "cd11681eaf349114f5c0cd005",
+          "c7873d9641b26f81680b2d315"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "cb3336b8ad97037016934d741": 2,
+          "cf73cfe30a429b17a0f8b3ee0": 1
+        },
+        "top10_ids": [
+          "cf73cfe30a429b17a0f8b3ee0",
+          "cb3336b8ad97037016934d741",
+          "ce44468b6ad6b402e7516e0db",
+          "c4ae7066128673dfd7183134f",
+          "cb6f53405eb2f06d2da86618b",
+          "cd94852483d05a171393a653d",
+          "c78ebcfae5f3ecfd73b4d5da5",
+          "c2a523dfe718041a6c51c151d",
+          "ce8d2ae74278451a940fef702",
+          "c722ff0ea03e336a5a468c781"
+        ]
+      }
+    },
+    {
+      "id": "L004",
+      "cohort": "L32",
+      "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+      "reference_sources": [
+        "c4989aa50d00d98796052d4c1",
+        "c8f80067b39712ca14cf089a0"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c4989aa50d00d98796052d4c1": 38,
+          "c8f80067b39712ca14cf089a0": 28
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c4989aa50d00d98796052d4c1": 54,
+          "c8f80067b39712ca14cf089a0": 120
+        },
+        "top10_ids": [
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "c20959e6505494a77c1265a51",
+          "c658a4d6521f7fbc419dfd5c9",
+          "c7ff2c18604baff7cee257754",
+          "c4de51f4619946c037a681c88",
+          "cebc8ca6524edf69c67c64f4f",
+          "c0317fa04069943c3fd6892de",
+          "c23d472c2d44376998fc911fa",
+          "cd4676817fc9720fda94e6c0e",
+          "c03e3957c04c95a22f0926ee4"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c4989aa50d00d98796052d4c1": 16,
+          "c8f80067b39712ca14cf089a0": 8
+        },
+        "top10_ids": [
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "c658a4d6521f7fbc419dfd5c9",
+          "c4de51f4619946c037a681c88",
+          "ca194573bab838bc02a805cf8",
+          "cc389933551469afa14532c26",
+          "c86e01b698e60f63834577236",
+          "cf30b217837dc9949ecdcea35",
+          "c8f80067b39712ca14cf089a0",
+          "c0f74505262d22d1ef1ad137e",
+          "c23d472c2d44376998fc911fa"
+        ]
+      }
+    },
+    {
+      "id": "L005",
+      "cohort": "L32",
+      "question": "What is the order of airlines I flew with from earliest to latest before today?",
+      "reference_sources": [
+        "c51b35b0f266360ceee43c010",
+        "c5e0d8d0dfa22e9f3e9e8de1b",
+        "c64c33e90657ce44625af6e65",
+        "c73ef19651b4c74a17670721b",
+        "c7a4b043db4ab984b85750904"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 3
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 4
+        },
+        "reference_positions": {
+          "c51b35b0f266360ceee43c010": 5,
+          "c5e0d8d0dfa22e9f3e9e8de1b": 3,
+          "c64c33e90657ce44625af6e65": 9,
+          "c73ef19651b4c74a17670721b": 11,
+          "c7a4b043db4ab984b85750904": 4
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 3
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c51b35b0f266360ceee43c010": 2,
+          "c5e0d8d0dfa22e9f3e9e8de1b": 3,
+          "c64c33e90657ce44625af6e65": 11,
+          "c73ef19651b4c74a17670721b": 12,
+          "c7a4b043db4ab984b85750904": 5
+        },
+        "top10_ids": [
+          "c2124d06a7867077ff2fc1b23",
+          "c51b35b0f266360ceee43c010",
+          "c5e0d8d0dfa22e9f3e9e8de1b",
+          "c08667e73c8710cabb2aaad23",
+          "c7a4b043db4ab984b85750904",
+          "c619582baf0f6882eb4645e73",
+          "ca50b57d70a6014e9cf8b13ce",
+          "cb40640a71b56be161594b650",
+          "c0c120bb5ae7da689c548f2b2",
+          "c4da953665cd778918ab4e151"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 4
+        },
+        "reference_positions": {
+          "c51b35b0f266360ceee43c010": 7,
+          "c5e0d8d0dfa22e9f3e9e8de1b": 4,
+          "c64c33e90657ce44625af6e65": 10,
+          "c73ef19651b4c74a17670721b": 11,
+          "c7a4b043db4ab984b85750904": 5
+        },
+        "top10_ids": [
+          "c2124d06a7867077ff2fc1b23",
+          "c5a42e155ca87420a8224dde4",
+          "c619582baf0f6882eb4645e73",
+          "c5e0d8d0dfa22e9f3e9e8de1b",
+          "c7a4b043db4ab984b85750904",
+          "c01b676ad4a9ea4fa19a9c780",
+          "c51b35b0f266360ceee43c010",
+          "cc19c8554614a0c53bb30c777",
+          "c6b6f3054549da496675e202c",
+          "c64c33e90657ce44625af6e65"
+        ]
+      }
+    },
+    {
+      "id": "L006",
+      "cohort": "L32",
+      "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+      "reference_sources": [
+        "c7a24cd063ec7559d4f1376da",
+        "cf61ad120d4c8d896bb923eb2"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c7a24cd063ec7559d4f1376da": 426,
+          "cf61ad120d4c8d896bb923eb2": 34
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c7a24cd063ec7559d4f1376da": 373,
+          "cf61ad120d4c8d896bb923eb2": 37
+        },
+        "top10_ids": [
+          "cec48b8f4254437d0c01aba32",
+          "c2651c28c0340f5dcd1ddbc96",
+          "cd4da9042d13ba90beb20d212",
+          "c16beab8b719e5235299d2234",
+          "ca32003a268f92f5d7acda0ac",
+          "c0a2086b9a26432954aae0bde",
+          "c3328cc6c1c16fd9aacc4ab10",
+          "cda3c8694290fb7c812fdf204",
+          "c097d34916d74c7cb88737450",
+          "ca61d3354af9d90f3b094224c"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c7a24cd063ec7559d4f1376da": 434,
+          "cf61ad120d4c8d896bb923eb2": 244
+        },
+        "top10_ids": [
+          "c5f68c19745302eabc30196ca",
+          "cf64f0d262c44d5b5899b3643",
+          "c062ab0f7d4779c852fcf1c7d",
+          "ccfc9a871efbf0f9a09b98b60",
+          "c45da4032ad68050fbcff4fd1",
+          "cb00f359646ec6ca6b1b31a5e",
+          "c9b97da7c979197a625a01536",
+          "c3328cc6c1c16fd9aacc4ab10",
+          "ce93294534224ee8377423980",
+          "c6ed40c5effa9e5e0c9c0ee85"
+        ]
+      }
+    },
+    {
+      "id": "L007",
+      "cohort": "L32",
+      "question": "What did I do with Rachel on the Wednesday two months ago?",
+      "reference_sources": [
+        "c1c57244c005330bffb259a83",
+        "c2fbb9c4e4909d11171cc4c53"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c1c57244c005330bffb259a83": 28,
+          "c2fbb9c4e4909d11171cc4c53": 333
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c1c57244c005330bffb259a83": 54,
+          "c2fbb9c4e4909d11171cc4c53": 597
+        },
+        "top10_ids": [
+          "cc82b2dac58f7cdfb3e4ec580",
+          "c5d7c68ba7d8840fa806150c1",
+          "ce8869081c995b6ec0771dd31",
+          "cba2447a4f3f4a6bf53604b0f",
+          "c8f9041e297070a3be513d341",
+          "c03f4afac558cf8cfa4f2fbec",
+          "c618e6927f37949f85a826482",
+          "cd5e960fa0f79168746b3d6e4",
+          "c7df689de37933aabc2060dc4",
+          "cff2101646ab7583eeb0e4aad"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c1c57244c005330bffb259a83": 31,
+          "c2fbb9c4e4909d11171cc4c53": 201
+        },
+        "top10_ids": [
+          "c5a95f1fbc90dedde60168a1b",
+          "c7df689de37933aabc2060dc4",
+          "c1e95c58a3caa33625669f4b0",
+          "cd4676817fc9720fda94e6c0e",
+          "c13a89e277180c07a390eebba",
+          "c2070e986051bf9475036c56a",
+          "cf3156d8a625d0c3b74d56b9b",
+          "c689559b28c9c85bfffb3a0aa",
+          "c027b61d8523fe12877449661",
+          "c5df939aa5158cef650a0fcc6"
+        ]
+      }
+    },
+    {
+      "id": "L008",
+      "cohort": "L32",
+      "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+      "reference_sources": [
+        "c97c5be0bc4598f426c340330",
+        "ca2ef86fd28cb7f4dec49bd66"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c97c5be0bc4598f426c340330": 2,
+          "ca2ef86fd28cb7f4dec49bd66": 5
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c97c5be0bc4598f426c340330": 1,
+          "ca2ef86fd28cb7f4dec49bd66": 4
+        },
+        "top10_ids": [
+          "c97c5be0bc4598f426c340330",
+          "ca90c0fc1320ad5dc2f8591a1",
+          "ce2d2c97fc14440244559ae47",
+          "ca2ef86fd28cb7f4dec49bd66",
+          "ceaff442a6bd7f1be599b238c",
+          "c758e066044fa92b5b5320f41",
+          "ca33a8cf6e0121f76523422ff",
+          "c3f893456c2090ccd4d2139cc",
+          "cb8c4e1a83a15c1acf26d7d1f",
+          "c09db3c226d495aa1cc1d4615"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c97c5be0bc4598f426c340330": 3,
+          "ca2ef86fd28cb7f4dec49bd66": 7
+        },
+        "top10_ids": [
+          "ca90c0fc1320ad5dc2f8591a1",
+          "ce2d2c97fc14440244559ae47",
+          "c97c5be0bc4598f426c340330",
+          "cce4b4f458c8f6154e8be72c6",
+          "cb895bd3516b82052f13fc5e6",
+          "c65cc5bd2f81805ec9639528e",
+          "ca2ef86fd28cb7f4dec49bd66",
+          "cb8c4e1a83a15c1acf26d7d1f",
+          "cab883581113fdaf37affd2e9",
+          "ceaff442a6bd7f1be599b238c"
+        ]
+      }
+    },
+    {
+      "id": "L009",
+      "cohort": "L32",
+      "question": "How many years will I be when my friend Rachel gets married?",
+      "reference_sources": [
+        "c7e1d06e479acbd540f302056",
+        "cdd0d70c7f4cb460d00539f44"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7e1d06e479acbd540f302056": 444,
+          "cdd0d70c7f4cb460d00539f44": 4
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c7e1d06e479acbd540f302056": 607,
+          "cdd0d70c7f4cb460d00539f44": 1
+        },
+        "top10_ids": [
+          "cdd0d70c7f4cb460d00539f44",
+          "c6fe7727426be29d3414e6c11",
+          "c426989523b6229f1b79d0661",
+          "c1adcbc414d7d41ac28fe30f5",
+          "c0317fa04069943c3fd6892de",
+          "ca9ec654e125b426954ce6e98",
+          "c27c977222326ce7d6731ef98",
+          "c3988fb58b837bcf0aa1b6565",
+          "cd2a6842f7e4b75fe0461d1a1",
+          "c2bd34f70b609538b433522a5"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c7e1d06e479acbd540f302056": 359,
+          "cdd0d70c7f4cb460d00539f44": 75
+        },
+        "top10_ids": [
+          "c27c977222326ce7d6731ef98",
+          "ca9ec654e125b426954ce6e98",
+          "c5b695f67c69d895ee13b277c",
+          "c047cd9e4420f1f7e23ff0dec",
+          "cf0cbba178985ad1c6edbd21a",
+          "ce03c6fa27bcc24f09ed4ac72",
+          "c1e95c58a3caa33625669f4b0",
+          "cd2a6842f7e4b75fe0461d1a1",
+          "c3f9d000185e67bd405ac68d9",
+          "cc01b64bb471a65c200447f01"
+        ]
+      }
+    },
+    {
+      "id": "L010",
+      "cohort": "L32",
+      "question": "What was the social media activity I participated 5 days ago?",
+      "reference_sources": [
+        "c24defd7351349ce07826cf93",
+        "c5da5e37ad58836aac4742121"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c24defd7351349ce07826cf93": 788,
+          "c5da5e37ad58836aac4742121": 25
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c24defd7351349ce07826cf93": 790,
+          "c5da5e37ad58836aac4742121": 4
+        },
+        "top10_ids": [
+          "cad3d5dc4cdb99adcaaba7c13",
+          "c52f618aeb10118dccbe7a118",
+          "c8892c9a0ca8265e5b14e56ae",
+          "c5da5e37ad58836aac4742121",
+          "c9a8d9911a703faabb1c42796",
+          "c5f5eedb994ae72224b169a40",
+          "c134224b41ec8f72e2a8d5152",
+          "c2bc9d4e77dfb14d0efcad977",
+          "c334712b4a21116897c517f91",
+          "c23e91ce27788c686a6fdc4fd"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c24defd7351349ce07826cf93": 686,
+          "c5da5e37ad58836aac4742121": 487
+        },
+        "top10_ids": [
+          "ca926cb126e6259ddc54c1d77",
+          "cc389933551469afa14532c26",
+          "c5c4ecf890058b472a69b4c26",
+          "c03ea980316b0a967b91f5d1e",
+          "cfb58939b84bf560e87d4500a",
+          "cbcd59395c55d0b20870a6659",
+          "c82442d17c5363dd4cf9f152b",
+          "cae83c312dfd127e3204dbe3e",
+          "ced9a29f85f11e2fbcb616f20",
+          "c6b54ac321e0ccd5a46861038"
+        ]
+      }
+    },
+    {
+      "id": "L011",
+      "cohort": "L32",
+      "question": "How many times did I bake something in the past two weeks?",
+      "reference_sources": [
+        "cb417665b8bd4b27a3a569f66",
+        "cbfdb349c786606dbc3f659cb",
+        "ce5a48c01b09bfdba49972c9e",
+        "cff265636c0c7608295c5c5d6"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "cb417665b8bd4b27a3a569f66": 219,
+          "cbfdb349c786606dbc3f659cb": 438,
+          "ce5a48c01b09bfdba49972c9e": 32,
+          "cff265636c0c7608295c5c5d6": 137
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "cb417665b8bd4b27a3a569f66": 80,
+          "cbfdb349c786606dbc3f659cb": 249,
+          "ce5a48c01b09bfdba49972c9e": 26,
+          "cff265636c0c7608295c5c5d6": 567
+        },
+        "top10_ids": [
+          "c1cf06ee67a655fc7c489179e",
+          "c05949867e94444fa4ee00621",
+          "cd5e960fa0f79168746b3d6e4",
+          "c04e8184bd20de5054724bd85",
+          "cdb0d04861e18f27bbc62e702",
+          "cf6f7acd8dc47bb3ba207c7b9",
+          "cba2447a4f3f4a6bf53604b0f",
+          "c5d7c68ba7d8840fa806150c1",
+          "c6285828d0fb10c967f734fd9",
+          "cb70fa4f111769997793f6966"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "cb417665b8bd4b27a3a569f66": 316,
+          "cbfdb349c786606dbc3f659cb": 827,
+          "ce5a48c01b09bfdba49972c9e": 59,
+          "cff265636c0c7608295c5c5d6": 66
+        },
+        "top10_ids": [
+          "c381a36acfc4c7552bf6e6896",
+          "c0361ba66544f0160526257c0",
+          "cec9b14ac8674f06c02d80eb6",
+          "c5c0a5a9890bd9084a969898b",
+          "c1bf9554cc65407226d25ce05",
+          "c86c392fcf4351780ec72ccbe",
+          "cbcd59395c55d0b20870a6659",
+          "cc9ab4e8342a7287a4e29cbf0",
+          "c32aa4969414e0f14e71fcdc8",
+          "c4fe2783a5ea902764fd162fa"
+        ]
+      }
+    },
+    {
+      "id": "L012",
+      "cohort": "L32",
+      "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+      "reference_sources": [
+        "c072c351ab3aa6eec8a6955af",
+        "c1cade60a4bbe81bd3eda1e28",
+        "c4ee19cb432e3d2855768463a",
+        "c67954bf412a6fafd6aa0ae3f",
+        "c8ad7b16e5ed94383f80ae023"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c072c351ab3aa6eec8a6955af": 25,
+          "c1cade60a4bbe81bd3eda1e28": 6,
+          "c4ee19cb432e3d2855768463a": 7,
+          "c67954bf412a6fafd6aa0ae3f": 1,
+          "c8ad7b16e5ed94383f80ae023": 699
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c072c351ab3aa6eec8a6955af": 70,
+          "c1cade60a4bbe81bd3eda1e28": 12,
+          "c4ee19cb432e3d2855768463a": 8,
+          "c67954bf412a6fafd6aa0ae3f": 1,
+          "c8ad7b16e5ed94383f80ae023": 341
+        },
+        "top10_ids": [
+          "c67954bf412a6fafd6aa0ae3f",
+          "cea87531d49b0265662e7c5ee",
+          "c6be869ca16913ec4ee055e8f",
+          "c23d472c2d44376998fc911fa",
+          "ca9ec654e125b426954ce6e98",
+          "ca194573bab838bc02a805cf8",
+          "cc0d6e722dbcec5ec58a63815",
+          "c4ee19cb432e3d2855768463a",
+          "c7270bd8db37ceb9162cc7ade",
+          "cb4ef204380df2253fe7b2d8b"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c072c351ab3aa6eec8a6955af": 24,
+          "c1cade60a4bbe81bd3eda1e28": 9,
+          "c4ee19cb432e3d2855768463a": 32,
+          "c67954bf412a6fafd6aa0ae3f": 1,
+          "c8ad7b16e5ed94383f80ae023": 652
+        },
+        "top10_ids": [
+          "c67954bf412a6fafd6aa0ae3f",
+          "c6cbc6509cb70223b7d26e34b",
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "cc0a673018328515f1321fa13",
+          "ca9ec654e125b426954ce6e98",
+          "c104e0c1d6b682edf956926d1",
+          "c3ed553e1cfd1d1efa25483da",
+          "c4447ec7630379760eadb7199",
+          "c1cade60a4bbe81bd3eda1e28",
+          "ce60dbdf103624cd518ed0f9d"
+        ]
+      }
+    },
+    {
+      "id": "L013",
+      "cohort": "L32",
+      "question": "How long have I been collecting vintage cameras?",
+      "reference_sources": [
+        "ca81c64488676745fa6ed29f3"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "ca81c64488676745fa6ed29f3": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "ca81c64488676745fa6ed29f3": 1
+        },
+        "top10_ids": [
+          "ca81c64488676745fa6ed29f3",
+          "cdd931ff6106e4961c77d121d",
+          "ce6d87afcd08f718793c3c6c5",
+          "cbd905f7d99ac89de4476439d",
+          "cc3e3360cc56d806898301d7c",
+          "c09f81b7703cb9184884d601a",
+          "cb97d0dc6627044a2195efa24",
+          "c8fedf92914110294a081d9bd",
+          "c5bfcf9edb515331cec15b087",
+          "ce241264c8a81224d0fd3d9c5"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "ca81c64488676745fa6ed29f3": 2
+        },
+        "top10_ids": [
+          "cbd905f7d99ac89de4476439d",
+          "ca81c64488676745fa6ed29f3",
+          "cdd931ff6106e4961c77d121d",
+          "ce6d87afcd08f718793c3c6c5",
+          "c09f81b7703cb9184884d601a",
+          "cb3af2824cae00ff4b69782fb",
+          "c5bfcf9edb515331cec15b087",
+          "c3619c72c518820c812fff53a",
+          "c17c9578a8a9a266e5f2267d5",
+          "c26b0588add0e7f2386f25850"
+        ]
+      }
+    },
+    {
+      "id": "L014",
+      "cohort": "L32",
+      "question": "How many months have passed since I last visited a museum with a friend?",
+      "reference_sources": [
+        "c51402484f0ed8e94e2778526",
+        "c9347ec6589d069772029ac1c",
+        "c9f1736f1f025be858d9c5a85"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c51402484f0ed8e94e2778526": 2,
+          "c9347ec6589d069772029ac1c": 22,
+          "c9f1736f1f025be858d9c5a85": 167
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c51402484f0ed8e94e2778526": 2,
+          "c9347ec6589d069772029ac1c": 23,
+          "c9f1736f1f025be858d9c5a85": 65
+        },
+        "top10_ids": [
+          "c0281d711520f5f0364f8376a",
+          "c51402484f0ed8e94e2778526",
+          "c9c693d7e454f295a57ca2625",
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "c08667e73c8710cabb2aaad23",
+          "c4bc70fbe374adec88afd34d7",
+          "ca9f1fd7e17f1bf069faec7a1",
+          "cf0d2ae2e64bad52b934080eb",
+          "ce2c1bc107b37900fdfa83a2c",
+          "c24d0551f31ece65a4dcd90d7"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c51402484f0ed8e94e2778526": 7,
+          "c9347ec6589d069772029ac1c": 21,
+          "c9f1736f1f025be858d9c5a85": 253
+        },
+        "top10_ids": [
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "c2fb2a0d88bae3763bc58e457",
+          "cc4006300f03372462eec3b14",
+          "c6bc0f29441ca66f683da9156",
+          "c08667e73c8710cabb2aaad23",
+          "ca9f1fd7e17f1bf069faec7a1",
+          "c51402484f0ed8e94e2778526",
+          "c8f374bbc872d0bf8d35a0fdc",
+          "cd590c68bcd4be41cc4fe7f27",
+          "c1b77ac5edc517b63b8c9ed66"
+        ]
+      }
+    },
+    {
+      "id": "L015",
+      "cohort": "L32",
+      "question": "What charity event did I participate in a month ago?",
+      "reference_sources": [
+        "c3c1ef3dc7b4dd6a84de95702",
+        "c472d6e5a1a6cd1ae67da403d",
+        "ced9a29f85f11e2fbcb616f20",
+        "cfdcbe1b28d7ed598d6348517"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c3c1ef3dc7b4dd6a84de95702": 14,
+          "c472d6e5a1a6cd1ae67da403d": 54,
+          "ced9a29f85f11e2fbcb616f20": 28,
+          "cfdcbe1b28d7ed598d6348517": 6
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c3c1ef3dc7b4dd6a84de95702": 15,
+          "c472d6e5a1a6cd1ae67da403d": 18,
+          "ced9a29f85f11e2fbcb616f20": 17,
+          "cfdcbe1b28d7ed598d6348517": 6
+        },
+        "top10_ids": [
+          "ca6ffab02c0a7353edc0a9ae0",
+          "c20959e6505494a77c1265a51",
+          "cebc8ca6524edf69c67c64f4f",
+          "cbc19661e50f82b13c54fa0db",
+          "cf5cf2b704c67f74016b450c4",
+          "cfdcbe1b28d7ed598d6348517",
+          "c8fa0124798386697b4564f0c",
+          "ce1d9596c76e8da9ba43e92ab",
+          "caec08d82fa3de13c2aa804fa",
+          "c23d472c2d44376998fc911fa"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c3c1ef3dc7b4dd6a84de95702": 21,
+          "c472d6e5a1a6cd1ae67da403d": 173,
+          "ced9a29f85f11e2fbcb616f20": 178,
+          "cfdcbe1b28d7ed598d6348517": 9
+        },
+        "top10_ids": [
+          "c20959e6505494a77c1265a51",
+          "cbc19661e50f82b13c54fa0db",
+          "cf5cf2b704c67f74016b450c4",
+          "c8fa0124798386697b4564f0c",
+          "ca6ffab02c0a7353edc0a9ae0",
+          "c0f70080044e867039943e0b3",
+          "c23d472c2d44376998fc911fa",
+          "ce1d9596c76e8da9ba43e92ab",
+          "cfdcbe1b28d7ed598d6348517",
+          "ce55c79a6d85ac82b2db0a0ee"
+        ]
+      }
+    },
+    {
+      "id": "L016",
+      "cohort": "L32",
+      "question": "Which bike did I fixed or serviced the past weekend?",
+      "reference_sources": [
+        "c4c81e62277f847ae7773eaf3",
+        "cfe237583d5c800082d9816b2"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c4c81e62277f847ae7773eaf3": 23,
+          "cfe237583d5c800082d9816b2": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c4c81e62277f847ae7773eaf3": 6,
+          "cfe237583d5c800082d9816b2": 1
+        },
+        "top10_ids": [
+          "cfe237583d5c800082d9816b2",
+          "ccda5814632a174d4f8a6abf4",
+          "c08743598caacd8e19e2d0033",
+          "c1ee820b2ac1c2b1d6d260db7",
+          "c47a78e48eda7a5ef86a6dfe4",
+          "c4c81e62277f847ae7773eaf3",
+          "c52b7d409a66a95f4d2295881",
+          "c926d79a83f7233890e5cc95a",
+          "cfc3eed20457138075eeda5d7",
+          "cece8a09b7517df48546e1d63"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c4c81e62277f847ae7773eaf3": 22,
+          "cfe237583d5c800082d9816b2": 1
+        },
+        "top10_ids": [
+          "cfe237583d5c800082d9816b2",
+          "ccda5814632a174d4f8a6abf4",
+          "c52b7d409a66a95f4d2295881",
+          "c2d7ab406095178340da2191c",
+          "c5d89cfa36afe5717d669a49d",
+          "c22f1e6dcb68a86bde06e976e",
+          "c5a95f1fbc90dedde60168a1b",
+          "c6cb58c1e3234c844b84662d3",
+          "cd07a15060424e5ed428ef0be",
+          "caaf991d889381c31418fa8ea"
+        ]
+      }
+    },
+    {
+      "id": "L017",
+      "cohort": "L32",
+      "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+      "reference_sources": [
+        "c674eb0b089941fe44f00f93e",
+        "ca4b5799253845a52543e67f5"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c674eb0b089941fe44f00f93e": 1,
+          "ca4b5799253845a52543e67f5": 3
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c674eb0b089941fe44f00f93e": 2,
+          "ca4b5799253845a52543e67f5": 8
+        },
+        "top10_ids": [
+          "c7bef847d8e86b66fed348de0",
+          "c674eb0b089941fe44f00f93e",
+          "ce9623f6fc3a634eadcef93f8",
+          "cd5e960fa0f79168746b3d6e4",
+          "c9a5feef095908ac1d934a6b9",
+          "c3988fb58b837bcf0aa1b6565",
+          "cec48b8f4254437d0c01aba32",
+          "ca4b5799253845a52543e67f5",
+          "c3f893456c2090ccd4d2139cc",
+          "c5d7c68ba7d8840fa806150c1"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c674eb0b089941fe44f00f93e": 3,
+          "ca4b5799253845a52543e67f5": 2
+        },
+        "top10_ids": [
+          "c7bef847d8e86b66fed348de0",
+          "ca4b5799253845a52543e67f5",
+          "c674eb0b089941fe44f00f93e",
+          "c238bc5941d068c0224e7cd63",
+          "c45da4032ad68050fbcff4fd1",
+          "ca4d56e2e56f6e9a43665cecb",
+          "c5d7c68ba7d8840fa806150c1",
+          "c16c18c9067caf8f2725bea63",
+          "c1bde917cc6a94ecc92cd7fc3",
+          "c826a5493618dfadaf11dde30"
+        ]
+      }
+    },
+    {
+      "id": "L018",
+      "cohort": "L32",
+      "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+      "reference_sources": [
+        "c37d6742905e5289d693506d2",
+        "c656eac93f2eae8cbf36ca07a"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c37d6742905e5289d693506d2": 125,
+          "c656eac93f2eae8cbf36ca07a": 238
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c37d6742905e5289d693506d2": 428,
+          "c656eac93f2eae8cbf36ca07a": 703
+        },
+        "top10_ids": [
+          "c7ff2c18604baff7cee257754",
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "c4c2dcb095cf30a965de73c56",
+          "c70f59d776d5a807b936b4553",
+          "cf6f7acd8dc47bb3ba207c7b9",
+          "c71daf4f08d69dd4c5d41b850",
+          "cb8c4e1a83a15c1acf26d7d1f",
+          "c286ec85a9ccaef4c4a390779",
+          "cec48b8f4254437d0c01aba32",
+          "c4ae7066128673dfd7183134f"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c37d6742905e5289d693506d2": 132,
+          "c656eac93f2eae8cbf36ca07a": 213
+        },
+        "top10_ids": [
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "c4d6fc42ae8b4c34e51cc0028",
+          "c1eb4850009acc9446c258aed",
+          "ce9337f954708d0bb349ea7d8",
+          "c51b07f1c61cba3a1029a73e7",
+          "cf5bd254a6175493c3be51a22",
+          "c1fa24fe7b4c46aa97fd46066",
+          "c6e3da13ffb1a88cb60edee28",
+          "cb091d743645bc6b37debe939",
+          "cc72a9dfb47c2a0eede4b6aa7"
+        ]
+      }
+    },
+    {
+      "id": "L019",
+      "cohort": "L32",
+      "question": "How often do I see my therapist, Dr. Smith?",
+      "reference_sources": [
+        "c7c69c7da8ff132228f7da07c",
+        "c7e318df4438eec91e95516a7"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c7c69c7da8ff132228f7da07c": 5,
+          "c7e318df4438eec91e95516a7": 3
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c7c69c7da8ff132228f7da07c": 5,
+          "c7e318df4438eec91e95516a7": 3
+        },
+        "top10_ids": [
+          "c874b3b1541cbc7ca5240711f",
+          "c03cd589266175502a469c5dc",
+          "c7e318df4438eec91e95516a7",
+          "cc7047087e54350d4e7f72150",
+          "c7c69c7da8ff132228f7da07c",
+          "ce42777d8730a8d5dd96da7ee",
+          "ce61230b65653be97da79b1cc",
+          "c1596954e728eeab5eb89c79f",
+          "ca6b97780a37229559dd5b56e",
+          "c949d304d643e301647541f6b"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c7c69c7da8ff132228f7da07c": 1,
+          "c7e318df4438eec91e95516a7": 4
+        },
+        "top10_ids": [
+          "c7c69c7da8ff132228f7da07c",
+          "c03cd589266175502a469c5dc",
+          "c874b3b1541cbc7ca5240711f",
+          "c7e318df4438eec91e95516a7",
+          "cc7047087e54350d4e7f72150",
+          "ce61230b65653be97da79b1cc",
+          "c949d304d643e301647541f6b",
+          "cc0d6e722dbcec5ec58a63815",
+          "c3fda8963336c625e45841f41",
+          "ca6b97780a37229559dd5b56e"
+        ]
+      }
+    },
+    {
+      "id": "L020",
+      "cohort": "L32",
+      "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+      "reference_sources": [
+        "c22f886556611f0ca62ec6147",
+        "c64153e8530609acdfd6bc8cb"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c22f886556611f0ca62ec6147": 1,
+          "c64153e8530609acdfd6bc8cb": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c22f886556611f0ca62ec6147": 1,
+          "c64153e8530609acdfd6bc8cb": 2
+        },
+        "top10_ids": [
+          "c22f886556611f0ca62ec6147",
+          "c64153e8530609acdfd6bc8cb",
+          "ce9623f6fc3a634eadcef93f8",
+          "c51b35b0f266360ceee43c010",
+          "c27e04e7f206a6382ce741f32",
+          "c4da953665cd778918ab4e151",
+          "c08667e73c8710cabb2aaad23",
+          "cead2c4a6eb0dca23c11b2e0e",
+          "c90ca7a38c366c460d578972a",
+          "ce557920b9a6f92c1abb06e74"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c22f886556611f0ca62ec6147": 1,
+          "c64153e8530609acdfd6bc8cb": 2
+        },
+        "top10_ids": [
+          "c22f886556611f0ca62ec6147",
+          "c64153e8530609acdfd6bc8cb",
+          "ce9623f6fc3a634eadcef93f8",
+          "c51b35b0f266360ceee43c010",
+          "c2da65519bb34b69e36f1e011",
+          "c122f2b5c7efa871faa36774a",
+          "ce2c1bc107b37900fdfa83a2c",
+          "cca09bf4542c2a1511645833d",
+          "c9d1170c7ed2432e59551846c",
+          "c6f64372d8a54c97adc6fad8a"
+        ]
+      }
+    },
+    {
+      "id": "L021",
+      "cohort": "L32",
+      "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+      "reference_sources": [
+        "c5df1817f0846ef320663db55",
+        "c8c256154423c18370f5f828c"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c5df1817f0846ef320663db55": 12,
+          "c8c256154423c18370f5f828c": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c5df1817f0846ef320663db55": 2,
+          "c8c256154423c18370f5f828c": 1
+        },
+        "top10_ids": [
+          "c8c256154423c18370f5f828c",
+          "c5df1817f0846ef320663db55",
+          "c389df96ef602e072dc3916d9",
+          "c2e13f034689d6c54f58919c9",
+          "cb5d52df1411ad8bfce6630ad",
+          "cec48b8f4254437d0c01aba32",
+          "c916641845b354ebf03e4eaa6",
+          "cc82b2dac58f7cdfb3e4ec580",
+          "c1e6c9e425711080f72eaabd3",
+          "c4447ec7630379760eadb7199"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c5df1817f0846ef320663db55": 22,
+          "c8c256154423c18370f5f828c": 1
+        },
+        "top10_ids": [
+          "c8c256154423c18370f5f828c",
+          "c389df96ef602e072dc3916d9",
+          "cb5d52df1411ad8bfce6630ad",
+          "c404afe0f9b8e16c79afb95ba",
+          "ca194573bab838bc02a805cf8",
+          "c646c8c5ad5cbc49e4c9009ce",
+          "c4de51f4619946c037a681c88",
+          "c916641845b354ebf03e4eaa6",
+          "c5ba3254f4539f64c20f19676",
+          "cebe8ac2dce8f9c5603e2d322"
+        ]
+      }
+    },
+    {
+      "id": "L022",
+      "cohort": "L32",
+      "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+      "reference_sources": [
+        "c29af6ce690e48822aecc785c",
+        "cd4cb04bd8f107c6b37713cd3"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c29af6ce690e48822aecc785c": 66,
+          "cd4cb04bd8f107c6b37713cd3": 239
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c29af6ce690e48822aecc785c": 10,
+          "cd4cb04bd8f107c6b37713cd3": 55
+        },
+        "top10_ids": [
+          "c4ae7066128673dfd7183134f",
+          "c99a077169fca9fdc7dbb5ecc",
+          "c95bc11382eb90959002d1849",
+          "c47a78e48eda7a5ef86a6dfe4",
+          "cf6cd3f92ee6b728fe0611c0c",
+          "c5ddbf1276d8b19ef0faaf16a",
+          "c7d5627c5537c2e0002e2e763",
+          "c4d08d3f3a04cab979a23d741",
+          "cf74ccf581baba397e90081ce",
+          "c29af6ce690e48822aecc785c"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c29af6ce690e48822aecc785c": 62,
+          "cd4cb04bd8f107c6b37713cd3": 333
+        },
+        "top10_ids": [
+          "ccc374b9e0e3b0d2c15875424",
+          "cd87962475c9c052c5d4264b3",
+          "c76c4a15fdaa360bf577575e5",
+          "c7be1b9d725925bf8b1151a7d",
+          "cc72a9dfb47c2a0eede4b6aa7",
+          "c6683f642cd1ef1fcc9056d15",
+          "c688968318c85812d64bdc12e",
+          "c6c0ccf8e602d4c44a58ad644",
+          "cc572679fc8c8fda65da52118",
+          "cb9547d07100b46ee2b8488fa"
+        ]
+      }
+    },
+    {
+      "id": "L023",
+      "cohort": "L32",
+      "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+      "reference_sources": [
+        "c710ccfc4413bd372dc561c03",
+        "ce03c6fa27bcc24f09ed4ac72"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c710ccfc4413bd372dc561c03": 2,
+          "ce03c6fa27bcc24f09ed4ac72": 3
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c710ccfc4413bd372dc561c03": 2,
+          "ce03c6fa27bcc24f09ed4ac72": 3
+        },
+        "top10_ids": [
+          "cd590c68bcd4be41cc4fe7f27",
+          "c710ccfc4413bd372dc561c03",
+          "ce03c6fa27bcc24f09ed4ac72",
+          "cd2a6842f7e4b75fe0461d1a1",
+          "ca6ffab02c0a7353edc0a9ae0",
+          "c5bfcf9edb515331cec15b087",
+          "c2fc4dcb3727b82f5e95caacc",
+          "ca1e39a1958d28659b642fd00",
+          "cce397a760d9fd4936f33f7c2",
+          "cd689f8180a207f0cc58131dc"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c710ccfc4413bd372dc561c03": 2,
+          "ce03c6fa27bcc24f09ed4ac72": 3
+        },
+        "top10_ids": [
+          "cd590c68bcd4be41cc4fe7f27",
+          "c710ccfc4413bd372dc561c03",
+          "ce03c6fa27bcc24f09ed4ac72",
+          "cd2a6842f7e4b75fe0461d1a1",
+          "cc82b2dac58f7cdfb3e4ec580",
+          "c5f68c19745302eabc30196ca",
+          "c85f01f830c6811c02d09c03a",
+          "c381a36acfc4c7552bf6e6896",
+          "ca1e39a1958d28659b642fd00",
+          "c3ed553e1cfd1d1efa25483da"
+        ]
+      }
+    },
+    {
+      "id": "L024",
+      "cohort": "L32",
+      "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+      "reference_sources": [
+        "c5ae36400cb881caf712accaf",
+        "cf9eaf598a0f64271b447886e"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c5ae36400cb881caf712accaf": 2,
+          "cf9eaf598a0f64271b447886e": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c5ae36400cb881caf712accaf": 3,
+          "cf9eaf598a0f64271b447886e": 1
+        },
+        "top10_ids": [
+          "cf9eaf598a0f64271b447886e",
+          "c8bf8c833ac88f981c3754f3f",
+          "c5ae36400cb881caf712accaf",
+          "c680da2a4cb2b34e8e150ae44",
+          "cddc7b055ae7ae0553b3d07d6",
+          "c6d57b3289c3b3fb17fc7b413",
+          "c6a02239b9099e09e59fe1c0c",
+          "ce2c1bc107b37900fdfa83a2c",
+          "c7e310e81e3412d8f624a5b72",
+          "c0187589585c7258f41091ddf"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c5ae36400cb881caf712accaf": 5,
+          "cf9eaf598a0f64271b447886e": 9
+        },
+        "top10_ids": [
+          "c02e959baebf0e95ad1856303",
+          "ca352623c00182ca6675e06c3",
+          "cddc7b055ae7ae0553b3d07d6",
+          "c05dac3e5451869f6a1b601f3",
+          "c5ae36400cb881caf712accaf",
+          "c5f6f97923f93b3146744a9a7",
+          "c5d548de884009b83b5074f37",
+          "c680da2a4cb2b34e8e150ae44",
+          "cf9eaf598a0f64271b447886e",
+          "cae25a8b25a6755ed9ad82ab4"
+        ]
+      }
+    },
+    {
+      "id": "L025",
+      "cohort": "L32",
+      "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+      "reference_sources": [
+        "c75bba0d69cc07a8be7603418",
+        "cf058a53b517251958c4a54ec"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c75bba0d69cc07a8be7603418": 3,
+          "cf058a53b517251958c4a54ec": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c75bba0d69cc07a8be7603418": 2,
+          "cf058a53b517251958c4a54ec": 1
+        },
+        "top10_ids": [
+          "cf058a53b517251958c4a54ec",
+          "c75bba0d69cc07a8be7603418",
+          "c56959f594882485e9d6b782b",
+          "c22bde7484d2df9b328bf9d35",
+          "ce5a7aa821e83ae38e05d8bcd",
+          "c9b55261b15ca8fd734096d20",
+          "c9209e9684b21ff0cdb3fd2df",
+          "c6690d8e8dd1710414ea9e90c",
+          "cdbada028df0a56dc8ac7fbb9",
+          "c8d989ec88ce90aacff4f9a71"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c75bba0d69cc07a8be7603418": 3,
+          "cf058a53b517251958c4a54ec": 4
+        },
+        "top10_ids": [
+          "c56959f594882485e9d6b782b",
+          "ce5a7aa821e83ae38e05d8bcd",
+          "c75bba0d69cc07a8be7603418",
+          "cf058a53b517251958c4a54ec",
+          "cff2b43ed2df3b4680bb9a002",
+          "c22bde7484d2df9b328bf9d35",
+          "c545862a572882975073001f3",
+          "cbd16236a8cff8f31118b0e23",
+          "cd05e3226b16f2ee9fa6e6e2e",
+          "c7334a9f4768a11ad5588b2e7"
+        ]
+      }
+    },
+    {
+      "id": "L026",
+      "cohort": "L32",
+      "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+      "reference_sources": [
+        "cffff522dbab65a5e480eb5d5"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cffff522dbab65a5e480eb5d5": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cffff522dbab65a5e480eb5d5": 1
+        },
+        "top10_ids": [
+          "cffff522dbab65a5e480eb5d5",
+          "cc66bb80b76174c555f8ed8a6",
+          "cb15dee202f4251878bd0b133",
+          "cb89d784ea4611279edeba7fb",
+          "cba2447a4f3f4a6bf53604b0f",
+          "cbb264129636891839c0728c4",
+          "cad62abd19c093d8a1a244bbc",
+          "cabdad0ca61b433276ef5731f",
+          "ca33a8cf6e0121f76523422ff",
+          "cf6cd3f92ee6b728fe0611c0c"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "cffff522dbab65a5e480eb5d5": 1
+        },
+        "top10_ids": [
+          "cffff522dbab65a5e480eb5d5",
+          "c6ed40c5effa9e5e0c9c0ee85",
+          "cb89d784ea4611279edeba7fb",
+          "caa60997fb0f043d71a5c35ec",
+          "cf4af3e292bc87e7eff6fc906",
+          "cf32a0efa4832cececb3b02d3",
+          "c381a36acfc4c7552bf6e6896",
+          "c558928a17204952c4221896d",
+          "cc3e3360cc56d806898301d7c",
+          "c6a8f93a65a4d8e72462ee2c9"
+        ]
+      }
+    },
+    {
+      "id": "L027",
+      "cohort": "L32",
+      "question": "How many pages do I have left to read in 'The Nightingale'?",
+      "reference_sources": [
+        "c680da2a4cb2b34e8e150ae44",
+        "c8bf8c833ac88f981c3754f3f"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c680da2a4cb2b34e8e150ae44": 1,
+          "c8bf8c833ac88f981c3754f3f": 2
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c680da2a4cb2b34e8e150ae44": 1,
+          "c8bf8c833ac88f981c3754f3f": 2
+        },
+        "top10_ids": [
+          "c680da2a4cb2b34e8e150ae44",
+          "c8bf8c833ac88f981c3754f3f",
+          "c5ae36400cb881caf712accaf",
+          "c6cfd58034e25f4def8503729",
+          "c7fecf114e86461b526448b6f",
+          "c2867af95fb39b5a2a850f03f",
+          "c1a50651889d762e108e824ab",
+          "cf9eaf598a0f64271b447886e",
+          "cbd126acaba7a8a9b38ca1ef1",
+          "cab7d532a1bdf479a34e087e4"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c680da2a4cb2b34e8e150ae44": 1,
+          "c8bf8c833ac88f981c3754f3f": 2
+        },
+        "top10_ids": [
+          "c680da2a4cb2b34e8e150ae44",
+          "c8bf8c833ac88f981c3754f3f",
+          "c6cfd58034e25f4def8503729",
+          "cf9eaf598a0f64271b447886e",
+          "c5ae36400cb881caf712accaf",
+          "c1a50651889d762e108e824ab",
+          "c03667f34be2fb8ebd4c815e1",
+          "c02e959baebf0e95ad1856303",
+          "cb8f06f5cfc1012c198934769",
+          "c296b5ea3e6d8c9429e9b67db"
+        ]
+      }
+    },
+    {
+      "id": "L028",
+      "cohort": "L32",
+      "question": "Who did I meet with during the lunch last Tuesday?",
+      "reference_sources": [
+        "cfb58939b84bf560e87d4500a"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "cfb58939b84bf560e87d4500a": 115
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "cfb58939b84bf560e87d4500a": 15
+        },
+        "top10_ids": [
+          "cf9dd31701b7948c8d962f804",
+          "c5ba3254f4539f64c20f19676",
+          "c2d7ab406095178340da2191c",
+          "c6e870ecfdf386ba0b2687e1d",
+          "c403d65f61624807a2a306b56",
+          "c5d50c252f77a22897f2c0939",
+          "c46034fc26008e0218a7a59f8",
+          "c1710fd75a892df1ba41d8a69",
+          "cf0cbba178985ad1c6edbd21a",
+          "ccb0d4afbd7c4c608b2931e20"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "cfb58939b84bf560e87d4500a": 535
+        },
+        "top10_ids": [
+          "c37c81488376797b50e7f57d6",
+          "c403d65f61624807a2a306b56",
+          "cf9dd31701b7948c8d962f804",
+          "c7df689de37933aabc2060dc4",
+          "c4cd89d53b74128c1021d7cbc",
+          "cf029674278a732829abcdd70",
+          "ccec3fed4d2f9c34733d61a63",
+          "c95bd3cabbf7bab21eb789667",
+          "c3660f7f82aeb2ef7b63e2daf",
+          "c67822aca81ba1f8a630d9925"
+        ]
+      }
+    },
+    {
+      "id": "L029",
+      "cohort": "L32",
+      "question": "What is the name of my cat?",
+      "reference_sources": [
+        "c8769768d9febb3bbe230d7aa"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8769768d9febb3bbe230d7aa": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8769768d9febb3bbe230d7aa": 1
+        },
+        "top10_ids": [
+          "c8769768d9febb3bbe230d7aa",
+          "c20cfa41d14aa1db1693d2dd4",
+          "c4bc9964e539e556e93f888eb",
+          "c08e8ba2a649f2818779a25b2",
+          "c4e36231f5573cdc49748e389",
+          "cfaacb65225de78488066e4b6",
+          "c8b592fda0fcb9404caa140c0",
+          "c9da0e267af5c64e869ed27d6",
+          "c121ceee0be160b20c0f25434",
+          "c476ba94f6f66be700f194366"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c8769768d9febb3bbe230d7aa": 2
+        },
+        "top10_ids": [
+          "c20cfa41d14aa1db1693d2dd4",
+          "c8769768d9febb3bbe230d7aa",
+          "c476ba94f6f66be700f194366",
+          "cdf33b71fe8477ad2d5d4dd95",
+          "c0206c314db995e8b60626ab7",
+          "c343f26deef40afdc1bac5a6f",
+          "cd691b8d2d4a7ecdc73949ae1",
+          "c4e36231f5573cdc49748e389",
+          "cda3c8694290fb7c812fdf204",
+          "cbc719e444dfedf6d10480a4c"
+        ]
+      }
+    },
+    {
+      "id": "L030",
+      "cohort": "L32",
+      "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+      "reference_sources": [
+        "c1fad077c9467687867bd2809",
+        "c369dfc679f70bbf459650a7a",
+        "c8f03ec897fb08e83883994ea"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c1fad077c9467687867bd2809": 334,
+          "c369dfc679f70bbf459650a7a": 14,
+          "c8f03ec897fb08e83883994ea": 6
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "reference_positions": {
+          "c1fad077c9467687867bd2809": 66,
+          "c369dfc679f70bbf459650a7a": 6,
+          "c8f03ec897fb08e83883994ea": 1
+        },
+        "top10_ids": [
+          "c8f03ec897fb08e83883994ea",
+          "c299970df4c8f6bc670a712a2",
+          "c93ba6e556b243094ea7a4ba3",
+          "c82442d17c5363dd4cf9f152b",
+          "c25a2ccd2bd8b08f0edda50f9",
+          "c369dfc679f70bbf459650a7a",
+          "cc0fe72c8c37e4b93901cd7a0",
+          "cde8db4d0cfb0b55c97ed7999",
+          "c7688c5e981d66b9efe69acc3",
+          "cc35ee64a50a11495ae1cba23"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c1fad077c9467687867bd2809": 906,
+          "c369dfc679f70bbf459650a7a": 21,
+          "c8f03ec897fb08e83883994ea": 51
+        },
+        "top10_ids": [
+          "c7399d1b3f3f3d55a0a0320f5",
+          "c93ba6e556b243094ea7a4ba3",
+          "c299970df4c8f6bc670a712a2",
+          "c6266464936b77a3ba5ebf881",
+          "cc0fe72c8c37e4b93901cd7a0",
+          "cba477f98d5022afffaff8dc2",
+          "c49d3998978606bfcbb567fee",
+          "c3a5c1e3681ef6cb9b7e7400c",
+          "c50f4045146516de78bb57e54",
+          "c1bde917cc6a94ecc92cd7fc3"
+        ]
+      }
+    },
+    {
+      "id": "L031",
+      "cohort": "L32",
+      "question": "How many different museums or galleries did I visit in the month of February?",
+      "reference_sources": [
+        "c0e943530a1e8734f46171431",
+        "cd4676817fc9720fda94e6c0e",
+        "cf3156d8a625d0c3b74d56b9b"
+      ],
+      "full": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c0e943530a1e8734f46171431": 5,
+          "cd4676817fc9720fda94e6c0e": 7,
+          "cf3156d8a625d0c3b74d56b9b": 1
+        }
+      },
+      "user": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": false,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c0e943530a1e8734f46171431": 3,
+          "cd4676817fc9720fda94e6c0e": 12,
+          "cf3156d8a625d0c3b74d56b9b": 48
+        },
+        "top10_ids": [
+          "caae18c23cf986cf07a5b011b",
+          "cc0c2a2058d3542527ff62e0f",
+          "c0e943530a1e8734f46171431",
+          "c0281d711520f5f0364f8376a",
+          "c7747d6e782352e61db174053",
+          "c8f80067b39712ca14cf089a0",
+          "c658a4d6521f7fbc419dfd5c9",
+          "c41fe0b1067ae64047533cf95",
+          "c8ed346f5984b9b1aae8b30d6",
+          "c9d6362e9958223b40bd4aca4"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": true,
+          "reference_count": 2
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 3
+        },
+        "reference_positions": {
+          "c0e943530a1e8734f46171431": 6,
+          "cd4676817fc9720fda94e6c0e": 5,
+          "cf3156d8a625d0c3b74d56b9b": 1
+        },
+        "top10_ids": [
+          "cf3156d8a625d0c3b74d56b9b",
+          "c0281d711520f5f0364f8376a",
+          "c658a4d6521f7fbc419dfd5c9",
+          "caae18c23cf986cf07a5b011b",
+          "cd4676817fc9720fda94e6c0e",
+          "c0e943530a1e8734f46171431",
+          "cc0c2a2058d3542527ff62e0f",
+          "c0ed448918c5dd7346f8cf637",
+          "c1b77ac5edc517b63b8c9ed66",
+          "ce50a4aec7d73088e8e225541"
+        ]
+      }
+    },
+    {
+      "id": "L032",
+      "cohort": "L32",
+      "question": "How much time do I dedicate to practicing guitar every day?",
+      "reference_sources": [
+        "c6cf565a4e8db69a6d231873a"
+      ],
+      "full": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c6cf565a4e8db69a6d231873a": 4
+        }
+      },
+      "user": {
+        "top5": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "top10": {
+          "all": true,
+          "any": true,
+          "reference_count": 1
+        },
+        "reference_positions": {
+          "c6cf565a4e8db69a6d231873a": 2
+        },
+        "top10_ids": [
+          "c1c7c4c03a55cac4522db0a20",
+          "c6cf565a4e8db69a6d231873a",
+          "cf26815f4b4d87c7f2ef78ba3",
+          "c20e9c316427b68e73971deca",
+          "cf33b5ad660bc0116f599aece",
+          "c6014a4ecb5a4a25230934ee8",
+          "c537d0818ebba18b7f1b32827",
+          "c2ef6e2f967af2343186fae05",
+          "cc4dc1b7eef887e29f919f16a",
+          "c6c70d5dfa295d9a83aebd742"
+        ]
+      },
+      "assistant": {
+        "top5": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "top10": {
+          "all": false,
+          "any": false,
+          "reference_count": 0
+        },
+        "reference_positions": {
+          "c6cf565a4e8db69a6d231873a": 14
+        },
+        "top10_ids": [
+          "cf33b5ad660bc0116f599aece",
+          "c1c7c4c03a55cac4522db0a20",
+          "c84d39d59ff97378681e84cb0",
+          "cd9e35dd2f5676d862f7b33e3",
+          "cf26815f4b4d87c7f2ef78ba3",
+          "c1c57244c005330bffb259a83",
+          "cbc5d6f8b13afb821e6a84f9f",
+          "c5f6f97923f93b3146744a9a7",
+          "c104d9de2d8a66ce53ea6c003",
+          "c490a1dcb9eded740724703b0"
+        ]
+      }
+    }
+  ]
+}
