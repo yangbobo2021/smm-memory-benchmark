@@ -1,0 +1,4280 @@
+{
+  "case_id": "L001",
+  "cohort": "previous_new32",
+  "query": "How many days did I spend in total traveling in Hawaii and in New York City?",
+  "clock": "2023-05-30T14:53:00+00:00",
+  "expression": "\"how\" OR \"many\" OR \"days\" OR \"did\" OR \"i\" OR \"spend\" OR \"in\" OR \"total\" OR \"traveling\" OR \"hawaii\" OR \"and\" OR \"new\" OR \"york\" OR \"city\"",
+  "source_count": 46,
+  "source_receipts": [
+    {
+      "source_id": "c0ad4ede6ace7adbb1d6a8c29",
+      "original_sha256": "ca7969cfeb71fcd82347439b726f4c61e2763ea14e056b2f7297d2cc06f4d27e",
+      "source_characters": 9438,
+      "role_fields": {
+        "user": {
+          "sha256": "6aaf77838e67eea86dd04a7a32a7cb4be153e816a6f47b22fa1a2027ea64bb0a",
+          "characters": 1584,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "1e676f8d97997a6cd8861df4db5aa9074d21f866c4d909fac858f829304b7c97",
+          "characters": 7854,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 274
+        },
+        {
+          "role": "assistant",
+          "start": 274,
+          "end": 1137
+        },
+        {
+          "role": "user",
+          "start": 1137,
+          "end": 1466
+        },
+        {
+          "role": "assistant",
+          "start": 1466,
+          "end": 2355
+        },
+        {
+          "role": "user",
+          "start": 2355,
+          "end": 2667
+        },
+        {
+          "role": "assistant",
+          "start": 2667,
+          "end": 3963
+        },
+        {
+          "role": "user",
+          "start": 3963,
+          "end": 4223
+        },
+        {
+          "role": "assistant",
+          "start": 4223,
+          "end": 5616
+        },
+        {
+          "role": "user",
+          "start": 5616,
+          "end": 5846
+        },
+        {
+          "role": "assistant",
+          "start": 5846,
+          "end": 7773
+        },
+        {
+          "role": "user",
+          "start": 7773,
+          "end": 7952
+        },
+        {
+          "role": "assistant",
+          "start": 7952,
+          "end": 9438
+        }
+      ]
+    },
+    {
+      "source_id": "c0dfd3112980545f7ae073c12",
+      "original_sha256": "b6aac8765f6220569c6458b0a8f24cb90ac1f162d0868510143f0d875d120915",
+      "source_characters": 5484,
+      "role_fields": {
+        "user": {
+          "sha256": "f36773426429886081fa90465d30d45079a7df1fd3afdc8ad19386e61b29c54e",
+          "characters": 3856,
+          "messages": 2
+        },
+        "assistant": {
+          "sha256": "b86063246bb338cf47837a5f5b2fa53e218d711beb95dd07ac329515536de30e",
+          "characters": 1628,
+          "messages": 2
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 460
+        },
+        {
+          "role": "assistant",
+          "start": 460,
+          "end": 1203
+        },
+        {
+          "role": "user",
+          "start": 1203,
+          "end": 4599
+        },
+        {
+          "role": "assistant",
+          "start": 4599,
+          "end": 5484
+        }
+      ]
+    },
+    {
+      "source_id": "c10266871f109377ffd734836",
+      "original_sha256": "49621e2274bac2a7907d0a607f906ea41c64b3e7b288db913704c61b76d81f74",
+      "source_characters": 9911,
+      "role_fields": {
+        "user": {
+          "sha256": "b2bcc0bad9bb9452ff9b88a4245bc234ff0ad0a0761c78cb91ad4bd5ebf569ff",
+          "characters": 1884,
+          "messages": 7
+        },
+        "assistant": {
+          "sha256": "48a6809c5a27dcab9c766500d57e3ee42b552a6924c2274c2211de17a91a1b48",
+          "characters": 8027,
+          "messages": 7
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 136
+        },
+        {
+          "role": "assistant",
+          "start": 136,
+          "end": 1466
+        },
+        {
+          "role": "user",
+          "start": 1466,
+          "end": 1640
+        },
+        {
+          "role": "assistant",
+          "start": 1640,
+          "end": 2518
+        },
+        {
+          "role": "user",
+          "start": 2518,
+          "end": 2738
+        },
+        {
+          "role": "assistant",
+          "start": 2738,
+          "end": 3712
+        },
+        {
+          "role": "user",
+          "start": 3712,
+          "end": 3997
+        },
+        {
+          "role": "assistant",
+          "start": 3997,
+          "end": 5078
+        },
+        {
+          "role": "user",
+          "start": 5078,
+          "end": 5509
+        },
+        {
+          "role": "assistant",
+          "start": 5509,
+          "end": 6743
+        },
+        {
+          "role": "user",
+          "start": 6743,
+          "end": 6999
+        },
+        {
+          "role": "assistant",
+          "start": 6999,
+          "end": 8351
+        },
+        {
+          "role": "user",
+          "start": 8351,
+          "end": 8733
+        },
+        {
+          "role": "assistant",
+          "start": 8733,
+          "end": 9911
+        }
+      ]
+    },
+    {
+      "source_id": "c1ce07f16a421fcca48279a7e",
+      "original_sha256": "8c558589ce3d684632bd12be83fe79b5b6c313ad5be29ddbbc9bacf3663c71f3",
+      "source_characters": 3696,
+      "role_fields": {
+        "user": {
+          "sha256": "20dd7a43cf3a0f9b9c3b1edf50a73821792cb2b0251b017733bae9a3154446ce",
+          "characters": 500,
+          "messages": 3
+        },
+        "assistant": {
+          "sha256": "bd2ae7fa085d0a626f44e5c695430ed605f36cc8860d6a2bf6399cdd1a2ee55b",
+          "characters": 3196,
+          "messages": 3
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 111
+        },
+        {
+          "role": "assistant",
+          "start": 111,
+          "end": 977
+        },
+        {
+          "role": "user",
+          "start": 977,
+          "end": 1131
+        },
+        {
+          "role": "assistant",
+          "start": 1131,
+          "end": 2097
+        },
+        {
+          "role": "user",
+          "start": 2097,
+          "end": 2332
+        },
+        {
+          "role": "assistant",
+          "start": 2332,
+          "end": 3696
+        }
+      ]
+    },
+    {
+      "source_id": "c2125e6d5b3b2ee6a58560418",
+      "original_sha256": "4b40bc56cd03c5d40a144383247eef77dfddb71e03fe9ebf35ca5105c281d06b",
+      "source_characters": 14311,
+      "role_fields": {
+        "user": {
+          "sha256": "e8711e3a70faa5a3eaace88c130c12de26f57cf59d41aa7de069b6fe728c4a93",
+          "characters": 2870,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "7dd750c9ea11e3c18a989913260531955873e131c975d1af14c32656990cda15",
+          "characters": 11441,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 559
+        },
+        {
+          "role": "assistant",
+          "start": 559,
+          "end": 3437
+        },
+        {
+          "role": "user",
+          "start": 3437,
+          "end": 3723
+        },
+        {
+          "role": "assistant",
+          "start": 3723,
+          "end": 6144
+        },
+        {
+          "role": "user",
+          "start": 6144,
+          "end": 6542
+        },
+        {
+          "role": "assistant",
+          "start": 6542,
+          "end": 8856
+        },
+        {
+          "role": "user",
+          "start": 8856,
+          "end": 9235
+        },
+        {
+          "role": "assistant",
+          "start": 9235,
+          "end": 11039
+        },
+        {
+          "role": "user",
+          "start": 11039,
+          "end": 11680
+        },
+        {
+          "role": "assistant",
+          "start": 11680,
+          "end": 12992
+        },
+        {
+          "role": "user",
+          "start": 12992,
+          "end": 13599
+        },
+        {
+          "role": "assistant",
+          "start": 13599,
+          "end": 14311
+        }
+      ]
+    },
+    {
+      "source_id": "c231d0d6fc7a96f33fb71382b",
+      "original_sha256": "c43de059f4183da6bea0c5c310c2d65464ee4508abcc1503415c012545bc7f02",
+      "source_characters": 16464,
+      "role_fields": {
+        "user": {
+          "sha256": "10b6832cf876c5f781e0abd38fa81d900426d16318e124e3dac4c2cef0750ac7",
+          "characters": 1274,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "28d284270d3f437aba5f0b4ecfcea462f7dc6880620b415ccc209ccced238b61",
+          "characters": 15190,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 220
+        },
+        {
+          "role": "assistant",
+          "start": 220,
+          "end": 3117
+        },
+        {
+          "role": "user",
+          "start": 3117,
+          "end": 3264
+        },
+        {
+          "role": "assistant",
+          "start": 3264,
+          "end": 5091
+        },
+        {
+          "role": "user",
+          "start": 5091,
+          "end": 5256
+        },
+        {
+          "role": "assistant",
+          "start": 5256,
+          "end": 7579
+        },
+        {
+          "role": "user",
+          "start": 7579,
+          "end": 7921
+        },
+        {
+          "role": "assistant",
+          "start": 7921,
+          "end": 10085
+        },
+        {
+          "role": "user",
+          "start": 10085,
+          "end": 10356
+        },
+        {
+          "role": "assistant",
+          "start": 10356,
+          "end": 13295
+        },
+        {
+          "role": "user",
+          "start": 13295,
+          "end": 13424
+        },
+        {
+          "role": "assistant",
+          "start": 13424,
+          "end": 16464
+        }
+      ]
+    },
+    {
+      "source_id": "c257ecb0536aea29b106727fd",
+      "original_sha256": "88bad6473baf569bcf37a219ef0ebde1d0fcb2223a0a3625a84c45073c0e9de2",
+      "source_characters": 7060,
+      "role_fields": {
+        "user": {
+          "sha256": "60f890e4eb543006cb702b233df6e1c8f70f6098d21605c788212e26c1f7ead7",
+          "characters": 978,
+          "messages": 7
+        },
+        "assistant": {
+          "sha256": "102d8203ab943baf8f74fd96e10ac84c982bca8edcfc264c235b388a4da136ce",
+          "characters": 6082,
+          "messages": 7
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 55
+        },
+        {
+          "role": "assistant",
+          "start": 55,
+          "end": 154
+        },
+        {
+          "role": "user",
+          "start": 154,
+          "end": 219
+        },
+        {
+          "role": "assistant",
+          "start": 219,
+          "end": 511
+        },
+        {
+          "role": "user",
+          "start": 511,
+          "end": 589
+        },
+        {
+          "role": "assistant",
+          "start": 589,
+          "end": 1939
+        },
+        {
+          "role": "user",
+          "start": 1939,
+          "end": 2085
+        },
+        {
+          "role": "assistant",
+          "start": 2085,
+          "end": 3934
+        },
+        {
+          "role": "user",
+          "start": 3934,
+          "end": 4198
+        },
+        {
+          "role": "assistant",
+          "start": 4198,
+          "end": 5394
+        },
+        {
+          "role": "user",
+          "start": 5394,
+          "end": 5565
+        },
+        {
+          "role": "assistant",
+          "start": 5565,
+          "end": 6656
+        },
+        {
+          "role": "user",
+          "start": 6656,
+          "end": 6855
+        },
+        {
+          "role": "assistant",
+          "start": 6855,
+          "end": 7060
+        }
+      ]
+    },
+    {
+      "source_id": "c28282eb4c287be452a0f7a2f",
+      "original_sha256": "fb32b7b59dcd3e85d9a2e28abc2b3ffe89b1c8634020d8cb0cd139a1e7ead100",
+      "source_characters": 17722,
+      "role_fields": {
+        "user": {
+          "sha256": "45b3728d50393413507ded38e060c57ac24679fc56fe8f2716a00069c5a7fe4e",
+          "characters": 1119,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "8024ea34813adf3ccbce275adcee93ccc0d42fc11d37747d45dd87b291da6c8f",
+          "characters": 16603,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 271
+        },
+        {
+          "role": "assistant",
+          "start": 271,
+          "end": 3415
+        },
+        {
+          "role": "user",
+          "start": 3415,
+          "end": 3577
+        },
+        {
+          "role": "assistant",
+          "start": 3577,
+          "end": 5995
+        },
+        {
+          "role": "user",
+          "start": 5995,
+          "end": 6096
+        },
+        {
+          "role": "assistant",
+          "start": 6096,
+          "end": 8543
+        },
+        {
+          "role": "user",
+          "start": 8543,
+          "end": 8707
+        },
+        {
+          "role": "assistant",
+          "start": 8707,
+          "end": 11236
+        },
+        {
+          "role": "user",
+          "start": 11236,
+          "end": 11469
+        },
+        {
+          "role": "assistant",
+          "start": 11469,
+          "end": 14832
+        },
+        {
+          "role": "user",
+          "start": 14832,
+          "end": 15020
+        },
+        {
+          "role": "assistant",
+          "start": 15020,
+          "end": 17722
+        }
+      ]
+    },
+    {
+      "source_id": "c3e8797813fd478c571d356ff",
+      "original_sha256": "6aadc54770669c6078fcf2074ffb647bea89b65b06a209febfe1de3586a614fb",
+      "source_characters": 16318,
+      "role_fields": {
+        "user": {
+          "sha256": "34c53f745c0af267de63e203dbc2046c424df174d3f2163e90d38d0170e4028a",
+          "characters": 2776,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "e4c3aba62563e61da41d7bec1ea933ccf95162acc0961510c251c4a957b3e246",
+          "characters": 13542,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 303
+        },
+        {
+          "role": "assistant",
+          "start": 303,
+          "end": 2160
+        },
+        {
+          "role": "user",
+          "start": 2160,
+          "end": 2343
+        },
+        {
+          "role": "assistant",
+          "start": 2343,
+          "end": 5083
+        },
+        {
+          "role": "user",
+          "start": 5083,
+          "end": 5440
+        },
+        {
+          "role": "assistant",
+          "start": 5440,
+          "end": 9291
+        },
+        {
+          "role": "user",
+          "start": 9291,
+          "end": 9641
+        },
+        {
+          "role": "assistant",
+          "start": 9641,
+          "end": 12004
+        },
+        {
+          "role": "user",
+          "start": 12004,
+          "end": 13034
+        },
+        {
+          "role": "assistant",
+          "start": 13034,
+          "end": 13931
+        },
+        {
+          "role": "user",
+          "start": 13931,
+          "end": 14484
+        },
+        {
+          "role": "assistant",
+          "start": 14484,
+          "end": 16318
+        }
+      ]
+    },
+    {
+      "source_id": "c46db21a1163c687bf2d2b68f",
+      "original_sha256": "61b3f65460da5cae25885291775c5012ab1198a9353384aadc4796923fd88199",
+      "source_characters": 8331,
+      "role_fields": {
+        "user": {
+          "sha256": "4db69b1efbaabe808ce22cad946cf7c7453adb2747da96017f7bf2286cbe69cf",
+          "characters": 893,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "f68c73c037cc225a95beb9c418ce6ba092c4af9df5d4dbbd8f1bdc8800f665f0",
+          "characters": 7438,
+          "messages": 7
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "assistant",
+          "start": 0,
+          "end": 949
+        },
+        {
+          "role": "user",
+          "start": 949,
+          "end": 1127
+        },
+        {
+          "role": "assistant",
+          "start": 1127,
+          "end": 1978
+        },
+        {
+          "role": "user",
+          "start": 1978,
+          "end": 2141
+        },
+        {
+          "role": "assistant",
+          "start": 2141,
+          "end": 3348
+        },
+        {
+          "role": "user",
+          "start": 3348,
+          "end": 3462
+        },
+        {
+          "role": "assistant",
+          "start": 3462,
+          "end": 4716
+        },
+        {
+          "role": "user",
+          "start": 4716,
+          "end": 4927
+        },
+        {
+          "role": "assistant",
+          "start": 4927,
+          "end": 5916
+        },
+        {
+          "role": "user",
+          "start": 5916,
+          "end": 5996
+        },
+        {
+          "role": "assistant",
+          "start": 5996,
+          "end": 7102
+        },
+        {
+          "role": "user",
+          "start": 7102,
+          "end": 7249
+        },
+        {
+          "role": "assistant",
+          "start": 7249,
+          "end": 8331
+        }
+      ]
+    },
+    {
+      "source_id": "c4c1eae331c3bc1ebbbf8ba0a",
+      "original_sha256": "fe98cbecce77ae1bbfa6301130d731bd39ee1d84caf44436fe7f6bdedd95a578",
+      "source_characters": 17208,
+      "role_fields": {
+        "user": {
+          "sha256": "117f2b768eb222bba33c36df54d192cc6895d050d97e2bac043046dbb89617de",
+          "characters": 1842,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "a7cec3fadeed605d7698fb322570a4681e8554509f8ad8051dca2f726ee8a583",
+          "characters": 15366,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 210
+        },
+        {
+          "role": "assistant",
+          "start": 210,
+          "end": 3268
+        },
+        {
+          "role": "user",
+          "start": 3268,
+          "end": 3471
+        },
+        {
+          "role": "assistant",
+          "start": 3471,
+          "end": 6165
+        },
+        {
+          "role": "user",
+          "start": 6165,
+          "end": 6661
+        },
+        {
+          "role": "assistant",
+          "start": 6661,
+          "end": 10031
+        },
+        {
+          "role": "user",
+          "start": 10031,
+          "end": 10397
+        },
+        {
+          "role": "assistant",
+          "start": 10397,
+          "end": 13242
+        },
+        {
+          "role": "user",
+          "start": 13242,
+          "end": 13608
+        },
+        {
+          "role": "assistant",
+          "start": 13608,
+          "end": 16655
+        },
+        {
+          "role": "user",
+          "start": 16655,
+          "end": 16856
+        },
+        {
+          "role": "assistant",
+          "start": 16856,
+          "end": 17208
+        }
+      ]
+    },
+    {
+      "source_id": "c50eba27d822e1774408b5971",
+      "original_sha256": "18edfc704b970dcf4d802163f8d6f7bb9feaab7b22c30e1f6a613305f03baa74",
+      "source_characters": 13877,
+      "role_fields": {
+        "user": {
+          "sha256": "d709b313162f7e2526b88930033ca7a9fb7d82c8dc7d4cceb64383fd2766868e",
+          "characters": 1666,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "4f221f72af8c889552fd2947e2f51ef860a817e9d3583b7c09dfe3260fdd4fac",
+          "characters": 12211,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 388
+        },
+        {
+          "role": "assistant",
+          "start": 388,
+          "end": 2938
+        },
+        {
+          "role": "user",
+          "start": 2938,
+          "end": 3186
+        },
+        {
+          "role": "assistant",
+          "start": 3186,
+          "end": 6313
+        },
+        {
+          "role": "user",
+          "start": 6313,
+          "end": 6574
+        },
+        {
+          "role": "assistant",
+          "start": 6574,
+          "end": 8910
+        },
+        {
+          "role": "user",
+          "start": 8910,
+          "end": 9330
+        },
+        {
+          "role": "assistant",
+          "start": 9330,
+          "end": 10264
+        },
+        {
+          "role": "user",
+          "start": 10264,
+          "end": 10479
+        },
+        {
+          "role": "assistant",
+          "start": 10479,
+          "end": 13078
+        },
+        {
+          "role": "user",
+          "start": 13078,
+          "end": 13212
+        },
+        {
+          "role": "assistant",
+          "start": 13212,
+          "end": 13877
+        }
+      ]
+    },
+    {
+      "source_id": "c531935694036298178bd433a",
+      "original_sha256": "2baf076144ae1eefe8504f16a699888d273025cefc72967fe74525825324e893",
+      "source_characters": 15651,
+      "role_fields": {
+        "user": {
+          "sha256": "63f8ff005e830a1695baf5914358e3093287d01e578f567425eb1e3122365ce4",
+          "characters": 1518,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "fde9e5c38e981c29e7733a507bb73df1cccbcea2450880f4a8bdb25cd47109e4",
+          "characters": 14133,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 197
+        },
+        {
+          "role": "assistant",
+          "start": 197,
+          "end": 2236
+        },
+        {
+          "role": "user",
+          "start": 2236,
+          "end": 2449
+        },
+        {
+          "role": "assistant",
+          "start": 2449,
+          "end": 4624
+        },
+        {
+          "role": "user",
+          "start": 4624,
+          "end": 4798
+        },
+        {
+          "role": "assistant",
+          "start": 4798,
+          "end": 7941
+        },
+        {
+          "role": "user",
+          "start": 7941,
+          "end": 8174
+        },
+        {
+          "role": "assistant",
+          "start": 8174,
+          "end": 10486
+        },
+        {
+          "role": "user",
+          "start": 10486,
+          "end": 10856
+        },
+        {
+          "role": "assistant",
+          "start": 10856,
+          "end": 13479
+        },
+        {
+          "role": "user",
+          "start": 13479,
+          "end": 13810
+        },
+        {
+          "role": "assistant",
+          "start": 13810,
+          "end": 15651
+        }
+      ]
+    },
+    {
+      "source_id": "c5a62093d98e7ffb55a5c0878",
+      "original_sha256": "2e03b45f8708df70a0f93ab5dc07709fdfba500aa71ffaee3e2272ca9dad84e5",
+      "source_characters": 9132,
+      "role_fields": {
+        "user": {
+          "sha256": "f246129776479cfe42f570ff08d495cae24ea7928c89eb78687b4502978bf08e",
+          "characters": 2199,
+          "messages": 5
+        },
+        "assistant": {
+          "sha256": "7ca253ab4fc94bb7d700034f66dbc6d250cb6dfc45cea96150d1ba0e79e63515",
+          "characters": 6933,
+          "messages": 5
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 1111
+        },
+        {
+          "role": "assistant",
+          "start": 1111,
+          "end": 2414
+        },
+        {
+          "role": "user",
+          "start": 2414,
+          "end": 2709
+        },
+        {
+          "role": "assistant",
+          "start": 2709,
+          "end": 4033
+        },
+        {
+          "role": "user",
+          "start": 4033,
+          "end": 4399
+        },
+        {
+          "role": "assistant",
+          "start": 4399,
+          "end": 5738
+        },
+        {
+          "role": "user",
+          "start": 5738,
+          "end": 5822
+        },
+        {
+          "role": "assistant",
+          "start": 5822,
+          "end": 7127
+        },
+        {
+          "role": "user",
+          "start": 7127,
+          "end": 7470
+        },
+        {
+          "role": "assistant",
+          "start": 7470,
+          "end": 9132
+        }
+      ]
+    },
+    {
+      "source_id": "c5c75cb0a63e81d656f4d080a",
+      "original_sha256": "3025f3ba0957b2acbd35fb0ada22b5393042830a343ef5dc312d5b616a097a84",
+      "source_characters": 5618,
+      "role_fields": {
+        "user": {
+          "sha256": "32741b5f0c51c332d4afb762a68cfffbef26303cb4bec7d41c56e70d59175a9d",
+          "characters": 777,
+          "messages": 7
+        },
+        "assistant": {
+          "sha256": "b358dcb1f3cedfc55e1ff3ab585d1b1281d19deb9acb5ebbe1430a3595a4f964",
+          "characters": 4841,
+          "messages": 7
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "role": "assistant",
+          "start": 61,
+          "end": 307
+        },
+        {
+          "role": "user",
+          "start": 307,
+          "end": 379
+        },
+        {
+          "role": "assistant",
+          "start": 379,
+          "end": 809
+        },
+        {
+          "role": "user",
+          "start": 809,
+          "end": 960
+        },
+        {
+          "role": "assistant",
+          "start": 960,
+          "end": 1796
+        },
+        {
+          "role": "user",
+          "start": 1796,
+          "end": 1912
+        },
+        {
+          "role": "assistant",
+          "start": 1912,
+          "end": 2586
+        },
+        {
+          "role": "user",
+          "start": 2586,
+          "end": 2749
+        },
+        {
+          "role": "assistant",
+          "start": 2749,
+          "end": 3841
+        },
+        {
+          "role": "user",
+          "start": 3841,
+          "end": 3924
+        },
+        {
+          "role": "assistant",
+          "start": 3924,
+          "end": 4758
+        },
+        {
+          "role": "user",
+          "start": 4758,
+          "end": 4889
+        },
+        {
+          "role": "assistant",
+          "start": 4889,
+          "end": 5618
+        }
+      ]
+    },
+    {
+      "source_id": "c5ce3968e9ef59a9bad9f6942",
+      "original_sha256": "a4de9ee610f3817ce382cd3755cba9fa9bdc532285c2422d83b7a9b57c8b98b4",
+      "source_characters": 1529,
+      "role_fields": {
+        "user": {
+          "sha256": "5191889dabf79baacc6725e5ab8a73954efa6171647f3fc273374ef487fc5302",
+          "characters": 402,
+          "messages": 3
+        },
+        "assistant": {
+          "sha256": "041f74fd9c415fd7acc538321a541c08d75779f98cc305a17e8f9a97f7e81a5d",
+          "characters": 1127,
+          "messages": 3
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 104
+        },
+        {
+          "role": "assistant",
+          "start": 104,
+          "end": 399
+        },
+        {
+          "role": "user",
+          "start": 399,
+          "end": 541
+        },
+        {
+          "role": "assistant",
+          "start": 541,
+          "end": 1002
+        },
+        {
+          "role": "user",
+          "start": 1002,
+          "end": 1158
+        },
+        {
+          "role": "assistant",
+          "start": 1158,
+          "end": 1529
+        }
+      ]
+    },
+    {
+      "source_id": "c60b3a92e9ba50de15d46dbd7",
+      "original_sha256": "025d0397e07d8582a80424adf99fc0ce5ab412222dd5653e6ce99765a36ba380",
+      "source_characters": 10897,
+      "role_fields": {
+        "user": {
+          "sha256": "576e1affefcd7c3efb2ed46ed4e71e992ec890a17b1ef197e826ffbc242ff340",
+          "characters": 721,
+          "messages": 7
+        },
+        "assistant": {
+          "sha256": "dfd28c94c039e7c2a0eb690aa2cfdcf0e0aad5f8528421b58dfd08a7017bb673",
+          "characters": 10176,
+          "messages": 7
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 89
+        },
+        {
+          "role": "assistant",
+          "start": 89,
+          "end": 1210
+        },
+        {
+          "role": "user",
+          "start": 1210,
+          "end": 1316
+        },
+        {
+          "role": "assistant",
+          "start": 1316,
+          "end": 2558
+        },
+        {
+          "role": "user",
+          "start": 2558,
+          "end": 2682
+        },
+        {
+          "role": "assistant",
+          "start": 2682,
+          "end": 3972
+        },
+        {
+          "role": "user",
+          "start": 3972,
+          "end": 4077
+        },
+        {
+          "role": "assistant",
+          "start": 4077,
+          "end": 5825
+        },
+        {
+          "role": "user",
+          "start": 5825,
+          "end": 5926
+        },
+        {
+          "role": "assistant",
+          "start": 5926,
+          "end": 7417
+        },
+        {
+          "role": "user",
+          "start": 7417,
+          "end": 7507
+        },
+        {
+          "role": "assistant",
+          "start": 7507,
+          "end": 9107
+        },
+        {
+          "role": "user",
+          "start": 9107,
+          "end": 9213
+        },
+        {
+          "role": "assistant",
+          "start": 9213,
+          "end": 10897
+        }
+      ]
+    },
+    {
+      "source_id": "c61b51346f51a7c8ac290a621",
+      "original_sha256": "030bb871ce91977f73f311ec950eb4edf2e3a9ab99184ac9e3f784b49909568b",
+      "source_characters": 14546,
+      "role_fields": {
+        "user": {
+          "sha256": "ac788daa4764f016c583fdbcefa6b6b390b11701276b529031ae58b7ae5ed252",
+          "characters": 1886,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "f7b98831879d6885e45a378ecaf2c5020081b5332876702d72216ceebea94fca",
+          "characters": 12660,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 247
+        },
+        {
+          "role": "assistant",
+          "start": 247,
+          "end": 3137
+        },
+        {
+          "role": "user",
+          "start": 3137,
+          "end": 3445
+        },
+        {
+          "role": "assistant",
+          "start": 3445,
+          "end": 5932
+        },
+        {
+          "role": "user",
+          "start": 5932,
+          "end": 6143
+        },
+        {
+          "role": "assistant",
+          "start": 6143,
+          "end": 6898
+        },
+        {
+          "role": "user",
+          "start": 6898,
+          "end": 7206
+        },
+        {
+          "role": "assistant",
+          "start": 7206,
+          "end": 8968
+        },
+        {
+          "role": "user",
+          "start": 8968,
+          "end": 9243
+        },
+        {
+          "role": "assistant",
+          "start": 9243,
+          "end": 11671
+        },
+        {
+          "role": "user",
+          "start": 11671,
+          "end": 12208
+        },
+        {
+          "role": "assistant",
+          "start": 12208,
+          "end": 14546
+        }
+      ]
+    },
+    {
+      "source_id": "c658a4d6521f7fbc419dfd5c9",
+      "original_sha256": "8ce3e8bab44598831d8d38abfbd26f9bf957af85a8773dfb0fd2a905e5bd1c56",
+      "source_characters": 12608,
+      "role_fields": {
+        "user": {
+          "sha256": "8d09f9ebefee879882fea3f08d15dd1af92a952a7d5afe82bf9ffe9b0f9cce2a",
+          "characters": 2164,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "3ee8b698874734ee5a8ca2e34ec0784ab010287572bb2ab45d7988309fe50d95",
+          "characters": 10444,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 434
+        },
+        {
+          "role": "assistant",
+          "start": 434,
+          "end": 2491
+        },
+        {
+          "role": "user",
+          "start": 2491,
+          "end": 2793
+        },
+        {
+          "role": "assistant",
+          "start": 2793,
+          "end": 4051
+        },
+        {
+          "role": "user",
+          "start": 4051,
+          "end": 4380
+        },
+        {
+          "role": "assistant",
+          "start": 4380,
+          "end": 6893
+        },
+        {
+          "role": "user",
+          "start": 6893,
+          "end": 7167
+        },
+        {
+          "role": "assistant",
+          "start": 7167,
+          "end": 9131
+        },
+        {
+          "role": "user",
+          "start": 9131,
+          "end": 9513
+        },
+        {
+          "role": "assistant",
+          "start": 9513,
+          "end": 10757
+        },
+        {
+          "role": "user",
+          "start": 10757,
+          "end": 11200
+        },
+        {
+          "role": "assistant",
+          "start": 11200,
+          "end": 12608
+        }
+      ]
+    },
+    {
+      "source_id": "c6a0af95040d7d04db7f09507",
+      "original_sha256": "11b653d245de0538a0d1b08d1ea8db946daeb194c824c6805b1bbf951afd685a",
+      "source_characters": 13458,
+      "role_fields": {
+        "user": {
+          "sha256": "e3f6f05ac35dfb74ab4f1334c846f5459863d92aa5301464cab3c60e74a105fc",
+          "characters": 2256,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "c5bf6d99e21fd899bdf5f653080fdda1cd1b688e219e60a6a1169d6f025de4a7",
+          "characters": 11202,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 366
+        },
+        {
+          "role": "assistant",
+          "start": 366,
+          "end": 3066
+        },
+        {
+          "role": "user",
+          "start": 3066,
+          "end": 3404
+        },
+        {
+          "role": "assistant",
+          "start": 3404,
+          "end": 6270
+        },
+        {
+          "role": "user",
+          "start": 6270,
+          "end": 6656
+        },
+        {
+          "role": "assistant",
+          "start": 6656,
+          "end": 8597
+        },
+        {
+          "role": "user",
+          "start": 8597,
+          "end": 9011
+        },
+        {
+          "role": "assistant",
+          "start": 9011,
+          "end": 10840
+        },
+        {
+          "role": "user",
+          "start": 10840,
+          "end": 11253
+        },
+        {
+          "role": "assistant",
+          "start": 11253,
+          "end": 12396
+        },
+        {
+          "role": "user",
+          "start": 12396,
+          "end": 12735
+        },
+        {
+          "role": "assistant",
+          "start": 12735,
+          "end": 13458
+        }
+      ]
+    },
+    {
+      "source_id": "c6bc9fea7dc455bcbb170069c",
+      "original_sha256": "954c22f9eec162102ccb254cfc2bcee1604298b7e100fe1daf4b2116bd55adad",
+      "source_characters": 7764,
+      "role_fields": {
+        "user": {
+          "sha256": "de6a085470c27146420e6d1d6f169b283eb3ff6c8ed842b5ba0612b61a9f6d0e",
+          "characters": 756,
+          "messages": 5
+        },
+        "assistant": {
+          "sha256": "35698a70d3acc1dc88a03bd79dcf5be30885c4dddf9ab4aee94a89807528797a",
+          "characters": 7008,
+          "messages": 5
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 164
+        },
+        {
+          "role": "assistant",
+          "start": 164,
+          "end": 1668
+        },
+        {
+          "role": "user",
+          "start": 1668,
+          "end": 1776
+        },
+        {
+          "role": "assistant",
+          "start": 1776,
+          "end": 2643
+        },
+        {
+          "role": "user",
+          "start": 2643,
+          "end": 2787
+        },
+        {
+          "role": "assistant",
+          "start": 2787,
+          "end": 4341
+        },
+        {
+          "role": "user",
+          "start": 4341,
+          "end": 4446
+        },
+        {
+          "role": "assistant",
+          "start": 4446,
+          "end": 6424
+        },
+        {
+          "role": "user",
+          "start": 6424,
+          "end": 6659
+        },
+        {
+          "role": "assistant",
+          "start": 6659,
+          "end": 7764
+        }
+      ]
+    },
+    {
+      "source_id": "c72018d6b87a05e3e7b25a12c",
+      "original_sha256": "cae1592a65818dec475b7049da11ec857c8ff0f71da534962c0ed6d0b6778368",
+      "source_characters": 13826,
+      "role_fields": {
+        "user": {
+          "sha256": "0b25d982987724dda87c3c4d803bbc59784069b0e1449d5135773517983f642d",
+          "characters": 1343,
+          "messages": 5
+        },
+        "assistant": {
+          "sha256": "190c648166bfbb28ded9dd31d687fcec44147bf74733a81079c12572d592e34e",
+          "characters": 12483,
+          "messages": 5
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 274
+        },
+        {
+          "role": "assistant",
+          "start": 274,
+          "end": 2586
+        },
+        {
+          "role": "user",
+          "start": 2586,
+          "end": 2806
+        },
+        {
+          "role": "assistant",
+          "start": 2806,
+          "end": 5434
+        },
+        {
+          "role": "user",
+          "start": 5434,
+          "end": 5824
+        },
+        {
+          "role": "assistant",
+          "start": 5824,
+          "end": 8210
+        },
+        {
+          "role": "user",
+          "start": 8210,
+          "end": 8420
+        },
+        {
+          "role": "assistant",
+          "start": 8420,
+          "end": 10759
+        },
+        {
+          "role": "user",
+          "start": 10759,
+          "end": 11008
+        },
+        {
+          "role": "assistant",
+          "start": 11008,
+          "end": 13826
+        }
+      ]
+    },
+    {
+      "source_id": "c743416f464c83c717f35499f",
+      "original_sha256": "6d8c81e235479ac1402d642c81f7a1d5bf30a465f611c04f31ea897cfba27d87",
+      "source_characters": 18031,
+      "role_fields": {
+        "user": {
+          "sha256": "43f8e90f36a0fff4b715fb7ce12f6beaa31e8259a12ea37360b58fbd011aaa74",
+          "characters": 1787,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "ee0ebe343e78afcdc80102f65240ea55e32d3800225e185ef7d640c9f7629a6d",
+          "characters": 16244,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 456
+        },
+        {
+          "role": "assistant",
+          "start": 456,
+          "end": 2741
+        },
+        {
+          "role": "user",
+          "start": 2741,
+          "end": 3049
+        },
+        {
+          "role": "assistant",
+          "start": 3049,
+          "end": 6168
+        },
+        {
+          "role": "user",
+          "start": 6168,
+          "end": 6342
+        },
+        {
+          "role": "assistant",
+          "start": 6342,
+          "end": 8976
+        },
+        {
+          "role": "user",
+          "start": 8976,
+          "end": 9187
+        },
+        {
+          "role": "assistant",
+          "start": 9187,
+          "end": 12070
+        },
+        {
+          "role": "user",
+          "start": 12070,
+          "end": 12455
+        },
+        {
+          "role": "assistant",
+          "start": 12455,
+          "end": 15270
+        },
+        {
+          "role": "user",
+          "start": 15270,
+          "end": 15523
+        },
+        {
+          "role": "assistant",
+          "start": 15523,
+          "end": 18031
+        }
+      ]
+    },
+    {
+      "source_id": "c74ad0d0239a8bb8ecb2ccdbe",
+      "original_sha256": "989017a3445abefc8d6a26105abf2e6dcc37b1ef9e01855977ba817d17bb0f1e",
+      "source_characters": 9764,
+      "role_fields": {
+        "user": {
+          "sha256": "e7b43126425414d66031dadaa1b95958a50106f2f5fe001ab83756cd5dfc6f03",
+          "characters": 957,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "d9c22ed204e90364ff14fae3717ff85c283c917692667f2077a845f3665169d5",
+          "characters": 8807,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 312
+        },
+        {
+          "role": "assistant",
+          "start": 312,
+          "end": 1697
+        },
+        {
+          "role": "user",
+          "start": 1697,
+          "end": 1863
+        },
+        {
+          "role": "assistant",
+          "start": 1863,
+          "end": 3206
+        },
+        {
+          "role": "user",
+          "start": 3206,
+          "end": 3344
+        },
+        {
+          "role": "assistant",
+          "start": 3344,
+          "end": 4641
+        },
+        {
+          "role": "user",
+          "start": 4641,
+          "end": 4744
+        },
+        {
+          "role": "assistant",
+          "start": 4744,
+          "end": 6680
+        },
+        {
+          "role": "user",
+          "start": 6680,
+          "end": 6774
+        },
+        {
+          "role": "assistant",
+          "start": 6774,
+          "end": 8146
+        },
+        {
+          "role": "user",
+          "start": 8146,
+          "end": 8290
+        },
+        {
+          "role": "assistant",
+          "start": 8290,
+          "end": 9764
+        }
+      ]
+    },
+    {
+      "source_id": "c7b390017a25cb3a4d43538a3",
+      "original_sha256": "1b4b4abae2ca7c53ec47231fd8445c15e83a473f09b92fd13af7548afb35c6ec",
+      "source_characters": 7632,
+      "role_fields": {
+        "user": {
+          "sha256": "b88924749e88fd0086736db73042f98048285a1039362e8a3419a883fc150694",
+          "characters": 187,
+          "messages": 5
+        },
+        "assistant": {
+          "sha256": "d723f30768b7a582715f3f03b6cec4287844847b6fe978410101a8eb9b574fd8",
+          "characters": 7445,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "assistant",
+          "start": 0,
+          "end": 2488
+        },
+        {
+          "role": "user",
+          "start": 2488,
+          "end": 2506
+        },
+        {
+          "role": "assistant",
+          "start": 2506,
+          "end": 3454
+        },
+        {
+          "role": "user",
+          "start": 3454,
+          "end": 3469
+        },
+        {
+          "role": "assistant",
+          "start": 3469,
+          "end": 4554
+        },
+        {
+          "role": "user",
+          "start": 4554,
+          "end": 4602
+        },
+        {
+          "role": "assistant",
+          "start": 4602,
+          "end": 5847
+        },
+        {
+          "role": "user",
+          "start": 5847,
+          "end": 5884
+        },
+        {
+          "role": "assistant",
+          "start": 5884,
+          "end": 6154
+        },
+        {
+          "role": "user",
+          "start": 6154,
+          "end": 6223
+        },
+        {
+          "role": "assistant",
+          "start": 6223,
+          "end": 7632
+        }
+      ]
+    },
+    {
+      "source_id": "c7be2e7d65b43423c8b99ea4a",
+      "original_sha256": "521cfd7f2177e29066cc6c51574b574a5ab5781c6b6afe9c84e5ca1a4f503352",
+      "source_characters": 4541,
+      "role_fields": {
+        "user": {
+          "sha256": "4230d6713a5b3a0b4276d18b3e32f908ca6b64dffe714b8cfa4e10abb614e6e9",
+          "characters": 496,
+          "messages": 4
+        },
+        "assistant": {
+          "sha256": "8a66bcdf300b54be602a1437e3f52247d76e21430efa4088f998ddab3cb9c93e",
+          "characters": 4045,
+          "messages": 4
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 81
+        },
+        {
+          "role": "assistant",
+          "start": 81,
+          "end": 1171
+        },
+        {
+          "role": "user",
+          "start": 1171,
+          "end": 1272
+        },
+        {
+          "role": "assistant",
+          "start": 1272,
+          "end": 2337
+        },
+        {
+          "role": "user",
+          "start": 2337,
+          "end": 2465
+        },
+        {
+          "role": "assistant",
+          "start": 2465,
+          "end": 3612
+        },
+        {
+          "role": "user",
+          "start": 3612,
+          "end": 3798
+        },
+        {
+          "role": "assistant",
+          "start": 3798,
+          "end": 4541
+        }
+      ]
+    },
+    {
+      "source_id": "c7c2736ba322e3c6d2067a9ba",
+      "original_sha256": "dacf5caaff9eed93ad9ec0461c4997e779bf4388090b6f700bc1bd174ac518e4",
+      "source_characters": 16352,
+      "role_fields": {
+        "user": {
+          "sha256": "a3d812450fcb12064aa8a7c5e1aa7a41011cccb3fe91a91ec097b6f5e207169c",
+          "characters": 2289,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "ab05bdbd9af0ac290bb8c8da15d40761d298a584fbb764d2cf682fcc1e788434",
+          "characters": 14063,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 278
+        },
+        {
+          "role": "assistant",
+          "start": 278,
+          "end": 2911
+        },
+        {
+          "role": "user",
+          "start": 2911,
+          "end": 3213
+        },
+        {
+          "role": "assistant",
+          "start": 3213,
+          "end": 6205
+        },
+        {
+          "role": "user",
+          "start": 6205,
+          "end": 6538
+        },
+        {
+          "role": "assistant",
+          "start": 6538,
+          "end": 8860
+        },
+        {
+          "role": "user",
+          "start": 8860,
+          "end": 9383
+        },
+        {
+          "role": "assistant",
+          "start": 9383,
+          "end": 11701
+        },
+        {
+          "role": "user",
+          "start": 11701,
+          "end": 12250
+        },
+        {
+          "role": "assistant",
+          "start": 12250,
+          "end": 14771
+        },
+        {
+          "role": "user",
+          "start": 14771,
+          "end": 15075
+        },
+        {
+          "role": "assistant",
+          "start": 15075,
+          "end": 16352
+        }
+      ]
+    },
+    {
+      "source_id": "c81512b5f674f939cb9da23d8",
+      "original_sha256": "a92df515b6f27ed4258e3e351ba95c01dce9371276520e2c6e70deee31d59e05",
+      "source_characters": 6403,
+      "role_fields": {
+        "user": {
+          "sha256": "d39f8b1f460e5bae40656cda564faa045c1a95a5ef8bd48fa98accb0ab9b23d7",
+          "characters": 471,
+          "messages": 3
+        },
+        "assistant": {
+          "sha256": "86752bece2fe607f40235be5c73b6d0fe5ef64bed8559f8894a2a810dd9dd995",
+          "characters": 5932,
+          "messages": 3
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 137
+        },
+        {
+          "role": "assistant",
+          "start": 137,
+          "end": 1859
+        },
+        {
+          "role": "user",
+          "start": 1859,
+          "end": 1997
+        },
+        {
+          "role": "assistant",
+          "start": 1997,
+          "end": 3948
+        },
+        {
+          "role": "user",
+          "start": 3948,
+          "end": 4144
+        },
+        {
+          "role": "assistant",
+          "start": 4144,
+          "end": 6403
+        }
+      ]
+    },
+    {
+      "source_id": "c85f01f830c6811c02d09c03a",
+      "original_sha256": "a11433789a38a9bdb6f70eb104524a7230181dabc60d11d73416bddab828353d",
+      "source_characters": 15652,
+      "role_fields": {
+        "user": {
+          "sha256": "78d661c4fb8098d4716112f625965db7df78f59a34d0febde59da9d828f17de8",
+          "characters": 1925,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "0906acfcf26ae6a3cb21973f19feb6fc42d6821644113d20d7a9922dc704d594",
+          "characters": 13727,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 408
+        },
+        {
+          "role": "assistant",
+          "start": 408,
+          "end": 3828
+        },
+        {
+          "role": "user",
+          "start": 3828,
+          "end": 4065
+        },
+        {
+          "role": "assistant",
+          "start": 4065,
+          "end": 7237
+        },
+        {
+          "role": "user",
+          "start": 7237,
+          "end": 7378
+        },
+        {
+          "role": "assistant",
+          "start": 7378,
+          "end": 10108
+        },
+        {
+          "role": "user",
+          "start": 10108,
+          "end": 10447
+        },
+        {
+          "role": "assistant",
+          "start": 10447,
+          "end": 12735
+        },
+        {
+          "role": "user",
+          "start": 12735,
+          "end": 13097
+        },
+        {
+          "role": "assistant",
+          "start": 13097,
+          "end": 14252
+        },
+        {
+          "role": "user",
+          "start": 14252,
+          "end": 14690
+        },
+        {
+          "role": "assistant",
+          "start": 14690,
+          "end": 15652
+        }
+      ]
+    },
+    {
+      "source_id": "c8e097fd94e30264f02ee2bfe",
+      "original_sha256": "59e2bdb005c6929913842e3178e8760a0c162a52d4df2c06b50697dee8923b6a",
+      "source_characters": 8840,
+      "role_fields": {
+        "user": {
+          "sha256": "ebfd796630c1fbd1692b7f361b87680355fcf022563a57eedadacdcdba85374d",
+          "characters": 779,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "c1af986d9585d8c990de6a19a505df9c428c9bc8c42021fee531581504baaa57",
+          "characters": 8061,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 120
+        },
+        {
+          "role": "assistant",
+          "start": 120,
+          "end": 1628
+        },
+        {
+          "role": "user",
+          "start": 1628,
+          "end": 1736
+        },
+        {
+          "role": "assistant",
+          "start": 1736,
+          "end": 3187
+        },
+        {
+          "role": "user",
+          "start": 3187,
+          "end": 3313
+        },
+        {
+          "role": "assistant",
+          "start": 3313,
+          "end": 4186
+        },
+        {
+          "role": "user",
+          "start": 4186,
+          "end": 4316
+        },
+        {
+          "role": "assistant",
+          "start": 4316,
+          "end": 5551
+        },
+        {
+          "role": "user",
+          "start": 5551,
+          "end": 5666
+        },
+        {
+          "role": "assistant",
+          "start": 5666,
+          "end": 7089
+        },
+        {
+          "role": "user",
+          "start": 7089,
+          "end": 7269
+        },
+        {
+          "role": "assistant",
+          "start": 7269,
+          "end": 8840
+        }
+      ]
+    },
+    {
+      "source_id": "c988ddeb2d5330f5ddb1759a1",
+      "original_sha256": "b8f35b684d40cc9bfbc527318f5ab562409a368e0dcc97c1334be0507382c743",
+      "source_characters": 12692,
+      "role_fields": {
+        "user": {
+          "sha256": "13eca72eb2103e074cc900424acfdb67a6ae733e46e46bcbf1b46e080658aa30",
+          "characters": 1798,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "8176029ff62b94c4bfaf4af663282dfabee4e493113bb097e1ab4e2e43860103",
+          "characters": 10894,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 270
+        },
+        {
+          "role": "assistant",
+          "start": 270,
+          "end": 3119
+        },
+        {
+          "role": "user",
+          "start": 3119,
+          "end": 3456
+        },
+        {
+          "role": "assistant",
+          "start": 3456,
+          "end": 5446
+        },
+        {
+          "role": "user",
+          "start": 5446,
+          "end": 5704
+        },
+        {
+          "role": "assistant",
+          "start": 5704,
+          "end": 8179
+        },
+        {
+          "role": "user",
+          "start": 8179,
+          "end": 8387
+        },
+        {
+          "role": "assistant",
+          "start": 8387,
+          "end": 10201
+        },
+        {
+          "role": "user",
+          "start": 10201,
+          "end": 10472
+        },
+        {
+          "role": "assistant",
+          "start": 10472,
+          "end": 11243
+        },
+        {
+          "role": "user",
+          "start": 11243,
+          "end": 11697
+        },
+        {
+          "role": "assistant",
+          "start": 11697,
+          "end": 12692
+        }
+      ]
+    },
+    {
+      "source_id": "c9da968999797864ad32e6ee4",
+      "original_sha256": "1d00995b74d3e0b99a057bdc6deb756abc348aa1c2a655ff6dbc204abf7c569c",
+      "source_characters": 20497,
+      "role_fields": {
+        "user": {
+          "sha256": "1660e4bba398489c37a42ad249a670e8bb3583291bcb4a6b68347f334a754182",
+          "characters": 1077,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "224b9152217087d0caa69c8e4b417a8b1d9f25736532532a022c4249355df5d7",
+          "characters": 19420,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 170
+        },
+        {
+          "role": "assistant",
+          "start": 170,
+          "end": 2170
+        },
+        {
+          "role": "user",
+          "start": 2170,
+          "end": 2322
+        },
+        {
+          "role": "assistant",
+          "start": 2322,
+          "end": 5768
+        },
+        {
+          "role": "user",
+          "start": 5768,
+          "end": 5928
+        },
+        {
+          "role": "assistant",
+          "start": 5928,
+          "end": 9351
+        },
+        {
+          "role": "user",
+          "start": 9351,
+          "end": 9533
+        },
+        {
+          "role": "assistant",
+          "start": 9533,
+          "end": 12637
+        },
+        {
+          "role": "user",
+          "start": 12637,
+          "end": 12846
+        },
+        {
+          "role": "assistant",
+          "start": 12846,
+          "end": 16429
+        },
+        {
+          "role": "user",
+          "start": 16429,
+          "end": 16633
+        },
+        {
+          "role": "assistant",
+          "start": 16633,
+          "end": 20497
+        }
+      ]
+    },
+    {
+      "source_id": "cb8f5992c4792af58fcde7f75",
+      "original_sha256": "966bb0c74998cd604f7476499f89133cae82ba46297dc4fa63ca5c691a761a5d",
+      "source_characters": 18054,
+      "role_fields": {
+        "user": {
+          "sha256": "c9575c10f5e0a38d9b85630153b4a26b7500a9f895effebabf67df646eb4bd40",
+          "characters": 1850,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "31a36ccee0e7e8118201c107efcd4aa0df6fff616c7e2e0e5d1c83c0c8e12ba5",
+          "characters": 16204,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 238
+        },
+        {
+          "role": "assistant",
+          "start": 238,
+          "end": 3409
+        },
+        {
+          "role": "user",
+          "start": 3409,
+          "end": 3713
+        },
+        {
+          "role": "assistant",
+          "start": 3713,
+          "end": 6368
+        },
+        {
+          "role": "user",
+          "start": 6368,
+          "end": 6545
+        },
+        {
+          "role": "assistant",
+          "start": 6545,
+          "end": 8915
+        },
+        {
+          "role": "user",
+          "start": 8915,
+          "end": 9393
+        },
+        {
+          "role": "assistant",
+          "start": 9393,
+          "end": 12368
+        },
+        {
+          "role": "user",
+          "start": 12368,
+          "end": 12838
+        },
+        {
+          "role": "assistant",
+          "start": 12838,
+          "end": 15604
+        },
+        {
+          "role": "user",
+          "start": 15604,
+          "end": 15787
+        },
+        {
+          "role": "assistant",
+          "start": 15787,
+          "end": 18054
+        }
+      ]
+    },
+    {
+      "source_id": "cbc264eeb4bae4955c16fd9ff",
+      "original_sha256": "527974c0f9996e6c0ac07f18f48464c8870295ae89abbb161792526220ff387a",
+      "source_characters": 16331,
+      "role_fields": {
+        "user": {
+          "sha256": "037acbc044f9789b003f117e43badf454bdef2c3fa3a6fa8563f173416566f5b",
+          "characters": 1559,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "c4a3d8be1957806cadfc995e21bf736fca4cfe31f0652aff1cb46f76dd12a357",
+          "characters": 14772,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 378
+        },
+        {
+          "role": "assistant",
+          "start": 378,
+          "end": 2868
+        },
+        {
+          "role": "user",
+          "start": 2868,
+          "end": 3126
+        },
+        {
+          "role": "assistant",
+          "start": 3126,
+          "end": 5732
+        },
+        {
+          "role": "user",
+          "start": 5732,
+          "end": 5981
+        },
+        {
+          "role": "assistant",
+          "start": 5981,
+          "end": 8698
+        },
+        {
+          "role": "user",
+          "start": 8698,
+          "end": 8938
+        },
+        {
+          "role": "assistant",
+          "start": 8938,
+          "end": 10968
+        },
+        {
+          "role": "user",
+          "start": 10968,
+          "end": 11225
+        },
+        {
+          "role": "assistant",
+          "start": 11225,
+          "end": 13739
+        },
+        {
+          "role": "user",
+          "start": 13739,
+          "end": 13916
+        },
+        {
+          "role": "assistant",
+          "start": 13916,
+          "end": 16331
+        }
+      ]
+    },
+    {
+      "source_id": "cc4122723a14d4d043e09f076",
+      "original_sha256": "d326798702440e4526f6edc89b7098d4b40313f56c58bed78a37c1db2df71555",
+      "source_characters": 2117,
+      "role_fields": {
+        "user": {
+          "sha256": "e88c42a3f76b6df7d512b22323e237d547e0d143b952510bfe30a35a0364d009",
+          "characters": 52,
+          "messages": 1
+        },
+        "assistant": {
+          "sha256": "3c3cb1d29cf1ea66ef86e480e65a5e59d35bb3d8a8e512d53c12386799fd7750",
+          "characters": 2065,
+          "messages": 1
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 52
+        },
+        {
+          "role": "assistant",
+          "start": 52,
+          "end": 2117
+        }
+      ]
+    },
+    {
+      "source_id": "cce425f0fda74342f9989ed32",
+      "original_sha256": "6531761ab9d1bac6b58b317d1b0bff12ed987629851c96e4463ddbcf51ebcace",
+      "source_characters": 4146,
+      "role_fields": {
+        "user": {
+          "sha256": "5128818f1c935adf599fdc12688135793806e23b67d370079a3cc5c22d90ef36",
+          "characters": 316,
+          "messages": 3
+        },
+        "assistant": {
+          "sha256": "3293b15ad6a70f641be9de587652737b1da301c64b39539d51e8484ded3931e2",
+          "characters": 3830,
+          "messages": 3
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 84
+        },
+        {
+          "role": "assistant",
+          "start": 84,
+          "end": 1184
+        },
+        {
+          "role": "user",
+          "start": 1184,
+          "end": 1327
+        },
+        {
+          "role": "assistant",
+          "start": 1327,
+          "end": 2771
+        },
+        {
+          "role": "user",
+          "start": 2771,
+          "end": 2860
+        },
+        {
+          "role": "assistant",
+          "start": 2860,
+          "end": 4146
+        }
+      ]
+    },
+    {
+      "source_id": "cd13de7d68ae3b288085b59cd",
+      "original_sha256": "73b5f88709961a15a23ffeddcc3d4ded6cbf0d9529cc69687c0c606491f94356",
+      "source_characters": 5322,
+      "role_fields": {
+        "user": {
+          "sha256": "30004b997d4689fa2d2cac91e89faac1a0bca645ed9b2d200fda3a679c859159",
+          "characters": 2939,
+          "messages": 4
+        },
+        "assistant": {
+          "sha256": "59c2d75f4d872b47d2756450e50878dca0556b0cbffc36d6b4f965037b9ca3b6",
+          "characters": 2383,
+          "messages": 4
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 69
+        },
+        {
+          "role": "assistant",
+          "start": 69,
+          "end": 259
+        },
+        {
+          "role": "user",
+          "start": 259,
+          "end": 3055
+        },
+        {
+          "role": "assistant",
+          "start": 3055,
+          "end": 3830
+        },
+        {
+          "role": "user",
+          "start": 3830,
+          "end": 3846
+        },
+        {
+          "role": "assistant",
+          "start": 3846,
+          "end": 4000
+        },
+        {
+          "role": "user",
+          "start": 4000,
+          "end": 4058
+        },
+        {
+          "role": "assistant",
+          "start": 4058,
+          "end": 5322
+        }
+      ]
+    },
+    {
+      "source_id": "cd622579ada0fa74b0f2b63f6",
+      "original_sha256": "8830da88576e1f2cac9d5ee413b51fb86b15fb36cd81ed049f790dd04e3a38ac",
+      "source_characters": 11334,
+      "role_fields": {
+        "user": {
+          "sha256": "c194c11d83f0b2d8ac9315294cde0bb9ddc9b92e5038c91f46a441072efdc7d5",
+          "characters": 1704,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "8e5fdd4813d8e3207e67a6717610a94f9a26c12bf015c87d1fd2428041c71432",
+          "characters": 9630,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 257
+        },
+        {
+          "role": "assistant",
+          "start": 257,
+          "end": 2524
+        },
+        {
+          "role": "user",
+          "start": 2524,
+          "end": 2836
+        },
+        {
+          "role": "assistant",
+          "start": 2836,
+          "end": 4700
+        },
+        {
+          "role": "user",
+          "start": 4700,
+          "end": 5060
+        },
+        {
+          "role": "assistant",
+          "start": 5060,
+          "end": 7218
+        },
+        {
+          "role": "user",
+          "start": 7218,
+          "end": 7516
+        },
+        {
+          "role": "assistant",
+          "start": 7516,
+          "end": 9214
+        },
+        {
+          "role": "user",
+          "start": 9214,
+          "end": 9480
+        },
+        {
+          "role": "assistant",
+          "start": 9480,
+          "end": 10584
+        },
+        {
+          "role": "user",
+          "start": 10584,
+          "end": 10795
+        },
+        {
+          "role": "assistant",
+          "start": 10795,
+          "end": 11334
+        }
+      ]
+    },
+    {
+      "source_id": "cdd729378a6d80ed9297c70d0",
+      "original_sha256": "377d5d70eaa43d8d7302d0e91ad920b1ce21165504f9a406911011c37b52e8de",
+      "source_characters": 2745,
+      "role_fields": {
+        "user": {
+          "sha256": "45d5bf5cb462a036997482e87c38238d9ba2b23ab20f5bb07772756d097d8161",
+          "characters": 557,
+          "messages": 5
+        },
+        "assistant": {
+          "sha256": "985d1497dcd3f691941bb4d80900fe23987220e43d28b027b39b93dd3f9df3e5",
+          "characters": 2188,
+          "messages": 5
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 94
+        },
+        {
+          "role": "assistant",
+          "start": 94,
+          "end": 209
+        },
+        {
+          "role": "user",
+          "start": 209,
+          "end": 311
+        },
+        {
+          "role": "assistant",
+          "start": 311,
+          "end": 748
+        },
+        {
+          "role": "user",
+          "start": 748,
+          "end": 833
+        },
+        {
+          "role": "assistant",
+          "start": 833,
+          "end": 1296
+        },
+        {
+          "role": "user",
+          "start": 1296,
+          "end": 1426
+        },
+        {
+          "role": "assistant",
+          "start": 1426,
+          "end": 1952
+        },
+        {
+          "role": "user",
+          "start": 1952,
+          "end": 2098
+        },
+        {
+          "role": "assistant",
+          "start": 2098,
+          "end": 2745
+        }
+      ]
+    },
+    {
+      "source_id": "ce262de8fcde47cbd4a4227fa",
+      "original_sha256": "e494b541a6e95db590ae76d6da49bb4263b7ccaddcf563ed3fb8ee3d862f68e7",
+      "source_characters": 3864,
+      "role_fields": {
+        "user": {
+          "sha256": "51fe6f254a53868c2b4435280d7c2cc9fb2a80461600040d27d4a3cdda090623",
+          "characters": 302,
+          "messages": 3
+        },
+        "assistant": {
+          "sha256": "4e4f31c0936d39365a67d3cb9684a71b2930b0069cefb16fa6121b670086c816",
+          "characters": 3562,
+          "messages": 3
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 84
+        },
+        {
+          "role": "assistant",
+          "start": 84,
+          "end": 1297
+        },
+        {
+          "role": "user",
+          "start": 1297,
+          "end": 1391
+        },
+        {
+          "role": "assistant",
+          "start": 1391,
+          "end": 2643
+        },
+        {
+          "role": "user",
+          "start": 2643,
+          "end": 2767
+        },
+        {
+          "role": "assistant",
+          "start": 2767,
+          "end": 3864
+        }
+      ]
+    },
+    {
+      "source_id": "ce305bb606468ab6b8e2ead39",
+      "original_sha256": "1d51d2dce96be8be7bab01cfa183284ddc256bb3bb5df0ed2c0d49f2437ec1bf",
+      "source_characters": 12062,
+      "role_fields": {
+        "user": {
+          "sha256": "e39d43b5288b851413cf12ec19f347439f1a25753b2e5fb65adcd0b567b66fe4",
+          "characters": 950,
+          "messages": 4
+        },
+        "assistant": {
+          "sha256": "b98f9a6678685dc0127829b04a37120f63b18f1bdfc01401368525b678cf438d",
+          "characters": 11112,
+          "messages": 4
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 281
+        },
+        {
+          "role": "assistant",
+          "start": 281,
+          "end": 3414
+        },
+        {
+          "role": "user",
+          "start": 3414,
+          "end": 3677
+        },
+        {
+          "role": "assistant",
+          "start": 3677,
+          "end": 6427
+        },
+        {
+          "role": "user",
+          "start": 6427,
+          "end": 6640
+        },
+        {
+          "role": "assistant",
+          "start": 6640,
+          "end": 9111
+        },
+        {
+          "role": "user",
+          "start": 9111,
+          "end": 9304
+        },
+        {
+          "role": "assistant",
+          "start": 9304,
+          "end": 12062
+        }
+      ]
+    },
+    {
+      "source_id": "cebfe53512ab78fe5e2ce71ac",
+      "original_sha256": "46bd49a1084e7a697ec8f1a87d37905e78044e6b7c1b5680026ce84e1942c1d5",
+      "source_characters": 5182,
+      "role_fields": {
+        "user": {
+          "sha256": "15bab1c6694b08a689f7d84e0afd49f3fd8677b5bece0a9d007ac19140386b10",
+          "characters": 812,
+          "messages": 4
+        },
+        "assistant": {
+          "sha256": "f6159b0f0de556d3faa5b3fe9ba58873f824df950ebc0676eeaee920007c11cc",
+          "characters": 4370,
+          "messages": 4
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 86
+        },
+        {
+          "role": "assistant",
+          "start": 86,
+          "end": 1406
+        },
+        {
+          "role": "user",
+          "start": 1406,
+          "end": 1605
+        },
+        {
+          "role": "assistant",
+          "start": 1605,
+          "end": 2104
+        },
+        {
+          "role": "user",
+          "start": 2104,
+          "end": 2334
+        },
+        {
+          "role": "assistant",
+          "start": 2334,
+          "end": 3519
+        },
+        {
+          "role": "user",
+          "start": 3519,
+          "end": 3816
+        },
+        {
+          "role": "assistant",
+          "start": 3816,
+          "end": 5182
+        }
+      ]
+    },
+    {
+      "source_id": "cf21b515612be6e937db98f1a",
+      "original_sha256": "92fe4e5b013763cf2799266a4c2075646184176c33728843d31d8819567d66e3",
+      "source_characters": 13584,
+      "role_fields": {
+        "user": {
+          "sha256": "c236ec8dfea7fe30368d6e9d1f03f66e5c6a1be528f6eed4e89fc855cf8b5458",
+          "characters": 1244,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "6a7b5fe4c2681d38e32250ece649cfa9022c554fdf2a827b6635bbe10ae15b26",
+          "characters": 12340,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 248
+        },
+        {
+          "role": "assistant",
+          "start": 248,
+          "end": 2188
+        },
+        {
+          "role": "user",
+          "start": 2188,
+          "end": 2336
+        },
+        {
+          "role": "assistant",
+          "start": 2336,
+          "end": 5195
+        },
+        {
+          "role": "user",
+          "start": 5195,
+          "end": 5380
+        },
+        {
+          "role": "assistant",
+          "start": 5380,
+          "end": 7808
+        },
+        {
+          "role": "user",
+          "start": 7808,
+          "end": 8003
+        },
+        {
+          "role": "assistant",
+          "start": 8003,
+          "end": 10357
+        },
+        {
+          "role": "user",
+          "start": 10357,
+          "end": 10640
+        },
+        {
+          "role": "assistant",
+          "start": 10640,
+          "end": 12523
+        },
+        {
+          "role": "user",
+          "start": 12523,
+          "end": 12708
+        },
+        {
+          "role": "assistant",
+          "start": 12708,
+          "end": 13584
+        }
+      ]
+    },
+    {
+      "source_id": "cf51abbd45a81ad4d7e0a86b3",
+      "original_sha256": "a8ae7132c6b3ce4af6ea418a02e050bd9d0e7a5759b1837ef0fee45562d2d4f8",
+      "source_characters": 9709,
+      "role_fields": {
+        "user": {
+          "sha256": "a3278a8229e2af3f8d3e8205861467bf403bacfaf2c94c3449284bdd3e3c9aa5",
+          "characters": 1017,
+          "messages": 7
+        },
+        "assistant": {
+          "sha256": "3d3e10a4606735d00378a3eadbf218e31cb0e01aec9a5dc5cc04074997c47fc3",
+          "characters": 8692,
+          "messages": 7
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 77
+        },
+        {
+          "role": "assistant",
+          "start": 77,
+          "end": 1330
+        },
+        {
+          "role": "user",
+          "start": 1330,
+          "end": 1401
+        },
+        {
+          "role": "assistant",
+          "start": 1401,
+          "end": 2241
+        },
+        {
+          "role": "user",
+          "start": 2241,
+          "end": 2362
+        },
+        {
+          "role": "assistant",
+          "start": 2362,
+          "end": 3560
+        },
+        {
+          "role": "user",
+          "start": 3560,
+          "end": 3761
+        },
+        {
+          "role": "assistant",
+          "start": 3761,
+          "end": 5279
+        },
+        {
+          "role": "user",
+          "start": 5279,
+          "end": 5476
+        },
+        {
+          "role": "assistant",
+          "start": 5476,
+          "end": 6341
+        },
+        {
+          "role": "user",
+          "start": 6341,
+          "end": 6505
+        },
+        {
+          "role": "assistant",
+          "start": 6505,
+          "end": 8112
+        },
+        {
+          "role": "user",
+          "start": 8112,
+          "end": 8298
+        },
+        {
+          "role": "assistant",
+          "start": 8298,
+          "end": 9709
+        }
+      ]
+    },
+    {
+      "source_id": "cf83b06f9396d17b9a0db0917",
+      "original_sha256": "da49ecae42d49dc4208f8de8c86599cf2ff1f7797cc6bc8ef59af9e429eaf5bf",
+      "source_characters": 5167,
+      "role_fields": {
+        "user": {
+          "sha256": "d8b70b9179fa8b1dec9264e2ab058dc32ecd28f0bb55d9faa86e403635530c8d",
+          "characters": 3798,
+          "messages": 2
+        },
+        "assistant": {
+          "sha256": "5c30962bf8e6bec33992d197eba398fe985f21d7e085aa30c2ab5b7fa88e71ef",
+          "characters": 1369,
+          "messages": 2
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 3739
+        },
+        {
+          "role": "assistant",
+          "start": 3739,
+          "end": 4369
+        },
+        {
+          "role": "user",
+          "start": 4369,
+          "end": 4428
+        },
+        {
+          "role": "assistant",
+          "start": 4428,
+          "end": 5167
+        }
+      ]
+    },
+    {
+      "source_id": "cf9dd31701b7948c8d962f804",
+      "original_sha256": "2a3dbc7dfec59a6cc7bc840b328308a96ae327ffee0b7d5455937bc62845ad99",
+      "source_characters": 14933,
+      "role_fields": {
+        "user": {
+          "sha256": "15f4f61de38d333e16a9e00bd0d4383da892793fbe88ec121ed39dd3c7bf3a78",
+          "characters": 1819,
+          "messages": 6
+        },
+        "assistant": {
+          "sha256": "73ddc6a72ad9c111881956badf4c31530681992e235a171dffafc7bf06277bb1",
+          "characters": 13114,
+          "messages": 6
+        }
+      },
+      "original_blocks": [
+        {
+          "role": "user",
+          "start": 0,
+          "end": 368
+        },
+        {
+          "role": "assistant",
+          "start": 368,
+          "end": 2222
+        },
+        {
+          "role": "user",
+          "start": 2222,
+          "end": 2514
+        },
+        {
+          "role": "assistant",
+          "start": 2514,
+          "end": 4823
+        },
+        {
+          "role": "user",
+          "start": 4823,
+          "end": 5078
+        },
+        {
+          "role": "assistant",
+          "start": 5078,
+          "end": 7723
+        },
+        {
+          "role": "user",
+          "start": 7723,
+          "end": 7911
+        },
+        {
+          "role": "assistant",
+          "start": 7911,
+          "end": 10238
+        },
+        {
+          "role": "user",
+          "start": 10238,
+          "end": 10706
+        },
+        {
+          "role": "assistant",
+          "start": 10706,
+          "end": 12642
+        },
+        {
+          "role": "user",
+          "start": 12642,
+          "end": 12890
+        },
+        {
+          "role": "assistant",
+          "start": 12890,
+          "end": 14933
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "source_id": "c0ad4ede6ace7adbb1d6a8c29",
+      "whole": 3.4739836446643886,
+      "user": 1.4054030731178038,
+      "assistant": 4.483992210246023,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c0dfd3112980545f7ae073c12",
+      "whole": 2.672576885801025,
+      "user": 2.892037321177303,
+      "assistant": 5.500279128439404e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c10266871f109377ffd734836",
+      "whole": 5.977802015521811e-06,
+      "user": 5.14551852656351e-06,
+      "assistant": 4.243896877325567e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c1ce07f16a421fcca48279a7e",
+      "whole": 6.228771224080582e-06,
+      "user": 5.454921024089443e-06,
+      "assistant": 6.061365667317156e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c2125e6d5b3b2ee6a58560418",
+      "whole": 9.474706977335477e-06,
+      "user": 1.6179552697924302,
+      "assistant": 0.4338480342152229,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c231d0d6fc7a96f33fb71382b",
+      "whole": 1.0288262621398427e-05,
+      "user": 1.0413877203577333,
+      "assistant": 8.928573097044493e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c257ecb0536aea29b106727fd",
+      "whole": 2.4086401304339593,
+      "user": 2.793037187303337,
+      "assistant": 2.648378091909798,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c28282eb4c287be452a0f7a2f",
+      "whole": 3.973875637850002,
+      "user": 6.260189782121001e-06,
+      "assistant": 5.128416726545695,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c3e8797813fd478c571d356ff",
+      "whole": 2.8724659860065875,
+      "user": 1.8394442312810493,
+      "assistant": 3.804855545687908,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c46db21a1163c687bf2d2b68f",
+      "whole": 7.23867583912065e-06,
+      "user": 4.280288018891616e-06,
+      "assistant": 6.0706639816003895e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c4c1eae331c3bc1ebbbf8ba0a",
+      "whole": 1.0784802725987639e-05,
+      "user": 7.500143307079681e-06,
+      "assistant": 8.85338163434141e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c50eba27d822e1774408b5971",
+      "whole": 7.788302509382255e-06,
+      "user": 6.739481613266263e-06,
+      "assistant": 0.44131705281970945,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c531935694036298178bd433a",
+      "whole": 1.6813044617801334,
+      "user": 1.5754997780625335,
+      "assistant": 2.9024119734444374,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c5a62093d98e7ffb55a5c0878",
+      "whole": 7.808596551390274e-06,
+      "user": 6.5058348580271775e-06,
+      "assistant": 0.382155719858597,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c5c75cb0a63e81d656f4d080a",
+      "whole": 9.478005203567513e-06,
+      "user": 6.7280120138993305e-06,
+      "assistant": 7.643146661771157e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c5ce3968e9ef59a9bad9f6942",
+      "whole": 2.1062038172072732,
+      "user": 6.788574310870877,
+      "assistant": 5.983530113249746e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c60b3a92e9ba50de15d46dbd7",
+      "whole": 8.955118467059594e-06,
+      "user": 4.567147653275906e-06,
+      "assistant": 8.471871816107285e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c61b51346f51a7c8ac290a621",
+      "whole": 1.9713479273567287,
+      "user": 6.684419619283826e-06,
+      "assistant": 2.623030520650454,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c658a4d6521f7fbc419dfd5c9",
+      "whole": 9.31339039731703,
+      "user": 3.146139504521546,
+      "assistant": 10.8532230389567,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c6a0af95040d7d04db7f09507",
+      "whole": 1.0119615725474668e-05,
+      "user": 5.053650668806334e-06,
+      "assistant": 0.5558317801791426,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c6bc9fea7dc455bcbb170069c",
+      "whole": 1.565921243420455,
+      "user": 3.2188098602724713,
+      "assistant": 0.5722270539525772,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c72018d6b87a05e3e7b25a12c",
+      "whole": 17.320759845567196,
+      "user": 18.550538811552098,
+      "assistant": 16.50246213977632,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c743416f464c83c717f35499f",
+      "whole": 6.8016444284129145,
+      "user": 2.959332551740092,
+      "assistant": 7.250598879156108,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c74ad0d0239a8bb8ecb2ccdbe",
+      "whole": 7.738672252196827e-06,
+      "user": 4.647587539701037e-06,
+      "assistant": 7.658802365648681e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c7b390017a25cb3a4d43538a3",
+      "whole": 8.346366060676244e-06,
+      "user": 1.558401223212366e-06,
+      "assistant": 0.510669902631597,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c7be2e7d65b43423c8b99ea4a",
+      "whole": 5.043314263854145,
+      "user": 3.983267815010511,
+      "assistant": 5.528712143156022,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c7c2736ba322e3c6d2067a9ba",
+      "whole": 1.352418230335793,
+      "user": 6.514930463194199e-06,
+      "assistant": 1.9116288831490875,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c81512b5f674f939cb9da23d8",
+      "whole": 8.864697184773283e-06,
+      "user": 5.571743737756407e-06,
+      "assistant": 7.055858576169322e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c85f01f830c6811c02d09c03a",
+      "whole": 1.024967130795626e-05,
+      "user": 1.718798192780971,
+      "assistant": 0.6268980675977437,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c8e097fd94e30264f02ee2bfe",
+      "whole": 5.01497300188243,
+      "user": 1.876254673493626,
+      "assistant": 5.18037547103603,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c988ddeb2d5330f5ddb1759a1",
+      "whole": 3.0729420315902387,
+      "user": 6.110047204611505e-06,
+      "assistant": 3.19540231350683,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "c9da968999797864ad32e6ee4",
+      "whole": 8.974890682104804e-06,
+      "user": 5.697066241723256e-06,
+      "assistant": 8.406161001191817e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cb8f5992c4792af58fcde7f75",
+      "whole": 8.797126652926025e-06,
+      "user": 6.130404217473904e-06,
+      "assistant": 0.551526917770264,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cbc264eeb4bae4955c16fd9ff",
+      "whole": 1.1309205782865117,
+      "user": 3.333333016246412,
+      "assistant": 7.5094931240461894e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cc4122723a14d4d043e09f076",
+      "whole": 4.0529659324202415e-06,
+      "user": 1.6567190714448985e-06,
+      "assistant": 3.914938983450215e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cce425f0fda74342f9989ed32",
+      "whole": 8.654254638866996e-06,
+      "user": 6.673137062948359e-06,
+      "assistant": 5.894098120480438e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cd13de7d68ae3b288085b59cd",
+      "whole": 7.946976849619287e-06,
+      "user": 0.7169815998505424,
+      "assistant": 7.693066366164567e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cd622579ada0fa74b0f2b63f6",
+      "whole": 6.853005587865618,
+      "user": 4.95366870706454e-06,
+      "assistant": 7.837647351254374,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cdd729378a6d80ed9297c70d0",
+      "whole": 7.390202816488842e-06,
+      "user": 4.4548326760180906e-06,
+      "assistant": 4.07962757074807e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "ce262de8fcde47cbd4a4227fa",
+      "whole": 8.777560315035139e-06,
+      "user": 3.511638392226268e-06,
+      "assistant": 5.46325609212347e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "ce305bb606468ab6b8e2ead39",
+      "whole": 10.108820662754294,
+      "user": 3.8169755537452166,
+      "assistant": 9.322027990612384,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cebfe53512ab78fe5e2ce71ac",
+      "whole": 9.820022352042742e-06,
+      "user": 6.918269203876292e-06,
+      "assistant": 0.5588902579384737,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cf21b515612be6e937db98f1a",
+      "whole": 1.035239357834283e-05,
+      "user": 1.056869272256553,
+      "assistant": 8.306832667092167e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cf51abbd45a81ad4d7e0a86b3",
+      "whole": 8.029460462728553e-06,
+      "user": 6.664055270307893e-06,
+      "assistant": 0.48402029465863655,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cf83b06f9396d17b9a0db0917",
+      "whole": 5.096158512443158,
+      "user": 5.634626388410167,
+      "assistant": 4.121791117289748e-06,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    },
+    {
+      "source_id": "cf9dd31701b7948c8d962f804",
+      "whole": 2.3717065266693718,
+      "user": 6.4284490113290005e-06,
+      "assistant": 2.6013669791672442,
+      "whole_hit": true,
+      "user_hit": true,
+      "assistant_hit": true
+    }
+  ],
+  "rankings": {
+    "whole": [
+      {
+        "source_id": "c72018d6b87a05e3e7b25a12c",
+        "score": 17.320759845567196
+      },
+      {
+        "source_id": "ce305bb606468ab6b8e2ead39",
+        "score": 10.108820662754294
+      },
+      {
+        "source_id": "c658a4d6521f7fbc419dfd5c9",
+        "score": 9.31339039731703
+      },
+      {
+        "source_id": "cd622579ada0fa74b0f2b63f6",
+        "score": 6.853005587865618
+      },
+      {
+        "source_id": "c743416f464c83c717f35499f",
+        "score": 6.8016444284129145
+      },
+      {
+        "source_id": "cf83b06f9396d17b9a0db0917",
+        "score": 5.096158512443158
+      },
+      {
+        "source_id": "c7be2e7d65b43423c8b99ea4a",
+        "score": 5.043314263854145
+      },
+      {
+        "source_id": "c8e097fd94e30264f02ee2bfe",
+        "score": 5.01497300188243
+      },
+      {
+        "source_id": "c28282eb4c287be452a0f7a2f",
+        "score": 3.973875637850002
+      },
+      {
+        "source_id": "c0ad4ede6ace7adbb1d6a8c29",
+        "score": 3.4739836446643886
+      },
+      {
+        "source_id": "c988ddeb2d5330f5ddb1759a1",
+        "score": 3.0729420315902387
+      },
+      {
+        "source_id": "c3e8797813fd478c571d356ff",
+        "score": 2.8724659860065875
+      },
+      {
+        "source_id": "c0dfd3112980545f7ae073c12",
+        "score": 2.672576885801025
+      },
+      {
+        "source_id": "c257ecb0536aea29b106727fd",
+        "score": 2.4086401304339593
+      },
+      {
+        "source_id": "cf9dd31701b7948c8d962f804",
+        "score": 2.3717065266693718
+      },
+      {
+        "source_id": "c5ce3968e9ef59a9bad9f6942",
+        "score": 2.1062038172072732
+      },
+      {
+        "source_id": "c61b51346f51a7c8ac290a621",
+        "score": 1.9713479273567287
+      },
+      {
+        "source_id": "c531935694036298178bd433a",
+        "score": 1.6813044617801334
+      },
+      {
+        "source_id": "c6bc9fea7dc455bcbb170069c",
+        "score": 1.565921243420455
+      },
+      {
+        "source_id": "c7c2736ba322e3c6d2067a9ba",
+        "score": 1.352418230335793
+      },
+      {
+        "source_id": "cbc264eeb4bae4955c16fd9ff",
+        "score": 1.1309205782865117
+      },
+      {
+        "source_id": "c4c1eae331c3bc1ebbbf8ba0a",
+        "score": 1.0784802725987639e-05
+      },
+      {
+        "source_id": "cf21b515612be6e937db98f1a",
+        "score": 1.035239357834283e-05
+      },
+      {
+        "source_id": "c231d0d6fc7a96f33fb71382b",
+        "score": 1.0288262621398427e-05
+      },
+      {
+        "source_id": "c85f01f830c6811c02d09c03a",
+        "score": 1.024967130795626e-05
+      },
+      {
+        "source_id": "c6a0af95040d7d04db7f09507",
+        "score": 1.0119615725474668e-05
+      },
+      {
+        "source_id": "cebfe53512ab78fe5e2ce71ac",
+        "score": 9.820022352042742e-06
+      },
+      {
+        "source_id": "c5c75cb0a63e81d656f4d080a",
+        "score": 9.478005203567513e-06
+      },
+      {
+        "source_id": "c2125e6d5b3b2ee6a58560418",
+        "score": 9.474706977335477e-06
+      },
+      {
+        "source_id": "c9da968999797864ad32e6ee4",
+        "score": 8.974890682104804e-06
+      },
+      {
+        "source_id": "c60b3a92e9ba50de15d46dbd7",
+        "score": 8.955118467059594e-06
+      },
+      {
+        "source_id": "c81512b5f674f939cb9da23d8",
+        "score": 8.864697184773283e-06
+      },
+      {
+        "source_id": "cb8f5992c4792af58fcde7f75",
+        "score": 8.797126652926025e-06
+      },
+      {
+        "source_id": "ce262de8fcde47cbd4a4227fa",
+        "score": 8.777560315035139e-06
+      },
+      {
+        "source_id": "cce425f0fda74342f9989ed32",
+        "score": 8.654254638866996e-06
+      },
+      {
+        "source_id": "c7b390017a25cb3a4d43538a3",
+        "score": 8.346366060676244e-06
+      },
+      {
+        "source_id": "cf51abbd45a81ad4d7e0a86b3",
+        "score": 8.029460462728553e-06
+      },
+      {
+        "source_id": "cd13de7d68ae3b288085b59cd",
+        "score": 7.946976849619287e-06
+      },
+      {
+        "source_id": "c5a62093d98e7ffb55a5c0878",
+        "score": 7.808596551390274e-06
+      },
+      {
+        "source_id": "c50eba27d822e1774408b5971",
+        "score": 7.788302509382255e-06
+      },
+      {
+        "source_id": "c74ad0d0239a8bb8ecb2ccdbe",
+        "score": 7.738672252196827e-06
+      },
+      {
+        "source_id": "cdd729378a6d80ed9297c70d0",
+        "score": 7.390202816488842e-06
+      },
+      {
+        "source_id": "c46db21a1163c687bf2d2b68f",
+        "score": 7.23867583912065e-06
+      },
+      {
+        "source_id": "c1ce07f16a421fcca48279a7e",
+        "score": 6.228771224080582e-06
+      },
+      {
+        "source_id": "c10266871f109377ffd734836",
+        "score": 5.977802015521811e-06
+      },
+      {
+        "source_id": "cc4122723a14d4d043e09f076",
+        "score": 4.0529659324202415e-06
+      }
+    ],
+    "split50": [
+      {
+        "source_id": "c72018d6b87a05e3e7b25a12c",
+        "score": 17.526500475664207
+      },
+      {
+        "source_id": "c658a4d6521f7fbc419dfd5c9",
+        "score": 6.9996812717391235
+      },
+      {
+        "source_id": "ce305bb606468ab6b8e2ead39",
+        "score": 6.5695017721788
+      },
+      {
+        "source_id": "c743416f464c83c717f35499f",
+        "score": 5.1049657154481
+      },
+      {
+        "source_id": "c7be2e7d65b43423c8b99ea4a",
+        "score": 4.7559899790832665
+      },
+      {
+        "source_id": "cd622579ada0fa74b0f2b63f6",
+        "score": 3.9188261524615404
+      },
+      {
+        "source_id": "c8e097fd94e30264f02ee2bfe",
+        "score": 3.528315072264828
+      },
+      {
+        "source_id": "c5ce3968e9ef59a9bad9f6942",
+        "score": 3.394290147200495
+      },
+      {
+        "source_id": "c0ad4ede6ace7adbb1d6a8c29",
+        "score": 2.9446976416819135
+      },
+      {
+        "source_id": "c3e8797813fd478c571d356ff",
+        "score": 2.8221498884844785
+      },
+      {
+        "source_id": "cf83b06f9396d17b9a0db0917",
+        "score": 2.817315255100642
+      },
+      {
+        "source_id": "c257ecb0536aea29b106727fd",
+        "score": 2.7207076396065677
+      },
+      {
+        "source_id": "c28282eb4c287be452a0f7a2f",
+        "score": 2.564211493367739
+      },
+      {
+        "source_id": "c531935694036298178bd433a",
+        "score": 2.2389558757534855
+      },
+      {
+        "source_id": "c6bc9fea7dc455bcbb170069c",
+        "score": 1.8955184571125243
+      },
+      {
+        "source_id": "cbc264eeb4bae4955c16fd9ff",
+        "score": 1.666670262869768
+      },
+      {
+        "source_id": "c988ddeb2d5330f5ddb1759a1",
+        "score": 1.5977042117770173
+      },
+      {
+        "source_id": "c0dfd3112980545f7ae073c12",
+        "score": 1.4460214107282159
+      },
+      {
+        "source_id": "c61b51346f51a7c8ac290a621",
+        "score": 1.3115186025350365
+      },
+      {
+        "source_id": "cf9dd31701b7948c8d962f804",
+        "score": 1.3006867038081278
+      },
+      {
+        "source_id": "c85f01f830c6811c02d09c03a",
+        "score": 1.1728481301893574
+      },
+      {
+        "source_id": "c2125e6d5b3b2ee6a58560418",
+        "score": 1.0259016520038267
+      },
+      {
+        "source_id": "c7c2736ba322e3c6d2067a9ba",
+        "score": 0.9558176990397753
+      },
+      {
+        "source_id": "cf21b515612be6e937db98f1a",
+        "score": 0.52843878954461
+      },
+      {
+        "source_id": "c231d0d6fc7a96f33fb71382b",
+        "score": 0.5206983244654152
+      },
+      {
+        "source_id": "cd13de7d68ae3b288085b59cd",
+        "score": 0.3584946464584543
+      },
+      {
+        "source_id": "cebfe53512ab78fe5e2ce71ac",
+        "score": 0.27944858810383877
+      },
+      {
+        "source_id": "c6a0af95040d7d04db7f09507",
+        "score": 0.2779184169149057
+      },
+      {
+        "source_id": "cb8f5992c4792af58fcde7f75",
+        "score": 0.2757665240872407
+      },
+      {
+        "source_id": "c7b390017a25cb3a4d43538a3",
+        "score": 0.25533573051641006
+      },
+      {
+        "source_id": "cf51abbd45a81ad4d7e0a86b3",
+        "score": 0.24201347935695344
+      },
+      {
+        "source_id": "c50eba27d822e1774408b5971",
+        "score": 0.22066189615066137
+      },
+      {
+        "source_id": "c5a62093d98e7ffb55a5c0878",
+        "score": 0.1910811128467275
+      },
+      {
+        "source_id": "c4c1eae331c3bc1ebbbf8ba0a",
+        "score": 8.176762470710546e-06
+      },
+      {
+        "source_id": "c5c75cb0a63e81d656f4d080a",
+        "score": 7.185579337835244e-06
+      },
+      {
+        "source_id": "c9da968999797864ad32e6ee4",
+        "score": 7.051613621457536e-06
+      },
+      {
+        "source_id": "c60b3a92e9ba50de15d46dbd7",
+        "score": 6.519509734691596e-06
+      },
+      {
+        "source_id": "c81512b5f674f939cb9da23d8",
+        "score": 6.313801156962865e-06
+      },
+      {
+        "source_id": "cce425f0fda74342f9989ed32",
+        "score": 6.283617591714398e-06
+      },
+      {
+        "source_id": "c74ad0d0239a8bb8ecb2ccdbe",
+        "score": 6.153194952674858e-06
+      },
+      {
+        "source_id": "c1ce07f16a421fcca48279a7e",
+        "score": 5.7581433457033e-06
+      },
+      {
+        "source_id": "c46db21a1163c687bf2d2b68f",
+        "score": 5.175476000246003e-06
+      },
+      {
+        "source_id": "c10266871f109377ffd734836",
+        "score": 4.694707701944538e-06
+      },
+      {
+        "source_id": "ce262de8fcde47cbd4a4227fa",
+        "score": 4.487447242174869e-06
+      },
+      {
+        "source_id": "cdd729378a6d80ed9297c70d0",
+        "score": 4.2672301233830805e-06
+      },
+      {
+        "source_id": "cc4122723a14d4d043e09f076",
+        "score": 2.785829027447557e-06
+      }
+    ],
+    "split70": [
+      {
+        "source_id": "c72018d6b87a05e3e7b25a12c",
+        "score": 17.936115810019363
+      },
+      {
+        "source_id": "ce305bb606468ab6b8e2ead39",
+        "score": 5.468491284805366
+      },
+      {
+        "source_id": "c658a4d6521f7fbc419dfd5c9",
+        "score": 5.458264564852092
+      },
+      {
+        "source_id": "c5ce3968e9ef59a9bad9f6942",
+        "score": 4.752003812668647
+      },
+      {
+        "source_id": "c7be2e7d65b43423c8b99ea4a",
+        "score": 4.446901113454164
+      },
+      {
+        "source_id": "c743416f464c83c717f35499f",
+        "score": 4.246712449964896
+      },
+      {
+        "source_id": "cf83b06f9396d17b9a0db0917",
+        "score": 3.944239708424452
+      },
+      {
+        "source_id": "c8e097fd94e30264f02ee2bfe",
+        "score": 2.867490912756347
+      },
+      {
+        "source_id": "c257ecb0536aea29b106727fd",
+        "score": 2.7496394586852753
+      },
+      {
+        "source_id": "c3e8797813fd478c571d356ff",
+        "score": 2.429067625603107
+      },
+      {
+        "source_id": "c6bc9fea7dc455bcbb170069c",
+        "score": 2.424835018376503
+      },
+      {
+        "source_id": "cd622579ada0fa74b0f2b63f6",
+        "score": 2.351297672944407
+      },
+      {
+        "source_id": "cbc264eeb4bae4955c16fd9ff",
+        "score": 2.3333353642204253
+      },
+      {
+        "source_id": "c0ad4ede6ace7adbb1d6a8c29",
+        "score": 2.3289798142562694
+      },
+      {
+        "source_id": "c0dfd3112980545f7ae073c12",
+        "score": 2.0244277749078505
+      },
+      {
+        "source_id": "c531935694036298178bd433a",
+        "score": 1.9735734366771045
+      },
+      {
+        "source_id": "c28282eb4c287be452a0f7a2f",
+        "score": 1.538529400096556
+      },
+      {
+        "source_id": "c85f01f830c6811c02d09c03a",
+        "score": 1.3912281552260028
+      },
+      {
+        "source_id": "c2125e6d5b3b2ee6a58560418",
+        "score": 1.262723099119268
+      },
+      {
+        "source_id": "c988ddeb2d5330f5ddb1759a1",
+        "score": 0.9586249710850921
+      },
+      {
+        "source_id": "c61b51346f51a7c8ac290a621",
+        "score": 0.7869138352888696
+      },
+      {
+        "source_id": "cf9dd31701b7948c8d962f804",
+        "score": 0.7804145936644812
+      },
+      {
+        "source_id": "cf21b515612be6e937db98f1a",
+        "score": 0.739810982629387
+      },
+      {
+        "source_id": "c231d0d6fc7a96f33fb71382b",
+        "score": 0.7289740828223424
+      },
+      {
+        "source_id": "c7c2736ba322e3c6d2067a9ba",
+        "score": 0.5734932253960505
+      },
+      {
+        "source_id": "cd13de7d68ae3b288085b59cd",
+        "score": 0.5018894278152896
+      },
+      {
+        "source_id": "cebfe53512ab78fe5e2ce71ac",
+        "score": 0.1676719201699848
+      },
+      {
+        "source_id": "c6a0af95040d7d04db7f09507",
+        "score": 0.16675307160921093
+      },
+      {
+        "source_id": "cb8f5992c4792af58fcde7f75",
+        "score": 0.1654623666140314
+      },
+      {
+        "source_id": "c7b390017a25cb3a4d43538a3",
+        "score": 0.15320206167033534
+      },
+      {
+        "source_id": "cf51abbd45a81ad4d7e0a86b3",
+        "score": 0.1452107532362802
+      },
+      {
+        "source_id": "c50eba27d822e1774408b5971",
+        "score": 0.1323998334830421
+      },
+      {
+        "source_id": "c5a62093d98e7ffb55a5c0878",
+        "score": 0.1146512700419797
+      },
+      {
+        "source_id": "c4c1eae331c3bc1ebbbf8ba0a",
+        "score": 7.9061148052582e-06
+      },
+      {
+        "source_id": "c5c75cb0a63e81d656f4d080a",
+        "score": 7.002552408260878e-06
+      },
+      {
+        "source_id": "c9da968999797864ad32e6ee4",
+        "score": 6.509794669563824e-06
+      },
+      {
+        "source_id": "cce425f0fda74342f9989ed32",
+        "score": 6.439425380207982e-06
+      },
+      {
+        "source_id": "c81512b5f674f939cb9da23d8",
+        "score": 6.016978189280281e-06
+      },
+      {
+        "source_id": "c60b3a92e9ba50de15d46dbd7",
+        "score": 5.73856490212532e-06
+      },
+      {
+        "source_id": "c1ce07f16a421fcca48279a7e",
+        "score": 5.636854417057757e-06
+      },
+      {
+        "source_id": "c74ad0d0239a8bb8ecb2ccdbe",
+        "score": 5.55095198748533e-06
+      },
+      {
+        "source_id": "c10266871f109377ffd734836",
+        "score": 4.875032031792126e-06
+      },
+      {
+        "source_id": "c46db21a1163c687bf2d2b68f",
+        "score": 4.817400807704248e-06
+      },
+      {
+        "source_id": "cdd729378a6d80ed9297c70d0",
+        "score": 4.3422711444370845e-06
+      },
+      {
+        "source_id": "ce262de8fcde47cbd4a4227fa",
+        "score": 4.097123702195428e-06
+      },
+      {
+        "source_id": "cc4122723a14d4d043e09f076",
+        "score": 2.3341850450464935e-06
+      }
+    ]
+  },
+  "original_control_top10_equal": true,
+  "original_max_score_difference": 0.0,
+  "timing": {
+    "index_build_seconds": 0.014518624870106578,
+    "field_search_seconds": {
+      "whole": 0.0002694998402148485,
+      "user": 0.00013608415611088276,
+      "assistant": 0.00021358393132686615
+    }
+  }
+}

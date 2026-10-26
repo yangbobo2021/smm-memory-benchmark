@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "cases": 57,
+  "whole_control_top10_replays": 57,
+  "whole_control_max_score_difference": 0,
+  "exact_role_replays": 57,
+  "recomputed_role_score_and_sort_entries": 5322,
+  "command": "python -B experiments/smm-bm25-role-weight-001/bench.py check",
+  "replay_exit_code": 0,
+  "llm_calls": 0,
+  "embedding_calls": 0,
+  "sqlite_version": "3.51.2",
+  "note": "check rebuilt all indices and compared all role scores, rankings, role spans/hashes and aggregate bytes. Additional independent stored-score arithmetic and sorting checked here."
+}

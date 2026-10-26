@@ -1,0 +1,9 @@
+{
+  "case_id": "P01",
+  "stage": "first whole-field BM25 SQL execution",
+  "error": "sqlite3.OperationalError: near \"match\": syntax error",
+  "cause": "Missing separator between the FROM table name and WHERE keyword; generated wholewhere/userwhere/assistantwhere.",
+  "ranking_files_written": 0,
+  "ranking_scores_generated": 0,
+  "data_or_weights_changed": false
+}

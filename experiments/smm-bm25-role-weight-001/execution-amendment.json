@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-26T05:19:58.524153+00:00",
+  "protocol_sha256": "2b30e465be17cb22d797529eb0a64b0ea02daa9d0a61de8ffc4959197efa15f1",
+  "original_script_sha256": "b8b37a523147229a834c472aaca150d634e79dff079693b563808296e8b6cf0b",
+  "repaired_script_sha256": "c5a49e666c3f1ba2acecad0f9b5ce7dd35e7dde50e2fa524f7e9ad1e767d2e14",
+  "ranking_files_before_repair": 0,
+  "changes": [
+    "Add missing SQL whitespace between FROM table and WHERE.",
+    "Verify this declared pre-ranking repair against the immutable initial protocol/source snapshot."
+  ],
+  "preserved": [
+    "All57case membership and parent hashes",
+    "Query processing, role blocks, FTS tables, weights, labels and metrics"
+  ],
+  "reason": "Initial syntax error stopped before any scores or ranking results."
+}

@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [Role-separated BM25: 70% user + 30% assistant, with unchanged full-conversation control](experiments/smm-bm25-role-weight-001/README.md)
 - [New-question retrieval validation: 32 fresh LongMemEval cases + 200 randomly sampled LoCoMo questions](experiments/smm-retrieval-generalization-001/README.md)
 - [Text-evidence sensitivity of the new LoCoMo sample](analyses/smm-rg001-text-evidence/README.md)
 - [Top1–Top5 complete-evidence coverage: BM25, vector, and their union](analyses/top-n-evidence-v1/README.md)

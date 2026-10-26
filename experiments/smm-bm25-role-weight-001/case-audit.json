@@ -1,0 +1,186 @@
+{
+  "description": "Post-result explanatory audit, not new gold labels or algorithm tuning. Full unchanged sources remain in parent bundles.",
+  "items": [
+    {
+      "case_id": "P06",
+      "question": "How many days a week do I attend fitness classes?",
+      "source_id": "cb02306340efae1abb61b04d8",
+      "source_sha256": "bd30d6711ccc15afd25cc997ac0a26712298958332d5e345b9c6340873762bcb",
+      "diagnostic": "genuine necessary-evidence regression",
+      "scores": {
+        "whole": 5.607469278374483,
+        "user": 1.8781845012322087,
+        "assistant": 5.492537536102565,
+        "split50": 3.6853610186673866,
+        "split70": 2.9624904116933153
+      },
+      "ranks": {
+        "whole": 3,
+        "split50": 4,
+        "split70": 7
+      },
+      "original_user_messages": [
+        {
+          "role": "user",
+          "start": 6,
+          "end": 269,
+          "text": "I'm looking for some new workout playlists to try out. Do you have any recommendations? By the way, I've been trying to mix up my routine and recently started a yoga class on Wednesdays, which has been really helpful in stretching out my muscles after a long day."
+        }
+      ]
+    },
+    {
+      "case_id": "L028",
+      "question": "Who did I meet with during the lunch last Tuesday?",
+      "source_id": "cfb58939b84bf560e87d4500a",
+      "source_sha256": "77a24de8974e59af1ab3dba396e2c6f41c568e3f0ef3b890426804a7a72f1b5e",
+      "diagnostic": "genuine answer-source improvement",
+      "scores": {
+        "whole": 3.243987204851213,
+        "user": 8.289944333228615,
+        "assistant": 7.666900764981436e-06,
+        "split50": 4.14497600006469,
+        "split70": 5.8029633333302595
+      },
+      "ranks": {
+        "whole": 5,
+        "split50": 3,
+        "split70": 2
+      },
+      "original_user_messages": [
+        {
+          "role": "user",
+          "start": 6,
+          "end": 411,
+          "text": "I'm looking for some tips on social media advertising. I just attended a digital marketing workshop last week and the speaker, Rachel Lee, mentioned some interesting strategies. I was wondering if you could recommend some online resources or tutorials on the topic. By the way, I catch up with Emma, a freelance writer, over lunch today and she's now a potential collaborator for a project I'm working on."
+        }
+      ]
+    },
+    {
+      "case_id": "L004",
+      "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+      "source_id": "c4989aa50d00d98796052d4c1",
+      "source_sha256": "e9dc94b53aba14f2644efd25d5a4888c860b13c6a9e7f78856566e74da9c7e82",
+      "diagnostic": "additional official background",
+      "scores": {
+        "whole": 6.415363527839477,
+        "user": 6.445202746941909,
+        "assistant": 7.837273758918126,
+        "split50": 7.141238252930018,
+        "split70": 6.862824050534774
+      },
+      "ranks": {
+        "whole": 5,
+        "split50": 2,
+        "split70": 2
+      },
+      "original_user_messages": []
+    },
+    {
+      "case_id": "L004",
+      "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+      "source_id": "c8f80067b39712ca14cf089a0",
+      "source_sha256": "b9ad01a25d367b37f87b5a745719ca50346286ba1281e49b1bd0a258e292d2e9",
+      "diagnostic": "actual answer source already in Top4",
+      "scores": {
+        "whole": 7.728143723422075,
+        "user": 5.210500953745549,
+        "assistant": 9.022934033677071,
+        "split50": 7.11671749371131,
+        "split70": 6.354230877725005
+      },
+      "ranks": {
+        "whole": 2,
+        "split50": 3,
+        "split70": 4
+      },
+      "original_user_messages": [
+        {
+          "role": "user",
+          "start": 10525,
+          "end": 10937,
+          "text": "That's fascinating! I had no idea that mummification was practiced in so many ancient cultures. I've always been interested in ancient civilizations, which is why I attended the \"Ancient Civilizations\" exhibit at the Metropolitan Museum of Art today. Speaking of which, I was wondering, are there any other exhibits or museums in New York City that you would recommend for someone interested in ancient cultures?"
+        }
+      ]
+    },
+    {
+      "case_id": "L015",
+      "question": "What charity event did I participate in a month ago?",
+      "source_id": "c472d6e5a1a6cd1ae67da403d",
+      "source_sha256": "58cd8cca5920f90faea0f0070b08f4992bbc148714a12fc580ecd375a1613eeb",
+      "diagnostic": "additional official background",
+      "scores": {
+        "whole": 3.5773098029821275,
+        "user": 4.716774342079646,
+        "assistant": 1.9589903434172589,
+        "split50": 3.3378823427484527,
+        "split70": 3.88943914248093
+      },
+      "ranks": {
+        "whole": 6,
+        "split50": 4,
+        "split70": 4
+      },
+      "original_user_messages": []
+    },
+    {
+      "case_id": "L015",
+      "question": "What charity event did I participate in a month ago?",
+      "source_id": "cfdcbe1b28d7ed598d6348517",
+      "source_sha256": "53e3dd7b0c813df6e8f4eb75148bfdff7459f8f47cc19d614e90aa25e50660da",
+      "diagnostic": "actual answer source remains Top1",
+      "scores": {
+        "whole": 10.565883470429672,
+        "user": 9.302562588404905,
+        "assistant": 9.901145724486582,
+        "split50": 9.601854156445743,
+        "split70": 9.482137529229409
+      },
+      "ranks": {
+        "whole": 1,
+        "split50": 1,
+        "split70": 1
+      },
+      "original_user_messages": [
+        {
+          "role": "user",
+          "start": 6,
+          "end": 269,
+          "text": "Hey, I'm looking for some healthy snack ideas that are easy to prepare. I just did the \"Walk for Hunger\" charity event today with my colleagues from work, walking 5 kilometers to raise money for the local food bank, and I want to refuel with something nutritious."
+        },
+        {
+          "role": "user",
+          "start": 6443,
+          "end": 6718,
+          "text": "I like the overnight oats idea. I've been doing a lot of charity events lately, and it's always great to have a healthy breakfast to start the day. Speaking of which, do you have any tips on how to stay hydrated during long walks like the \"Walk for Hunger\" event I did today?"
+        }
+      ]
+    },
+    {
+      "case_id": "L005",
+      "question": "What is the order of airlines I flew with from earliest to latest before today?",
+      "source_id": "c64c33e90657ce44625af6e65",
+      "source_sha256": "d59dd7ab44a45cfa854fb3260430b7aa3c55b75d66b949ba7f8b6e736b866702",
+      "diagnostic": "5:5 gains evidence lost by 7:3",
+      "scores": {
+        "whole": 3.7081834165478105,
+        "user": 3.4377055673344086,
+        "assistant": 4.022333079101321,
+        "split50": 3.7300193232178644,
+        "split70": 3.613093820864482
+      },
+      "ranks": {
+        "whole": 6,
+        "split50": 4,
+        "split70": 6
+      },
+      "original_user_messages": [
+        {
+          "role": "user",
+          "start": 6,
+          "end": 308,
+          "text": "I'm planning a trip to Miami and I want to redeem my Delta SkyMiles for a free trip. Can you help me find the best redemption options? By the way, I just got back from a red-eye flight on JetBlue from San Francisco to Boston and managed to sleep for almost the entire flight, which was a nice surprise."
+        }
+      ]
+    }
+  ]
+}
