@@ -1,0 +1,26 @@
+{
+  "id": "SMM-PERSON-TIME-1000-PILOT-001",
+  "purpose": "Correct the prior scope-based pilot by keeping all 1000 conversations eligible for every query",
+  "correction_of": "SMM-SCOPED-PERSON-TIME-PILOT-001",
+  "no_scope_rule": "Reconstruct each frozen 1000-ID pool by concatenating its archived original+distractor ID lists, then treat all 1000 identically. Do not use that partition, sample_id, family, knowledge-space ID, or official references to filter or rank.",
+  "person_rule": "Question names are fixed below, not inferred from gold. A source qualifies when any name exactly matches a structured turn speaker OR appears as a case-insensitive whole word in its original text. No entity disambiguation or stable person_id is claimed.",
+  "query_rule": "Compare original question with the BM25 keyword input already published in smm-query-input-001/authored-inputs.tsv; do not edit queries for this experiment.",
+  "time_rule": "Only for an explicit English month+year date: parse exact day, or days 1-10 for 'beginning/early'. Multiply BM25 score by 1.25 when source received_at UTC date is in interval. Undated sources remain unchanged. Do not filter, and leave all other questions unchanged.",
+  "methods": ["raw_all", "authored_all", "raw_person", "authored_person", "authored_all_time", "authored_person_time"],
+  "cases_fixed_before_ranking": [
+    {"id": "C183", "people": ["John"]},
+    {"id": "C152", "people": ["Nate"]},
+    {"id": "C129", "people": ["Deborah"]},
+    {"id": "C170", "people": ["Nate"]},
+    {"id": "C118", "people": ["Nate"]},
+    {"id": "C157", "people": ["Maria"]},
+    {"id": "C051", "people": ["John", "Maria"]},
+    {"id": "C037", "people": ["Sam", "Evan"]},
+    {"id": "C184", "people": ["Anna"]},
+    {"id": "C195", "people": ["Samantha"]},
+    {"id": "C088", "people": ["Jolene", "Deborah"]},
+    {"id": "C046", "people": ["Nate"]}
+  ],
+  "primary_metrics": "Top5 at least one official reference and Top5 all official references, with Top10 and source retention secondary",
+  "limitations": "These 12 known cases were chosen for diagnostic contrast, not random/blind. Names are supplied from questions; this does not validate person extraction, coreference, or stable entity IDs. Official references are an imperfect proxy for answer sufficiency."
+}

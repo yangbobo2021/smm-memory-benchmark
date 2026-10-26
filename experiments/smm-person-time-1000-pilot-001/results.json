@@ -1,0 +1,5627 @@
+{
+  "id": "SMM-PERSON-TIME-1000-PILOT-001",
+  "protocol_sha256": "7cdba3b53074537d1cd6a69b076b0fa78e1a64a655e99059645aba494be5e27b",
+  "base_protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "authored_queries_sha256": "185927ca1f25836fc5cd16b048abba69c034ce070681d3bf1b5352bb7d7f59a9",
+  "cases": [
+    {
+      "id": "C183",
+      "question": "How many times has John injured his ankle?",
+      "people": [
+        "John"
+      ],
+      "authored_query": "John ankle injured injury times",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 95,
+        "speaker": 92,
+        "mentioned": 95,
+        "mention_only": 3
+      },
+      "official_refs": [
+        "c9a36cb26aa1414002481a5a0",
+        "cdcb853bbc4a23a1e717ce345"
+      ],
+      "reference_retained_by_person": [
+        "c9a36cb26aa1414002481a5a0",
+        "cdcb853bbc4a23a1e717ce345"
+      ],
+      "reference_retained_by_speaker": [
+        "c9a36cb26aa1414002481a5a0",
+        "cdcb853bbc4a23a1e717ce345"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 914,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 6,
+            "cdcb853bbc4a23a1e717ce345": 64
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cce1a040f5336b479999fff27d",
+              "score": 13.78557766895157
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 13.511090296734368
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 11.85372753410311
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.646054070398007
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 11.285667237933431
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cce1a040f5336b479999fff27d",
+              "score": 13.78557766895157
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 13.511090296734368
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 11.85372753410311
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.646054070398007
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 11.285667237933431
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 10.737615777499432
+            },
+            {
+              "source_id": "c8e125f35c78d853d6db8c5d7",
+              "score": 10.180860118847068
+            },
+            {
+              "source_id": "c14b38719fc61303d0504f2f3",
+              "score": 9.570350907942407
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 9.444472496732681
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 9.41791156223185
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 223,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 3,
+            "cdcb853bbc4a23a1e717ce345": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 14.099144683297263
+            },
+            {
+              "source_id": "cce1a040f5336b479999fff27d",
+              "score": 13.785575983985483
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 13.74662652708407
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.64605249655781
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 8.20229721588205
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 14.099144683297263
+            },
+            {
+              "source_id": "cce1a040f5336b479999fff27d",
+              "score": 13.785575983985483
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 13.74662652708407
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.64605249655781
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 8.20229721588205
+            },
+            {
+              "source_id": "cd9944926501b1f68d99a3145",
+              "score": 7.136308222958122
+            },
+            {
+              "source_id": "cd425d807a35f285bf4b564a7",
+              "score": 7.030135547470034
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 6.988568043464985
+            },
+            {
+              "source_id": "ccf33297175f053c52668c6a4",
+              "score": 6.873643970098008
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 6.842518013022671
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 4,
+            "cdcb853bbc4a23a1e717ce345": 49
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 5.43078495682613
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 4.460223229156993
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 4.327744408292762
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 4.3170311625514834
+            },
+            {
+              "source_id": "c14b38719fc61303d0504f2f3",
+              "score": 3.736152468744024
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 5.43078495682613
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 4.460223229156993
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 4.327744408292762
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 4.3170311625514834
+            },
+            {
+              "source_id": "c14b38719fc61303d0504f2f3",
+              "score": 3.736152468744024
+            },
+            {
+              "source_id": "cc81118906b2bf86593899ce18",
+              "score": 3.36970327576462
+            },
+            {
+              "source_id": "cfa557968fa500b1c93488638",
+              "score": 3.2890078050673046
+            },
+            {
+              "source_id": "c8e125f35c78d853d6db8c5d7",
+              "score": 2.9854245310383285
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 2.74243520416964
+            },
+            {
+              "source_id": "c2fa2d8a46051b38c61cf603d",
+              "score": 2.6617406305065563
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 1,
+            "cdcb853bbc4a23a1e717ce345": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 7.24962424621298
+            },
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 6.880058184276859
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 5.430783309973769
+            },
+            {
+              "source_id": "cd9944926501b1f68d99a3145",
+              "score": 1.2929236630244143
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 1.2512363814435037
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 7.24962424621298
+            },
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 6.880058184276859
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 5.430783309973769
+            },
+            {
+              "source_id": "cd9944926501b1f68d99a3145",
+              "score": 1.2929236630244143
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 1.2512363814435037
+            },
+            {
+              "source_id": "cd425d807a35f285bf4b564a7",
+              "score": 1.2236763413405005
+            },
+            {
+              "source_id": "c139f4b845ec357142b7b3b56",
+              "score": 1.194748542327665
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 1.169891763508026
+            },
+            {
+              "source_id": "c929ee1431e361f0fdcb7299a",
+              "score": 1.129751890223011
+            },
+            {
+              "source_id": "ccf33297175f053c52668c6a4",
+              "score": 1.1204324965275063
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 223,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 3,
+            "cdcb853bbc4a23a1e717ce345": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 14.099144683297263
+            },
+            {
+              "source_id": "cce1a040f5336b479999fff27d",
+              "score": 13.785575983985483
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 13.74662652708407
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.64605249655781
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 8.20229721588205
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 14.099144683297263
+            },
+            {
+              "source_id": "cce1a040f5336b479999fff27d",
+              "score": 13.785575983985483
+            },
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 13.74662652708407
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 11.64605249655781
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 8.20229721588205
+            },
+            {
+              "source_id": "cd9944926501b1f68d99a3145",
+              "score": 7.136308222958122
+            },
+            {
+              "source_id": "cd425d807a35f285bf4b564a7",
+              "score": 7.030135547470034
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 6.988568043464985
+            },
+            {
+              "source_id": "ccf33297175f053c52668c6a4",
+              "score": 6.873643970098008
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 6.842518013022671
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c9a36cb26aa1414002481a5a0": 1,
+            "cdcb853bbc4a23a1e717ce345": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 7.24962424621298
+            },
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 6.880058184276859
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 5.430783309973769
+            },
+            {
+              "source_id": "cd9944926501b1f68d99a3145",
+              "score": 1.2929236630244143
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 1.2512363814435037
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c9a36cb26aa1414002481a5a0",
+              "score": 7.24962424621298
+            },
+            {
+              "source_id": "cdcb853bbc4a23a1e717ce345",
+              "score": 6.880058184276859
+            },
+            {
+              "source_id": "c08a011985f84a3d80171942f",
+              "score": 5.430783309973769
+            },
+            {
+              "source_id": "cd9944926501b1f68d99a3145",
+              "score": 1.2929236630244143
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 1.2512363814435037
+            },
+            {
+              "source_id": "cd425d807a35f285bf4b564a7",
+              "score": 1.2236763413405005
+            },
+            {
+              "source_id": "c139f4b845ec357142b7b3b56",
+              "score": 1.194748542327665
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 1.169891763508026
+            },
+            {
+              "source_id": "c929ee1431e361f0fdcb7299a",
+              "score": 1.129751890223011
+            },
+            {
+              "source_id": "ccf33297175f053c52668c6a4",
+              "score": 1.1204324965275063
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C152",
+      "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+      "people": [
+        "Nate"
+      ],
+      "authored_query": "Nate ice cream lactose free ingredient",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 29,
+        "speaker": 29,
+        "mentioned": 29,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "c64d29fbe2c5978bd0f958293"
+      ],
+      "reference_retained_by_person": [
+        "c64d29fbe2c5978bd0f958293"
+      ],
+      "reference_retained_by_speaker": [
+        "c64d29fbe2c5978bd0f958293"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 7
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615584926699576
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.888639049478535
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684807821276248
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 20.326654700966408
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 19.905122531600405
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615584926699576
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.888639049478535
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684807821276248
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 20.326654700966408
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 19.905122531600405
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 19.664302029527647
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 19.65992332563622
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 16.8389236188596
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 13.511508567908674
+            },
+            {
+              "source_id": "cc1fdee858703ba5e06eaed5e9",
+              "score": 12.696229520806485
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 75,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 6
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615576804829782
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.88863267949713
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684799648536572
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 19.664295677175673
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 17.827091673311916
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615576804829782
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.88863267949713
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684799648536572
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 19.664295677175673
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 17.827091673311916
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 17.773425200018966
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 17.14596738824715
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 16.838915714289477
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 13.511500577306872
+            },
+            {
+              "source_id": "cc1fdee858703ba5e06eaed5e9",
+              "score": 12.69622315125502
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 5
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 6.757765874986875
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 4.958523990446137
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 4.900647051606
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 4.801448977611065
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 4.763953432231659
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 6.757765874986875
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 4.958523990446137
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 4.900647051606
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 4.801448977611065
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 4.763953432231659
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 4.077029833691427
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 3.2639095505275835
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 2.5670540974501055
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 2.431944033146644
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 2.142655534162014
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 4
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 6.757757537739325
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 4.900640526502963
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 4.077021479253985
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.3362446127834353
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 3.263903045758592
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 6.757757537739325
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 4.900640526502963
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 4.077021479253985
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.3362446127834353
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 3.263903045758592
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 3.240803538455071
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 2.6378616393451226
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 2.5670459939502206
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 1.7440902445386937
+            },
+            {
+              "source_id": "cd1961257c884ba95b3d31463",
+              "score": 1.2384934840704902
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 75,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 6
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615576804829782
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.88863267949713
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684799648536572
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 19.664295677175673
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 17.827091673311916
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 31.615576804829782
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 23.88863267949713
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 22.684799648536572
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 19.664295677175673
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 17.827091673311916
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 17.773425200018966
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 17.14596738824715
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 16.838915714289477
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 13.511500577306872
+            },
+            {
+              "source_id": "cc1fdee858703ba5e06eaed5e9",
+              "score": 12.69622315125502
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c64d29fbe2c5978bd0f958293": 4
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 6.757757537739325
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 4.900640526502963
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 4.077021479253985
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.3362446127834353
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 3.263903045758592
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cf439ed341a740dc313e752f9",
+              "score": 6.757757537739325
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 4.900640526502963
+            },
+            {
+              "source_id": "c19e0760480af1c4e5fc7a26b",
+              "score": 4.077021479253985
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.3362446127834353
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 3.263903045758592
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 3.240803538455071
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 2.6378616393451226
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 2.5670459939502206
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 1.7440902445386937
+            },
+            {
+              "source_id": "cd1961257c884ba95b3d31463",
+              "score": 1.2384934840704902
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C129",
+      "question": "Is Deborah married?",
+      "people": [
+        "Deborah"
+      ],
+      "authored_query": "Deborah married marriage spouse wedding",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 30,
+        "speaker": 30,
+        "mentioned": 30,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "c0bf12013b35209c9683e75b3",
+        "c75de8240dc1ad93ba45a6a5a",
+        "c88f5066bf38856684d4e0174",
+        "cfbf7710899149b386898525a"
+      ],
+      "reference_retained_by_person": [
+        "c0bf12013b35209c9683e75b3",
+        "c75de8240dc1ad93ba45a6a5a",
+        "c88f5066bf38856684d4e0174",
+        "cfbf7710899149b386898525a"
+      ],
+      "reference_retained_by_speaker": [
+        "c0bf12013b35209c9683e75b3",
+        "c75de8240dc1ad93ba45a6a5a",
+        "c88f5066bf38856684d4e0174",
+        "cfbf7710899149b386898525a"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 740,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 2,
+            "c75de8240dc1ad93ba45a6a5a": 27,
+            "c88f5066bf38856684d4e0174": 6,
+            "cfbf7710899149b386898525a": 7
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 12.744698649274241
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779753103402427
+            },
+            {
+              "source_id": "cc0b26c5a7ca09e3e0200a799a",
+              "score": 8.160223167746443
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029700100610428
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 7.019430061837124
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 12.744698649274241
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779753103402427
+            },
+            {
+              "source_id": "cc0b26c5a7ca09e3e0200a799a",
+              "score": 8.160223167746443
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029700100610428
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 7.019430061837124
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 7.0105449519535
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 7.000065482039266
+            },
+            {
+              "source_id": "cdd0240e55617043f9fefa732",
+              "score": 6.970617155419873
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 6.952883393076232
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 6.942794543063219
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 46,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 5,
+            "c75de8240dc1ad93ba45a6a5a": 34,
+            "c88f5066bf38856684d4e0174": 13,
+            "cfbf7710899149b386898525a": 4
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 17.14375612857477
+            },
+            {
+              "source_id": "cc28c2c713214a684122c52c2d",
+              "score": 12.249797287686302
+            },
+            {
+              "source_id": "cc4106d1d60adc052ce4e76255",
+              "score": 11.554414244473975
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 11.211629385003691
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779751306807436
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 17.14375612857477
+            },
+            {
+              "source_id": "cc28c2c713214a684122c52c2d",
+              "score": 12.249797287686302
+            },
+            {
+              "source_id": "cc4106d1d60adc052ce4e76255",
+              "score": 11.554414244473975
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 11.211629385003691
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779751306807436
+            },
+            {
+              "source_id": "ccb7b54c96cc8711e0b2647779",
+              "score": 9.966921265049821
+            },
+            {
+              "source_id": "cf759389a4295787695124229",
+              "score": 9.956550022610562
+            },
+            {
+              "source_id": "ceb46e757307c69f8dadac445",
+              "score": 9.565502126980578
+            },
+            {
+              "source_id": "cc15161d9a904a09561f52cae1",
+              "score": 8.165059320618305
+            },
+            {
+              "source_id": "cc0b26c5a7ca09e3e0200a799a",
+              "score": 8.160222134467588
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 2,
+            "c75de8240dc1ad93ba45a6a5a": 20,
+            "c88f5066bf38856684d4e0174": 8,
+            "cfbf7710899149b386898525a": 5
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 3.294940902530103
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 2.2143505421669665
+            },
+            {
+              "source_id": "cd7c3763c669b10838fb7cafc",
+              "score": 3.940770028126413e-06
+            },
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 3.9381731376179005e-06
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 3.884797811159188e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 3.294940902530103
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 2.2143505421669665
+            },
+            {
+              "source_id": "cd7c3763c669b10838fb7cafc",
+              "score": 3.940770028126413e-06
+            },
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 3.9381731376179005e-06
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 3.884797811159188e-06
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 3.830970659112286e-06
+            },
+            {
+              "source_id": "cfe686805a979f856ed2a31c7",
+              "score": 3.8289363981408734e-06
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 3.827064891776219e-06
+            },
+            {
+              "source_id": "cd29d675851d8193fa1b19641",
+              "score": 3.753654773745411e-06
+            },
+            {
+              "source_id": "c19c6e45aa9b8d6fcc413294d",
+              "score": 3.7362239826438864e-06
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 3,
+            "c75de8240dc1ad93ba45a6a5a": 26,
+            "c88f5066bf38856684d4e0174": 5,
+            "cfbf7710899149b386898525a": 2
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 5.674679526433858
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 2.2851263044684442
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 2.2143487127203425
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 2.0453220292735416e-06
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 2.041857992574392e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 5.674679526433858
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 2.2851263044684442
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 2.2143487127203425
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 2.0453220292735416e-06
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 2.041857992574392e-06
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 2.041089923591872e-06
+            },
+            {
+              "source_id": "cdd0240e55617043f9fefa732",
+              "score": 2.030793748329549e-06
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 2.0269677301398666e-06
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 2.0219716864139783e-06
+            },
+            {
+              "source_id": "c80c26d9b4a0367f9f0d24164",
+              "score": 2.0210342542831e-06
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 46,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 5,
+            "c75de8240dc1ad93ba45a6a5a": 34,
+            "c88f5066bf38856684d4e0174": 13,
+            "cfbf7710899149b386898525a": 4
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 17.14375612857477
+            },
+            {
+              "source_id": "cc28c2c713214a684122c52c2d",
+              "score": 12.249797287686302
+            },
+            {
+              "source_id": "cc4106d1d60adc052ce4e76255",
+              "score": 11.554414244473975
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 11.211629385003691
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779751306807436
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 17.14375612857477
+            },
+            {
+              "source_id": "cc28c2c713214a684122c52c2d",
+              "score": 12.249797287686302
+            },
+            {
+              "source_id": "cc4106d1d60adc052ce4e76255",
+              "score": 11.554414244473975
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 11.211629385003691
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 10.779751306807436
+            },
+            {
+              "source_id": "ccb7b54c96cc8711e0b2647779",
+              "score": 9.966921265049821
+            },
+            {
+              "source_id": "cf759389a4295787695124229",
+              "score": 9.956550022610562
+            },
+            {
+              "source_id": "ceb46e757307c69f8dadac445",
+              "score": 9.565502126980578
+            },
+            {
+              "source_id": "cc15161d9a904a09561f52cae1",
+              "score": 8.165059320618305
+            },
+            {
+              "source_id": "cc0b26c5a7ca09e3e0200a799a",
+              "score": 8.160222134467588
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "c0bf12013b35209c9683e75b3": 3,
+            "c75de8240dc1ad93ba45a6a5a": 26,
+            "c88f5066bf38856684d4e0174": 5,
+            "cfbf7710899149b386898525a": 2
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 5.674679526433858
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 2.2851263044684442
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 2.2143487127203425
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 2.0453220292735416e-06
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 2.041857992574392e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 5.674679526433858
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 2.2851263044684442
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 2.2143487127203425
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 2.0453220292735416e-06
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 2.041857992574392e-06
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 2.041089923591872e-06
+            },
+            {
+              "source_id": "cdd0240e55617043f9fefa732",
+              "score": 2.030793748329549e-06
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 2.0269677301398666e-06
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 2.0219716864139783e-06
+            },
+            {
+              "source_id": "c80c26d9b4a0367f9f0d24164",
+              "score": 2.0210342542831e-06
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C170",
+      "question": "How many turtles does Nate have?",
+      "people": [
+        "Nate"
+      ],
+      "authored_query": "Nate turtles turtle number pets",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 29,
+        "speaker": 29,
+        "mentioned": 29,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "c0d207f826accc2103af0c748",
+        "c215909f3fabfafe9478350bc"
+      ],
+      "reference_retained_by_person": [
+        "c0d207f826accc2103af0c748",
+        "c215909f3fabfafe9478350bc"
+      ],
+      "reference_retained_by_speaker": [
+        "c0d207f826accc2103af0c748",
+        "c215909f3fabfafe9478350bc"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 993,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 9,
+            "c215909f3fabfafe9478350bc": 6
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 15.826967231623183
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 14.221853721614385
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 13.649219108932034
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 13.633667978392738
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.407456368734973
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 15.826967231623183
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 14.221853721614385
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 13.649219108932034
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 13.633667978392738
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.407456368734973
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 12.098172819765535
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 11.550183783326862
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 11.182383907783912
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 11.181240854548925
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 11.05726053624873
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 70,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 7,
+            "c215909f3fabfafe9478350bc": 4
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 18.80523312512998
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 18.71545028985194
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 16.67000006043175
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 16.491029195038973
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 15.599589727420494
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 18.80523312512998
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 18.71545028985194
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 16.67000006043175
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 16.491029195038973
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 15.599589727420494
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 14.221850173978382
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 14.07360526049646
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 13.633665477183683
+            },
+            {
+              "source_id": "c5ebaffb14dc75e0d3fa27049",
+              "score": 12.4987985955239
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.127030506164491
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 11,
+            "c215909f3fabfafe9478350bc": 9
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 3.487001349583864
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 2.782723008742203
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 2.69452559832467
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 2.346271183628535
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 1.6423119943120148
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 3.487001349583864
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 2.782723008742203
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 2.69452559832467
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 2.346271183628535
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 1.6423119943120148
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 1.008960971883535
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 0.9501026661425379
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 0.919565955611286
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 0.7221869204940878
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 0.6466880445765375
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 7,
+            "c215909f3fabfafe9478350bc": 2
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.7868115079229097
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 2.6255582347875595
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 2.490836465879798
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.9628706663050446
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 1.9071758176095122
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.7868115079229097
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 2.6255582347875595
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 2.490836465879798
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.9628706663050446
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 1.9071758176095122
+            },
+            {
+              "source_id": "c5ebaffb14dc75e0d3fa27049",
+              "score": 1.66005018672169
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 1.5175869220656297
+            },
+            {
+              "source_id": "c45f15ad5a4f3f608be6bd5c8",
+              "score": 1.4621976163053474
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.125019541105453
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 1.0089573489231356
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 70,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 7,
+            "c215909f3fabfafe9478350bc": 4
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 18.80523312512998
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 18.71545028985194
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 16.67000006043175
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 16.491029195038973
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 15.599589727420494
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 18.80523312512998
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 18.71545028985194
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 16.67000006043175
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 16.491029195038973
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 15.599589727420494
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 14.221850173978382
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 14.07360526049646
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 13.633665477183683
+            },
+            {
+              "source_id": "c5ebaffb14dc75e0d3fa27049",
+              "score": 12.4987985955239
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.127030506164491
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "c0d207f826accc2103af0c748": 7,
+            "c215909f3fabfafe9478350bc": 2
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.7868115079229097
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 2.6255582347875595
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 2.490836465879798
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.9628706663050446
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 1.9071758176095122
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.7868115079229097
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 2.6255582347875595
+            },
+            {
+              "source_id": "ceb718bcf22d200f70c765c34",
+              "score": 2.490836465879798
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.9628706663050446
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 1.9071758176095122
+            },
+            {
+              "source_id": "c5ebaffb14dc75e0d3fa27049",
+              "score": 1.66005018672169
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 1.5175869220656297
+            },
+            {
+              "source_id": "c45f15ad5a4f3f608be6bd5c8",
+              "score": 1.4621976163053474
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.125019541105453
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 1.0089573489231356
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C118",
+      "question": "Which torunament did Nate win in the beginning of November 2022?",
+      "people": [
+        "Nate"
+      ],
+      "authored_query": "Nate tournament won November 2022",
+      "explicit_interval": [
+        "2022-11-01",
+        "2022-11-10"
+      ],
+      "source_counts": {
+        "all": 1000,
+        "person": 29,
+        "speaker": 29,
+        "mentioned": 29,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "reference_retained_by_person": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "reference_retained_by_speaker": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 27
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 11.901609815215386
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 11.772818659615957
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 10.096024393658176
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 9.489930371034832
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 9.001985980075686
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 11.901609815215386
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 11.772818659615957
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 10.096024393658176
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 9.489930371034832
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 9.001985980075686
+            },
+            {
+              "source_id": "c45f15ad5a4f3f608be6bd5c8",
+              "score": 8.8140906398581
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 8.632803815994757
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 8.561504808005315
+            },
+            {
+              "source_id": "cc9b34b34e7c5463a6b5c8e8bf",
+              "score": 7.484322195622491
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 7.2455177585991954
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 142,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 7
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 16.479935249536908
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 15.315810706993485
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 14.57939686724249
+            },
+            {
+              "source_id": "cd7a2460e9ca2bf5d0b2a2f45",
+              "score": 13.88798361482623
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.55723821819077
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 16.479935249536908
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 15.315810706993485
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 14.57939686724249
+            },
+            {
+              "source_id": "cd7a2460e9ca2bf5d0b2a2f45",
+              "score": 13.88798361482623
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.55723821819077
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 13.079554147921119
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 12.98290783034383
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 12.787412369209093
+            },
+            {
+              "source_id": "cd993c95f02adc9fa056b4c58",
+              "score": 12.557422161828814
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 12.137681446012722
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 20
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.162878119769805
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 2.9746376477873184
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.8604988334641541
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 1.8206622276566902
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 1.4410811351124286
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 3.162878119769805
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 2.9746376477873184
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.8604988334641541
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 1.8206622276566902
+            },
+            {
+              "source_id": "c550d52159d739a56d10af4df",
+              "score": 1.4410811351124286
+            },
+            {
+              "source_id": "c45f15ad5a4f3f608be6bd5c8",
+              "score": 1.2918361778398566
+            },
+            {
+              "source_id": "c0d207f826accc2103af0c748",
+              "score": 1.2607479121566614
+            },
+            {
+              "source_id": "c252c867151f0796efa1faff5",
+              "score": 1.1785030244780677
+            },
+            {
+              "source_id": "c613880f4a1224d293b220cc1",
+              "score": 9.16075289863243e-06
+            },
+            {
+              "source_id": "cd993c95f02adc9fa056b4c58",
+              "score": 9.093300391470725e-06
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 5
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 1.6322389528235934
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 1.5348413400570247
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.3185108223471012
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.2808157680690995
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.2337378523466975
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 1.6322389528235934
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 1.5348413400570247
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.3185108223471012
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.2808157680690995
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.2337378523466975
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 1.2251094218268384
+            },
+            {
+              "source_id": "cd7a2460e9ca2bf5d0b2a2f45",
+              "score": 1.1808591348787532
+            },
+            {
+              "source_id": "cd993c95f02adc9fa056b4c58",
+              "score": 1.117941623933146
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 0.30897549390925766
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 0.2775672042789898
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 142,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 16.479935249536908
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 16.22863478792979
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 15.315810706993485
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 15.172101807515903
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 14.964992103634634
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 16.479935249536908
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 16.22863478792979
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 15.315810706993485
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 15.172101807515903
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 14.964992103634634
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 14.57939686724249
+            },
+            {
+              "source_id": "cd7a2460e9ca2bf5d0b2a2f45",
+              "score": 13.88798361482623
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.55723821819077
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 13.079554147921119
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 12.787412369209093
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 1.6322389528235934
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.542172315433372
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 1.5348413400570247
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.3185108223471012
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.2808157680690995
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 1.6322389528235934
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.542172315433372
+            },
+            {
+              "source_id": "c958260cbfa883012f04435f1",
+              "score": 1.5348413400570247
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.3185108223471012
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.2808157680690995
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 1.2251094218268384
+            },
+            {
+              "source_id": "cd7a2460e9ca2bf5d0b2a2f45",
+              "score": 1.1808591348787532
+            },
+            {
+              "source_id": "cd993c95f02adc9fa056b4c58",
+              "score": 1.117941623933146
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 0.34695900534873725
+            },
+            {
+              "source_id": "c64d29fbe2c5978bd0f958293",
+              "score": 0.3342463763206019
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C157",
+      "question": "Where has Maria made friends?",
+      "people": [
+        "Maria"
+      ],
+      "authored_query": "Maria friends made met friendship",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 32,
+        "speaker": 32,
+        "mentioned": 32,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "c20b2e1081a5503e3f47000c5",
+        "c368f8a6bec728f46e5cb5313",
+        "c3a26324e6c31b252dad3005f",
+        "ccf33297175f053c52668c6a4"
+      ],
+      "reference_retained_by_person": [
+        "c20b2e1081a5503e3f47000c5",
+        "c368f8a6bec728f46e5cb5313",
+        "c3a26324e6c31b252dad3005f",
+        "ccf33297175f053c52668c6a4"
+      ],
+      "reference_retained_by_speaker": [
+        "c20b2e1081a5503e3f47000c5",
+        "c368f8a6bec728f46e5cb5313",
+        "c3a26324e6c31b252dad3005f",
+        "ccf33297175f053c52668c6a4"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 707,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 18,
+            "c368f8a6bec728f46e5cb5313": 16,
+            "c3a26324e6c31b252dad3005f": 17,
+            "ccf33297175f053c52668c6a4": 26
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.288252129317213
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 10.233181129872769
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 10.211563341379216
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 9.872255240529437
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 9.723577704672657
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.288252129317213
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 10.233181129872769
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 10.211563341379216
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 9.872255240529437
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 9.723577704672657
+            },
+            {
+              "source_id": "c9a054f15ebaa2c1a838eec19",
+              "score": 9.69437097920789
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 9.626174128033238
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 9.461452362681563
+            },
+            {
+              "source_id": "c99b93d9c4d32824a63e20daa",
+              "score": 9.42751667861454
+            },
+            {
+              "source_id": "cef8a76a54ca457dba453a63e",
+              "score": 9.176081239055582
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 563,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 33,
+            "c368f8a6bec728f46e5cb5313": 11,
+            "c3a26324e6c31b252dad3005f": 28,
+            "ccf33297175f053c52668c6a4": 16
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 11.69850651038132
+            },
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 10.88440958719791
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 10.874345228221962
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.262481886966473
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 10.103426977080268
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 11.69850651038132
+            },
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 10.88440958719791
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 10.874345228221962
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.262481886966473
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 10.103426977080268
+            },
+            {
+              "source_id": "cd69f93673a0c13b7487c7a9e",
+              "score": 9.919200728922602
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 8.864611203021145
+            },
+            {
+              "source_id": "c9a054f15ebaa2c1a838eec19",
+              "score": 8.7773049469642
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 8.617037033457832
+            },
+            {
+              "source_id": "c99b93d9c4d32824a63e20daa",
+              "score": 8.523326440838552
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 32,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 6,
+            "c368f8a6bec728f46e5cb5313": 19,
+            "c3a26324e6c31b252dad3005f": 25,
+            "ccf33297175f053c52668c6a4": 16
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 1.7332098725703966
+            },
+            {
+              "source_id": "cef25b6be8959d13615d190d1",
+              "score": 1.4725868599617011
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 1.3871531164960034
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 1.3657889366801854
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 1.3530312552206087
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 1.7332098725703966
+            },
+            {
+              "source_id": "cef25b6be8959d13615d190d1",
+              "score": 1.4725868599617011
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 1.3871531164960034
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 1.3657889366801854
+            },
+            {
+              "source_id": "cdb32d4e02e86afde290dcfbb",
+              "score": 1.3530312552206087
+            },
+            {
+              "source_id": "c20b2e1081a5503e3f47000c5",
+              "score": 1.1669056904837212
+            },
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 0.13866300328722564
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 0.13679962853472666
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 0.13442349978322166
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 0.13116980481226964
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 32,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 31,
+            "c368f8a6bec728f46e5cb5313": 18,
+            "c3a26324e6c31b252dad3005f": 28,
+            "ccf33297175f053c52668c6a4": 14
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 2.9966809923538893
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 2.43102691818322
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 2.2139414021115766
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 2.021789615339532
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 1.9869737051675203
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 2.9966809923538893
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 2.43102691818322
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 2.2139414021115766
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 2.021789615339532
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 1.9869737051675203
+            },
+            {
+              "source_id": "cd69f93673a0c13b7487c7a9e",
+              "score": 1.7581687380614484
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 0.13679850136098506
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 0.13442349978322166
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 0.13116980481226964
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 0.12991239585236586
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 563,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 33,
+            "c368f8a6bec728f46e5cb5313": 11,
+            "c3a26324e6c31b252dad3005f": 28,
+            "ccf33297175f053c52668c6a4": 16
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 11.69850651038132
+            },
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 10.88440958719791
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 10.874345228221962
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.262481886966473
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 10.103426977080268
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 11.69850651038132
+            },
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 10.88440958719791
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 10.874345228221962
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 10.262481886966473
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 10.103426977080268
+            },
+            {
+              "source_id": "cd69f93673a0c13b7487c7a9e",
+              "score": 9.919200728922602
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 8.864611203021145
+            },
+            {
+              "source_id": "c9a054f15ebaa2c1a838eec19",
+              "score": 8.7773049469642
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 8.617037033457832
+            },
+            {
+              "source_id": "c99b93d9c4d32824a63e20daa",
+              "score": 8.523326440838552
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 32,
+          "reference_positions": {
+            "c20b2e1081a5503e3f47000c5": 31,
+            "c368f8a6bec728f46e5cb5313": 18,
+            "c3a26324e6c31b252dad3005f": 28,
+            "ccf33297175f053c52668c6a4": 14
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 2.9966809923538893
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 2.43102691818322
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 2.2139414021115766
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 2.021789615339532
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 1.9869737051675203
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cc4fb5a3a25adb4c48276e80b",
+              "score": 2.9966809923538893
+            },
+            {
+              "source_id": "cc6dce48af4dee2edadb5b259",
+              "score": 2.43102691818322
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 2.2139414021115766
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 2.021789615339532
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 1.9869737051675203
+            },
+            {
+              "source_id": "cd69f93673a0c13b7487c7a9e",
+              "score": 1.7581687380614484
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 0.13679850136098506
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 0.13442349978322166
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 0.13116980481226964
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 0.12991239585236586
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C051",
+      "question": "What type of volunteering have John and Maria both done?",
+      "people": [
+        "John",
+        "Maria"
+      ],
+      "authored_query": "John Maria volunteer volunteering volunteered",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 95,
+        "speaker": 92,
+        "mentioned": 95,
+        "mention_only": 3
+      },
+      "official_refs": [
+        "c368f8a6bec728f46e5cb5313",
+        "cef25b6be8959d13615d190d1"
+      ],
+      "reference_retained_by_person": [
+        "c368f8a6bec728f46e5cb5313",
+        "cef25b6be8959d13615d190d1"
+      ],
+      "reference_retained_by_speaker": [
+        "c368f8a6bec728f46e5cb5313",
+        "cef25b6be8959d13615d190d1"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 23,
+            "cef25b6be8959d13615d190d1": 32
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 18.36144201918738
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 16.330283959561598
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 16.284335578012847
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 15.694297652562996
+            },
+            {
+              "source_id": "c6fc1ee0febe9cde190ad49cc",
+              "score": 15.452178622437627
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 18.36144201918738
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 16.330283959561598
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 16.284335578012847
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 15.694297652562996
+            },
+            {
+              "source_id": "c6fc1ee0febe9cde190ad49cc",
+              "score": 15.452178622437627
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 15.277846851232654
+            },
+            {
+              "source_id": "cd425d807a35f285bf4b564a7",
+              "score": 15.058757806385222
+            },
+            {
+              "source_id": "cbe8837627dd6a0418ea2f0d0",
+              "score": 14.959332593862182
+            },
+            {
+              "source_id": "c950574499c453ed6c91762b8",
+              "score": 14.84880022644043
+            },
+            {
+              "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+              "score": 14.760508345404174
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 118,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 19,
+            "cef25b6be8959d13615d190d1": 34
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 20.032846772022914
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 19.699328396889783
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 17.34889600892746
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 16.73415949168722
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 16.42385828675446
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 20.032846772022914
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 19.699328396889783
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 17.34889600892746
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 16.73415949168722
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 16.42385828675446
+            },
+            {
+              "source_id": "c9b46f10a7a33f555c4789bec",
+              "score": 15.939721277204406
+            },
+            {
+              "source_id": "c9a054f15ebaa2c1a838eec19",
+              "score": 15.65790055402507
+            },
+            {
+              "source_id": "c99b93d9c4d32824a63e20daa",
+              "score": 15.562309747845617
+            },
+            {
+              "source_id": "c6fc1ee0febe9cde190ad49cc",
+              "score": 15.452171793822416
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 15.277841731106259
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 40,
+            "cef25b6be8959d13615d190d1": 50
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c5ff6583bd9fa67f2cae1b861",
+              "score": 6.218486602043291
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 5.754652843813456
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 4.421391483549855
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 4.097140172274209
+            },
+            {
+              "source_id": "cd425d807a35f285bf4b564a7",
+              "score": 3.6055599408357506
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c5ff6583bd9fa67f2cae1b861",
+              "score": 6.218486602043291
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 5.754652843813456
+            },
+            {
+              "source_id": "cd9304f979d55f8bfb6b4386c",
+              "score": 4.421391483549855
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 4.097140172274209
+            },
+            {
+              "source_id": "cd425d807a35f285bf4b564a7",
+              "score": 3.6055599408357506
+            },
+            {
+              "source_id": "cffbd588e46ffc1fc844e5330",
+              "score": 3.575989182264882
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 3.54598578183488
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 3.414802801103066
+            },
+            {
+              "source_id": "c8321ef49d3ce09cb4d607fa2",
+              "score": 3.359716955691136
+            },
+            {
+              "source_id": "cdb131035d8d890ad1c33325e",
+              "score": 3.3567460739383317
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 14,
+            "cef25b6be8959d13615d190d1": 36
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 6.027234834553365
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 5.921674344422801
+            },
+            {
+              "source_id": "cf1dedfce6f0bcf5498202bed",
+              "score": 5.817725549133596
+            },
+            {
+              "source_id": "c15f5a7e7b76836f1cee30a79",
+              "score": 4.870949469305196
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 4.7324623957479925
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 6.027234834553365
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 5.921674344422801
+            },
+            {
+              "source_id": "cf1dedfce6f0bcf5498202bed",
+              "score": 5.817725549133596
+            },
+            {
+              "source_id": "c15f5a7e7b76836f1cee30a79",
+              "score": 4.870949469305196
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 4.7324623957479925
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 4.578153605138329
+            },
+            {
+              "source_id": "c9b46f10a7a33f555c4789bec",
+              "score": 4.232177953634484
+            },
+            {
+              "source_id": "c9a054f15ebaa2c1a838eec19",
+              "score": 4.099168240678518
+            },
+            {
+              "source_id": "c99b93d9c4d32824a63e20daa",
+              "score": 4.057554032361229
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 3.72279832145538
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 118,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 19,
+            "cef25b6be8959d13615d190d1": 34
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 20.032846772022914
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 19.699328396889783
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 17.34889600892746
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 16.73415949168722
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 16.42385828675446
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 20.032846772022914
+            },
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 19.699328396889783
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 17.34889600892746
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 16.73415949168722
+            },
+            {
+              "source_id": "c679b9d689624e19c41635a7b",
+              "score": 16.42385828675446
+            },
+            {
+              "source_id": "c9b46f10a7a33f555c4789bec",
+              "score": 15.939721277204406
+            },
+            {
+              "source_id": "c9a054f15ebaa2c1a838eec19",
+              "score": 15.65790055402507
+            },
+            {
+              "source_id": "c99b93d9c4d32824a63e20daa",
+              "score": 15.562309747845617
+            },
+            {
+              "source_id": "c6fc1ee0febe9cde190ad49cc",
+              "score": 15.452171793822416
+            },
+            {
+              "source_id": "cbfb5c425265fc05c0bb703e1",
+              "score": 15.277841731106259
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 95,
+          "reference_positions": {
+            "c368f8a6bec728f46e5cb5313": 14,
+            "cef25b6be8959d13615d190d1": 36
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 6.027234834553365
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 5.921674344422801
+            },
+            {
+              "source_id": "cf1dedfce6f0bcf5498202bed",
+              "score": 5.817725549133596
+            },
+            {
+              "source_id": "c15f5a7e7b76836f1cee30a79",
+              "score": 4.870949469305196
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 4.7324623957479925
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c904d3995b7c3fd2862ebff7d",
+              "score": 6.027234834553365
+            },
+            {
+              "source_id": "c771d2f37204d497f8a4f5acd",
+              "score": 5.921674344422801
+            },
+            {
+              "source_id": "cf1dedfce6f0bcf5498202bed",
+              "score": 5.817725549133596
+            },
+            {
+              "source_id": "c15f5a7e7b76836f1cee30a79",
+              "score": 4.870949469305196
+            },
+            {
+              "source_id": "cf2195663e5034e501d02b56f",
+              "score": 4.7324623957479925
+            },
+            {
+              "source_id": "ccdc22624241213db92705b4b",
+              "score": 4.578153605138329
+            },
+            {
+              "source_id": "c9b46f10a7a33f555c4789bec",
+              "score": 4.232177953634484
+            },
+            {
+              "source_id": "c9a054f15ebaa2c1a838eec19",
+              "score": 4.099168240678518
+            },
+            {
+              "source_id": "c99b93d9c4d32824a63e20daa",
+              "score": 4.057554032361229
+            },
+            {
+              "source_id": "cda3cd407e8dd2f2f35654003",
+              "score": 3.72279832145538
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C037",
+      "question": "What health scares did Sam and Evan experience?",
+      "people": [
+        "Sam",
+        "Evan"
+      ],
+      "authored_query": "Sam Evan health scare scares",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 25,
+        "speaker": 25,
+        "mentioned": 25,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "c8b39ab3ed8428d688548cf45",
+        "cd387b85982a45e4f67498a15",
+        "ce49b7c6f8092a7995fd418ac"
+      ],
+      "reference_retained_by_person": [
+        "c8b39ab3ed8428d688548cf45",
+        "cd387b85982a45e4f67498a15",
+        "ce49b7c6f8092a7995fd418ac"
+      ],
+      "reference_retained_by_speaker": [
+        "c8b39ab3ed8428d688548cf45",
+        "cd387b85982a45e4f67498a15",
+        "ce49b7c6f8092a7995fd418ac"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 9,
+            "cd387b85982a45e4f67498a15": 6,
+            "ce49b7c6f8092a7995fd418ac": 2
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 19.690062769913446
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 19.17702058431329
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505821483287
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160083373888806
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 18.88882523570619
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 19.690062769913446
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 19.17702058431329
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505821483287
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160083373888806
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 18.88882523570619
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 18.564806997284535
+            },
+            {
+              "source_id": "cfdb086509e9507eb56336975",
+              "score": 18.429435678871595
+            },
+            {
+              "source_id": "c7e394a58a9aeb450c6944ab5",
+              "score": 17.96158987740152
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 17.813875304894765
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 17.808757995115904
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 90,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 3,
+            "cd387b85982a45e4f67498a15": 2,
+            "ce49b7c6f8092a7995fd418ac": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 27.12834182748264
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 23.935032498504626
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 22.89306629628721
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505479224488
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160079630936252
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 27.12834182748264
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 23.935032498504626
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 22.89306629628721
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505479224488
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160079630936252
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 18.88882321686597
+            },
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 18.62484183886599
+            },
+            {
+              "source_id": "c7e394a58a9aeb450c6944ab5",
+              "score": 17.961586723081556
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 17.808753440170488
+            },
+            {
+              "source_id": "c1a8a7bafb176afe97c2f6f73",
+              "score": 17.749156628220852
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 25,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 14,
+            "cd387b85982a45e4f67498a15": 12,
+            "ce49b7c6f8092a7995fd418ac": 4
+          },
+          "top5_any": true,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 1.9989400987069257
+            },
+            {
+              "source_id": "cfdb086509e9507eb56336975",
+              "score": 1.9896042924526365
+            },
+            {
+              "source_id": "ceb46e757307c69f8dadac445",
+              "score": 1.9381517230596637
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 0.20693276286921616
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 0.18266826631480512
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 1.9989400987069257
+            },
+            {
+              "source_id": "cfdb086509e9507eb56336975",
+              "score": 1.9896042924526365
+            },
+            {
+              "source_id": "ceb46e757307c69f8dadac445",
+              "score": 1.9381517230596637
+            },
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 0.20693276286921616
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 0.18266826631480512
+            },
+            {
+              "source_id": "c1a8a7bafb176afe97c2f6f73",
+              "score": 0.17700661262543585
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 0.1396772171252504
+            },
+            {
+              "source_id": "c80933eca566601dd4f87b01e",
+              "score": 0.13611523399596556
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 0.13384869284581344
+            },
+            {
+              "source_id": "cbafb868a8fff7fe7c9d71bd3",
+              "score": 0.12891044173887653
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 25,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 3,
+            "cd387b85982a45e4f67498a15": 2,
+            "ce49b7c6f8092a7995fd418ac": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 2.9766902042974523
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 2.085738606437531
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 1.9697341949180684
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 0.13967341339515793
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 0.1338452002380669
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 2.9766902042974523
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 2.085738606437531
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 1.9697341949180684
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 0.13967341339515793
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 0.1338452002380669
+            },
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 0.12829955068895083
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 0.12549619102924348
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 0.10576620501474614
+            },
+            {
+              "source_id": "c7e394a58a9aeb450c6944ab5",
+              "score": 0.1052945919536728
+            },
+            {
+              "source_id": "cbb1f5f9f502548db83571781",
+              "score": 0.09521076154084479
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 90,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 3,
+            "cd387b85982a45e4f67498a15": 2,
+            "ce49b7c6f8092a7995fd418ac": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 27.12834182748264
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 23.935032498504626
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 22.89306629628721
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505479224488
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160079630936252
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 27.12834182748264
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 23.935032498504626
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 22.89306629628721
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 19.16505479224488
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 19.160079630936252
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 18.88882321686597
+            },
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 18.62484183886599
+            },
+            {
+              "source_id": "c7e394a58a9aeb450c6944ab5",
+              "score": 17.961586723081556
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 17.808753440170488
+            },
+            {
+              "source_id": "c1a8a7bafb176afe97c2f6f73",
+              "score": 17.749156628220852
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 25,
+          "reference_positions": {
+            "c8b39ab3ed8428d688548cf45": 3,
+            "cd387b85982a45e4f67498a15": 2,
+            "ce49b7c6f8092a7995fd418ac": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 2.9766902042974523
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 2.085738606437531
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 1.9697341949180684
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 0.13967341339515793
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 0.1338452002380669
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "ce49b7c6f8092a7995fd418ac",
+              "score": 2.9766902042974523
+            },
+            {
+              "source_id": "cd387b85982a45e4f67498a15",
+              "score": 2.085738606437531
+            },
+            {
+              "source_id": "c8b39ab3ed8428d688548cf45",
+              "score": 1.9697341949180684
+            },
+            {
+              "source_id": "c193b96709859e85ecedd4908",
+              "score": 0.13967341339515793
+            },
+            {
+              "source_id": "c099c629be363928b0b525ceb",
+              "score": 0.1338452002380669
+            },
+            {
+              "source_id": "c2785dde695156c4f1768092c",
+              "score": 0.12829955068895083
+            },
+            {
+              "source_id": "c176d5ff52917b2bf853bccc7",
+              "score": 0.12549619102924348
+            },
+            {
+              "source_id": "c7f5fa84a9e9f6afef6a69e20",
+              "score": 0.10576620501474614
+            },
+            {
+              "source_id": "c7e394a58a9aeb450c6944ab5",
+              "score": 0.1052945919536728
+            },
+            {
+              "source_id": "cbb1f5f9f502548db83571781",
+              "score": 0.09521076154084479
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C184",
+      "question": "When did Deborah meet Anna?",
+      "people": [
+        "Anna"
+      ],
+      "authored_query": "Deborah Anna met meeting",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 6,
+        "speaker": 0,
+        "mentioned": 6,
+        "mention_only": 6
+      },
+      "official_refs": [
+        "c3e30e69661f2f9182ff75977"
+      ],
+      "reference_retained_by_person": [
+        "c3e30e69661f2f9182ff75977"
+      ],
+      "reference_retained_by_speaker": [],
+      "reference_retained_by_mention_only": [
+        "c3e30e69661f2f9182ff75977"
+      ],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 900,
+          "reference_positions": {
+            "c3e30e69661f2f9182ff75977": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 15.767565645534981
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 12.843099149907134
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 11.887473648312552
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 11.506451033034555
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 10.736457185669503
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 15.767565645534981
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 12.843099149907134
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 11.887473648312552
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 11.506451033034555
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 10.736457185669503
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 10.485129315464292
+            },
+            {
+              "source_id": "cd7c3763c669b10838fb7cafc",
+              "score": 10.456397005432363
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 10.245731688810869
+            },
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 9.103847331943777
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029699540971278
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 136,
+          "reference_positions": {
+            "c3e30e69661f2f9182ff75977": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 16.060934006912195
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 12.843096576046044
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 11.887470973540145
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 11.506449522087397
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 10.736456385205328
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 16.060934006912195
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 12.843096576046044
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 11.887470973540145
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 11.506449522087397
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 10.736456385205328
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 10.245729766414916
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 9.400823832309985
+            },
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 9.330377502082444
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029698481849716
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 7.019430061837124
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 6,
+          "reference_positions": {
+            "c3e30e69661f2f9182ff75977": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 1.728583013064647
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 6.339650527128796e-06
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 6.147399968053776e-06
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 5.172963337466878e-06
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 4.778762178056081e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 1.728583013064647
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 6.339650527128796e-06
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 6.147399968053776e-06
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 5.172963337466878e-06
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 4.778762178056081e-06
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 3.960901526981298e-06
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 6,
+          "reference_positions": {
+            "c3e30e69661f2f9182ff75977": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 1.7285795485340452
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 3.4258209026726633e-06
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 3.1996418789626287e-06
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 3.129502364192518e-06
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 2.9838429214317935e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 1.7285795485340452
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 3.4258209026726633e-06
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 3.1996418789626287e-06
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 3.129502364192518e-06
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 2.9838429214317935e-06
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 2.8910434009205806e-06
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 136,
+          "reference_positions": {
+            "c3e30e69661f2f9182ff75977": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 16.060934006912195
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 12.843096576046044
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 11.887470973540145
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 11.506449522087397
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 10.736456385205328
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 16.060934006912195
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 12.843096576046044
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 11.887470973540145
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 11.506449522087397
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 10.736456385205328
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 10.245729766414916
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 9.400823832309985
+            },
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 9.330377502082444
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 7.029698481849716
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 7.019430061837124
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 6,
+          "reference_positions": {
+            "c3e30e69661f2f9182ff75977": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 1.7285795485340452
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 3.4258209026726633e-06
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 3.1996418789626287e-06
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 3.129502364192518e-06
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 2.9838429214317935e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c3e30e69661f2f9182ff75977",
+              "score": 1.7285795485340452
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 3.4258209026726633e-06
+            },
+            {
+              "source_id": "c0bd6d585125c12bf99e3cff2",
+              "score": 3.1996418789626287e-06
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 3.129502364192518e-06
+            },
+            {
+              "source_id": "c75de8240dc1ad93ba45a6a5a",
+              "score": 2.9838429214317935e-06
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 2.8910434009205806e-06
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C195",
+      "question": "When did James ask Samantha to be his girlfriend?",
+      "people": [
+        "Samantha"
+      ],
+      "authored_query": "James Samantha girlfriend asked dating",
+      "explicit_interval": null,
+      "source_counts": {
+        "all": 1000,
+        "person": 3,
+        "speaker": 0,
+        "mentioned": 3,
+        "mention_only": 3
+      },
+      "official_refs": [
+        "cde8756ab379f796052821cfd"
+      ],
+      "reference_retained_by_person": [
+        "cde8756ab379f796052821cfd"
+      ],
+      "reference_retained_by_speaker": [],
+      "reference_retained_by_mention_only": [
+        "cde8756ab379f796052821cfd"
+      ],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "cde8756ab379f796052821cfd": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 22.128723242614335
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 12.760321436253944
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 12.484516179641089
+            },
+            {
+              "source_id": "cfa557968fa500b1c93488638",
+              "score": 10.722726119094695
+            },
+            {
+              "source_id": "c9fb4a7e6c69f5882a6ea407c",
+              "score": 9.240840840762502
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 22.128723242614335
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 12.760321436253944
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 12.484516179641089
+            },
+            {
+              "source_id": "cfa557968fa500b1c93488638",
+              "score": 10.722726119094695
+            },
+            {
+              "source_id": "c9fb4a7e6c69f5882a6ea407c",
+              "score": 9.240840840762502
+            },
+            {
+              "source_id": "c8e125f35c78d853d6db8c5d7",
+              "score": 8.980446647396048
+            },
+            {
+              "source_id": "ca54a39f1baffff7c7c2fd2a3",
+              "score": 8.102118728001102
+            },
+            {
+              "source_id": "cdc4a081215673c3d5558c1fa",
+              "score": 7.6025126517090165
+            },
+            {
+              "source_id": "c9362312b206ff1011fc132a7",
+              "score": 7.188389344569542
+            },
+            {
+              "source_id": "c0e738c3f85f5533071855000",
+              "score": 6.756144182191889
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 116,
+          "reference_positions": {
+            "cde8756ab379f796052821cfd": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 21.958390615627586
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 12.76031838102555
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 12.484512910113292
+            },
+            {
+              "source_id": "ccdfef0f62a31b4f5b0db9ea17",
+              "score": 10.683719040725498
+            },
+            {
+              "source_id": "c09427b85c116f01a646d5c44",
+              "score": 9.499517328693056
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 21.958390615627586
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 12.76031838102555
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 12.484512910113292
+            },
+            {
+              "source_id": "ccdfef0f62a31b4f5b0db9ea17",
+              "score": 10.683719040725498
+            },
+            {
+              "source_id": "c09427b85c116f01a646d5c44",
+              "score": 9.499517328693056
+            },
+            {
+              "source_id": "cce50c518bee8d0b49265270d4",
+              "score": 9.130032633041992
+            },
+            {
+              "source_id": "ccdbcc0702729218296eca87c2",
+              "score": 7.794096763479299
+            },
+            {
+              "source_id": "cc3d693a1443109d5dc4834355",
+              "score": 7.437639168334513
+            },
+            {
+              "source_id": "c0e738c3f85f5533071855000",
+              "score": 6.756139899476557
+            },
+            {
+              "source_id": "cb50c88f77449971d130cf8b3",
+              "score": 6.746148592290994
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 3,
+          "reference_positions": {
+            "cde8756ab379f796052821cfd": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 2.1591065468621995
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 6.2630640155613845e-06
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 6.105085394894309e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 2.1591065468621995
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 6.2630640155613845e-06
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 6.105085394894309e-06
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 3,
+          "reference_positions": {
+            "cde8756ab379f796052821cfd": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 0.9304026425494036
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 3.062956311156012e-06
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 3.0078018765678833e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 0.9304026425494036
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 3.062956311156012e-06
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 3.0078018765678833e-06
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 116,
+          "reference_positions": {
+            "cde8756ab379f796052821cfd": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 21.958390615627586
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 12.76031838102555
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 12.484512910113292
+            },
+            {
+              "source_id": "ccdfef0f62a31b4f5b0db9ea17",
+              "score": 10.683719040725498
+            },
+            {
+              "source_id": "c09427b85c116f01a646d5c44",
+              "score": 9.499517328693056
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 21.958390615627586
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 12.76031838102555
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 12.484512910113292
+            },
+            {
+              "source_id": "ccdfef0f62a31b4f5b0db9ea17",
+              "score": 10.683719040725498
+            },
+            {
+              "source_id": "c09427b85c116f01a646d5c44",
+              "score": 9.499517328693056
+            },
+            {
+              "source_id": "cce50c518bee8d0b49265270d4",
+              "score": 9.130032633041992
+            },
+            {
+              "source_id": "ccdbcc0702729218296eca87c2",
+              "score": 7.794096763479299
+            },
+            {
+              "source_id": "cc3d693a1443109d5dc4834355",
+              "score": 7.437639168334513
+            },
+            {
+              "source_id": "c0e738c3f85f5533071855000",
+              "score": 6.756139899476557
+            },
+            {
+              "source_id": "cb50c88f77449971d130cf8b3",
+              "score": 6.746148592290994
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 3,
+          "reference_positions": {
+            "cde8756ab379f796052821cfd": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 0.9304026425494036
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 3.062956311156012e-06
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 3.0078018765678833e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cde8756ab379f796052821cfd",
+              "score": 0.9304026425494036
+            },
+            {
+              "source_id": "c709a41573d43d19b1dc755ba",
+              "score": 3.062956311156012e-06
+            },
+            {
+              "source_id": "cfa66ef0902b96e0b34cb56f8",
+              "score": 3.0078018765678833e-06
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C088",
+      "question": "Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",
+      "people": [
+        "Jolene",
+        "Deborah"
+      ],
+      "authored_query": "Jolene Deborah meeting reschedule September 8 2023",
+      "explicit_interval": [
+        "2023-09-08",
+        "2023-09-08"
+      ],
+      "source_counts": {
+        "all": 1000,
+        "person": 30,
+        "speaker": 30,
+        "mentioned": 30,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "ce58fa7a79aad99ab659c719b"
+      ],
+      "reference_retained_by_person": [
+        "ce58fa7a79aad99ab659c719b"
+      ],
+      "reference_retained_by_speaker": [
+        "ce58fa7a79aad99ab659c719b"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "ce58fa7a79aad99ab659c719b": 18
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 20.156730773802735
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 16.05937174463343
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 15.626503338495542
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 15.373672111995058
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 15.223256438508232
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 20.156730773802735
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 16.05937174463343
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 15.626503338495542
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 15.373672111995058
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 15.223256438508232
+            },
+            {
+              "source_id": "c61f7a070754bc8f68b39868b",
+              "score": 15.089679345025239
+            },
+            {
+              "source_id": "c1e8ffdbe1b252d4759206fb0",
+              "score": 15.047245296158682
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 14.947842937217741
+            },
+            {
+              "source_id": "cd7c3763c669b10838fb7cafc",
+              "score": 14.866799494634883
+            },
+            {
+              "source_id": "cd29d675851d8193fa1b19641",
+              "score": 14.80158584422239
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 81,
+          "reference_positions": {
+            "ce58fa7a79aad99ab659c719b": 10
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 17.8482681519165
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 16.05936630254177
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 14.131157775017886
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 14.059885772463348
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 14.059396963699433
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 17.8482681519165
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 16.05936630254177
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 14.131157775017886
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 14.059885772463348
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 14.059396963699433
+            },
+            {
+              "source_id": "c80c26d9b4a0367f9f0d24164",
+              "score": 14.04660888259784
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 14.021086404787782
+            },
+            {
+              "source_id": "cdd0240e55617043f9fefa732",
+              "score": 13.978144755712332
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 13.966509504728446
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 13.936841972332079
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "ce58fa7a79aad99ab659c719b": 23
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": false,
+          "top10_all": false,
+          "top5": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 4.357655197720097
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 3.2072238239078685
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 1.7889448610207133
+            },
+            {
+              "source_id": "cd7c3763c669b10838fb7cafc",
+              "score": 1.7583722032276086
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 1.6718518708872467
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 4.357655197720097
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 3.2072238239078685
+            },
+            {
+              "source_id": "c09bc9554c3b0c98492c32c81",
+              "score": 1.7889448610207133
+            },
+            {
+              "source_id": "cd7c3763c669b10838fb7cafc",
+              "score": 1.7583722032276086
+            },
+            {
+              "source_id": "c2eefcadc6f59c9fec4337f58",
+              "score": 1.6718518708872467
+            },
+            {
+              "source_id": "cd28400222ff75b73ef5ac3cb",
+              "score": 1.499985855387174
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 1.4805896829995524
+            },
+            {
+              "source_id": "c0bf12013b35209c9683e75b3",
+              "score": 1.4703031219636467
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 1.4403487641749586
+            },
+            {
+              "source_id": "cd29d675851d8193fa1b19641",
+              "score": 1.2993177490768177
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "ce58fa7a79aad99ab659c719b": 10
+          },
+          "top5_any": false,
+          "top5_all": false,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 3.2072182976581542
+            },
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 2.278491882677395
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 4.107051215881776e-06
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 4.093694766685272e-06
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 4.090644058547083e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 3.2072182976581542
+            },
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 2.278491882677395
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 4.107051215881776e-06
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 4.093694766685272e-06
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 4.090644058547083e-06
+            },
+            {
+              "source_id": "c80c26d9b4a0367f9f0d24164",
+              "score": 4.088793001774203e-06
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 4.083715985148784e-06
+            },
+            {
+              "source_id": "cdd0240e55617043f9fefa732",
+              "score": 4.071396666286806e-06
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 4.07000415253308e-06
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 4.05767110519514e-06
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 81,
+          "reference_positions": {
+            "ce58fa7a79aad99ab659c719b": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 17.8482681519165
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 17.421052465415098
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 16.05936630254177
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 14.131157775017886
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 14.059885772463348
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 17.8482681519165
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 17.421052465415098
+            },
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 16.05936630254177
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 14.131157775017886
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 14.059885772463348
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 14.059396963699433
+            },
+            {
+              "source_id": "c80c26d9b4a0367f9f0d24164",
+              "score": 14.04660888259784
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 14.021086404787782
+            },
+            {
+              "source_id": "cdd0240e55617043f9fefa732",
+              "score": 13.978144755712332
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 13.966509504728446
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 30,
+          "reference_positions": {
+            "ce58fa7a79aad99ab659c719b": 3
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 3.2072182976581542
+            },
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 2.278491882677395
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 5.072088881493925e-06
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 4.107051215881776e-06
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 4.093694766685272e-06
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "c4416e514f6f8a90ab0784115",
+              "score": 3.2072182976581542
+            },
+            {
+              "source_id": "c6c80e76eed791999c8e20062",
+              "score": 2.278491882677395
+            },
+            {
+              "source_id": "ce58fa7a79aad99ab659c719b",
+              "score": 5.072088881493925e-06
+            },
+            {
+              "source_id": "caa68955e73ce32d84871eeb3",
+              "score": 4.107051215881776e-06
+            },
+            {
+              "source_id": "cfbf7710899149b386898525a",
+              "score": 4.093694766685272e-06
+            },
+            {
+              "source_id": "c741631fb6839e944cc293c6b",
+              "score": 4.090644058547083e-06
+            },
+            {
+              "source_id": "c80c26d9b4a0367f9f0d24164",
+              "score": 4.088793001774203e-06
+            },
+            {
+              "source_id": "c88f5066bf38856684d4e0174",
+              "score": 4.083715985148784e-06
+            },
+            {
+              "source_id": "cdd0240e55617043f9fefa732",
+              "score": 4.071396666286806e-06
+            },
+            {
+              "source_id": "ca9bbcf4941dc907d216bf0e1",
+              "score": 4.07000415253308e-06
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C046",
+      "question": "What game is Nate currently playing and recommends to others on November 7, 2022?",
+      "people": [
+        "Nate"
+      ],
+      "authored_query": "Nate game playing recommends November 7 2022",
+      "explicit_interval": [
+        "2022-11-07",
+        "2022-11-07"
+      ],
+      "source_counts": {
+        "all": 1000,
+        "person": 29,
+        "speaker": 29,
+        "mentioned": 29,
+        "mention_only": 0
+      },
+      "official_refs": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "reference_retained_by_person": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "reference_retained_by_speaker": [
+        "cd7200baf8de3fc86cfe5a18c"
+      ],
+      "reference_retained_by_mention_only": [],
+      "methods": {
+        "raw_all": {
+          "candidate_count": 1000,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 15.547401508309955
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 14.341306457064537
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 13.658381042405326
+            },
+            {
+              "source_id": "c30d040e0845c7e5daf99a954",
+              "score": 13.611642696616833
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 13.458664217987744
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 15.547401508309955
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 14.341306457064537
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 13.658381042405326
+            },
+            {
+              "source_id": "c30d040e0845c7e5daf99a954",
+              "score": 13.611642696616833
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 13.458664217987744
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.306734046777486
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 12.331533246056475
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 10.907324179112745
+            },
+            {
+              "source_id": "c669d551eadb1bc331dbe3d56",
+              "score": 10.680565862337591
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 10.511905367066193
+            }
+          ]
+        },
+        "authored_all": {
+          "candidate_count": 186,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 5
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 13.978397768726454
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 13.458656261818728
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.306725974949114
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 12.331525435935424
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 11.879099650179421
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 13.978397768726454
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 13.458656261818728
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.306725974949114
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 12.331525435935424
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 11.879099650179421
+            },
+            {
+              "source_id": "c669d551eadb1bc331dbe3d56",
+              "score": 10.680557414238029
+            },
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 9.985990483184453
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 9.905666964635207
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 9.48818817550287
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 9.256479429054485
+            }
+          ]
+        },
+        "raw_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 4.649016615607819
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 3.6510832808109734
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 3.0774006534645366
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 2.1494783984496313
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 2.0340211637994843
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 4.649016615607819
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 3.6510832808109734
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 3.0774006534645366
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 2.1494783984496313
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 2.0340211637994843
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.8160362815700384
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.7125514257151169
+            },
+            {
+              "source_id": "c5ea4f0b3ae443ab3b179ee77",
+              "score": 1.254712382153338
+            },
+            {
+              "source_id": "c692649fbb4b965d78d95198a",
+              "score": 1.1790688010696808
+            },
+            {
+              "source_id": "c45f15ad5a4f3f608be6bd5c8",
+              "score": 1.1344896326958374
+            }
+          ]
+        },
+        "authored_person": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 3
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 3.534923641596543
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 2.149470212736188
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.9072934445963143
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.8160280226743712
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.7125434091179483
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 3.534923641596543
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 2.149470212736188
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 1.9072934445963143
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.8160280226743712
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.7125434091179483
+            },
+            {
+              "source_id": "c5ea4f0b3ae443ab3b179ee77",
+              "score": 1.2547030744901815
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.1811534711264327
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 0.2775672042789898
+            },
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 0.2759670741611577
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 0.23764932410810413
+            }
+          ]
+        },
+        "authored_all_time": {
+          "candidate_count": 186,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 1
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 14.848874562724276
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 13.978397768726454
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 13.458656261818728
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.306725974949114
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 12.331525435935424
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 14.848874562724276
+            },
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 13.978397768726454
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 13.458656261818728
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 13.306725974949114
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 12.331525435935424
+            },
+            {
+              "source_id": "c669d551eadb1bc331dbe3d56",
+              "score": 10.680557414238029
+            },
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 9.985990483184453
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 9.905666964635207
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 9.48818817550287
+            },
+            {
+              "source_id": "c7650f704fe331b2566c673ed",
+              "score": 9.256479429054485
+            }
+          ]
+        },
+        "authored_person_time": {
+          "candidate_count": 29,
+          "reference_positions": {
+            "cd7200baf8de3fc86cfe5a18c": 2
+          },
+          "top5_any": true,
+          "top5_all": true,
+          "top10_any": true,
+          "top10_all": true,
+          "top5": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 3.534923641596543
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 2.3841168057453928
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 2.149470212736188
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.8160280226743712
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.7125434091179483
+            }
+          ],
+          "top10": [
+            {
+              "source_id": "cb699d443df023ea8b9fc77bb",
+              "score": 3.534923641596543
+            },
+            {
+              "source_id": "cd7200baf8de3fc86cfe5a18c",
+              "score": 2.3841168057453928
+            },
+            {
+              "source_id": "c2139dc6370670e5807264fce",
+              "score": 2.149470212736188
+            },
+            {
+              "source_id": "c35d111897b19242ca312ec88",
+              "score": 1.8160280226743712
+            },
+            {
+              "source_id": "cea6408047bdd2359b0e0556e",
+              "score": 1.7125434091179483
+            },
+            {
+              "source_id": "c5ea4f0b3ae443ab3b179ee77",
+              "score": 1.2547030744901815
+            },
+            {
+              "source_id": "c3db30b91cfd5336ac2ca41e7",
+              "score": 1.1811534711264327
+            },
+            {
+              "source_id": "c215909f3fabfafe9478350bc",
+              "score": 0.2775672042789898
+            },
+            {
+              "source_id": "c4a2aceb41fa876f48dd4892b",
+              "score": 0.2759670741611577
+            },
+            {
+              "source_id": "c640fd1be1d60cc9de8c5d4c6",
+              "score": 0.23764932410810413
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
