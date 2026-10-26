@@ -1,0 +1,26 @@
+{
+  "id": "SMM-SCOPED-PERSON-TIME-PILOT-001",
+  "purpose": "Small fixed comparison of stable source scope, scoped speaker/mention entity index, pre-existing query inputs, and mild explicit-date reranking",
+  "source_run": "SMM-BM25-SCALE-1000-002",
+  "scope_rule": "The caller supplies the LoCoMo sample_id as a knowledge-space ID; source provenance.sample_id must match. The benchmark case.family supplies this ID only for this simulation, never an answer or reference ID.",
+  "entity_rule": "Within that sample_id, person_id = sample_id + ':' + casefold(query-specified name). A source qualifies if the name exactly matches a structured speaker role OR appears as a whole word in its original text. Multiple target people use OR. Speaker and mention flags are separately recorded.",
+  "query_rule": "Raw question or the BM25 input already published in smm-query-input-001/authored-inputs.tsv; no new query writing, no answer terms or reference IDs used by ranking.",
+  "time_rule": "For explicit English month+year queries only, parse an exact day if present, or days 1-10 when 'beginning' appears. Multiply BM25 score by 1.25 when source received_at UTC date lies in that interval; no hard exclusion. For other queries, score is unchanged. This is a fixed diagnostic heuristic, not a general temporal parser.",
+  "methods": ["raw_all_1000", "raw_scope", "authored_scope", "raw_scope_person", "authored_scope_person", "authored_scope_person_time"],
+  "cases_fixed_before_ranking": [
+    {"id": "C183", "people": ["John"]},
+    {"id": "C152", "people": ["Nate"]},
+    {"id": "C129", "people": ["Deborah"]},
+    {"id": "C170", "people": ["Nate"]},
+    {"id": "C118", "people": ["Nate"]},
+    {"id": "C157", "people": ["Maria"]},
+    {"id": "C051", "people": ["John", "Maria"]},
+    {"id": "C037", "people": ["Sam", "Evan"]},
+    {"id": "C184", "people": ["Anna"]},
+    {"id": "C195", "people": ["Samantha"]},
+    {"id": "C088", "people": ["Jolene", "Deborah"]},
+    {"id": "C046", "people": ["Nate"]}
+  ],
+  "metric": "Top5/Top10 any and all official reference sources, per-reference positions, source retention, candidate counts and provenance; answer sufficiency reviewed separately",
+  "limitations": "Purposively chosen 12 known benchmark cases, not blind; entity names are supplied by the evaluator, without extraction/disambiguation; sample_id is caller-known scope, not discovered by search; exact date heuristic tests only explicit dates; official citations can be incomplete or redundant."
+}
