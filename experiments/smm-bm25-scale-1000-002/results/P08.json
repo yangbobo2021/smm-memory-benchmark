@@ -1,0 +1,78 @@
+{
+  "id": "P08",
+  "cohort": "P25",
+  "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+  "original_count": 49,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c9153f368b92a0a1aa0e04b1c",
+    "c77ccd1970a752a97cb1105f3",
+    "c8f9041e297070a3be513d341",
+    "c8b7f5dac3289afd48af13edf"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c9153f368b92a0a1aa0e04b1c": 2,
+      "c77ccd1970a752a97cb1105f3": 1,
+      "c8f9041e297070a3be513d341": 4,
+      "c8b7f5dac3289afd48af13edf": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 4
+    },
+    "match_count": 49,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 4
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c9153f368b92a0a1aa0e04b1c": 4,
+      "c77ccd1970a752a97cb1105f3": 1,
+      "c8f9041e297070a3be513d341": 6,
+      "c8b7f5dac3289afd48af13edf": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 4
+    },
+    "match_count": 999,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "seconds": {
+    "original_build": 0.0037204580003162846,
+    "original_query": 0.0002578749999884167,
+    "expanded_build": 0.10847504200046387,
+    "expanded_query": 0.0039019999994707177
+  }
+}

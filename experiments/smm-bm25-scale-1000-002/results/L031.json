@@ -1,0 +1,75 @@
+{
+  "id": "L031",
+  "cohort": "L32",
+  "question": "How many different museums or galleries did I visit in the month of February?",
+  "original_count": 46,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c0e943530a1e8734f46171431",
+    "cd4676817fc9720fda94e6c0e",
+    "cf3156d8a625d0c3b74d56b9b"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c0e943530a1e8734f46171431": 3,
+      "cd4676817fc9720fda94e6c0e": 2,
+      "cf3156d8a625d0c3b74d56b9b": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 45,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c0e943530a1e8734f46171431": 5,
+      "cd4676817fc9720fda94e6c0e": 7,
+      "cf3156d8a625d0c3b74d56b9b": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 999,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.003402709000511095,
+    "original_query": 0.00030012499973963713,
+    "expanded_build": 0.1155189999999493,
+    "expanded_query": 0.0057888749997800915
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "C006",
+  "cohort": "C200",
+  "question": "Why did Deborah spend time in the garden?",
+  "original_count": 30,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "cfe686805a979f856ed2a31c7"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "cfe686805a979f856ed2a31c7": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 30,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "cfe686805a979f856ed2a31c7": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.0008664580000186106,
+    "original_query": 8.508399969286984e-05,
+    "expanded_build": 0.01920045899987599,
+    "expanded_query": 0.0011967910004386795
+  }
+}

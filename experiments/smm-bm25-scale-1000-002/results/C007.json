@@ -1,0 +1,69 @@
+{
+  "id": "C007",
+  "cohort": "C200",
+  "question": "What event did Calvin attend in Boston?",
+  "original_count": 30,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c28025042f4f2b86725b03b78"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c28025042f4f2b86725b03b78": 4
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 30,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c28025042f4f2b86725b03b78": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 998,
+    "top1": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.0008731670004635816,
+    "original_query": 7.708299926889595e-05,
+    "expanded_build": 0.01931420899927616,
+    "expanded_query": 0.0010192090003329213
+  }
+}

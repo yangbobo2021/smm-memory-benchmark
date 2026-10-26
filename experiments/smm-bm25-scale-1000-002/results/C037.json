@@ -1,0 +1,75 @@
+{
+  "id": "C037",
+  "cohort": "C200",
+  "question": "What health scares did Sam and Evan experience?",
+  "original_count": 25,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c8b39ab3ed8428d688548cf45",
+    "cd387b85982a45e4f67498a15",
+    "ce49b7c6f8092a7995fd418ac"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c8b39ab3ed8428d688548cf45": 14,
+      "cd387b85982a45e4f67498a15": 12,
+      "ce49b7c6f8092a7995fd418ac": 4
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 25,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c8b39ab3ed8428d688548cf45": 9,
+      "cd387b85982a45e4f67498a15": 6,
+      "ce49b7c6f8092a7995fd418ac": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.000735583000277984,
+    "original_query": 8.762499965087045e-05,
+    "expanded_build": 0.019297124999866355,
+    "expanded_query": 0.0011753750004572794
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "L002",
+  "cohort": "L32",
+  "question": "How many bikes do I currently own?",
+  "original_count": 51,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "cbee31569118ec9a9b03c9629",
+    "cd055d76ebc66b8c31b859b70"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "cbee31569118ec9a9b03c9629": 1,
+      "cd055d76ebc66b8c31b859b70": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 50,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "cbee31569118ec9a9b03c9629": 1,
+      "cd055d76ebc66b8c31b859b70": 4
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 962,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.0038938750003580935,
+    "original_query": 0.00012074999995093094,
+    "expanded_build": 0.11600499999985914,
+    "expanded_query": 0.0014463329998761765
+  }
+}

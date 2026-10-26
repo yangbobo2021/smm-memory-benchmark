@@ -1,0 +1,72 @@
+{
+  "id": "P06",
+  "cohort": "P25",
+  "question": "How many days a week do I attend fitness classes?",
+  "original_count": 53,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "cb02306340efae1abb61b04d8",
+    "c3660f7f82aeb2ef7b63e2daf"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "cb02306340efae1abb61b04d8": 3,
+      "c3660f7f82aeb2ef7b63e2daf": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 53,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "cb02306340efae1abb61b04d8": 26,
+      "c3660f7f82aeb2ef7b63e2daf": 3
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 997,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.003506250000100408,
+    "original_query": 0.00019024999983230373,
+    "expanded_build": 0.11378833300022961,
+    "expanded_query": 0.002748458000496612
+  }
+}

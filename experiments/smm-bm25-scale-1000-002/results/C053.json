@@ -1,0 +1,72 @@
+{
+  "id": "C053",
+  "cohort": "C200",
+  "question": "How long was the car modification workshop in San Francisco?",
+  "original_count": 30,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c5f909707b97ef172706b298a",
+    "c8d0556eb6efb052d13cf789d"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c5f909707b97ef172706b298a": 1,
+      "c8d0556eb6efb052d13cf789d": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 30,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c5f909707b97ef172706b298a": 1,
+      "c8d0556eb6efb052d13cf789d": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.0009138750001511653,
+    "original_query": 0.00010295800075255102,
+    "expanded_build": 0.01908404200003133,
+    "expanded_query": 0.0013042499995208345
+  }
+}

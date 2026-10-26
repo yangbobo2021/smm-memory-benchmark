@@ -1,0 +1,72 @@
+{
+  "id": "P01",
+  "cohort": "P25",
+  "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+  "original_count": 50,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c6cfd58034e25f4def8503729",
+    "c86c392fcf4351780ec72ccbe"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c6cfd58034e25f4def8503729": 2,
+      "c86c392fcf4351780ec72ccbe": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 50,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c6cfd58034e25f4def8503729": 2,
+      "c86c392fcf4351780ec72ccbe": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 998,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.003559083000254759,
+    "original_query": 0.00015316600001824554,
+    "expanded_build": 0.10770200000024488,
+    "expanded_query": 0.002297042000463989
+  }
+}

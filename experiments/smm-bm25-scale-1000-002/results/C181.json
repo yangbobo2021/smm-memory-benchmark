@@ -1,0 +1,78 @@
+{
+  "id": "C181",
+  "cohort": "C200",
+  "question": "Which ailment does Sam have to face due to his weight?",
+  "original_count": 25,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c176d5ff52917b2bf853bccc7",
+    "c7f5fa84a9e9f6afef6a69e20",
+    "c8b39ab3ed8428d688548cf45",
+    "cfdb086509e9507eb56336975"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c176d5ff52917b2bf853bccc7": 8,
+      "c7f5fa84a9e9f6afef6a69e20": 3,
+      "c8b39ab3ed8428d688548cf45": 12,
+      "cfdb086509e9507eb56336975": 6
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 25,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c176d5ff52917b2bf853bccc7": 8,
+      "c7f5fa84a9e9f6afef6a69e20": 5,
+      "c8b39ab3ed8428d688548cf45": 13,
+      "cfdb086509e9507eb56336975": 4
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.0007302909998543328,
+    "original_query": 7.629199990333291e-05,
+    "expanded_build": 0.018913125000835862,
+    "expanded_query": 0.0013061669997114222
+  }
+}

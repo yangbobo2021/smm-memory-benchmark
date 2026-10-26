@@ -1,0 +1,72 @@
+{
+  "id": "L016",
+  "cohort": "L32",
+  "question": "Which bike did I fixed or serviced the past weekend?",
+  "original_count": 46,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c4c81e62277f847ae7773eaf3",
+    "cfe237583d5c800082d9816b2"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c4c81e62277f847ae7773eaf3": 2,
+      "cfe237583d5c800082d9816b2": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 46,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c4c81e62277f847ae7773eaf3": 23,
+      "cfe237583d5c800082d9816b2": 2
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.0035397090005062637,
+    "original_query": 0.0001777500001480803,
+    "expanded_build": 0.10903787500046747,
+    "expanded_query": 0.0028189590002511977
+  }
+}

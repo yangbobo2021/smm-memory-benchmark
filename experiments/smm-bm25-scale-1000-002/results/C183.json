@@ -1,0 +1,72 @@
+{
+  "id": "C183",
+  "cohort": "C200",
+  "question": "How many times has John injured his ankle?",
+  "original_count": 29,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c9a36cb26aa1414002481a5a0",
+    "cdcb853bbc4a23a1e717ce345"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c9a36cb26aa1414002481a5a0": 4,
+      "cdcb853bbc4a23a1e717ce345": 16
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 29,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c9a36cb26aa1414002481a5a0": 6,
+      "cdcb853bbc4a23a1e717ce345": 64
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 914,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "seconds": {
+    "original_build": 0.0008530000004611793,
+    "original_query": 6.579199998668628e-05,
+    "expanded_build": 0.019514790999892284,
+    "expanded_query": 0.0010250000004816684
+  }
+}

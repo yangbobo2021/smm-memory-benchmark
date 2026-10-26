@@ -1,0 +1,72 @@
+{
+  "id": "C180",
+  "cohort": "C200",
+  "question": "What recurring issue frustrates Sam at the grocery store?",
+  "original_count": 25,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "cd387b85982a45e4f67498a15",
+    "ceb46e757307c69f8dadac445"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "cd387b85982a45e4f67498a15": 2,
+      "ceb46e757307c69f8dadac445": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 25,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "cd387b85982a45e4f67498a15": 3,
+      "ceb46e757307c69f8dadac445": 4
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.0007427079999615671,
+    "original_query": 8.237500060204184e-05,
+    "expanded_build": 0.019088832999841543,
+    "expanded_query": 0.0011514580000948627
+  }
+}

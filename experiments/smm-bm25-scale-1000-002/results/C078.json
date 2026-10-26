@@ -1,0 +1,72 @@
+{
+  "id": "C078",
+  "cohort": "C200",
+  "question": "How many times has Joanna found new hiking trails?",
+  "original_count": 29,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c0d207f826accc2103af0c748",
+    "c613880f4a1224d293b220cc1"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c0d207f826accc2103af0c748": 2,
+      "c613880f4a1224d293b220cc1": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 29,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c0d207f826accc2103af0c748": 2,
+      "c613880f4a1224d293b220cc1": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 957,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.0007984999992913799,
+    "original_query": 7.991700022103032e-05,
+    "expanded_build": 0.020140957999501552,
+    "expanded_query": 0.0025570420002622996
+  }
+}

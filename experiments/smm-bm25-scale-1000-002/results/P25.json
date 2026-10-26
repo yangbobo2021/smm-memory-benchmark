@@ -1,0 +1,72 @@
+{
+  "id": "P25",
+  "cohort": "P25",
+  "question": "What time do I wake up on Tuesdays and Thursdays?",
+  "original_count": 47,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c1093bf2c8cd861890c957c5c",
+    "cfb475330aad6b2360694d630"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c1093bf2c8cd861890c957c5c": 1,
+      "cfb475330aad6b2360694d630": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 47,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c1093bf2c8cd861890c957c5c": 3,
+      "cfb475330aad6b2360694d630": 17
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 999,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.003246124999350286,
+    "original_query": 0.00019820900070044445,
+    "expanded_build": 0.11626858299950982,
+    "expanded_query": 0.003664834000119299
+  }
+}

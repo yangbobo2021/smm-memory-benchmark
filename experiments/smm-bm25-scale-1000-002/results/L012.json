@@ -1,0 +1,81 @@
+{
+  "id": "L012",
+  "cohort": "L32",
+  "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+  "original_count": 50,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c072c351ab3aa6eec8a6955af",
+    "c1cade60a4bbe81bd3eda1e28",
+    "c4ee19cb432e3d2855768463a",
+    "c67954bf412a6fafd6aa0ae3f",
+    "c8ad7b16e5ed94383f80ae023"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c072c351ab3aa6eec8a6955af": 7,
+      "c1cade60a4bbe81bd3eda1e28": 4,
+      "c4ee19cb432e3d2855768463a": 3,
+      "c67954bf412a6fafd6aa0ae3f": 1,
+      "c8ad7b16e5ed94383f80ae023": 36
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 4
+    },
+    "match_count": 50,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c072c351ab3aa6eec8a6955af": 25,
+      "c1cade60a4bbe81bd3eda1e28": 6,
+      "c4ee19cb432e3d2855768463a": 7,
+      "c67954bf412a6fafd6aa0ae3f": 1,
+      "c8ad7b16e5ed94383f80ae023": 699
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.003448166999987734,
+    "original_query": 0.00042637500064302003,
+    "expanded_build": 0.10862045800058695,
+    "expanded_query": 0.007893083999988448
+  }
+}

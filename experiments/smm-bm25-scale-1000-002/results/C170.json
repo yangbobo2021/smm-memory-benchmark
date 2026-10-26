@@ -1,0 +1,72 @@
+{
+  "id": "C170",
+  "cohort": "C200",
+  "question": "How many turtles does Nate have?",
+  "original_count": 29,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c0d207f826accc2103af0c748",
+    "c215909f3fabfafe9478350bc"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c0d207f826accc2103af0c748": 11,
+      "c215909f3fabfafe9478350bc": 9
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 29,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c0d207f826accc2103af0c748": 9,
+      "c215909f3fabfafe9478350bc": 6
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 993,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top5": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    }
+  },
+  "seconds": {
+    "original_build": 0.0008677079995322856,
+    "original_query": 7.779099996696459e-05,
+    "expanded_build": 0.0193422920001467,
+    "expanded_query": 0.0009816250003495952
+  }
+}

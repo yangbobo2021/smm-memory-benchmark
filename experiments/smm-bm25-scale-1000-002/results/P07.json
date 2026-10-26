@@ -1,0 +1,72 @@
+{
+  "id": "P07",
+  "cohort": "P25",
+  "question": "How many dinner parties have I attended in the past month?",
+  "original_count": 44,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c799a2510389a8ff2e69d96f5",
+    "c5e13079f8999c5bfd339aab7"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c799a2510389a8ff2e69d96f5": 3,
+      "c5e13079f8999c5bfd339aab7": 1
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 44,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c799a2510389a8ff2e69d96f5": 16,
+      "c5e13079f8999c5bfd339aab7": 1
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.003453041000284429,
+    "original_query": 0.00019599999995989492,
+    "expanded_build": 0.11406591600007232,
+    "expanded_query": 0.0034737910000330885
+  }
+}

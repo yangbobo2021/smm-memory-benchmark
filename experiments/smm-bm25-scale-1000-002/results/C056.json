@@ -1,0 +1,78 @@
+{
+  "id": "C056",
+  "cohort": "C200",
+  "question": "What is Evan's favorite food?",
+  "original_count": 25,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c193b96709859e85ecedd4908",
+    "cd387b85982a45e4f67498a15",
+    "ceb46e757307c69f8dadac445",
+    "cf759389a4295787695124229"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c193b96709859e85ecedd4908": 10,
+      "cd387b85982a45e4f67498a15": 1,
+      "ceb46e757307c69f8dadac445": 25,
+      "cf759389a4295787695124229": 6
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 25,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c193b96709859e85ecedd4908": 21,
+      "cd387b85982a45e4f67498a15": 1,
+      "ceb46e757307c69f8dadac445": 22,
+      "cf759389a4295787695124229": 7
+    },
+    "top10": {
+      "all": false,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.000712417000613641,
+    "original_query": 6.837499950052006e-05,
+    "expanded_build": 0.01942145800057915,
+    "expanded_query": 0.0011080410004069563
+  }
+}

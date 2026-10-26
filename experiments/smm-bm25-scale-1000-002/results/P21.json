@@ -1,0 +1,75 @@
+{
+  "id": "P21",
+  "cohort": "P25",
+  "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+  "original_count": 54,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c5cb50c297191b2e566d454d2",
+    "cd2a6842f7e4b75fe0461d1a1",
+    "c967f69f5e97bb77d7922817a"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c5cb50c297191b2e566d454d2": 2,
+      "cd2a6842f7e4b75fe0461d1a1": 1,
+      "c967f69f5e97bb77d7922817a": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 54,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c5cb50c297191b2e566d454d2": 3,
+      "cd2a6842f7e4b75fe0461d1a1": 1,
+      "c967f69f5e97bb77d7922817a": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "match_count": 993,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 3
+    }
+  },
+  "seconds": {
+    "original_build": 0.0036548329999277485,
+    "original_query": 0.0001527499998701387,
+    "expanded_build": 0.11687137500030076,
+    "expanded_query": 0.0021658750001734006
+  }
+}

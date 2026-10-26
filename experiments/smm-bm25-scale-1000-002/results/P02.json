@@ -1,0 +1,72 @@
+{
+  "id": "P02",
+  "cohort": "P25",
+  "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+  "original_count": 45,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c4d5e76892eb66ee21cf151ae",
+    "ca3586c9f696b9c5035ebf62c"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c4d5e76892eb66ee21cf151ae": 1,
+      "ca3586c9f696b9c5035ebf62c": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 45,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c4d5e76892eb66ee21cf151ae": 1,
+      "ca3586c9f696b9c5035ebf62c": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 997,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.003371458000401617,
+    "original_query": 0.00015654199978598626,
+    "expanded_build": 0.11120204199960426,
+    "expanded_query": 0.0024378339994655107
+  }
+}

@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [Original whole-conversation BM25 under 1000 published full dialogues per question: 257-case retrieval stress test](experiments/smm-bm25-scale-1000-002/README.md)
 - [Why branch-keyword BM25 missed 45/178 clear cases: per-case diagnosis and offline ablations](analyses/smm-branch-keyword-diagnostic-001/README.md)
 - [GPT-6 Luna high discussion-branch keyword indexing: 272 conversations, 200 LoCoMo questions, BM25/vector controls](experiments/smm-branch-keywords-001/README.md)
 - [BM25 as an Agent retrieval tool: completed lexical variants, authored query inputs, Top5/Top10 coverage, and decision-gate evidence review](analyses/bm25-route-review-001/README.md)

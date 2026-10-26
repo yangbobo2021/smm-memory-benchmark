@@ -1,0 +1,72 @@
+{
+  "id": "L008",
+  "cohort": "L32",
+  "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+  "original_count": 47,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c97c5be0bc4598f426c340330",
+    "ca2ef86fd28cb7f4dec49bd66"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c97c5be0bc4598f426c340330": 1,
+      "ca2ef86fd28cb7f4dec49bd66": 3
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 47,
+    "top1": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c97c5be0bc4598f426c340330": 2,
+      "ca2ef86fd28cb7f4dec49bd66": 5
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    },
+    "match_count": 997,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": false,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 2
+    }
+  },
+  "seconds": {
+    "original_build": 0.003472124999461812,
+    "original_query": 0.00021158299932722002,
+    "expanded_build": 0.11532424999950308,
+    "expanded_query": 0.0032547079999858397
+  }
+}

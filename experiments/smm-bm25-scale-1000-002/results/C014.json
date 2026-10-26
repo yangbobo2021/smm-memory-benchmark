@@ -1,0 +1,69 @@
+{
+  "id": "C014",
+  "cohort": "C200",
+  "question": "What is Nate's favorite book series about?",
+  "original_count": 29,
+  "expanded_count": 1000,
+  "official_reference_sources": [
+    "c5ea4f0b3ae443ab3b179ee77"
+  ],
+  "protocol_sha256": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+  "original": {
+    "reference_positions": {
+      "c5ea4f0b3ae443ab3b179ee77": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 29,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "expanded": {
+    "reference_positions": {
+      "c5ea4f0b3ae443ab3b179ee77": 2
+    },
+    "top10": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "match_count": 1000,
+    "top1": {
+      "all": false,
+      "any": false,
+      "reference_count": 0
+    },
+    "top3": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    },
+    "top5": {
+      "all": true,
+      "any": true,
+      "reference_count": 1
+    }
+  },
+  "seconds": {
+    "original_build": 0.0007686250000915607,
+    "original_query": 8.266700024250895e-05,
+    "expanded_build": 0.018842458999642986,
+    "expanded_query": 0.0012742920007440262
+  }
+}
