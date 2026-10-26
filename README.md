@@ -15,6 +15,7 @@ The selection and candidate-answer calls are independent. The selected output is
 ## Start here
 
 - [New-question retrieval validation: 32 fresh LongMemEval cases + 200 randomly sampled LoCoMo questions](experiments/smm-retrieval-generalization-001/README.md)
+- [Text-evidence sensitivity of the new LoCoMo sample](analyses/smm-rg001-text-evidence/README.md)
 - [Top1–Top5 complete-evidence coverage: BM25, vector, and their union](analyses/top-n-evidence-v1/README.md)
 - [Browse all 25 cases and their inputs/outputs](docs/CASE_INDEX.md)
 - [What was recorded, and what was not](docs/IO_GUIDE.md)
