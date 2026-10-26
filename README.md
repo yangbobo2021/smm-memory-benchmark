@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [Why branch-keyword BM25 missed 45/178 clear cases: per-case diagnosis and offline ablations](analyses/smm-branch-keyword-diagnostic-001/README.md)
 - [GPT-6 Luna high discussion-branch keyword indexing: 272 conversations, 200 LoCoMo questions, BM25/vector controls](experiments/smm-branch-keywords-001/README.md)
 - [BM25 as an Agent retrieval tool: completed lexical variants, authored query inputs, Top5/Top10 coverage, and decision-gate evidence review](analyses/bm25-route-review-001/README.md)
 - [Five-route candidate-budget comparison: BM25/vector Top5, Top10, and their 5+5 union against answer dependencies](analyses/five-candidate-routes-001/README.md)
