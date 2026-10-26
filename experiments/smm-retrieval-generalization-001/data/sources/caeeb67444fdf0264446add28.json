@@ -1,0 +1,57 @@
+{
+  "id": "caeeb67444fdf0264446add28",
+  "text": "ASSISTANT:\neny Appointment\n\n* Endpoint path: /api/appointments/{appointment\\_id}/approve/\n* Endpoint method: PUT\n* Headers:\n\t+ Authorization: Bearer token\n* Response: Updated appointment information with is\\_approved set to true\n* Response shape (JSON):\n```json\n{\n    \"id\": \"integer\",\n    \"customer_name\": \"string\",\n    \"customer_phone\": \"string\",\n    \"vehicle_make\": \"string\",\n    \"vehicle_model\": \"string\",\n    \"vehicle_year\": \"integer\",\n    \"vehicle_color\": \"string\",\n    \"notes\": \"string\",\n    \"is_approved\": \"boolean\",\n    \"timer_total\": \"integer\",\n    \"service_id\": \"integer\"\n}\n```\n\n### Deny Appointment\n\n* Endpoint path: /api/appointments/{appointment\\_id}/deny/\n* Endpoint method: PUT\n* Headers:\n\t+ Authorization: Bearer token\n* Response: Updated appointment information with is\\_approved set to false\n* Response shape (JSON):\n```json\n{\n    \"id\": \"integer\",\n    \"customer_name\": \"string\",\n    \"customer_phone\": \"string\",\n    \"vehicle_make\": \"string\",\n    \"vehicle_model\": \"string\",\n    \"vehicle_year\": \"integer\",\n    \"vehicle_color\": \"string\",\n    \"notes\": \"string\",\n    \"is_approved\": \"boolean\",\n    \"timer_total\": \"integer\",\n    \"service_id\": \"integer\"\n}\n```\n\nTechnician Endpoints\n--------------------\n\n### Create Technician\n\n* Endpoint path: /api/technicians/\n* Endpoint method: POST\n* Headers:\n\t+ Authorization: Bearer token\n* Request shape (JSON):\n```json\n{\n    \"first_name\": \"string\",\n    \"last_name\": \"string\",\n    \"personal_email\": \"string\",\n    \"phone_number\": \"string\",\n    \"client_id\": \"integer\"\n}\n```\n* Response: New technician information\n* Response shape (JSON):\n```json\n{\n    \"id\": \"integer\",\n    \"employee_id\": \"string\",\n    \"first_name\": \"string\",\n    \"last_name\": \"string\",\n    \"personal_email\": \"string\",\n    \"phone_number\": \"string\",\n    \"client_id\": \"integer\"\n}\n```\n\n### Get Technicians\n\n* Endpoint path: /api/technicians/\n* Endpoint method: GET\n* Headers:\n\t+ Authorization: Bearer token\n* Response: List of technicians\n* Response shape (JSON):\n```json\n[\n    {\n        \"id\": \"integer\",\n        \"employee_id\": \"string\",\n        \"first_name\": \"string\",\n        \"last_name\": \"string\",\n        \"personal_email\": \"string\",\n        \"phone_number\": \"string\",\n        \"client_id\": \"integer\"\n    }\n]\n```\n\n### Get Technician Details\n\n* Endpoint path: /api/technicians/{technician\\_id}/\n* Endpoint method: GET\n* Headers:\n\t+ Authorization: Bearer token\n* Response: Technician details\n* Response shape (JSON):\n```json\n{\n    \"id\": \"integer\",\n    \"employee_id\": \"string\",\n    \"first_name\": \"string\",\n    \"last_name\": \"string\",\n    \"personal_email\": \"string\",\n    \"phone_number\": \"string\",\n    \"client_id\": \"integer\"\n}\n```\n\n### Update Technician\n\n* Endpoint path: /api/technicians/{technician\\_id}/\n* Endpoint method: PUT\n* Headers:\n\t+ Authorization: Bearer token\n* Request shape (JSON):\n```json\n{\n    \"first_name\": \"string\",\n    \"last_name\": \"string\n```\n\nUSER:\ncontinue\n\nASSISTANT:\n\",\n\"personal\\_email\": \"string\",\n\"phone\\_number\": \"string\",\n\"client\\_id\": \"integer\"\n}\n```* Response: Updated technician information\n* Response shape (JSON):\n```\njson\n{\n    \"id\": \"integer\",\n    \"employee_id\": \"string\",\n    \"first_name\": \"string\",\n    \"last_name\": \"string\",\n    \"personal_email\": \"string\",\n    \"phone_number\": \"string\",\n    \"client_id\": \"integer\"\n}\n```\n\n### Delete Technician\n\n* Endpoint path: /api/technicians/{technician\\_id}/\n* Endpoint method: DELETE\n* Headers:\n\t+ Authorization: Bearer token\n* Response: Message indicating successful deletion\n* Response shape (JSON):\n```json\n{\n    \"message\": \"string\"\n}\n```\n\nAuthentication Endpoints\n------------------------\n\n### Sign Up as Client\n\n* Endpoint path: /api/auth/signup/client/\n* Endpoint method: POST\n* Request shape (JSON):\n```json\n{\n    \"business_name\": \"string\",\n    \"business_email\": \"string\",\n    \"business_address\": \"string\",\n    \"business_phone\": \"string\",\n    \"password\": \"string\"\n}\n```\n* Response: Token and user information\n* Response shape (JSON):\n```json\n{\n    \"token\": \"string\",\n    \"user\": {\n        \"id\": \"integer\",\n        \"business_name\": \"string\",\n        \"business_email\": \"string\",\n        \"business_address\": \"string\",\n        \"business_phone\": \"string\"\n    }\n}\n```\n\n### Sign Up as Technician\n\n* Endpoint path: /api/auth/signup/technician/\n* Endpoint method: POST\n* Request shape (JSON):\n```json\n{\n    \"employee_id\": \"string\",\n    \"first_name\": \"string\",\n    \"last_name\": \"string\",\n    \"personal_email\": \"string\",\n    \"phone_number\": \"string\",\n    \"password\": \"string\",\n    \"client_id\": \"integer\"\n}\n```\n* Response: Token and user information\n* Response shape (JSON):\n```json\n{\n    \"token\": \"string\",\n    \"user\": {\n        \"id\": \"integer\",\n        \"employee_id\": \"string\",\n        \"first_name\": \"string\",\n        \"last_name\": \"string\",\n        \"personal_email\": \"string\",\n        \"phone_number\": \"string\",\n        \"client_id\": \"integer\"\n    }\n}\n```\n\n### Log In\n\n* Endpoint path: /api/auth/login/\n* Endpoint method: POST\n* Request shape (JSON):\n```json\n{\n    \"email\": \"string\",\n    \"password\": \"string\"\n}\n```\n* Response: Token and user information\n* Response shape (JSON):\n```json\n{\n    \"token\": \"string\",\n    \"user\": {\n        \"id\": \"integer\",\n        \"business_name\": \"string\",\n        \"business_email\": \"string\",\n        \"business_address\": \"string\",\n        \"business_phone\": \"string\"\n    }\n}\n```\n\n### Log Out\n\n* Endpoint path: /api/auth/logout/\n* Endpoint method: POST\n* Headers:\n\t+ Authorization: Bearer token\n* Response: Message indicating successful logout\n* Response shape (JSON):\n```json\n{\n    \"message\": \"string\"\n}\n```\n\nUSER:\ncontinue\n\nASSISTANT:\nCustomer Endpoints\n------------------\n\n### Submit Inquiry\n\n* Endpoint path: /api/inquiries/\n* Endpoint method: POST\n* Request shape (JSON):\n```json\n{\n    \"customer_name\": \"string\",\n    \"customer_phone\": \"string\",\n    \"service_id\": \"integer\"\n}\n```\n* Response: New inquiry information\n* Response shape (JSON):\n```json\n{\n    \"id\": \"integer\",\n    \"customer_name\": \"string\",\n    \"customer_phone\": \"string\",\n    \"service_id\": \"integer\"\n}\n```\n\nUSER:\ncontinue\n\nASSISTANT:\nStretch Goal\n------------\n\n### Start Timer\n\n* Endpoint path: /api/timers/{appointment\\_id}/start/\n* Endpoint method: PUT\n* Headers:\n\t+ Authorization: Bearer token\n* Response: Updated appointment information with timer\\_total set to 0\n* Response shape (JSON):\n```json\n{\n    \"id\": \"integer\",\n    \"customer_name\": \"string\",\n    \"customer_phone\": \"string\",\n    \"vehicle_make\": \"string\",\n    \"vehicle_model\": \"string\",\n    \"vehicle_year\": \"integer\",\n    \"vehicle_color\": \"string\",\n    \"notes\": \"string\",\n    \"is_approved\": \"boolean\",\n    \"timer_total\": \"integer\",\n    \"service_id\": \"integer\"\n}\n```\n\n### Update Timer\n\n* Endpoint path: /api/timers/{appointment\\_id}/update/\n* Endpoint method: PUT\n* Headers:\n\t+ Authorization: Bearer token\n* Request shape (JSON):\n```json\n{\n    \"timer_total\": \"integer\"\n}\n```\n* Response: Updated appointment information with timer\\_total set to provided value\n* Response shape (JSON):\n```json\n{\n    \"id\": \"integer\",\n    \"customer_name\": \"string\",\n    \"customer_phone\": \"string\",\n    \"vehicle_make\": \"string\",\n    \"vehicle_model\": \"string\",\n    \"vehicle_year\": \"integer\",\n    \"vehicle_color\": \"string\",\n    \"notes\": \"string\",\n    \"is_approved\": \"boolean\",\n    \"timer_total\": \"integer\",\n    \"service_id\": \"integer\"\n}\n```",
+  "received_at": "2023-01-09T18:13:00+00:00",
+  "source_sha256": "eca028e5a7f3bd065836cd8c89cddd96c3390d528a7f336e3297dbf7544fc67c",
+  "structure": {
+    "source_sha256": "eca028e5a7f3bd065836cd8c89cddd96c3390d528a7f336e3297dbf7544fc67c",
+    "parts": [
+      {
+        "turn": 0,
+        "role": "assistant",
+        "start": 11,
+        "end": 2867
+      },
+      {
+        "turn": 1,
+        "role": "user",
+        "start": 2875,
+        "end": 2883
+      },
+      {
+        "turn": 2,
+        "role": "assistant",
+        "start": 2896,
+        "end": 5511
+      },
+      {
+        "turn": 3,
+        "role": "user",
+        "start": 5519,
+        "end": 5527
+      },
+      {
+        "turn": 4,
+        "role": "assistant",
+        "start": 5540,
+        "end": 5975
+      },
+      {
+        "turn": 5,
+        "role": "user",
+        "start": 5983,
+        "end": 5991
+      },
+      {
+        "turn": 6,
+        "role": "assistant",
+        "start": 6004,
+        "end": 7247
+      }
+    ]
+  },
+  "provenance": {
+    "dataset": "LongMemEval-cleaned",
+    "external_session_id": "sharegpt_zbfgack_7"
+  }
+}

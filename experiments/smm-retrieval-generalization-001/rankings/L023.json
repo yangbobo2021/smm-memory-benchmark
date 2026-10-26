@@ -1,0 +1,142 @@
+{
+  "case_id": "L023",
+  "cohort": "longmemeval_new32",
+  "family": "gpt4_4929293a",
+  "source_ids": [
+    "c061ae7f76bda8a826be79ac4",
+    "c13033fdbfe8f297a11619909",
+    "c15f3a1881ba599bfc3475111",
+    "c1f05a32b0be6951c8195d583",
+    "c27689e913a7156fe2b058304",
+    "c27ee6571bf0c41f213a62dbd",
+    "c2c0137156ce4fa0def435a14",
+    "c2eafb3c3591707427ea06cae",
+    "c31e2a0dbd88e4ff19a50263a",
+    "c3ab3280fffec81f73a813cc8",
+    "c4f7957019ac5a5c28990ff31",
+    "c62c2510cd4e320bea03c1c85",
+    "c69f1710ef84e8fbe14823b58",
+    "c6a6c4050232f5bc3a3135de2",
+    "c6cbc6509cb70223b7d26e34b",
+    "c6ecdafa77d476f59fc5b4951",
+    "c710ccfc4413bd372dc561c03",
+    "c84d39d59ff97378681e84cb0",
+    "c884d81642ded4d45e8f79fa5",
+    "c8911901024ab62e8f2a42a05",
+    "c8f6c20932c3178b0487e000f",
+    "c9858d26fe779930b16c80a9e",
+    "c9b55261b15ca8fd734096d20",
+    "ca32003a268f92f5d7acda0ac",
+    "caac49c98daefa047d96d4a69",
+    "cac2bfac617cccafbcb015f48",
+    "cbba67e93e9c0ed58d94e0f76",
+    "cbffbcd0bc9629ae4aa5818e9",
+    "cc49471d8b86c91d2a46073bf",
+    "cc4ec0af499df07738b5cc4f6",
+    "cc670e84527aba960695acd54",
+    "cc6ac2e35bc1ddfe317c705b6",
+    "cc6d0f9ecefc07d7c0e274dfe",
+    "ccc25365e2b2cd1a1ad58c2dd",
+    "cd9cda6f9a24051037fe114d9",
+    "cde8db4d0cfb0b55c97ed7999",
+    "ce03c6fa27bcc24f09ed4ac72",
+    "ceb86c2dae62525596b82be93",
+    "cf09a8cae0149276bac2cefb8",
+    "cf21b590853821f01fc996f24",
+    "cf92db3c04feacbf691f0e7fb",
+    "cfb30bfe09635b364b0eb6efc",
+    "cfbe2ac08c47d5fc5d8a37cfb",
+    "cff8bded0ec27cfe62b30c50e"
+  ],
+  "query": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+  "clock": "2023-10-01T07:41:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c710ccfc4413bd372dc561c03",
+        "score": 18.65443845337617
+      },
+      {
+        "source_id": "ce03c6fa27bcc24f09ed4ac72",
+        "score": 12.239449054014882
+      },
+      {
+        "source_id": "cc6d0f9ecefc07d7c0e274dfe",
+        "score": 5.08337609636015
+      },
+      {
+        "source_id": "c8f6c20932c3178b0487e000f",
+        "score": 4.820230263146145
+      },
+      {
+        "source_id": "c6ecdafa77d476f59fc5b4951",
+        "score": 3.814273295322664
+      },
+      {
+        "source_id": "c84d39d59ff97378681e84cb0",
+        "score": 3.6376530093927206
+      },
+      {
+        "source_id": "cc49471d8b86c91d2a46073bf",
+        "score": 3.443426320800814
+      },
+      {
+        "source_id": "cfbe2ac08c47d5fc5d8a37cfb",
+        "score": 2.835452515468919
+      },
+      {
+        "source_id": "cc4ec0af499df07738b5cc4f6",
+        "score": 2.7914208634006767
+      },
+      {
+        "source_id": "c13033fdbfe8f297a11619909",
+        "score": 2.5525296459608238
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c710ccfc4413bd372dc561c03",
+        "score": 0.5153101583672648
+      },
+      {
+        "source_id": "ce03c6fa27bcc24f09ed4ac72",
+        "score": 0.46314291062882396
+      },
+      {
+        "source_id": "cc6d0f9ecefc07d7c0e274dfe",
+        "score": 0.23740513826614806
+      },
+      {
+        "source_id": "ca32003a268f92f5d7acda0ac",
+        "score": 0.22991920086367926
+      },
+      {
+        "source_id": "c8f6c20932c3178b0487e000f",
+        "score": 0.20430360049383428
+      },
+      {
+        "source_id": "c1f05a32b0be6951c8195d583",
+        "score": 0.1811139620314845
+      },
+      {
+        "source_id": "cc670e84527aba960695acd54",
+        "score": 0.15836111371806888
+      },
+      {
+        "source_id": "c69f1710ef84e8fbe14823b58",
+        "score": 0.15314094750150664
+      },
+      {
+        "source_id": "cc49471d8b86c91d2a46073bf",
+        "score": 0.15193646105591524
+      },
+      {
+        "source_id": "cc4ec0af499df07738b5cc4f6",
+        "score": 0.1451613307030449
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003800207981839776,
+  "cached_query_search_seconds": 0.0045000421814620495
+}

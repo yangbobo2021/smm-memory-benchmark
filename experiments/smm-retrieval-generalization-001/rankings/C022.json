@@ -1,0 +1,127 @@
+{
+  "case_id": "C022",
+  "cohort": "locomo_random200",
+  "family": "conv-42",
+  "source_ids": [
+    "c0d207f826accc2103af0c748",
+    "c15f1f0bec3d2fcc4fc6182e7",
+    "c19e0760480af1c4e5fc7a26b",
+    "c2139dc6370670e5807264fce",
+    "c215909f3fabfafe9478350bc",
+    "c252c867151f0796efa1faff5",
+    "c35d111897b19242ca312ec88",
+    "c3db30b91cfd5336ac2ca41e7",
+    "c45f15ad5a4f3f608be6bd5c8",
+    "c4a2aceb41fa876f48dd4892b",
+    "c550d52159d739a56d10af4df",
+    "c5ea4f0b3ae443ab3b179ee77",
+    "c5ebaffb14dc75e0d3fa27049",
+    "c613880f4a1224d293b220cc1",
+    "c640fd1be1d60cc9de8c5d4c6",
+    "c64d29fbe2c5978bd0f958293",
+    "c692649fbb4b965d78d95198a",
+    "c7650f704fe331b2566c673ed",
+    "c958260cbfa883012f04435f1",
+    "ca9f7fefaaf9fbd0ea335569d",
+    "cb699d443df023ea8b9fc77bb",
+    "cd1961257c884ba95b3d31463",
+    "cd7200baf8de3fc86cfe5a18c",
+    "cd7a2460e9ca2bf5d0b2a2f45",
+    "cd993c95f02adc9fa056b4c58",
+    "cdd6e915be62b998a88256c25",
+    "cea6408047bdd2359b0e0556e",
+    "ceb718bcf22d200f70c765c34",
+    "cf439ed341a740dc313e752f9"
+  ],
+  "query": "Why does Nate like turtles as pets?",
+  "clock": "2022-11-11T00:06:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c7650f704fe331b2566c673ed",
+        "score": 4.306060283592226
+      },
+      {
+        "source_id": "cd7200baf8de3fc86cfe5a18c",
+        "score": 4.2709680864154915
+      },
+      {
+        "source_id": "ceb718bcf22d200f70c765c34",
+        "score": 3.3161600180195845
+      },
+      {
+        "source_id": "c958260cbfa883012f04435f1",
+        "score": 2.9119539261601886
+      },
+      {
+        "source_id": "cb699d443df023ea8b9fc77bb",
+        "score": 2.6945239411943764
+      },
+      {
+        "source_id": "c5ebaffb14dc75e0d3fa27049",
+        "score": 2.1467282373298238
+      },
+      {
+        "source_id": "c0d207f826accc2103af0c748",
+        "score": 1.9839647070410769
+      },
+      {
+        "source_id": "c3db30b91cfd5336ac2ca41e7",
+        "score": 1.962872386722633
+      },
+      {
+        "source_id": "c45f15ad5a4f3f608be6bd5c8",
+        "score": 1.9400756371936023
+      },
+      {
+        "source_id": "c64d29fbe2c5978bd0f958293",
+        "score": 1.816704655545481
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "ceb718bcf22d200f70c765c34",
+        "score": 0.583517574759564
+      },
+      {
+        "source_id": "c0d207f826accc2103af0c748",
+        "score": 0.5824316078814756
+      },
+      {
+        "source_id": "c252c867151f0796efa1faff5",
+        "score": 0.5734721231600663
+      },
+      {
+        "source_id": "c550d52159d739a56d10af4df",
+        "score": 0.5299936648579033
+      },
+      {
+        "source_id": "c215909f3fabfafe9478350bc",
+        "score": 0.4459253079734008
+      },
+      {
+        "source_id": "c7650f704fe331b2566c673ed",
+        "score": 0.4258493925894643
+      },
+      {
+        "source_id": "c5ebaffb14dc75e0d3fa27049",
+        "score": 0.4152880787629367
+      },
+      {
+        "source_id": "c3db30b91cfd5336ac2ca41e7",
+        "score": 0.38733113705066835
+      },
+      {
+        "source_id": "c45f15ad5a4f3f608be6bd5c8",
+        "score": 0.3784614491520043
+      },
+      {
+        "source_id": "c64d29fbe2c5978bd0f958293",
+        "score": 0.33990032421994554
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 7.499475032091141e-07,
+  "cached_query_search_seconds": 0.003072208957746625
+}

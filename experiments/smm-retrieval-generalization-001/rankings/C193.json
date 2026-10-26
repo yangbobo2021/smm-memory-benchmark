@@ -1,0 +1,127 @@
+{
+  "case_id": "C193",
+  "cohort": "locomo_random200",
+  "family": "conv-43",
+  "source_ids": [
+    "c08a011985f84a3d80171942f",
+    "c0e15cec6a99df03faa4e30ec",
+    "c139f4b845ec357142b7b3b56",
+    "c14b38719fc61303d0504f2f3",
+    "c16886a59bbcdd8b0c03a0afc",
+    "c1d4e184c4e34f17a11e8321e",
+    "c1f9579f93f8dd5bc42b7df56",
+    "c2cbf59dfc54dc5a8e79c320d",
+    "c3a184c8f6671cc33947d498c",
+    "c4e9db782b6a0f05af00a30ba",
+    "c669d551eadb1bc331dbe3d56",
+    "c66f3b2442f0da8ebd3b8702c",
+    "c6cb4e8b745d57608d137fa2e",
+    "c6e05aef960665ec439464168",
+    "c8b290b2bf2289683d7d1c0df",
+    "c9362312b206ff1011fc132a7",
+    "c9a36cb26aa1414002481a5a0",
+    "ca24a5e8c6f28b5eda7fa50de",
+    "cb4a96e5cde64d9faa403cccb",
+    "cb4bd95586355fe3bfcd49754",
+    "cbb5ca89949851abf47746056",
+    "cbf3a77bf28f9814081a8ef96",
+    "cc1b875b9219b6cfe553186fc",
+    "cc79cf1fd8a5d1e4f278d2325",
+    "cdcb853bbc4a23a1e717ce345",
+    "ce08bdcbc8b2fc20c5e30b4ab",
+    "cf0bc01bfc8852f961e33e9de",
+    "cfeb835178acb01619a63a286",
+    "cffbd588e46ffc1fc844e5330"
+  ],
+  "query": "What instrument is Tim learning to play in December 2023?",
+  "clock": "2024-01-12T13:41:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cb4a96e5cde64d9faa403cccb",
+        "score": 8.06765566498901
+      },
+      {
+        "source_id": "c1f9579f93f8dd5bc42b7df56",
+        "score": 5.133683188342792
+      },
+      {
+        "source_id": "c14b38719fc61303d0504f2f3",
+        "score": 3.3223991900109424
+      },
+      {
+        "source_id": "c9362312b206ff1011fc132a7",
+        "score": 1.6663415971905915
+      },
+      {
+        "source_id": "cb4bd95586355fe3bfcd49754",
+        "score": 1.6596927334931322
+      },
+      {
+        "source_id": "c9a36cb26aa1414002481a5a0",
+        "score": 1.3383216936344202
+      },
+      {
+        "source_id": "cf0bc01bfc8852f961e33e9de",
+        "score": 1.2607297487043958
+      },
+      {
+        "source_id": "c16886a59bbcdd8b0c03a0afc",
+        "score": 1.246687990842657
+      },
+      {
+        "source_id": "c139f4b845ec357142b7b3b56",
+        "score": 1.1484500170840082
+      },
+      {
+        "source_id": "c1d4e184c4e34f17a11e8321e",
+        "score": 9.563001586728851e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cb4a96e5cde64d9faa403cccb",
+        "score": 0.4660281614394603
+      },
+      {
+        "source_id": "c1f9579f93f8dd5bc42b7df56",
+        "score": 0.3899595860998784
+      },
+      {
+        "source_id": "c4e9db782b6a0f05af00a30ba",
+        "score": 0.350698508158261
+      },
+      {
+        "source_id": "c9362312b206ff1011fc132a7",
+        "score": 0.33537821869894474
+      },
+      {
+        "source_id": "cb4bd95586355fe3bfcd49754",
+        "score": 0.3122590576454003
+      },
+      {
+        "source_id": "c2cbf59dfc54dc5a8e79c320d",
+        "score": 0.3056383068127133
+      },
+      {
+        "source_id": "c6e05aef960665ec439464168",
+        "score": 0.29511585896180503
+      },
+      {
+        "source_id": "c6cb4e8b745d57608d137fa2e",
+        "score": 0.28942953214607503
+      },
+      {
+        "source_id": "cc79cf1fd8a5d1e4f278d2325",
+        "score": 0.27567553574109205
+      },
+      {
+        "source_id": "c3a184c8f6671cc33947d498c",
+        "score": 0.2679504608089981
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.919696271419525e-07,
+  "cached_query_search_seconds": 0.003634416963905096
+}

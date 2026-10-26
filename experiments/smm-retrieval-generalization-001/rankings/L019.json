@@ -1,0 +1,144 @@
+{
+  "case_id": "L019",
+  "cohort": "longmemeval_new32",
+  "family": "2698e78f",
+  "source_ids": [
+    "c068cc804c63520ed571b6665",
+    "c06bbe27aa635b3167f925676",
+    "c0979a4dc37cf339cc266b53f",
+    "c0a5bc885cf8190a804d066bc",
+    "c0deeda56090be2737f4a9efe",
+    "c0fcf9466197598c613c704ab",
+    "c149c96bca922a4e4da223367",
+    "c24ef70f1d2d39ed31c6135eb",
+    "c265e2bd161d83602c1f6c137",
+    "c2679a8d5e04c188fe4bf3aaa",
+    "c26b0588add0e7f2386f25850",
+    "c27c977222326ce7d6731ef98",
+    "c299970df4c8f6bc670a712a2",
+    "c39941cb90197989fe354691c",
+    "c4517061ec182a645d6909f15",
+    "c5454e69d86409bbbf2929a09",
+    "c56d3f7bb79ded6255cb28f07",
+    "c5df939aa5158cef650a0fcc6",
+    "c63742b2cfe9a0d226f506705",
+    "c67822aca81ba1f8a630d9925",
+    "c6c0ccf8e602d4c44a58ad644",
+    "c6d004611abe82701eb581ba2",
+    "c7399d1b3f3f3d55a0a0320f5",
+    "c74a99ee340a6287e307df4e0",
+    "c7b37000c34f9c2aad4327560",
+    "c7c69c7da8ff132228f7da07c",
+    "c7e318df4438eec91e95516a7",
+    "c86336199d21ad045176ffcc5",
+    "c890b77b01a85c2119b4db9f2",
+    "c968a38f08980320dc9a92af1",
+    "c98afb0aaaeba4e3008b1a8db",
+    "caae18c23cf986cf07a5b011b",
+    "cb2a4e6228ed4f8359dd3d597",
+    "cb2bddda5ab957525b9ba74db",
+    "cc34ca3789bb5013883013c31",
+    "ccce03fdf2304eb349a534e15",
+    "ccf4d0cbdee0cd0435e949000",
+    "cd82278c0f4260202f4eb5c4a",
+    "cda6cbac1da8f0f09a8797778",
+    "cda838eb992bc949c76dd788a",
+    "cdc57535187a93426b3e916fd",
+    "cdd6c46f090fd6152ba327544",
+    "cdeebe27d92a4bc24b4486dff",
+    "ce5c0a6fdaba91ff6bbbde398",
+    "ce6eafa53a0ff8686c5672aec",
+    "cf9c7881b8a630c13ef0aa236"
+  ],
+  "query": "How often do I see my therapist, Dr. Smith?",
+  "clock": "2023-11-10T00:38:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c7e318df4438eec91e95516a7",
+        "score": 8.341428751115359
+      },
+      {
+        "source_id": "c7c69c7da8ff132228f7da07c",
+        "score": 7.8760693631791066
+      },
+      {
+        "source_id": "c7399d1b3f3f3d55a0a0320f5",
+        "score": 4.163533136474777
+      },
+      {
+        "source_id": "ccce03fdf2304eb349a534e15",
+        "score": 3.66056066888529
+      },
+      {
+        "source_id": "c74a99ee340a6287e307df4e0",
+        "score": 3.0771537687964527
+      },
+      {
+        "source_id": "cb2a4e6228ed4f8359dd3d597",
+        "score": 2.911169794989981
+      },
+      {
+        "source_id": "c27c977222326ce7d6731ef98",
+        "score": 2.4051247004863083
+      },
+      {
+        "source_id": "c299970df4c8f6bc670a712a2",
+        "score": 1.625968759463911
+      },
+      {
+        "source_id": "ce6eafa53a0ff8686c5672aec",
+        "score": 0.6210119775252478
+      },
+      {
+        "source_id": "c5df939aa5158cef650a0fcc6",
+        "score": 0.5926132705530478
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c7e318df4438eec91e95516a7",
+        "score": 0.40482393549626605
+      },
+      {
+        "source_id": "c7c69c7da8ff132228f7da07c",
+        "score": 0.38282115520584303
+      },
+      {
+        "source_id": "cda6cbac1da8f0f09a8797778",
+        "score": 0.33242804590166186
+      },
+      {
+        "source_id": "ce5c0a6fdaba91ff6bbbde398",
+        "score": 0.32558836954107623
+      },
+      {
+        "source_id": "c6c0ccf8e602d4c44a58ad644",
+        "score": 0.295342449980723
+      },
+      {
+        "source_id": "cf9c7881b8a630c13ef0aa236",
+        "score": 0.24296666629431182
+      },
+      {
+        "source_id": "c7399d1b3f3f3d55a0a0320f5",
+        "score": 0.2164580928763469
+      },
+      {
+        "source_id": "c5df939aa5158cef650a0fcc6",
+        "score": 0.1936674571361378
+      },
+      {
+        "source_id": "cda838eb992bc949c76dd788a",
+        "score": 0.1845867098934698
+      },
+      {
+        "source_id": "c67822aca81ba1f8a630d9925",
+        "score": 0.17361205969807775
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0035088330041617155,
+  "cached_query_search_seconds": 0.0026596251409500837
+}

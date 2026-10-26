@@ -1,0 +1,129 @@
+{
+  "case_id": "C125",
+  "cohort": "locomo_random200",
+  "family": "conv-47",
+  "source_ids": [
+    "c092ef4f8fbd66e0df16f2b95",
+    "c09427b85c116f01a646d5c44",
+    "c0e738c3f85f5533071855000",
+    "c15f5a7e7b76836f1cee30a79",
+    "c2fa2d8a46051b38c61cf603d",
+    "c30d040e0845c7e5daf99a954",
+    "c3eabd97e70cbbcde30ffb715",
+    "c447e640524017aa5b213a7ff",
+    "c49bdc6ed8bccc4d0059dd71e",
+    "c5ff6583bd9fa67f2cae1b861",
+    "c6f70416cff9b6959ff7e9df7",
+    "c6fb96d53122918529a99e7df",
+    "c709a41573d43d19b1dc755ba",
+    "c7197c346ff3f90ba3a610bb4",
+    "c7748483c11f30c8402c203b1",
+    "c8e125f35c78d853d6db8c5d7",
+    "c9068063ccb39205237d24350",
+    "c90cad23aa3b6a6876298ba0d",
+    "c929ee1431e361f0fdcb7299a",
+    "c9fb4a7e6c69f5882a6ea407c",
+    "ca54a39f1baffff7c7c2fd2a3",
+    "cb50c88f77449971d130cf8b3",
+    "cbb821dcf1cbe29465f76da7d",
+    "cbddd4c9ffb6a43714b4dac0f",
+    "cbe0886c4663549f807e6829b",
+    "cd9944926501b1f68d99a3145",
+    "cde8756ab379f796052821cfd",
+    "ce75c23c4a140576e602f23d9",
+    "cf1dedfce6f0bcf5498202bed",
+    "cfa557968fa500b1c93488638",
+    "cfa66ef0902b96e0b34cb56f8"
+  ],
+  "query": "What inspired James to create his game?",
+  "clock": "2022-11-07T20:57:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cfa557968fa500b1c93488638",
+        "score": 3.72392361488421
+      },
+      {
+        "source_id": "c447e640524017aa5b213a7ff",
+        "score": 2.3003072623528737
+      },
+      {
+        "source_id": "c8e125f35c78d853d6db8c5d7",
+        "score": 2.191400759883675
+      },
+      {
+        "source_id": "c929ee1431e361f0fdcb7299a",
+        "score": 2.1387766407277993
+      },
+      {
+        "source_id": "cde8756ab379f796052821cfd",
+        "score": 1.8080149491057014
+      },
+      {
+        "source_id": "c9fb4a7e6c69f5882a6ea407c",
+        "score": 1.7870529010964953
+      },
+      {
+        "source_id": "c15f5a7e7b76836f1cee30a79",
+        "score": 1.7155066753505632
+      },
+      {
+        "source_id": "c7197c346ff3f90ba3a610bb4",
+        "score": 1.600211888100595
+      },
+      {
+        "source_id": "c6f70416cff9b6959ff7e9df7",
+        "score": 1.3591637351175818
+      },
+      {
+        "source_id": "c09427b85c116f01a646d5c44",
+        "score": 1.1386410510622378
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "ca54a39f1baffff7c7c2fd2a3",
+        "score": 0.5896318517451483
+      },
+      {
+        "source_id": "c929ee1431e361f0fdcb7299a",
+        "score": 0.544538436291973
+      },
+      {
+        "source_id": "c7197c346ff3f90ba3a610bb4",
+        "score": 0.4950371038714412
+      },
+      {
+        "source_id": "c90cad23aa3b6a6876298ba0d",
+        "score": 0.48742103264928016
+      },
+      {
+        "source_id": "c6f70416cff9b6959ff7e9df7",
+        "score": 0.48731472299018297
+      },
+      {
+        "source_id": "c447e640524017aa5b213a7ff",
+        "score": 0.4792147604105643
+      },
+      {
+        "source_id": "cb50c88f77449971d130cf8b3",
+        "score": 0.4740742272144004
+      },
+      {
+        "source_id": "c30d040e0845c7e5daf99a954",
+        "score": 0.440687291804194
+      },
+      {
+        "source_id": "c9fb4a7e6c69f5882a6ea407c",
+        "score": 0.43330176425618394
+      },
+      {
+        "source_id": "cfa557968fa500b1c93488638",
+        "score": 0.43024535373230094
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.919696271419525e-07,
+  "cached_query_search_seconds": 0.002991250017657876
+}

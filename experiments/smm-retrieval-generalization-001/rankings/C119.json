@@ -1,0 +1,123 @@
+{
+  "case_id": "C119",
+  "cohort": "locomo_random200",
+  "family": "conv-49",
+  "source_ids": [
+    "c07561544ce4905b370f05a64",
+    "c099c629be363928b0b525ceb",
+    "c176d5ff52917b2bf853bccc7",
+    "c193b96709859e85ecedd4908",
+    "c1a8a7bafb176afe97c2f6f73",
+    "c2785dde695156c4f1768092c",
+    "c2f12dc07f25a1e218993ed1f",
+    "c307fa733602b5c35078e8b1c",
+    "c3973ef7209c4f8593d414719",
+    "c69ba3d6f08c60322fc11b618",
+    "c7e394a58a9aeb450c6944ab5",
+    "c7f5fa84a9e9f6afef6a69e20",
+    "c80933eca566601dd4f87b01e",
+    "c8b39ab3ed8428d688548cf45",
+    "caff6cd8c86e41346f2f7b285",
+    "cbafb868a8fff7fe7c9d71bd3",
+    "cbb1f5f9f502548db83571781",
+    "cd387b85982a45e4f67498a15",
+    "ce16827ef2d2880adb8c2f7a0",
+    "ce49b7c6f8092a7995fd418ac",
+    "ceb46e757307c69f8dadac445",
+    "cf759389a4295787695124229",
+    "cf849f5da2d43d7ff8d50a01b",
+    "cf9d2cb3717128b0afe4b3b73",
+    "cfdb086509e9507eb56336975"
+  ],
+  "query": "Which US state was Sam travelling in during October 2023?",
+  "clock": "2024-01-11T21:37:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c307fa733602b5c35078e8b1c",
+        "score": 3.006358998754222
+      },
+      {
+        "source_id": "cf9d2cb3717128b0afe4b3b73",
+        "score": 2.30958646483949
+      },
+      {
+        "source_id": "cbb1f5f9f502548db83571781",
+        "score": 2.2390793055737928
+      },
+      {
+        "source_id": "ce49b7c6f8092a7995fd418ac",
+        "score": 2.1677583768919777
+      },
+      {
+        "source_id": "c2785dde695156c4f1768092c",
+        "score": 1.5098445534899299
+      },
+      {
+        "source_id": "ceb46e757307c69f8dadac445",
+        "score": 0.7521756288527484
+      },
+      {
+        "source_id": "c8b39ab3ed8428d688548cf45",
+        "score": 0.7233200213388336
+      },
+      {
+        "source_id": "c07561544ce4905b370f05a64",
+        "score": 0.6938687840397058
+      },
+      {
+        "source_id": "c69ba3d6f08c60322fc11b618",
+        "score": 0.6900855485072876
+      },
+      {
+        "source_id": "c2f12dc07f25a1e218993ed1f",
+        "score": 0.663724308848529
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf759389a4295787695124229",
+        "score": 0.39474471145135526
+      },
+      {
+        "source_id": "c80933eca566601dd4f87b01e",
+        "score": 0.36941314925899604
+      },
+      {
+        "source_id": "caff6cd8c86e41346f2f7b285",
+        "score": 0.3610873650667844
+      },
+      {
+        "source_id": "c8b39ab3ed8428d688548cf45",
+        "score": 0.35046423980865554
+      },
+      {
+        "source_id": "c07561544ce4905b370f05a64",
+        "score": 0.3444334271665237
+      },
+      {
+        "source_id": "cbb1f5f9f502548db83571781",
+        "score": 0.309723729199628
+      },
+      {
+        "source_id": "c3973ef7209c4f8593d414719",
+        "score": 0.3091546648417511
+      },
+      {
+        "source_id": "c176d5ff52917b2bf853bccc7",
+        "score": 0.30686575304847497
+      },
+      {
+        "source_id": "cbafb868a8fff7fe7c9d71bd3",
+        "score": 0.290475885034052
+      },
+      {
+        "source_id": "ce49b7c6f8092a7995fd418ac",
+        "score": 0.27386514598401857
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 5.420297384262085e-07,
+  "cached_query_search_seconds": 0.0033213328570127487
+}

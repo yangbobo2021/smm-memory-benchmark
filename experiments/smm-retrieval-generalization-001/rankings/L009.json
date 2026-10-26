@@ -1,0 +1,139 @@
+{
+  "case_id": "L009",
+  "cohort": "longmemeval_new32",
+  "family": "ba358f49",
+  "source_ids": [
+    "c0b2e64ec1a94e437d922abe6",
+    "c0c686bb828158c288be995c9",
+    "c140f6144ada02992092137d6",
+    "c170d2d0bcdd841081de093c5",
+    "c1bc8cd164f95e3cbb4d2b554",
+    "c20354b2ef237982857b6616a",
+    "c24da3c1c87b516027fa2dd8e",
+    "c2a198b85ea3c8cbc899efe15",
+    "c2adc40550224270cf81b2294",
+    "c36fd33e9a56521ec1f49a0c1",
+    "c3d89532992664c7506b97b50",
+    "c400af50190eeb01cb4dd3f0f",
+    "c404afe0f9b8e16c79afb95ba",
+    "c4e61e92f341cfc9020afbbdf",
+    "c564e601051c844405e3f760d",
+    "c5f88e2ca018b70cfd8b1cd07",
+    "c5fea63655ba417e322680ef4",
+    "c7334a9f4768a11ad5588b2e7",
+    "c7ca33ce038ed47ac135bf4c7",
+    "c7e1d06e479acbd540f302056",
+    "c7f14c2c7216c49ebf0c36abf",
+    "c7f5ea14fbef5447e4362969a",
+    "c805d307f0bb58f0133cee84f",
+    "c9a0fb8b0422000338fc46ba9",
+    "ca309c807801b5e85bf457337",
+    "ca9418c4971315c812ae4925d",
+    "ca9bf230c276fd8940219fc40",
+    "caa5e5e31820854cca9c5a998",
+    "cb02bbaef931497f342561068",
+    "cb085d2aab287750bf4ff6afe",
+    "cbeacba545f767feb0b273a1b",
+    "cd17333bd7547ad688c11edb1",
+    "cd7adcb0ff76e597f2bb4d9e3",
+    "cd9410e0c29c03911a41cd57e",
+    "cdd0d70c7f4cb460d00539f44",
+    "ce60cc521688ccbf33aea7bc9",
+    "ce6d87afcd08f718793c3c6c5",
+    "ced1621b2bfeaefbc84e6a651",
+    "cf4af3e292bc87e7eff6fc906",
+    "cf8ca7498f3b83dfa587ddb97",
+    "cfa2d0dc5896c7163e4e3e90c"
+  ],
+  "query": "How many years will I be when my friend Rachel gets married?",
+  "clock": "2022-09-01T23:52:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cdd0d70c7f4cb460d00539f44",
+        "score": 10.522958402125958
+      },
+      {
+        "source_id": "cd9410e0c29c03911a41cd57e",
+        "score": 3.1895945687615193
+      },
+      {
+        "source_id": "c805d307f0bb58f0133cee84f",
+        "score": 2.911976912332267
+      },
+      {
+        "source_id": "c5fea63655ba417e322680ef4",
+        "score": 2.826081143978816
+      },
+      {
+        "source_id": "c2a198b85ea3c8cbc899efe15",
+        "score": 2.5921440589257103
+      },
+      {
+        "source_id": "c9a0fb8b0422000338fc46ba9",
+        "score": 2.2943200007898445
+      },
+      {
+        "source_id": "ce6d87afcd08f718793c3c6c5",
+        "score": 2.0786444297015065
+      },
+      {
+        "source_id": "c564e601051c844405e3f760d",
+        "score": 1.874844152777617
+      },
+      {
+        "source_id": "c7ca33ce038ed47ac135bf4c7",
+        "score": 1.8746627432918879
+      },
+      {
+        "source_id": "c36fd33e9a56521ec1f49a0c1",
+        "score": 1.6724551186472363
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cdd0d70c7f4cb460d00539f44",
+        "score": 0.2167539419534657
+      },
+      {
+        "source_id": "c0b2e64ec1a94e437d922abe6",
+        "score": 0.18599453203988128
+      },
+      {
+        "source_id": "c2a198b85ea3c8cbc899efe15",
+        "score": 0.18020701052168175
+      },
+      {
+        "source_id": "cf4af3e292bc87e7eff6fc906",
+        "score": 0.17863965484950795
+      },
+      {
+        "source_id": "cb02bbaef931497f342561068",
+        "score": 0.17167045718029492
+      },
+      {
+        "source_id": "c36fd33e9a56521ec1f49a0c1",
+        "score": 0.16559152717624936
+      },
+      {
+        "source_id": "c1bc8cd164f95e3cbb4d2b554",
+        "score": 0.16172310122365832
+      },
+      {
+        "source_id": "c5fea63655ba417e322680ef4",
+        "score": 0.13128192811584727
+      },
+      {
+        "source_id": "c805d307f0bb58f0133cee84f",
+        "score": 0.12941213268220716
+      },
+      {
+        "source_id": "c4e61e92f341cfc9020afbbdf",
+        "score": 0.12433643565601768
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003561542136594653,
+  "cached_query_search_seconds": 0.003935583168640733
+}

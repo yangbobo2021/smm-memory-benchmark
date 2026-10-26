@@ -1,0 +1,123 @@
+{
+  "case_id": "C044",
+  "cohort": "locomo_random200",
+  "family": "conv-49",
+  "source_ids": [
+    "c07561544ce4905b370f05a64",
+    "c099c629be363928b0b525ceb",
+    "c176d5ff52917b2bf853bccc7",
+    "c193b96709859e85ecedd4908",
+    "c1a8a7bafb176afe97c2f6f73",
+    "c2785dde695156c4f1768092c",
+    "c2f12dc07f25a1e218993ed1f",
+    "c307fa733602b5c35078e8b1c",
+    "c3973ef7209c4f8593d414719",
+    "c69ba3d6f08c60322fc11b618",
+    "c7e394a58a9aeb450c6944ab5",
+    "c7f5fa84a9e9f6afef6a69e20",
+    "c80933eca566601dd4f87b01e",
+    "c8b39ab3ed8428d688548cf45",
+    "caff6cd8c86e41346f2f7b285",
+    "cbafb868a8fff7fe7c9d71bd3",
+    "cbb1f5f9f502548db83571781",
+    "cd387b85982a45e4f67498a15",
+    "ce16827ef2d2880adb8c2f7a0",
+    "ce49b7c6f8092a7995fd418ac",
+    "ceb46e757307c69f8dadac445",
+    "cf759389a4295787695124229",
+    "cf849f5da2d43d7ff8d50a01b",
+    "cf9d2cb3717128b0afe4b3b73",
+    "cfdb086509e9507eb56336975"
+  ],
+  "query": "What did Evan share with Sam after their hiking trip?",
+  "clock": "2024-01-11T21:37:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf759389a4295787695124229",
+        "score": 3.9162442640417474
+      },
+      {
+        "source_id": "ceb46e757307c69f8dadac445",
+        "score": 3.642223370092271
+      },
+      {
+        "source_id": "c7f5fa84a9e9f6afef6a69e20",
+        "score": 2.818896394404061
+      },
+      {
+        "source_id": "c2f12dc07f25a1e218993ed1f",
+        "score": 2.388121120349931
+      },
+      {
+        "source_id": "c307fa733602b5c35078e8b1c",
+        "score": 2.1821980873202236
+      },
+      {
+        "source_id": "c80933eca566601dd4f87b01e",
+        "score": 2.018556152561397
+      },
+      {
+        "source_id": "cbafb868a8fff7fe7c9d71bd3",
+        "score": 1.93714547133209
+      },
+      {
+        "source_id": "cbb1f5f9f502548db83571781",
+        "score": 1.8270552334110424
+      },
+      {
+        "source_id": "caff6cd8c86e41346f2f7b285",
+        "score": 1.6655701480352478
+      },
+      {
+        "source_id": "c07561544ce4905b370f05a64",
+        "score": 1.5151876879101986
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c80933eca566601dd4f87b01e",
+        "score": 0.6622899510801489
+      },
+      {
+        "source_id": "cf759389a4295787695124229",
+        "score": 0.5638222959214992
+      },
+      {
+        "source_id": "caff6cd8c86e41346f2f7b285",
+        "score": 0.5260788666701911
+      },
+      {
+        "source_id": "c8b39ab3ed8428d688548cf45",
+        "score": 0.4951261769350739
+      },
+      {
+        "source_id": "cbafb868a8fff7fe7c9d71bd3",
+        "score": 0.4788276437370312
+      },
+      {
+        "source_id": "c193b96709859e85ecedd4908",
+        "score": 0.47204912832839585
+      },
+      {
+        "source_id": "c307fa733602b5c35078e8b1c",
+        "score": 0.4622527352716943
+      },
+      {
+        "source_id": "c176d5ff52917b2bf853bccc7",
+        "score": 0.4622119845966443
+      },
+      {
+        "source_id": "ce49b7c6f8092a7995fd418ac",
+        "score": 0.46214336523570243
+      },
+      {
+        "source_id": "c07561544ce4905b370f05a64",
+        "score": 0.4611275281780205
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.3294782042503357e-07,
+  "cached_query_search_seconds": 0.003396332962438464
+}

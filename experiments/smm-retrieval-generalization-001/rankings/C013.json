@@ -1,0 +1,128 @@
+{
+  "case_id": "C013",
+  "cohort": "locomo_random200",
+  "family": "conv-48",
+  "source_ids": [
+    "c06b05fa17da9e8f00ee57d0d",
+    "c09bc9554c3b0c98492c32c81",
+    "c0bd6d585125c12bf99e3cff2",
+    "c0bf12013b35209c9683e75b3",
+    "c19c6e45aa9b8d6fcc413294d",
+    "c1e8ffdbe1b252d4759206fb0",
+    "c2eefcadc6f59c9fec4337f58",
+    "c3768542296c1b5d0e96e210e",
+    "c3e30e69661f2f9182ff75977",
+    "c4416e514f6f8a90ab0784115",
+    "c5a1159bc98596610a32be898",
+    "c5db4ceed5f9ef14b48a93ed5",
+    "c61f7a070754bc8f68b39868b",
+    "c6c80e76eed791999c8e20062",
+    "c741631fb6839e944cc293c6b",
+    "c75de8240dc1ad93ba45a6a5a",
+    "c80c26d9b4a0367f9f0d24164",
+    "c816d95de6221988ebca1ed21",
+    "c88f5066bf38856684d4e0174",
+    "ca9bbcf4941dc907d216bf0e1",
+    "caa68955e73ce32d84871eeb3",
+    "cd28400222ff75b73ef5ac3cb",
+    "cd29d675851d8193fa1b19641",
+    "cd6c8d12b2ea116c2dc3f7be7",
+    "cd7c3763c669b10838fb7cafc",
+    "cdd0240e55617043f9fefa732",
+    "cde1dfba519737390a9ad4dce",
+    "ce58fa7a79aad99ab659c719b",
+    "cfbf7710899149b386898525a",
+    "cfe686805a979f856ed2a31c7"
+  ],
+  "query": "In what country did Jolene buy snake Seraphim?",
+  "clock": "2023-09-20T10:17:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c0bd6d585125c12bf99e3cff2",
+        "score": 3.9961855595189766
+      },
+      {
+        "source_id": "cfbf7710899149b386898525a",
+        "score": 3.6005324773442875
+      },
+      {
+        "source_id": "c88f5066bf38856684d4e0174",
+        "score": 2.737416782611317
+      },
+      {
+        "source_id": "c2eefcadc6f59c9fec4337f58",
+        "score": 2.246763216513467
+      },
+      {
+        "source_id": "c741631fb6839e944cc293c6b",
+        "score": 1.9669735657577145
+      },
+      {
+        "source_id": "c0bf12013b35209c9683e75b3",
+        "score": 1.6133216194018416
+      },
+      {
+        "source_id": "c61f7a070754bc8f68b39868b",
+        "score": 6.982374081859914e-06
+      },
+      {
+        "source_id": "c6c80e76eed791999c8e20062",
+        "score": 6.5191077380664555e-06
+      },
+      {
+        "source_id": "cde1dfba519737390a9ad4dce",
+        "score": 6.507028525972822e-06
+      },
+      {
+        "source_id": "c5db4ceed5f9ef14b48a93ed5",
+        "score": 6.5011663416683305e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c6c80e76eed791999c8e20062",
+        "score": 0.4274634312521376
+      },
+      {
+        "source_id": "c0bd6d585125c12bf99e3cff2",
+        "score": 0.3763154537105016
+      },
+      {
+        "source_id": "cfbf7710899149b386898525a",
+        "score": 0.36144394212098385
+      },
+      {
+        "source_id": "c2eefcadc6f59c9fec4337f58",
+        "score": 0.359763026450385
+      },
+      {
+        "source_id": "c741631fb6839e944cc293c6b",
+        "score": 0.34300217255659865
+      },
+      {
+        "source_id": "c0bf12013b35209c9683e75b3",
+        "score": 0.3319373968680646
+      },
+      {
+        "source_id": "c4416e514f6f8a90ab0784115",
+        "score": 0.2800027268412517
+      },
+      {
+        "source_id": "c80c26d9b4a0367f9f0d24164",
+        "score": 0.2749125380998722
+      },
+      {
+        "source_id": "c88f5066bf38856684d4e0174",
+        "score": 0.27271265096120384
+      },
+      {
+        "source_id": "c5a1159bc98596610a32be898",
+        "score": 0.2722983017287677
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 4.169996827840805e-07,
+  "cached_query_search_seconds": 0.0030044170562177896
+}

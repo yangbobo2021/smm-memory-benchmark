@@ -1,0 +1,117 @@
+{
+  "case_id": "C103",
+  "cohort": "locomo_random200",
+  "family": "conv-30",
+  "source_ids": [
+    "c002df39626b88670b2b2059a",
+    "c053959005c44b8e1c4bc4d68",
+    "c1e820ecc40269ca06cd57f52",
+    "c373840166141e9b586ef7866",
+    "c3d99bc9a646cbf0bf1ad99e7",
+    "c5285fec8efa2f363a708f85e",
+    "c5bf38a741fa6aa665a48f63d",
+    "c5e499f3f44b2b99dfa1e6936",
+    "c6b3a3d8807f81d16f165f6f7",
+    "c6b94ce927a7905fea87746d0",
+    "c70fc90df7fdacfbf0da310b2",
+    "c720049e6bb5892226d5c4c94",
+    "c780bc24135b6b97b373811c4",
+    "c7b81de162b16c76746562aa9",
+    "c9aff67e0ada07c3fa33c5c13",
+    "cb7dcd9a40047f36005366699",
+    "cf4d692d08f9e8ab716341940",
+    "cf6e33c71e7940eb2df0c3040",
+    "cf90f45bb6f014750a14041dc"
+  ],
+  "query": "Which events has Jon participated in to promote his business venture?",
+  "clock": "2023-07-23T18:46:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c002df39626b88670b2b2059a",
+        "score": 3.750007410192015
+      },
+      {
+        "source_id": "cf90f45bb6f014750a14041dc",
+        "score": 2.7552081836353035
+      },
+      {
+        "source_id": "c6b94ce927a7905fea87746d0",
+        "score": 2.752073164709843
+      },
+      {
+        "source_id": "c7b81de162b16c76746562aa9",
+        "score": 1.7446339076010506
+      },
+      {
+        "source_id": "c5bf38a741fa6aa665a48f63d",
+        "score": 0.13812719131615683
+      },
+      {
+        "source_id": "c5e499f3f44b2b99dfa1e6936",
+        "score": 0.12178053289448376
+      },
+      {
+        "source_id": "c5285fec8efa2f363a708f85e",
+        "score": 0.10830614457888449
+      },
+      {
+        "source_id": "cb7dcd9a40047f36005366699",
+        "score": 0.10799663634171255
+      },
+      {
+        "source_id": "c780bc24135b6b97b373811c4",
+        "score": 0.10480710818891849
+      },
+      {
+        "source_id": "c3d99bc9a646cbf0bf1ad99e7",
+        "score": 0.10442070403229355
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf4d692d08f9e8ab716341940",
+        "score": 0.40778825388981643
+      },
+      {
+        "source_id": "c720049e6bb5892226d5c4c94",
+        "score": 0.4009783141185506
+      },
+      {
+        "source_id": "c7b81de162b16c76746562aa9",
+        "score": 0.3898623691681662
+      },
+      {
+        "source_id": "c5bf38a741fa6aa665a48f63d",
+        "score": 0.3863688074217471
+      },
+      {
+        "source_id": "c780bc24135b6b97b373811c4",
+        "score": 0.3757107010468054
+      },
+      {
+        "source_id": "c1e820ecc40269ca06cd57f52",
+        "score": 0.37174936674347014
+      },
+      {
+        "source_id": "c053959005c44b8e1c4bc4d68",
+        "score": 0.3705027756717997
+      },
+      {
+        "source_id": "c6b3a3d8807f81d16f165f6f7",
+        "score": 0.3645678519413085
+      },
+      {
+        "source_id": "c002df39626b88670b2b2059a",
+        "score": 0.350077292815022
+      },
+      {
+        "source_id": "cf90f45bb6f014750a14041dc",
+        "score": 0.34892081941898945
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 4.169996827840805e-07,
+  "cached_query_search_seconds": 0.0034050000831484795
+}

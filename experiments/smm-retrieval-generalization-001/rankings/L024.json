@@ -1,0 +1,141 @@
+{
+  "case_id": "L024",
+  "cohort": "longmemeval_new32",
+  "family": "2ebe6c90",
+  "source_ids": [
+    "c04effad784e2f77cb15a2814",
+    "c07cb5dd33b14a49d5f58b42e",
+    "c104dad6fe90a0ce488ee0022",
+    "c1364794e4d579f4052086525",
+    "c1596954e728eeab5eb89c79f",
+    "c16d36dd864f8499909e7de89",
+    "c17c9578a8a9a266e5f2267d5",
+    "c29a2b063b8776ad529dbeb5d",
+    "c2e42ddc514d09eeb4ac58d55",
+    "c3d4e058a0d7f341c2a976f77",
+    "c42968ab0f3213a4a2bb29c50",
+    "c4e8673691004b20a72629615",
+    "c506ec656a9dcc5d61310e1c4",
+    "c58b253dc30f9b772c492e151",
+    "c5ae36400cb881caf712accaf",
+    "c5c0a48e429ec6cb03c2a33e2",
+    "c5fa91563bf657e77a97f5e6f",
+    "c67cad30a30e868f54eec4dda",
+    "c67e9292989f41e95a2e62542",
+    "c6b1129e4032de36e8f05de23",
+    "c728eefb259903324a1447287",
+    "c8a859229eb1080ffa4511793",
+    "c93b52f28f1749b251c4e99dd",
+    "c978674b4b1060f05d34a220a",
+    "c9a80376b79d165479b462a1a",
+    "ca020003ff9fd37996a782c95",
+    "cb3465af655f91a21cb89a872",
+    "cb5516d513d2a7ad2bb38fcf6",
+    "cbd16236a8cff8f31118b0e23",
+    "cbe2c96501b5053305a739e6e",
+    "cc13af7d35ec303fb7f1ce525",
+    "cd1c59ecd1256d7d46ce86c51",
+    "cd49b5b470ed24bf7f67d94c5",
+    "cd52d3f1aa4f8e1a9c4ee378e",
+    "cd546567dd962f2cd81005bc3",
+    "cd6c5a14c0631871ce7a79b21",
+    "cdcda41b5e16ab017926d8be7",
+    "ce0471c57544a91c3d46bdf61",
+    "cf10b79970be0bbacbb9af97f",
+    "cf2ea71bdd197a85f2bf6296f",
+    "cf32a0efa4832cececb3b02d3",
+    "cf9eaf598a0f64271b447886e",
+    "cfd6d384cefc0f1f13bf9e6c8"
+  ],
+  "query": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+  "clock": "2023-05-01T21:05:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf9eaf598a0f64271b447886e",
+        "score": 14.1167407451163
+      },
+      {
+        "source_id": "c5ae36400cb881caf712accaf",
+        "score": 11.963822001859716
+      },
+      {
+        "source_id": "cf32a0efa4832cececb3b02d3",
+        "score": 5.026156898600364
+      },
+      {
+        "source_id": "c6b1129e4032de36e8f05de23",
+        "score": 4.062603240037512
+      },
+      {
+        "source_id": "cc13af7d35ec303fb7f1ce525",
+        "score": 2.4450130661480185
+      },
+      {
+        "source_id": "ca020003ff9fd37996a782c95",
+        "score": 2.3722760323475525
+      },
+      {
+        "source_id": "c67cad30a30e868f54eec4dda",
+        "score": 2.2880207176859844
+      },
+      {
+        "source_id": "c93b52f28f1749b251c4e99dd",
+        "score": 2.266417666248864
+      },
+      {
+        "source_id": "cb5516d513d2a7ad2bb38fcf6",
+        "score": 2.2261798569487348
+      },
+      {
+        "source_id": "cf2ea71bdd197a85f2bf6296f",
+        "score": 2.209350101271444
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf9eaf598a0f64271b447886e",
+        "score": 0.45599045329985577
+      },
+      {
+        "source_id": "cc13af7d35ec303fb7f1ce525",
+        "score": 0.42741141412311384
+      },
+      {
+        "source_id": "c5ae36400cb881caf712accaf",
+        "score": 0.3668140362666127
+      },
+      {
+        "source_id": "cd1c59ecd1256d7d46ce86c51",
+        "score": 0.24786331138402473
+      },
+      {
+        "source_id": "cf2ea71bdd197a85f2bf6296f",
+        "score": 0.21783562312056157
+      },
+      {
+        "source_id": "c42968ab0f3213a4a2bb29c50",
+        "score": 0.2130571449831975
+      },
+      {
+        "source_id": "cf10b79970be0bbacbb9af97f",
+        "score": 0.19047936217045852
+      },
+      {
+        "source_id": "c2e42ddc514d09eeb4ac58d55",
+        "score": 0.18540917247775818
+      },
+      {
+        "source_id": "c17c9578a8a9a266e5f2267d5",
+        "score": 0.17121175021175597
+      },
+      {
+        "source_id": "cb5516d513d2a7ad2bb38fcf6",
+        "score": 0.16803068460517095
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0036214999854564667,
+  "cached_query_search_seconds": 0.0044694580137729645
+}

@@ -1,0 +1,144 @@
+{
+  "case_id": "L016",
+  "cohort": "longmemeval_new32",
+  "family": "gpt4_e414231f",
+  "source_ids": [
+    "c0320c0df15aa69a84271eece",
+    "c032407e3987c6894a2ce7be4",
+    "c03ea980316b0a967b91f5d1e",
+    "c097964e735659a1332c30876",
+    "c0dc0720a6ca67c4f38936ea1",
+    "c18c31ef438c4e54943533366",
+    "c1fc44b20efd7945ef1b91190",
+    "c235e446844979e9cc7283637",
+    "c23e91ce27788c686a6fdc4fd",
+    "c337a005429bf250cb282b667",
+    "c3fbe850768cc242f8f4cb80a",
+    "c42270f5a31851540e82b50af",
+    "c458cab477bb969cd02b91ed5",
+    "c49c5afd42c8bbdbf84f4363a",
+    "c4c81e62277f847ae7773eaf3",
+    "c4ed2feba49243f82d321629e",
+    "c5038beece5dc5af935fc04f7",
+    "c5581396d80c45f7d5d4daf78",
+    "c5747787ee3da2e254e4dd7e6",
+    "c581297649aa6f0b9dfab71f7",
+    "c5f68c19745302eabc30196ca",
+    "c6e17d7efa539fb7ef158a049",
+    "c7055898f8ce5b0b32a02be10",
+    "c722ff0ea03e336a5a468c781",
+    "c7238d08fbbea10bb0a05abce",
+    "c79e8ad44c0feb39be2a66002",
+    "c7f7b4d3e45bcba4cbfdf065b",
+    "c867806af8aa0f7bdccda6afd",
+    "c926ae500f04542473c5723b7",
+    "c9432e5dc560fc8a9780e99c0",
+    "c95b3b8f50820b0d059b0f978",
+    "c95bd3cabbf7bab21eb789667",
+    "ca298477b136640bb621cb2cd",
+    "cadb5d80674204b2fc5f0a896",
+    "cb611540164483e62e9f5d5c5",
+    "cb71a3a723ea37f0964353e99",
+    "cb8f06f5cfc1012c198934769",
+    "cba63c3a67bfda8072b48f692",
+    "cbcf2e4398f2ed78309c55aa5",
+    "cbf9b971620da472f66b2c0e2",
+    "cc01b64bb471a65c200447f01",
+    "cc1f2573abecb2347ba7eb412",
+    "cc4dc1b7eef887e29f919f16a",
+    "cf2467f1ab4b3cfe9f1b05b58",
+    "cfc686ab9e62ea06fee7bdf44",
+    "cfe237583d5c800082d9816b2"
+  ],
+  "query": "Which bike did I fixed or serviced the past weekend?",
+  "clock": "2023-03-21T21:43:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cfe237583d5c800082d9816b2",
+        "score": 11.485077382441416
+      },
+      {
+        "source_id": "c4c81e62277f847ae7773eaf3",
+        "score": 5.2405177483941685
+      },
+      {
+        "source_id": "c926ae500f04542473c5723b7",
+        "score": 4.748281014488648
+      },
+      {
+        "source_id": "c3fbe850768cc242f8f4cb80a",
+        "score": 3.5770894784818714
+      },
+      {
+        "source_id": "cf2467f1ab4b3cfe9f1b05b58",
+        "score": 3.4403537102669235
+      },
+      {
+        "source_id": "c235e446844979e9cc7283637",
+        "score": 3.296242516288126
+      },
+      {
+        "source_id": "c0320c0df15aa69a84271eece",
+        "score": 2.7450402297925462
+      },
+      {
+        "source_id": "c337a005429bf250cb282b667",
+        "score": 2.548947606549197
+      },
+      {
+        "source_id": "cbcf2e4398f2ed78309c55aa5",
+        "score": 2.303093069213495
+      },
+      {
+        "source_id": "cbf9b971620da472f66b2c0e2",
+        "score": 2.176560003062417
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cfe237583d5c800082d9816b2",
+        "score": 0.44056102130026653
+      },
+      {
+        "source_id": "c4c81e62277f847ae7773eaf3",
+        "score": 0.4113947323146267
+      },
+      {
+        "source_id": "c3fbe850768cc242f8f4cb80a",
+        "score": 0.2712392062350364
+      },
+      {
+        "source_id": "cc4dc1b7eef887e29f919f16a",
+        "score": 0.21620713755051785
+      },
+      {
+        "source_id": "c926ae500f04542473c5723b7",
+        "score": 0.18189699360016126
+      },
+      {
+        "source_id": "c0dc0720a6ca67c4f38936ea1",
+        "score": 0.1724331414332577
+      },
+      {
+        "source_id": "c79e8ad44c0feb39be2a66002",
+        "score": 0.17193207662698598
+      },
+      {
+        "source_id": "cf2467f1ab4b3cfe9f1b05b58",
+        "score": 0.16994635498444183
+      },
+      {
+        "source_id": "c23e91ce27788c686a6fdc4fd",
+        "score": 0.16535171722090597
+      },
+      {
+        "source_id": "c5747787ee3da2e254e4dd7e6",
+        "score": 0.15451380627203462
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003706208895891905,
+  "cached_query_search_seconds": 0.00390541716478765
+}

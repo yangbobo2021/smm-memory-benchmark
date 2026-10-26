@@ -1,0 +1,128 @@
+{
+  "case_id": "C034",
+  "cohort": "locomo_random200",
+  "family": "conv-50",
+  "source_ids": [
+    "c11d8926381dd16ed2ace1502",
+    "c16225685a054da413ae7f82f",
+    "c1c393bf410c5ae3d8d75a966",
+    "c1d0a72c624bde6983b1e8b39",
+    "c216abd155f35f23dbaba9831",
+    "c28025042f4f2b86725b03b78",
+    "c323763f62fbc6608d3a60d9d",
+    "c347a5c918a85f34890688685",
+    "c34fcef33af22ef585e54cc9a",
+    "c43432414e53d1532caa8f2e0",
+    "c4dd42219399f83d35909cda3",
+    "c5f909707b97ef172706b298a",
+    "c7b8ad99d3d6f1001a8b803f3",
+    "c7c5ad2e78611ab12b70a4b10",
+    "c80f7d4f528b1f7f97121d35a",
+    "c8d0556eb6efb052d13cf789d",
+    "c90e4713780f878d264275228",
+    "c99fb7fe96d5c161f81dab820",
+    "c9e87d747219ed074b99d4fd0",
+    "ca114e7eb0f5679907c5fa27c",
+    "ca39eaaf27c7f70b451759471",
+    "cadc2b6d2af232f43868dadaf",
+    "cc7f4bada31c2e73d0871867a",
+    "cca727a82a4f1cdaddd44d63a",
+    "ce9bb43ac9b7111d09a348c09",
+    "cf1bbd88d7372a272cdcd01f2",
+    "cf301295140f53ea8a9690708",
+    "cfb683498a0d82dc4c19f61e4",
+    "cfcd794eced3ef4ef1b0b79b6",
+    "cfee7416163f9da91715a483f"
+  ],
+  "query": "When did Dave take a photo of a Boston clock tower?",
+  "clock": "2023-11-17T10:54:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf1bbd88d7372a272cdcd01f2",
+        "score": 8.896471455442617
+      },
+      {
+        "source_id": "c28025042f4f2b86725b03b78",
+        "score": 1.305134516366948e-05
+      },
+      {
+        "source_id": "c16225685a054da413ae7f82f",
+        "score": 1.2770300154566424e-05
+      },
+      {
+        "source_id": "c347a5c918a85f34890688685",
+        "score": 1.262306559250962e-05
+      },
+      {
+        "source_id": "cc7f4bada31c2e73d0871867a",
+        "score": 1.2218062733339467e-05
+      },
+      {
+        "source_id": "cca727a82a4f1cdaddd44d63a",
+        "score": 1.203268222867974e-05
+      },
+      {
+        "source_id": "ca39eaaf27c7f70b451759471",
+        "score": 1.1615205920614405e-05
+      },
+      {
+        "source_id": "c7b8ad99d3d6f1001a8b803f3",
+        "score": 1.1507471723226353e-05
+      },
+      {
+        "source_id": "c11d8926381dd16ed2ace1502",
+        "score": 1.1466020604407598e-05
+      },
+      {
+        "source_id": "c1d0a72c624bde6983b1e8b39",
+        "score": 1.1396846598436236e-05
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf1bbd88d7372a272cdcd01f2",
+        "score": 0.6099088576565593
+      },
+      {
+        "source_id": "c43432414e53d1532caa8f2e0",
+        "score": 0.3934378245154995
+      },
+      {
+        "source_id": "c9e87d747219ed074b99d4fd0",
+        "score": 0.3608033857836268
+      },
+      {
+        "source_id": "cca727a82a4f1cdaddd44d63a",
+        "score": 0.3595933151082053
+      },
+      {
+        "source_id": "c28025042f4f2b86725b03b78",
+        "score": 0.334833899794345
+      },
+      {
+        "source_id": "c8d0556eb6efb052d13cf789d",
+        "score": 0.3322466878689607
+      },
+      {
+        "source_id": "ca39eaaf27c7f70b451759471",
+        "score": 0.32550316039650273
+      },
+      {
+        "source_id": "c90e4713780f878d264275228",
+        "score": 0.3230487459711115
+      },
+      {
+        "source_id": "cc7f4bada31c2e73d0871867a",
+        "score": 0.31258453976837375
+      },
+      {
+        "source_id": "c347a5c918a85f34890688685",
+        "score": 0.31202474430724225
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 4.1606836020946503e-07,
+  "cached_query_search_seconds": 0.003704124828800559
+}

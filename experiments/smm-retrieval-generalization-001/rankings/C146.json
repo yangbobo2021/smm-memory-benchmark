@@ -1,0 +1,117 @@
+{
+  "case_id": "C146",
+  "cohort": "locomo_random200",
+  "family": "conv-30",
+  "source_ids": [
+    "c002df39626b88670b2b2059a",
+    "c053959005c44b8e1c4bc4d68",
+    "c1e820ecc40269ca06cd57f52",
+    "c373840166141e9b586ef7866",
+    "c3d99bc9a646cbf0bf1ad99e7",
+    "c5285fec8efa2f363a708f85e",
+    "c5bf38a741fa6aa665a48f63d",
+    "c5e499f3f44b2b99dfa1e6936",
+    "c6b3a3d8807f81d16f165f6f7",
+    "c6b94ce927a7905fea87746d0",
+    "c70fc90df7fdacfbf0da310b2",
+    "c720049e6bb5892226d5c4c94",
+    "c780bc24135b6b97b373811c4",
+    "c7b81de162b16c76746562aa9",
+    "c9aff67e0ada07c3fa33c5c13",
+    "cb7dcd9a40047f36005366699",
+    "cf4d692d08f9e8ab716341940",
+    "cf6e33c71e7940eb2df0c3040",
+    "cf90f45bb6f014750a14041dc"
+  ],
+  "query": "What is Jon offering to the dancers at his dance studio?",
+  "clock": "2023-07-23T18:46:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c1e820ecc40269ca06cd57f52",
+        "score": 4.092639922086553
+      },
+      {
+        "source_id": "c7b81de162b16c76746562aa9",
+        "score": 2.5575898523757945
+      },
+      {
+        "source_id": "c5e499f3f44b2b99dfa1e6936",
+        "score": 1.1452240236353441
+      },
+      {
+        "source_id": "c5bf38a741fa6aa665a48f63d",
+        "score": 0.7348198988655111
+      },
+      {
+        "source_id": "c373840166141e9b586ef7866",
+        "score": 0.6749997632356277
+      },
+      {
+        "source_id": "c6b3a3d8807f81d16f165f6f7",
+        "score": 0.5780540259369098
+      },
+      {
+        "source_id": "c3d99bc9a646cbf0bf1ad99e7",
+        "score": 1.4350389946692222e-05
+      },
+      {
+        "source_id": "c6b94ce927a7905fea87746d0",
+        "score": 1.336342266034881e-05
+      },
+      {
+        "source_id": "c053959005c44b8e1c4bc4d68",
+        "score": 1.311179390308483e-05
+      },
+      {
+        "source_id": "c9aff67e0ada07c3fa33c5c13",
+        "score": 1.2716941514271147e-05
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c1e820ecc40269ca06cd57f52",
+        "score": 0.63012506301632
+      },
+      {
+        "source_id": "c5bf38a741fa6aa665a48f63d",
+        "score": 0.5893930325159125
+      },
+      {
+        "source_id": "c5e499f3f44b2b99dfa1e6936",
+        "score": 0.552085553449535
+      },
+      {
+        "source_id": "c053959005c44b8e1c4bc4d68",
+        "score": 0.5395875919519357
+      },
+      {
+        "source_id": "c720049e6bb5892226d5c4c94",
+        "score": 0.5380634883887798
+      },
+      {
+        "source_id": "c6b3a3d8807f81d16f165f6f7",
+        "score": 0.5349976209219891
+      },
+      {
+        "source_id": "c780bc24135b6b97b373811c4",
+        "score": 0.5283377671093545
+      },
+      {
+        "source_id": "c9aff67e0ada07c3fa33c5c13",
+        "score": 0.5233153931447376
+      },
+      {
+        "source_id": "c7b81de162b16c76746562aa9",
+        "score": 0.5179608872072172
+      },
+      {
+        "source_id": "c373840166141e9b586ef7866",
+        "score": 0.4998483491967355
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.3294782042503357e-07,
+  "cached_query_search_seconds": 0.0034770420752465725
+}

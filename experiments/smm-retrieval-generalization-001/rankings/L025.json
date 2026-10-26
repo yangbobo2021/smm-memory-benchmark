@@ -1,0 +1,144 @@
+{
+  "case_id": "L025",
+  "cohort": "longmemeval_new32",
+  "family": "031748ae",
+  "source_ids": [
+    "c0281d711520f5f0364f8376a",
+    "c02bf7d4a2ed1b417a1d1b7c7",
+    "c0c11bc3a64deaa142ae28588",
+    "c0ec24007bd45319aa6ac7bb4",
+    "c105163929920855e9e571f7b",
+    "c16baf9db8061fe771de8dd9e",
+    "c2a9235f16401384d8d8b684d",
+    "c323b7315722ffd01d10373cd",
+    "c41226010dc8d39fb88f71add",
+    "c45bfbda0a58d47628a48b29c",
+    "c4c2915cc5a9037d7d05e457c",
+    "c521df76c1299ce189d6abecc",
+    "c544bbddbf7d1635fca015884",
+    "c58fdca03a8214b3fe9acac9f",
+    "c60bcd65dbdb2d218006cc856",
+    "c657e8a02ce2641280192c708",
+    "c6accf4f93ce3ef9a2d7ecdbd",
+    "c6c7cf71155cb577fd1e5b86f",
+    "c71d7bad5850708b5181a0ce5",
+    "c75bba0d69cc07a8be7603418",
+    "c783a8cd9e9c1058ff63eabf4",
+    "c7b177831b540b13b6003265e",
+    "c7dc040fabff2655d05831dd5",
+    "c88baef16b258a1b8e938fd65",
+    "c8a424632f3abfb2cee4b58a6",
+    "c8bbbfe3d16d05b00cd558ef5",
+    "c8cee984d7d67c5151049c4df",
+    "c944feac7b728fcf4f7781924",
+    "c9511dfd55b88d6345d94b6fd",
+    "c97a24dc1af53b5f79554e704",
+    "c99ece34110666033889061ba",
+    "c9a0515989b2649cd3cafea47",
+    "cba42790532f00395b38072de",
+    "cbf115f092593a4c3cf97585b",
+    "ccf19e106dc00157c9a052b2a",
+    "cd0c43553d4ea5187f7bca15c",
+    "cd661326b51d1fa4d46bc16fb",
+    "cd94852483d05a171393a653d",
+    "ce14e4639ce8800c2e9a3865e",
+    "ce95f728563b92046597e9456",
+    "cf058a53b517251958c4a54ec",
+    "cf0cbba178985ad1c6edbd21a",
+    "cf39529218a8fd982875c18ef",
+    "cf6a87141bc127f488abae3bd",
+    "cf77ff83e4aee779e72c7dfd2",
+    "cff020bc69a0da544d32360db"
+  ],
+  "query": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+  "clock": "2023-11-10T04:20:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf058a53b517251958c4a54ec",
+        "score": 21.945374737030683
+      },
+      {
+        "source_id": "c75bba0d69cc07a8be7603418",
+        "score": 19.52128396841409
+      },
+      {
+        "source_id": "cd661326b51d1fa4d46bc16fb",
+        "score": 4.4975406434958884
+      },
+      {
+        "source_id": "c0ec24007bd45319aa6ac7bb4",
+        "score": 4.171946459504953
+      },
+      {
+        "source_id": "c105163929920855e9e571f7b",
+        "score": 4.077878636128965
+      },
+      {
+        "source_id": "c9a0515989b2649cd3cafea47",
+        "score": 3.045963818502869
+      },
+      {
+        "source_id": "c99ece34110666033889061ba",
+        "score": 2.9187547407176275
+      },
+      {
+        "source_id": "c4c2915cc5a9037d7d05e457c",
+        "score": 2.8477080067059743
+      },
+      {
+        "source_id": "c8bbbfe3d16d05b00cd558ef5",
+        "score": 2.7940785735737332
+      },
+      {
+        "source_id": "cf6a87141bc127f488abae3bd",
+        "score": 2.3861195236242523
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf058a53b517251958c4a54ec",
+        "score": 0.6145506547441485
+      },
+      {
+        "source_id": "c75bba0d69cc07a8be7603418",
+        "score": 0.41192549505997655
+      },
+      {
+        "source_id": "c97a24dc1af53b5f79554e704",
+        "score": 0.2908438932835125
+      },
+      {
+        "source_id": "cf0cbba178985ad1c6edbd21a",
+        "score": 0.22795443824219297
+      },
+      {
+        "source_id": "ce14e4639ce8800c2e9a3865e",
+        "score": 0.19953093445289205
+      },
+      {
+        "source_id": "c105163929920855e9e571f7b",
+        "score": 0.1825934241936311
+      },
+      {
+        "source_id": "c6c7cf71155cb577fd1e5b86f",
+        "score": 0.18043734413643112
+      },
+      {
+        "source_id": "c8a424632f3abfb2cee4b58a6",
+        "score": 0.1776123930015987
+      },
+      {
+        "source_id": "c02bf7d4a2ed1b417a1d1b7c7",
+        "score": 0.1753238179736948
+      },
+      {
+        "source_id": "ce95f728563b92046597e9456",
+        "score": 0.17190399903695253
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003771374933421612,
+  "cached_query_search_seconds": 0.006403750041499734
+}

@@ -1,0 +1,128 @@
+{
+  "case_id": "C167",
+  "cohort": "locomo_random200",
+  "family": "conv-48",
+  "source_ids": [
+    "c06b05fa17da9e8f00ee57d0d",
+    "c09bc9554c3b0c98492c32c81",
+    "c0bd6d585125c12bf99e3cff2",
+    "c0bf12013b35209c9683e75b3",
+    "c19c6e45aa9b8d6fcc413294d",
+    "c1e8ffdbe1b252d4759206fb0",
+    "c2eefcadc6f59c9fec4337f58",
+    "c3768542296c1b5d0e96e210e",
+    "c3e30e69661f2f9182ff75977",
+    "c4416e514f6f8a90ab0784115",
+    "c5a1159bc98596610a32be898",
+    "c5db4ceed5f9ef14b48a93ed5",
+    "c61f7a070754bc8f68b39868b",
+    "c6c80e76eed791999c8e20062",
+    "c741631fb6839e944cc293c6b",
+    "c75de8240dc1ad93ba45a6a5a",
+    "c80c26d9b4a0367f9f0d24164",
+    "c816d95de6221988ebca1ed21",
+    "c88f5066bf38856684d4e0174",
+    "ca9bbcf4941dc907d216bf0e1",
+    "caa68955e73ce32d84871eeb3",
+    "cd28400222ff75b73ef5ac3cb",
+    "cd29d675851d8193fa1b19641",
+    "cd6c8d12b2ea116c2dc3f7be7",
+    "cd7c3763c669b10838fb7cafc",
+    "cdd0240e55617043f9fefa732",
+    "cde1dfba519737390a9ad4dce",
+    "ce58fa7a79aad99ab659c719b",
+    "cfbf7710899149b386898525a",
+    "cfe686805a979f856ed2a31c7"
+  ],
+  "query": "What type of projects is Jolene interested in getting involved in the future?",
+  "clock": "2023-09-20T10:17:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c6c80e76eed791999c8e20062",
+        "score": 11.557253960159953
+      },
+      {
+        "source_id": "cfe686805a979f856ed2a31c7",
+        "score": 3.5569661741612046
+      },
+      {
+        "source_id": "ca9bbcf4941dc907d216bf0e1",
+        "score": 3.5316465612796955
+      },
+      {
+        "source_id": "c5a1159bc98596610a32be898",
+        "score": 2.6894375455596022
+      },
+      {
+        "source_id": "cd6c8d12b2ea116c2dc3f7be7",
+        "score": 2.380561032498925
+      },
+      {
+        "source_id": "cd28400222ff75b73ef5ac3cb",
+        "score": 2.0768397376623424
+      },
+      {
+        "source_id": "c741631fb6839e944cc293c6b",
+        "score": 1.9570943171666773
+      },
+      {
+        "source_id": "c1e8ffdbe1b252d4759206fb0",
+        "score": 1.5073263874629947
+      },
+      {
+        "source_id": "cdd0240e55617043f9fefa732",
+        "score": 1.4999843293751292
+      },
+      {
+        "source_id": "c4416e514f6f8a90ab0784115",
+        "score": 1.4285655775813166
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c6c80e76eed791999c8e20062",
+        "score": 0.6097221443143077
+      },
+      {
+        "source_id": "cdd0240e55617043f9fefa732",
+        "score": 0.5115996585600584
+      },
+      {
+        "source_id": "cd6c8d12b2ea116c2dc3f7be7",
+        "score": 0.5002006570003806
+      },
+      {
+        "source_id": "c61f7a070754bc8f68b39868b",
+        "score": 0.4966309273096599
+      },
+      {
+        "source_id": "ca9bbcf4941dc907d216bf0e1",
+        "score": 0.4588799392044248
+      },
+      {
+        "source_id": "c4416e514f6f8a90ab0784115",
+        "score": 0.4512660692469216
+      },
+      {
+        "source_id": "cd7c3763c669b10838fb7cafc",
+        "score": 0.4399630921037031
+      },
+      {
+        "source_id": "c3e30e69661f2f9182ff75977",
+        "score": 0.4370395985743394
+      },
+      {
+        "source_id": "c1e8ffdbe1b252d4759206fb0",
+        "score": 0.4251202056279385
+      },
+      {
+        "source_id": "cfbf7710899149b386898525a",
+        "score": 0.4224971871530452
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.341119736433029e-07,
+  "cached_query_search_seconds": 0.004243083065375686
+}

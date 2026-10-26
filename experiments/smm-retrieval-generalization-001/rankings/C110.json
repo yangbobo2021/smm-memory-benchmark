@@ -1,0 +1,130 @@
+{
+  "case_id": "C110",
+  "cohort": "locomo_random200",
+  "family": "conv-41",
+  "source_ids": [
+    "c1a1c0defec9c941162f1ddb2",
+    "c20b2e1081a5503e3f47000c5",
+    "c2b42dec5ad7a3ee185f07c69",
+    "c368f8a6bec728f46e5cb5313",
+    "c3a26324e6c31b252dad3005f",
+    "c4f2104c3221b63900e71258b",
+    "c679b9d689624e19c41635a7b",
+    "c6fc1ee0febe9cde190ad49cc",
+    "c771d2f37204d497f8a4f5acd",
+    "c8321ef49d3ce09cb4d607fa2",
+    "c904d3995b7c3fd2862ebff7d",
+    "c950574499c453ed6c91762b8",
+    "c9507008dfe141039cb81a061",
+    "c969c3bddb4ef69ccc8e9c7a8",
+    "c99b93d9c4d32824a63e20daa",
+    "c9a054f15ebaa2c1a838eec19",
+    "c9b46f10a7a33f555c4789bec",
+    "cbe8837627dd6a0418ea2f0d0",
+    "cbfb5c425265fc05c0bb703e1",
+    "cc4fb5a3a25adb4c48276e80b",
+    "cc6dce48af4dee2edadb5b259",
+    "ccdc22624241213db92705b4b",
+    "ccf33297175f053c52668c6a4",
+    "cd425d807a35f285bf4b564a7",
+    "cd69f93673a0c13b7487c7a9e",
+    "cd9304f979d55f8bfb6b4386c",
+    "cda3cd407e8dd2f2f35654003",
+    "cdb131035d8d890ad1c33325e",
+    "cdb32d4e02e86afde290dcfbb",
+    "cef25b6be8959d13615d190d1",
+    "cef8a76a54ca457dba453a63e",
+    "cf2195663e5034e501d02b56f"
+  ],
+  "query": "What kind of meal did John and his family make together in the photo shared by John?",
+  "clock": "2023-08-16T11:08:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c368f8a6bec728f46e5cb5313",
+        "score": 5.773220151496759
+      },
+      {
+        "source_id": "cc6dce48af4dee2edadb5b259",
+        "score": 4.840648596824948
+      },
+      {
+        "source_id": "c1a1c0defec9c941162f1ddb2",
+        "score": 3.5274704421358885
+      },
+      {
+        "source_id": "cdb32d4e02e86afde290dcfbb",
+        "score": 3.017704524427918
+      },
+      {
+        "source_id": "c99b93d9c4d32824a63e20daa",
+        "score": 2.49610881654462
+      },
+      {
+        "source_id": "cf2195663e5034e501d02b56f",
+        "score": 2.4288753013874373
+      },
+      {
+        "source_id": "c20b2e1081a5503e3f47000c5",
+        "score": 1.918958689104341
+      },
+      {
+        "source_id": "cd9304f979d55f8bfb6b4386c",
+        "score": 1.493066186197054
+      },
+      {
+        "source_id": "c9a054f15ebaa2c1a838eec19",
+        "score": 1.449080725928424
+      },
+      {
+        "source_id": "c904d3995b7c3fd2862ebff7d",
+        "score": 1.3908506309425974
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c368f8a6bec728f46e5cb5313",
+        "score": 0.5458113287314847
+      },
+      {
+        "source_id": "c20b2e1081a5503e3f47000c5",
+        "score": 0.48726211958487964
+      },
+      {
+        "source_id": "cd9304f979d55f8bfb6b4386c",
+        "score": 0.4869681857004973
+      },
+      {
+        "source_id": "cef8a76a54ca457dba453a63e",
+        "score": 0.45103058901368714
+      },
+      {
+        "source_id": "cd425d807a35f285bf4b564a7",
+        "score": 0.44671830824138203
+      },
+      {
+        "source_id": "cbfb5c425265fc05c0bb703e1",
+        "score": 0.42437923098580466
+      },
+      {
+        "source_id": "cc6dce48af4dee2edadb5b259",
+        "score": 0.4140656370225376
+      },
+      {
+        "source_id": "cf2195663e5034e501d02b56f",
+        "score": 0.41196084392414817
+      },
+      {
+        "source_id": "c99b93d9c4d32824a63e20daa",
+        "score": 0.3957161682496344
+      },
+      {
+        "source_id": "cef25b6be8959d13615d190d1",
+        "score": 0.3926066878136609
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.7509016692638397e-07,
+  "cached_query_search_seconds": 0.004535000072792172
+}

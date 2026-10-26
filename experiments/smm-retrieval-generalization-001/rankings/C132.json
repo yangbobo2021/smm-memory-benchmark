@@ -1,0 +1,127 @@
+{
+  "case_id": "C132",
+  "cohort": "locomo_random200",
+  "family": "conv-42",
+  "source_ids": [
+    "c0d207f826accc2103af0c748",
+    "c15f1f0bec3d2fcc4fc6182e7",
+    "c19e0760480af1c4e5fc7a26b",
+    "c2139dc6370670e5807264fce",
+    "c215909f3fabfafe9478350bc",
+    "c252c867151f0796efa1faff5",
+    "c35d111897b19242ca312ec88",
+    "c3db30b91cfd5336ac2ca41e7",
+    "c45f15ad5a4f3f608be6bd5c8",
+    "c4a2aceb41fa876f48dd4892b",
+    "c550d52159d739a56d10af4df",
+    "c5ea4f0b3ae443ab3b179ee77",
+    "c5ebaffb14dc75e0d3fa27049",
+    "c613880f4a1224d293b220cc1",
+    "c640fd1be1d60cc9de8c5d4c6",
+    "c64d29fbe2c5978bd0f958293",
+    "c692649fbb4b965d78d95198a",
+    "c7650f704fe331b2566c673ed",
+    "c958260cbfa883012f04435f1",
+    "ca9f7fefaaf9fbd0ea335569d",
+    "cb699d443df023ea8b9fc77bb",
+    "cd1961257c884ba95b3d31463",
+    "cd7200baf8de3fc86cfe5a18c",
+    "cd7a2460e9ca2bf5d0b2a2f45",
+    "cd993c95f02adc9fa056b4c58",
+    "cdd6e915be62b998a88256c25",
+    "cea6408047bdd2359b0e0556e",
+    "ceb718bcf22d200f70c765c34",
+    "cf439ed341a740dc313e752f9"
+  ],
+  "query": "What inspired Joanna's new screenplay on 25 February, 2022?",
+  "clock": "2022-11-11T00:06:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c19e0760480af1c4e5fc7a26b",
+        "score": 3.0860952216691566
+      },
+      {
+        "source_id": "c64d29fbe2c5978bd0f958293",
+        "score": 1.685446865653026
+      },
+      {
+        "source_id": "cdd6e915be62b998a88256c25",
+        "score": 1.4267917013742297
+      },
+      {
+        "source_id": "c215909f3fabfafe9478350bc",
+        "score": 1.2816694633993932
+      },
+      {
+        "source_id": "cd993c95f02adc9fa056b4c58",
+        "score": 1.0881877108754068
+      },
+      {
+        "source_id": "c958260cbfa883012f04435f1",
+        "score": 1.0401657151902843
+      },
+      {
+        "source_id": "c252c867151f0796efa1faff5",
+        "score": 1.0074073897622946
+      },
+      {
+        "source_id": "cb699d443df023ea8b9fc77bb",
+        "score": 0.9233822825059134
+      },
+      {
+        "source_id": "cea6408047bdd2359b0e0556e",
+        "score": 0.8484233731198938
+      },
+      {
+        "source_id": "c613880f4a1224d293b220cc1",
+        "score": 0.8415905290633672
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cd993c95f02adc9fa056b4c58",
+        "score": 0.5838218231080652
+      },
+      {
+        "source_id": "c3db30b91cfd5336ac2ca41e7",
+        "score": 0.5434087390970223
+      },
+      {
+        "source_id": "c45f15ad5a4f3f608be6bd5c8",
+        "score": 0.5358108637222422
+      },
+      {
+        "source_id": "c19e0760480af1c4e5fc7a26b",
+        "score": 0.5278690106360968
+      },
+      {
+        "source_id": "c252c867151f0796efa1faff5",
+        "score": 0.5012767770950732
+      },
+      {
+        "source_id": "c15f1f0bec3d2fcc4fc6182e7",
+        "score": 0.4993865895404081
+      },
+      {
+        "source_id": "c2139dc6370670e5807264fce",
+        "score": 0.49670820995587006
+      },
+      {
+        "source_id": "cd1961257c884ba95b3d31463",
+        "score": 0.479492072730872
+      },
+      {
+        "source_id": "cdd6e915be62b998a88256c25",
+        "score": 0.4773072384419499
+      },
+      {
+        "source_id": "cd7200baf8de3fc86cfe5a18c",
+        "score": 0.47305058559473107
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.498272806406021e-07,
+  "cached_query_search_seconds": 0.0037718750536441803
+}

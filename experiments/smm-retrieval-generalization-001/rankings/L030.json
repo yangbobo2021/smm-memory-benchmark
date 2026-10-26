@@ -1,0 +1,143 @@
+{
+  "case_id": "L030",
+  "cohort": "longmemeval_new32",
+  "family": "gpt4_372c3eed",
+  "source_ids": [
+    "c0187589585c7258f41091ddf",
+    "c03e3957c04c95a22f0926ee4",
+    "c07107fd0c03db1c192c0e652",
+    "c0a6a013c950c4a2e2b1ea569",
+    "c121dc2495aeaced6cc3d5b3c",
+    "c1bc46bac383bca262b2ed186",
+    "c1fad077c9467687867bd2809",
+    "c2dd81acf20e4385e8e134b67",
+    "c317b496466ab8f264aa89131",
+    "c343f26deef40afdc1bac5a6f",
+    "c35c01a5b20c160fbfa8ff311",
+    "c35e72dde94d41f642ea1b414",
+    "c369dfc679f70bbf459650a7a",
+    "c36b2b1cf7aae0de546600d2a",
+    "c4480db36998c47a72b7147d5",
+    "c469bc06fe51ec6bbe91de573",
+    "c4e36231f5573cdc49748e389",
+    "c57dcfc0cf72e9bc240b7939d",
+    "c58e75dd0b61882be5178c1a4",
+    "c5d1a7dd91528e2097fc09b90",
+    "c63eda5a1661e425930522db7",
+    "c64e0ad0be9ba70735a61f979",
+    "c6bc0f29441ca66f683da9156",
+    "c6c70d5dfa295d9a83aebd742",
+    "c6ccb43529a56894d92d76041",
+    "c7afdf6d7a42df55b9bc131aa",
+    "c85cc7abaa84d0438640ae136",
+    "c89c478e34e2e7503a77a18f4",
+    "c8ea19c76c71c2e64990f27c9",
+    "c8f03ec897fb08e83883994ea",
+    "c977e35ed30aff62775c6c3b8",
+    "c9bebc730c4b618e6ab148ee1",
+    "c9dcfb2728b3b65b4573784b1",
+    "ca0892a8092e7596980d4af0c",
+    "ca3073a02ec43956246410aba",
+    "caa99ce611c174474b0d5cb7f",
+    "caaf991d889381c31418fa8ea",
+    "cb24a15276bd30cf6c1905e11",
+    "cbcc1c3f62923f2ea054be388",
+    "cbde2695f464c0c143d66c6aa",
+    "cc19a410cb7fddfcdac5770f4",
+    "cc6d2dd2c9ef065d3a7fa8aa8",
+    "ccc374b9e0e3b0d2c15875424",
+    "cddcd672c703e5375b021ab5a",
+    "ce7965582457dd7961503be4a"
+  ],
+  "query": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+  "clock": "2021-08-20T23:34:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c8f03ec897fb08e83883994ea",
+        "score": 11.406150815887292
+      },
+      {
+        "source_id": "c369dfc679f70bbf459650a7a",
+        "score": 9.347264795076399
+      },
+      {
+        "source_id": "c6bc0f29441ca66f683da9156",
+        "score": 7.101727362759812
+      },
+      {
+        "source_id": "c2dd81acf20e4385e8e134b67",
+        "score": 6.416711895943721
+      },
+      {
+        "source_id": "cc6d2dd2c9ef065d3a7fa8aa8",
+        "score": 5.77836331657197
+      },
+      {
+        "source_id": "c9bebc730c4b618e6ab148ee1",
+        "score": 5.333160147562972
+      },
+      {
+        "source_id": "caa99ce611c174474b0d5cb7f",
+        "score": 4.913204950770491
+      },
+      {
+        "source_id": "c4480db36998c47a72b7147d5",
+        "score": 4.305612717655351
+      },
+      {
+        "source_id": "ca3073a02ec43956246410aba",
+        "score": 3.8834215015957896
+      },
+      {
+        "source_id": "ccc374b9e0e3b0d2c15875424",
+        "score": 3.1382281049886944
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c8f03ec897fb08e83883994ea",
+        "score": 0.2578205993490975
+      },
+      {
+        "source_id": "c369dfc679f70bbf459650a7a",
+        "score": 0.21879177200285183
+      },
+      {
+        "source_id": "caa99ce611c174474b0d5cb7f",
+        "score": 0.18366174214570538
+      },
+      {
+        "source_id": "c2dd81acf20e4385e8e134b67",
+        "score": 0.17905180160744955
+      },
+      {
+        "source_id": "c6bc0f29441ca66f683da9156",
+        "score": 0.12707731708838382
+      },
+      {
+        "source_id": "c07107fd0c03db1c192c0e652",
+        "score": 0.12510868958931531
+      },
+      {
+        "source_id": "c0187589585c7258f41091ddf",
+        "score": 0.10985967696418626
+      },
+      {
+        "source_id": "c64e0ad0be9ba70735a61f979",
+        "score": 0.10917258543805212
+      },
+      {
+        "source_id": "c4e36231f5573cdc49748e389",
+        "score": 0.09576998705058942
+      },
+      {
+        "source_id": "cc6d2dd2c9ef065d3a7fa8aa8",
+        "score": 0.09442514700827864
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003665124997496605,
+  "cached_query_search_seconds": 0.00784254097379744
+}

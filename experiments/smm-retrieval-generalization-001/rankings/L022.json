@@ -1,0 +1,141 @@
+{
+  "case_id": "L022",
+  "cohort": "longmemeval_new32",
+  "family": "6e984302",
+  "source_ids": [
+    "c08667e73c8710cabb2aaad23",
+    "c0fb440fbb62c76f851cf13f2",
+    "c12359218298aa76b623ccb07",
+    "c1306f86931247ea9bde0d23a",
+    "c14a6b07430eac50d5120baa7",
+    "c1755a9d40fb8a312d617ad87",
+    "c180ea0a8417fe9ac2fb9b101",
+    "c183abc4f4527c375cbec6de2",
+    "c2055dc8823b9d5dae81c6102",
+    "c29af6ce690e48822aecc785c",
+    "c2a8c5f10464bb7e2386ae719",
+    "c2bd56859cc8bfe52bc61b752",
+    "c2edbc79c75141f21c6626f9d",
+    "c2edbdefed7395a89c3b1121e",
+    "c35d2d22e1fd2a0a16074d001",
+    "c476f8c2a1d4029cdfadc6fcd",
+    "c5438f5ccb002d0ffe27c25b6",
+    "c5585a12de0b25de909d7935f",
+    "c58cfb64feb759c8356f94400",
+    "c5abd3e484e3cb6b5bedb430b",
+    "c5ddbf1276d8b19ef0faaf16a",
+    "c5fe53e51624479bfcfb3e78a",
+    "c690e583b571aea6f55950afe",
+    "c6d7d439ce16be27d2f7dce4c",
+    "c7d38b44ca8c9849193af628b",
+    "c8785e278ca945a0b8fc0e515",
+    "c89c6dbae6677601e9d93d052",
+    "c8e6f0413ef1ca707e0d12bf8",
+    "c936717e03d9451306cec65f5",
+    "c9574f54c4f08296990dedbac",
+    "c96ff715d4e2335f10cec63c0",
+    "cb7ded2fc10283dc8890cabfc",
+    "cc3e3360cc56d806898301d7c",
+    "ccd284862a8e501312562cb5e",
+    "ccecc47b9604a68ece3743f11",
+    "cd12e1555babdd99f01da8a08",
+    "cd4cb04bd8f107c6b37713cd3",
+    "cdd971e8a888a0808d5100063",
+    "ce2d2c97fc14440244559ae47",
+    "ce55c79a6d85ac82b2db0a0ee",
+    "ce5f3e2264e209c50116c12ef",
+    "cec1361c6b024cf31de024e6e",
+    "cf39f9271ef3621d6738f9c43"
+  ],
+  "query": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+  "clock": "2023-04-01T08:30:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c5ddbf1276d8b19ef0faaf16a",
+        "score": 6.4240039135733635
+      },
+      {
+        "source_id": "c29af6ce690e48822aecc785c",
+        "score": 5.953028096048782
+      },
+      {
+        "source_id": "c6d7d439ce16be27d2f7dce4c",
+        "score": 5.190136334409411
+      },
+      {
+        "source_id": "c2bd56859cc8bfe52bc61b752",
+        "score": 4.997909837958662
+      },
+      {
+        "source_id": "c35d2d22e1fd2a0a16074d001",
+        "score": 4.780414811684031
+      },
+      {
+        "source_id": "c2055dc8823b9d5dae81c6102",
+        "score": 4.68706133704487
+      },
+      {
+        "source_id": "ccd284862a8e501312562cb5e",
+        "score": 4.218014669267619
+      },
+      {
+        "source_id": "c2a8c5f10464bb7e2386ae719",
+        "score": 4.109607175361491
+      },
+      {
+        "source_id": "c690e583b571aea6f55950afe",
+        "score": 3.885129226411791
+      },
+      {
+        "source_id": "c183abc4f4527c375cbec6de2",
+        "score": 3.7829103293502118
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c2bd56859cc8bfe52bc61b752",
+        "score": 0.34089342239291553
+      },
+      {
+        "source_id": "cc3e3360cc56d806898301d7c",
+        "score": 0.3286145073621028
+      },
+      {
+        "source_id": "ce55c79a6d85ac82b2db0a0ee",
+        "score": 0.3077974642592504
+      },
+      {
+        "source_id": "c2a8c5f10464bb7e2386ae719",
+        "score": 0.28778635959421883
+      },
+      {
+        "source_id": "c5ddbf1276d8b19ef0faaf16a",
+        "score": 0.27953016548130716
+      },
+      {
+        "source_id": "c29af6ce690e48822aecc785c",
+        "score": 0.2727940381064963
+      },
+      {
+        "source_id": "c89c6dbae6677601e9d93d052",
+        "score": 0.2671602136335333
+      },
+      {
+        "source_id": "c1755a9d40fb8a312d617ad87",
+        "score": 0.2617375937298721
+      },
+      {
+        "source_id": "cdd971e8a888a0808d5100063",
+        "score": 0.2405381417022548
+      },
+      {
+        "source_id": "ce5f3e2264e209c50116c12ef",
+        "score": 0.2069885382300557
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.00362316588871181,
+  "cached_query_search_seconds": 0.004691415932029486
+}

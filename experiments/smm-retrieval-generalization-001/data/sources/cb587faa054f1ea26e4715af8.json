@@ -1,0 +1,27 @@
+{
+  "id": "cb587faa054f1ea26e4715af8",
+  "text": "USER:\nWhy is it that a fully buffered YouTube video will buffer again from where you click on the progress bar when you skip a few seconds ahead?\n\nASSISTANT:\nWhen you skip ahead in a fully buffered YouTube video, the video player must request the video data for the new position from the server. The video player will typically buffer a small amount of video data ahead of the current playback position to ensure smooth playback. If the new position is far enough ahead that the player has not yet buffered enough data to cover it, the player will need to request additional data from the server, which can cause the video to buffer again.\n\nThere are a few factors that can affect how much video data the player has buffered ahead of the current position, including the speed of your internet connection and the quality of the video you are watching. If you are experiencing frequent buffering while watching YouTube videos, it may be due to a slow internet connection or a problem with the video itself.",
+  "received_at": "2023-05-21T07:55:00+00:00",
+  "source_sha256": "3d15c18312e1ed96284e494bbd5ea3ee4ad291d4459b31653009ef0aa97024f2",
+  "structure": {
+    "source_sha256": "3d15c18312e1ed96284e494bbd5ea3ee4ad291d4459b31653009ef0aa97024f2",
+    "parts": [
+      {
+        "turn": 0,
+        "role": "user",
+        "start": 6,
+        "end": 145
+      },
+      {
+        "turn": 1,
+        "role": "assistant",
+        "start": 158,
+        "end": 1004
+      }
+    ]
+  },
+  "provenance": {
+    "dataset": "LongMemEval-cleaned",
+    "external_session_id": "sharegpt_au9YjVi_0"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "case_id": "C027",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "What instruments does Melanie play?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf4e6d7411e1cdca21b4f96c7",
+        "score": 6.1088198196896375
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 2.235101302231308
+      },
+      {
+        "source_id": "cb5230b6ede18b2395f49ad99",
+        "score": 1.6414504677853354
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 1.394564434150126
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 3.961279272973708e-06
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 3.926389145500618e-06
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 3.87442493821008e-06
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 3.832212844523739e-06
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 3.830574222452421e-06
+      },
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 3.8113852653639098e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf4e6d7411e1cdca21b4f96c7",
+        "score": 0.5012552904497344
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.39636416365424954
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 0.37833162360370776
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 0.37693900659654933
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 0.3744616906886322
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 0.36531369802925284
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 0.3550636725969821
+      },
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 0.3549780048442003
+      },
+      {
+        "source_id": "c32991b5a8b10b1792715518f",
+        "score": 0.3511152839848781
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 0.34754314362494
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 5.408655852079391e-07,
+  "cached_query_search_seconds": 0.0015925830230116844
+}

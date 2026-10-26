@@ -1,0 +1,145 @@
+{
+  "case_id": "L013",
+  "cohort": "longmemeval_new32",
+  "family": "15745da0",
+  "source_ids": [
+    "c0f74505262d22d1ef1ad137e",
+    "c1412961360a6cc0f961ba818",
+    "c17c4424426de9b127ec69ca7",
+    "c1a50651889d762e108e824ab",
+    "c1aced7eeed89e4667a2ef70c",
+    "c20ebceefad01f7be24190447",
+    "c217730df2daca16347ae891c",
+    "c2d02081e4bc5efd9a3d6da0c",
+    "c3ce67fba0dd36309fe83ae15",
+    "c4251117209cec3c79ae56588",
+    "c4676f6e82beabe1da502f8a5",
+    "c46934560049eae211840bcc2",
+    "c4b1f1793fec3b2d06b36b81b",
+    "c4e44f6704b7e892f9abfe39a",
+    "c5099a94dcd36ac0ea689cb86",
+    "c50e5f562dc153b1714769bef",
+    "c55a0e37504825414a5ade8e3",
+    "c5d7c68ba7d8840fa806150c1",
+    "c65c698b9595a66d9f4345efa",
+    "c666cf3880af8db6df31c40ec",
+    "c681111aa12332a3ee31fdd1a",
+    "c68887dd8e393c59f5f2463af",
+    "c6b54ac321e0ccd5a46861038",
+    "c6e4f6fe53ccfff4511041314",
+    "c758a8757ac13265b86811b11",
+    "c7fe4a7949f40b892c8206b6f",
+    "c802851909b9ee9bf29be3ad5",
+    "c815b0664067b0d207f2240b8",
+    "c9287c27ffcd999012997108a",
+    "c9c06bca440dab371061dbce7",
+    "c9fbe569f55b1a6d63196ceec",
+    "ca5c358f51897fda5bae794c4",
+    "ca81c64488676745fa6ed29f3",
+    "cab7d532a1bdf479a34e087e4",
+    "cbde8f02fc9122fab5fa9f958",
+    "cbe5c06a2e557ec698cf562bb",
+    "cbe8d0fc9d362645909e4a284",
+    "cbeed3dd4f22e0e37fcfafab5",
+    "cc4006300f03372462eec3b14",
+    "cdd7a500018dfed961e767e49",
+    "cdd931ff6106e4961c77d121d",
+    "cde50c6f2dfa476a681211d69",
+    "ce60d504f2ae4d28e58f4faa2",
+    "ce63cdace41d2b0d2d39c7052",
+    "cecfb2d1a7cfe07c509dd745a",
+    "cf2d0a4f44f38bd1b7ea6179a",
+    "cf46b242f1ce10da2eaede952"
+  ],
+  "query": "How long have I been collecting vintage cameras?",
+  "clock": "2023-05-30T21:43:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "ca81c64488676745fa6ed29f3",
+        "score": 13.653269587687932
+      },
+      {
+        "source_id": "cdd931ff6106e4961c77d121d",
+        "score": 10.897442541156627
+      },
+      {
+        "source_id": "cf2d0a4f44f38bd1b7ea6179a",
+        "score": 3.3419445951849007
+      },
+      {
+        "source_id": "c17c4424426de9b127ec69ca7",
+        "score": 2.2251662313246094
+      },
+      {
+        "source_id": "c5099a94dcd36ac0ea689cb86",
+        "score": 1.9226013592813813
+      },
+      {
+        "source_id": "c815b0664067b0d207f2240b8",
+        "score": 0.7885434164969387
+      },
+      {
+        "source_id": "c2d02081e4bc5efd9a3d6da0c",
+        "score": 0.784151992286315
+      },
+      {
+        "source_id": "cbde8f02fc9122fab5fa9f958",
+        "score": 0.7654280186564172
+      },
+      {
+        "source_id": "c5d7c68ba7d8840fa806150c1",
+        "score": 0.7579885265012222
+      },
+      {
+        "source_id": "c68887dd8e393c59f5f2463af",
+        "score": 0.6848345817794153
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "ca81c64488676745fa6ed29f3",
+        "score": 0.6784468265745796
+      },
+      {
+        "source_id": "cdd931ff6106e4961c77d121d",
+        "score": 0.5390446229166087
+      },
+      {
+        "source_id": "cecfb2d1a7cfe07c509dd745a",
+        "score": 0.32475385740559015
+      },
+      {
+        "source_id": "cdd7a500018dfed961e767e49",
+        "score": 0.2769172369526723
+      },
+      {
+        "source_id": "c681111aa12332a3ee31fdd1a",
+        "score": 0.2644083603922221
+      },
+      {
+        "source_id": "c4676f6e82beabe1da502f8a5",
+        "score": 0.22858240626204251
+      },
+      {
+        "source_id": "cc4006300f03372462eec3b14",
+        "score": 0.213364128070201
+      },
+      {
+        "source_id": "c1aced7eeed89e4667a2ef70c",
+        "score": 0.21145885807557352
+      },
+      {
+        "source_id": "cbde8f02fc9122fab5fa9f958",
+        "score": 0.18403815830082293
+      },
+      {
+        "source_id": "c5d7c68ba7d8840fa806150c1",
+        "score": 0.1646262021951303
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0038016249891370535,
+  "cached_query_search_seconds": 0.003075250191614032
+}

@@ -1,0 +1,130 @@
+{
+  "case_id": "C035",
+  "cohort": "locomo_random200",
+  "family": "conv-41",
+  "source_ids": [
+    "c1a1c0defec9c941162f1ddb2",
+    "c20b2e1081a5503e3f47000c5",
+    "c2b42dec5ad7a3ee185f07c69",
+    "c368f8a6bec728f46e5cb5313",
+    "c3a26324e6c31b252dad3005f",
+    "c4f2104c3221b63900e71258b",
+    "c679b9d689624e19c41635a7b",
+    "c6fc1ee0febe9cde190ad49cc",
+    "c771d2f37204d497f8a4f5acd",
+    "c8321ef49d3ce09cb4d607fa2",
+    "c904d3995b7c3fd2862ebff7d",
+    "c950574499c453ed6c91762b8",
+    "c9507008dfe141039cb81a061",
+    "c969c3bddb4ef69ccc8e9c7a8",
+    "c99b93d9c4d32824a63e20daa",
+    "c9a054f15ebaa2c1a838eec19",
+    "c9b46f10a7a33f555c4789bec",
+    "cbe8837627dd6a0418ea2f0d0",
+    "cbfb5c425265fc05c0bb703e1",
+    "cc4fb5a3a25adb4c48276e80b",
+    "cc6dce48af4dee2edadb5b259",
+    "ccdc22624241213db92705b4b",
+    "ccf33297175f053c52668c6a4",
+    "cd425d807a35f285bf4b564a7",
+    "cd69f93673a0c13b7487c7a9e",
+    "cd9304f979d55f8bfb6b4386c",
+    "cda3cd407e8dd2f2f35654003",
+    "cdb131035d8d890ad1c33325e",
+    "cdb32d4e02e86afde290dcfbb",
+    "cef25b6be8959d13615d190d1",
+    "cef8a76a54ca457dba453a63e",
+    "cf2195663e5034e501d02b56f"
+  ],
+  "query": "What states has Maria vacationed at?",
+  "clock": "2023-08-16T11:08:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cc6dce48af4dee2edadb5b259",
+        "score": 6.954385378041474e-06
+      },
+      {
+        "source_id": "c679b9d689624e19c41635a7b",
+        "score": 6.8630588346534986e-06
+      },
+      {
+        "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+        "score": 6.449604308149547e-06
+      },
+      {
+        "source_id": "cf2195663e5034e501d02b56f",
+        "score": 6.234310422305116e-06
+      },
+      {
+        "source_id": "cda3cd407e8dd2f2f35654003",
+        "score": 6.17365090784533e-06
+      },
+      {
+        "source_id": "cef8a76a54ca457dba453a63e",
+        "score": 6.149412098999077e-06
+      },
+      {
+        "source_id": "c99b93d9c4d32824a63e20daa",
+        "score": 6.062561523209697e-06
+      },
+      {
+        "source_id": "cd69f93673a0c13b7487c7a9e",
+        "score": 6.0040727599282564e-06
+      },
+      {
+        "source_id": "cbe8837627dd6a0418ea2f0d0",
+        "score": 5.972965696352811e-06
+      },
+      {
+        "source_id": "cdb32d4e02e86afde290dcfbb",
+        "score": 5.895805163841372e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cd69f93673a0c13b7487c7a9e",
+        "score": 0.48403566438902634
+      },
+      {
+        "source_id": "cef8a76a54ca457dba453a63e",
+        "score": 0.45304031264833905
+      },
+      {
+        "source_id": "c20b2e1081a5503e3f47000c5",
+        "score": 0.3909222562487096
+      },
+      {
+        "source_id": "cd425d807a35f285bf4b564a7",
+        "score": 0.37475587845022507
+      },
+      {
+        "source_id": "c950574499c453ed6c91762b8",
+        "score": 0.36703987219330697
+      },
+      {
+        "source_id": "cdb32d4e02e86afde290dcfbb",
+        "score": 0.3604920797945233
+      },
+      {
+        "source_id": "c771d2f37204d497f8a4f5acd",
+        "score": 0.3580832037561608
+      },
+      {
+        "source_id": "c2b42dec5ad7a3ee185f07c69",
+        "score": 0.3420559795417343
+      },
+      {
+        "source_id": "c3a26324e6c31b252dad3005f",
+        "score": 0.3355931430547361
+      },
+      {
+        "source_id": "c969c3bddb4ef69ccc8e9c7a8",
+        "score": 0.33513692034281184
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 7.08969309926033e-07,
+  "cached_query_search_seconds": 0.0021095420233905315
+}

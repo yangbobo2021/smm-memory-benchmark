@@ -1,0 +1,128 @@
+{
+  "case_id": "C196",
+  "cohort": "locomo_random200",
+  "family": "conv-48",
+  "source_ids": [
+    "c06b05fa17da9e8f00ee57d0d",
+    "c09bc9554c3b0c98492c32c81",
+    "c0bd6d585125c12bf99e3cff2",
+    "c0bf12013b35209c9683e75b3",
+    "c19c6e45aa9b8d6fcc413294d",
+    "c1e8ffdbe1b252d4759206fb0",
+    "c2eefcadc6f59c9fec4337f58",
+    "c3768542296c1b5d0e96e210e",
+    "c3e30e69661f2f9182ff75977",
+    "c4416e514f6f8a90ab0784115",
+    "c5a1159bc98596610a32be898",
+    "c5db4ceed5f9ef14b48a93ed5",
+    "c61f7a070754bc8f68b39868b",
+    "c6c80e76eed791999c8e20062",
+    "c741631fb6839e944cc293c6b",
+    "c75de8240dc1ad93ba45a6a5a",
+    "c80c26d9b4a0367f9f0d24164",
+    "c816d95de6221988ebca1ed21",
+    "c88f5066bf38856684d4e0174",
+    "ca9bbcf4941dc907d216bf0e1",
+    "caa68955e73ce32d84871eeb3",
+    "cd28400222ff75b73ef5ac3cb",
+    "cd29d675851d8193fa1b19641",
+    "cd6c8d12b2ea116c2dc3f7be7",
+    "cd7c3763c669b10838fb7cafc",
+    "cdd0240e55617043f9fefa732",
+    "cde1dfba519737390a9ad4dce",
+    "ce58fa7a79aad99ab659c719b",
+    "cfbf7710899149b386898525a",
+    "cfe686805a979f856ed2a31c7"
+  ],
+  "query": "Which country were Jolene and her mother visiting in 2010?",
+  "clock": "2023-09-20T10:17:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c88f5066bf38856684d4e0174",
+        "score": 7.485937752212883
+      },
+      {
+        "source_id": "cd7c3763c669b10838fb7cafc",
+        "score": 7.023659784223761
+      },
+      {
+        "source_id": "c6c80e76eed791999c8e20062",
+        "score": 2.886170376027998
+      },
+      {
+        "source_id": "cfbf7710899149b386898525a",
+        "score": 2.838953490595725
+      },
+      {
+        "source_id": "c09bc9554c3b0c98492c32c81",
+        "score": 2.693347608191674
+      },
+      {
+        "source_id": "ca9bbcf4941dc907d216bf0e1",
+        "score": 2.565232274811965
+      },
+      {
+        "source_id": "c2eefcadc6f59c9fec4337f58",
+        "score": 1.623065168512337
+      },
+      {
+        "source_id": "cfe686805a979f856ed2a31c7",
+        "score": 1.3637152901895233
+      },
+      {
+        "source_id": "cd29d675851d8193fa1b19641",
+        "score": 1.2993122474875813
+      },
+      {
+        "source_id": "cd28400222ff75b73ef5ac3cb",
+        "score": 1.1168207179964542
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cfbf7710899149b386898525a",
+        "score": 0.47391390598267147
+      },
+      {
+        "source_id": "caa68955e73ce32d84871eeb3",
+        "score": 0.4527083378109249
+      },
+      {
+        "source_id": "c6c80e76eed791999c8e20062",
+        "score": 0.43171791050559905
+      },
+      {
+        "source_id": "c2eefcadc6f59c9fec4337f58",
+        "score": 0.4153188888691479
+      },
+      {
+        "source_id": "c4416e514f6f8a90ab0784115",
+        "score": 0.40451864531636195
+      },
+      {
+        "source_id": "c0bf12013b35209c9683e75b3",
+        "score": 0.39842604131536075
+      },
+      {
+        "source_id": "c3768542296c1b5d0e96e210e",
+        "score": 0.39744747781108036
+      },
+      {
+        "source_id": "c80c26d9b4a0367f9f0d24164",
+        "score": 0.3956894244370194
+      },
+      {
+        "source_id": "c75de8240dc1ad93ba45a6a5a",
+        "score": 0.37924297277524854
+      },
+      {
+        "source_id": "c88f5066bf38856684d4e0174",
+        "score": 0.3779859011509716
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.9103830456733704e-07,
+  "cached_query_search_seconds": 0.003414291189983487
+}

@@ -1,0 +1,117 @@
+{
+  "case_id": "C121",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "What kind of books does Caroline have in her library?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cb51a3c5f4eb687b861d3ee07",
+        "score": 7.605048430700638
+      },
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 4.321214373274156
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 2.582078973019981
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 2.235106149861543
+      },
+      {
+        "source_id": "cb5230b6ede18b2395f49ad99",
+        "score": 1.6414542229530158
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 1.394569147947645
+      },
+      {
+        "source_id": "c209acf4c5721940c78269220",
+        "score": 0.7374317875931159
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 0.7136788677059903
+      },
+      {
+        "source_id": "c32991b5a8b10b1792715518f",
+        "score": 0.6335727689722632
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 0.5846333463584882
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cb51a3c5f4eb687b861d3ee07",
+        "score": 0.5137217635523805
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 0.4414707476518356
+      },
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 0.42317487180635
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 0.3978285191300239
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 0.36466503595464367
+      },
+      {
+        "source_id": "cf4e6d7411e1cdca21b4f96c7",
+        "score": 0.3631220059605952
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 0.36266714769024366
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 0.35251375153941517
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 0.3522944868650769
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.34960939984266937
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.919696271419525e-07,
+  "cached_query_search_seconds": 0.003031332977116108
+}

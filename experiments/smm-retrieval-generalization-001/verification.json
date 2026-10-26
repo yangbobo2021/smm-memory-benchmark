@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "relocated": true,
+  "guards_actually_rejected": [
+    "original_data",
+    "network",
+    "process"
+  ],
+  "runtime_preloaded_before_guards": {
+    "numpy": "2.5.4",
+    "python": "3.13.12"
+  },
+  "result": {
+    "passed": true,
+    "questions": 232,
+    "independent": true,
+    "checks": {
+      "source_hash": 1748,
+      "passage_coordinate_hash": 23305,
+      "official_turn_quote": 350,
+      "independent_route_rank": 464
+    },
+    "generative_calls": 0
+  },
+  "new_embeddings": 0,
+  "generative_calls": 0,
+  "semantic_answer_labels_independently_audited": false,
+  "note": "This proves artifact/data/numerical replay portability with NumPy already installed, not universal semantic reference correctness."
+}

@@ -1,0 +1,140 @@
+{
+  "case_id": "L015",
+  "cohort": "longmemeval_new32",
+  "family": "b46e15ee",
+  "source_ids": [
+    "c0785064a7bfcc7151aa4dd82",
+    "c0d13034de1412cab5c1ed036",
+    "c13ebbcb56fb754a67ebb07d2",
+    "c296b5ea3e6d8c9429e9b67db",
+    "c2a523dfe718041a6c51c151d",
+    "c360eabd174eb2f3bb61bb7ab",
+    "c3ad5392c8dfd58028cc456f1",
+    "c3c1ef3dc7b4dd6a84de95702",
+    "c40f39261079f0b9abd806853",
+    "c472d6e5a1a6cd1ae67da403d",
+    "c4be395e308cff1d69b29d359",
+    "c52a510f5350b02fb0a9795d4",
+    "c588147db63f11e72119886d4",
+    "c6001d03e354cb78c157b6dbb",
+    "c618e6927f37949f85a826482",
+    "c650d113e4eea32c099b60bb8",
+    "c7fcb70a1f173033d12e3d4f5",
+    "c80f633b77561c0e20ff64314",
+    "c84ea3dd194199e14ad65d304",
+    "c86970690abf47ec0b4453b8e",
+    "c89e921e4eb4188c6415a79d2",
+    "c8b016adf5e874ce79084b9c7",
+    "c8fb93d5d99eb8f05f5162a0a",
+    "c926d79a83f7233890e5cc95a",
+    "c9ca3a2059648210e2bb61840",
+    "caa0d0b80bee62ce94cd69791",
+    "caaa721074cfcbc2b3dcce266",
+    "caccbedee2497447d93bfa202",
+    "cbdd09a21465ab6e50379f503",
+    "cc0d6e722dbcec5ec58a63815",
+    "cc999c9bacb93ef8cbf87a7cb",
+    "ccb4df69098e14f7041613477",
+    "cce0553ef1f8de2b3063bdef6",
+    "ccf2f571b4932599c40195784",
+    "cd27d53193ffc7bcc6b387d7e",
+    "cd4da9042d13ba90beb20d212",
+    "ce93294534224ee8377423980",
+    "cead2c4a6eb0dca23c11b2e0e",
+    "cebe8ac2dce8f9c5603e2d322",
+    "ced9a29f85f11e2fbcb616f20",
+    "cf96451e03a945c018d1699e9",
+    "cfdcbe1b28d7ed598d6348517"
+  ],
+  "query": "What charity event did I participate in a month ago?",
+  "clock": "2023-04-18T18:34:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cfdcbe1b28d7ed598d6348517",
+        "score": 10.565883470429672
+      },
+      {
+        "source_id": "c3c1ef3dc7b4dd6a84de95702",
+        "score": 5.492742177688137
+      },
+      {
+        "source_id": "ced9a29f85f11e2fbcb616f20",
+        "score": 5.43007677564228
+      },
+      {
+        "source_id": "c926d79a83f7233890e5cc95a",
+        "score": 3.99688659953316
+      },
+      {
+        "source_id": "c2a523dfe718041a6c51c151d",
+        "score": 3.9031686759618442
+      },
+      {
+        "source_id": "c472d6e5a1a6cd1ae67da403d",
+        "score": 3.5773098029821275
+      },
+      {
+        "source_id": "c618e6927f37949f85a826482",
+        "score": 3.3888200006602784
+      },
+      {
+        "source_id": "c0785064a7bfcc7151aa4dd82",
+        "score": 3.0229735841091263
+      },
+      {
+        "source_id": "c650d113e4eea32c099b60bb8",
+        "score": 2.713202036523764
+      },
+      {
+        "source_id": "caa0d0b80bee62ce94cd69791",
+        "score": 2.4257502908050763
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cfdcbe1b28d7ed598d6348517",
+        "score": 0.46303122976340627
+      },
+      {
+        "source_id": "c2a523dfe718041a6c51c151d",
+        "score": 0.3836951691603324
+      },
+      {
+        "source_id": "caccbedee2497447d93bfa202",
+        "score": 0.3756041955703098
+      },
+      {
+        "source_id": "c472d6e5a1a6cd1ae67da403d",
+        "score": 0.3521670415016649
+      },
+      {
+        "source_id": "c3c1ef3dc7b4dd6a84de95702",
+        "score": 0.31731038255228117
+      },
+      {
+        "source_id": "c0785064a7bfcc7151aa4dd82",
+        "score": 0.2589400788066741
+      },
+      {
+        "source_id": "ce93294534224ee8377423980",
+        "score": 0.21481603921933087
+      },
+      {
+        "source_id": "c926d79a83f7233890e5cc95a",
+        "score": 0.21139219164048006
+      },
+      {
+        "source_id": "c4be395e308cff1d69b29d359",
+        "score": 0.209652016571265
+      },
+      {
+        "source_id": "ccf2f571b4932599c40195784",
+        "score": 0.19991932519251612
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003548082895576954,
+  "cached_query_search_seconds": 0.003986415918916464
+}

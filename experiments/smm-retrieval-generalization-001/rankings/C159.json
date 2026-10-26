@@ -1,0 +1,126 @@
+{
+  "case_id": "C159",
+  "cohort": "locomo_random200",
+  "family": "conv-44",
+  "source_ids": [
+    "c01d5f1bad856e63f2d259c53",
+    "c0c938fedefd07da628c20135",
+    "c0cb5497315b5f692644d7a05",
+    "c12b220b6db89871db6bbd506",
+    "c18c87e5c3df2b81e03dabf48",
+    "c1a187e951f0e0254bb4fb0b4",
+    "c26d15cc1e49c4024420ad588",
+    "c3453d0c71ec7bb9d355512c5",
+    "c3e07e095996704ab0fd0179e",
+    "c3fb82e2a1ab79e03385e8df4",
+    "c4879bb338dce6b57124fe1e7",
+    "c53880a0363f66352cffd4ea4",
+    "c6638c80290604d1907736234",
+    "c6c33cfbfa34aa84af38784ef",
+    "c6dace7e344b151bc6884bd28",
+    "c700d7b8d68bc2d3bb480c48c",
+    "c733740442f3368cbe55fafe0",
+    "c74c8caa23db9eaafca147bb8",
+    "c78d23a9eedd1abe5b2f350ca",
+    "c83413649c8fad2a1b8e52c8e",
+    "cb9ff4548964b6b623d512c73",
+    "cc33657a59394105b5bcb266f",
+    "cc5c2e2cd0f284232e160c1db",
+    "cc7fa43c0315b56990674b9ac",
+    "cd7322a2d1e44154427e221e8",
+    "cdc4a081215673c3d5558c1fa",
+    "cde7ef43a3a69da3551b22e08",
+    "ce133a49ad3fdc00d791042d9"
+  ],
+  "query": "How long did the trail hike that Audrey went on with her pups take?",
+  "clock": "2023-11-22T09:02:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c3fb82e2a1ab79e03385e8df4",
+        "score": 4.239669792042911
+      },
+      {
+        "source_id": "c53880a0363f66352cffd4ea4",
+        "score": 3.4153694338420335
+      },
+      {
+        "source_id": "cde7ef43a3a69da3551b22e08",
+        "score": 3.3387251548087784
+      },
+      {
+        "source_id": "cdc4a081215673c3d5558c1fa",
+        "score": 3.1840584522049973
+      },
+      {
+        "source_id": "c733740442f3368cbe55fafe0",
+        "score": 3.00730184958782
+      },
+      {
+        "source_id": "c3453d0c71ec7bb9d355512c5",
+        "score": 2.4959841765252713
+      },
+      {
+        "source_id": "c1a187e951f0e0254bb4fb0b4",
+        "score": 2.4399655551478894
+      },
+      {
+        "source_id": "c0cb5497315b5f692644d7a05",
+        "score": 2.310245752288122
+      },
+      {
+        "source_id": "c6638c80290604d1907736234",
+        "score": 1.0401426956550042
+      },
+      {
+        "source_id": "c78d23a9eedd1abe5b2f350ca",
+        "score": 0.9783970574198821
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c53880a0363f66352cffd4ea4",
+        "score": 0.6022627989026197
+      },
+      {
+        "source_id": "cde7ef43a3a69da3551b22e08",
+        "score": 0.5697507741141813
+      },
+      {
+        "source_id": "c733740442f3368cbe55fafe0",
+        "score": 0.5306671940078127
+      },
+      {
+        "source_id": "c4879bb338dce6b57124fe1e7",
+        "score": 0.5269642550769613
+      },
+      {
+        "source_id": "cc33657a59394105b5bcb266f",
+        "score": 0.5115815296139297
+      },
+      {
+        "source_id": "c6dace7e344b151bc6884bd28",
+        "score": 0.50385444953293
+      },
+      {
+        "source_id": "c1a187e951f0e0254bb4fb0b4",
+        "score": 0.4976868594124901
+      },
+      {
+        "source_id": "c74c8caa23db9eaafca147bb8",
+        "score": 0.4975407202709168
+      },
+      {
+        "source_id": "c700d7b8d68bc2d3bb480c48c",
+        "score": 0.4938397854924538
+      },
+      {
+        "source_id": "c0cb5497315b5f692644d7a05",
+        "score": 0.47986177350693826
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 4.169996827840805e-07,
+  "cached_query_search_seconds": 0.005080541828647256
+}

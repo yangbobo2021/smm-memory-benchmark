@@ -1,0 +1,128 @@
+{
+  "case_id": "C049",
+  "cohort": "locomo_random200",
+  "family": "conv-48",
+  "source_ids": [
+    "c06b05fa17da9e8f00ee57d0d",
+    "c09bc9554c3b0c98492c32c81",
+    "c0bd6d585125c12bf99e3cff2",
+    "c0bf12013b35209c9683e75b3",
+    "c19c6e45aa9b8d6fcc413294d",
+    "c1e8ffdbe1b252d4759206fb0",
+    "c2eefcadc6f59c9fec4337f58",
+    "c3768542296c1b5d0e96e210e",
+    "c3e30e69661f2f9182ff75977",
+    "c4416e514f6f8a90ab0784115",
+    "c5a1159bc98596610a32be898",
+    "c5db4ceed5f9ef14b48a93ed5",
+    "c61f7a070754bc8f68b39868b",
+    "c6c80e76eed791999c8e20062",
+    "c741631fb6839e944cc293c6b",
+    "c75de8240dc1ad93ba45a6a5a",
+    "c80c26d9b4a0367f9f0d24164",
+    "c816d95de6221988ebca1ed21",
+    "c88f5066bf38856684d4e0174",
+    "ca9bbcf4941dc907d216bf0e1",
+    "caa68955e73ce32d84871eeb3",
+    "cd28400222ff75b73ef5ac3cb",
+    "cd29d675851d8193fa1b19641",
+    "cd6c8d12b2ea116c2dc3f7be7",
+    "cd7c3763c669b10838fb7cafc",
+    "cdd0240e55617043f9fefa732",
+    "cde1dfba519737390a9ad4dce",
+    "ce58fa7a79aad99ab659c719b",
+    "cfbf7710899149b386898525a",
+    "cfe686805a979f856ed2a31c7"
+  ],
+  "query": "What album does Deborah recommend for meditation and deep relaxation?",
+  "clock": "2023-09-20T10:17:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cd29d675851d8193fa1b19641",
+        "score": 7.6059594126151335
+      },
+      {
+        "source_id": "cdd0240e55617043f9fefa732",
+        "score": 5.055129216306515
+      },
+      {
+        "source_id": "cfbf7710899149b386898525a",
+        "score": 3.052057304260219
+      },
+      {
+        "source_id": "c4416e514f6f8a90ab0784115",
+        "score": 2.3585206340644267
+      },
+      {
+        "source_id": "ca9bbcf4941dc907d216bf0e1",
+        "score": 1.7879055181368928
+      },
+      {
+        "source_id": "c09bc9554c3b0c98492c32c81",
+        "score": 1.3780743681608618
+      },
+      {
+        "source_id": "c5a1159bc98596610a32be898",
+        "score": 1.3308726421801753
+      },
+      {
+        "source_id": "cd28400222ff75b73ef5ac3cb",
+        "score": 1.2807860090886898
+      },
+      {
+        "source_id": "cd6c8d12b2ea116c2dc3f7be7",
+        "score": 1.1796616988103976
+      },
+      {
+        "source_id": "c0bf12013b35209c9683e75b3",
+        "score": 1.1690433735450545
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cd29d675851d8193fa1b19641",
+        "score": 0.6883095292605506
+      },
+      {
+        "source_id": "c2eefcadc6f59c9fec4337f58",
+        "score": 0.5707267792236664
+      },
+      {
+        "source_id": "c741631fb6839e944cc293c6b",
+        "score": 0.5581015155655339
+      },
+      {
+        "source_id": "c0bf12013b35209c9683e75b3",
+        "score": 0.5577517871041848
+      },
+      {
+        "source_id": "c88f5066bf38856684d4e0174",
+        "score": 0.541850023230626
+      },
+      {
+        "source_id": "c80c26d9b4a0367f9f0d24164",
+        "score": 0.5207173408238001
+      },
+      {
+        "source_id": "c5db4ceed5f9ef14b48a93ed5",
+        "score": 0.5163955287318449
+      },
+      {
+        "source_id": "c3768542296c1b5d0e96e210e",
+        "score": 0.5129798279674702
+      },
+      {
+        "source_id": "cfbf7710899149b386898525a",
+        "score": 0.4970323930936372
+      },
+      {
+        "source_id": "c0bd6d585125c12bf99e3cff2",
+        "score": 0.4853516242683372
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 4.1583552956581116e-07,
+  "cached_query_search_seconds": 0.00371554191224277
+}

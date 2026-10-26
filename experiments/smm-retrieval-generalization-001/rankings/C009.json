@@ -1,0 +1,117 @@
+{
+  "case_id": "C009",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "What was Melanie's favorite book from her childhood?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cb51a3c5f4eb687b861d3ee07",
+        "score": 6.017920480530655
+      },
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 4.362271648948398
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 2.582077411697781
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 1.3945696997037602
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 1.0402054527891245
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 1.0189710248130952
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 9.468253547538303e-06
+      },
+      {
+        "source_id": "cf4e6d7411e1cdca21b4f96c7",
+        "score": 9.180435654737439e-06
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 8.901490911065035e-06
+      },
+      {
+        "source_id": "cb5230b6ede18b2395f49ad99",
+        "score": 8.706272667580405e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.5464237911859298
+      },
+      {
+        "source_id": "cb51a3c5f4eb687b861d3ee07",
+        "score": 0.5303247102101063
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 0.5301248203122514
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 0.5164361701193505
+      },
+      {
+        "source_id": "c4dc55d280c7f3f545df4d134",
+        "score": 0.4746518047028425
+      },
+      {
+        "source_id": "c209acf4c5721940c78269220",
+        "score": 0.4477662958607382
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 0.4464086669062597
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 0.4445318859122568
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 0.43187553139866086
+      },
+      {
+        "source_id": "c83a5466251a9a6d24da25bd7",
+        "score": 0.4302118763124839
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.00048225000500679016,
+  "cached_query_search_seconds": 0.0028842920437455177
+}

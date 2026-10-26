@@ -1,0 +1,127 @@
+{
+  "case_id": "C040",
+  "cohort": "locomo_random200",
+  "family": "conv-42",
+  "source_ids": [
+    "c0d207f826accc2103af0c748",
+    "c15f1f0bec3d2fcc4fc6182e7",
+    "c19e0760480af1c4e5fc7a26b",
+    "c2139dc6370670e5807264fce",
+    "c215909f3fabfafe9478350bc",
+    "c252c867151f0796efa1faff5",
+    "c35d111897b19242ca312ec88",
+    "c3db30b91cfd5336ac2ca41e7",
+    "c45f15ad5a4f3f608be6bd5c8",
+    "c4a2aceb41fa876f48dd4892b",
+    "c550d52159d739a56d10af4df",
+    "c5ea4f0b3ae443ab3b179ee77",
+    "c5ebaffb14dc75e0d3fa27049",
+    "c613880f4a1224d293b220cc1",
+    "c640fd1be1d60cc9de8c5d4c6",
+    "c64d29fbe2c5978bd0f958293",
+    "c692649fbb4b965d78d95198a",
+    "c7650f704fe331b2566c673ed",
+    "c958260cbfa883012f04435f1",
+    "ca9f7fefaaf9fbd0ea335569d",
+    "cb699d443df023ea8b9fc77bb",
+    "cd1961257c884ba95b3d31463",
+    "cd7200baf8de3fc86cfe5a18c",
+    "cd7a2460e9ca2bf5d0b2a2f45",
+    "cd993c95f02adc9fa056b4c58",
+    "cdd6e915be62b998a88256c25",
+    "cea6408047bdd2359b0e0556e",
+    "ceb718bcf22d200f70c765c34",
+    "cf439ed341a740dc313e752f9"
+  ],
+  "query": "What places has Nate met new people?",
+  "clock": "2022-11-11T00:06:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c2139dc6370670e5807264fce",
+        "score": 4.587437292793478
+      },
+      {
+        "source_id": "cd993c95f02adc9fa056b4c58",
+        "score": 2.8695817312970133
+      },
+      {
+        "source_id": "c613880f4a1224d293b220cc1",
+        "score": 2.2150769600958213
+      },
+      {
+        "source_id": "c4a2aceb41fa876f48dd4892b",
+        "score": 2.116559213050186
+      },
+      {
+        "source_id": "c252c867151f0796efa1faff5",
+        "score": 1.91746516900529
+      },
+      {
+        "source_id": "c3db30b91cfd5336ac2ca41e7",
+        "score": 0.10881231672144717
+      },
+      {
+        "source_id": "cb699d443df023ea8b9fc77bb",
+        "score": 0.10360127051283262
+      },
+      {
+        "source_id": "cd7a2460e9ca2bf5d0b2a2f45",
+        "score": 0.09039949170693727
+      },
+      {
+        "source_id": "cf439ed341a740dc313e752f9",
+        "score": 0.08843857041256355
+      },
+      {
+        "source_id": "c7650f704fe331b2566c673ed",
+        "score": 0.07239430454489239
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c252c867151f0796efa1faff5",
+        "score": 0.4849540554907255
+      },
+      {
+        "source_id": "c613880f4a1224d293b220cc1",
+        "score": 0.44977104070796636
+      },
+      {
+        "source_id": "cd993c95f02adc9fa056b4c58",
+        "score": 0.41010923182989967
+      },
+      {
+        "source_id": "c7650f704fe331b2566c673ed",
+        "score": 0.4075886509825982
+      },
+      {
+        "source_id": "cdd6e915be62b998a88256c25",
+        "score": 0.3798538929663647
+      },
+      {
+        "source_id": "cea6408047bdd2359b0e0556e",
+        "score": 0.3795421829341451
+      },
+      {
+        "source_id": "c35d111897b19242ca312ec88",
+        "score": 0.3788635232866735
+      },
+      {
+        "source_id": "c45f15ad5a4f3f608be6bd5c8",
+        "score": 0.3692847652697546
+      },
+      {
+        "source_id": "c64d29fbe2c5978bd0f958293",
+        "score": 0.35658133487526633
+      },
+      {
+        "source_id": "c19e0760480af1c4e5fc7a26b",
+        "score": 0.351990251375262
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.341119736433029e-07,
+  "cached_query_search_seconds": 0.0024504170287400484
+}

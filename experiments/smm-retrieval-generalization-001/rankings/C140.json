@@ -1,0 +1,127 @@
+{
+  "case_id": "C140",
+  "cohort": "locomo_random200",
+  "family": "conv-43",
+  "source_ids": [
+    "c08a011985f84a3d80171942f",
+    "c0e15cec6a99df03faa4e30ec",
+    "c139f4b845ec357142b7b3b56",
+    "c14b38719fc61303d0504f2f3",
+    "c16886a59bbcdd8b0c03a0afc",
+    "c1d4e184c4e34f17a11e8321e",
+    "c1f9579f93f8dd5bc42b7df56",
+    "c2cbf59dfc54dc5a8e79c320d",
+    "c3a184c8f6671cc33947d498c",
+    "c4e9db782b6a0f05af00a30ba",
+    "c669d551eadb1bc331dbe3d56",
+    "c66f3b2442f0da8ebd3b8702c",
+    "c6cb4e8b745d57608d137fa2e",
+    "c6e05aef960665ec439464168",
+    "c8b290b2bf2289683d7d1c0df",
+    "c9362312b206ff1011fc132a7",
+    "c9a36cb26aa1414002481a5a0",
+    "ca24a5e8c6f28b5eda7fa50de",
+    "cb4a96e5cde64d9faa403cccb",
+    "cb4bd95586355fe3bfcd49754",
+    "cbb5ca89949851abf47746056",
+    "cbf3a77bf28f9814081a8ef96",
+    "cc1b875b9219b6cfe553186fc",
+    "cc79cf1fd8a5d1e4f278d2325",
+    "cdcb853bbc4a23a1e717ce345",
+    "ce08bdcbc8b2fc20c5e30b4ab",
+    "cf0bc01bfc8852f961e33e9de",
+    "cfeb835178acb01619a63a286",
+    "cffbd588e46ffc1fc844e5330"
+  ],
+  "query": "What J.K. Rowling quote does Tim resonate with?",
+  "clock": "2024-01-12T13:41:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c139f4b845ec357142b7b3b56",
+        "score": 15.988485339470532
+      },
+      {
+        "source_id": "c16886a59bbcdd8b0c03a0afc",
+        "score": 1.5551169374471299
+      },
+      {
+        "source_id": "c1f9579f93f8dd5bc42b7df56",
+        "score": 1.4672003822124582
+      },
+      {
+        "source_id": "c08a011985f84a3d80171942f",
+        "score": 1.4461124595647008
+      },
+      {
+        "source_id": "c3a184c8f6671cc33947d498c",
+        "score": 1.3140128905679502
+      },
+      {
+        "source_id": "c9362312b206ff1011fc132a7",
+        "score": 1.2024661061919293
+      },
+      {
+        "source_id": "c1d4e184c4e34f17a11e8321e",
+        "score": 1.1495758429825538
+      },
+      {
+        "source_id": "c14b38719fc61303d0504f2f3",
+        "score": 5.6836131860059846e-06
+      },
+      {
+        "source_id": "cb4bd95586355fe3bfcd49754",
+        "score": 5.614140623226653e-06
+      },
+      {
+        "source_id": "ca24a5e8c6f28b5eda7fa50de",
+        "score": 5.589744056829094e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c139f4b845ec357142b7b3b56",
+        "score": 0.6787086801889338
+      },
+      {
+        "source_id": "c14b38719fc61303d0504f2f3",
+        "score": 0.41509111915816316
+      },
+      {
+        "source_id": "cc1b875b9219b6cfe553186fc",
+        "score": 0.3865900926802785
+      },
+      {
+        "source_id": "cbb5ca89949851abf47746056",
+        "score": 0.37968032860465245
+      },
+      {
+        "source_id": "c9a36cb26aa1414002481a5a0",
+        "score": 0.3648770297821372
+      },
+      {
+        "source_id": "c1f9579f93f8dd5bc42b7df56",
+        "score": 0.34049053797578094
+      },
+      {
+        "source_id": "c16886a59bbcdd8b0c03a0afc",
+        "score": 0.32263723635988323
+      },
+      {
+        "source_id": "c6cb4e8b745d57608d137fa2e",
+        "score": 0.3077928093956804
+      },
+      {
+        "source_id": "c1d4e184c4e34f17a11e8321e",
+        "score": 0.30762514749906433
+      },
+      {
+        "source_id": "cc79cf1fd8a5d1e4f278d2325",
+        "score": 0.30737904234622226
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.919696271419525e-07,
+  "cached_query_search_seconds": 0.003057250054553151
+}

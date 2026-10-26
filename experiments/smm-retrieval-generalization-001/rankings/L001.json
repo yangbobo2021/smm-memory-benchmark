@@ -1,0 +1,144 @@
+{
+  "case_id": "L001",
+  "cohort": "longmemeval_new32",
+  "family": "edced276",
+  "source_ids": [
+    "c0ad4ede6ace7adbb1d6a8c29",
+    "c0dfd3112980545f7ae073c12",
+    "c10266871f109377ffd734836",
+    "c1ce07f16a421fcca48279a7e",
+    "c2125e6d5b3b2ee6a58560418",
+    "c231d0d6fc7a96f33fb71382b",
+    "c257ecb0536aea29b106727fd",
+    "c28282eb4c287be452a0f7a2f",
+    "c3e8797813fd478c571d356ff",
+    "c46db21a1163c687bf2d2b68f",
+    "c4c1eae331c3bc1ebbbf8ba0a",
+    "c50eba27d822e1774408b5971",
+    "c531935694036298178bd433a",
+    "c5a62093d98e7ffb55a5c0878",
+    "c5c75cb0a63e81d656f4d080a",
+    "c5ce3968e9ef59a9bad9f6942",
+    "c60b3a92e9ba50de15d46dbd7",
+    "c61b51346f51a7c8ac290a621",
+    "c658a4d6521f7fbc419dfd5c9",
+    "c6a0af95040d7d04db7f09507",
+    "c6bc9fea7dc455bcbb170069c",
+    "c72018d6b87a05e3e7b25a12c",
+    "c743416f464c83c717f35499f",
+    "c74ad0d0239a8bb8ecb2ccdbe",
+    "c7b390017a25cb3a4d43538a3",
+    "c7be2e7d65b43423c8b99ea4a",
+    "c7c2736ba322e3c6d2067a9ba",
+    "c81512b5f674f939cb9da23d8",
+    "c85f01f830c6811c02d09c03a",
+    "c8e097fd94e30264f02ee2bfe",
+    "c988ddeb2d5330f5ddb1759a1",
+    "c9da968999797864ad32e6ee4",
+    "cb8f5992c4792af58fcde7f75",
+    "cbc264eeb4bae4955c16fd9ff",
+    "cc4122723a14d4d043e09f076",
+    "cce425f0fda74342f9989ed32",
+    "cd13de7d68ae3b288085b59cd",
+    "cd622579ada0fa74b0f2b63f6",
+    "cdd729378a6d80ed9297c70d0",
+    "ce262de8fcde47cbd4a4227fa",
+    "ce305bb606468ab6b8e2ead39",
+    "cebfe53512ab78fe5e2ce71ac",
+    "cf21b515612be6e937db98f1a",
+    "cf51abbd45a81ad4d7e0a86b3",
+    "cf83b06f9396d17b9a0db0917",
+    "cf9dd31701b7948c8d962f804"
+  ],
+  "query": "How many days did I spend in total traveling in Hawaii and in New York City?",
+  "clock": "2023-05-30T14:53:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c72018d6b87a05e3e7b25a12c",
+        "score": 17.320759845567196
+      },
+      {
+        "source_id": "ce305bb606468ab6b8e2ead39",
+        "score": 10.108820662754294
+      },
+      {
+        "source_id": "c658a4d6521f7fbc419dfd5c9",
+        "score": 9.31339039731703
+      },
+      {
+        "source_id": "cd622579ada0fa74b0f2b63f6",
+        "score": 6.853005587865618
+      },
+      {
+        "source_id": "c743416f464c83c717f35499f",
+        "score": 6.8016444284129145
+      },
+      {
+        "source_id": "cf83b06f9396d17b9a0db0917",
+        "score": 5.096158512443158
+      },
+      {
+        "source_id": "c7be2e7d65b43423c8b99ea4a",
+        "score": 5.043314263854145
+      },
+      {
+        "source_id": "c8e097fd94e30264f02ee2bfe",
+        "score": 5.01497300188243
+      },
+      {
+        "source_id": "c28282eb4c287be452a0f7a2f",
+        "score": 3.973875637850002
+      },
+      {
+        "source_id": "c0ad4ede6ace7adbb1d6a8c29",
+        "score": 3.4739836446643886
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c72018d6b87a05e3e7b25a12c",
+        "score": 0.40922894010861477
+      },
+      {
+        "source_id": "ce305bb606468ab6b8e2ead39",
+        "score": 0.3943524422394362
+      },
+      {
+        "source_id": "cdd729378a6d80ed9297c70d0",
+        "score": 0.3522879949847366
+      },
+      {
+        "source_id": "c257ecb0536aea29b106727fd",
+        "score": 0.306768937421174
+      },
+      {
+        "source_id": "c743416f464c83c717f35499f",
+        "score": 0.2815253355103933
+      },
+      {
+        "source_id": "c8e097fd94e30264f02ee2bfe",
+        "score": 0.2751073563872094
+      },
+      {
+        "source_id": "c0ad4ede6ace7adbb1d6a8c29",
+        "score": 0.26465549125962273
+      },
+      {
+        "source_id": "cebfe53512ab78fe5e2ce71ac",
+        "score": 0.25583585664974035
+      },
+      {
+        "source_id": "c9da968999797864ad32e6ee4",
+        "score": 0.21227402070188056
+      },
+      {
+        "source_id": "c531935694036298178bd433a",
+        "score": 0.20849277982355768
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.005618541967123747,
+  "cached_query_search_seconds": 0.006610250100493431
+}

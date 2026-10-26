@@ -1,0 +1,128 @@
+{
+  "case_id": "L021",
+  "cohort": "longmemeval_new32",
+  "family": "c8090214",
+  "source_ids": [
+    "c0b8256ab0f9a7042ab2a7c2b",
+    "c0c8be5a919140e7b5322eeee",
+    "c13a5098c5b4a5c05dab8d5eb",
+    "c17f0a608bd9288e14d8c3e57",
+    "c25def9e0d18cdb548ccc3e47",
+    "c2d135262f4fa1a29a7c064b0",
+    "c40d6a05975a73f1fe3204a82",
+    "c47e2dbd0109abf237173a512",
+    "c5d0eca1b798527a2004adef0",
+    "c5d89cfa36afe5717d669a49d",
+    "c5df1817f0846ef320663db55",
+    "c5f71cdfb9e76caff0323e171",
+    "c70df590c74934fea039757d0",
+    "c71b3c2ca8f45a51085e12680",
+    "c729e492570319ecb0cc1dace",
+    "c74850ebe1f58de622d4c50c9",
+    "c7dab610f42a1b4948d1d4d31",
+    "c88b7ee945645814e84c70061",
+    "c8c256154423c18370f5f828c",
+    "c906e80005473d92e7df1e161",
+    "c9560578da110a30ea3ce2e9e",
+    "c9aede0e0a429623e6d7daeb2",
+    "ca77240c6c3260cddd09279a8",
+    "cbe84296f9a2680940b9939c3",
+    "cc7851020240732b2ee1e9182",
+    "ce179fe7be1a765800287c2e4",
+    "ce5b1aaed06ea61da34e06bfe",
+    "ce61c5163430794ddf6b585fb",
+    "ce9623f6fc3a634eadcef93f8",
+    "cea87531d49b0265662e7c5ee"
+  ],
+  "query": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+  "clock": "2023-12-10T17:17:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c8c256154423c18370f5f828c",
+        "score": 14.532985200184505
+      },
+      {
+        "source_id": "c5df1817f0846ef320663db55",
+        "score": 8.895679028646175
+      },
+      {
+        "source_id": "c0c8be5a919140e7b5322eeee",
+        "score": 6.502355899315746
+      },
+      {
+        "source_id": "ce9623f6fc3a634eadcef93f8",
+        "score": 5.850578697833613
+      },
+      {
+        "source_id": "cc7851020240732b2ee1e9182",
+        "score": 5.571409686826717
+      },
+      {
+        "source_id": "c5f71cdfb9e76caff0323e171",
+        "score": 3.708820437718898
+      },
+      {
+        "source_id": "c47e2dbd0109abf237173a512",
+        "score": 3.4463244493483143
+      },
+      {
+        "source_id": "c40d6a05975a73f1fe3204a82",
+        "score": 2.9421251351682214
+      },
+      {
+        "source_id": "c9560578da110a30ea3ce2e9e",
+        "score": 2.6094344179673303
+      },
+      {
+        "source_id": "c17f0a608bd9288e14d8c3e57",
+        "score": 1.9232657783789813
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c8c256154423c18370f5f828c",
+        "score": 0.4600459333155289
+      },
+      {
+        "source_id": "c5f71cdfb9e76caff0323e171",
+        "score": 0.3530604061950037
+      },
+      {
+        "source_id": "c5df1817f0846ef320663db55",
+        "score": 0.2720559102866893
+      },
+      {
+        "source_id": "c5d89cfa36afe5717d669a49d",
+        "score": 0.24819076326310777
+      },
+      {
+        "source_id": "ce9623f6fc3a634eadcef93f8",
+        "score": 0.22634621871710092
+      },
+      {
+        "source_id": "c74850ebe1f58de622d4c50c9",
+        "score": 0.21082721830267054
+      },
+      {
+        "source_id": "ce5b1aaed06ea61da34e06bfe",
+        "score": 0.1937710199808424
+      },
+      {
+        "source_id": "c2d135262f4fa1a29a7c064b0",
+        "score": 0.14906810428034634
+      },
+      {
+        "source_id": "c9560578da110a30ea3ce2e9e",
+        "score": 0.14481833014469445
+      },
+      {
+        "source_id": "c0c8be5a919140e7b5322eeee",
+        "score": 0.14149892777681944
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.002337167039513588,
+  "cached_query_search_seconds": 0.0038076250348240137
+}

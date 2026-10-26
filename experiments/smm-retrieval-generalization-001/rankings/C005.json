@@ -1,0 +1,126 @@
+{
+  "case_id": "C005",
+  "cohort": "locomo_random200",
+  "family": "conv-44",
+  "source_ids": [
+    "c01d5f1bad856e63f2d259c53",
+    "c0c938fedefd07da628c20135",
+    "c0cb5497315b5f692644d7a05",
+    "c12b220b6db89871db6bbd506",
+    "c18c87e5c3df2b81e03dabf48",
+    "c1a187e951f0e0254bb4fb0b4",
+    "c26d15cc1e49c4024420ad588",
+    "c3453d0c71ec7bb9d355512c5",
+    "c3e07e095996704ab0fd0179e",
+    "c3fb82e2a1ab79e03385e8df4",
+    "c4879bb338dce6b57124fe1e7",
+    "c53880a0363f66352cffd4ea4",
+    "c6638c80290604d1907736234",
+    "c6c33cfbfa34aa84af38784ef",
+    "c6dace7e344b151bc6884bd28",
+    "c700d7b8d68bc2d3bb480c48c",
+    "c733740442f3368cbe55fafe0",
+    "c74c8caa23db9eaafca147bb8",
+    "c78d23a9eedd1abe5b2f350ca",
+    "c83413649c8fad2a1b8e52c8e",
+    "cb9ff4548964b6b623d512c73",
+    "cc33657a59394105b5bcb266f",
+    "cc5c2e2cd0f284232e160c1db",
+    "cc7fa43c0315b56990674b9ac",
+    "cd7322a2d1e44154427e221e8",
+    "cdc4a081215673c3d5558c1fa",
+    "cde7ef43a3a69da3551b22e08",
+    "ce133a49ad3fdc00d791042d9"
+  ],
+  "query": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+  "clock": "2023-11-22T09:02:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c3fb82e2a1ab79e03385e8df4",
+        "score": 6.312266762891625
+      },
+      {
+        "source_id": "cde7ef43a3a69da3551b22e08",
+        "score": 3.3387215316249965
+      },
+      {
+        "source_id": "cdc4a081215673c3d5558c1fa",
+        "score": 2.883264864122079
+      },
+      {
+        "source_id": "cc7fa43c0315b56990674b9ac",
+        "score": 2.7381342237565485
+      },
+      {
+        "source_id": "c12b220b6db89871db6bbd506",
+        "score": 2.2367713162640923
+      },
+      {
+        "source_id": "cc33657a59394105b5bcb266f",
+        "score": 2.093921467473272
+      },
+      {
+        "source_id": "c26d15cc1e49c4024420ad588",
+        "score": 2.0532558973452266
+      },
+      {
+        "source_id": "c83413649c8fad2a1b8e52c8e",
+        "score": 1.905151643283624
+      },
+      {
+        "source_id": "ce133a49ad3fdc00d791042d9",
+        "score": 1.831628745464974
+      },
+      {
+        "source_id": "c3e07e095996704ab0fd0179e",
+        "score": 1.7724558970940314
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c733740442f3368cbe55fafe0",
+        "score": 0.5563526478676014
+      },
+      {
+        "source_id": "c1a187e951f0e0254bb4fb0b4",
+        "score": 0.5520462370194551
+      },
+      {
+        "source_id": "c6dace7e344b151bc6884bd28",
+        "score": 0.5291277975203733
+      },
+      {
+        "source_id": "cde7ef43a3a69da3551b22e08",
+        "score": 0.5245254650089963
+      },
+      {
+        "source_id": "c3fb82e2a1ab79e03385e8df4",
+        "score": 0.5196985526819089
+      },
+      {
+        "source_id": "cb9ff4548964b6b623d512c73",
+        "score": 0.5087606202863977
+      },
+      {
+        "source_id": "cc7fa43c0315b56990674b9ac",
+        "score": 0.5077332290018641
+      },
+      {
+        "source_id": "c0c938fedefd07da628c20135",
+        "score": 0.4987635468727691
+      },
+      {
+        "source_id": "cdc4a081215673c3d5558c1fa",
+        "score": 0.4960887329507467
+      },
+      {
+        "source_id": "c700d7b8d68bc2d3bb480c48c",
+        "score": 0.4925013225187279
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0006658749189227819,
+  "cached_query_search_seconds": 0.004834874998778105
+}

@@ -1,0 +1,129 @@
+{
+  "case_id": "C071",
+  "cohort": "locomo_random200",
+  "family": "conv-47",
+  "source_ids": [
+    "c092ef4f8fbd66e0df16f2b95",
+    "c09427b85c116f01a646d5c44",
+    "c0e738c3f85f5533071855000",
+    "c15f5a7e7b76836f1cee30a79",
+    "c2fa2d8a46051b38c61cf603d",
+    "c30d040e0845c7e5daf99a954",
+    "c3eabd97e70cbbcde30ffb715",
+    "c447e640524017aa5b213a7ff",
+    "c49bdc6ed8bccc4d0059dd71e",
+    "c5ff6583bd9fa67f2cae1b861",
+    "c6f70416cff9b6959ff7e9df7",
+    "c6fb96d53122918529a99e7df",
+    "c709a41573d43d19b1dc755ba",
+    "c7197c346ff3f90ba3a610bb4",
+    "c7748483c11f30c8402c203b1",
+    "c8e125f35c78d853d6db8c5d7",
+    "c9068063ccb39205237d24350",
+    "c90cad23aa3b6a6876298ba0d",
+    "c929ee1431e361f0fdcb7299a",
+    "c9fb4a7e6c69f5882a6ea407c",
+    "ca54a39f1baffff7c7c2fd2a3",
+    "cb50c88f77449971d130cf8b3",
+    "cbb821dcf1cbe29465f76da7d",
+    "cbddd4c9ffb6a43714b4dac0f",
+    "cbe0886c4663549f807e6829b",
+    "cd9944926501b1f68d99a3145",
+    "cde8756ab379f796052821cfd",
+    "ce75c23c4a140576e602f23d9",
+    "cf1dedfce6f0bcf5498202bed",
+    "cfa557968fa500b1c93488638",
+    "cfa66ef0902b96e0b34cb56f8"
+  ],
+  "query": "What kind of dream did James have recently?",
+  "clock": "2022-11-07T20:57:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c9068063ccb39205237d24350",
+        "score": 4.71696945814676
+      },
+      {
+        "source_id": "c092ef4f8fbd66e0df16f2b95",
+        "score": 4.534487665233367
+      },
+      {
+        "source_id": "c3eabd97e70cbbcde30ffb715",
+        "score": 2.0786990138652723
+      },
+      {
+        "source_id": "c90cad23aa3b6a6876298ba0d",
+        "score": 2.0640465494338205
+      },
+      {
+        "source_id": "c49bdc6ed8bccc4d0059dd71e",
+        "score": 1.772224231775166
+      },
+      {
+        "source_id": "c09427b85c116f01a646d5c44",
+        "score": 1.75678196641595
+      },
+      {
+        "source_id": "cd9944926501b1f68d99a3145",
+        "score": 1.6334183855880609
+      },
+      {
+        "source_id": "c447e640524017aa5b213a7ff",
+        "score": 1.3964416510975488
+      },
+      {
+        "source_id": "ce75c23c4a140576e602f23d9",
+        "score": 1.2623665233195425
+      },
+      {
+        "source_id": "cf1dedfce6f0bcf5498202bed",
+        "score": 1.2265247824124899
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c092ef4f8fbd66e0df16f2b95",
+        "score": 0.5604981544843779
+      },
+      {
+        "source_id": "c49bdc6ed8bccc4d0059dd71e",
+        "score": 0.3629722013302706
+      },
+      {
+        "source_id": "c6f70416cff9b6959ff7e9df7",
+        "score": 0.3615556669424581
+      },
+      {
+        "source_id": "c5ff6583bd9fa67f2cae1b861",
+        "score": 0.34558778142213403
+      },
+      {
+        "source_id": "c9fb4a7e6c69f5882a6ea407c",
+        "score": 0.33743440545272296
+      },
+      {
+        "source_id": "cfa557968fa500b1c93488638",
+        "score": 0.33465229886517617
+      },
+      {
+        "source_id": "cf1dedfce6f0bcf5498202bed",
+        "score": 0.32977763232366875
+      },
+      {
+        "source_id": "ca54a39f1baffff7c7c2fd2a3",
+        "score": 0.32040205138534056
+      },
+      {
+        "source_id": "c709a41573d43d19b1dc755ba",
+        "score": 0.3194737482284683
+      },
+      {
+        "source_id": "c9068063ccb39205237d24350",
+        "score": 0.31138817125883955
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 5.408655852079391e-07,
+  "cached_query_search_seconds": 0.0029513328336179256
+}

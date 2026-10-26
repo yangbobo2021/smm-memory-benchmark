@@ -1,0 +1,148 @@
+{
+  "case_id": "L027",
+  "cohort": "longmemeval_new32",
+  "family": "2311e44b",
+  "source_ids": [
+    "c08d5630953b5a1984f6f6923",
+    "c09db3c226d495aa1cc1d4615",
+    "c0ec6bab5fcd7239f501bc312",
+    "c137c9fe308fbe7fc75888146",
+    "c138b10ebe1fab1c81d266acd",
+    "c1b2b1aa22a1227f375a71d02",
+    "c201bcadf5a651501083e9ae5",
+    "c2c45bc297615a2b65a987482",
+    "c33c74e90188fcd9ff27b19ae",
+    "c33dc346e70598b74e10ece1c",
+    "c36e518cb67255b90c54ac344",
+    "c371cf0a74089019b6997f7db",
+    "c383a38d464776a2217d5b207",
+    "c3b435fa5f3514fa6c83c43cf",
+    "c432b7582ea7d91a2f39ac069",
+    "c4673f0565a871a87d0cdbdff",
+    "c4a1d7f85c59c875116e93f06",
+    "c4d9ab816e588e894615037d6",
+    "c583afbdb3bb9d3f4ce71bd1a",
+    "c62795328bcdfc227c14f30c4",
+    "c664daaa5a1710c23c015ce84",
+    "c680da2a4cb2b34e8e150ae44",
+    "c69b42ec89faee360510ed68b",
+    "c6c8917557c67bc42cc432265",
+    "c71daf4f08d69dd4c5d41b850",
+    "c7777c174691c8fde751cd344",
+    "c7d33774ba4c5822db671b703",
+    "c7f031ba7072b142f62fb9826",
+    "c81d0dfcd55782785103ee217",
+    "c82ee8cd1d50ef25f20a1a5ae",
+    "c8700078cdc4f7c6b5f4307e8",
+    "c8b574ae926f8e7a125dd869e",
+    "c8bf8c833ac88f981c3754f3f",
+    "c9027217cfe10e654a6a31025",
+    "c9414d05066d20dd01f1b87cf",
+    "ca825960685a9fa2534d1783a",
+    "cb1d7b1e7737eb34f82202ace",
+    "cb9d998b6a1ab3ab7d39e0f61",
+    "cbb590ff5416238c590abe67b",
+    "cbf6657ed545a859b8448ebaa",
+    "cc1ea6f1f27cf1b56b70d98f3",
+    "cd5dd00323c8087108a7ec98f",
+    "ce0138b3d135861b50d0edbaf",
+    "ce65314036e50287c1b2467d3",
+    "ce8869081c995b6ec0771dd31",
+    "cedc4921d73c7e9cead52ac49",
+    "cf3569a4fd2e9ac7555f17011",
+    "cf939ab447eb86cd09acde3b3",
+    "cfc3eed20457138075eeda5d7",
+    "cfe72bca893f727901677af15"
+  ],
+  "query": "How many pages do I have left to read in 'The Nightingale'?",
+  "clock": "2023-05-30T22:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c680da2a4cb2b34e8e150ae44",
+        "score": 15.908063966675153
+      },
+      {
+        "source_id": "c8bf8c833ac88f981c3754f3f",
+        "score": 14.170375988550957
+      },
+      {
+        "source_id": "ce8869081c995b6ec0771dd31",
+        "score": 2.9784117849561
+      },
+      {
+        "source_id": "cfe72bca893f727901677af15",
+        "score": 2.763633262823597
+      },
+      {
+        "source_id": "c82ee8cd1d50ef25f20a1a5ae",
+        "score": 2.131336191539059
+      },
+      {
+        "source_id": "c36e518cb67255b90c54ac344",
+        "score": 2.098913264402525
+      },
+      {
+        "source_id": "c4a1d7f85c59c875116e93f06",
+        "score": 1.9777073439105537
+      },
+      {
+        "source_id": "ce65314036e50287c1b2467d3",
+        "score": 1.960837175411387
+      },
+      {
+        "source_id": "c2c45bc297615a2b65a987482",
+        "score": 1.891724971465387
+      },
+      {
+        "source_id": "c33dc346e70598b74e10ece1c",
+        "score": 1.6378044683802633
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c680da2a4cb2b34e8e150ae44",
+        "score": 0.68106483650189
+      },
+      {
+        "source_id": "c8bf8c833ac88f981c3754f3f",
+        "score": 0.6753138030173992
+      },
+      {
+        "source_id": "c09db3c226d495aa1cc1d4615",
+        "score": 0.34316950667587326
+      },
+      {
+        "source_id": "c36e518cb67255b90c54ac344",
+        "score": 0.3293466666542083
+      },
+      {
+        "source_id": "c137c9fe308fbe7fc75888146",
+        "score": 0.25920220939626315
+      },
+      {
+        "source_id": "cf939ab447eb86cd09acde3b3",
+        "score": 0.24221866423655328
+      },
+      {
+        "source_id": "c62795328bcdfc227c14f30c4",
+        "score": 0.240562575081041
+      },
+      {
+        "source_id": "cbb590ff5416238c590abe67b",
+        "score": 0.23861442290773982
+      },
+      {
+        "source_id": "c3b435fa5f3514fa6c83c43cf",
+        "score": 0.23364421475499889
+      },
+      {
+        "source_id": "cb1d7b1e7737eb34f82202ace",
+        "score": 0.2235447565191221
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003832082962617278,
+  "cached_query_search_seconds": 0.005071291932836175
+}

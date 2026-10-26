@@ -1,0 +1,141 @@
+{
+  "case_id": "L007",
+  "cohort": "longmemeval_new32",
+  "family": "4dfccbf8",
+  "source_ids": [
+    "c0013491cb31bb0c01871027d",
+    "c06183fb2e92ef1d6ab8a0691",
+    "c077a81aae85a2f21468387c8",
+    "c1c57244c005330bffb259a83",
+    "c2bc626ca3f93fde70398f42c",
+    "c2bd34f70b609538b433522a5",
+    "c2fb2a0d88bae3763bc58e457",
+    "c2fbb9c4e4909d11171cc4c53",
+    "c31d805a142b5f506e6969dd2",
+    "c424ff7d6621d2b963e653b19",
+    "c49756fc789398f3d796a521b",
+    "c4de1595eae76eb50447704ce",
+    "c56b136d347471563a58d6502",
+    "c58cbbafca4bd26d962ec3a2e",
+    "c5948571b71afaf3eaa5587e4",
+    "c639b2ad812f92e3d441cc225",
+    "c6e3da13ffb1a88cb60edee28",
+    "c73a1c393a9ab933078548cfd",
+    "c788b07ad7416437765385897",
+    "c8b592fda0fcb9404caa140c0",
+    "c8fa624b44e6c3c6b9e6584d1",
+    "c918567b8e283c49d4ccb7ba8",
+    "c9287b2ec6bfe412f78b765f4",
+    "c9c693d7e454f295a57ca2625",
+    "ca72cff9b49afda45e0cfbe8b",
+    "caea9dbd67e6ed52da5a8c43b",
+    "cb0c5b5c6fca01e8586a64f23",
+    "cb4ef204380df2253fe7b2d8b",
+    "cb855472bc980d09637653928",
+    "cb9312d9b6eeea937c9b7c930",
+    "cb9df44d9c72fb0093a14072b",
+    "cbc5d6f8b13afb821e6a84f9f",
+    "cbc6065e02f0463f19cc6a645",
+    "cccaad412e4ae2699026d0e42",
+    "ccf82ef093536f7ccf1367d2c",
+    "cd3558188b308d76035f084dd",
+    "cd691b8d2d4a7ecdc73949ae1",
+    "cd900edcdaf87b1c2321972d0",
+    "ce2c1bc107b37900fdfa83a2c",
+    "cea042f8175ffd360e3ae1ac3",
+    "cf371057c48cdcb6440346b1c",
+    "cf7fbb14578a208c951dc9bfc",
+    "cfbaa597b28cdab221c313e1c"
+  ],
+  "query": "What did I do with Rachel on the Wednesday two months ago?",
+  "clock": "2023-04-01T16:08:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c1c57244c005330bffb259a83",
+        "score": 5.718151530101375
+      },
+      {
+        "source_id": "c2bd34f70b609538b433522a5",
+        "score": 5.530631740723035
+      },
+      {
+        "source_id": "cccaad412e4ae2699026d0e42",
+        "score": 4.567685594535714
+      },
+      {
+        "source_id": "c424ff7d6621d2b963e653b19",
+        "score": 3.9332019591295784
+      },
+      {
+        "source_id": "cfbaa597b28cdab221c313e1c",
+        "score": 3.5331387624179484
+      },
+      {
+        "source_id": "cb4ef204380df2253fe7b2d8b",
+        "score": 3.189723977987574
+      },
+      {
+        "source_id": "c8fa624b44e6c3c6b9e6584d1",
+        "score": 2.7895648433058757
+      },
+      {
+        "source_id": "cbc6065e02f0463f19cc6a645",
+        "score": 2.2165941248955474
+      },
+      {
+        "source_id": "c9c693d7e454f295a57ca2625",
+        "score": 2.198028692663183
+      },
+      {
+        "source_id": "c6e3da13ffb1a88cb60edee28",
+        "score": 1.9969299317213418
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c1c57244c005330bffb259a83",
+        "score": 0.31731551887594467
+      },
+      {
+        "source_id": "c2fb2a0d88bae3763bc58e457",
+        "score": 0.2567506105734215
+      },
+      {
+        "source_id": "cccaad412e4ae2699026d0e42",
+        "score": 0.2351664768748944
+      },
+      {
+        "source_id": "cb9312d9b6eeea937c9b7c930",
+        "score": 0.2023518301137472
+      },
+      {
+        "source_id": "cf7fbb14578a208c951dc9bfc",
+        "score": 0.1838473534670103
+      },
+      {
+        "source_id": "c58cbbafca4bd26d962ec3a2e",
+        "score": 0.16167163921165295
+      },
+      {
+        "source_id": "c639b2ad812f92e3d441cc225",
+        "score": 0.16071119952087398
+      },
+      {
+        "source_id": "caea9dbd67e6ed52da5a8c43b",
+        "score": 0.15918998698211048
+      },
+      {
+        "source_id": "cfbaa597b28cdab221c313e1c",
+        "score": 0.15253864342344214
+      },
+      {
+        "source_id": "cf371057c48cdcb6440346b1c",
+        "score": 0.1255206591594593
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.003464000066742301,
+  "cached_query_search_seconds": 0.004240208072587848
+}

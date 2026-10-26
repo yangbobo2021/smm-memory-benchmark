@@ -1,0 +1,117 @@
+{
+  "case_id": "C182",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "What are Melanie's pets' names?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 5.24283429929781
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 2.804925769840307
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 7.711511063944408e-06
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 7.58780549975902e-06
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 7.570543048472879e-06
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 7.208833572820968e-06
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 7.152929127309046e-06
+      },
+      {
+        "source_id": "c83a5466251a9a6d24da25bd7",
+        "score": 7.117924169525809e-06
+      },
+      {
+        "source_id": "cbf31e4f19b0da0ee35961607",
+        "score": 7.024514655057237e-06
+      },
+      {
+        "source_id": "c4dc55d280c7f3f545df4d134",
+        "score": 6.995511613645949e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 0.5239623430880667
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 0.4446310631128477
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 0.4132774159574194
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.4063312698817032
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 0.40112865894335614
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 0.3926041626318052
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 0.3832271320499845
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 0.38319215682346364
+      },
+      {
+        "source_id": "c209acf4c5721940c78269220",
+        "score": 0.3785595140682122
+      },
+      {
+        "source_id": "c83a5466251a9a6d24da25bd7",
+        "score": 0.3767248840938468
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 7.080379873514175e-07,
+  "cached_query_search_seconds": 0.0020549169275909662
+}

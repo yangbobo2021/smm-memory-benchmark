@@ -1,0 +1,141 @@
+{
+  "case_id": "L018",
+  "cohort": "longmemeval_new32",
+  "family": "eac54add",
+  "source_ids": [
+    "c169c8eb44ca9ed4be5a39735",
+    "c179e2ea368fb9abbc75ea6d0",
+    "c1aae6899c85b3d4b33477503",
+    "c20e9c316427b68e73971deca",
+    "c2867af95fb39b5a2a850f03f",
+    "c2da65519bb34b69e36f1e011",
+    "c35c1d88271fa1e34e6b17538",
+    "c37d6742905e5289d693506d2",
+    "c39814885b940be0277662ae1",
+    "c3d18203d8da107c519a5d544",
+    "c4e8989d269418e2dd319addb",
+    "c54a7182b41f8948df28ae57d",
+    "c55ba95e42ef616c7ea814627",
+    "c5c7abecf43ae8a8803940fde",
+    "c6014a4ecb5a4a25230934ee8",
+    "c6072da0977416bdaeface9e2",
+    "c656eac93f2eae8cbf36ca07a",
+    "c6c44366c9a8f649673c8b613",
+    "c72c5c24acfb8fb8f153b6e97",
+    "c75ca556adcdb8f15eb47a0c6",
+    "c7ff2c18604baff7cee257754",
+    "c80f65e79f691b8853c1bd565",
+    "c9a384eb4a467dc101c75e5c5",
+    "c9f9a77bf57a8a43b2565b2c0",
+    "ca6af1e4e9144cada366e85f3",
+    "ca6c7c2eb80849b97f1324196",
+    "ca73dcb9f669c5f7fe37de2c9",
+    "ca874249346f4aa4c5de9442d",
+    "cb8c4e1a83a15c1acf26d7d1f",
+    "cc1cf931f7ff2e598f7f11861",
+    "cc4ecd9ef31c5b3de0df1f281",
+    "cc750b18f68b2fd3da3976373",
+    "ccea49e23056e22d33f5442ee",
+    "ccff48c4119a47d4ff48e3c4e",
+    "cd7847f76aaedfce3200dce7f",
+    "cd7b6edcc036f73d3c844f108",
+    "cdc6426d74258d8770ba4e3a1",
+    "ce25a2f57cbaacbe39cea2d1c",
+    "cea76e59dc079fd704f14ebb8",
+    "ceb7e31480dc4633f8b0cbe3b",
+    "cf6f7acd8dc47bb3ba207c7b9",
+    "cf7ac17861a8a1994bd54ea14",
+    "cf82e051f7368eab2f83bfe58"
+  ],
+  "query": "What was the significant buisiness milestone I mentioned four weeks ago?",
+  "clock": "2023-03-28T20:35:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c7ff2c18604baff7cee257754",
+        "score": 9.469395752034128
+      },
+      {
+        "source_id": "cf6f7acd8dc47bb3ba207c7b9",
+        "score": 6.013246248789411
+      },
+      {
+        "source_id": "cb8c4e1a83a15c1acf26d7d1f",
+        "score": 5.110580686309474
+      },
+      {
+        "source_id": "c6014a4ecb5a4a25230934ee8",
+        "score": 5.0754595676367495
+      },
+      {
+        "source_id": "c6072da0977416bdaeface9e2",
+        "score": 4.0844964521498515
+      },
+      {
+        "source_id": "c20e9c316427b68e73971deca",
+        "score": 3.9652893345043045
+      },
+      {
+        "source_id": "c75ca556adcdb8f15eb47a0c6",
+        "score": 3.3964357248500794
+      },
+      {
+        "source_id": "cf82e051f7368eab2f83bfe58",
+        "score": 2.779236020381299
+      },
+      {
+        "source_id": "c37d6742905e5289d693506d2",
+        "score": 2.7592425824936977
+      },
+      {
+        "source_id": "cc4ecd9ef31c5b3de0df1f281",
+        "score": 2.373855978588432
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cc750b18f68b2fd3da3976373",
+        "score": 0.33298479101686007
+      },
+      {
+        "source_id": "c75ca556adcdb8f15eb47a0c6",
+        "score": 0.32772290670526594
+      },
+      {
+        "source_id": "ca6c7c2eb80849b97f1324196",
+        "score": 0.2914194803550223
+      },
+      {
+        "source_id": "c656eac93f2eae8cbf36ca07a",
+        "score": 0.28651207937703893
+      },
+      {
+        "source_id": "ccea49e23056e22d33f5442ee",
+        "score": 0.2763593589893254
+      },
+      {
+        "source_id": "c35c1d88271fa1e34e6b17538",
+        "score": 0.26866565775722134
+      },
+      {
+        "source_id": "c9a384eb4a467dc101c75e5c5",
+        "score": 0.24447807948042682
+      },
+      {
+        "source_id": "ccff48c4119a47d4ff48e3c4e",
+        "score": 0.22475286338662903
+      },
+      {
+        "source_id": "c9f9a77bf57a8a43b2565b2c0",
+        "score": 0.2224247144828166
+      },
+      {
+        "source_id": "c20e9c316427b68e73971deca",
+        "score": 0.2212337143803766
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0035610420163720846,
+  "cached_query_search_seconds": 0.004190125036984682
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cdb7bec89fc5ab7b45d33d16d",
+  "text": "USER:\nCan you make a pricing list example that will cost someone $1200, within this list would be: audiovisual package, visual package, audio package, 4 revisions, 20-30 minute video\n\nASSISTANT:\nSure, here's an example pricing list that would cost $1,200:\n\n* Audiovisual Package: $800\n\t+ Includes: Visual Package and Audio Package\n* Visual Package: $400 (included in Audiovisual Package)\n\t+ Includes: 4 revisions\n* Audio Package: $400 (included in Audiovisual Package)\n* 4 revisions: $0 (included in Visual Package)\n* 20-30 minute video: $0 (included in Audiovisual Package)\n\nTotal: $1,200\n\nUSER:\ncan you add that additional revisions will cost extra money and can you take the audiovisual package and change the word package into portions\n\nASSISTANT:\nSure, here's the updated pricing list:\n\n* Audiovisual Portions: $800\n\t+ Includes: Visual Portion and Audio Portion, and a 20-30 minute video\n* Visual Portion: $400 (included in Audiovisual Portions)\n\t+ Includes: 4 revisions\n* Audio Portion: $400 (included in Audiovisual Portions)\n* Additional revisions: $100 each\n\nTotal: $1,200 (for 4 revisions)\n\nNote: Additional revisions beyond the 4 included in the Visual Portion will incur additional costs.\n\nUSER:\ncan we also add that being in person and other formats will incur additional as well\n\nASSISTANT:\nSure, here's the updated pricing list with the additional information:\n\n* Audiovisual Portions: $800\n\t+ Includes: Visual Portion and Audio Portion, and a 20-30 minute video\n* Visual Portion: $400 (included in Audiovisual Portions)\n\t+ Includes: 4 revisions\n* Audio Portion: $400 (included in Audiovisual Portions)\n* Additional revisions: $100 each\n* In-person filming: $200 (additional fee)\n* Other formats (e.g. VR, 360 video, etc.): $200 (additional fee)\n\nTotal: $1,200 (for 4 revisions and standard format)\n\nNote: Additional services such as in-person filming and other formats will incur additional costs.",
+  "received_at": "2023-05-30T12:19:00+00:00",
+  "source_sha256": "a699652a7abcd1c289588d145c3eeaf7d20722fd891d09e5eb69203caaaf7210",
+  "structure": {
+    "source_sha256": "a699652a7abcd1c289588d145c3eeaf7d20722fd891d09e5eb69203caaaf7210",
+    "parts": [
+      {
+        "turn": 0,
+        "role": "user",
+        "start": 6,
+        "end": 182
+      },
+      {
+        "turn": 1,
+        "role": "assistant",
+        "start": 195,
+        "end": 589
+      },
+      {
+        "turn": 2,
+        "role": "user",
+        "start": 597,
+        "end": 739
+      },
+      {
+        "turn": 3,
+        "role": "assistant",
+        "start": 752,
+        "end": 1200
+      },
+      {
+        "turn": 4,
+        "role": "user",
+        "start": 1208,
+        "end": 1292
+      },
+      {
+        "turn": 5,
+        "role": "assistant",
+        "start": 1305,
+        "end": 1913
+      }
+    ]
+  },
+  "provenance": {
+    "dataset": "LongMemEval-cleaned",
+    "external_session_id": "sharegpt_yRKmrKw_0"
+  }
+}

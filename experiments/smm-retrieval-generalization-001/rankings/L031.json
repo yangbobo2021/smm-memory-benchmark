@@ -1,0 +1,144 @@
+{
+  "case_id": "L031",
+  "cohort": "longmemeval_new32",
+  "family": "80ec1f4f",
+  "source_ids": [
+    "c0390a415ea0049d3e380f7d2",
+    "c0e943530a1e8734f46171431",
+    "c102105f0d93f276a7f4b9b9f",
+    "c140c89e38991ea6faca2f547",
+    "c1706fc66c3c11988c73b3dc5",
+    "c19303fbfcd05e4127d402098",
+    "c1f6e78782596a70b96ca679c",
+    "c21f60c0523d1eae4061b2d03",
+    "c2756c030290b6b22e439d686",
+    "c27736c589150686784031454",
+    "c2b16284dd066b828958c9153",
+    "c3596f2814e2b898fc0d5690e",
+    "c41fe0b1067ae64047533cf95",
+    "c4babe87a9f073912bcf9791e",
+    "c54c67bfd754e651355f2c983",
+    "c5c0a373307afd9ac380dde1c",
+    "c5ccb9c91c4a84947af53477c",
+    "c6e028ce6af6cf97d61c0b6a1",
+    "c754159eba6861604bdfc40b1",
+    "c7b6bd182e2fda55001e92848",
+    "c7df689de37933aabc2060dc4",
+    "c7fdf5bc101cc6f28861b4b83",
+    "c7fee485015d9189abd975ec2",
+    "c804933a0b4bd70161738e723",
+    "c809f8fbe82b1b7d08e80efbe",
+    "c85f7ee02260e82023e543ee3",
+    "c8969770c4c4a706560285478",
+    "c8c7839f6e98f592da2258c34",
+    "cacf553ffd3a4f6b900315221",
+    "cb3af2824cae00ff4b69782fb",
+    "cb40640a71b56be161594b650",
+    "cb7cdfc60adce9b564e2923ea",
+    "cb7f4fc35a224fd7c465da379",
+    "cbbb7b1ea965c4f2927c8d0e7",
+    "cd0ca3af4fd1c6a60bc6b226f",
+    "cd137fb68962f3c30dba929df",
+    "cd20b416800a074c2aee56272",
+    "cd4676817fc9720fda94e6c0e",
+    "cd5d1bb0d8137f5c0e9eeb79e",
+    "cd82c38252790b3ac30bb2f4a",
+    "ce244b759de3221a2e55c98f3",
+    "ce5bd2cf07b2e376facebdd6d",
+    "cf3156d8a625d0c3b74d56b9b",
+    "cf43c3bf7cbc0ce414abae56a",
+    "cfe1214b6a3df7a7c66dff4f3",
+    "cff23b071e3526757cb75095c"
+  ],
+  "query": "How many different museums or galleries did I visit in the month of February?",
+  "clock": "2023-03-03T23:25:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf3156d8a625d0c3b74d56b9b",
+        "score": 17.48820330246858
+      },
+      {
+        "source_id": "cd4676817fc9720fda94e6c0e",
+        "score": 11.638627700630101
+      },
+      {
+        "source_id": "c0e943530a1e8734f46171431",
+        "score": 10.121303914047262
+      },
+      {
+        "source_id": "c7df689de37933aabc2060dc4",
+        "score": 6.3506827187961905
+      },
+      {
+        "source_id": "cff23b071e3526757cb75095c",
+        "score": 5.081013063019619
+      },
+      {
+        "source_id": "c41fe0b1067ae64047533cf95",
+        "score": 5.080734066469971
+      },
+      {
+        "source_id": "cbbb7b1ea965c4f2927c8d0e7",
+        "score": 3.0555466764767707
+      },
+      {
+        "source_id": "c1f6e78782596a70b96ca679c",
+        "score": 1.7512611978278625
+      },
+      {
+        "source_id": "c3596f2814e2b898fc0d5690e",
+        "score": 1.7407510322458475
+      },
+      {
+        "source_id": "c809f8fbe82b1b7d08e80efbe",
+        "score": 1.5394081189247266
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf3156d8a625d0c3b74d56b9b",
+        "score": 0.47937758675607056
+      },
+      {
+        "source_id": "c0e943530a1e8734f46171431",
+        "score": 0.43819249111556374
+      },
+      {
+        "source_id": "cd4676817fc9720fda94e6c0e",
+        "score": 0.4319014650968265
+      },
+      {
+        "source_id": "c41fe0b1067ae64047533cf95",
+        "score": 0.39949014043049025
+      },
+      {
+        "source_id": "cff23b071e3526757cb75095c",
+        "score": 0.3487376447839542
+      },
+      {
+        "source_id": "cd20b416800a074c2aee56272",
+        "score": 0.3409978660834504
+      },
+      {
+        "source_id": "c4babe87a9f073912bcf9791e",
+        "score": 0.3318874940619754
+      },
+      {
+        "source_id": "cd137fb68962f3c30dba929df",
+        "score": 0.29278382790898766
+      },
+      {
+        "source_id": "c54c67bfd754e651355f2c983",
+        "score": 0.2775008202866544
+      },
+      {
+        "source_id": "c27736c589150686784031454",
+        "score": 0.27597219690766905
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0037334170192480087,
+  "cached_query_search_seconds": 0.005885125137865543
+}

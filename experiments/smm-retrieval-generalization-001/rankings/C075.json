@@ -1,0 +1,117 @@
+{
+  "case_id": "C075",
+  "cohort": "locomo_random200",
+  "family": "conv-30",
+  "source_ids": [
+    "c002df39626b88670b2b2059a",
+    "c053959005c44b8e1c4bc4d68",
+    "c1e820ecc40269ca06cd57f52",
+    "c373840166141e9b586ef7866",
+    "c3d99bc9a646cbf0bf1ad99e7",
+    "c5285fec8efa2f363a708f85e",
+    "c5bf38a741fa6aa665a48f63d",
+    "c5e499f3f44b2b99dfa1e6936",
+    "c6b3a3d8807f81d16f165f6f7",
+    "c6b94ce927a7905fea87746d0",
+    "c70fc90df7fdacfbf0da310b2",
+    "c720049e6bb5892226d5c4c94",
+    "c780bc24135b6b97b373811c4",
+    "c7b81de162b16c76746562aa9",
+    "c9aff67e0ada07c3fa33c5c13",
+    "cb7dcd9a40047f36005366699",
+    "cf4d692d08f9e8ab716341940",
+    "cf6e33c71e7940eb2df0c3040",
+    "cf90f45bb6f014750a14041dc"
+  ],
+  "query": "Do Jon and Gina start businesses out of what they love?",
+  "clock": "2023-07-23T18:46:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c373840166141e9b586ef7866",
+        "score": 3.656050815383591
+      },
+      {
+        "source_id": "c9aff67e0ada07c3fa33c5c13",
+        "score": 2.182310504522895
+      },
+      {
+        "source_id": "cf90f45bb6f014750a14041dc",
+        "score": 1.7173869473859589
+      },
+      {
+        "source_id": "c3d99bc9a646cbf0bf1ad99e7",
+        "score": 1.4319483684647754
+      },
+      {
+        "source_id": "cf6e33c71e7940eb2df0c3040",
+        "score": 1.2843884606163174
+      },
+      {
+        "source_id": "c6b3a3d8807f81d16f165f6f7",
+        "score": 1.1162768112158528
+      },
+      {
+        "source_id": "c7b81de162b16c76746562aa9",
+        "score": 0.17429888897843607
+      },
+      {
+        "source_id": "c720049e6bb5892226d5c4c94",
+        "score": 0.15860639641865568
+      },
+      {
+        "source_id": "cf4d692d08f9e8ab716341940",
+        "score": 0.13897858954532158
+      },
+      {
+        "source_id": "c70fc90df7fdacfbf0da310b2",
+        "score": 0.1067790345220462
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cf90f45bb6f014750a14041dc",
+        "score": 0.48661493075260925
+      },
+      {
+        "source_id": "c5bf38a741fa6aa665a48f63d",
+        "score": 0.4800892209265771
+      },
+      {
+        "source_id": "c1e820ecc40269ca06cd57f52",
+        "score": 0.4796348657372407
+      },
+      {
+        "source_id": "c720049e6bb5892226d5c4c94",
+        "score": 0.4785639889324544
+      },
+      {
+        "source_id": "cb7dcd9a40047f36005366699",
+        "score": 0.4640407310170264
+      },
+      {
+        "source_id": "c5e499f3f44b2b99dfa1e6936",
+        "score": 0.4564730025627921
+      },
+      {
+        "source_id": "cf4d692d08f9e8ab716341940",
+        "score": 0.4534897586365168
+      },
+      {
+        "source_id": "c053959005c44b8e1c4bc4d68",
+        "score": 0.4495113372000036
+      },
+      {
+        "source_id": "c6b3a3d8807f81d16f165f6f7",
+        "score": 0.4364132233916284
+      },
+      {
+        "source_id": "c70fc90df7fdacfbf0da310b2",
+        "score": 0.43493400215646066
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0003588339313864708,
+  "cached_query_search_seconds": 0.0029953329358249903
+}

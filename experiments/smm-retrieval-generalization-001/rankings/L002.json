@@ -1,0 +1,149 @@
+{
+  "case_id": "L002",
+  "cohort": "longmemeval_new32",
+  "family": "89941a93",
+  "source_ids": [
+    "c018f4212b23d27ec6b1af635",
+    "c02e959baebf0e95ad1856303",
+    "c047cd9e4420f1f7e23ff0dec",
+    "c08392dbe83693251c739812c",
+    "c088e89171f9f3965b0debc6f",
+    "c092a5b4abc8dc5ce42d192e2",
+    "c09ba5310fc852c676aaa48f0",
+    "c0dc3981dbc2df96643399fda",
+    "c0f6abe7a003158ce8f3e78aa",
+    "c0fdf439a27298e6e97b83b5f",
+    "c104e0c1d6b682edf956926d1",
+    "c1517913d1e2baaeab3c0e0aa",
+    "c22d942aac9ba504565326ba1",
+    "c2e69aec5df9680c042746d08",
+    "c2f5b10d53348d5104b791df0",
+    "c47328c5a001a66afb53bac5b",
+    "c59b0ebe4f50a54a6d48043bd",
+    "c59f6ca474827aa9c17a03232",
+    "c5eb58b04dc4f7fd07414aa29",
+    "c619582baf0f6882eb4645e73",
+    "c633121d2008a0e420f29ca29",
+    "c6a8f93a65a4d8e72462ee2c9",
+    "c6acb9140c2a6f885696df07a",
+    "c6c6c4735a2136d3f04257c1e",
+    "c80e3ffa6e8f19f85e4a87a1f",
+    "c826a5493618dfadaf11dde30",
+    "c874c0399d2113c2fac83cdd5",
+    "c94467f090e370ab7f2e09188",
+    "c94d3be830e73fff9ca8057d0",
+    "c995da472ebb9d3d585e6d3b3",
+    "ca8bf5dc6eac02db046f5c940",
+    "ca9f1fd7e17f1bf069faec7a1",
+    "cafddc41ee2b1111f88a789af",
+    "cb498370d23049f2d1bcaca87",
+    "cb765b7042abd21ebf7b1bde9",
+    "cb8d3dde122b0d5dd0399a95e",
+    "cbee31569118ec9a9b03c9629",
+    "cc1d415ea0e66d89f09e44926",
+    "ccb428ae2a646801ee7a38904",
+    "ccfcffd34889d7f44eb9f76c3",
+    "cd055d76ebc66b8c31b859b70",
+    "cd9bab0df6412dbaad3806d09",
+    "ce10c3891553c934461b72389",
+    "ce241264c8a81224d0fd3d9c5",
+    "ce44468b6ad6b402e7516e0db",
+    "ce5b2c2e111901b6812e6f8d2",
+    "ce8652ead834974c55aa35f74",
+    "cebeb0534b0c38fc0caf8d005",
+    "cf0706c6b96a77c7055cce2af",
+    "cfa0e9ac8f04151dfa62592c3",
+    "cfa41dafb8a2060452af96638"
+  ],
+  "query": "How many bikes do I currently own?",
+  "clock": "2023-10-27T13:00:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cbee31569118ec9a9b03c9629",
+        "score": 7.714340861531636
+      },
+      {
+        "source_id": "cd055d76ebc66b8c31b859b70",
+        "score": 6.08995407610908
+      },
+      {
+        "source_id": "c104e0c1d6b682edf956926d1",
+        "score": 4.37842197330434
+      },
+      {
+        "source_id": "c0fdf439a27298e6e97b83b5f",
+        "score": 3.404915853517793
+      },
+      {
+        "source_id": "ce10c3891553c934461b72389",
+        "score": 8.335914229494505e-06
+      },
+      {
+        "source_id": "c59f6ca474827aa9c17a03232",
+        "score": 8.090949194097202e-06
+      },
+      {
+        "source_id": "c995da472ebb9d3d585e6d3b3",
+        "score": 7.977734638937758e-06
+      },
+      {
+        "source_id": "c826a5493618dfadaf11dde30",
+        "score": 7.895852344582048e-06
+      },
+      {
+        "source_id": "cd9bab0df6412dbaad3806d09",
+        "score": 7.765505520026605e-06
+      },
+      {
+        "source_id": "c633121d2008a0e420f29ca29",
+        "score": 7.539940003061473e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cbee31569118ec9a9b03c9629",
+        "score": 0.6583588252994996
+      },
+      {
+        "source_id": "cd055d76ebc66b8c31b859b70",
+        "score": 0.5575316571163134
+      },
+      {
+        "source_id": "c6c6c4735a2136d3f04257c1e",
+        "score": 0.24739722278424361
+      },
+      {
+        "source_id": "ce5b2c2e111901b6812e6f8d2",
+        "score": 0.2242531196498527
+      },
+      {
+        "source_id": "c6a8f93a65a4d8e72462ee2c9",
+        "score": 0.20335512430274494
+      },
+      {
+        "source_id": "ce44468b6ad6b402e7516e0db",
+        "score": 0.20176056964285782
+      },
+      {
+        "source_id": "c5eb58b04dc4f7fd07414aa29",
+        "score": 0.18928960763659514
+      },
+      {
+        "source_id": "c1517913d1e2baaeab3c0e0aa",
+        "score": 0.1771820275123575
+      },
+      {
+        "source_id": "c619582baf0f6882eb4645e73",
+        "score": 0.1596934347494035
+      },
+      {
+        "source_id": "c94467f090e370ab7f2e09188",
+        "score": 0.15382825819447102
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.004329791991040111,
+  "cached_query_search_seconds": 0.0029130419716238976
+}

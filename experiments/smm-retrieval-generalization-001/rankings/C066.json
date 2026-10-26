@@ -1,0 +1,117 @@
+{
+  "case_id": "C066",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "How long has Melanie been practicing art?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cb51a3c5f4eb687b861d3ee07",
+        "score": 0.6203428901650782
+      },
+      {
+        "source_id": "cbf31e4f19b0da0ee35961607",
+        "score": 0.5473756246851704
+      },
+      {
+        "source_id": "cf4e6d7411e1cdca21b4f96c7",
+        "score": 0.5238651074834941
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 0.4994433286956832
+      },
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 0.49379018128021585
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 0.45513966785378235
+      },
+      {
+        "source_id": "c4dc55d280c7f3f545df4d134",
+        "score": 0.44271566789297
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 0.2490540614913337
+      },
+      {
+        "source_id": "c32991b5a8b10b1792715518f",
+        "score": 0.14525803618510705
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.12779161589423382
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 0.5372353391245301
+      },
+      {
+        "source_id": "cbf31e4f19b0da0ee35961607",
+        "score": 0.5100723427497991
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 0.4994982172628091
+      },
+      {
+        "source_id": "cb5230b6ede18b2395f49ad99",
+        "score": 0.4756449925878853
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 0.4743561473028453
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.4715055122848748
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 0.46148921843816343
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 0.44517886605057
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 0.41660946256253817
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 0.3710134174046408
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 6.670597940683365e-07,
+  "cached_query_search_seconds": 0.0022699579130858183
+}

@@ -1,0 +1,27 @@
+{
+  "id": "c6001d03e354cb78c157b6dbb",
+  "text": "USER:\nYou are a Stitchfix stylist assistant designed by data scientists to write stylist notes to customers explaining why a collection of items was sent. Do not mention you’re a virtual assistant \n\nCurrently you are viewing a customer's next shipment. \n\n```\n[\n {\n “product\\_name”:“Floral Print Maxi Dress”,\n “price”:98.99,\n “brand”:“In Bloom by Jonquil”,\n “pattern”:“Floral”,\n “material”:“Cotton”\n },\n {\n “product\\_name”:“Striped T-Shirt Dress”,\n “price”:44.99,\n “brand”:“Caslon”,\n “pattern”:“Striped”,\n “material”:“Linen”\n },\n {\n “product\\_name”:“Slim Fit Chino Pants”,\n “price”:69.99,\n “brand”:“BOSS”,\n “pattern”:“Solid”,\n “material”:“Cotton”\n },\n {\n “product\\_name”:“Cropped Denim Jacket”,\n “price”:79.99,\n “brand”:“Levi’s”,\n “pattern”:“Solid”,\n “material”:“Denim”\n },\n {\n “product\\_name”:“Button-Up Shirt Dress”,\n “price”:59.99,\n “brand”:“Calvin Klein”,\n “pattern”:“Plaid”,\n “material”:“Cotton”\n }\n]\n```\n\nWrite a paragraph talking over the items and how they can work together and how to look out for ways to style these items. Not all items may work tell together so be careful pairing them together. \n\nFormat this as it was a simple text to a friend.\n\nUse additional information if available but do not mention these attributes explicitly:\n\nASSISTANT:\nHey there! I put together a few pieces that I think would look great on you. The floral maxi dress from In Bloom by Jonquil is a showstopper and would be perfect for a summer wedding or special occasion. The striped t-shirt dress from Caslon is a versatile piece that can be dressed up or down, and the slim fit chino pants from BOSS are a great option for a more polished look. The cropped denim jacket from Levi's is a classic piece that will never go out of style, and the plaid button-up shirt dress from Calvin Klein is a fun and trendy option. I hope you like the pieces and have fun mixing and matching to create your own unique looks!",
+  "received_at": "2023-03-19T17:18:00+00:00",
+  "source_sha256": "d2a7e9e528c923854b634bd8559ac7df8edaa0796c2df39194b66a41b43fa449",
+  "structure": {
+    "source_sha256": "d2a7e9e528c923854b634bd8559ac7df8edaa0796c2df39194b66a41b43fa449",
+    "parts": [
+      {
+        "turn": 0,
+        "role": "user",
+        "start": 6,
+        "end": 1246
+      },
+      {
+        "turn": 1,
+        "role": "assistant",
+        "start": 1259,
+        "end": 1901
+      }
+    ]
+  },
+  "provenance": {
+    "dataset": "LongMemEval-cleaned",
+    "external_session_id": "sharegpt_CeoiQjp_0"
+  }
+}

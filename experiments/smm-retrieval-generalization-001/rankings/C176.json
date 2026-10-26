@@ -1,0 +1,117 @@
+{
+  "case_id": "C176",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "What do Melanie's family give her?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 2.5820788893592446
+      },
+      {
+        "source_id": "cf9f0fe894c2d94cdb1ce309a",
+        "score": 2.4669910419454433
+      },
+      {
+        "source_id": "c32991b5a8b10b1792715518f",
+        "score": 1.159393910448854
+      },
+      {
+        "source_id": "c209acf4c5721940c78269220",
+        "score": 1.0551106687704477
+      },
+      {
+        "source_id": "c83a5466251a9a6d24da25bd7",
+        "score": 1.0345544794167283
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 0.8364841909384387
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 0.783420465897304
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 9.365171416015902e-06
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 9.01880231007957e-06
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 8.950577812034504e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 0.5323236168201158
+      },
+      {
+        "source_id": "c32991b5a8b10b1792715518f",
+        "score": 0.46341007999603534
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 0.4498514946358827
+      },
+      {
+        "source_id": "c209acf4c5721940c78269220",
+        "score": 0.43780855233747795
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.4362652110141979
+      },
+      {
+        "source_id": "c4dc55d280c7f3f545df4d134",
+        "score": 0.43065504187740444
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 0.4239404241858841
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 0.41869959888127284
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 0.41247288527197806
+      },
+      {
+        "source_id": "c83a5466251a9a6d24da25bd7",
+        "score": 0.41045758899252355
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.498272806406021e-07,
+  "cached_query_search_seconds": 0.0023756250739097595
+}

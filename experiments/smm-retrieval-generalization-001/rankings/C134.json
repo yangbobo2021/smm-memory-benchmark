@@ -1,0 +1,130 @@
+{
+  "case_id": "C134",
+  "cohort": "locomo_random200",
+  "family": "conv-41",
+  "source_ids": [
+    "c1a1c0defec9c941162f1ddb2",
+    "c20b2e1081a5503e3f47000c5",
+    "c2b42dec5ad7a3ee185f07c69",
+    "c368f8a6bec728f46e5cb5313",
+    "c3a26324e6c31b252dad3005f",
+    "c4f2104c3221b63900e71258b",
+    "c679b9d689624e19c41635a7b",
+    "c6fc1ee0febe9cde190ad49cc",
+    "c771d2f37204d497f8a4f5acd",
+    "c8321ef49d3ce09cb4d607fa2",
+    "c904d3995b7c3fd2862ebff7d",
+    "c950574499c453ed6c91762b8",
+    "c9507008dfe141039cb81a061",
+    "c969c3bddb4ef69ccc8e9c7a8",
+    "c99b93d9c4d32824a63e20daa",
+    "c9a054f15ebaa2c1a838eec19",
+    "c9b46f10a7a33f555c4789bec",
+    "cbe8837627dd6a0418ea2f0d0",
+    "cbfb5c425265fc05c0bb703e1",
+    "cc4fb5a3a25adb4c48276e80b",
+    "cc6dce48af4dee2edadb5b259",
+    "ccdc22624241213db92705b4b",
+    "ccf33297175f053c52668c6a4",
+    "cd425d807a35f285bf4b564a7",
+    "cd69f93673a0c13b7487c7a9e",
+    "cd9304f979d55f8bfb6b4386c",
+    "cda3cd407e8dd2f2f35654003",
+    "cdb131035d8d890ad1c33325e",
+    "cdb32d4e02e86afde290dcfbb",
+    "cef25b6be8959d13615d190d1",
+    "cef8a76a54ca457dba453a63e",
+    "cf2195663e5034e501d02b56f"
+  ],
+  "query": "What natural disaster affected John's old area on 7 July, 2023?",
+  "clock": "2023-08-16T11:08:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cc4fb5a3a25adb4c48276e80b",
+        "score": 4.885094806025976
+      },
+      {
+        "source_id": "c3a26324e6c31b252dad3005f",
+        "score": 4.030551538887686
+      },
+      {
+        "source_id": "c6fc1ee0febe9cde190ad49cc",
+        "score": 3.623747175701476
+      },
+      {
+        "source_id": "c368f8a6bec728f46e5cb5313",
+        "score": 3.2613338192772936
+      },
+      {
+        "source_id": "cef8a76a54ca457dba453a63e",
+        "score": 2.963127825576446
+      },
+      {
+        "source_id": "c904d3995b7c3fd2862ebff7d",
+        "score": 1.840596586144689
+      },
+      {
+        "source_id": "cf2195663e5034e501d02b56f",
+        "score": 1.677107137909303
+      },
+      {
+        "source_id": "cd425d807a35f285bf4b564a7",
+        "score": 7.59346149294301e-06
+      },
+      {
+        "source_id": "c1a1c0defec9c941162f1ddb2",
+        "score": 7.532999534333995e-06
+      },
+      {
+        "source_id": "c679b9d689624e19c41635a7b",
+        "score": 7.4525483883288495e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cef8a76a54ca457dba453a63e",
+        "score": 0.3162122225384888
+      },
+      {
+        "source_id": "cdb32d4e02e86afde290dcfbb",
+        "score": 0.30924949848710076
+      },
+      {
+        "source_id": "cd69f93673a0c13b7487c7a9e",
+        "score": 0.30234576054390777
+      },
+      {
+        "source_id": "cc4fb5a3a25adb4c48276e80b",
+        "score": 0.2951375252151961
+      },
+      {
+        "source_id": "c3a26324e6c31b252dad3005f",
+        "score": 0.29271747290747974
+      },
+      {
+        "source_id": "c99b93d9c4d32824a63e20daa",
+        "score": 0.2916558849553804
+      },
+      {
+        "source_id": "cbfb5c425265fc05c0bb703e1",
+        "score": 0.28901057029633803
+      },
+      {
+        "source_id": "cd9304f979d55f8bfb6b4386c",
+        "score": 0.28899124679261157
+      },
+      {
+        "source_id": "c20b2e1081a5503e3f47000c5",
+        "score": 0.2882874944336736
+      },
+      {
+        "source_id": "c9a054f15ebaa2c1a838eec19",
+        "score": 0.28200514855469383
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 8.749775588512421e-07,
+  "cached_query_search_seconds": 0.003757124999538064
+}

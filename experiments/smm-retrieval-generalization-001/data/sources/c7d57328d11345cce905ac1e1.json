@@ -1,0 +1,27 @@
+{
+  "id": "c7d57328d11345cce905ac1e1",
+  "text": "USER:\nHow do I make an HTTP request in Javascript?\n\nASSISTANT:\nTo make an HTTP request in JavaScript, you can use the `XMLHttpRequest` object, which is supported by all modern browsers. Here is an example of using `XMLHttpRequest` to make a GET request to retrieve data from a server:\n```\nconst xhr = new XMLHttpRequest();\n\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 && xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\n\nxhr.open(\"GET\", \"http://www.example.com/data.json\");\nxhr.send();\n```\nAlternatively, you can use the `fetch()` function, which is a modern and simpler way to make HTTP requests. Here is an example of using `fetch()` to make a GET request:\n```\nfetch(\"http://www.example.com/data.json\")\n  .then(response => response.json())\n  .then(data => console.log(data));\n```\nBoth `XMLHttpRequest` and `fetch()` allow you to make other types of HTTP requests, such as POST, PUT, and DELETE, by setting the `method` parameter in the request.\n\nKeep in mind that these HTTP requests are asynchronous, which means that the code will continue to execute while the request is being processed in the background. This is why we use the `onreadystatechange` event handler in the `XMLHttpRequest` example and the `then()` method in the `fetch()` example to handle the response when it becomes available.",
+  "received_at": "2023-11-30T23:31:00+00:00",
+  "source_sha256": "5f6524b1028b18cae7d91ca08c65537b5fbeff5bb725b958d2739cddae129e2a",
+  "structure": {
+    "source_sha256": "5f6524b1028b18cae7d91ca08c65537b5fbeff5bb725b958d2739cddae129e2a",
+    "parts": [
+      {
+        "turn": 0,
+        "role": "user",
+        "start": 6,
+        "end": 50
+      },
+      {
+        "turn": 1,
+        "role": "assistant",
+        "start": 63,
+        "end": 1335
+      }
+    ]
+  },
+  "provenance": {
+    "dataset": "LongMemEval-cleaned",
+    "external_session_id": "sharegpt_XBgnox4_0"
+  }
+}

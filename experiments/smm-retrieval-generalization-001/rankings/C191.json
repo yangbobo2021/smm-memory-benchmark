@@ -1,0 +1,127 @@
+{
+  "case_id": "C191",
+  "cohort": "locomo_random200",
+  "family": "conv-42",
+  "source_ids": [
+    "c0d207f826accc2103af0c748",
+    "c15f1f0bec3d2fcc4fc6182e7",
+    "c19e0760480af1c4e5fc7a26b",
+    "c2139dc6370670e5807264fce",
+    "c215909f3fabfafe9478350bc",
+    "c252c867151f0796efa1faff5",
+    "c35d111897b19242ca312ec88",
+    "c3db30b91cfd5336ac2ca41e7",
+    "c45f15ad5a4f3f608be6bd5c8",
+    "c4a2aceb41fa876f48dd4892b",
+    "c550d52159d739a56d10af4df",
+    "c5ea4f0b3ae443ab3b179ee77",
+    "c5ebaffb14dc75e0d3fa27049",
+    "c613880f4a1224d293b220cc1",
+    "c640fd1be1d60cc9de8c5d4c6",
+    "c64d29fbe2c5978bd0f958293",
+    "c692649fbb4b965d78d95198a",
+    "c7650f704fe331b2566c673ed",
+    "c958260cbfa883012f04435f1",
+    "ca9f7fefaaf9fbd0ea335569d",
+    "cb699d443df023ea8b9fc77bb",
+    "cd1961257c884ba95b3d31463",
+    "cd7200baf8de3fc86cfe5a18c",
+    "cd7a2460e9ca2bf5d0b2a2f45",
+    "cd993c95f02adc9fa056b4c58",
+    "cdd6e915be62b998a88256c25",
+    "cea6408047bdd2359b0e0556e",
+    "ceb718bcf22d200f70c765c34",
+    "cf439ed341a740dc313e752f9"
+  ],
+  "query": "How many of Joanna's writing have made it to the big screen?",
+  "clock": "2022-11-11T00:06:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c640fd1be1d60cc9de8c5d4c6",
+        "score": 3.4870124557767017
+      },
+      {
+        "source_id": "c15f1f0bec3d2fcc4fc6182e7",
+        "score": 2.757358235801729
+      },
+      {
+        "source_id": "c252c867151f0796efa1faff5",
+        "score": 2.4649083884577117
+      },
+      {
+        "source_id": "ca9f7fefaaf9fbd0ea335569d",
+        "score": 2.0469935579807648
+      },
+      {
+        "source_id": "ceb718bcf22d200f70c765c34",
+        "score": 1.8212631957713101
+      },
+      {
+        "source_id": "cd7200baf8de3fc86cfe5a18c",
+        "score": 1.7476567671873118
+      },
+      {
+        "source_id": "c19e0760480af1c4e5fc7a26b",
+        "score": 1.417692406460992
+      },
+      {
+        "source_id": "c215909f3fabfafe9478350bc",
+        "score": 1.0056053577393436
+      },
+      {
+        "source_id": "c958260cbfa883012f04435f1",
+        "score": 0.8195329521672137
+      },
+      {
+        "source_id": "cdd6e915be62b998a88256c25",
+        "score": 0.8039706902805532
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c252c867151f0796efa1faff5",
+        "score": 0.528972889875599
+      },
+      {
+        "source_id": "cd993c95f02adc9fa056b4c58",
+        "score": 0.49566752051770957
+      },
+      {
+        "source_id": "cd1961257c884ba95b3d31463",
+        "score": 0.4928044706481036
+      },
+      {
+        "source_id": "cd7200baf8de3fc86cfe5a18c",
+        "score": 0.48401311650438095
+      },
+      {
+        "source_id": "c45f15ad5a4f3f608be6bd5c8",
+        "score": 0.48217547044423636
+      },
+      {
+        "source_id": "c3db30b91cfd5336ac2ca41e7",
+        "score": 0.4775460555977173
+      },
+      {
+        "source_id": "c5ebaffb14dc75e0d3fa27049",
+        "score": 0.47723604544960607
+      },
+      {
+        "source_id": "c2139dc6370670e5807264fce",
+        "score": 0.47660733561701374
+      },
+      {
+        "source_id": "c5ea4f0b3ae443ab3b179ee77",
+        "score": 0.4720706832314998
+      },
+      {
+        "source_id": "cdd6e915be62b998a88256c25",
+        "score": 0.4612166873396202
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.919696271419525e-07,
+  "cached_query_search_seconds": 0.004815374966710806
+}

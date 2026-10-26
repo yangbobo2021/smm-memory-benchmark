@@ -1,0 +1,126 @@
+{
+  "case_id": "C080",
+  "cohort": "locomo_random200",
+  "family": "conv-44",
+  "source_ids": [
+    "c01d5f1bad856e63f2d259c53",
+    "c0c938fedefd07da628c20135",
+    "c0cb5497315b5f692644d7a05",
+    "c12b220b6db89871db6bbd506",
+    "c18c87e5c3df2b81e03dabf48",
+    "c1a187e951f0e0254bb4fb0b4",
+    "c26d15cc1e49c4024420ad588",
+    "c3453d0c71ec7bb9d355512c5",
+    "c3e07e095996704ab0fd0179e",
+    "c3fb82e2a1ab79e03385e8df4",
+    "c4879bb338dce6b57124fe1e7",
+    "c53880a0363f66352cffd4ea4",
+    "c6638c80290604d1907736234",
+    "c6c33cfbfa34aa84af38784ef",
+    "c6dace7e344b151bc6884bd28",
+    "c700d7b8d68bc2d3bb480c48c",
+    "c733740442f3368cbe55fafe0",
+    "c74c8caa23db9eaafca147bb8",
+    "c78d23a9eedd1abe5b2f350ca",
+    "c83413649c8fad2a1b8e52c8e",
+    "cb9ff4548964b6b623d512c73",
+    "cc33657a59394105b5bcb266f",
+    "cc5c2e2cd0f284232e160c1db",
+    "cc7fa43c0315b56990674b9ac",
+    "cd7322a2d1e44154427e221e8",
+    "cdc4a081215673c3d5558c1fa",
+    "cde7ef43a3a69da3551b22e08",
+    "ce133a49ad3fdc00d791042d9"
+  ],
+  "query": "What kind of experiences are Audrey's dogs the best companions for?",
+  "clock": "2023-11-22T09:02:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c26d15cc1e49c4024420ad588",
+        "score": 3.7932496408348224
+      },
+      {
+        "source_id": "c53880a0363f66352cffd4ea4",
+        "score": 2.530924408646243
+      },
+      {
+        "source_id": "c3e07e095996704ab0fd0179e",
+        "score": 2.0590371210458027
+      },
+      {
+        "source_id": "cd7322a2d1e44154427e221e8",
+        "score": 1.7728728323023406
+      },
+      {
+        "source_id": "c733740442f3368cbe55fafe0",
+        "score": 1.6744993729308315
+      },
+      {
+        "source_id": "c3fb82e2a1ab79e03385e8df4",
+        "score": 1.357563127837641
+      },
+      {
+        "source_id": "c4879bb338dce6b57124fe1e7",
+        "score": 0.61449556515403
+      },
+      {
+        "source_id": "c700d7b8d68bc2d3bb480c48c",
+        "score": 0.5921952078009777
+      },
+      {
+        "source_id": "cdc4a081215673c3d5558c1fa",
+        "score": 0.45489059596417963
+      },
+      {
+        "source_id": "c01d5f1bad856e63f2d259c53",
+        "score": 0.4535362000791989
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c6c33cfbfa34aa84af38784ef",
+        "score": 0.6715029926776379
+      },
+      {
+        "source_id": "c0cb5497315b5f692644d7a05",
+        "score": 0.6441833102686028
+      },
+      {
+        "source_id": "cde7ef43a3a69da3551b22e08",
+        "score": 0.6309624186519949
+      },
+      {
+        "source_id": "c6638c80290604d1907736234",
+        "score": 0.6260896570175392
+      },
+      {
+        "source_id": "c6dace7e344b151bc6884bd28",
+        "score": 0.6177041877375438
+      },
+      {
+        "source_id": "cdc4a081215673c3d5558c1fa",
+        "score": 0.6175134156703566
+      },
+      {
+        "source_id": "c3fb82e2a1ab79e03385e8df4",
+        "score": 0.6088880414923956
+      },
+      {
+        "source_id": "c3453d0c71ec7bb9d355512c5",
+        "score": 0.6068380201793334
+      },
+      {
+        "source_id": "c0c938fedefd07da628c20135",
+        "score": 0.605543005881648
+      },
+      {
+        "source_id": "c53880a0363f66352cffd4ea4",
+        "score": 0.6040785411954493
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 4.998873919248581e-07,
+  "cached_query_search_seconds": 0.004218208836391568
+}

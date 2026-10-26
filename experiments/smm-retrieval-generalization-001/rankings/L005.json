@@ -1,0 +1,145 @@
+{
+  "case_id": "L005",
+  "cohort": "longmemeval_new32",
+  "family": "gpt4_f420262c",
+  "source_ids": [
+    "c0a4ffdc582cf2233cd50556c",
+    "c0b40d10f4250a315280b4776",
+    "c0eb962e635c2eee3b33c585a",
+    "c1177d4b65a6c348e7b3d5486",
+    "c1bde917cc6a94ecc92cd7fc3",
+    "c1e2123efa92aa45863cf620b",
+    "c22d104e3f84ea85603bb89a4",
+    "c2e776c8de3e857dab449d65a",
+    "c32a5d82c9a1a1cdc281bebc9",
+    "c360353dcf7e23af813a155ea",
+    "c4d713c7712e68a7a7bf243d3",
+    "c51b35b0f266360ceee43c010",
+    "c5456616fa57247acc5ff431c",
+    "c554f8f62da7f90ad6e6d9e24",
+    "c55622b3a2cbad627275911b2",
+    "c576a89694a1ed3be79f4cae2",
+    "c577aa3494790ecc194a1f8c5",
+    "c57b81b202b9fea126cb5d0b1",
+    "c5c8a7ab1a87a908f9d0ec6c5",
+    "c5d52b2a4cd78469adc2ae201",
+    "c5e0d8d0dfa22e9f3e9e8de1b",
+    "c6266464936b77a3ba5ebf881",
+    "c64c33e90657ce44625af6e65",
+    "c6768a0e3d78d149e86d3dc23",
+    "c68e273692e657fe34bee364b",
+    "c73ef19651b4c74a17670721b",
+    "c7a4b043db4ab984b85750904",
+    "c7d63cf1ef62052ef2bbc0b67",
+    "c7f40da714c350bfcfd74982d",
+    "c81cd9c0fd5a14528cf13e047",
+    "c821d81d6201bc27b1aefc362",
+    "c8859e9ecc1df53dd1de999a0",
+    "c8aaf37c475268de9a0af6ff0",
+    "c9b69ca1f2b9483e0a502f354",
+    "c9e65f8d087ae7fa09fd84984",
+    "c9edf446c6bb083ada741321d",
+    "c9fa4e8a35313b7852ca64732",
+    "ca4f61d28b2560df6efb14c47",
+    "ca519d2705d298a904d5862ad",
+    "cb38d765b153372b7a09933fd",
+    "cb97d0dc6627044a2195efa24",
+    "cc784b9d64debe9d58cd1c2fb",
+    "cd59b907fcd7e8a5a1fb738d3",
+    "ce33423221c4df003853ea40d",
+    "ce3ec41b36ca51e41d513c96b",
+    "ce4de37fce7144b31d1da8754",
+    "cfc1e068619aca27864b6ac07"
+  ],
+  "query": "What is the order of airlines I flew with from earliest to latest before today?",
+  "clock": "2023-03-02T06:11:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c5e0d8d0dfa22e9f3e9e8de1b",
+        "score": 6.5481563383078205
+      },
+      {
+        "source_id": "c9edf446c6bb083ada741321d",
+        "score": 6.208670908819679
+      },
+      {
+        "source_id": "c7a4b043db4ab984b85750904",
+        "score": 5.679687850753633
+      },
+      {
+        "source_id": "c51b35b0f266360ceee43c010",
+        "score": 5.5944767524353445
+      },
+      {
+        "source_id": "c577aa3494790ecc194a1f8c5",
+        "score": 3.969087125752463
+      },
+      {
+        "source_id": "c64c33e90657ce44625af6e65",
+        "score": 3.7081834165478105
+      },
+      {
+        "source_id": "c73ef19651b4c74a17670721b",
+        "score": 3.623858498525651
+      },
+      {
+        "source_id": "c6266464936b77a3ba5ebf881",
+        "score": 2.907520480059249
+      },
+      {
+        "source_id": "c6768a0e3d78d149e86d3dc23",
+        "score": 2.8379740601769847
+      },
+      {
+        "source_id": "cd59b907fcd7e8a5a1fb738d3",
+        "score": 2.6182246640955777
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c73ef19651b4c74a17670721b",
+        "score": 0.4317411878395783
+      },
+      {
+        "source_id": "c7a4b043db4ab984b85750904",
+        "score": 0.3579300075257081
+      },
+      {
+        "source_id": "c5e0d8d0dfa22e9f3e9e8de1b",
+        "score": 0.321134007298157
+      },
+      {
+        "source_id": "c64c33e90657ce44625af6e65",
+        "score": 0.29861588083772406
+      },
+      {
+        "source_id": "c51b35b0f266360ceee43c010",
+        "score": 0.2893405042688172
+      },
+      {
+        "source_id": "c7d63cf1ef62052ef2bbc0b67",
+        "score": 0.2864456233921876
+      },
+      {
+        "source_id": "c4d713c7712e68a7a7bf243d3",
+        "score": 0.20998641721127181
+      },
+      {
+        "source_id": "c360353dcf7e23af813a155ea",
+        "score": 0.16776580789349224
+      },
+      {
+        "source_id": "c9edf446c6bb083ada741321d",
+        "score": 0.1551363606720234
+      },
+      {
+        "source_id": "c577aa3494790ecc194a1f8c5",
+        "score": 0.15168592091259014
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0037992498837411404,
+  "cached_query_search_seconds": 0.00600812491029501
+}

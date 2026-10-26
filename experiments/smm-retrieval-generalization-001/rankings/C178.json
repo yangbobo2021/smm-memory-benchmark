@@ -1,0 +1,126 @@
+{
+  "case_id": "C178",
+  "cohort": "locomo_random200",
+  "family": "conv-44",
+  "source_ids": [
+    "c01d5f1bad856e63f2d259c53",
+    "c0c938fedefd07da628c20135",
+    "c0cb5497315b5f692644d7a05",
+    "c12b220b6db89871db6bbd506",
+    "c18c87e5c3df2b81e03dabf48",
+    "c1a187e951f0e0254bb4fb0b4",
+    "c26d15cc1e49c4024420ad588",
+    "c3453d0c71ec7bb9d355512c5",
+    "c3e07e095996704ab0fd0179e",
+    "c3fb82e2a1ab79e03385e8df4",
+    "c4879bb338dce6b57124fe1e7",
+    "c53880a0363f66352cffd4ea4",
+    "c6638c80290604d1907736234",
+    "c6c33cfbfa34aa84af38784ef",
+    "c6dace7e344b151bc6884bd28",
+    "c700d7b8d68bc2d3bb480c48c",
+    "c733740442f3368cbe55fafe0",
+    "c74c8caa23db9eaafca147bb8",
+    "c78d23a9eedd1abe5b2f350ca",
+    "c83413649c8fad2a1b8e52c8e",
+    "cb9ff4548964b6b623d512c73",
+    "cc33657a59394105b5bcb266f",
+    "cc5c2e2cd0f284232e160c1db",
+    "cc7fa43c0315b56990674b9ac",
+    "cd7322a2d1e44154427e221e8",
+    "cdc4a081215673c3d5558c1fa",
+    "cde7ef43a3a69da3551b22e08",
+    "ce133a49ad3fdc00d791042d9"
+  ],
+  "query": "What organization does Audrey donate a portion of his profits to?",
+  "clock": "2023-11-22T09:02:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c3e07e095996704ab0fd0179e",
+        "score": 15.224394652663024
+      },
+      {
+        "source_id": "c4879bb338dce6b57124fe1e7",
+        "score": 2.7916548730605206
+      },
+      {
+        "source_id": "c733740442f3368cbe55fafe0",
+        "score": 2.5506633841110657
+      },
+      {
+        "source_id": "cdc4a081215673c3d5558c1fa",
+        "score": 2.4603123182025315
+      },
+      {
+        "source_id": "c78d23a9eedd1abe5b2f350ca",
+        "score": 1.663373737335738
+      },
+      {
+        "source_id": "cd7322a2d1e44154427e221e8",
+        "score": 1.3752737143735771
+      },
+      {
+        "source_id": "c0cb5497315b5f692644d7a05",
+        "score": 1.3637058662633175
+      },
+      {
+        "source_id": "c3fb82e2a1ab79e03385e8df4",
+        "score": 1.3575580563101253
+      },
+      {
+        "source_id": "c1a187e951f0e0254bb4fb0b4",
+        "score": 1.2723337271324981
+      },
+      {
+        "source_id": "c83413649c8fad2a1b8e52c8e",
+        "score": 9.800628955290186e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c3e07e095996704ab0fd0179e",
+        "score": 0.404742895909204
+      },
+      {
+        "source_id": "cb9ff4548964b6b623d512c73",
+        "score": 0.3952436677567248
+      },
+      {
+        "source_id": "c12b220b6db89871db6bbd506",
+        "score": 0.3565215328932798
+      },
+      {
+        "source_id": "c0cb5497315b5f692644d7a05",
+        "score": 0.35405892024424185
+      },
+      {
+        "source_id": "c3fb82e2a1ab79e03385e8df4",
+        "score": 0.3390735510404909
+      },
+      {
+        "source_id": "cc7fa43c0315b56990674b9ac",
+        "score": 0.3363092447778696
+      },
+      {
+        "source_id": "c78d23a9eedd1abe5b2f350ca",
+        "score": 0.3284889582429076
+      },
+      {
+        "source_id": "c1a187e951f0e0254bb4fb0b4",
+        "score": 0.32822304650876566
+      },
+      {
+        "source_id": "c700d7b8d68bc2d3bb480c48c",
+        "score": 0.3224655912868419
+      },
+      {
+        "source_id": "c6dace7e344b151bc6884bd28",
+        "score": 0.31741197979515734
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.7509016692638397e-07,
+  "cached_query_search_seconds": 0.0035425000824034214
+}

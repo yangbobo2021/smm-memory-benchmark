@@ -1,0 +1,148 @@
+{
+  "case_id": "L029",
+  "cohort": "longmemeval_new32",
+  "family": "0862e8bf",
+  "source_ids": [
+    "c0ee849e1157d218921dad032",
+    "c123b14f50ce4ec8cb3a00907",
+    "c1e115c8fe3ee2c0c2bedbb52",
+    "c1ee820b2ac1c2b1d6d260db7",
+    "c22cc6aa3fea5c36bc33dfed1",
+    "c25a2ccd2bd8b08f0edda50f9",
+    "c2ea3e6b1f8dbce9a641078df",
+    "c333f0f4bdbf7f70dbc09cef0",
+    "c3396ad8e7c7312f6534d8c88",
+    "c41130e04426492c32736c4d6",
+    "c420dc05bcb65c37309acf9ea",
+    "c43c604c08dc4f1bb82e37966",
+    "c4d2eb564be55994950ea0e5a",
+    "c4fbd14976bce1253e33b7363",
+    "c56ca0e1c063d9dec4a263349",
+    "c5af84ace7597183c10b28e1b",
+    "c61139aa58b6aee89b595e51d",
+    "c64c24d192b625e17cc19f83f",
+    "c66da60a904d57f5e9ed79aec",
+    "c69d6810160a08347a260a845",
+    "c7267f5c6704c8b3b07cba278",
+    "c733116f340a1e853d9a06d72",
+    "c75e3845ba871b0ffe95fbc69",
+    "c767c18c28c67cdaa9393b2bf",
+    "c7688c5e981d66b9efe69acc3",
+    "c8769768d9febb3bbe230d7aa",
+    "c93ba6e556b243094ea7a4ba3",
+    "caa14d777936549522075041a",
+    "cad1f2c7a8c192b1f36c72f21",
+    "caf664ec759801148c9de577c",
+    "cb004091201abfe0b46d20269",
+    "cb05c30a32d7566e30819e74d",
+    "cb587faa054f1ea26e4715af8",
+    "cbcbd7531f6d9d1ccedf0da68",
+    "cc31616e453bc481f9071fa17",
+    "cc35ee64a50a11495ae1cba23",
+    "ccc8b7c51047c04c1ce78d203",
+    "cceda830d6f4e5c4fc8f9c28f",
+    "cd127b2f9190c94f02afeae65",
+    "cd2a97c4df5395f6291388464",
+    "cd4c9d1a4da86f2756b09137c",
+    "cd5e960fa0f79168746b3d6e4",
+    "cd5ec1f8398ab3094fbe31425",
+    "cd609665771e451fdf25d4e09",
+    "cdb8e8f4be4ef8c11430b6f80",
+    "cdf9afe84b867b4cca2378b90",
+    "cea65ca0327256578626a7279",
+    "cea73684055cf6fb46ccd5298",
+    "cebc52c10ec74657ccc762875",
+    "cf242c59af9d5c6acf5267fa2"
+  ],
+  "query": "What is the name of my cat?",
+  "clock": "2023-05-30T12:18:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c8769768d9febb3bbe230d7aa",
+        "score": 8.623356196788112
+      },
+      {
+        "source_id": "cd127b2f9190c94f02afeae65",
+        "score": 3.7526499519034933
+      },
+      {
+        "source_id": "c5af84ace7597183c10b28e1b",
+        "score": 3.2390541820183305
+      },
+      {
+        "source_id": "cdb8e8f4be4ef8c11430b6f80",
+        "score": 2.800543883937573
+      },
+      {
+        "source_id": "cc31616e453bc481f9071fa17",
+        "score": 2.7407049582880214
+      },
+      {
+        "source_id": "ccc8b7c51047c04c1ce78d203",
+        "score": 2.320337396071304
+      },
+      {
+        "source_id": "c61139aa58b6aee89b595e51d",
+        "score": 1.8483760793859905
+      },
+      {
+        "source_id": "cea65ca0327256578626a7279",
+        "score": 1.5438145031277362
+      },
+      {
+        "source_id": "cd2a97c4df5395f6291388464",
+        "score": 0.16719473944412278
+      },
+      {
+        "source_id": "cdf9afe84b867b4cca2378b90",
+        "score": 0.1543939320784283
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c8769768d9febb3bbe230d7aa",
+        "score": 0.3903480312653378
+      },
+      {
+        "source_id": "cea65ca0327256578626a7279",
+        "score": 0.2530979161942206
+      },
+      {
+        "source_id": "cd127b2f9190c94f02afeae65",
+        "score": 0.23979020015953129
+      },
+      {
+        "source_id": "c66da60a904d57f5e9ed79aec",
+        "score": 0.21967268125642253
+      },
+      {
+        "source_id": "c767c18c28c67cdaa9393b2bf",
+        "score": 0.1726280011997019
+      },
+      {
+        "source_id": "cdb8e8f4be4ef8c11430b6f80",
+        "score": 0.1641116657680784
+      },
+      {
+        "source_id": "c4d2eb564be55994950ea0e5a",
+        "score": 0.15972487865754165
+      },
+      {
+        "source_id": "cd5ec1f8398ab3094fbe31425",
+        "score": 0.1422008479862268
+      },
+      {
+        "source_id": "cc31616e453bc481f9071fa17",
+        "score": 0.14106607554532247
+      },
+      {
+        "source_id": "cea73684055cf6fb46ccd5298",
+        "score": 0.13733014286680312
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0035173329524695873,
+  "cached_query_search_seconds": 0.0029628330375999212
+}

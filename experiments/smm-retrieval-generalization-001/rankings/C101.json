@@ -1,0 +1,117 @@
+{
+  "case_id": "C101",
+  "cohort": "locomo_random200",
+  "family": "conv-30",
+  "source_ids": [
+    "c002df39626b88670b2b2059a",
+    "c053959005c44b8e1c4bc4d68",
+    "c1e820ecc40269ca06cd57f52",
+    "c373840166141e9b586ef7866",
+    "c3d99bc9a646cbf0bf1ad99e7",
+    "c5285fec8efa2f363a708f85e",
+    "c5bf38a741fa6aa665a48f63d",
+    "c5e499f3f44b2b99dfa1e6936",
+    "c6b3a3d8807f81d16f165f6f7",
+    "c6b94ce927a7905fea87746d0",
+    "c70fc90df7fdacfbf0da310b2",
+    "c720049e6bb5892226d5c4c94",
+    "c780bc24135b6b97b373811c4",
+    "c7b81de162b16c76746562aa9",
+    "c9aff67e0ada07c3fa33c5c13",
+    "cb7dcd9a40047f36005366699",
+    "cf4d692d08f9e8ab716341940",
+    "cf6e33c71e7940eb2df0c3040",
+    "cf90f45bb6f014750a14041dc"
+  ],
+  "query": "When Gina has lost her job at Door Dash?",
+  "clock": "2023-07-23T18:46:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cf90f45bb6f014750a14041dc",
+        "score": 5.477193435576968
+      },
+      {
+        "source_id": "c373840166141e9b586ef7866",
+        "score": 5.203095320197732
+      },
+      {
+        "source_id": "c002df39626b88670b2b2059a",
+        "score": 1.3969227702421896
+      },
+      {
+        "source_id": "c720049e6bb5892226d5c4c94",
+        "score": 1.2567674565420373
+      },
+      {
+        "source_id": "c5bf38a741fa6aa665a48f63d",
+        "score": 0.13812549046794315
+      },
+      {
+        "source_id": "c5e499f3f44b2b99dfa1e6936",
+        "score": 0.12177735562186613
+      },
+      {
+        "source_id": "c5285fec8efa2f363a708f85e",
+        "score": 0.1083022100596395
+      },
+      {
+        "source_id": "cb7dcd9a40047f36005366699",
+        "score": 0.10799209565672413
+      },
+      {
+        "source_id": "c780bc24135b6b97b373811c4",
+        "score": 0.10480563634067933
+      },
+      {
+        "source_id": "c3d99bc9a646cbf0bf1ad99e7",
+        "score": 0.10442043973890883
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cb7dcd9a40047f36005366699",
+        "score": 0.4517394430072157
+      },
+      {
+        "source_id": "c1e820ecc40269ca06cd57f52",
+        "score": 0.4293195224287327
+      },
+      {
+        "source_id": "c3d99bc9a646cbf0bf1ad99e7",
+        "score": 0.4197087098413853
+      },
+      {
+        "source_id": "c70fc90df7fdacfbf0da310b2",
+        "score": 0.3954496924657529
+      },
+      {
+        "source_id": "c5e499f3f44b2b99dfa1e6936",
+        "score": 0.39027319907439306
+      },
+      {
+        "source_id": "c5bf38a741fa6aa665a48f63d",
+        "score": 0.3871203542882485
+      },
+      {
+        "source_id": "c720049e6bb5892226d5c4c94",
+        "score": 0.38249590531736155
+      },
+      {
+        "source_id": "cf90f45bb6f014750a14041dc",
+        "score": 0.35849430738453697
+      },
+      {
+        "source_id": "c5285fec8efa2f363a708f85e",
+        "score": 0.3381456002377653
+      },
+      {
+        "source_id": "c002df39626b88670b2b2059a",
+        "score": 0.3355910784578948
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.3294782042503357e-07,
+  "cached_query_search_seconds": 0.002445833059027791
+}

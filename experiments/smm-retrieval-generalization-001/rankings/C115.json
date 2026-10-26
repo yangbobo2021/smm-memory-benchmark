@@ -1,0 +1,127 @@
+{
+  "case_id": "C115",
+  "cohort": "locomo_random200",
+  "family": "conv-43",
+  "source_ids": [
+    "c08a011985f84a3d80171942f",
+    "c0e15cec6a99df03faa4e30ec",
+    "c139f4b845ec357142b7b3b56",
+    "c14b38719fc61303d0504f2f3",
+    "c16886a59bbcdd8b0c03a0afc",
+    "c1d4e184c4e34f17a11e8321e",
+    "c1f9579f93f8dd5bc42b7df56",
+    "c2cbf59dfc54dc5a8e79c320d",
+    "c3a184c8f6671cc33947d498c",
+    "c4e9db782b6a0f05af00a30ba",
+    "c669d551eadb1bc331dbe3d56",
+    "c66f3b2442f0da8ebd3b8702c",
+    "c6cb4e8b745d57608d137fa2e",
+    "c6e05aef960665ec439464168",
+    "c8b290b2bf2289683d7d1c0df",
+    "c9362312b206ff1011fc132a7",
+    "c9a36cb26aa1414002481a5a0",
+    "ca24a5e8c6f28b5eda7fa50de",
+    "cb4a96e5cde64d9faa403cccb",
+    "cb4bd95586355fe3bfcd49754",
+    "cbb5ca89949851abf47746056",
+    "cbf3a77bf28f9814081a8ef96",
+    "cc1b875b9219b6cfe553186fc",
+    "cc79cf1fd8a5d1e4f278d2325",
+    "cdcb853bbc4a23a1e717ce345",
+    "ce08bdcbc8b2fc20c5e30b4ab",
+    "cf0bc01bfc8852f961e33e9de",
+    "cfeb835178acb01619a63a286",
+    "cffbd588e46ffc1fc844e5330"
+  ],
+  "query": "What did Anthony and John end up playing during the charity event?",
+  "clock": "2024-01-12T13:41:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cc1b875b9219b6cfe553186fc",
+        "score": 5.328066877695013
+      },
+      {
+        "source_id": "cfeb835178acb01619a63a286",
+        "score": 4.586324888732756
+      },
+      {
+        "source_id": "c4e9db782b6a0f05af00a30ba",
+        "score": 3.4057740178861944
+      },
+      {
+        "source_id": "c6e05aef960665ec439464168",
+        "score": 3.2228892018737407
+      },
+      {
+        "source_id": "cb4a96e5cde64d9faa403cccb",
+        "score": 3.0290091306211657
+      },
+      {
+        "source_id": "ca24a5e8c6f28b5eda7fa50de",
+        "score": 2.9136432162223107
+      },
+      {
+        "source_id": "cc79cf1fd8a5d1e4f278d2325",
+        "score": 2.328606302222725
+      },
+      {
+        "source_id": "c2cbf59dfc54dc5a8e79c320d",
+        "score": 1.8763090246678205
+      },
+      {
+        "source_id": "c8b290b2bf2289683d7d1c0df",
+        "score": 1.853066228375138
+      },
+      {
+        "source_id": "cb4bd95586355fe3bfcd49754",
+        "score": 0.8953668505189194
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cbb5ca89949851abf47746056",
+        "score": 0.3947502176468015
+      },
+      {
+        "source_id": "c9362312b206ff1011fc132a7",
+        "score": 0.3881144685778519
+      },
+      {
+        "source_id": "cc79cf1fd8a5d1e4f278d2325",
+        "score": 0.3503904979110769
+      },
+      {
+        "source_id": "c669d551eadb1bc331dbe3d56",
+        "score": 0.3425334918538057
+      },
+      {
+        "source_id": "cffbd588e46ffc1fc844e5330",
+        "score": 0.33346707721161983
+      },
+      {
+        "source_id": "c4e9db782b6a0f05af00a30ba",
+        "score": 0.32712770652579826
+      },
+      {
+        "source_id": "cc1b875b9219b6cfe553186fc",
+        "score": 0.32136046233929744
+      },
+      {
+        "source_id": "c3a184c8f6671cc33947d498c",
+        "score": 0.3169360227574893
+      },
+      {
+        "source_id": "c8b290b2bf2289683d7d1c0df",
+        "score": 0.31663378713075174
+      },
+      {
+        "source_id": "cfeb835178acb01619a63a286",
+        "score": 0.30268714958718124
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.3387914299964905e-07,
+  "cached_query_search_seconds": 0.004308874951675534
+}

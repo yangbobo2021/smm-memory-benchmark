@@ -1,0 +1,123 @@
+{
+  "case_id": "C099",
+  "cohort": "locomo_random200",
+  "family": "conv-49",
+  "source_ids": [
+    "c07561544ce4905b370f05a64",
+    "c099c629be363928b0b525ceb",
+    "c176d5ff52917b2bf853bccc7",
+    "c193b96709859e85ecedd4908",
+    "c1a8a7bafb176afe97c2f6f73",
+    "c2785dde695156c4f1768092c",
+    "c2f12dc07f25a1e218993ed1f",
+    "c307fa733602b5c35078e8b1c",
+    "c3973ef7209c4f8593d414719",
+    "c69ba3d6f08c60322fc11b618",
+    "c7e394a58a9aeb450c6944ab5",
+    "c7f5fa84a9e9f6afef6a69e20",
+    "c80933eca566601dd4f87b01e",
+    "c8b39ab3ed8428d688548cf45",
+    "caff6cd8c86e41346f2f7b285",
+    "cbafb868a8fff7fe7c9d71bd3",
+    "cbb1f5f9f502548db83571781",
+    "cd387b85982a45e4f67498a15",
+    "ce16827ef2d2880adb8c2f7a0",
+    "ce49b7c6f8092a7995fd418ac",
+    "ceb46e757307c69f8dadac445",
+    "cf759389a4295787695124229",
+    "cf849f5da2d43d7ff8d50a01b",
+    "cf9d2cb3717128b0afe4b3b73",
+    "cfdb086509e9507eb56336975"
+  ],
+  "query": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+  "clock": "2024-01-11T21:37:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c099c629be363928b0b525ceb",
+        "score": 8.122256932816482
+      },
+      {
+        "source_id": "cd387b85982a45e4f67498a15",
+        "score": 5.172714542207569
+      },
+      {
+        "source_id": "c2785dde695156c4f1768092c",
+        "score": 4.516699835545323
+      },
+      {
+        "source_id": "c7f5fa84a9e9f6afef6a69e20",
+        "score": 2.7613803619579866
+      },
+      {
+        "source_id": "c3973ef7209c4f8593d414719",
+        "score": 2.250271025089074
+      },
+      {
+        "source_id": "c7e394a58a9aeb450c6944ab5",
+        "score": 2.22440492704825
+      },
+      {
+        "source_id": "ce16827ef2d2880adb8c2f7a0",
+        "score": 2.131436681711633
+      },
+      {
+        "source_id": "c07561544ce4905b370f05a64",
+        "score": 1.7879136444595005
+      },
+      {
+        "source_id": "c307fa733602b5c35078e8b1c",
+        "score": 1.221264470122472
+      },
+      {
+        "source_id": "cbb1f5f9f502548db83571781",
+        "score": 1.1169270807537457
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cd387b85982a45e4f67498a15",
+        "score": 0.5340916049514628
+      },
+      {
+        "source_id": "c099c629be363928b0b525ceb",
+        "score": 0.5178587941764399
+      },
+      {
+        "source_id": "ceb46e757307c69f8dadac445",
+        "score": 0.34907119074811593
+      },
+      {
+        "source_id": "cf9d2cb3717128b0afe4b3b73",
+        "score": 0.34505394333331596
+      },
+      {
+        "source_id": "c3973ef7209c4f8593d414719",
+        "score": 0.34265816024206536
+      },
+      {
+        "source_id": "cf759389a4295787695124229",
+        "score": 0.3228182620186064
+      },
+      {
+        "source_id": "c193b96709859e85ecedd4908",
+        "score": 0.30968449232483697
+      },
+      {
+        "source_id": "ce16827ef2d2880adb8c2f7a0",
+        "score": 0.30671997104152543
+      },
+      {
+        "source_id": "c07561544ce4905b370f05a64",
+        "score": 0.2931736112230148
+      },
+      {
+        "source_id": "c80933eca566601dd4f87b01e",
+        "score": 0.29315746822053945
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.748573362827301e-07,
+  "cached_query_search_seconds": 0.005134375067427754
+}

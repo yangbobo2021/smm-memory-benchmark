@@ -1,0 +1,117 @@
+{
+  "case_id": "C058",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "When did Melanie go to the pottery workshop?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 3.140785850077453
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 2.739823139969815
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 2.1940302290952984
+      },
+      {
+        "source_id": "cbf31e4f19b0da0ee35961607",
+        "score": 1.2000040432226022
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 1.1599820484228196
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 1.0535415446370073
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 1.0335469505715507
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.9331928589244018
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 0.8762198056111585
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 0.6943040635190977
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "cbf31e4f19b0da0ee35961607",
+        "score": 0.4849022872131622
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 0.4830969882433169
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 0.4612103258867355
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 0.4520542458254168
+      },
+      {
+        "source_id": "c59ffd9422b82dbd55d1facb9",
+        "score": 0.44595721158265667
+      },
+      {
+        "source_id": "cc6e8a8ce1aae8adca4173ed6",
+        "score": 0.4198373261771101
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 0.4015000630275153
+      },
+      {
+        "source_id": "c86e1deaeb63c5fadbf3fc8a1",
+        "score": 0.399498615385358
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 0.37048790205658
+      },
+      {
+        "source_id": "cb5230b6ede18b2395f49ad99",
+        "score": 0.37002414118625604
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 3.3387914299964905e-07,
+  "cached_query_search_seconds": 0.0025163330137729645
+}

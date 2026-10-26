@@ -1,0 +1,128 @@
+{
+  "case_id": "C143",
+  "cohort": "locomo_random200",
+  "family": "conv-50",
+  "source_ids": [
+    "c11d8926381dd16ed2ace1502",
+    "c16225685a054da413ae7f82f",
+    "c1c393bf410c5ae3d8d75a966",
+    "c1d0a72c624bde6983b1e8b39",
+    "c216abd155f35f23dbaba9831",
+    "c28025042f4f2b86725b03b78",
+    "c323763f62fbc6608d3a60d9d",
+    "c347a5c918a85f34890688685",
+    "c34fcef33af22ef585e54cc9a",
+    "c43432414e53d1532caa8f2e0",
+    "c4dd42219399f83d35909cda3",
+    "c5f909707b97ef172706b298a",
+    "c7b8ad99d3d6f1001a8b803f3",
+    "c7c5ad2e78611ab12b70a4b10",
+    "c80f7d4f528b1f7f97121d35a",
+    "c8d0556eb6efb052d13cf789d",
+    "c90e4713780f878d264275228",
+    "c99fb7fe96d5c161f81dab820",
+    "c9e87d747219ed074b99d4fd0",
+    "ca114e7eb0f5679907c5fa27c",
+    "ca39eaaf27c7f70b451759471",
+    "cadc2b6d2af232f43868dadaf",
+    "cc7f4bada31c2e73d0871867a",
+    "cca727a82a4f1cdaddd44d63a",
+    "ce9bb43ac9b7111d09a348c09",
+    "cf1bbd88d7372a272cdcd01f2",
+    "cf301295140f53ea8a9690708",
+    "cfb683498a0d82dc4c19f61e4",
+    "cfcd794eced3ef4ef1b0b79b6",
+    "cfee7416163f9da91715a483f"
+  ],
+  "query": "When did Calvin first travel to Tokyo?",
+  "clock": "2023-11-17T10:54:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "cc7f4bada31c2e73d0871867a",
+        "score": 2.552053667838566
+      },
+      {
+        "source_id": "c7c5ad2e78611ab12b70a4b10",
+        "score": 2.533420076506216
+      },
+      {
+        "source_id": "c34fcef33af22ef585e54cc9a",
+        "score": 2.4897745737848296
+      },
+      {
+        "source_id": "c43432414e53d1532caa8f2e0",
+        "score": 2.156385898664076
+      },
+      {
+        "source_id": "c347a5c918a85f34890688685",
+        "score": 2.081307166178947
+      },
+      {
+        "source_id": "c16225685a054da413ae7f82f",
+        "score": 1.9556304674844898
+      },
+      {
+        "source_id": "c5f909707b97ef172706b298a",
+        "score": 1.903032792405702
+      },
+      {
+        "source_id": "c90e4713780f878d264275228",
+        "score": 1.7771942690997018
+      },
+      {
+        "source_id": "c11d8926381dd16ed2ace1502",
+        "score": 6.693225040247138e-06
+      },
+      {
+        "source_id": "c28025042f4f2b86725b03b78",
+        "score": 6.548713025563258e-06
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c80f7d4f528b1f7f97121d35a",
+        "score": 0.5626342153458213
+      },
+      {
+        "source_id": "c216abd155f35f23dbaba9831",
+        "score": 0.4269114752261365
+      },
+      {
+        "source_id": "cc7f4bada31c2e73d0871867a",
+        "score": 0.42324335847763517
+      },
+      {
+        "source_id": "c16225685a054da413ae7f82f",
+        "score": 0.414633060276851
+      },
+      {
+        "source_id": "c5f909707b97ef172706b298a",
+        "score": 0.41447549626296776
+      },
+      {
+        "source_id": "c43432414e53d1532caa8f2e0",
+        "score": 0.40363146914380277
+      },
+      {
+        "source_id": "c347a5c918a85f34890688685",
+        "score": 0.38887930661280157
+      },
+      {
+        "source_id": "c90e4713780f878d264275228",
+        "score": 0.3787247925697289
+      },
+      {
+        "source_id": "c99fb7fe96d5c161f81dab820",
+        "score": 0.3295624522120214
+      },
+      {
+        "source_id": "c1d0a72c624bde6983b1e8b39",
+        "score": 0.3123007729326712
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.50060111284256e-07,
+  "cached_query_search_seconds": 0.002616249956190586
+}

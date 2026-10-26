@@ -1,0 +1,117 @@
+{
+  "case_id": "C144",
+  "cohort": "locomo_random200",
+  "family": "conv-26",
+  "source_ids": [
+    "c0bd330ab68847aedbdf12baa",
+    "c16c71b5ac3cc8d438f30e02e",
+    "c209acf4c5721940c78269220",
+    "c32991b5a8b10b1792715518f",
+    "c3882e7f70d3ffffc90d61fe6",
+    "c4dc55d280c7f3f545df4d134",
+    "c59ffd9422b82dbd55d1facb9",
+    "c63a95f04d6605948c5bd6a4a",
+    "c83a5466251a9a6d24da25bd7",
+    "c86e1deaeb63c5fadbf3fc8a1",
+    "c9374b3eec6067d6a0cb1328e",
+    "cb51a3c5f4eb687b861d3ee07",
+    "cb5230b6ede18b2395f49ad99",
+    "cbf31e4f19b0da0ee35961607",
+    "cc6e8a8ce1aae8adca4173ed6",
+    "ce142a1d8fc9d169bfa9fda59",
+    "cf4e6d7411e1cdca21b4f96c7",
+    "cf80270c6159ed2490555e2c3",
+    "cf9f0fe894c2d94cdb1ce309a"
+  ],
+  "query": "What did Caroline see at the council meeting for adoption?",
+  "clock": "2023-10-22T09:55:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 4.564984554433805
+      },
+      {
+        "source_id": "c3882e7f70d3ffffc90d61fe6",
+        "score": 1.8484990270472346
+      },
+      {
+        "source_id": "c209acf4c5721940c78269220",
+        "score": 1.6899440360490867
+      },
+      {
+        "source_id": "c4dc55d280c7f3f545df4d134",
+        "score": 1.5997176284458163
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 1.5787995457632762
+      },
+      {
+        "source_id": "c16c71b5ac3cc8d438f30e02e",
+        "score": 1.4390148667771527
+      },
+      {
+        "source_id": "cf4e6d7411e1cdca21b4f96c7",
+        "score": 1.1831065648294842e-05
+      },
+      {
+        "source_id": "ce142a1d8fc9d169bfa9fda59",
+        "score": 1.1816036873438663e-05
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 1.1260051698781292e-05
+      },
+      {
+        "source_id": "cb5230b6ede18b2395f49ad99",
+        "score": 1.0832929723154528e-05
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c4dc55d280c7f3f545df4d134",
+        "score": 0.5693337757898599
+      },
+      {
+        "source_id": "c209acf4c5721940c78269220",
+        "score": 0.5506016996029997
+      },
+      {
+        "source_id": "cf4e6d7411e1cdca21b4f96c7",
+        "score": 0.5314975259534915
+      },
+      {
+        "source_id": "cb51a3c5f4eb687b861d3ee07",
+        "score": 0.5213690253626758
+      },
+      {
+        "source_id": "c9374b3eec6067d6a0cb1328e",
+        "score": 0.47796502946626424
+      },
+      {
+        "source_id": "c63a95f04d6605948c5bd6a4a",
+        "score": 0.47264809399160557
+      },
+      {
+        "source_id": "cb5230b6ede18b2395f49ad99",
+        "score": 0.45945777448923475
+      },
+      {
+        "source_id": "c0bd330ab68847aedbdf12baa",
+        "score": 0.45727852431435023
+      },
+      {
+        "source_id": "cf80270c6159ed2490555e2c3",
+        "score": 0.4392648470265898
+      },
+      {
+        "source_id": "c83a5466251a9a6d24da25bd7",
+        "score": 0.436722686383787
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 2.9103830456733704e-07,
+  "cached_query_search_seconds": 0.0031696250662207603
+}

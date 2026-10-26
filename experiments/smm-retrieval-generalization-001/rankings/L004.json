@@ -1,0 +1,149 @@
+{
+  "case_id": "L004",
+  "cohort": "longmemeval_new32",
+  "family": "gpt4_59149c78",
+  "source_ids": [
+    "c0a2086b9a26432954aae0bde",
+    "c10c0ded39691575385b614a3",
+    "c13f149eb0b7f98ca0343265d",
+    "c15f3f3c562680e1338c42117",
+    "c2266ab06e5e7a8f083458a1a",
+    "c24dc1e2125ce07ab7026be63",
+    "c307da526993af1fc22f8f0d9",
+    "c39b941813c26d172ad481db8",
+    "c3a5c1e3681ef6cb9b7e7400c",
+    "c3d386c1263a89fb70eeba298",
+    "c4111422dd3daef9a4560d081",
+    "c41be9fe1d9cef96c5ff5818d",
+    "c457067ed6cc25042fb41f2e3",
+    "c4899169397a6dbfee45407c5",
+    "c4989aa50d00d98796052d4c1",
+    "c4a9392510c0665b19395b082",
+    "c4dd43c1617afe67bbbc08459",
+    "c4de51f4619946c037a681c88",
+    "c5b35f1dd6cb5d079f1d2917e",
+    "c68780add9476b8ab95103c78",
+    "c7777889516cb6faeef5ee1f8",
+    "c78bda8bb314ea5ce2836a1b1",
+    "c7e67b008be48256fb9103f25",
+    "c83a1c24ead998f8034071b67",
+    "c849b3d266d0c032ed536db9e",
+    "c89a1993de79069a5f687992d",
+    "c8f59bf145b9b732f4eef3b36",
+    "c8f80067b39712ca14cf089a0",
+    "c91fb2da769d744e0cca79811",
+    "c932f0347accd71cd3dbc8a60",
+    "ca211ceb1868dd38111256ed9",
+    "ca6b97780a37229559dd5b56e",
+    "ca7b9712197aeef781f57c828",
+    "caeeb67444fdf0264446add28",
+    "cb091d743645bc6b37debe939",
+    "cb66838b0c372d09673c259b3",
+    "cbca09a74455f1214937b8469",
+    "cbcd59395c55d0b20870a6659",
+    "cc0ad95c22e55766614ec1392",
+    "cc0d86ac9f50b50aeccf14350",
+    "cd4be342debd1b140b7d9c6f7",
+    "cdbff247e3d1ae24b2c1461e4",
+    "cdff3300ebcabb589c575a738",
+    "cdff8f76d1751fc06ef9f60ca",
+    "ce47e0b9988316ed2c5406de7",
+    "ce99d3eab8e365671f6fc3d8e",
+    "cf19126ad3cb940ca4cd1e7f5",
+    "cf67e2d68944f10abf00f09f5",
+    "cf681a1e0681db41aca92fbca",
+    "cfb4150d12fbc2f798950fe93",
+    "cfea6e1a53b5a856f452e9fe1"
+  ],
+  "query": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+  "clock": "2023-02-01T08:41:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c4de51f4619946c037a681c88",
+        "score": 12.32965343283166
+      },
+      {
+        "source_id": "c8f80067b39712ca14cf089a0",
+        "score": 7.728143723422075
+      },
+      {
+        "source_id": "c932f0347accd71cd3dbc8a60",
+        "score": 7.310254428157963
+      },
+      {
+        "source_id": "cdff8f76d1751fc06ef9f60ca",
+        "score": 6.977039858229254
+      },
+      {
+        "source_id": "c4989aa50d00d98796052d4c1",
+        "score": 6.415363527839477
+      },
+      {
+        "source_id": "cf19126ad3cb940ca4cd1e7f5",
+        "score": 6.360319523663868
+      },
+      {
+        "source_id": "cb66838b0c372d09673c259b3",
+        "score": 5.908361656609462
+      },
+      {
+        "source_id": "cbcd59395c55d0b20870a6659",
+        "score": 5.842641117962911
+      },
+      {
+        "source_id": "c7e67b008be48256fb9103f25",
+        "score": 5.779026557275945
+      },
+      {
+        "source_id": "c5b35f1dd6cb5d079f1d2917e",
+        "score": 4.386294982651905
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c4de51f4619946c037a681c88",
+        "score": 0.5098866395326487
+      },
+      {
+        "source_id": "c8f80067b39712ca14cf089a0",
+        "score": 0.3869726440126014
+      },
+      {
+        "source_id": "c5b35f1dd6cb5d079f1d2917e",
+        "score": 0.38163332793233845
+      },
+      {
+        "source_id": "cf19126ad3cb940ca4cd1e7f5",
+        "score": 0.36243374753290103
+      },
+      {
+        "source_id": "cb66838b0c372d09673c259b3",
+        "score": 0.3523470975699616
+      },
+      {
+        "source_id": "c4989aa50d00d98796052d4c1",
+        "score": 0.32371495461858635
+      },
+      {
+        "source_id": "cc0d86ac9f50b50aeccf14350",
+        "score": 0.2990439394967151
+      },
+      {
+        "source_id": "ca7b9712197aeef781f57c828",
+        "score": 0.2294673606395966
+      },
+      {
+        "source_id": "cf67e2d68944f10abf00f09f5",
+        "score": 0.21544685264370442
+      },
+      {
+        "source_id": "c0a2086b9a26432954aae0bde",
+        "score": 0.20041933740756052
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.0035982909612357616,
+  "cached_query_search_seconds": 0.006310084136202931
+}

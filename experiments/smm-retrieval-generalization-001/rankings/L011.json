@@ -1,0 +1,143 @@
+{
+  "case_id": "L011",
+  "cohort": "longmemeval_new32",
+  "family": "88432d0a",
+  "source_ids": [
+    "c03667f34be2fb8ebd4c815e1",
+    "c07e9a40bd1d72fd01858976e",
+    "c094414b507304d49c8343001",
+    "c1136c6a9d519e846c9fc5b19",
+    "c114fdf91ed93862d8c0dfab0",
+    "c1bf4ccc66fe081ca841e9707",
+    "c26ea229f2e762f0852785465",
+    "c2a85338e1c572de0c4ad7b5f",
+    "c2cc7874a0bc2ca57a36b5b48",
+    "c371519665a30cde03ea13d4a",
+    "c45f85aeb1e05318b60dbc918",
+    "c464e6b4bed0a40f54d301cfb",
+    "c4aa9668a3069a723f6d44f43",
+    "c4ab4417b84177d14487b89c5",
+    "c4b9a1ab0255c911e327b2dcb",
+    "c54702162b9714cb5e55359f6",
+    "c5ba3254f4539f64c20f19676",
+    "c5c0a5a9890bd9084a969898b",
+    "c5d5946a4d376d066d15abf0d",
+    "c7248ad0a69c92e023fba7cf6",
+    "c751828e15cdbcdadc6a16490",
+    "c7a0d7c650ddfe90585f56e42",
+    "c7b7704d1190fa944a2bc95e8",
+    "c7cc70510259c87fd3f32d64e",
+    "c910d174e93ff2d2f86e09aab",
+    "c911588ae8313ce9d8abc4169",
+    "c994f947320301a9efa48147d",
+    "c9967f24e247dc8d11bf6b588",
+    "ca042f683c7c1b8a0c55e30c6",
+    "ca7d58fe6b8f408bbf321f737",
+    "ca9d14edc2aab5da7d76dba29",
+    "caff478c41c742123e62e58ed",
+    "cb062bb973a742deea637eb0b",
+    "cb157bc229e32d0bb70068f01",
+    "cb15dee202f4251878bd0b133",
+    "cb417665b8bd4b27a3a569f66",
+    "cba68dda78c17319e7b1673a0",
+    "cbb831fe60d5411aea1486b64",
+    "cbc19661e50f82b13c54fa0db",
+    "cbfdb349c786606dbc3f659cb",
+    "cd05e3226b16f2ee9fa6e6e2e",
+    "ce3df2d95bca4b96d94d68deb",
+    "ce5a48c01b09bfdba49972c9e",
+    "cedfc1b18791bddf75eed1155",
+    "cff265636c0c7608295c5c5d6"
+  ],
+  "query": "How many times did I bake something in the past two weeks?",
+  "clock": "2023-05-30T23:45:00+00:00",
+  "native": {
+    "bm25": [
+      {
+        "source_id": "c5c0a5a9890bd9084a969898b",
+        "score": 6.878553180481449
+      },
+      {
+        "source_id": "c7248ad0a69c92e023fba7cf6",
+        "score": 6.564940563551002
+      },
+      {
+        "source_id": "ca042f683c7c1b8a0c55e30c6",
+        "score": 5.878148788031574
+      },
+      {
+        "source_id": "c5ba3254f4539f64c20f19676",
+        "score": 5.757970756330653
+      },
+      {
+        "source_id": "c994f947320301a9efa48147d",
+        "score": 5.550925187760175
+      },
+      {
+        "source_id": "ce5a48c01b09bfdba49972c9e",
+        "score": 5.318057633066389
+      },
+      {
+        "source_id": "cb15dee202f4251878bd0b133",
+        "score": 4.131043127590077
+      },
+      {
+        "source_id": "c4aa9668a3069a723f6d44f43",
+        "score": 3.7845441348205577
+      },
+      {
+        "source_id": "cb157bc229e32d0bb70068f01",
+        "score": 3.569557410326904
+      },
+      {
+        "source_id": "cba68dda78c17319e7b1673a0",
+        "score": 3.427661957651512
+      }
+    ],
+    "vector": [
+      {
+        "source_id": "c5c0a5a9890bd9084a969898b",
+        "score": 0.4592740465277347
+      },
+      {
+        "source_id": "cff265636c0c7608295c5c5d6",
+        "score": 0.44502337277653126
+      },
+      {
+        "source_id": "cb417665b8bd4b27a3a569f66",
+        "score": 0.3763092614393805
+      },
+      {
+        "source_id": "ce5a48c01b09bfdba49972c9e",
+        "score": 0.3652584412254366
+      },
+      {
+        "source_id": "cbfdb349c786606dbc3f659cb",
+        "score": 0.3003811611985132
+      },
+      {
+        "source_id": "c4aa9668a3069a723f6d44f43",
+        "score": 0.29662305247710236
+      },
+      {
+        "source_id": "c5ba3254f4539f64c20f19676",
+        "score": 0.2719822009363386
+      },
+      {
+        "source_id": "cb15dee202f4251878bd0b133",
+        "score": 0.2564917330582788
+      },
+      {
+        "source_id": "c7b7704d1190fa944a2bc95e8",
+        "score": 0.219396958846028
+      },
+      {
+        "source_id": "c26ea229f2e762f0852785465",
+        "score": 0.19060693385742739
+      }
+    ],
+    "ordering": "lexical-first round-robin; no score fusion"
+  },
+  "first_corpus_load_seconds": 0.006312958197668195,
+  "cached_query_search_seconds": 0.004032958066090941
+}
