@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [Five-route candidate-budget comparison: BM25/vector Top5, Top10, and their 5+5 union against answer dependencies](analyses/five-candidate-routes-001/README.md)
 - [Agent sufficiency judgment and one follow-up BM25 search: GPT-6 Luna high, 257 cases](experiments/smm-sufficiency-luna-001/INDEX.md)
 - [Raw BM25 Top1–Top5: at least one reference vs all references on 257 cases](analyses/bm25-any-reference-top1-top5/README.md)
 - [Separate BM25 keywords and semantic queries: fixed 257-case input comparison](experiments/smm-query-input-001/README.md)
