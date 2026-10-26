@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [Raw BM25 Top1–Top5: at least one reference vs all references on 257 cases](analyses/bm25-any-reference-top1-top5/README.md)
 - [Separate BM25 keywords and semantic queries: fixed 257-case input comparison](experiments/smm-query-input-001/README.md)
 - [Each-route Top4 / Top5 union: complete-reference coverage on the same 257 cases](analyses/dual-route-top4-top5/README.md)
 - [Role-separated BM25: 70% user + 30% assistant, with unchanged full-conversation control](experiments/smm-bm25-role-weight-001/README.md)
