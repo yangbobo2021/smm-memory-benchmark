@@ -1,0 +1,16 @@
+{
+  "id": "SMM-BM25-FIRST-STAGE-SYNTHESIS-001",
+  "status": "post-hoc synthesis and deterministic replay of previously authored inputs; not a blind or preregistered model comparison",
+  "question_groups": ["P25", "L32"],
+  "case_selection": "All 25 P and all 32 L questions in the frozen 1000-source protocol; no outcome-based selection",
+  "candidate_rule": "Use each question's complete frozen 1000 distinct full-conversation source IDs. Do not filter by sample_id, family, original/distractor status, person, or official reference.",
+  "methods": ["raw_question_bm25", "previously_authored_keyword_bm25"],
+  "time_rule": "Check applicability of the exact explicit-month-plus-year interval parser used in smm-person-time-1000-pilot-001; do not infer relative dates, and do not add a time score when there is no applicable interval.",
+  "metrics": "Top5 and Top10 at least one official reference, all official references, and number of individual references; source coverage is not answer correctness.",
+  "input_sha256": {
+    "experiments/smm-bm25-scale-1000-002/protocol.json": "788debf66a73a8095458e95619e325977c22cd4efc342772f39f107d70858dc5",
+    "experiments/smm-bm25-scale-1000-002/top10.jsonl": "9029f8ff76adc11526e67739af34acd2d137778230e83d6582ad29741f47b9fc",
+    "experiments/smm-query-input-001/authored-inputs.tsv": "185927ca1f25836fc5cd16b048abba69c034ce070681d3bf1b5352bb7d7f59a9",
+    "experiments/smm-person-time-1000-pilot-001/protocol.json": "7cdba3b53074537d1cd6a69b076b0fa78e1a64a655e99059645aba494be5e27b"
+  }
+}

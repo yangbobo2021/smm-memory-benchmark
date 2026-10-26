@@ -14,6 +14,7 @@ The selection and candidate-answer calls are independent. The selected output is
 
 ## Start here
 
+- [BM25 as a first-stage retrieval foundation: later experiment synthesis, 57-case query replay, and application-scope limits](analyses/bm25-first-stage-synthesis-001/REPORT.md)
 - [BM25 scaling diagnosis: official ~500-session histories, mixed 1000-session stress test, query/source-view variants, temporal failures](experiments/smm-official-m-500-001/REPORT.md)
 - [Fixed whole-dialogue + USER-only lexical dual view under 1000 conversations](experiments/smm-dual-view-1000-001/README.md)
 - [Original whole-conversation BM25 under 1000 published full dialogues per question: 257-case retrieval stress test](experiments/smm-bm25-scale-1000-002/README.md)

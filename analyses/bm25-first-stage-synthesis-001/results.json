@@ -1,0 +1,4803 @@
+{
+  "id": "SMM-BM25-FIRST-STAGE-SYNTHESIS-001",
+  "protocol_sha256": "a06b26a78c82fc81b36f893f4f3095a85f91e9182b20921e1a596ce31c64da14",
+  "explicit_month_year_applicable_case_ids": [],
+  "summary": {
+    "P25": {
+      "raw_question_bm25": {
+        "top5": {
+          "any": 24,
+          "all": 18,
+          "reference_hits": 36,
+          "reference_total": 43
+        },
+        "top10": {
+          "any": 24,
+          "all": 19,
+          "reference_hits": 37,
+          "reference_total": 43
+        }
+      },
+      "previously_authored_keyword_bm25": {
+        "top5": {
+          "any": 23,
+          "all": 19,
+          "reference_hits": 36,
+          "reference_total": 43
+        },
+        "top10": {
+          "any": 24,
+          "all": 20,
+          "reference_hits": 38,
+          "reference_total": 43
+        }
+      }
+    },
+    "L32": {
+      "raw_question_bm25": {
+        "top5": {
+          "any": 22,
+          "all": 15,
+          "reference_hits": 36,
+          "reference_total": 72
+        },
+        "top10": {
+          "any": 24,
+          "all": 16,
+          "reference_hits": 42,
+          "reference_total": 72
+        }
+      },
+      "previously_authored_keyword_bm25": {
+        "top5": {
+          "any": 22,
+          "all": 13,
+          "reference_hits": 37,
+          "reference_total": 72
+        },
+        "top10": {
+          "any": 25,
+          "all": 18,
+          "reference_hits": 46,
+          "reference_total": 72
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "P01",
+      "cohort": "P25",
+      "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+      "previously_authored_keyword_query": "Nightingale Kristin Hannah finished finish reading read",
+      "official_reference_sources": [
+        "c6cfd58034e25f4def8503729",
+        "c86c392fcf4351780ec72ccbe"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c6cfd58034e25f4def8503729": 2,
+            "c86c392fcf4351780ec72ccbe": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c86c392fcf4351780ec72ccbe",
+              "c6cfd58034e25f4def8503729",
+              "c7248ad0a69c92e023fba7cf6",
+              "c8bf8c833ac88f981c3754f3f",
+              "cddc7b055ae7ae0553b3d07d6"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c86c392fcf4351780ec72ccbe",
+              "c6cfd58034e25f4def8503729",
+              "c7248ad0a69c92e023fba7cf6",
+              "c8bf8c833ac88f981c3754f3f",
+              "cddc7b055ae7ae0553b3d07d6",
+              "c5d548de884009b83b5074f37",
+              "c680da2a4cb2b34e8e150ae44",
+              "cbfda4883c6319721eabdedcf",
+              "c6a02239b9099e09e59fe1c0c",
+              "c0220db68f13f5d3bbff00909"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c6cfd58034e25f4def8503729": 2,
+            "c86c392fcf4351780ec72ccbe": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c86c392fcf4351780ec72ccbe",
+              "c6cfd58034e25f4def8503729",
+              "c7248ad0a69c92e023fba7cf6",
+              "c8bf8c833ac88f981c3754f3f",
+              "cddc7b055ae7ae0553b3d07d6"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c86c392fcf4351780ec72ccbe",
+              "c6cfd58034e25f4def8503729",
+              "c7248ad0a69c92e023fba7cf6",
+              "c8bf8c833ac88f981c3754f3f",
+              "cddc7b055ae7ae0553b3d07d6",
+              "c680da2a4cb2b34e8e150ae44",
+              "c5d548de884009b83b5074f37",
+              "c0220db68f13f5d3bbff00909",
+              "c27dcdd863c260fd44805fb65",
+              "cbfda4883c6319721eabdedcf"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P02",
+      "cohort": "P25",
+      "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+      "previously_authored_keyword_query": "egg eggs dozen refrigerator fridge stocked stock remaining",
+      "official_reference_sources": [
+        "c4d5e76892eb66ee21cf151ae",
+        "ca3586c9f696b9c5035ebf62c"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c4d5e76892eb66ee21cf151ae": 1,
+            "ca3586c9f696b9c5035ebf62c": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4d5e76892eb66ee21cf151ae",
+              "ca3586c9f696b9c5035ebf62c",
+              "cc4006300f03372462eec3b14",
+              "c356f0c2dbd40c74c42301ed9",
+              "cf9dd31701b7948c8d962f804"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4d5e76892eb66ee21cf151ae",
+              "ca3586c9f696b9c5035ebf62c",
+              "cc4006300f03372462eec3b14",
+              "c356f0c2dbd40c74c42301ed9",
+              "cf9dd31701b7948c8d962f804",
+              "cb17fee32b51aa39e36981e7c",
+              "cf39f9271ef3621d6738f9c43",
+              "cc8f38b550919d574bfccb02a",
+              "cf12941a6b6047f040c06282b",
+              "ca1a9bd372b0b055f19c55962"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c4d5e76892eb66ee21cf151ae": 1,
+            "ca3586c9f696b9c5035ebf62c": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4d5e76892eb66ee21cf151ae",
+              "ca3586c9f696b9c5035ebf62c",
+              "cf9dd31701b7948c8d962f804",
+              "c356f0c2dbd40c74c42301ed9",
+              "c5438f5ccb002d0ffe27c25b6"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4d5e76892eb66ee21cf151ae",
+              "ca3586c9f696b9c5035ebf62c",
+              "cf9dd31701b7948c8d962f804",
+              "c356f0c2dbd40c74c42301ed9",
+              "c5438f5ccb002d0ffe27c25b6",
+              "c469d71e158a5a107693234b5",
+              "c654999d26cc711cb86b932b3",
+              "cf39f9271ef3621d6738f9c43",
+              "cf086a9ffc4a6219d587d529d",
+              "ca1a9bd372b0b055f19c55962"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P03",
+      "cohort": "P25",
+      "question": "How many issues of National Geographic have I finished reading?",
+      "previously_authored_keyword_query": "National Geographic issues issue finished read reading",
+      "official_reference_sources": [
+        "cd244fcacffe13caffeb31e69",
+        "cab206cf9d24f3f891f2ce248"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cd244fcacffe13caffeb31e69": 1,
+            "cab206cf9d24f3f891f2ce248": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd244fcacffe13caffeb31e69",
+              "cab206cf9d24f3f891f2ce248",
+              "c63eda5a1661e425930522db7",
+              "c371cf0a74089019b6997f7db",
+              "c6ed5ce943b1f601010358313"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd244fcacffe13caffeb31e69",
+              "cab206cf9d24f3f891f2ce248",
+              "c63eda5a1661e425930522db7",
+              "c371cf0a74089019b6997f7db",
+              "c6ed5ce943b1f601010358313",
+              "c7b2c3561481c8e76e2ba41f2",
+              "caa0d0b80bee62ce94cd69791",
+              "c27dcdd863c260fd44805fb65",
+              "cc4ecd9ef31c5b3de0df1f281",
+              "c8ea9c779757f5f8e4e73431c"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cd244fcacffe13caffeb31e69": 1,
+            "cab206cf9d24f3f891f2ce248": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd244fcacffe13caffeb31e69",
+              "cab206cf9d24f3f891f2ce248",
+              "c63eda5a1661e425930522db7",
+              "c371cf0a74089019b6997f7db",
+              "ccfb65c58d6f8e56a4c978123"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd244fcacffe13caffeb31e69",
+              "cab206cf9d24f3f891f2ce248",
+              "c63eda5a1661e425930522db7",
+              "c371cf0a74089019b6997f7db",
+              "ccfb65c58d6f8e56a4c978123",
+              "c6ed5ce943b1f601010358313",
+              "c27dcdd863c260fd44805fb65",
+              "c7ca33ce038ed47ac135bf4c7",
+              "c7b2c3561481c8e76e2ba41f2",
+              "c8ea9c779757f5f8e4e73431c"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P04",
+      "cohort": "P25",
+      "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+      "previously_authored_keyword_query": "Downtown Farmers Market earned earn earnings sales recent",
+      "official_reference_sources": [
+        "ca194573bab838bc02a805cf8",
+        "c61dc060a2ddb252dd1eef054"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "ca194573bab838bc02a805cf8": 2,
+            "c61dc060a2ddb252dd1eef054": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c61dc060a2ddb252dd1eef054",
+              "ca194573bab838bc02a805cf8",
+              "c56b136d347471563a58d6502",
+              "c728eefb259903324a1447287",
+              "c5a2c22d568cbb3ffe06448f8"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c61dc060a2ddb252dd1eef054",
+              "ca194573bab838bc02a805cf8",
+              "c56b136d347471563a58d6502",
+              "c728eefb259903324a1447287",
+              "c5a2c22d568cbb3ffe06448f8",
+              "c424ff7d6621d2b963e653b19",
+              "c0da235d28aaecbcab027f56f",
+              "cc093c85d5bd4f8dce23914b9",
+              "c91c7d4ba6d673ee095fda5e8",
+              "c08667e73c8710cabb2aaad23"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "ca194573bab838bc02a805cf8": 1,
+            "c61dc060a2ddb252dd1eef054": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ca194573bab838bc02a805cf8",
+              "c61dc060a2ddb252dd1eef054",
+              "c8ff57a2de289275b2c691222",
+              "cb8134b59445e65fe09f4ba9f",
+              "c56b136d347471563a58d6502"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ca194573bab838bc02a805cf8",
+              "c61dc060a2ddb252dd1eef054",
+              "c8ff57a2de289275b2c691222",
+              "cb8134b59445e65fe09f4ba9f",
+              "c56b136d347471563a58d6502",
+              "c23e91ce27788c686a6fdc4fd",
+              "cfca93a3016a9ac9295160c74",
+              "c424ff7d6621d2b963e653b19",
+              "c728eefb259903324a1447287",
+              "cf49c3922ed69fbb9401101f9"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P05",
+      "cohort": "P25",
+      "question": "How many hours have I spent on my abstract ocean sculpture?",
+      "previously_authored_keyword_query": "abstract ocean sculpture hours spent working",
+      "official_reference_sources": [
+        "ca1d9de8e9c37808891cece4b",
+        "c4c82a4ec553edba1edf85885"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "ca1d9de8e9c37808891cece4b": 2,
+            "c4c82a4ec553edba1edf85885": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4c82a4ec553edba1edf85885",
+              "ca1d9de8e9c37808891cece4b",
+              "ce50a4aec7d73088e8e225541",
+              "c646e0e6a4fb57e19b6a910dc",
+              "ce6de0f6f0915a9bf6cfb7a9a"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4c82a4ec553edba1edf85885",
+              "ca1d9de8e9c37808891cece4b",
+              "ce50a4aec7d73088e8e225541",
+              "c646e0e6a4fb57e19b6a910dc",
+              "ce6de0f6f0915a9bf6cfb7a9a",
+              "cbaaa1cca67ec334f7fcd0310",
+              "c6a8f93a65a4d8e72462ee2c9",
+              "c0fb440fbb62c76f851cf13f2",
+              "c39a7c916bff2cc62cafdc2e0",
+              "c1aced7eeed89e4667a2ef70c"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "ca1d9de8e9c37808891cece4b": 2,
+            "c4c82a4ec553edba1edf85885": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4c82a4ec553edba1edf85885",
+              "ca1d9de8e9c37808891cece4b",
+              "ce50a4aec7d73088e8e225541",
+              "c646e0e6a4fb57e19b6a910dc",
+              "ce6de0f6f0915a9bf6cfb7a9a"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c4c82a4ec553edba1edf85885",
+              "ca1d9de8e9c37808891cece4b",
+              "ce50a4aec7d73088e8e225541",
+              "c646e0e6a4fb57e19b6a910dc",
+              "ce6de0f6f0915a9bf6cfb7a9a",
+              "cbaaa1cca67ec334f7fcd0310",
+              "c6a8f93a65a4d8e72462ee2c9",
+              "cf2d0a4f44f38bd1b7ea6179a",
+              "c3596f2814e2b898fc0d5690e",
+              "ccce03fdf2304eb349a534e15"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P06",
+      "cohort": "P25",
+      "question": "How many days a week do I attend fitness classes?",
+      "previously_authored_keyword_query": "fitness classes class attend attending weekly week schedule",
+      "official_reference_sources": [
+        "cb02306340efae1abb61b04d8",
+        "c3660f7f82aeb2ef7b63e2daf"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cb02306340efae1abb61b04d8": 26,
+            "c3660f7f82aeb2ef7b63e2daf": 3
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cda3c8694290fb7c812fdf204",
+              "c8bcc8bc96acd9370b1139092",
+              "c3660f7f82aeb2ef7b63e2daf",
+              "c48e871950a9810b9d40b5228",
+              "c10942eac5fd61234c4ae6032"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cda3c8694290fb7c812fdf204",
+              "c8bcc8bc96acd9370b1139092",
+              "c3660f7f82aeb2ef7b63e2daf",
+              "c48e871950a9810b9d40b5228",
+              "c10942eac5fd61234c4ae6032",
+              "c26084b7db4c02b541186e4ef",
+              "cf029674278a732829abcdd70",
+              "c216713a6900625789103edc7",
+              "c383a38d464776a2217d5b207",
+              "c745d8270059d1a4d002cd60e"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cb02306340efae1abb61b04d8": 19,
+            "c3660f7f82aeb2ef7b63e2daf": 1
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c3660f7f82aeb2ef7b63e2daf",
+              "cda3c8694290fb7c812fdf204",
+              "c8bcc8bc96acd9370b1139092",
+              "c48e871950a9810b9d40b5228",
+              "c285a00e3c798da8748fc969a"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c3660f7f82aeb2ef7b63e2daf",
+              "cda3c8694290fb7c812fdf204",
+              "c8bcc8bc96acd9370b1139092",
+              "c48e871950a9810b9d40b5228",
+              "c285a00e3c798da8748fc969a",
+              "cf029674278a732829abcdd70",
+              "c6688a996bb3eb277ee99a24d",
+              "c8394cab79ec586d9cb03535e",
+              "c926ae500f04542473c5723b7",
+              "c3c313adbd58c807cb43ca0c3"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P07",
+      "cohort": "P25",
+      "question": "How many dinner parties have I attended in the past month?",
+      "previously_authored_keyword_query": "dinner parties party attended attend month",
+      "official_reference_sources": [
+        "c799a2510389a8ff2e69d96f5",
+        "c5e13079f8999c5bfd339aab7"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c799a2510389a8ff2e69d96f5": 16,
+            "c5e13079f8999c5bfd339aab7": 1
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c5e13079f8999c5bfd339aab7",
+              "c5d50c252f77a22897f2c0939",
+              "c32a5d82c9a1a1cdc281bebc9",
+              "c9fa4e8a35313b7852ca64732",
+              "cd91811d867671dfc80f4a196"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c5e13079f8999c5bfd339aab7",
+              "c5d50c252f77a22897f2c0939",
+              "c32a5d82c9a1a1cdc281bebc9",
+              "c9fa4e8a35313b7852ca64732",
+              "cd91811d867671dfc80f4a196",
+              "c19f10d050d45b45b632f7c42",
+              "c37d6742905e5289d693506d2",
+              "caa0882213fdff2bfb5d0b1f1",
+              "c4cd89d53b74128c1021d7cbc",
+              "caba94415924b2b36f6d6077c"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c799a2510389a8ff2e69d96f5": 5,
+            "c5e13079f8999c5bfd339aab7": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c5e13079f8999c5bfd339aab7",
+              "c9fa4e8a35313b7852ca64732",
+              "c5d50c252f77a22897f2c0939",
+              "cec0064bda154701f7f5fed51",
+              "c799a2510389a8ff2e69d96f5"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c5e13079f8999c5bfd339aab7",
+              "c9fa4e8a35313b7852ca64732",
+              "c5d50c252f77a22897f2c0939",
+              "cec0064bda154701f7f5fed51",
+              "c799a2510389a8ff2e69d96f5",
+              "cd91811d867671dfc80f4a196",
+              "cc82b2dac58f7cdfb3e4ec580",
+              "c98afb0aaaeba4e3008b1a8db",
+              "c988ddeb2d5330f5ddb1759a1",
+              "c37d6742905e5289d693506d2"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P08",
+      "cohort": "P25",
+      "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+      "previously_authored_keyword_query": "citrus fruit fruits cocktails cocktail recipes used",
+      "official_reference_sources": [
+        "c9153f368b92a0a1aa0e04b1c",
+        "c77ccd1970a752a97cb1105f3",
+        "c8f9041e297070a3be513d341",
+        "c8b7f5dac3289afd48af13edf"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c9153f368b92a0a1aa0e04b1c": 4,
+            "c77ccd1970a752a97cb1105f3": 1,
+            "c8f9041e297070a3be513d341": 6,
+            "c8b7f5dac3289afd48af13edf": 3
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "c77ccd1970a752a97cb1105f3",
+              "cbcbd7531f6d9d1ccedf0da68",
+              "c8b7f5dac3289afd48af13edf",
+              "c9153f368b92a0a1aa0e04b1c",
+              "c80e3ffa6e8f19f85e4a87a1f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 4,
+            "top_source_ids": [
+              "c77ccd1970a752a97cb1105f3",
+              "cbcbd7531f6d9d1ccedf0da68",
+              "c8b7f5dac3289afd48af13edf",
+              "c9153f368b92a0a1aa0e04b1c",
+              "c80e3ffa6e8f19f85e4a87a1f",
+              "c8f9041e297070a3be513d341",
+              "c0db477f6c9092596b54a6227",
+              "cd0a12f8f39926a3095728a92",
+              "c4da761fa29cfa9dbe9ec7b25",
+              "cbde2695f464c0c143d66c6aa"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c9153f368b92a0a1aa0e04b1c": 6,
+            "c77ccd1970a752a97cb1105f3": 1,
+            "c8f9041e297070a3be513d341": 4,
+            "c8b7f5dac3289afd48af13edf": 3
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "c77ccd1970a752a97cb1105f3",
+              "cbcbd7531f6d9d1ccedf0da68",
+              "c8b7f5dac3289afd48af13edf",
+              "c8f9041e297070a3be513d341",
+              "c80e3ffa6e8f19f85e4a87a1f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 4,
+            "top_source_ids": [
+              "c77ccd1970a752a97cb1105f3",
+              "cbcbd7531f6d9d1ccedf0da68",
+              "c8b7f5dac3289afd48af13edf",
+              "c8f9041e297070a3be513d341",
+              "c80e3ffa6e8f19f85e4a87a1f",
+              "c9153f368b92a0a1aa0e04b1c",
+              "cd0a12f8f39926a3095728a92",
+              "c0db477f6c9092596b54a6227",
+              "c4da761fa29cfa9dbe9ec7b25",
+              "c9fa4e8a35313b7852ca64732"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P09",
+      "cohort": "P25",
+      "question": "How many days did I spend participating in faith-related activities in December?",
+      "previously_authored_keyword_query": "faith religious activities participated December",
+      "official_reference_sources": [
+        "c8531a9f29edb59a4767e8d72",
+        "cb5d52df1411ad8bfce6630ad",
+        "cc3fbf6478327dbbf685bb205"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c8531a9f29edb59a4767e8d72": 3,
+            "cb5d52df1411ad8bfce6630ad": 21,
+            "cc3fbf6478327dbbf685bb205": 1
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cc3fbf6478327dbbf685bb205",
+              "c45f85aeb1e05318b60dbc918",
+              "c8531a9f29edb59a4767e8d72",
+              "cf0d2ae2e64bad52b934080eb",
+              "c3596f2814e2b898fc0d5690e"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cc3fbf6478327dbbf685bb205",
+              "c45f85aeb1e05318b60dbc918",
+              "c8531a9f29edb59a4767e8d72",
+              "cf0d2ae2e64bad52b934080eb",
+              "c3596f2814e2b898fc0d5690e",
+              "c4bc70fbe374adec88afd34d7",
+              "ce9337f954708d0bb349ea7d8",
+              "cd7847f76aaedfce3200dce7f",
+              "cc670e84527aba960695acd54",
+              "c932f0347accd71cd3dbc8a60"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c8531a9f29edb59a4767e8d72": 30,
+            "cb5d52df1411ad8bfce6630ad": 2,
+            "cc3fbf6478327dbbf685bb205": 1
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cc3fbf6478327dbbf685bb205",
+              "cb5d52df1411ad8bfce6630ad",
+              "c4bc70fbe374adec88afd34d7",
+              "c36ef021a5632f602ac521506",
+              "c45f85aeb1e05318b60dbc918"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cc3fbf6478327dbbf685bb205",
+              "cb5d52df1411ad8bfce6630ad",
+              "c4bc70fbe374adec88afd34d7",
+              "c36ef021a5632f602ac521506",
+              "c45f85aeb1e05318b60dbc918",
+              "cc670e84527aba960695acd54",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c658a4d6521f7fbc419dfd5c9",
+              "c969edb8a3a4fec993151dcc9",
+              "c6e3ff80731b854151b102e63"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P10",
+      "cohort": "P25",
+      "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+      "previously_authored_keyword_query": "projects project working simultaneously thesis",
+      "official_reference_sources": [
+        "c7205aaf4f85c5e920a9e1c57",
+        "c90f22ac4580aa6d69fac7732",
+        "cc071c3f64b3fa0ab505a8019"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c7205aaf4f85c5e920a9e1c57": 1,
+            "c90f22ac4580aa6d69fac7732": 3,
+            "cc071c3f64b3fa0ab505a8019": 55
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c7205aaf4f85c5e920a9e1c57",
+              "cc7047087e54350d4e7f72150",
+              "c90f22ac4580aa6d69fac7732",
+              "c6a02239b9099e09e59fe1c0c",
+              "cf22b23b0c2857f739739ad79"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c7205aaf4f85c5e920a9e1c57",
+              "cc7047087e54350d4e7f72150",
+              "c90f22ac4580aa6d69fac7732",
+              "c6a02239b9099e09e59fe1c0c",
+              "cf22b23b0c2857f739739ad79",
+              "cb3a83e059af5e192b565d01f",
+              "ca8bf5dc6eac02db046f5c940",
+              "c8e3637f2113bf36e6067932f",
+              "c84ea3dd194199e14ad65d304",
+              "c8decf4054f4a2e6015ca0a7d"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c7205aaf4f85c5e920a9e1c57": 1,
+            "c90f22ac4580aa6d69fac7732": 3,
+            "cc071c3f64b3fa0ab505a8019": 29
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c7205aaf4f85c5e920a9e1c57",
+              "cc7047087e54350d4e7f72150",
+              "c90f22ac4580aa6d69fac7732",
+              "c6a02239b9099e09e59fe1c0c",
+              "cf22b23b0c2857f739739ad79"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c7205aaf4f85c5e920a9e1c57",
+              "cc7047087e54350d4e7f72150",
+              "c90f22ac4580aa6d69fac7732",
+              "c6a02239b9099e09e59fe1c0c",
+              "cf22b23b0c2857f739739ad79",
+              "c84ea3dd194199e14ad65d304",
+              "cd2a97c4df5395f6291388464",
+              "cb3a83e059af5e192b565d01f",
+              "c45af9aa8fd1613ed3a788987",
+              "c5b18de4ad8305d0b4838d793"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P11",
+      "cohort": "P25",
+      "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+      "previously_authored_keyword_query": "Vatican deli cured meats cheeses",
+      "official_reference_sources": [
+        "c8ae7755b954de1ea86110538"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c8ae7755b954de1ea86110538": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ae7755b954de1ea86110538",
+              "c9c91a9d2dc9e32fd05beb03e",
+              "ca72cff9b49afda45e0cfbe8b",
+              "cf371057c48cdcb6440346b1c",
+              "c0df14497b6b1fdaa7501f822"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ae7755b954de1ea86110538",
+              "c9c91a9d2dc9e32fd05beb03e",
+              "ca72cff9b49afda45e0cfbe8b",
+              "cf371057c48cdcb6440346b1c",
+              "c0df14497b6b1fdaa7501f822",
+              "cc0c2a2058d3542527ff62e0f",
+              "c097d34916d74c7cb88737450",
+              "c42092527b95e4c9294d2647d",
+              "c41ea5bc7329bff46ecce90e7",
+              "ced1621b2bfeaefbc84e6a651"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c8ae7755b954de1ea86110538": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ae7755b954de1ea86110538",
+              "c9c91a9d2dc9e32fd05beb03e",
+              "c097d34916d74c7cb88737450",
+              "cf371057c48cdcb6440346b1c",
+              "c0df14497b6b1fdaa7501f822"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ae7755b954de1ea86110538",
+              "c9c91a9d2dc9e32fd05beb03e",
+              "c097d34916d74c7cb88737450",
+              "cf371057c48cdcb6440346b1c",
+              "c0df14497b6b1fdaa7501f822",
+              "cc0c2a2058d3542527ff62e0f",
+              "c799a2510389a8ff2e69d96f5",
+              "c41ea5bc7329bff46ecce90e7",
+              "c9a0fb8b0422000338fc46ba9",
+              "ca971d3c5d07d60e092e55969"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P12",
+      "cohort": "P25",
+      "question": "I wanted to check back on our previous conversation about Netflix. I mentioned that I wanted to be able to access all seasons of old shows? Do you remember what show I used as an example, the one that only had the last season available?",
+      "previously_authored_keyword_query": "Netflix seasons season old shows available",
+      "official_reference_sources": [
+        "c50927ca385b93a348ac133cd"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c50927ca385b93a348ac133cd": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c50927ca385b93a348ac133cd",
+              "c6d57b3289c3b3fb17fc7b413",
+              "c7ca33ce038ed47ac135bf4c7",
+              "ca768a0d9873252d089d6b9b8",
+              "c849b3d266d0c032ed536db9e"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c50927ca385b93a348ac133cd",
+              "c6d57b3289c3b3fb17fc7b413",
+              "c7ca33ce038ed47ac135bf4c7",
+              "ca768a0d9873252d089d6b9b8",
+              "c849b3d266d0c032ed536db9e",
+              "c732bf17c84fe6cb5d27627d7",
+              "cfd45555ae11c7a1623db52f1",
+              "c6c70d5dfa295d9a83aebd742",
+              "c34c038d853f4dffba4cba186",
+              "c7df689de37933aabc2060dc4"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c50927ca385b93a348ac133cd": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c50927ca385b93a348ac133cd",
+              "c6d57b3289c3b3fb17fc7b413",
+              "c7ca33ce038ed47ac135bf4c7",
+              "ca768a0d9873252d089d6b9b8",
+              "c6c70d5dfa295d9a83aebd742"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c50927ca385b93a348ac133cd",
+              "c6d57b3289c3b3fb17fc7b413",
+              "c7ca33ce038ed47ac135bf4c7",
+              "ca768a0d9873252d089d6b9b8",
+              "c6c70d5dfa295d9a83aebd742",
+              "c849b3d266d0c032ed536db9e",
+              "c732bf17c84fe6cb5d27627d7",
+              "c7321315d6905a713cad65155",
+              "c6ecdafa77d476f59fc5b4951",
+              "c16fb896a03719746203ef222"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P13",
+      "cohort": "P25",
+      "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+      "previously_authored_keyword_query": "Chiefs Jaguars Arrowhead Stadium played games",
+      "official_reference_sources": [
+        "cacc96cddded0941e918b8c86"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cacc96cddded0941e918b8c86": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cacc96cddded0941e918b8c86",
+              "ce9337f954708d0bb349ea7d8",
+              "c7df689de37933aabc2060dc4",
+              "c4fe22f60e57d42dbe45060d6",
+              "c5a3372e7522a12cce13abc3e"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cacc96cddded0941e918b8c86",
+              "ce9337f954708d0bb349ea7d8",
+              "c7df689de37933aabc2060dc4",
+              "c4fe22f60e57d42dbe45060d6",
+              "c5a3372e7522a12cce13abc3e",
+              "ca352623c00182ca6675e06c3",
+              "cca5a415b09a28c3ddb71a07c",
+              "ce4e3d8a0e532b83a9dc12630",
+              "c91c7d4ba6d673ee095fda5e8",
+              "c2e69aec5df9680c042746d08"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cacc96cddded0941e918b8c86": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cacc96cddded0941e918b8c86",
+              "ce9337f954708d0bb349ea7d8",
+              "cc6d0f9ecefc07d7c0e274dfe",
+              "c4fe22f60e57d42dbe45060d6",
+              "c926d79a83f7233890e5cc95a"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cacc96cddded0941e918b8c86",
+              "ce9337f954708d0bb349ea7d8",
+              "cc6d0f9ecefc07d7c0e274dfe",
+              "c4fe22f60e57d42dbe45060d6",
+              "c926d79a83f7233890e5cc95a",
+              "c3823d0727ed9574c03656930",
+              "cf6f7acd8dc47bb3ba207c7b9",
+              "c4bbe483d68dac8d5c4cdef93",
+              "c537d0818ebba18b7f1b32827",
+              "cf33b5ad660bc0116f599aece"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P14",
+      "cohort": "P25",
+      "question": "I was going through our previous conversation about the impact of the political climate in Catalonia on its literature and music. Can you remind me of the example you gave of a Spanish-Catalan singer-songwriter who supports unity between Catalonia and Spain?",
+      "previously_authored_keyword_query": "Catalonia Spain unity singer songwriter political literature music",
+      "official_reference_sources": [
+        "ce4bde0adad4fe2ecc4bf403f"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "ce4bde0adad4fe2ecc4bf403f": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ce4bde0adad4fe2ecc4bf403f",
+              "cf2d513063680677b4b5217a2",
+              "c966f465e54d4f37352c60683",
+              "c546977571984296ae22d6c98",
+              "c885209cf378e1591726c072e"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ce4bde0adad4fe2ecc4bf403f",
+              "cf2d513063680677b4b5217a2",
+              "c966f465e54d4f37352c60683",
+              "c546977571984296ae22d6c98",
+              "c885209cf378e1591726c072e",
+              "cf09a8cae0149276bac2cefb8",
+              "c09f06685f50471d995537819",
+              "c120658a20c009e83202d9025",
+              "ccc25365e2b2cd1a1ad58c2dd",
+              "c977e35ed30aff62775c6c3b8"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "ce4bde0adad4fe2ecc4bf403f": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ce4bde0adad4fe2ecc4bf403f",
+              "c885209cf378e1591726c072e",
+              "c966f465e54d4f37352c60683",
+              "cf09a8cae0149276bac2cefb8",
+              "c120658a20c009e83202d9025"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ce4bde0adad4fe2ecc4bf403f",
+              "c885209cf378e1591726c072e",
+              "c966f465e54d4f37352c60683",
+              "cf09a8cae0149276bac2cefb8",
+              "c120658a20c009e83202d9025",
+              "c5651727ca280a6ffe1748016",
+              "c977e35ed30aff62775c6c3b8",
+              "c8892c9a0ca8265e5b14e56ae",
+              "ccc25365e2b2cd1a1ad58c2dd",
+              "c546977571984296ae22d6c98"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P15",
+      "cohort": "P25",
+      "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+      "previously_authored_keyword_query": "Amsterdam hostel Red Light District recommended",
+      "official_reference_sources": [
+        "c831c3cd021ba61a85c9aa466"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c831c3cd021ba61a85c9aa466": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c831c3cd021ba61a85c9aa466",
+              "c72018d6b87a05e3e7b25a12c",
+              "c9ee39fa056b98775b6f4c8ca",
+              "cb4037e4398b839c2fde4ebac",
+              "c8f9ea95d5e81ca55d560b767"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c831c3cd021ba61a85c9aa466",
+              "c72018d6b87a05e3e7b25a12c",
+              "c9ee39fa056b98775b6f4c8ca",
+              "cb4037e4398b839c2fde4ebac",
+              "c8f9ea95d5e81ca55d560b767",
+              "c6f64372d8a54c97adc6fad8a",
+              "ce33cf476ac12e1ac6f879164",
+              "cfc72ad4e3b300c44a8d294e4",
+              "c9560578da110a30ea3ce2e9e",
+              "c22f1e6dcb68a86bde06e976e"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c831c3cd021ba61a85c9aa466": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c831c3cd021ba61a85c9aa466",
+              "c72018d6b87a05e3e7b25a12c",
+              "c9ee39fa056b98775b6f4c8ca",
+              "c6f64372d8a54c97adc6fad8a",
+              "cd5ec2f139d211578d993b1da"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c831c3cd021ba61a85c9aa466",
+              "c72018d6b87a05e3e7b25a12c",
+              "c9ee39fa056b98775b6f4c8ca",
+              "c6f64372d8a54c97adc6fad8a",
+              "cd5ec2f139d211578d993b1da",
+              "c1aced7eeed89e4667a2ef70c",
+              "cb4037e4398b839c2fde4ebac",
+              "c8b7f5dac3289afd48af13edf",
+              "ca72cff9b49afda45e0cfbe8b",
+              "c9f0ab182900c13ee8f007b15"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P16",
+      "cohort": "P25",
+      "question": "How many skeins of worsted weight yarn did I find in my stash?",
+      "previously_authored_keyword_query": "worsted weight yarn skeins skein stash found",
+      "official_reference_sources": [
+        "c206792b9b44d285b614d229e"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c206792b9b44d285b614d229e": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c206792b9b44d285b614d229e",
+              "c5ddbf1276d8b19ef0faaf16a",
+              "ca3b676ca3de1f86df2f32809",
+              "cd45cf7fee7c01e4b4f6381f1",
+              "c633121d2008a0e420f29ca29"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c206792b9b44d285b614d229e",
+              "c5ddbf1276d8b19ef0faaf16a",
+              "ca3b676ca3de1f86df2f32809",
+              "cd45cf7fee7c01e4b4f6381f1",
+              "c633121d2008a0e420f29ca29",
+              "c6e499f67e9f9b45048b333f3",
+              "ca4dc44a5d83b76b504172b96",
+              "c37c7f356991b9517a62a5601",
+              "cf30db611807fb3ee9874eb7a",
+              "c5b5f2fedfffd07d8b5972c42"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c206792b9b44d285b614d229e": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c206792b9b44d285b614d229e",
+              "c5ddbf1276d8b19ef0faaf16a",
+              "ca3b676ca3de1f86df2f32809",
+              "c37c7f356991b9517a62a5601",
+              "c444f20ba41d5b09514491611"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c206792b9b44d285b614d229e",
+              "c5ddbf1276d8b19ef0faaf16a",
+              "ca3b676ca3de1f86df2f32809",
+              "c37c7f356991b9517a62a5601",
+              "c444f20ba41d5b09514491611",
+              "c3b07912f5174aa481f965abf",
+              "c2d35f61606b17ea016ae37f5",
+              "c6e6944ea827ff65e8b1ab1f8",
+              "ca4dc44a5d83b76b504172b96",
+              "c6bec35cf3514a7a788a5a1f3"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P17",
+      "cohort": "P25",
+      "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+      "previously_authored_keyword_query": "Lake Michigan largemouth bass caught catch fishing",
+      "official_reference_sources": [
+        "c7597a97e2ced0ac9fccbba67"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c7597a97e2ced0ac9fccbba67": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c7597a97e2ced0ac9fccbba67",
+              "c8c606df2d704e8cb3ef6792c",
+              "c7b2c3561481c8e76e2ba41f2",
+              "c5585a12de0b25de909d7935f",
+              "c1f0b0d55f751e11b54266930"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c7597a97e2ced0ac9fccbba67",
+              "c8c606df2d704e8cb3ef6792c",
+              "c7b2c3561481c8e76e2ba41f2",
+              "c5585a12de0b25de909d7935f",
+              "c1f0b0d55f751e11b54266930",
+              "c8a424632f3abfb2cee4b58a6",
+              "c91d47f2b0bfc37560978c660",
+              "c4da953665cd778918ab4e151",
+              "cb4037e4398b839c2fde4ebac",
+              "c6bbeda5fabc18062d7685a25"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c7597a97e2ced0ac9fccbba67": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c7597a97e2ced0ac9fccbba67",
+              "c8c606df2d704e8cb3ef6792c",
+              "c7b2c3561481c8e76e2ba41f2",
+              "c4da953665cd778918ab4e151",
+              "c8a424632f3abfb2cee4b58a6"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c7597a97e2ced0ac9fccbba67",
+              "c8c606df2d704e8cb3ef6792c",
+              "c7b2c3561481c8e76e2ba41f2",
+              "c4da953665cd778918ab4e151",
+              "c8a424632f3abfb2cee4b58a6",
+              "c5585a12de0b25de909d7935f",
+              "c1f0b0d55f751e11b54266930",
+              "c91d47f2b0bfc37560978c660",
+              "c60b3a92e9ba50de15d46dbd7",
+              "c432b7582ea7d91a2f39ac069"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P18",
+      "cohort": "P25",
+      "question": "How much did I spend on a designer handbag?",
+      "previously_authored_keyword_query": "designer handbag bought purchased spent cost",
+      "official_reference_sources": [
+        "cda869cbb99225b9233bf65e7"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cda869cbb99225b9233bf65e7": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c5d46e67d2c182a64fe152f21",
+              "cda869cbb99225b9233bf65e7",
+              "c7a5d4c305e7e3eb9203bd5cc",
+              "ceb7e31480dc4633f8b0cbe3b",
+              "cb1d7b1e7737eb34f82202ace"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c5d46e67d2c182a64fe152f21",
+              "cda869cbb99225b9233bf65e7",
+              "c7a5d4c305e7e3eb9203bd5cc",
+              "ceb7e31480dc4633f8b0cbe3b",
+              "cb1d7b1e7737eb34f82202ace",
+              "cd691b8d2d4a7ecdc73949ae1",
+              "c4a8874e18b09a0fab4eb44a4",
+              "c944a9cab128c4414374654cc",
+              "c5fe53e51624479bfcfb3e78a",
+              "c026d2bf61b0007e83322bcdc"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cda869cbb99225b9233bf65e7": 5
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ceb7e31480dc4633f8b0cbe3b",
+              "c7c2736ba322e3c6d2067a9ba",
+              "c5d46e67d2c182a64fe152f21",
+              "cb1d7b1e7737eb34f82202ace",
+              "cda869cbb99225b9233bf65e7"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ceb7e31480dc4633f8b0cbe3b",
+              "c7c2736ba322e3c6d2067a9ba",
+              "c5d46e67d2c182a64fe152f21",
+              "cb1d7b1e7737eb34f82202ace",
+              "cda869cbb99225b9233bf65e7",
+              "c7a5d4c305e7e3eb9203bd5cc",
+              "c944a9cab128c4414374654cc",
+              "c80f633b77561c0e20ff64314",
+              "cb8f5992c4792af58fcde7f75",
+              "c026d2bf61b0007e83322bcdc"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P19",
+      "cohort": "P25",
+      "question": "Where did I buy my new tennis racket from?",
+      "previously_authored_keyword_query": "tennis racket bought purchased store shop",
+      "official_reference_sources": [
+        "cdfeb5d9b5297a62fd0054af3"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cdfeb5d9b5297a62fd0054af3": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cdfeb5d9b5297a62fd0054af3",
+              "c231d0d6fc7a96f33fb71382b",
+              "c24adae013dbba18b26691dce",
+              "c37c81488376797b50e7f57d6",
+              "c9edf446c6bb083ada741321d"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cdfeb5d9b5297a62fd0054af3",
+              "c231d0d6fc7a96f33fb71382b",
+              "c24adae013dbba18b26691dce",
+              "c37c81488376797b50e7f57d6",
+              "c9edf446c6bb083ada741321d",
+              "c94467f090e370ab7f2e09188",
+              "cdeebe27d92a4bc24b4486dff",
+              "c9b69ca1f2b9483e0a502f354",
+              "ceb7e31480dc4633f8b0cbe3b",
+              "c16c18c9067caf8f2725bea63"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cdfeb5d9b5297a62fd0054af3": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cdfeb5d9b5297a62fd0054af3",
+              "c231d0d6fc7a96f33fb71382b",
+              "ceb7e31480dc4633f8b0cbe3b",
+              "c24adae013dbba18b26691dce",
+              "c16c18c9067caf8f2725bea63"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cdfeb5d9b5297a62fd0054af3",
+              "c231d0d6fc7a96f33fb71382b",
+              "ceb7e31480dc4633f8b0cbe3b",
+              "c24adae013dbba18b26691dce",
+              "c16c18c9067caf8f2725bea63",
+              "c5d5425d86a212d5a364ed64a",
+              "ca61d3354af9d90f3b094224c",
+              "c37c81488376797b50e7f57d6",
+              "ce241264c8a81224d0fd3d9c5",
+              "c6e499f67e9f9b45048b333f3"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P20",
+      "cohort": "P25",
+      "question": "What time do I stop checking work emails and messages?",
+      "previously_authored_keyword_query": "work emails messages stop checking evening cutoff",
+      "official_reference_sources": [
+        "c1c7c4c03a55cac4522db0a20"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c1c7c4c03a55cac4522db0a20": 23
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ce4de37fce7144b31d1da8754",
+              "c10df9c7e44936951a3f32766",
+              "cd89e598310cc021eea44b637",
+              "c58e75dd0b61882be5178c1a4",
+              "c9b7cb3cc0ee95d0abe8bc2d6"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ce4de37fce7144b31d1da8754",
+              "c10df9c7e44936951a3f32766",
+              "cd89e598310cc021eea44b637",
+              "c58e75dd0b61882be5178c1a4",
+              "c9b7cb3cc0ee95d0abe8bc2d6",
+              "c1136c6a9d519e846c9fc5b19",
+              "c2eafb3c3591707427ea06cae",
+              "c5d0eca1b798527a2004adef0",
+              "c2b86181756a84f4c5d4ee574",
+              "c3f7ec6639c153f54e611a7c6"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c1c7c4c03a55cac4522db0a20": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c1c7c4c03a55cac4522db0a20",
+              "ce4de37fce7144b31d1da8754",
+              "c10df9c7e44936951a3f32766",
+              "cd89e598310cc021eea44b637",
+              "c676b1f44c8b52fd02afe9ead"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c1c7c4c03a55cac4522db0a20",
+              "ce4de37fce7144b31d1da8754",
+              "c10df9c7e44936951a3f32766",
+              "cd89e598310cc021eea44b637",
+              "c676b1f44c8b52fd02afe9ead",
+              "c95bc11382eb90959002d1849",
+              "c58e75dd0b61882be5178c1a4",
+              "c9b7cb3cc0ee95d0abe8bc2d6",
+              "c0281d711520f5f0364f8376a",
+              "c619582baf0f6882eb4645e73"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P21",
+      "cohort": "P25",
+      "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+      "previously_authored_keyword_query": "Emma Rachel Alex graduated graduation",
+      "official_reference_sources": [
+        "c5cb50c297191b2e566d454d2",
+        "cd2a6842f7e4b75fe0461d1a1",
+        "c967f69f5e97bb77d7922817a"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c5cb50c297191b2e566d454d2": 3,
+            "cd2a6842f7e4b75fe0461d1a1": 1,
+            "c967f69f5e97bb77d7922817a": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "cd2a6842f7e4b75fe0461d1a1",
+              "c967f69f5e97bb77d7922817a",
+              "c5cb50c297191b2e566d454d2",
+              "c2fc4dcb3727b82f5e95caacc",
+              "c80f1308a1018b613b82b11d4"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "cd2a6842f7e4b75fe0461d1a1",
+              "c967f69f5e97bb77d7922817a",
+              "c5cb50c297191b2e566d454d2",
+              "c2fc4dcb3727b82f5e95caacc",
+              "c80f1308a1018b613b82b11d4",
+              "c02e959baebf0e95ad1856303",
+              "cfb58939b84bf560e87d4500a",
+              "cc0c2a2058d3542527ff62e0f",
+              "ce6d87afcd08f718793c3c6c5",
+              "cf64f0d262c44d5b5899b3643"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c5cb50c297191b2e566d454d2": 2,
+            "cd2a6842f7e4b75fe0461d1a1": 1,
+            "c967f69f5e97bb77d7922817a": 4
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "cd2a6842f7e4b75fe0461d1a1",
+              "c5cb50c297191b2e566d454d2",
+              "cc0c2a2058d3542527ff62e0f",
+              "c967f69f5e97bb77d7922817a",
+              "c80f1308a1018b613b82b11d4"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "cd2a6842f7e4b75fe0461d1a1",
+              "c5cb50c297191b2e566d454d2",
+              "cc0c2a2058d3542527ff62e0f",
+              "c967f69f5e97bb77d7922817a",
+              "c80f1308a1018b613b82b11d4",
+              "c02e959baebf0e95ad1856303",
+              "cfb58939b84bf560e87d4500a",
+              "c5a6e32fdb0b2995078ca5909",
+              "c45da4032ad68050fbcff4fd1",
+              "cd33001a7af246f2ff7dbe6a7"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P22",
+      "cohort": "P25",
+      "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+      "previously_authored_keyword_query": "Ibotta cashback app started using",
+      "official_reference_sources": [
+        "c8ff57a2de289275b2c691222"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c8ff57a2de289275b2c691222": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ff57a2de289275b2c691222",
+              "c5d5946a4d376d066d15abf0d",
+              "c1e98619b07704d2c2c8c2ad2",
+              "cece8a09b7517df48546e1d63",
+              "c1bc46bac383bca262b2ed186"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ff57a2de289275b2c691222",
+              "c5d5946a4d376d066d15abf0d",
+              "c1e98619b07704d2c2c8c2ad2",
+              "cece8a09b7517df48546e1d63",
+              "c1bc46bac383bca262b2ed186",
+              "c381a36acfc4c7552bf6e6896",
+              "c3efc706cd0f4e1d087092937",
+              "c01a3157e107e27377536b658",
+              "c13a89e277180c07a390eebba",
+              "c944a9cab128c4414374654cc"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c8ff57a2de289275b2c691222": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ff57a2de289275b2c691222",
+              "c5d5946a4d376d066d15abf0d",
+              "c1e98619b07704d2c2c8c2ad2",
+              "cece8a09b7517df48546e1d63",
+              "c1bc46bac383bca262b2ed186"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8ff57a2de289275b2c691222",
+              "c5d5946a4d376d066d15abf0d",
+              "c1e98619b07704d2c2c8c2ad2",
+              "cece8a09b7517df48546e1d63",
+              "c1bc46bac383bca262b2ed186",
+              "c01a3157e107e27377536b658",
+              "c102b66f5808110fefab26dda",
+              "c381a36acfc4c7552bf6e6896",
+              "c40d6982792a1407ef17c7895",
+              "c857c7c6a0eb93c1ed08eb290"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P23",
+      "cohort": "P25",
+      "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+      "previously_authored_keyword_query": "spider plant repotted repot cuttings neighbor Johnson",
+      "official_reference_sources": [
+        "c13c5edb0fd463a670b2d0d3f",
+        "ca722cb830ce76b391e670726"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c13c5edb0fd463a670b2d0d3f": 5,
+            "ca722cb830ce76b391e670726": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ca722cb830ce76b391e670726",
+              "cfb27c832b807f0e4f1ff8c95",
+              "cb8c4e1a83a15c1acf26d7d1f",
+              "c3e5d2a1044825556154589fd",
+              "c13c5edb0fd463a670b2d0d3f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ca722cb830ce76b391e670726",
+              "cfb27c832b807f0e4f1ff8c95",
+              "cb8c4e1a83a15c1acf26d7d1f",
+              "c3e5d2a1044825556154589fd",
+              "c13c5edb0fd463a670b2d0d3f",
+              "cfc1e068619aca27864b6ac07",
+              "c558928a17204952c4221896d",
+              "c5fe53e51624479bfcfb3e78a",
+              "c09db3c226d495aa1cc1d4615",
+              "cd6bbf598c9fe822b5113ffac"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c13c5edb0fd463a670b2d0d3f": 5,
+            "ca722cb830ce76b391e670726": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ca722cb830ce76b391e670726",
+              "cb8c4e1a83a15c1acf26d7d1f",
+              "cfb27c832b807f0e4f1ff8c95",
+              "cfc1e068619aca27864b6ac07",
+              "c13c5edb0fd463a670b2d0d3f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ca722cb830ce76b391e670726",
+              "cb8c4e1a83a15c1acf26d7d1f",
+              "cfb27c832b807f0e4f1ff8c95",
+              "cfc1e068619aca27864b6ac07",
+              "c13c5edb0fd463a670b2d0d3f",
+              "c558928a17204952c4221896d",
+              "c5fe53e51624479bfcfb3e78a",
+              "c09db3c226d495aa1cc1d4615",
+              "c3e5d2a1044825556154589fd",
+              "c147aac3be59e2dd23693e41b"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P24",
+      "cohort": "P25",
+      "question": "How many days ago did I attend a networking event?",
+      "previously_authored_keyword_query": "networking event attended attend date",
+      "official_reference_sources": [
+        "c7440c7a3ee7bbb9db6cf5156"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c7440c7a3ee7bbb9db6cf5156": 3
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c1e95c58a3caa33625669f4b0",
+              "c4421f1eff7f73084792af141",
+              "c7440c7a3ee7bbb9db6cf5156",
+              "c65c698b9595a66d9f4345efa",
+              "cdaecd99dbebdb6a64c648d91"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c1e95c58a3caa33625669f4b0",
+              "c4421f1eff7f73084792af141",
+              "c7440c7a3ee7bbb9db6cf5156",
+              "c65c698b9595a66d9f4345efa",
+              "cdaecd99dbebdb6a64c648d91",
+              "c75461ba0f35b9b5b4fd80b8e",
+              "c967f69f5e97bb77d7922817a",
+              "c646d0a7adff0bf9fd914da87",
+              "c722ff0ea03e336a5a468c781",
+              "caba94415924b2b36f6d6077c"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c7440c7a3ee7bbb9db6cf5156": 15
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c4421f1eff7f73084792af141",
+              "c1e95c58a3caa33625669f4b0",
+              "caba94415924b2b36f6d6077c",
+              "cdaecd99dbebdb6a64c648d91",
+              "c4de51f4619946c037a681c88"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c4421f1eff7f73084792af141",
+              "c1e95c58a3caa33625669f4b0",
+              "caba94415924b2b36f6d6077c",
+              "cdaecd99dbebdb6a64c648d91",
+              "c4de51f4619946c037a681c88",
+              "c722ff0ea03e336a5a468c781",
+              "c20959e6505494a77c1265a51",
+              "c274bf5b7295f0c4398952f53",
+              "c75461ba0f35b9b5b4fd80b8e",
+              "c7270bd8db37ceb9162cc7ade"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P25",
+      "cohort": "P25",
+      "question": "What time do I wake up on Tuesdays and Thursdays?",
+      "previously_authored_keyword_query": "wake waking up Tuesdays Thursdays Tuesday Thursday schedule",
+      "official_reference_sources": [
+        "c1093bf2c8cd861890c957c5c",
+        "cfb475330aad6b2360694d630"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c1093bf2c8cd861890c957c5c": 3,
+            "cfb475330aad6b2360694d630": 17
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c84d39d59ff97378681e84cb0",
+              "c745d8270059d1a4d002cd60e",
+              "c1093bf2c8cd861890c957c5c",
+              "cb085d2aab287750bf4ff6afe",
+              "c95bc11382eb90959002d1849"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c84d39d59ff97378681e84cb0",
+              "c745d8270059d1a4d002cd60e",
+              "c1093bf2c8cd861890c957c5c",
+              "cb085d2aab287750bf4ff6afe",
+              "c95bc11382eb90959002d1849",
+              "cb71f0264fe0eaafc9d3a17f2",
+              "c8859e9ecc1df53dd1de999a0",
+              "c414c564929b0d01f4a7351df",
+              "c33d171a50faba4d23cf9ed9f",
+              "c1a73bef6e02c1339adff8f8f"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c1093bf2c8cd861890c957c5c": 7,
+            "cfb475330aad6b2360694d630": 31
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c84d39d59ff97378681e84cb0",
+              "cb71f0264fe0eaafc9d3a17f2",
+              "c1a73bef6e02c1339adff8f8f",
+              "c8859e9ecc1df53dd1de999a0",
+              "c745d8270059d1a4d002cd60e"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c84d39d59ff97378681e84cb0",
+              "cb71f0264fe0eaafc9d3a17f2",
+              "c1a73bef6e02c1339adff8f8f",
+              "c8859e9ecc1df53dd1de999a0",
+              "c745d8270059d1a4d002cd60e",
+              "c09ba5310fc852c676aaa48f0",
+              "c1093bf2c8cd861890c957c5c",
+              "c34c038d853f4dffba4cba186",
+              "c37c81488376797b50e7f57d6",
+              "cbcd053731bc8056f8a8af43c"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L001",
+      "cohort": "L32",
+      "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+      "previously_authored_keyword_query": "Hawaii New York City trip travel days",
+      "official_reference_sources": [
+        "c72018d6b87a05e3e7b25a12c",
+        "ce305bb606468ab6b8e2ead39"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c72018d6b87a05e3e7b25a12c": 1,
+            "ce305bb606468ab6b8e2ead39": 4
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c72018d6b87a05e3e7b25a12c",
+              "ca352623c00182ca6675e06c3",
+              "c619582baf0f6882eb4645e73",
+              "ce305bb606468ab6b8e2ead39",
+              "c8f374bbc872d0bf8d35a0fdc"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c72018d6b87a05e3e7b25a12c",
+              "ca352623c00182ca6675e06c3",
+              "c619582baf0f6882eb4645e73",
+              "ce305bb606468ab6b8e2ead39",
+              "c8f374bbc872d0bf8d35a0fdc",
+              "ca90fac6d5a0c00acfc5eeb71",
+              "c658a4d6521f7fbc419dfd5c9",
+              "c65cc5bd2f81805ec9639528e",
+              "cf12aca46a236b7898b267cf0",
+              "cc0a673018328515f1321fa13"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c72018d6b87a05e3e7b25a12c": 2,
+            "ce305bb606468ab6b8e2ead39": 6
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c619582baf0f6882eb4645e73",
+              "c72018d6b87a05e3e7b25a12c",
+              "c8f374bbc872d0bf8d35a0fdc",
+              "c4d713c7712e68a7a7bf243d3",
+              "c45f85aeb1e05318b60dbc918"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c619582baf0f6882eb4645e73",
+              "c72018d6b87a05e3e7b25a12c",
+              "c8f374bbc872d0bf8d35a0fdc",
+              "c4d713c7712e68a7a7bf243d3",
+              "c45f85aeb1e05318b60dbc918",
+              "ce305bb606468ab6b8e2ead39",
+              "ce33cf476ac12e1ac6f879164",
+              "cb611540164483e62e9f5d5c5",
+              "cd8e108058f5f0136e4973cee",
+              "cf0cbba178985ad1c6edbd21a"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L002",
+      "cohort": "L32",
+      "question": "How many bikes do I currently own?",
+      "previously_authored_keyword_query": "bike bikes bicycle bicycles own bought sold",
+      "official_reference_sources": [
+        "cbee31569118ec9a9b03c9629",
+        "cd055d76ebc66b8c31b859b70"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cbee31569118ec9a9b03c9629": 1,
+            "cd055d76ebc66b8c31b859b70": 4
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cbee31569118ec9a9b03c9629",
+              "ce6d93cd8760fdbcb75c4484f",
+              "c2f60fa2885f8eba84fd07aeb",
+              "cd055d76ebc66b8c31b859b70",
+              "c944feac7b728fcf4f7781924"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cbee31569118ec9a9b03c9629",
+              "ce6d93cd8760fdbcb75c4484f",
+              "c2f60fa2885f8eba84fd07aeb",
+              "cd055d76ebc66b8c31b859b70",
+              "c944feac7b728fcf4f7781924",
+              "c12195c45aaaa3c5ce671805a",
+              "c0071f6c5a21846c5287e5695",
+              "cb954827b6bd1d9ccfd6563a0",
+              "c47a78e48eda7a5ef86a6dfe4",
+              "ce3ec41b36ca51e41d513c96b"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cbee31569118ec9a9b03c9629": 7,
+            "cd055d76ebc66b8c31b859b70": 3
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c944feac7b728fcf4f7781924",
+              "ce3ec41b36ca51e41d513c96b",
+              "cd055d76ebc66b8c31b859b70",
+              "c12195c45aaaa3c5ce671805a",
+              "ce6d93cd8760fdbcb75c4484f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c944feac7b728fcf4f7781924",
+              "ce3ec41b36ca51e41d513c96b",
+              "cd055d76ebc66b8c31b859b70",
+              "c12195c45aaaa3c5ce671805a",
+              "ce6d93cd8760fdbcb75c4484f",
+              "c2f60fa2885f8eba84fd07aeb",
+              "cbee31569118ec9a9b03c9629",
+              "c47a78e48eda7a5ef86a6dfe4",
+              "cb954827b6bd1d9ccfd6563a0",
+              "c2d2d6266ede36c620a8ab883"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L003",
+      "cohort": "L32",
+      "question": "Where do I initially keep my old sneakers?",
+      "previously_authored_keyword_query": "old sneakers kept keep stored initially originally",
+      "official_reference_sources": [
+        "cb3336b8ad97037016934d741",
+        "cf73cfe30a429b17a0f8b3ee0"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cb3336b8ad97037016934d741": 3,
+            "cf73cfe30a429b17a0f8b3ee0": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf73cfe30a429b17a0f8b3ee0",
+              "c78ebcfae5f3ecfd73b4d5da5",
+              "cb3336b8ad97037016934d741",
+              "ce44468b6ad6b402e7516e0db",
+              "cb6f53405eb2f06d2da86618b"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf73cfe30a429b17a0f8b3ee0",
+              "c78ebcfae5f3ecfd73b4d5da5",
+              "cb3336b8ad97037016934d741",
+              "ce44468b6ad6b402e7516e0db",
+              "cb6f53405eb2f06d2da86618b",
+              "cd94852483d05a171393a653d",
+              "c4ae7066128673dfd7183134f",
+              "c2a523dfe718041a6c51c151d",
+              "c59f0643ec098d97d9bc4d3be",
+              "ce8d2ae74278451a940fef702"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cb3336b8ad97037016934d741": 3,
+            "cf73cfe30a429b17a0f8b3ee0": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf73cfe30a429b17a0f8b3ee0",
+              "c78ebcfae5f3ecfd73b4d5da5",
+              "cb3336b8ad97037016934d741",
+              "ce44468b6ad6b402e7516e0db",
+              "cb6f53405eb2f06d2da86618b"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf73cfe30a429b17a0f8b3ee0",
+              "c78ebcfae5f3ecfd73b4d5da5",
+              "cb3336b8ad97037016934d741",
+              "ce44468b6ad6b402e7516e0db",
+              "cb6f53405eb2f06d2da86618b",
+              "c4ae7066128673dfd7183134f",
+              "c09ce57c3663cfa6aa46d49e2",
+              "cd94852483d05a171393a653d",
+              "cc5c0aceb8b99e93bfd929ec5",
+              "c2a523dfe718041a6c51c151d"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L004",
+      "cohort": "L32",
+      "question": "I mentioned that I participated in an art-related event two weeks ago. Where was that event held at?",
+      "previously_authored_keyword_query": "art event attended participated held location",
+      "official_reference_sources": [
+        "c4989aa50d00d98796052d4c1",
+        "c8f80067b39712ca14cf089a0"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c4989aa50d00d98796052d4c1": 38,
+            "c8f80067b39712ca14cf089a0": 28
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c658a4d6521f7fbc419dfd5c9",
+              "c4de51f4619946c037a681c88",
+              "c20959e6505494a77c1265a51",
+              "c8ef9e78f014d778a15db7bae"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c658a4d6521f7fbc419dfd5c9",
+              "c4de51f4619946c037a681c88",
+              "c20959e6505494a77c1265a51",
+              "c8ef9e78f014d778a15db7bae",
+              "ca194573bab838bc02a805cf8",
+              "c7ff2c18604baff7cee257754",
+              "c799a2510389a8ff2e69d96f5",
+              "c23d472c2d44376998fc911fa",
+              "cc389933551469afa14532c26"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c4989aa50d00d98796052d4c1": 54,
+            "c8f80067b39712ca14cf089a0": 21
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c20959e6505494a77c1265a51",
+              "c658a4d6521f7fbc419dfd5c9",
+              "c23d472c2d44376998fc911fa",
+              "c4de51f4619946c037a681c88"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c20959e6505494a77c1265a51",
+              "c658a4d6521f7fbc419dfd5c9",
+              "c23d472c2d44376998fc911fa",
+              "c4de51f4619946c037a681c88",
+              "c8ef9e78f014d778a15db7bae",
+              "ca926cb126e6259ddc54c1d77",
+              "c710ccfc4413bd372dc561c03",
+              "cc389933551469afa14532c26",
+              "ca194573bab838bc02a805cf8"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L005",
+      "cohort": "L32",
+      "question": "What is the order of airlines I flew with from earliest to latest before today?",
+      "previously_authored_keyword_query": "airlines airline flew flown flights flight",
+      "official_reference_sources": [
+        "c51b35b0f266360ceee43c010",
+        "c5e0d8d0dfa22e9f3e9e8de1b",
+        "c64c33e90657ce44625af6e65",
+        "c73ef19651b4c74a17670721b",
+        "c7a4b043db4ab984b85750904"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c51b35b0f266360ceee43c010": 5,
+            "c5e0d8d0dfa22e9f3e9e8de1b": 3,
+            "c64c33e90657ce44625af6e65": 9,
+            "c73ef19651b4c74a17670721b": 11,
+            "c7a4b043db4ab984b85750904": 4
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "c08667e73c8710cabb2aaad23",
+              "c2124d06a7867077ff2fc1b23",
+              "c5e0d8d0dfa22e9f3e9e8de1b",
+              "c7a4b043db4ab984b85750904",
+              "c51b35b0f266360ceee43c010"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 4,
+            "top_source_ids": [
+              "c08667e73c8710cabb2aaad23",
+              "c2124d06a7867077ff2fc1b23",
+              "c5e0d8d0dfa22e9f3e9e8de1b",
+              "c7a4b043db4ab984b85750904",
+              "c51b35b0f266360ceee43c010",
+              "c5a42e155ca87420a8224dde4",
+              "c619582baf0f6882eb4645e73",
+              "c6f64372d8a54c97adc6fad8a",
+              "c64c33e90657ce44625af6e65",
+              "c8b574ae926f8e7a125dd869e"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c51b35b0f266360ceee43c010": 7,
+            "c5e0d8d0dfa22e9f3e9e8de1b": 5,
+            "c64c33e90657ce44625af6e65": 6,
+            "c73ef19651b4c74a17670721b": 4,
+            "c7a4b043db4ab984b85750904": 2
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "c2124d06a7867077ff2fc1b23",
+              "c7a4b043db4ab984b85750904",
+              "c619582baf0f6882eb4645e73",
+              "c73ef19651b4c74a17670721b",
+              "c5e0d8d0dfa22e9f3e9e8de1b"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 5,
+            "top_source_ids": [
+              "c2124d06a7867077ff2fc1b23",
+              "c7a4b043db4ab984b85750904",
+              "c619582baf0f6882eb4645e73",
+              "c73ef19651b4c74a17670721b",
+              "c5e0d8d0dfa22e9f3e9e8de1b",
+              "c64c33e90657ce44625af6e65",
+              "c51b35b0f266360ceee43c010",
+              "c6f64372d8a54c97adc6fad8a",
+              "c49a6697493f88bc8e40667be",
+              "c72018d6b87a05e3e7b25a12c"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L006",
+      "cohort": "L32",
+      "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+      "previously_authored_keyword_query": "friend cooked cooking made meal food",
+      "official_reference_sources": [
+        "c7a24cd063ec7559d4f1376da",
+        "cf61ad120d4c8d896bb923eb2"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c7a24cd063ec7559d4f1376da": 426,
+            "cf61ad120d4c8d896bb923eb2": 34
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c3328cc6c1c16fd9aacc4ab10",
+              "c5f68c19745302eabc30196ca",
+              "cd4da9042d13ba90beb20d212",
+              "ccfc9a871efbf0f9a09b98b60",
+              "c5f6f97923f93b3146744a9a7"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c3328cc6c1c16fd9aacc4ab10",
+              "c5f68c19745302eabc30196ca",
+              "cd4da9042d13ba90beb20d212",
+              "ccfc9a871efbf0f9a09b98b60",
+              "c5f6f97923f93b3146744a9a7",
+              "c74dde9ab43ce7b65c4542d73",
+              "c16beab8b719e5235299d2234",
+              "ca61d3354af9d90f3b094224c",
+              "ce93294534224ee8377423980",
+              "cc82b2dac58f7cdfb3e4ec580"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c7a24cd063ec7559d4f1376da": 185,
+            "cf61ad120d4c8d896bb923eb2": 52
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "cf086a9ffc4a6219d587d529d",
+              "c99ece34110666033889061ba",
+              "c801d954529380e45a8e7d6bc",
+              "cc338672afd41a16b64b611d3",
+              "c16baf9db8061fe771de8dd9e"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "cf086a9ffc4a6219d587d529d",
+              "c99ece34110666033889061ba",
+              "c801d954529380e45a8e7d6bc",
+              "cc338672afd41a16b64b611d3",
+              "c16baf9db8061fe771de8dd9e",
+              "c5ba3254f4539f64c20f19676",
+              "c097d34916d74c7cb88737450",
+              "c1bc46bac383bca262b2ed186",
+              "c863fefff442aef085ded95d0",
+              "c2498d012e07ccc8c763a9609"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L007",
+      "cohort": "L32",
+      "question": "What did I do with Rachel on the Wednesday two months ago?",
+      "previously_authored_keyword_query": "Rachel Wednesday spent met together",
+      "official_reference_sources": [
+        "c1c57244c005330bffb259a83",
+        "c2fbb9c4e4909d11171cc4c53"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c1c57244c005330bffb259a83": 28,
+            "c2fbb9c4e4909d11171cc4c53": 333
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c7df689de37933aabc2060dc4",
+              "cc4dc1b7eef887e29f919f16a",
+              "c1e95c58a3caa33625669f4b0",
+              "cc82b2dac58f7cdfb3e4ec580",
+              "cd4676817fc9720fda94e6c0e"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c7df689de37933aabc2060dc4",
+              "cc4dc1b7eef887e29f919f16a",
+              "c1e95c58a3caa33625669f4b0",
+              "cc82b2dac58f7cdfb3e4ec580",
+              "cd4676817fc9720fda94e6c0e",
+              "c5a95f1fbc90dedde60168a1b",
+              "c5df939aa5158cef650a0fcc6",
+              "c985a6abca98eb35fa3f646df",
+              "cf3156d8a625d0c3b74d56b9b",
+              "ce8869081c995b6ec0771dd31"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c1c57244c005330bffb259a83": 38,
+            "c2fbb9c4e4909d11171cc4c53": null
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c1e95c58a3caa33625669f4b0",
+              "c7df689de37933aabc2060dc4",
+              "c2070e986051bf9475036c56a",
+              "cf3156d8a625d0c3b74d56b9b",
+              "c2ee577321256c175b1d6a35f"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c1e95c58a3caa33625669f4b0",
+              "c7df689de37933aabc2060dc4",
+              "c2070e986051bf9475036c56a",
+              "cf3156d8a625d0c3b74d56b9b",
+              "c2ee577321256c175b1d6a35f",
+              "c21887eb0acce17e44beb8d53",
+              "c722ff0ea03e336a5a468c781",
+              "c5b695f67c69d895ee13b277c",
+              "c027b61d8523fe12877449661",
+              "cd4676817fc9720fda94e6c0e"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L008",
+      "cohort": "L32",
+      "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+      "previously_authored_keyword_query": "tomato tomatoes cucumber cucumbers planted plants initially",
+      "official_reference_sources": [
+        "c97c5be0bc4598f426c340330",
+        "ca2ef86fd28cb7f4dec49bd66"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c97c5be0bc4598f426c340330": 2,
+            "ca2ef86fd28cb7f4dec49bd66": 5
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ce2d2c97fc14440244559ae47",
+              "c97c5be0bc4598f426c340330",
+              "ca90c0fc1320ad5dc2f8591a1",
+              "cce4b4f458c8f6154e8be72c6",
+              "ca2ef86fd28cb7f4dec49bd66"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ce2d2c97fc14440244559ae47",
+              "c97c5be0bc4598f426c340330",
+              "ca90c0fc1320ad5dc2f8591a1",
+              "cce4b4f458c8f6154e8be72c6",
+              "ca2ef86fd28cb7f4dec49bd66",
+              "cb895bd3516b82052f13fc5e6",
+              "c65cc5bd2f81805ec9639528e",
+              "c3f893456c2090ccd4d2139cc",
+              "c13a89e277180c07a390eebba",
+              "ca722cb830ce76b391e670726"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c97c5be0bc4598f426c340330": 3,
+            "ca2ef86fd28cb7f4dec49bd66": 4
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ce2d2c97fc14440244559ae47",
+              "ca90c0fc1320ad5dc2f8591a1",
+              "c97c5be0bc4598f426c340330",
+              "ca2ef86fd28cb7f4dec49bd66",
+              "c8ea19c76c71c2e64990f27c9"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "ce2d2c97fc14440244559ae47",
+              "ca90c0fc1320ad5dc2f8591a1",
+              "c97c5be0bc4598f426c340330",
+              "ca2ef86fd28cb7f4dec49bd66",
+              "c8ea19c76c71c2e64990f27c9",
+              "c8b7f5dac3289afd48af13edf",
+              "c6f05a6c556c1625c259666c0",
+              "cce4b4f458c8f6154e8be72c6",
+              "ca78dfadf9c3756a85a8e6422",
+              "caf51094440de5a51625a0f0e"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L009",
+      "cohort": "L32",
+      "question": "How many years will I be when my friend Rachel gets married?",
+      "previously_authored_keyword_query": "Rachel wedding married marriage age birthday",
+      "official_reference_sources": [
+        "c7e1d06e479acbd540f302056",
+        "cdd0d70c7f4cb460d00539f44"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c7e1d06e479acbd540f302056": 444,
+            "cdd0d70c7f4cb460d00539f44": 4
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c27c977222326ce7d6731ef98",
+              "c6fe7727426be29d3414e6c11",
+              "ca9ec654e125b426954ce6e98",
+              "cdd0d70c7f4cb460d00539f44",
+              "c047cd9e4420f1f7e23ff0dec"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c27c977222326ce7d6731ef98",
+              "c6fe7727426be29d3414e6c11",
+              "ca9ec654e125b426954ce6e98",
+              "cdd0d70c7f4cb460d00539f44",
+              "c047cd9e4420f1f7e23ff0dec",
+              "cf0cbba178985ad1c6edbd21a",
+              "c5b695f67c69d895ee13b277c",
+              "cd2a6842f7e4b75fe0461d1a1",
+              "c1e95c58a3caa33625669f4b0",
+              "c926d79a83f7233890e5cc95a"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c7e1d06e479acbd540f302056": 86,
+            "cdd0d70c7f4cb460d00539f44": 4
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c27c977222326ce7d6731ef98",
+              "c2ee577321256c175b1d6a35f",
+              "c4989aa50d00d98796052d4c1",
+              "cdd0d70c7f4cb460d00539f44",
+              "ce03c6fa27bcc24f09ed4ac72"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c27c977222326ce7d6731ef98",
+              "c2ee577321256c175b1d6a35f",
+              "c4989aa50d00d98796052d4c1",
+              "cdd0d70c7f4cb460d00539f44",
+              "ce03c6fa27bcc24f09ed4ac72",
+              "c5bfcf9edb515331cec15b087",
+              "c710ccfc4413bd372dc561c03",
+              "c6fe7727426be29d3414e6c11",
+              "c5b695f67c69d895ee13b277c",
+              "c5f719ff6f313cbeb9e4d9fcf"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L010",
+      "cohort": "L32",
+      "question": "What was the social media activity I participated 5 days ago?",
+      "previously_authored_keyword_query": "social media participated activity challenge",
+      "official_reference_sources": [
+        "c24defd7351349ce07826cf93",
+        "c5da5e37ad58836aac4742121"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c24defd7351349ce07826cf93": 788,
+            "c5da5e37ad58836aac4742121": 25
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c134224b41ec8f72e2a8d5152",
+              "cebc8ca6524edf69c67c64f4f",
+              "c52f618aeb10118dccbe7a118",
+              "cc389933551469afa14532c26",
+              "c20959e6505494a77c1265a51"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c134224b41ec8f72e2a8d5152",
+              "cebc8ca6524edf69c67c64f4f",
+              "c52f618aeb10118dccbe7a118",
+              "cc389933551469afa14532c26",
+              "c20959e6505494a77c1265a51",
+              "c5c4ecf890058b472a69b4c26",
+              "cfb58939b84bf560e87d4500a",
+              "cc82b2dac58f7cdfb3e4ec580",
+              "c4de51f4619946c037a681c88",
+              "cbcd59395c55d0b20870a6659"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c24defd7351349ce07826cf93": null,
+            "c5da5e37ad58836aac4742121": 17
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ca926cb126e6259ddc54c1d77",
+              "cc389933551469afa14532c26",
+              "c20959e6505494a77c1265a51",
+              "c52f618aeb10118dccbe7a118",
+              "cebc8ca6524edf69c67c64f4f"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ca926cb126e6259ddc54c1d77",
+              "cc389933551469afa14532c26",
+              "c20959e6505494a77c1265a51",
+              "c52f618aeb10118dccbe7a118",
+              "cebc8ca6524edf69c67c64f4f",
+              "cfb58939b84bf560e87d4500a",
+              "c4de51f4619946c037a681c88",
+              "c98c7b10bcecd7cfe6b162f1a",
+              "c84c31d21264cd12443c16d41",
+              "cafe9da5a84b2c989d58fab37"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L011",
+      "cohort": "L32",
+      "question": "How many times did I bake something in the past two weeks?",
+      "previously_authored_keyword_query": "bake baked baking",
+      "official_reference_sources": [
+        "cb417665b8bd4b27a3a569f66",
+        "cbfdb349c786606dbc3f659cb",
+        "ce5a48c01b09bfdba49972c9e",
+        "cff265636c0c7608295c5c5d6"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cb417665b8bd4b27a3a569f66": 219,
+            "cbfdb349c786606dbc3f659cb": 438,
+            "ce5a48c01b09bfdba49972c9e": 32,
+            "cff265636c0c7608295c5c5d6": 137
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c0361ba66544f0160526257c0",
+              "cdb0d04861e18f27bbc62e702",
+              "cf61ad120d4c8d896bb923eb2",
+              "c381a36acfc4c7552bf6e6896",
+              "c104dad6fe90a0ce488ee0022"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c0361ba66544f0160526257c0",
+              "cdb0d04861e18f27bbc62e702",
+              "cf61ad120d4c8d896bb923eb2",
+              "c381a36acfc4c7552bf6e6896",
+              "c104dad6fe90a0ce488ee0022",
+              "c5df939aa5158cef650a0fcc6",
+              "c5c0a5a9890bd9084a969898b",
+              "cec9b14ac8674f06c02d80eb6",
+              "c6285828d0fb10c967f734fd9",
+              "c8ef9e78f014d778a15db7bae"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cb417665b8bd4b27a3a569f66": 17,
+            "cbfdb349c786606dbc3f659cb": 64,
+            "ce5a48c01b09bfdba49972c9e": 7,
+            "cff265636c0c7608295c5c5d6": 21
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c5438f5ccb002d0ffe27c25b6",
+              "c5c0a5a9890bd9084a969898b",
+              "ceffbcb2ce3f41d8497b81863",
+              "c104dad6fe90a0ce488ee0022",
+              "c0361ba66544f0160526257c0"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c5438f5ccb002d0ffe27c25b6",
+              "c5c0a5a9890bd9084a969898b",
+              "ceffbcb2ce3f41d8497b81863",
+              "c104dad6fe90a0ce488ee0022",
+              "c0361ba66544f0160526257c0",
+              "c13ebbcb56fb754a67ebb07d2",
+              "ce5a48c01b09bfdba49972c9e",
+              "c618e6927f37949f85a826482",
+              "c4aa9668a3069a723f6d44f43",
+              "cf61ad120d4c8d896bb923eb2"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L012",
+      "cohort": "L32",
+      "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+      "previously_authored_keyword_query": "concert concerts musical events attended",
+      "official_reference_sources": [
+        "c072c351ab3aa6eec8a6955af",
+        "c1cade60a4bbe81bd3eda1e28",
+        "c4ee19cb432e3d2855768463a",
+        "c67954bf412a6fafd6aa0ae3f",
+        "c8ad7b16e5ed94383f80ae023"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c072c351ab3aa6eec8a6955af": 25,
+            "c1cade60a4bbe81bd3eda1e28": 6,
+            "c4ee19cb432e3d2855768463a": 7,
+            "c67954bf412a6fafd6aa0ae3f": 1,
+            "c8ad7b16e5ed94383f80ae023": 699
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c67954bf412a6fafd6aa0ae3f",
+              "c6cbc6509cb70223b7d26e34b",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "ca9ec654e125b426954ce6e98",
+              "cb4ef204380df2253fe7b2d8b"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "c67954bf412a6fafd6aa0ae3f",
+              "c6cbc6509cb70223b7d26e34b",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "ca9ec654e125b426954ce6e98",
+              "cb4ef204380df2253fe7b2d8b",
+              "c1cade60a4bbe81bd3eda1e28",
+              "c4ee19cb432e3d2855768463a",
+              "c6be869ca16913ec4ee055e8f",
+              "c3ed553e1cfd1d1efa25483da",
+              "c361a8295408439302401769a"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c072c351ab3aa6eec8a6955af": 5,
+            "c1cade60a4bbe81bd3eda1e28": 2,
+            "c4ee19cb432e3d2855768463a": 1,
+            "c67954bf412a6fafd6aa0ae3f": 3,
+            "c8ad7b16e5ed94383f80ae023": 17
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 4,
+            "top_source_ids": [
+              "c4ee19cb432e3d2855768463a",
+              "c1cade60a4bbe81bd3eda1e28",
+              "c67954bf412a6fafd6aa0ae3f",
+              "c27736c589150686784031454",
+              "c072c351ab3aa6eec8a6955af"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 4,
+            "top_source_ids": [
+              "c4ee19cb432e3d2855768463a",
+              "c1cade60a4bbe81bd3eda1e28",
+              "c67954bf412a6fafd6aa0ae3f",
+              "c27736c589150686784031454",
+              "c072c351ab3aa6eec8a6955af",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c361a8295408439302401769a",
+              "c5d52b2a4cd78469adc2ae201",
+              "c88edba7e3aa52cf9f0c82cfb",
+              "c6cbc6509cb70223b7d26e34b"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L013",
+      "cohort": "L32",
+      "question": "How long have I been collecting vintage cameras?",
+      "previously_authored_keyword_query": "vintage cameras camera collecting collected started",
+      "official_reference_sources": [
+        "ca81c64488676745fa6ed29f3"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "ca81c64488676745fa6ed29f3": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cbd905f7d99ac89de4476439d",
+              "ca81c64488676745fa6ed29f3",
+              "cdd931ff6106e4961c77d121d",
+              "ce6d87afcd08f718793c3c6c5",
+              "c09f81b7703cb9184884d601a"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cbd905f7d99ac89de4476439d",
+              "ca81c64488676745fa6ed29f3",
+              "cdd931ff6106e4961c77d121d",
+              "ce6d87afcd08f718793c3c6c5",
+              "c09f81b7703cb9184884d601a",
+              "cb3af2824cae00ff4b69782fb",
+              "c5bfcf9edb515331cec15b087",
+              "c17c9578a8a9a266e5f2267d5",
+              "cb15dee202f4251878bd0b133",
+              "c98afb0aaaeba4e3008b1a8db"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "ca81c64488676745fa6ed29f3": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cbd905f7d99ac89de4476439d",
+              "ca81c64488676745fa6ed29f3",
+              "ce6d87afcd08f718793c3c6c5",
+              "c09f81b7703cb9184884d601a",
+              "cdd931ff6106e4961c77d121d"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cbd905f7d99ac89de4476439d",
+              "ca81c64488676745fa6ed29f3",
+              "ce6d87afcd08f718793c3c6c5",
+              "c09f81b7703cb9184884d601a",
+              "cdd931ff6106e4961c77d121d",
+              "c235e446844979e9cc7283637",
+              "c7873d9641b26f81680b2d315",
+              "cfa84f0a8418033ea8f66ac8a",
+              "c84e982eec060a9575b8df0c5",
+              "cf980f8c4027ab9345ce2aa4e"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L014",
+      "cohort": "L32",
+      "question": "How many months have passed since I last visited a museum with a friend?",
+      "previously_authored_keyword_query": "museum visited visit friend months",
+      "official_reference_sources": [
+        "c51402484f0ed8e94e2778526",
+        "c9347ec6589d069772029ac1c",
+        "c9f1736f1f025be858d9c5a85"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c51402484f0ed8e94e2778526": 2,
+            "c9347ec6589d069772029ac1c": 22,
+            "c9f1736f1f025be858d9c5a85": 167
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c0281d711520f5f0364f8376a",
+              "c51402484f0ed8e94e2778526",
+              "c2fb2a0d88bae3763bc58e457",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c08667e73c8710cabb2aaad23"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c0281d711520f5f0364f8376a",
+              "c51402484f0ed8e94e2778526",
+              "c2fb2a0d88bae3763bc58e457",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c08667e73c8710cabb2aaad23",
+              "c6bc0f29441ca66f683da9156",
+              "c9c693d7e454f295a57ca2625",
+              "c7778313e6fd2a6d799d6697a",
+              "cc4006300f03372462eec3b14",
+              "ca9f1fd7e17f1bf069faec7a1"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c51402484f0ed8e94e2778526": 1,
+            "c9347ec6589d069772029ac1c": 19,
+            "c9f1736f1f025be858d9c5a85": 50
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c51402484f0ed8e94e2778526",
+              "c0281d711520f5f0364f8376a",
+              "c6bc0f29441ca66f683da9156",
+              "c08667e73c8710cabb2aaad23",
+              "cf0d2ae2e64bad52b934080eb"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c51402484f0ed8e94e2778526",
+              "c0281d711520f5f0364f8376a",
+              "c6bc0f29441ca66f683da9156",
+              "c08667e73c8710cabb2aaad23",
+              "cf0d2ae2e64bad52b934080eb",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c9c693d7e454f295a57ca2625",
+              "c8f374bbc872d0bf8d35a0fdc",
+              "c1b77ac5edc517b63b8c9ed66",
+              "c2fb2a0d88bae3763bc58e457"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L015",
+      "cohort": "L32",
+      "question": "What charity event did I participate in a month ago?",
+      "previously_authored_keyword_query": "charity charitable event participated attended",
+      "official_reference_sources": [
+        "c3c1ef3dc7b4dd6a84de95702",
+        "c472d6e5a1a6cd1ae67da403d",
+        "ced9a29f85f11e2fbcb616f20",
+        "cfdcbe1b28d7ed598d6348517"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c3c1ef3dc7b4dd6a84de95702": 14,
+            "c472d6e5a1a6cd1ae67da403d": 54,
+            "ced9a29f85f11e2fbcb616f20": 28,
+            "cfdcbe1b28d7ed598d6348517": 6
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ca6ffab02c0a7353edc0a9ae0",
+              "cf5cf2b704c67f74016b450c4",
+              "c20959e6505494a77c1265a51",
+              "c8fa0124798386697b4564f0c",
+              "cbc19661e50f82b13c54fa0db"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ca6ffab02c0a7353edc0a9ae0",
+              "cf5cf2b704c67f74016b450c4",
+              "c20959e6505494a77c1265a51",
+              "c8fa0124798386697b4564f0c",
+              "cbc19661e50f82b13c54fa0db",
+              "cfdcbe1b28d7ed598d6348517",
+              "cebc8ca6524edf69c67c64f4f",
+              "c0f70080044e867039943e0b3",
+              "ce1d9596c76e8da9ba43e92ab",
+              "c23d472c2d44376998fc911fa"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c3c1ef3dc7b4dd6a84de95702": 19,
+            "c472d6e5a1a6cd1ae67da403d": 16,
+            "ced9a29f85f11e2fbcb616f20": 15,
+            "cfdcbe1b28d7ed598d6348517": 12
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ca6ffab02c0a7353edc0a9ae0",
+              "cebc8ca6524edf69c67c64f4f",
+              "c20959e6505494a77c1265a51",
+              "c23d472c2d44376998fc911fa",
+              "cbc19661e50f82b13c54fa0db"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ca6ffab02c0a7353edc0a9ae0",
+              "cebc8ca6524edf69c67c64f4f",
+              "c20959e6505494a77c1265a51",
+              "c23d472c2d44376998fc911fa",
+              "cbc19661e50f82b13c54fa0db",
+              "cf5cf2b704c67f74016b450c4",
+              "c8fa0124798386697b4564f0c",
+              "ce1d9596c76e8da9ba43e92ab",
+              "ce55c79a6d85ac82b2db0a0ee",
+              "c0f70080044e867039943e0b3"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L016",
+      "cohort": "L32",
+      "question": "Which bike did I fixed or serviced the past weekend?",
+      "previously_authored_keyword_query": "bike bicycle fixed fix serviced service weekend",
+      "official_reference_sources": [
+        "c4c81e62277f847ae7773eaf3",
+        "cfe237583d5c800082d9816b2"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c4c81e62277f847ae7773eaf3": 23,
+            "cfe237583d5c800082d9816b2": 2
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ccda5814632a174d4f8a6abf4",
+              "cfe237583d5c800082d9816b2",
+              "c08743598caacd8e19e2d0033",
+              "c47a78e48eda7a5ef86a6dfe4",
+              "c52b7d409a66a95f4d2295881"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ccda5814632a174d4f8a6abf4",
+              "cfe237583d5c800082d9816b2",
+              "c08743598caacd8e19e2d0033",
+              "c47a78e48eda7a5ef86a6dfe4",
+              "c52b7d409a66a95f4d2295881",
+              "c2d7ab406095178340da2191c",
+              "c122f2b5c7efa871faa36774a",
+              "c5a95f1fbc90dedde60168a1b",
+              "cf32a0efa4832cececb3b02d3",
+              "c5d89cfa36afe5717d669a49d"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c4c81e62277f847ae7773eaf3": 25,
+            "cfe237583d5c800082d9816b2": 3
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ccda5814632a174d4f8a6abf4",
+              "ce3ec41b36ca51e41d513c96b",
+              "cfe237583d5c800082d9816b2",
+              "c5a95f1fbc90dedde60168a1b",
+              "cf283691982e5c14b9adb5a49"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "ccda5814632a174d4f8a6abf4",
+              "ce3ec41b36ca51e41d513c96b",
+              "cfe237583d5c800082d9816b2",
+              "c5a95f1fbc90dedde60168a1b",
+              "cf283691982e5c14b9adb5a49",
+              "cdfeb5d9b5297a62fd0054af3",
+              "cfc3eed20457138075eeda5d7",
+              "c1c57244c005330bffb259a83",
+              "c08743598caacd8e19e2d0033",
+              "c22f886556611f0ca62ec6147"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L017",
+      "cohort": "L32",
+      "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+      "previously_authored_keyword_query": "laptop backpack bought ordered arrived delivered",
+      "official_reference_sources": [
+        "c674eb0b089941fe44f00f93e",
+        "ca4b5799253845a52543e67f5"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c674eb0b089941fe44f00f93e": 1,
+            "ca4b5799253845a52543e67f5": 3
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c674eb0b089941fe44f00f93e",
+              "c7bef847d8e86b66fed348de0",
+              "ca4b5799253845a52543e67f5",
+              "c238bc5941d068c0224e7cd63",
+              "ca4d56e2e56f6e9a43665cecb"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c674eb0b089941fe44f00f93e",
+              "c7bef847d8e86b66fed348de0",
+              "ca4b5799253845a52543e67f5",
+              "c238bc5941d068c0224e7cd63",
+              "ca4d56e2e56f6e9a43665cecb",
+              "cec48b8f4254437d0c01aba32",
+              "cf8ef7e0c91806431c374a40a",
+              "c1bc8cd164f95e3cbb4d2b554",
+              "c4d9ab816e588e894615037d6",
+              "c826a5493618dfadaf11dde30"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c674eb0b089941fe44f00f93e": 3,
+            "ca4b5799253845a52543e67f5": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c7bef847d8e86b66fed348de0",
+              "ca4b5799253845a52543e67f5",
+              "c674eb0b089941fe44f00f93e",
+              "ce25ffdade98c208ee2fef7de",
+              "ca4d56e2e56f6e9a43665cecb"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c7bef847d8e86b66fed348de0",
+              "ca4b5799253845a52543e67f5",
+              "c674eb0b089941fe44f00f93e",
+              "ce25ffdade98c208ee2fef7de",
+              "ca4d56e2e56f6e9a43665cecb",
+              "ccc336051495650fd9042ec9c",
+              "c4d9ab816e588e894615037d6",
+              "c577aa3494790ecc194a1f8c5",
+              "c8fa0124798386697b4564f0c",
+              "cec48b8f4254437d0c01aba32"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L018",
+      "cohort": "L32",
+      "question": "What was the significant buisiness milestone I mentioned four weeks ago?",
+      "previously_authored_keyword_query": "business milestone achieved reached",
+      "official_reference_sources": [
+        "c37d6742905e5289d693506d2",
+        "c656eac93f2eae8cbf36ca07a"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c37d6742905e5289d693506d2": 125,
+            "c656eac93f2eae8cbf36ca07a": 238
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c4d6fc42ae8b4c34e51cc0028",
+              "c7ff2c18604baff7cee257754",
+              "cf5bd254a6175493c3be51a22",
+              "ce9337f954708d0bb349ea7d8"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c4d6fc42ae8b4c34e51cc0028",
+              "c7ff2c18604baff7cee257754",
+              "cf5bd254a6175493c3be51a22",
+              "ce9337f954708d0bb349ea7d8",
+              "c4c2dcb095cf30a965de73c56",
+              "c3b07912f5174aa481f965abf",
+              "c71daf4f08d69dd4c5d41b850",
+              "c1fa24fe7b4c46aa97fd46066",
+              "c558928a17204952c4221896d"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c37d6742905e5289d693506d2": 10,
+            "c656eac93f2eae8cbf36ca07a": 66
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c71daf4f08d69dd4c5d41b850",
+              "c4d6fc42ae8b4c34e51cc0028",
+              "c62795328bcdfc227c14f30c4",
+              "cd1e50d6a7cff9a4e5c4111ac",
+              "c9a384eb4a467dc101c75e5c5"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c71daf4f08d69dd4c5d41b850",
+              "c4d6fc42ae8b4c34e51cc0028",
+              "c62795328bcdfc227c14f30c4",
+              "cd1e50d6a7cff9a4e5c4111ac",
+              "c9a384eb4a467dc101c75e5c5",
+              "cf5bd254a6175493c3be51a22",
+              "c2e24a4621b2470ffc92d6fd8",
+              "c13f149eb0b7f98ca0343265d",
+              "c40efc2771b4a2781ef01ee75",
+              "c37d6742905e5289d693506d2"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L019",
+      "cohort": "L32",
+      "question": "How often do I see my therapist, Dr. Smith?",
+      "previously_authored_keyword_query": "therapist Dr Smith appointments sessions frequency",
+      "official_reference_sources": [
+        "c7c69c7da8ff132228f7da07c",
+        "c7e318df4438eec91e95516a7"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c7c69c7da8ff132228f7da07c": 5,
+            "c7e318df4438eec91e95516a7": 3
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c03cd589266175502a469c5dc",
+              "c874b3b1541cbc7ca5240711f",
+              "c7e318df4438eec91e95516a7",
+              "cc7047087e54350d4e7f72150",
+              "c7c69c7da8ff132228f7da07c"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c03cd589266175502a469c5dc",
+              "c874b3b1541cbc7ca5240711f",
+              "c7e318df4438eec91e95516a7",
+              "cc7047087e54350d4e7f72150",
+              "c7c69c7da8ff132228f7da07c",
+              "ce61230b65653be97da79b1cc",
+              "ce42777d8730a8d5dd96da7ee",
+              "ca6b97780a37229559dd5b56e",
+              "c949d304d643e301647541f6b",
+              "c1596954e728eeab5eb89c79f"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c7c69c7da8ff132228f7da07c": 6,
+            "c7e318df4438eec91e95516a7": 2
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c03cd589266175502a469c5dc",
+              "c7e318df4438eec91e95516a7",
+              "c874b3b1541cbc7ca5240711f",
+              "c3efc706cd0f4e1d087092937",
+              "ca6b97780a37229559dd5b56e"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c03cd589266175502a469c5dc",
+              "c7e318df4438eec91e95516a7",
+              "c874b3b1541cbc7ca5240711f",
+              "c3efc706cd0f4e1d087092937",
+              "ca6b97780a37229559dd5b56e",
+              "c7c69c7da8ff132228f7da07c",
+              "cc7047087e54350d4e7f72150",
+              "c1596954e728eeab5eb89c79f",
+              "cb1e1e1d2fec35c3795536f95",
+              "c38329056a2897b405f0bae07"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L020",
+      "cohort": "L32",
+      "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+      "previously_authored_keyword_query": "airport hotel train taxi fare cost",
+      "official_reference_sources": [
+        "c22f886556611f0ca62ec6147",
+        "c64153e8530609acdfd6bc8cb"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c22f886556611f0ca62ec6147": 1,
+            "c64153e8530609acdfd6bc8cb": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c22f886556611f0ca62ec6147",
+              "c64153e8530609acdfd6bc8cb",
+              "ce9623f6fc3a634eadcef93f8",
+              "c51b35b0f266360ceee43c010",
+              "c122f2b5c7efa871faa36774a"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c22f886556611f0ca62ec6147",
+              "c64153e8530609acdfd6bc8cb",
+              "ce9623f6fc3a634eadcef93f8",
+              "c51b35b0f266360ceee43c010",
+              "c122f2b5c7efa871faa36774a",
+              "ce2c1bc107b37900fdfa83a2c",
+              "cca09bf4542c2a1511645833d",
+              "c2da65519bb34b69e36f1e011",
+              "c08667e73c8710cabb2aaad23",
+              "c9d1170c7ed2432e59551846c"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c22f886556611f0ca62ec6147": 2,
+            "c64153e8530609acdfd6bc8cb": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c64153e8530609acdfd6bc8cb",
+              "c22f886556611f0ca62ec6147",
+              "ce9623f6fc3a634eadcef93f8",
+              "c51b35b0f266360ceee43c010",
+              "c299970df4c8f6bc670a712a2"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c64153e8530609acdfd6bc8cb",
+              "c22f886556611f0ca62ec6147",
+              "ce9623f6fc3a634eadcef93f8",
+              "c51b35b0f266360ceee43c010",
+              "c299970df4c8f6bc670a712a2",
+              "cca09bf4542c2a1511645833d",
+              "c122f2b5c7efa871faa36774a",
+              "cbbd6150c8fbb334b341ac451",
+              "ce2c1bc107b37900fdfa83a2c",
+              "c08667e73c8710cabb2aaad23"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L021",
+      "cohort": "L32",
+      "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+      "previously_authored_keyword_query": "Holiday Market iPhone 13 Pro bought attended",
+      "official_reference_sources": [
+        "c5df1817f0846ef320663db55",
+        "c8c256154423c18370f5f828c"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c5df1817f0846ef320663db55": 12,
+            "c8c256154423c18370f5f828c": 1
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8c256154423c18370f5f828c",
+              "c389df96ef602e072dc3916d9",
+              "cb5d52df1411ad8bfce6630ad",
+              "c404afe0f9b8e16c79afb95ba",
+              "ca194573bab838bc02a805cf8"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8c256154423c18370f5f828c",
+              "c389df96ef602e072dc3916d9",
+              "cb5d52df1411ad8bfce6630ad",
+              "c404afe0f9b8e16c79afb95ba",
+              "ca194573bab838bc02a805cf8",
+              "c646c8c5ad5cbc49e4c9009ce",
+              "c2e13f034689d6c54f58919c9",
+              "c916641845b354ebf03e4eaa6",
+              "c9edf446c6bb083ada741321d",
+              "c4de51f4619946c037a681c88"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c5df1817f0846ef320663db55": 3,
+            "c8c256154423c18370f5f828c": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c8c256154423c18370f5f828c",
+              "c389df96ef602e072dc3916d9",
+              "c5df1817f0846ef320663db55",
+              "cb5d52df1411ad8bfce6630ad",
+              "c646c8c5ad5cbc49e4c9009ce"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c8c256154423c18370f5f828c",
+              "c389df96ef602e072dc3916d9",
+              "c5df1817f0846ef320663db55",
+              "cb5d52df1411ad8bfce6630ad",
+              "c646c8c5ad5cbc49e4c9009ce",
+              "caccbedee2497447d93bfa202",
+              "cd87962475c9c052c5d4264b3",
+              "c5abec30108af15e3f5dd2348",
+              "c3ec606cab3e60c05d63c4c99",
+              "c134224b41ec8f72e2a8d5152"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L022",
+      "cohort": "L32",
+      "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+      "previously_authored_keyword_query": "competition investment bought purchased",
+      "official_reference_sources": [
+        "c29af6ce690e48822aecc785c",
+        "cd4cb04bd8f107c6b37713cd3"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c29af6ce690e48822aecc785c": 66,
+            "cd4cb04bd8f107c6b37713cd3": 239
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ccc374b9e0e3b0d2c15875424",
+              "cd87962475c9c052c5d4264b3",
+              "c6683f642cd1ef1fcc9056d15",
+              "cf6cd3f92ee6b728fe0611c0c",
+              "c097d34916d74c7cb88737450"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ccc374b9e0e3b0d2c15875424",
+              "cd87962475c9c052c5d4264b3",
+              "c6683f642cd1ef1fcc9056d15",
+              "cf6cd3f92ee6b728fe0611c0c",
+              "c097d34916d74c7cb88737450",
+              "c76c4a15fdaa360bf577575e5",
+              "c7be1b9d725925bf8b1151a7d",
+              "c47a78e48eda7a5ef86a6dfe4",
+              "c944a9cab128c4414374654cc",
+              "cc82b2dac58f7cdfb3e4ec580"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c29af6ce690e48822aecc785c": 37,
+            "cd4cb04bd8f107c6b37713cd3": 85
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ceb7e31480dc4633f8b0cbe3b",
+              "ccc374b9e0e3b0d2c15875424",
+              "ce06a3df7555eb46dc55f2362",
+              "ce2f28b74295b78189c68ded7",
+              "cb0c5b5c6fca01e8586a64f23"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "ceb7e31480dc4633f8b0cbe3b",
+              "ccc374b9e0e3b0d2c15875424",
+              "ce06a3df7555eb46dc55f2362",
+              "ce2f28b74295b78189c68ded7",
+              "cb0c5b5c6fca01e8586a64f23",
+              "c7873eb7735b80a6734698afd",
+              "c80f633b77561c0e20ff64314",
+              "c0b2e64ec1a94e437d922abe6",
+              "c120458f2a8ca1cc25281f018",
+              "c2bfce50bc1c7fada7855376b"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L023",
+      "cohort": "L32",
+      "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+      "previously_authored_keyword_query": "cousin wedding Michael engagement party dates",
+      "official_reference_sources": [
+        "c710ccfc4413bd372dc561c03",
+        "ce03c6fa27bcc24f09ed4ac72"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c710ccfc4413bd372dc561c03": 2,
+            "ce03c6fa27bcc24f09ed4ac72": 3
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd590c68bcd4be41cc4fe7f27",
+              "c710ccfc4413bd372dc561c03",
+              "ce03c6fa27bcc24f09ed4ac72",
+              "cd2a6842f7e4b75fe0461d1a1",
+              "cc82b2dac58f7cdfb3e4ec580"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd590c68bcd4be41cc4fe7f27",
+              "c710ccfc4413bd372dc561c03",
+              "ce03c6fa27bcc24f09ed4ac72",
+              "cd2a6842f7e4b75fe0461d1a1",
+              "cc82b2dac58f7cdfb3e4ec580",
+              "c5f68c19745302eabc30196ca",
+              "c27c977222326ce7d6731ef98",
+              "cc0cd2902be0e1869b37f56ad",
+              "c197ba90eab177a7f9410ccf9",
+              "cc19c8554614a0c53bb30c777"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c710ccfc4413bd372dc561c03": 2,
+            "ce03c6fa27bcc24f09ed4ac72": 3
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd590c68bcd4be41cc4fe7f27",
+              "c710ccfc4413bd372dc561c03",
+              "ce03c6fa27bcc24f09ed4ac72",
+              "cd2a6842f7e4b75fe0461d1a1",
+              "c5f68c19745302eabc30196ca"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cd590c68bcd4be41cc4fe7f27",
+              "c710ccfc4413bd372dc561c03",
+              "ce03c6fa27bcc24f09ed4ac72",
+              "cd2a6842f7e4b75fe0461d1a1",
+              "c5f68c19745302eabc30196ca",
+              "c27c977222326ce7d6731ef98",
+              "cc82b2dac58f7cdfb3e4ec580",
+              "c197ba90eab177a7f9410ccf9",
+              "c5bfcf9edb515331cec15b087",
+              "c6fe7727426be29d3414e6c11"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L024",
+      "cohort": "L32",
+      "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+      "previously_authored_keyword_query": "Nightingale Kristin Hannah started finished reading",
+      "official_reference_sources": [
+        "c5ae36400cb881caf712accaf",
+        "cf9eaf598a0f64271b447886e"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c5ae36400cb881caf712accaf": 2,
+            "cf9eaf598a0f64271b447886e": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf9eaf598a0f64271b447886e",
+              "c5ae36400cb881caf712accaf",
+              "cddc7b055ae7ae0553b3d07d6",
+              "c02e959baebf0e95ad1856303",
+              "c8bf8c833ac88f981c3754f3f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf9eaf598a0f64271b447886e",
+              "c5ae36400cb881caf712accaf",
+              "cddc7b055ae7ae0553b3d07d6",
+              "c02e959baebf0e95ad1856303",
+              "c8bf8c833ac88f981c3754f3f",
+              "c680da2a4cb2b34e8e150ae44",
+              "ca352623c00182ca6675e06c3",
+              "c05dac3e5451869f6a1b601f3",
+              "c5f6f97923f93b3146744a9a7",
+              "c5d548de884009b83b5074f37"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c5ae36400cb881caf712accaf": 2,
+            "cf9eaf598a0f64271b447886e": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf9eaf598a0f64271b447886e",
+              "c5ae36400cb881caf712accaf",
+              "c02e959baebf0e95ad1856303",
+              "c8bf8c833ac88f981c3754f3f",
+              "cddc7b055ae7ae0553b3d07d6"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf9eaf598a0f64271b447886e",
+              "c5ae36400cb881caf712accaf",
+              "c02e959baebf0e95ad1856303",
+              "c8bf8c833ac88f981c3754f3f",
+              "cddc7b055ae7ae0553b3d07d6",
+              "c5d548de884009b83b5074f37",
+              "c5f6f97923f93b3146744a9a7",
+              "c05dac3e5451869f6a1b601f3",
+              "c0220db68f13f5d3bbff00909",
+              "ca352623c00182ca6675e06c3"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L025",
+      "cohort": "L32",
+      "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+      "previously_authored_keyword_query": "Senior Software Engineer lead engineers team initially now",
+      "official_reference_sources": [
+        "c75bba0d69cc07a8be7603418",
+        "cf058a53b517251958c4a54ec"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c75bba0d69cc07a8be7603418": 3,
+            "cf058a53b517251958c4a54ec": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c56959f594882485e9d6b782b",
+              "cf058a53b517251958c4a54ec",
+              "c75bba0d69cc07a8be7603418",
+              "ce5a7aa821e83ae38e05d8bcd",
+              "c22bde7484d2df9b328bf9d35"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c56959f594882485e9d6b782b",
+              "cf058a53b517251958c4a54ec",
+              "c75bba0d69cc07a8be7603418",
+              "ce5a7aa821e83ae38e05d8bcd",
+              "c22bde7484d2df9b328bf9d35",
+              "cff2b43ed2df3b4680bb9a002",
+              "c545862a572882975073001f3",
+              "c9b55261b15ca8fd734096d20",
+              "cdbada028df0a56dc8ac7fbb9",
+              "c5696bab17bc1a26cdc6bed1c"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c75bba0d69cc07a8be7603418": 3,
+            "cf058a53b517251958c4a54ec": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c56959f594882485e9d6b782b",
+              "cf058a53b517251958c4a54ec",
+              "c75bba0d69cc07a8be7603418",
+              "ce5a7aa821e83ae38e05d8bcd",
+              "c22bde7484d2df9b328bf9d35"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c56959f594882485e9d6b782b",
+              "cf058a53b517251958c4a54ec",
+              "c75bba0d69cc07a8be7603418",
+              "ce5a7aa821e83ae38e05d8bcd",
+              "c22bde7484d2df9b328bf9d35",
+              "cff2b43ed2df3b4680bb9a002",
+              "cdbada028df0a56dc8ac7fbb9",
+              "c545862a572882975073001f3",
+              "c5696bab17bc1a26cdc6bed1c",
+              "c9b55261b15ca8fd734096d20"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L026",
+      "cohort": "L32",
+      "question": "How many weeks ago did I meet up with my aunt and receive the crystal chandelier?",
+      "previously_authored_keyword_query": "aunt crystal chandelier met received",
+      "official_reference_sources": [
+        "cffff522dbab65a5e480eb5d5"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cffff522dbab65a5e480eb5d5": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cffff522dbab65a5e480eb5d5",
+              "cb15dee202f4251878bd0b133",
+              "cb89d784ea4611279edeba7fb",
+              "c98afb0aaaeba4e3008b1a8db",
+              "cc66bb80b76174c555f8ed8a6"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cffff522dbab65a5e480eb5d5",
+              "cb15dee202f4251878bd0b133",
+              "cb89d784ea4611279edeba7fb",
+              "c98afb0aaaeba4e3008b1a8db",
+              "cc66bb80b76174c555f8ed8a6",
+              "cf32a0efa4832cececb3b02d3",
+              "c4392bdda54502658df80b324",
+              "c6ed40c5effa9e5e0c9c0ee85",
+              "c558928a17204952c4221896d",
+              "cb8c4e1a83a15c1acf26d7d1f"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cffff522dbab65a5e480eb5d5": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cffff522dbab65a5e480eb5d5",
+              "c4392bdda54502658df80b324",
+              "c2070e986051bf9475036c56a",
+              "c200a4168402992e6b666758f",
+              "cb89d784ea4611279edeba7fb"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cffff522dbab65a5e480eb5d5",
+              "c4392bdda54502658df80b324",
+              "c2070e986051bf9475036c56a",
+              "c200a4168402992e6b666758f",
+              "cb89d784ea4611279edeba7fb",
+              "cd4ecb0ccd5a0a28f69b0a976",
+              "c98afb0aaaeba4e3008b1a8db",
+              "cf32a0efa4832cececb3b02d3",
+              "cc66bb80b76174c555f8ed8a6",
+              "c6a8f93a65a4d8e72462ee2c9"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L027",
+      "cohort": "L32",
+      "question": "How many pages do I have left to read in 'The Nightingale'?",
+      "previously_authored_keyword_query": "Nightingale pages read remaining total",
+      "official_reference_sources": [
+        "c680da2a4cb2b34e8e150ae44",
+        "c8bf8c833ac88f981c3754f3f"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c680da2a4cb2b34e8e150ae44": 1,
+            "c8bf8c833ac88f981c3754f3f": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c680da2a4cb2b34e8e150ae44",
+              "c8bf8c833ac88f981c3754f3f",
+              "c6cfd58034e25f4def8503729",
+              "cf9eaf598a0f64271b447886e",
+              "c5ae36400cb881caf712accaf"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c680da2a4cb2b34e8e150ae44",
+              "c8bf8c833ac88f981c3754f3f",
+              "c6cfd58034e25f4def8503729",
+              "cf9eaf598a0f64271b447886e",
+              "c5ae36400cb881caf712accaf",
+              "c1a50651889d762e108e824ab",
+              "c02e959baebf0e95ad1856303",
+              "c03667f34be2fb8ebd4c815e1",
+              "c2867af95fb39b5a2a850f03f",
+              "c296b5ea3e6d8c9429e9b67db"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c680da2a4cb2b34e8e150ae44": 1,
+            "c8bf8c833ac88f981c3754f3f": 2
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c680da2a4cb2b34e8e150ae44",
+              "c8bf8c833ac88f981c3754f3f",
+              "c6cfd58034e25f4def8503729",
+              "c593a7d5eb11482ef7fde1f99",
+              "c5ae36400cb881caf712accaf"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c680da2a4cb2b34e8e150ae44",
+              "c8bf8c833ac88f981c3754f3f",
+              "c6cfd58034e25f4def8503729",
+              "c593a7d5eb11482ef7fde1f99",
+              "c5ae36400cb881caf712accaf",
+              "cf9eaf598a0f64271b447886e",
+              "cda5985f91c87318570c0cd8e",
+              "c1a50651889d762e108e824ab",
+              "c4d6fc42ae8b4c34e51cc0028",
+              "c02e959baebf0e95ad1856303"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L028",
+      "cohort": "L32",
+      "question": "Who did I meet with during the lunch last Tuesday?",
+      "previously_authored_keyword_query": "lunch Tuesday met person",
+      "official_reference_sources": [
+        "cfb58939b84bf560e87d4500a"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "cfb58939b84bf560e87d4500a": 115
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "cf9dd31701b7948c8d962f804",
+              "c5ba3254f4539f64c20f19676",
+              "c403d65f61624807a2a306b56",
+              "c46034fc26008e0218a7a59f8",
+              "cf029674278a732829abcdd70"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "cf9dd31701b7948c8d962f804",
+              "c5ba3254f4539f64c20f19676",
+              "c403d65f61624807a2a306b56",
+              "c46034fc26008e0218a7a59f8",
+              "cf029674278a732829abcdd70",
+              "c67822aca81ba1f8a630d9925",
+              "c7df689de37933aabc2060dc4",
+              "c95bd3cabbf7bab21eb789667",
+              "c37c81488376797b50e7f57d6",
+              "c4cd89d53b74128c1021d7cbc"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "cfb58939b84bf560e87d4500a": 152
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c67822aca81ba1f8a630d9925",
+              "cf9dd31701b7948c8d962f804",
+              "c37c81488376797b50e7f57d6",
+              "c4c8d524ddbbf076d69017066",
+              "c9b55261b15ca8fd734096d20"
+            ]
+          },
+          "top10": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c67822aca81ba1f8a630d9925",
+              "cf9dd31701b7948c8d962f804",
+              "c37c81488376797b50e7f57d6",
+              "c4c8d524ddbbf076d69017066",
+              "c9b55261b15ca8fd734096d20",
+              "c5ba3254f4539f64c20f19676",
+              "c9416c08b188cb4587008b24e",
+              "cf029674278a732829abcdd70",
+              "c403d65f61624807a2a306b56",
+              "cf2aa9ed667898e28ef4614db"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L029",
+      "cohort": "L32",
+      "question": "What is the name of my cat?",
+      "previously_authored_keyword_query": "cat name named",
+      "official_reference_sources": [
+        "c8769768d9febb3bbe230d7aa"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c8769768d9febb3bbe230d7aa": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8769768d9febb3bbe230d7aa",
+              "c20cfa41d14aa1db1693d2dd4",
+              "c476ba94f6f66be700f194366",
+              "cdf33b71fe8477ad2d5d4dd95",
+              "cd691b8d2d4a7ecdc73949ae1"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c8769768d9febb3bbe230d7aa",
+              "c20cfa41d14aa1db1693d2dd4",
+              "c476ba94f6f66be700f194366",
+              "cdf33b71fe8477ad2d5d4dd95",
+              "cd691b8d2d4a7ecdc73949ae1",
+              "c4e36231f5573cdc49748e389",
+              "c0206c314db995e8b60626ab7",
+              "cb0c66804ca95d82b12692651",
+              "cda3c8694290fb7c812fdf204",
+              "cb02306340efae1abb61b04d8"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c8769768d9febb3bbe230d7aa": 3
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c20cfa41d14aa1db1693d2dd4",
+              "cb0c66804ca95d82b12692651",
+              "c8769768d9febb3bbe230d7aa",
+              "c0206c314db995e8b60626ab7",
+              "c088e89171f9f3965b0debc6f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c20cfa41d14aa1db1693d2dd4",
+              "cb0c66804ca95d82b12692651",
+              "c8769768d9febb3bbe230d7aa",
+              "c0206c314db995e8b60626ab7",
+              "c088e89171f9f3965b0debc6f",
+              "c98540a0158f4dd747abe6a22",
+              "c476ba94f6f66be700f194366",
+              "cc31616e453bc481f9071fa17",
+              "cdf33b71fe8477ad2d5d4dd95",
+              "cd691b8d2d4a7ecdc73949ae1"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L030",
+      "cohort": "L32",
+      "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+      "previously_authored_keyword_query": "high school Bachelor degree education years graduated",
+      "official_reference_sources": [
+        "c1fad077c9467687867bd2809",
+        "c369dfc679f70bbf459650a7a",
+        "c8f03ec897fb08e83883994ea"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c1fad077c9467687867bd2809": 334,
+            "c369dfc679f70bbf459650a7a": 14,
+            "c8f03ec897fb08e83883994ea": 6
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c7399d1b3f3f3d55a0a0320f5",
+              "c93ba6e556b243094ea7a4ba3",
+              "c299970df4c8f6bc670a712a2",
+              "c6266464936b77a3ba5ebf881",
+              "cc0fe72c8c37e4b93901cd7a0"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c7399d1b3f3f3d55a0a0320f5",
+              "c93ba6e556b243094ea7a4ba3",
+              "c299970df4c8f6bc670a712a2",
+              "c6266464936b77a3ba5ebf881",
+              "cc0fe72c8c37e4b93901cd7a0",
+              "c8f03ec897fb08e83883994ea",
+              "cdd0d70c7f4cb460d00539f44",
+              "c7fe4a7949f40b892c8206b6f",
+              "c49d3998978606bfcbb567fee",
+              "c3a5c1e3681ef6cb9b7e7400c"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c1fad077c9467687867bd2809": 167,
+            "c369dfc679f70bbf459650a7a": 11,
+            "c8f03ec897fb08e83883994ea": 6
+          },
+          "top5": {
+            "any": false,
+            "all": false,
+            "reference_hits": 0,
+            "top_source_ids": [
+              "c7399d1b3f3f3d55a0a0320f5",
+              "c299970df4c8f6bc670a712a2",
+              "c6266464936b77a3ba5ebf881",
+              "c93ba6e556b243094ea7a4ba3",
+              "cc0fe72c8c37e4b93901cd7a0"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": false,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c7399d1b3f3f3d55a0a0320f5",
+              "c299970df4c8f6bc670a712a2",
+              "c6266464936b77a3ba5ebf881",
+              "c93ba6e556b243094ea7a4ba3",
+              "cc0fe72c8c37e4b93901cd7a0",
+              "c8f03ec897fb08e83883994ea",
+              "cde8db4d0cfb0b55c97ed7999",
+              "cdd0d70c7f4cb460d00539f44",
+              "c40efc2771b4a2781ef01ee75",
+              "cba477f98d5022afffaff8dc2"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L031",
+      "cohort": "L32",
+      "question": "How many different museums or galleries did I visit in the month of February?",
+      "previously_authored_keyword_query": "museum museums gallery galleries visited February",
+      "official_reference_sources": [
+        "c0e943530a1e8734f46171431",
+        "cd4676817fc9720fda94e6c0e",
+        "cf3156d8a625d0c3b74d56b9b"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c0e943530a1e8734f46171431": 5,
+            "cd4676817fc9720fda94e6c0e": 7,
+            "cf3156d8a625d0c3b74d56b9b": 1
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "cf3156d8a625d0c3b74d56b9b",
+              "c0281d711520f5f0364f8376a",
+              "c658a4d6521f7fbc419dfd5c9",
+              "caae18c23cf986cf07a5b011b",
+              "c0e943530a1e8734f46171431"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "cf3156d8a625d0c3b74d56b9b",
+              "c0281d711520f5f0364f8376a",
+              "c658a4d6521f7fbc419dfd5c9",
+              "caae18c23cf986cf07a5b011b",
+              "c0e943530a1e8734f46171431",
+              "cc0c2a2058d3542527ff62e0f",
+              "cd4676817fc9720fda94e6c0e",
+              "ce50a4aec7d73088e8e225541",
+              "c0ed448918c5dd7346f8cf637",
+              "c1b77ac5edc517b63b8c9ed66"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c0e943530a1e8734f46171431": 1,
+            "cd4676817fc9720fda94e6c0e": 7,
+            "cf3156d8a625d0c3b74d56b9b": 2
+          },
+          "top5": {
+            "any": true,
+            "all": false,
+            "reference_hits": 2,
+            "top_source_ids": [
+              "c0e943530a1e8734f46171431",
+              "cf3156d8a625d0c3b74d56b9b",
+              "caae18c23cf986cf07a5b011b",
+              "c658a4d6521f7fbc419dfd5c9",
+              "cc0c2a2058d3542527ff62e0f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 3,
+            "top_source_ids": [
+              "c0e943530a1e8734f46171431",
+              "cf3156d8a625d0c3b74d56b9b",
+              "caae18c23cf986cf07a5b011b",
+              "c658a4d6521f7fbc419dfd5c9",
+              "cc0c2a2058d3542527ff62e0f",
+              "c0281d711520f5f0364f8376a",
+              "cd4676817fc9720fda94e6c0e",
+              "c0ed448918c5dd7346f8cf637",
+              "ce50a4aec7d73088e8e225541",
+              "c5af84ace7597183c10b28e1b"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "L032",
+      "cohort": "L32",
+      "question": "How much time do I dedicate to practicing guitar every day?",
+      "previously_authored_keyword_query": "guitar practice practicing daily minutes hours",
+      "official_reference_sources": [
+        "c6cf565a4e8db69a6d231873a"
+      ],
+      "explicit_month_year_interval": null,
+      "methods": {
+        "raw_question_bm25": {
+          "reference_positions": {
+            "c6cf565a4e8db69a6d231873a": 4
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cf33b5ad660bc0116f599aece",
+              "c1c7c4c03a55cac4522db0a20",
+              "cf26815f4b4d87c7f2ef78ba3",
+              "c6cf565a4e8db69a6d231873a",
+              "c37c81488376797b50e7f57d6"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "cf33b5ad660bc0116f599aece",
+              "c1c7c4c03a55cac4522db0a20",
+              "cf26815f4b4d87c7f2ef78ba3",
+              "c6cf565a4e8db69a6d231873a",
+              "c37c81488376797b50e7f57d6",
+              "c84d39d59ff97378681e84cb0",
+              "cd9e35dd2f5676d862f7b33e3",
+              "c1c57244c005330bffb259a83",
+              "cbc5d6f8b13afb821e6a84f9f",
+              "c104d9de2d8a66ce53ea6c003"
+            ]
+          }
+        },
+        "previously_authored_keyword_bm25": {
+          "reference_positions": {
+            "c6cf565a4e8db69a6d231873a": 1
+          },
+          "top5": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c6cf565a4e8db69a6d231873a",
+              "cf26815f4b4d87c7f2ef78ba3",
+              "c1c57244c005330bffb259a83",
+              "c0ee849e1157d218921dad032",
+              "cbc5d6f8b13afb821e6a84f9f"
+            ]
+          },
+          "top10": {
+            "any": true,
+            "all": true,
+            "reference_hits": 1,
+            "top_source_ids": [
+              "c6cf565a4e8db69a6d231873a",
+              "cf26815f4b4d87c7f2ef78ba3",
+              "c1c57244c005330bffb259a83",
+              "c0ee849e1157d218921dad032",
+              "cbc5d6f8b13afb821e6a84f9f",
+              "c15f3f3c562680e1338c42117",
+              "c1c7c4c03a55cac4522db0a20",
+              "cd9e35dd2f5676d862f7b33e3",
+              "c5f6f97923f93b3146744a9a7",
+              "c69bd3bf9a74ae95f58370c4e"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
